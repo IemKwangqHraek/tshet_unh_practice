@@ -1,0 +1,12 @@
+{
+  "parentCommit": "36773009a44262afdfa0db5d4048c1f905aabea1",
+  "schemeSha256": "4bfc93c9402801950e4aee97992313ca10f0b56cbc7bd759c0c97939388e2a81",
+  "tshetUinh": "0.15.4",
+  "layout": "古今混合頻率優化 v1",
+  "syllables": 3809,
+  "adoptedYun": {
+    "position": "云合三C文去",
+    "full": "unh",
+    "triple": "DFC"
+  }
+}
