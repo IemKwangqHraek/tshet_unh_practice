@@ -7,7 +7,9 @@
     "dev": "vite --host 127.0.0.1 --port 5177 --strictPort",
     "build": "vite build",
     "preview": "vite preview --host 127.0.0.1 --port 5178 --strictPort",
-    "test": "node --test tests/*.test.js"
+    "test": "node --test tests/*.test.js",
+    "build:corpora": "node scripts/build-corpora.mjs",
+    "check:corpora": "node scripts/build-corpora.mjs --check"
   },
   "dependencies": {
     "tshet-uinh": "0.15.4"

@@ -1,4 +1,5 @@
 import { derive, inDictionary, readingsFor } from './phonology.js';
+import { parsePolyhedronPairs } from './polyhedron.js';
 
 const isHan = char => /\p{Script=Han}/u.test(char);
 export const newId = () => globalThis.crypto?.randomUUID?.() ?? `text-${Date.now()}-${Math.random().toString(36).slice(2)}`;
@@ -40,6 +41,7 @@ export function inspectToken(token) {
   if (token.skip) return { status: 'skipped' };
   const candidates = token.position ? [token.position] : token.positions ?? [];
   if (candidates.length === 0) return { status: 'missing' };
+  if (token.conversion === 'ambiguous' && !token.confirmed) return { status: 'multiple' };
   if (candidates.length > 1 && !token.position) return { status: 'multiple' };
   try {
     const reading = derive(candidates[0], token.char);
@@ -120,6 +122,8 @@ function parseJSONDocument(item, options) {
       return [makeToken(entry.char, entry.positions || entry.position, {
         position: typeof entry.position === 'string' ? entry.position : '',
         confirmed: entry.confirmed === true, skip: entry.skip === true,
+        ...(typeof entry.sourceReading === 'string' ? { sourceReading: entry.sourceReading } : {}),
+        ...(typeof entry.conversion === 'string' ? { conversion: entry.conversion } : {}),
         audit: Array.isArray(entry.audit) ? entry.audit : [] })];
     });
   } else if (typeof item.text === 'string') {
@@ -131,14 +135,18 @@ function parseJSONDocument(item, options) {
       tokens[annotation.index] = makeToken(tokens[annotation.index].char, annotation.positions || annotation.position);
     }
   } else throw new Error('JSON 必須包含 tokens 或 text 與 annotations');
-  return documentFromTokens(tokens, { ...options, title: item.title || options.title, author: item.author,
-    source: item.source || options.source, license: item.license || options.license });
+  return { ...documentFromTokens(tokens, { ...options, title: item.title || options.title, author: item.author,
+    source: item.source || options.source, license: item.license || options.license }),
+    ...(typeof item.category === 'string' ? { category: item.category } : {}),
+    ...(item.provenance && typeof item.provenance === 'object' && !Array.isArray(item.provenance) ? { provenance: item.provenance } : {}) };
 }
 
 export function parseImport(text, format = 'auto', options = {}) {
   if (text.length > 2_000_000) throw new Error('單次導入上限為 2 MB，請將語料分篇導入');
   const trimmed = text.trim();
-  if (format === 'auto') format = /^[\[{]/.test(trimmed) ? 'json' : trimmed.includes('\t') ? 'tsv' : 'txt';
+  if (format === 'auto') format = /^[\[{]/.test(trimmed) ? 'json' : trimmed.includes('\t') ? 'tsv'
+    : /^#(?:licence: cc by-nc-sa|論語中古漢語拼音)/im.test(trimmed) ? 'polyhedron' : 'txt';
+  if (format === 'polyhedron') return parsePolyhedronPairs(text, options).map(item => parseJSONDocument(item, options));
   if (format === 'txt') return parseText(text, options);
   if (format === 'tsv') return parseTSV(text, options);
   if (format === 'json') {
@@ -183,5 +191,6 @@ export function suggestions(token) {
 }
 
 export function exportDocument(doc) {
-  return { version: 1, title: doc.title, author: doc.author, source: doc.source, license: doc.license, tokens: doc.tokens };
+  return { version: 1, title: doc.title, author: doc.author, source: doc.source, license: doc.license, tokens: doc.tokens,
+    ...(doc.category ? { category: doc.category } : {}), ...(doc.provenance ? { provenance: doc.provenance } : {}) };
 }

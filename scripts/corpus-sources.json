@@ -1,0 +1,42 @@
+[
+  {
+    "file": "nk-index.txt",
+    "repository": "https://github.com/nk2028/tshet-uinh-text-label",
+    "commit": "9d57ef6e9637538788f2f56fa1fd90e3e13f7f6b",
+    "url": "https://raw.githubusercontent.com/nk2028/tshet-uinh-text-label/9d57ef6e9637538788f2f56fa1fd90e3e13f7f6b/index.txt",
+    "sha256": "8c55501c7275463b3f695633ea0e4c7c386c14927610912248184717dfa34fda",
+    "license": "CC0-1.0"
+  },
+  {
+    "file": "poly-tang.txt",
+    "repository": "https://github.com/biopolyhedron/middle-chinese-text-label",
+    "commit": "54e591d3de18843eaa942467c99e528cebe0cb11",
+    "url": "https://raw.githubusercontent.com/biopolyhedron/middle-chinese-text-label/54e591d3de18843eaa942467c99e528cebe0cb11/dang_sji_300_sjux.txt",
+    "sha256": "4fc8c3c8e7d0afbf1c2352006e0f0bf0fe5a5deb7cd348a5152cfc4f514b0c42",
+    "license": "CC BY-NC-SA 3.0"
+  },
+  {
+    "file": "poly-analects.txt",
+    "repository": "https://github.com/biopolyhedron/middle-chinese-text-label",
+    "commit": "54e591d3de18843eaa942467c99e528cebe0cb11",
+    "url": "https://raw.githubusercontent.com/biopolyhedron/middle-chinese-text-label/54e591d3de18843eaa942467c99e528cebe0cb11/luon_ngiox.txt",
+    "sha256": "069e9531c41ccb9c56b44fff6af433b68c806ad64ef7152e2cba393101cf6c1f",
+    "license": "CC BY-NC-SA 3.0"
+  },
+  {
+    "file": "tang-original.json",
+    "repository": "https://github.com/chinese-poetry/chinese-poetry",
+    "commit": "b8594f81a89752241442f2ce267d6f66f96704ee",
+    "url": "https://raw.githubusercontent.com/chinese-poetry/chinese-poetry/b8594f81a89752241442f2ce267d6f66f96704ee/全唐诗/唐诗三百首.json",
+    "sha256": "d77a145f7470da2ed2f79515944563c062ffc43fceda07f195a36ead66b7e5c7",
+    "license": "MIT"
+  },
+  {
+    "file": "rime-tang.txt",
+    "repository": "https://github.com/rime-aca/corpus",
+    "commit": "d74f5c03669b349f26428ec00c2fc12bc5726fff",
+    "url": "https://raw.githubusercontent.com/rime-aca/corpus/d74f5c03669b349f26428ec00c2fc12bc5726fff/唐詩三百首.txt",
+    "sha256": "7343dc53bb2b909cd1e05cbbc2b7c8359c0fb041136d67d1f0b4f5ea309d8398",
+    "license": "古典作品公有領域；整理倉庫未明示授權"
+  }
+]

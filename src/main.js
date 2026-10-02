@@ -5,6 +5,7 @@ import { derive } from './phonology.js';
 import { parseImport, documentStatus, practiceTokens, confirmToken, skipToken, exportDocument, escapeHTML as e, newId } from './corpus.js';
 import { createSession, inputKey, pause, resume, sessionStats, mistakeTokens } from './session.js';
 import { loadState, saveState, cleanSettings, STORAGE_KEY } from './storage.js';
+import { catalogueEntries, loadCatalogueDocument } from './catalogue.js';
 import { icon, button, practiceView, libraryView, importView, reviewView, modesView, resultsView, formatTime } from './views.js';
 
 const app = document.querySelector('#app');
@@ -33,6 +34,7 @@ let noticeTimer;
 let saveTimer;
 let lastRoute = '';
 let composing = false;
+let catalogueFilter = { query: '', category: '', status: 'ready', page: 0 };
 
 if (loaded.data) {
   try {
@@ -142,7 +144,7 @@ function render(focusTyping = false) {
   ];
   let body;
   if (name === 'import') body = importView(draft, preview);
-  else if (name === 'library') body = libraryView(documents, selectedId);
+  else if (name === 'library') body = libraryView(documents, selectedId, catalogueEntries, catalogueFilter);
   else if (name === 'review') body = reviewView(currentDocument(), reviewFilter, reviewPage, documents);
   else if (name === 'modes') body = modesView({ ...derive('曉開四蕭上', '曉'), char: '曉' }, modeStage);
   else if (name === 'results') body = resultsView(currentRecord(), history);
@@ -228,7 +230,7 @@ function repeatRecord(mistakes = false, lessHelp = false) {
   practiceDocument(doc.id);
 }
 
-app.addEventListener('click', event => {
+app.addEventListener('click', async event => {
   const element = event.target.closest('[data-action]');
   if (!element || element.disabled) return;
   const action = element.dataset.action;
@@ -238,6 +240,18 @@ app.addEventListener('click', event => {
     else if (action === 'pause') { handleKey('Escape'); }
     else if (action === 'restart') { ensureSession(true); render(true); persist(); }
     else if (action === 'practice-doc') practiceDocument(element.dataset.id);
+    else if (action === 'add-catalogue') {
+      element.disabled = true;
+      try {
+        const id = element.dataset.id;
+        if (!documents.some(d=>d.id===id)) {
+          const added = await loadCatalogueDocument(id, fetch, import.meta.env.BASE_URL);
+          if (!documents.some(d=>d.id===id)) documents.push(added);
+        }
+        persist(); practiceDocument(id);
+      } finally { element.disabled = false; }
+    }
+    else if (action === 'catalogue-page') { catalogueFilter.page=Math.max(0,catalogueFilter.page+Number(element.dataset.direction)); render(); document.querySelector('.catalogue-panel')?.scrollIntoView({block:'start'}); }
     else if (action === 'review-doc') { if (element.dataset.id!==selectedId) setDocument(element.dataset.id); reviewFilter='pending'; reviewPage=0; route('#review'); }
     else if (action === 'export-doc') { const target=documents.find(d=>d.id===element.dataset.id); download(`${target.title}.json`,JSON.stringify(exportDocument(target),null,2)); }
     else if (action === 'sample-import') { readDraft(); Object.assign(draft,{text:sampleTexts[1],title:'',author:'',source:'https://github.com/nk2028/tshet-uinh-text-label',license:'CC0-1.0',format:'txt',split:false}); preview=[]; render(); }
@@ -270,6 +284,10 @@ app.addEventListener('submit', event => {
   try {
     if (event.target.id === 'import-form') {
       readDraft(); preview=parseImport(draft.text,draft.format,{...draft}); render(); notify(`已識別 ${preview.length} 篇語料，請檢查預覽後保存。`);
+    } else if (event.target.id === 'catalogue-filter') {
+      const data = new FormData(event.target);
+      catalogueFilter={query:String(data.get('query')||''),category:String(data.get('category')||''),status:String(data.get('status')||'ready'),page:0};
+      render();
     } else if (event.target.matches('.reading-editor')) {
       const index=Number(event.target.dataset.index); const position=new FormData(event.target).get('position');
       confirmToken(currentDocument().tokens[index],position); activeSession=null; persist(); render(); notify('已確認此字選讀。');
@@ -288,6 +306,7 @@ app.addEventListener('change', async event => {
     else if(element.id==='key-mode') { settings.keyMode=element.value; updateSessionSettings(); persist();render(); }
     else if(element.dataset.setting) { settings[element.dataset.setting]=element.checked; updateSessionSettings(); persist();render(); }
     else if(element.id==='mode-stage') { modeStage=Number(element.value);render(); }
+    else if(element.closest('#catalogue-filter') && element.tagName==='SELECT') { element.form.requestSubmit(); }
     else if(element.closest('#import-form')) { readDraft();preview=[]; }
   } catch(error) { notify(error.message,true); }
 });
