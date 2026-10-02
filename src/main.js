@@ -295,7 +295,7 @@ app.addEventListener('change', async event => {
 app.addEventListener('input', event => {
   if(event.target.closest('#import-form')) { readDraft(); preview=[]; document.querySelector('.preview-panel')?.remove(); }
 });
-app.addEventListener('keydown', event => {
+document.addEventListener('keydown', event => {
   if(routeName()!=='practice')return;
   if(event.isComposing||composing)return;
   if(event.ctrlKey||event.metaKey||event.altKey)return;
