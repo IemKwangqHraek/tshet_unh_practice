@@ -43,6 +43,22 @@ export function inDictionary(char, position) {
   return readingsFor(char).some(r => r.position === position);
 }
 
+// Keep every source entry: entries sharing a reading can have different glosses.
+export function definitionsFor(char, position) {
+  let normalized;
+  try { normalized = TshetUinh.音韻地位.from描述(position).描述; }
+  catch { return []; }
+  return TshetUinh.資料.query字頭(char)
+    .filter(entry => entry.音韻地位.描述 === normalized)
+    .map(entry => ({
+      text: entry.釋義,
+      fanqie: entry.反切 || '',
+      source: entry.來源?.文獻 === '王三' ? '王三《切韻》' : entry.來源?.文獻 === '廣韻' ? '《廣韻》' : '字庫',
+      rhyme: entry.來源?.韻目 || '',
+      group: entry.來源?.小韻號 || '',
+    }));
+}
+
 // Filtering uses complete verified syllables, so keys sharing a fragment remain ambiguous until later keys.
 export function keyCandidates(stage, prefix = '', additional = []) {
   const result = Object.fromEntries([... 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'].map(k => [k, []]));

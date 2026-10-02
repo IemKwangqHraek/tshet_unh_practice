@@ -132,3 +132,14 @@ test('storage reports corrupt data and quota failure and normalizes persisted se
   const saved={version:1,documents:[],history:[]};
   assert.deepEqual(loadState({getItem:()=>JSON.stringify(saved)}).data,saved);
 });
+
+ test('dictionary definitions follow the selected reading and report missing entries', async () => {
+ const { definitionsFor } = await import('../src/phonology.js');
+ const { definitionPanel } = await import('../src/views.js');
+ assert.equal(definitionsFor('曉', '曉開四蕭上')[0].text, '曙也明也慧也知也');
+ assert.equal(definitionsFor('韻', '云合三C文去')[0].rhyme, '問');
+ assert.deepEqual(definitionsFor('曉', '云合三C文去'), []);
+ assert.deepEqual(definitionsFor('怎', '補充:怎'), []);
+ assert.match(definitionPanel(one()), /曙也明也慧也知也/);
+ assert.match(definitionPanel({char:'怎',position:'補充:怎'}), /未收/);
+ });
