@@ -1,0 +1,16 @@
+[
+  {
+    "file": "tang-dongli.json",
+    "localPath": "scripts/snapshots/tang-dongli.json",
+    "repository": "https://www.donglishuzhai.net/books/tangshi300.html",
+    "url": "https://www.donglishuzhai.net/books/tangshi300.html",
+    "commit": "snapshot:2026-10-03",
+    "sha256": "d1919665aa7c1db88faaa274f470cfc33db38abc3fd5443fc9b40201548f1abd",
+    "license": "古典正文公有領域；東里書齋轉錄未明示整理授權。僅保存古典正文、標題及作者，未採現代注釋與普通話拼音。",
+    "coverage": {
+      "availablePages": 295,
+      "listedPages": 295,
+      "complete": true
+    }
+  }
+]

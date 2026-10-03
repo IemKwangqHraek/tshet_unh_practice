@@ -1,0 +1,626 @@
+{
+  "version": 1,
+  "editedOn": "2026-10-03",
+  "policy": "只更正有定位依據的字音對齊或逐位拼寫格式。原始正文與完整拼音保留；原注缺音不補猜，括注另音不縮為單讀，不根據拼音近似或字庫首音改聲韻。",
+  "indexConvention": "所有 index/textStart/sourceStart 為零起始漢字／原始解析音節索引；標點不計。",
+  "alignment": [
+    {
+      "id": "poly-analects-15",
+      "title": "學而第一 · 15",
+      "originalText": "子貢曰、貧而無諂、富而無驕、何如。子曰、可也、未若貧而樂、富而好禮者也。子貢曰、詩云、如切如磋、如琢如磨、其斯之謂與。子曰、賜也始可與言詩已矣、告諸往而知來者。",
+      "originalRomanization": "cix kungh yat: bin nji myo thriemx, piuh nji myo kieu, gha njo? cix yat: khax jax. myoih njak bin nji lak, piuh nji hauh lex cjax jax. cix kungh yat: sji yon \"njo chet njo cha, njo truk njo mua,\" gi sie cji yoih jo? cix yat: sieh jax sjix khax jox ngian sji jix ix! kauh cjo yangx nji lai cjax.",
+      "sourceRomanizationSha256": "cd1b56ab7ca2e0eb78229108205177833e233443013877702c94ed34ec0441da",
+      "source": {
+        "file": "poly-analects.txt",
+        "url": "https://raw.githubusercontent.com/biopolyhedron/middle-chinese-text-label/54e591d3de18843eaa942467c99e528cebe0cb11/luon_ngiox.txt",
+        "commit": "54e591d3de18843eaa942467c99e528cebe0cb11",
+        "sha256": "069e9531c41ccb9c56b44fff6af433b68c806ad64ef7152e2cba393101cf6c1f"
+      },
+      "originalAlignmentError": "原文 64 字與拼音 63 音節不一致，未進行錯位配對。",
+      "operations": [
+        {
+          "kind": "text-gap",
+          "textStart": 61,
+          "sourceStart": 61,
+          "chars": "知"
+        }
+      ],
+      "basis": "「告諸往而知來者」末句原音作 kauh cjo yangx nji lai cjax，缺「知」對應音節。"
+    },
+    {
+      "id": "poly-analects-84",
+      "title": "里仁第四 · 18",
+      "originalText": "子曰、見賢思齊焉、見不賢而內省也。",
+      "originalRomanization": "cix yat: kenh ghen si ze ien, kenh pyot ghen nji nuaih ziih siengx jax.",
+      "sourceRomanizationSha256": "ed55aadb07cb2612e2a2015100520babd4133263c0e4a025f46cbe8f270c3cec",
+      "source": {
+        "file": "poly-analects.txt",
+        "url": "https://raw.githubusercontent.com/biopolyhedron/middle-chinese-text-label/54e591d3de18843eaa942467c99e528cebe0cb11/luon_ngiox.txt",
+        "commit": "54e591d3de18843eaa942467c99e528cebe0cb11",
+        "sha256": "069e9531c41ccb9c56b44fff6af433b68c806ad64ef7152e2cba393101cf6c1f"
+      },
+      "originalAlignmentError": "原文 14 字與拼音 15 音節不一致，未進行錯位配對。",
+      "operations": [
+        {
+          "kind": "source-extra",
+          "textStart": 12,
+          "sourceStart": 12,
+          "readings": [
+            "ziih"
+          ]
+        }
+      ],
+      "basis": "正文「而內省也」，原音 nji nuaih ziih siengx jax，多出 ziih（自）；需核對「內自省」本。"
+    },
+    {
+      "id": "poly-analects-167",
+      "title": "述而第七 · 13",
+      "originalText": "子在齊聞韶、三月不知肉味、曰、不圖爲樂之至於斯也。",
+      "originalRomanization": "cix zaix ze myon zjeu, sam ngyat pyot trie njuk myoih, yat: pyot do ye ngruk cji cjiih sie jax.",
+      "sourceRomanizationSha256": "1a68ef5fc0f64907921a10abb6199737e625749c077cc7e06a07a68f2ed1de10",
+      "source": {
+        "file": "poly-analects.txt",
+        "url": "https://raw.githubusercontent.com/biopolyhedron/middle-chinese-text-label/54e591d3de18843eaa942467c99e528cebe0cb11/luon_ngiox.txt",
+        "commit": "54e591d3de18843eaa942467c99e528cebe0cb11",
+        "sha256": "069e9531c41ccb9c56b44fff6af433b68c806ad64ef7152e2cba393101cf6c1f"
+      },
+      "originalAlignmentError": "原文 21 字與拼音 20 音節不一致，未進行錯位配對。",
+      "operations": [
+        {
+          "kind": "text-gap",
+          "textStart": 18,
+          "sourceStart": 18,
+          "chars": "於"
+        }
+      ],
+      "basis": "正文「爲樂之至於斯也」，原音 ye ngruk cji cjiih sie jax，缺「於」音節。"
+    },
+    {
+      "id": "poly-analects-195",
+      "title": "泰伯第八 · 3",
+      "originalText": "曾子有疾、召門弟子曰、啓予足、啓予手。詩云、戰戰兢兢、如臨深淵、如履薄冰、而今而後、吾知免夫小子。",
+      "originalRomanization": "cong cix iux zit, drieuh myon dex cix yat: khex jo cyuk, khex jo sjux. sji yon: cjenh cjenh king king, njo liix bak ping, nji kim nji ghux, ngo trie mienx byo sieux cix.",
+      "sourceRomanizationSha256": "3f2efa4fe7dd2551988105babe6e328cf48069e55b7273e25603ed9899c8ae74",
+      "source": {
+        "file": "poly-analects.txt",
+        "url": "https://raw.githubusercontent.com/biopolyhedron/middle-chinese-text-label/54e591d3de18843eaa942467c99e528cebe0cb11/luon_ngiox.txt",
+        "commit": "54e591d3de18843eaa942467c99e528cebe0cb11",
+        "sha256": "069e9531c41ccb9c56b44fff6af433b68c806ad64ef7152e2cba393101cf6c1f"
+      },
+      "originalAlignmentError": "原文 39 字與拼音 35 音節不一致，未進行錯位配對。",
+      "operations": [
+        {
+          "kind": "text-gap",
+          "textStart": 21,
+          "sourceStart": 21,
+          "chars": "如臨深淵"
+        }
+      ],
+      "basis": "原音「如履薄冰」前缺正文「如臨深淵」四字。"
+    },
+    {
+      "id": "poly-analects-222",
+      "title": "子罕第九 · 9",
+      "originalText": "子見齊衰者、冕衣裳者、與瞽者、見之、雖少必作、過之、必趨。",
+      "originalRomanization": "cix kenh cii chuai cjax, mienx qioi zjang cjax, jox kox cjax, kenh cji, syi sjeuh pjit cak, kua cji, kua cji, pjit chyo.",
+      "sourceRomanizationSha256": "9b0af3f9164f0a9e88224ed55921e96d6478c4289bb39ee0a37ff612250eff5d",
+      "source": {
+        "file": "poly-analects.txt",
+        "url": "https://raw.githubusercontent.com/biopolyhedron/middle-chinese-text-label/54e591d3de18843eaa942467c99e528cebe0cb11/luon_ngiox.txt",
+        "commit": "54e591d3de18843eaa942467c99e528cebe0cb11",
+        "sha256": "069e9531c41ccb9c56b44fff6af433b68c806ad64ef7152e2cba393101cf6c1f"
+      },
+      "originalAlignmentError": "原文 22 字與拼音 24 音節不一致，未進行錯位配對。",
+      "operations": [
+        {
+          "kind": "source-extra",
+          "textStart": 20,
+          "sourceStart": 20,
+          "readings": [
+            "kua",
+            "cji"
+          ]
+        }
+      ],
+      "basis": "原音連續重複 kua cji（過之）兩次，而正文只有一次。"
+    },
+    {
+      "id": "poly-analects-223",
+      "title": "子罕第九 · 10",
+      "originalText": "顏淵喟然歎曰、仰之彌高、鑽之彌堅、瞻之在前、忽焉在後。夫子循循然善誘人、博我以文、約我以禮。欲罷不能、旣竭吾才、如有所立卓爾、雖欲從之、末由也已。",
+      "originalRomanization": "ngran quen khyih njen thanh yat: ngiangx cji mje kau, cuan cji mje ken, cjem cji zaix zen, huot ien zaix ghux. pyo cix zsyn zsyn zjenx jux njin, pak ngax jix myon, qiak ngax jix lex. jyuk brex pyot nong, kioih giat ngo zai, njo iux sriox lip truk njex, syi jyuk zyung cji, muat ju jax jix.",
+      "sourceRomanizationSha256": "ba1dbb67de1ac41e3773ca6509a8d3faa48f897fa5b00defc0273230c9e83175",
+      "source": {
+        "file": "poly-analects.txt",
+        "url": "https://raw.githubusercontent.com/biopolyhedron/middle-chinese-text-label/54e591d3de18843eaa942467c99e528cebe0cb11/luon_ngiox.txt",
+        "commit": "54e591d3de18843eaa942467c99e528cebe0cb11",
+        "sha256": "069e9531c41ccb9c56b44fff6af433b68c806ad64ef7152e2cba393101cf6c1f"
+      },
+      "originalAlignmentError": "原文 60 字與拼音 59 音節不一致，未進行錯位配對。",
+      "operations": [
+        {
+          "kind": "text-gap",
+          "textStart": 26,
+          "sourceStart": 26,
+          "chars": "然"
+        }
+      ],
+      "basis": "正文「循循然善誘人」，原音 zsyn zsyn zjenx jux njin，缺「然」。"
+    },
+    {
+      "id": "poly-analects-282",
+      "title": "先進第十一 · 21",
+      "originalText": "子路問聞斯行諸、子曰、有父兄在、如之何其聞斯行之。冉有問聞斯行諸、子曰、聞斯行之。公西華曰、由也問聞斯行諸、子曰有父兄在、求也問聞斯行諸、子曰聞斯行之、赤也惑、敢問。子曰、求也退、故進之、由也兼人、故退之。",
+      "originalRomanization": "cix loh myonh myon sie ghrang cjo, cix yat, iux byox hyeng zaix, njo cji gha gi myon sie ghrang cji. njemx iux myonh myon sie ghrang cjo, cix yat, myon sie ghrang cji. kung se ghrua yat: ju jax myonh myon myon sie ghrang cjo, cix yat iux byox hyeng zaix, giu jax myonh myon sie ghrang cjo, cix yat myon sie ghrang cji, chjek jax ghuok, kamx myonh? cix yat: giu jax thuaih, koh cinh cji; ju jax kem njin, koh thuaih cji.",
+      "sourceRomanizationSha256": "72aa0a2c8a20371b78f04129c01ea981589b6f3141bca054c833593cb0108288",
+      "source": {
+        "file": "poly-analects.txt",
+        "url": "https://raw.githubusercontent.com/biopolyhedron/middle-chinese-text-label/54e591d3de18843eaa942467c99e528cebe0cb11/luon_ngiox.txt",
+        "commit": "54e591d3de18843eaa942467c99e528cebe0cb11",
+        "sha256": "069e9531c41ccb9c56b44fff6af433b68c806ad64ef7152e2cba393101cf6c1f"
+      },
+      "originalAlignmentError": "原文 84 字與拼音 85 音節不一致，未進行錯位配對。",
+      "operations": [
+        {
+          "kind": "source-extra",
+          "textStart": 42,
+          "sourceStart": 42,
+          "readings": [
+            "myon"
+          ]
+        }
+      ],
+      "basis": "原音「由也問聞斯行諸」對應 ju jax myonh myon myon sie ghrang cjo，重複 myon。"
+    },
+    {
+      "id": "poly-analects-403",
+      "title": "憲問第十四 · 38",
+      "originalText": "子曰、莫我知也夫。子貢曰、何爲其莫知子也。子曰、不怨天、不尤人、下學而上達、知我者其天乎。",
+      "originalRomanization": "cix yat: mak ngax trie jax byo. cix kungh yat: gha yeh mak trie cix jax? cix yat: pyot qyanh then, pyot iu njin, ghrax ghruk nji zjangx dat, trie ngax cjax gi then gho?",
+      "sourceRomanizationSha256": "e6f5f5beb6834b962e60a7731af431d85462c986d22a5cfa379f07397cc4bf1a",
+      "source": {
+        "file": "poly-analects.txt",
+        "url": "https://raw.githubusercontent.com/biopolyhedron/middle-chinese-text-label/54e591d3de18843eaa942467c99e528cebe0cb11/luon_ngiox.txt",
+        "commit": "54e591d3de18843eaa942467c99e528cebe0cb11",
+        "sha256": "069e9531c41ccb9c56b44fff6af433b68c806ad64ef7152e2cba393101cf6c1f"
+      },
+      "originalAlignmentError": "原文 36 字與拼音 35 音節不一致，未進行錯位配對。",
+      "operations": [
+        {
+          "kind": "text-gap",
+          "textStart": 12,
+          "sourceStart": 12,
+          "chars": "其"
+        }
+      ],
+      "basis": "正文「何爲其莫知子也」，原音 gha yeh mak trie cix jax，缺「其」。"
+    },
+    {
+      "id": "poly-analects-455",
+      "title": "衞靈公第十五 · 42",
+      "originalText": "師冕見、及階。子曰、階也。及席、子曰、席也。皆坐、子告之曰、某在斯、某在斯。師冕出、子張問曰、與師言之道與。子曰、然。故相師之道也。",
+      "originalRomanization": "srii mienx ghenh, gip krai. cix yat: krai jax. gip zsiek, cix yat: zsiek jax. krai zuax, cix kuuk cji yat: mux zaix sie, mux zaix sie. srii mienx chjyt, cix triang myonh yat: jox srii ngian cji daux jo? cix yat: koh siangh srii cji daux jax.",
+      "sourceRomanizationSha256": "9aba2d5d33219bbb661aa97fab37495cb0ae37db94d06bdde81a32b16b53910c",
+      "source": {
+        "file": "poly-analects.txt",
+        "url": "https://raw.githubusercontent.com/biopolyhedron/middle-chinese-text-label/54e591d3de18843eaa942467c99e528cebe0cb11/luon_ngiox.txt",
+        "commit": "54e591d3de18843eaa942467c99e528cebe0cb11",
+        "sha256": "069e9531c41ccb9c56b44fff6af433b68c806ad64ef7152e2cba393101cf6c1f"
+      },
+      "originalAlignmentError": "原文 49 字與拼音 48 音節不一致，未進行錯位配對。",
+      "operations": [
+        {
+          "kind": "text-gap",
+          "textStart": 42,
+          "sourceStart": 42,
+          "chars": "然"
+        }
+      ],
+      "basis": "正文「子曰然故相師之道也」，原音 cix yat koh siangh srii cji daux jax，缺「然」。"
+    },
+    {
+      "id": "poly-analects-489",
+      "title": "陽貨第十七 · 21",
+      "originalText": "宰我問三年之喪、期已久矣、君子三年不爲禮、禮必壞、三年不爲樂、樂必崩、舊穀旣沒、新穀旣升、鑽燧改火、期可已矣。子曰、食夫稻、衣夫錦、於女安乎。曰、安。女安則爲之、夫君子之居喪、食旨不甘、聞樂不樂、居處不安、故不爲也。今女安則爲之。宰我出。子曰、予之不仁也、子生三年、然後免於父母之懷、夫三年之喪、天下之通喪也。予也有三年之愛於其父母乎。",
+      "originalRomanization": "caix ngax myonh sam nen cji sang, ki jix kiux ix, kyon cix sam nen pyot ye lex, lex pjit ghruaih, sam nen pyot ye ngruk, ngruk pjit pong, giuh kuk kioih muot, sin kuk kioih sjing, cuan zsyih kaix huax, ki khax jix ix. cix yat: zsjik byo daux, qioih byo kimx, qio njox qan gho? yat: qan. njox qan cok ye cji. byo kyon cix cji kio sang, zsjik cjiix pyot kam, myon ngruk pyot lak, kio chjoh pyot qan, koh pyot ye jax, kim njox qan cok ye cji. caix ngax chjyt, cix yat: jo cji pyot njin jax. cix srieng sam nen, njen ghux mienx qio byox mux cji ghruai. byo sam nen cji sang, then ghrax cji thung sang jax. jo jax iux sam nen cji qaih qio byox mux gho?",
+      "sourceRomanizationSha256": "1fe969bac9bd849e62e9e4e5167f0499a0f6be4fabb435a35cae25f919d91bd7",
+      "source": {
+        "file": "poly-analects.txt",
+        "url": "https://raw.githubusercontent.com/biopolyhedron/middle-chinese-text-label/54e591d3de18843eaa942467c99e528cebe0cb11/luon_ngiox.txt",
+        "commit": "54e591d3de18843eaa942467c99e528cebe0cb11",
+        "sha256": "069e9531c41ccb9c56b44fff6af433b68c806ad64ef7152e2cba393101cf6c1f"
+      },
+      "originalAlignmentError": "原文 137 字與拼音 136 音節不一致，未進行錯位配對。",
+      "operations": [
+        {
+          "kind": "text-gap",
+          "textStart": 133,
+          "sourceStart": 133,
+          "chars": "其"
+        }
+      ],
+      "basis": "正文末尾「於其父母乎」，原音 qio byox mux gho，缺「其」。"
+    },
+    {
+      "id": "poly-analects-500",
+      "title": "微子第十八 · 6",
+      "originalText": "長沮桀溺耦而耕。孔子過之、使子路問津焉。長沮曰、夫執輿者爲誰。子路曰、爲孔丘。曰、是魯孔丘與。曰、是也。曰、是知津矣。問於桀溺。桀溺曰、子爲誰。曰、爲仲由。曰、是魯孔丘之徒與。對曰、然。曰、滔滔者天下皆是也、而誰以易之。且而與其從辟人之士也、豈若從辟世之士哉。耦而不輟。子路行以告。夫子憮然曰、鳥獸不可與同羣、吾非斯人之徒與而誰與。天下有道、丘不與易也。",
+      "originalRomanization": "driang chio, giet nek ngux nji ghreng. khungx cix kua cji, srix cix loh myonh cin ien. driang chio yat: byo cjip jo cjax ye zjyi? cix loh yat: ye khungx khiu. yat: zjex lox khungx khiu jo? yat: zjex jax. yat: zjex trie cin ix. myonh qio giet nek. giet nek yat: cix ye zjyi? yat: ye driungh ju. yat: zjex lox khungx khiu cji do jo? tuaih yat: njen. yat: thau thau cjax then ghrax krai zjex jax, nji zjyi jix jek cji? chiax jox gi zyung bjeh njin cji zrix jax, khioix njak zyung bjeh sjed cji zrix cai? ngux nji pyot tryet. cix loh ghrang jix kauh. pyo cix myox njen yat: teux sjuh pyot khax jox dung gyon, ngo pyoi sie njin cji do jox nji zjyi jox? then ghrax iux daux, khiu pyot jox jek jax.",
+      "sourceRomanizationSha256": "0922425bcb583bd93cf7d8ec60cc9b046c572d1465d3a3f3a857e7e0410bcc68",
+      "source": {
+        "file": "poly-analects.txt",
+        "url": "https://raw.githubusercontent.com/biopolyhedron/middle-chinese-text-label/54e591d3de18843eaa942467c99e528cebe0cb11/luon_ngiox.txt",
+        "commit": "54e591d3de18843eaa942467c99e528cebe0cb11",
+        "sha256": "069e9531c41ccb9c56b44fff6af433b68c806ad64ef7152e2cba393101cf6c1f"
+      },
+      "originalAlignmentError": "原文 143 字與拼音 142 音節不一致，未進行錯位配對。",
+      "operations": [
+        {
+          "kind": "text-gap",
+          "textStart": 86,
+          "sourceStart": 86,
+          "chars": "而"
+        }
+      ],
+      "basis": "正文「且而與其從…」，原音 chiax jox gi zyung…，缺「而」。"
+    },
+    {
+      "id": "poly-analects-513",
+      "title": "子張第十九 · 8",
+      "originalText": "子夏曰、小人之過也必文。",
+      "originalRomanization": "cix ghrax yat: sieux njin cji kuah jax pjit myon (myonh).",
+      "sourceRomanizationSha256": "98639968305aa052a1e42dc89ec882f920fa40965815695abed02a4544c40ba4",
+      "source": {
+        "file": "poly-analects.txt",
+        "url": "https://raw.githubusercontent.com/biopolyhedron/middle-chinese-text-label/54e591d3de18843eaa942467c99e528cebe0cb11/luon_ngiox.txt",
+        "commit": "54e591d3de18843eaa942467c99e528cebe0cb11",
+        "sha256": "069e9531c41ccb9c56b44fff6af433b68c806ad64ef7152e2cba393101cf6c1f"
+      },
+      "originalAlignmentError": "原文 10 字與拼音 11 音節不一致，未進行錯位配對。",
+      "operations": [
+        {
+          "kind": "source-alternatives",
+          "textStart": 9,
+          "sourceStart": 9,
+          "char": "文",
+          "readings": [
+            "myon",
+            "myonh"
+          ]
+        }
+      ],
+      "basis": "末字「文」原音 myon (myonh) 是平／去括注兩讀，現解析器算成兩音節而令全段未配對。"
+    },
+    {
+      "id": "poly-analects-517",
+      "title": "子張第十九 · 12",
+      "originalText": "子游曰、子夏之門人小子、當洒埽應對進退則可矣、抑末也、本之則無、如之何。子夏聞之曰、噫、言游過矣。君子之道、孰先傳焉、孰後倦焉。譬諸草木、區以別矣。君子之道、焉可誣也。有始有卒者、其惟聖人乎。",
+      "originalRomanization": "cix ju yat: cix ghrax cji muon njin sieux cix, tang sreh sauh qingh tuaih cinh thuaih, cok khax ix, qik muat jax, puonx cji cok myo, njo cji gha? cix ghrax myon cji yat: ngian ju kuah ix. kyon cix cji daux, zjuk sen dryen ien, zjuk ghux gyenh ien, phjeh cjo chaux muk, khyo jix piet ix. kyon cix cji daux, qien khax myo jax. iux sjix iux cyt cjax, gi jyi sjengh njin gho?",
+      "sourceRomanizationSha256": "73416b1606901c017f4f7ea8c8f3fce81b5d63273ac2eec5b0021b3452aa2c20",
+      "source": {
+        "file": "poly-analects.txt",
+        "url": "https://raw.githubusercontent.com/biopolyhedron/middle-chinese-text-label/54e591d3de18843eaa942467c99e528cebe0cb11/luon_ngiox.txt",
+        "commit": "54e591d3de18843eaa942467c99e528cebe0cb11",
+        "sha256": "069e9531c41ccb9c56b44fff6af433b68c806ad64ef7152e2cba393101cf6c1f"
+      },
+      "originalAlignmentError": "原文 78 字與拼音 77 音節不一致，未進行錯位配對。",
+      "operations": [
+        {
+          "kind": "text-gap",
+          "textStart": 35,
+          "sourceStart": 35,
+          "chars": "噫"
+        }
+      ],
+      "basis": "正文「子夏聞之曰噫言游過矣」，原音 cix ghrax myon cji yat ngian ju kuah ix，缺「噫」。"
+    },
+    {
+      "id": "poly-analects-529",
+      "title": "子張第十九 · 24",
+      "originalText": "叔孫武叔毀仲尼、子貢曰、無以爲也。仲尼、不可毀也。他人之賢者丘陵也、猶可踰也。仲尼、日月也、無可得而踰焉。人雖欲自絕、其何傷於日月乎。多見其不知量也。",
+      "originalRomanization": "sjuk suon myox sjuk hyex driungh nrii. cix kungh yat: myo jix ye jax. driungh nrii, pyot khax hyex jax. tha njin cji ghen cjax khiu ling jax, ju khax jyo jax, driungh nrii, njit ngyat jax, myo tok nji jyo ien. njin syi jyuk ziih zyet, gi gha sjang qio njit ngyat gho? ta kenh gi pyot trie liangh jax.",
+      "sourceRomanizationSha256": "d6da3704879edbaccf3172a0e057728499b13b7b1e8102569991a4dc9a6e8a55",
+      "source": {
+        "file": "poly-analects.txt",
+        "url": "https://raw.githubusercontent.com/biopolyhedron/middle-chinese-text-label/54e591d3de18843eaa942467c99e528cebe0cb11/luon_ngiox.txt",
+        "commit": "54e591d3de18843eaa942467c99e528cebe0cb11",
+        "sha256": "069e9531c41ccb9c56b44fff6af433b68c806ad64ef7152e2cba393101cf6c1f"
+      },
+      "originalAlignmentError": "原文 62 字與拼音 61 音節不一致，未進行錯位配對。",
+      "operations": [
+        {
+          "kind": "text-gap",
+          "textStart": 38,
+          "sourceStart": 38,
+          "chars": "可"
+        }
+      ],
+      "basis": "正文「無可得而踰焉」，原音 myo tok nji jyo ien，缺「可」。"
+    }
+  ],
+  "formats": [
+    {
+      "id": "poly-analects-194",
+      "title": "泰伯第八 · 2",
+      "index": 5,
+      "char": "禮",
+      "context": "子曰恭而無禮則勞愼而無禮",
+      "sourceReading": "leq",
+      "interpretedSourceReading": "lex",
+      "sourceRomanizationSha256": "28a40103f9877455e93ff51ad2e2e40ed3330b542214b578baa84b58d337a736",
+      "source": {
+        "file": "poly-analects.txt",
+        "url": "https://raw.githubusercontent.com/biopolyhedron/middle-chinese-text-label/54e591d3de18843eaa942467c99e528cebe0cb11/luon_ngiox.txt",
+        "commit": "54e591d3de18843eaa942467c99e528cebe0cb11",
+        "sha256": "069e9531c41ccb9c56b44fff6af433b68c806ad64ef7152e2cba393101cf6c1f"
+      },
+      "dictionaryEntries": [
+        {
+          "dictionaryChar": "禮",
+          "position": "來開四齊上",
+          "fanqie": "盧啓",
+          "quote": "說文曰履也所以事神致福也釋名曰禮體也得其事體也又姓左傳有衛大夫禮孔盧啓切十六",
+          "source": {
+            "文獻": "廣韻",
+            "小韻號": "1393",
+            "韻目": "薺"
+          }
+        }
+      ],
+      "basis": "原拼音聲韻字母不變，末尾 q 按古韻羅馬字上聲標記 x 校訂；字庫本字讀音唯一相符。只限本表列出的原注字位，無全域近似替換。",
+      "references": [
+        {
+          "kind": "scheme-rule",
+          "file": "src/polyhedron-scheme.js",
+          "quote": "['上聲', 'x']",
+          "url": "https://github.com/nk2028/obsolete-romanizations-examples/tree/cdf3891543d6cfe8e20b2784b2baf0e3be2c2bbe"
+        },
+        {
+          "kind": "same-passage-reading",
+          "quote": "jyungx nji myo lex cok luanh, drik nji myo lex cok kraux.",
+          "basis": "同段後兩次「無禮」用 lex。"
+        }
+      ]
+    },
+    {
+      "id": "poly-analects-194",
+      "title": "泰伯第八 · 2",
+      "index": 11,
+      "char": "禮",
+      "context": "禮則勞愼而無禮則葸勇而無禮",
+      "sourceReading": "leq",
+      "interpretedSourceReading": "lex",
+      "sourceRomanizationSha256": "28a40103f9877455e93ff51ad2e2e40ed3330b542214b578baa84b58d337a736",
+      "source": {
+        "file": "poly-analects.txt",
+        "url": "https://raw.githubusercontent.com/biopolyhedron/middle-chinese-text-label/54e591d3de18843eaa942467c99e528cebe0cb11/luon_ngiox.txt",
+        "commit": "54e591d3de18843eaa942467c99e528cebe0cb11",
+        "sha256": "069e9531c41ccb9c56b44fff6af433b68c806ad64ef7152e2cba393101cf6c1f"
+      },
+      "dictionaryEntries": [
+        {
+          "dictionaryChar": "禮",
+          "position": "來開四齊上",
+          "fanqie": "盧啓",
+          "quote": "說文曰履也所以事神致福也釋名曰禮體也得其事體也又姓左傳有衛大夫禮孔盧啓切十六",
+          "source": {
+            "文獻": "廣韻",
+            "小韻號": "1393",
+            "韻目": "薺"
+          }
+        }
+      ],
+      "basis": "原拼音聲韻字母不變，末尾 q 按古韻羅馬字上聲標記 x 校訂；字庫本字讀音唯一相符。只限本表列出的原注字位，無全域近似替換。",
+      "references": [
+        {
+          "kind": "scheme-rule",
+          "file": "src/polyhedron-scheme.js",
+          "quote": "['上聲', 'x']",
+          "url": "https://github.com/nk2028/obsolete-romanizations-examples/tree/cdf3891543d6cfe8e20b2784b2baf0e3be2c2bbe"
+        },
+        {
+          "kind": "same-passage-reading",
+          "quote": "jyungx nji myo lex cok luanh, drik nji myo lex cok kraux.",
+          "basis": "同段後兩次「無禮」用 lex。"
+        }
+      ]
+    },
+    {
+      "id": "poly-tang-32",
+      "title": "溪居",
+      "index": 3,
+      "char": "組",
+      "context": "久爲簪組累幸此南夷謫",
+      "sourceReading": "coq",
+      "interpretedSourceReading": "cox",
+      "sourceRomanizationSha256": "e0e1565f3ee0500451171d863d7a5e8d9800ad61be8d0cd8f0b9d3e109f80ad3",
+      "source": {
+        "file": "poly-tang.txt",
+        "url": "https://raw.githubusercontent.com/biopolyhedron/middle-chinese-text-label/54e591d3de18843eaa942467c99e528cebe0cb11/dang_sji_300_sjux.txt",
+        "commit": "54e591d3de18843eaa942467c99e528cebe0cb11",
+        "sha256": "f38c75cd6cfb40af1a7d08c0fd0d665c7366632977fa95c6894ed6c36d8c6cb5"
+      },
+      "dictionaryEntries": [
+        {
+          "dictionaryChar": "組",
+          "position": "精一模上",
+          "fanqie": "則古",
+          "quote": "瑑組綬又綸組東海中草名",
+          "source": {
+            "文獻": "廣韻",
+            "小韻號": "1384",
+            "韻目": "姥"
+          }
+        }
+      ],
+      "basis": "原拼音聲韻字母不變，末尾 q 按古韻羅馬字上聲標記 x 校訂；字庫本字讀音唯一相符。只限本表列出的原注字位，無全域近似替換。",
+      "references": [
+        {
+          "kind": "scheme-rule",
+          "file": "src/polyhedron-scheme.js",
+          "quote": "['上聲', 'x']",
+          "url": "https://github.com/nk2028/obsolete-romanizations-examples/tree/cdf3891543d6cfe8e20b2784b2baf0e3be2c2bbe"
+        }
+      ]
+    },
+    {
+      "id": "poly-tang-205",
+      "title": "籌筆驛",
+      "index": 25,
+      "char": "走",
+      "context": "神筆終見降王走傳車管樂有才",
+      "sourceReading": "cuq",
+      "interpretedSourceReading": "cux",
+      "sourceRomanizationSha256": "4288c975ad3b59aa331c5c5b6c12539e2ae3403dd40c6646d41bbbd3b159151b",
+      "source": {
+        "file": "poly-tang.txt",
+        "url": "https://raw.githubusercontent.com/biopolyhedron/middle-chinese-text-label/54e591d3de18843eaa942467c99e528cebe0cb11/dang_sji_300_sjux.txt",
+        "commit": "54e591d3de18843eaa942467c99e528cebe0cb11",
+        "sha256": "f38c75cd6cfb40af1a7d08c0fd0d665c7366632977fa95c6894ed6c36d8c6cb5"
+      },
+      "dictionaryEntries": [
+        {
+          "dictionaryChar": "走",
+          "position": "精一侯上",
+          "fanqie": "子苟",
+          "quote": "趨也子苟切又音奏一",
+          "source": {
+            "文獻": "廣韻",
+            "小韻號": "1969",
+            "韻目": "厚"
+          }
+        }
+      ],
+      "basis": "原拼音聲韻字母不變，末尾 q 按古韻羅馬字上聲標記 x 校訂；字庫本字讀音唯一相符。只限本表列出的原注字位，無全域近似替換。",
+      "references": [
+        {
+          "kind": "scheme-rule",
+          "file": "src/polyhedron-scheme.js",
+          "quote": "['上聲', 'x']",
+          "url": "https://github.com/nk2028/obsolete-romanizations-examples/tree/cdf3891543d6cfe8e20b2784b2baf0e3be2c2bbe"
+        }
+      ]
+    },
+    {
+      "id": "poly-tang-262",
+      "title": "月夜",
+      "index": 12,
+      "char": "斗",
+      "context": "家北斗闌干南斗斜今夜偏知春",
+      "sourceReading": "tuq",
+      "interpretedSourceReading": "tux",
+      "sourceRomanizationSha256": "9c2ee269fb569b98a71de3abb968a20cf432125c25a3b3d53925ebae0726ed21",
+      "source": {
+        "file": "poly-tang.txt",
+        "url": "https://raw.githubusercontent.com/biopolyhedron/middle-chinese-text-label/54e591d3de18843eaa942467c99e528cebe0cb11/dang_sji_300_sjux.txt",
+        "commit": "54e591d3de18843eaa942467c99e528cebe0cb11",
+        "sha256": "f38c75cd6cfb40af1a7d08c0fd0d665c7366632977fa95c6894ed6c36d8c6cb5"
+      },
+      "dictionaryEntries": [
+        {
+          "dictionaryChar": "斗",
+          "position": "端一侯上",
+          "fanqie": "當口",
+          "quote": "說文作斗十升也有柄象形石經作斗當口切八",
+          "source": {
+            "文獻": "廣韻",
+            "小韻號": "1958",
+            "韻目": "厚"
+          }
+        }
+      ],
+      "basis": "原拼音聲韻字母不變，末尾 q 按古韻羅馬字上聲標記 x 校訂；字庫本字讀音唯一相符。只限本表列出的原注字位，無全域近似替換。",
+      "references": [
+        {
+          "kind": "scheme-rule",
+          "file": "src/polyhedron-scheme.js",
+          "quote": "['上聲', 'x']",
+          "url": "https://github.com/nk2028/obsolete-romanizations-examples/tree/cdf3891543d6cfe8e20b2784b2baf0e3be2c2bbe"
+        },
+        {
+          "kind": "same-passage-reading",
+          "quote": "pok tux lan kan nom tuq zsia.",
+          "basis": "同詩「北斗」用 tux，「南斗」作 tuq。"
+        }
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "poly-analects-318",
+      "title": "顏淵第十二 · 24",
+      "index": 2,
+      "chars": "也者",
+      "sourceReadings": [
+        "cjax",
+        "jax"
+      ],
+      "sourceRomanizationSha256": "5177e80e6a443588c924e1ce199c68f09f91892abc99091875d4a6486e7c6320",
+      "source": {
+        "file": "poly-analects.txt",
+        "url": "https://raw.githubusercontent.com/biopolyhedron/middle-chinese-text-label/54e591d3de18843eaa942467c99e528cebe0cb11/luon_ngiox.txt",
+        "commit": "54e591d3de18843eaa942467c99e528cebe0cb11",
+        "sha256": "069e9531c41ccb9c56b44fff6af433b68c806ad64ef7152e2cba393101cf6c1f"
+      },
+      "context": "夫達也者質直而好義察",
+      "basis": "限定相鄰二字的原注恰按反序逐字對應；兩個音節均為本字字庫所載讀法。保留正文及原拼音字序，僅記錄本段兩個字位與原音位置的交叉配對。"
+    },
+    {
+      "id": "poly-tang-61",
+      "title": "八月十五夜贈張功曹",
+      "index": 156,
+      "chars": "輩流",
+      "sourceReadings": [
+        "liu",
+        "puaih"
+      ],
+      "sourceRomanizationSha256": "2b28b7a96c2b099fe629000ac2ef1e6910e6c819b8389325297776653033d944",
+      "source": {
+        "file": "poly-tang.txt",
+        "url": "https://raw.githubusercontent.com/biopolyhedron/middle-chinese-text-label/54e591d3de18843eaa942467c99e528cebe0cb11/dang_sji_300_sjux.txt",
+        "commit": "54e591d3de18843eaa942467c99e528cebe0cb11",
+        "sha256": "f38c75cd6cfb40af1a7d08c0fd0d665c7366632977fa95c6894ed6c36d8c6cb5"
+      },
+      "context": "楚塵埃間同時輩流多上道天路幽",
+      "basis": "限定相鄰二字的原注恰按反序逐字對應；兩個音節均為本字字庫所載讀法。保留正文及原拼音字序，僅記錄本段兩個字位與原音位置的交叉配對。"
+    },
+    {
+      "id": "poly-tang-66",
+      "title": "琵琶行并序",
+      "index": 191,
+      "chars": "泉流",
+      "sourceReadings": [
+        "liu",
+        "zyen"
+      ],
+      "sourceRomanizationSha256": "f0649c4eb083388b63c398b544554567aae4d4d11c0851cd4300b11a189a7068",
+      "source": {
+        "file": "poly-tang.txt",
+        "url": "https://raw.githubusercontent.com/biopolyhedron/middle-chinese-text-label/54e591d3de18843eaa942467c99e528cebe0cb11/dang_sji_300_sjux.txt",
+        "commit": "54e591d3de18843eaa942467c99e528cebe0cb11",
+        "sha256": "f38c75cd6cfb40af1a7d08c0fd0d665c7366632977fa95c6894ed6c36d8c6cb5"
+      },
+      "context": "語花底滑幽咽泉流水下灘水泉冷",
+      "basis": "限定相鄰二字的原注恰按反序逐字對應；兩個音節均為本字字庫所載讀法。保留正文及原拼音字序，僅記錄本段兩個字位與原音位置的交叉配對。"
+    },
+    {
+      "id": "poly-tang-70",
+      "title": "洛陽女兒行",
+      "index": 9,
+      "chars": "容顏",
+      "sourceReadings": [
+        "ngran",
+        "jyung"
+      ],
+      "sourceRomanizationSha256": "fcb6c5fdab8a858e5c105b72d56fdff900fcc3c0d82afa6242f1135da17fc629",
+      "source": {
+        "file": "poly-tang.txt",
+        "url": "https://raw.githubusercontent.com/biopolyhedron/middle-chinese-text-label/54e591d3de18843eaa942467c99e528cebe0cb11/dang_sji_300_sjux.txt",
+        "commit": "54e591d3de18843eaa942467c99e528cebe0cb11",
+        "sha256": "f38c75cd6cfb40af1a7d08c0fd0d665c7366632977fa95c6894ed6c36d8c6cb5"
+      },
+      "context": "兒對門居纔可容顏十五餘良人玉",
+      "basis": "限定相鄰二字的原注恰按反序逐字對應；兩個音節均為本字字庫所載讀法。保留正文及原拼音字序，僅記錄本段兩個字位與原音位置的交叉配對。"
+    }
+  ]
+}

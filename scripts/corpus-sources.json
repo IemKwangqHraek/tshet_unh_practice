@@ -12,7 +12,7 @@
     "repository": "https://github.com/biopolyhedron/middle-chinese-text-label",
     "commit": "54e591d3de18843eaa942467c99e528cebe0cb11",
     "url": "https://raw.githubusercontent.com/biopolyhedron/middle-chinese-text-label/54e591d3de18843eaa942467c99e528cebe0cb11/dang_sji_300_sjux.txt",
-    "sha256": "4fc8c3c8e7d0afbf1c2352006e0f0bf0fe5a5deb7cd348a5152cfc4f514b0c42",
+    "sha256": "f38c75cd6cfb40af1a7d08c0fd0d665c7366632977fa95c6894ed6c36d8c6cb5",
     "license": "CC BY-NC-SA 3.0"
   },
   {
@@ -36,7 +36,250 @@
     "repository": "https://github.com/rime-aca/corpus",
     "commit": "d74f5c03669b349f26428ec00c2fc12bc5726fff",
     "url": "https://raw.githubusercontent.com/rime-aca/corpus/d74f5c03669b349f26428ec00c2fc12bc5726fff/唐詩三百首.txt",
-    "sha256": "7343dc53bb2b909cd1e05cbbc2b7c8359c0fb041136d67d1f0b4f5ea309d8398",
+    "sha256": "598821fdd5fc6ee98fc34b7ad5964215317f47098c916aa16ab21e23546a3905",
     "license": "古典作品公有領域；整理倉庫未明示授權"
+  },
+  {
+    "file": "rime-shijing.txt",
+    "repository": "https://github.com/rime-aca/corpus",
+    "commit": "d74f5c03669b349f26428ec00c2fc12bc5726fff",
+    "url": "https://raw.githubusercontent.com/rime-aca/corpus/d74f5c03669b349f26428ec00c2fc12bc5726fff/詩經.txt",
+    "sha256": "0e268b73678b3d210695a4f3ac1a42889e40831ede85f0b541322b394fb3bf0f",
+    "license": "古典作品公有領域；整理倉庫未明示授權"
+  },
+  {
+    "file": "shijing-fuyi.xml",
+    "repository": "https://gitlab.huma-num.fr/chi-know-po/shijing-net",
+    "commit": "8db512f5948fec9f05173778e225b4e99b62b82e",
+    "url": "https://gitlab.huma-num.fr/chi-know-po/shijing-net/-/raw/8db512f5948fec9f05173778e225b4e99b62b82e/corpus/corpus_xml_tei/Maoshizhengyi_section01_Guofeng_Zhounan_008_Fuyi.xml",
+    "sha256": "3b9c175b9ef33021da9c0959955a8ccd854fe1ff9972f430f5dbd9a9cfa797b4",
+    "license": "CC BY-SA 4.0 · Shijing-net（Marie Bizais-Lillig、Ilaine Wang）"
+  },
+  {
+    "file": "shijing-taoyao.xml",
+    "repository": "https://gitlab.huma-num.fr/chi-know-po/shijing-net",
+    "commit": "8db512f5948fec9f05173778e225b4e99b62b82e",
+    "url": "https://gitlab.huma-num.fr/chi-know-po/shijing-net/-/raw/8db512f5948fec9f05173778e225b4e99b62b82e/corpus/corpus_xml_tei/Maoshizhengyi_section01_Guofeng_Zhounan_006_Taoyao.xml",
+    "sha256": "05b44d36a141ca672fce9e65f2fb26316f1df3a64d95a7d773ef6aecd2e255b9",
+    "license": "CC BY-SA 4.0 · Shijing-net（Marie Bizais-Lillig、Ilaine Wang）"
+  },
+  {
+    "file": "shijing-jizhuan.wiki",
+    "repository": "https://zh.wikisource.org/wiki/詩經集傳/卷之一",
+    "commit": "revision:2626705",
+    "url": "https://zh.wikisource.org/w/index.php?title=%E8%A9%A9%E7%B6%93%E9%9B%86%E5%82%B3%2F%E5%8D%B7%E4%B9%8B%E4%B8%80&oldid=2626705&action=raw",
+    "sha256": "b064ad7e705ca330cc2d4dfd344e4b440e8da84278b68ee0b679b9c5213f885f",
+    "license": "原典公有領域；維基文庫轉錄 CC BY-SA 4.0"
+  },
+  {
+    "file": "KR1c0009_001.txt",
+    "repository": "https://github.com/kanripo/KR1c0009",
+    "commit": "efc202d5265c368b0ea6e54850872ff4b5aef667",
+    "url": "https://raw.githubusercontent.com/kanripo/KR1c0009/efc202d5265c368b0ea6e54850872ff4b5aef667/KR1c0009_001.txt",
+    "sha256": "ecd6b90cbddf7b89b598325d93ce25f1b74faa5fe0fdeea6fe3a770c26fb9f5b",
+    "license": "古注原典公有領域；Kanripo 四部叢刊轉錄未明示整理授權"
+  },
+  {
+    "file": "KR1c0009_002.txt",
+    "repository": "https://github.com/kanripo/KR1c0009",
+    "commit": "efc202d5265c368b0ea6e54850872ff4b5aef667",
+    "url": "https://raw.githubusercontent.com/kanripo/KR1c0009/efc202d5265c368b0ea6e54850872ff4b5aef667/KR1c0009_002.txt",
+    "sha256": "cd3bc6755bfd5c0e26aab63cb16f72763345bb2128e3d8f04d47a666432c17b1",
+    "license": "古注原典公有領域；Kanripo 四部叢刊轉錄未明示整理授權"
+  },
+  {
+    "file": "KR1c0009_003.txt",
+    "repository": "https://github.com/kanripo/KR1c0009",
+    "commit": "efc202d5265c368b0ea6e54850872ff4b5aef667",
+    "url": "https://raw.githubusercontent.com/kanripo/KR1c0009/efc202d5265c368b0ea6e54850872ff4b5aef667/KR1c0009_003.txt",
+    "sha256": "5f6a9793676ce5518f164ef97d959954ad16a6a429b563162cc681a8a1571507",
+    "license": "古注原典公有領域；Kanripo 四部叢刊轉錄未明示整理授權"
+  },
+  {
+    "file": "KR1c0009_004.txt",
+    "repository": "https://github.com/kanripo/KR1c0009",
+    "commit": "efc202d5265c368b0ea6e54850872ff4b5aef667",
+    "url": "https://raw.githubusercontent.com/kanripo/KR1c0009/efc202d5265c368b0ea6e54850872ff4b5aef667/KR1c0009_004.txt",
+    "sha256": "c749a2c7058f920582b71a18eca24c5595d3526a6a2ce468bda5c819d5cd8d48",
+    "license": "古注原典公有領域；Kanripo 四部叢刊轉錄未明示整理授權"
+  },
+  {
+    "file": "KR1c0009_005.txt",
+    "repository": "https://github.com/kanripo/KR1c0009",
+    "commit": "efc202d5265c368b0ea6e54850872ff4b5aef667",
+    "url": "https://raw.githubusercontent.com/kanripo/KR1c0009/efc202d5265c368b0ea6e54850872ff4b5aef667/KR1c0009_005.txt",
+    "sha256": "aa291db3a50c36195afdf0331fa7292dee743c761466c336bf29330a2ebd3ea1",
+    "license": "古注原典公有領域；Kanripo 四部叢刊轉錄未明示整理授權"
+  },
+  {
+    "file": "KR1c0009_006.txt",
+    "repository": "https://github.com/kanripo/KR1c0009",
+    "commit": "efc202d5265c368b0ea6e54850872ff4b5aef667",
+    "url": "https://raw.githubusercontent.com/kanripo/KR1c0009/efc202d5265c368b0ea6e54850872ff4b5aef667/KR1c0009_006.txt",
+    "sha256": "75d10cfa42873bece08d1e6aef0141b8c195db8836745c3831c209f4976840cf",
+    "license": "古注原典公有領域；Kanripo 四部叢刊轉錄未明示整理授權"
+  },
+  {
+    "file": "KR1c0009_007.txt",
+    "repository": "https://github.com/kanripo/KR1c0009",
+    "commit": "efc202d5265c368b0ea6e54850872ff4b5aef667",
+    "url": "https://raw.githubusercontent.com/kanripo/KR1c0009/efc202d5265c368b0ea6e54850872ff4b5aef667/KR1c0009_007.txt",
+    "sha256": "b3e5b1ee0e9f1633ab91f0aa90921adf86e7939cdcc8a69c7c08dfb3fd4ab5b9",
+    "license": "古注原典公有領域；Kanripo 四部叢刊轉錄未明示整理授權"
+  },
+  {
+    "file": "KR1c0009_008.txt",
+    "repository": "https://github.com/kanripo/KR1c0009",
+    "commit": "efc202d5265c368b0ea6e54850872ff4b5aef667",
+    "url": "https://raw.githubusercontent.com/kanripo/KR1c0009/efc202d5265c368b0ea6e54850872ff4b5aef667/KR1c0009_008.txt",
+    "sha256": "014edf9f4f02369fe5b41d07feff9a27eaceb93e823ac58ddbe9a2fda2500ed9",
+    "license": "古注原典公有領域；Kanripo 四部叢刊轉錄未明示整理授權"
+  },
+  {
+    "file": "KR1c0009_009.txt",
+    "repository": "https://github.com/kanripo/KR1c0009",
+    "commit": "efc202d5265c368b0ea6e54850872ff4b5aef667",
+    "url": "https://raw.githubusercontent.com/kanripo/KR1c0009/efc202d5265c368b0ea6e54850872ff4b5aef667/KR1c0009_009.txt",
+    "sha256": "6907ce46cb0ca47871e421461e2ba08d552cda3b652ccc76fdd6d12c98d0e179",
+    "license": "古注原典公有領域；Kanripo 四部叢刊轉錄未明示整理授權"
+  },
+  {
+    "file": "KR1c0009_010.txt",
+    "repository": "https://github.com/kanripo/KR1c0009",
+    "commit": "efc202d5265c368b0ea6e54850872ff4b5aef667",
+    "url": "https://raw.githubusercontent.com/kanripo/KR1c0009/efc202d5265c368b0ea6e54850872ff4b5aef667/KR1c0009_010.txt",
+    "sha256": "cd0b995f86a6a125f4848f8db3c023a2c5f79446f1b013cf8c523ba358705785",
+    "license": "古注原典公有領域；Kanripo 四部叢刊轉錄未明示整理授權"
+  },
+  {
+    "file": "KR1c0009_011.txt",
+    "repository": "https://github.com/kanripo/KR1c0009",
+    "commit": "efc202d5265c368b0ea6e54850872ff4b5aef667",
+    "url": "https://raw.githubusercontent.com/kanripo/KR1c0009/efc202d5265c368b0ea6e54850872ff4b5aef667/KR1c0009_011.txt",
+    "sha256": "177ebf0ceed500986d15a51399aab2fa3c1292004b256d5c64362859e45ec52f",
+    "license": "古注原典公有領域；Kanripo 四部叢刊轉錄未明示整理授權"
+  },
+  {
+    "file": "KR1c0009_012.txt",
+    "repository": "https://github.com/kanripo/KR1c0009",
+    "commit": "efc202d5265c368b0ea6e54850872ff4b5aef667",
+    "url": "https://raw.githubusercontent.com/kanripo/KR1c0009/efc202d5265c368b0ea6e54850872ff4b5aef667/KR1c0009_012.txt",
+    "sha256": "2173491a68cfa9886f5266fa2713c92cef22a4b7c5debcaa9cf6cf217636dd9a",
+    "license": "古注原典公有領域；Kanripo 四部叢刊轉錄未明示整理授權"
+  },
+  {
+    "file": "KR1c0009_013.txt",
+    "repository": "https://github.com/kanripo/KR1c0009",
+    "commit": "efc202d5265c368b0ea6e54850872ff4b5aef667",
+    "url": "https://raw.githubusercontent.com/kanripo/KR1c0009/efc202d5265c368b0ea6e54850872ff4b5aef667/KR1c0009_013.txt",
+    "sha256": "0f5d483030181d226bc0d16865ed422bcf2ac15962197cc993c829dbdef480c7",
+    "license": "古注原典公有領域；Kanripo 四部叢刊轉錄未明示整理授權"
+  },
+  {
+    "file": "KR1c0009_014.txt",
+    "repository": "https://github.com/kanripo/KR1c0009",
+    "commit": "efc202d5265c368b0ea6e54850872ff4b5aef667",
+    "url": "https://raw.githubusercontent.com/kanripo/KR1c0009/efc202d5265c368b0ea6e54850872ff4b5aef667/KR1c0009_014.txt",
+    "sha256": "a15126bb60bf41750784df838c6244036d818cded498f2ee7485922c99f08c47",
+    "license": "古注原典公有領域；Kanripo 四部叢刊轉錄未明示整理授權"
+  },
+  {
+    "file": "KR1c0009_015.txt",
+    "repository": "https://github.com/kanripo/KR1c0009",
+    "commit": "efc202d5265c368b0ea6e54850872ff4b5aef667",
+    "url": "https://raw.githubusercontent.com/kanripo/KR1c0009/efc202d5265c368b0ea6e54850872ff4b5aef667/KR1c0009_015.txt",
+    "sha256": "a3a0f7b8e47b0631cefa02c593f4c0e2b414c30e91410f2eefa4a3c3fe20c0f4",
+    "license": "古注原典公有領域；Kanripo 四部叢刊轉錄未明示整理授權"
+  },
+  {
+    "file": "KR1c0009_016.txt",
+    "repository": "https://github.com/kanripo/KR1c0009",
+    "commit": "efc202d5265c368b0ea6e54850872ff4b5aef667",
+    "url": "https://raw.githubusercontent.com/kanripo/KR1c0009/efc202d5265c368b0ea6e54850872ff4b5aef667/KR1c0009_016.txt",
+    "sha256": "de52e75b11d3d3824803131d9c91aa7611f8682653da8dc9677f99b2579370e8",
+    "license": "古注原典公有領域；Kanripo 四部叢刊轉錄未明示整理授權"
+  },
+  {
+    "file": "KR1c0009_017.txt",
+    "repository": "https://github.com/kanripo/KR1c0009",
+    "commit": "efc202d5265c368b0ea6e54850872ff4b5aef667",
+    "url": "https://raw.githubusercontent.com/kanripo/KR1c0009/efc202d5265c368b0ea6e54850872ff4b5aef667/KR1c0009_017.txt",
+    "sha256": "037dd7757943efdbf102984486d5c66b042ff37e62631ccc74d482d63f72cbe0",
+    "license": "古注原典公有領域；Kanripo 四部叢刊轉錄未明示整理授權"
+  },
+  {
+    "file": "KR1c0009_018.txt",
+    "repository": "https://github.com/kanripo/KR1c0009",
+    "commit": "efc202d5265c368b0ea6e54850872ff4b5aef667",
+    "url": "https://raw.githubusercontent.com/kanripo/KR1c0009/efc202d5265c368b0ea6e54850872ff4b5aef667/KR1c0009_018.txt",
+    "sha256": "a1d6dd1c6c07de48045c6ea96a53618c99c455ba4e7cde3bd169d1d772f9a77d",
+    "license": "古注原典公有領域；Kanripo 四部叢刊轉錄未明示整理授權"
+  },
+  {
+    "file": "KR1c0009_019.txt",
+    "repository": "https://github.com/kanripo/KR1c0009",
+    "commit": "efc202d5265c368b0ea6e54850872ff4b5aef667",
+    "url": "https://raw.githubusercontent.com/kanripo/KR1c0009/efc202d5265c368b0ea6e54850872ff4b5aef667/KR1c0009_019.txt",
+    "sha256": "4c3a24d5983323c93f4751a12f58a37ffc89bc2c83b3c7e6acc291d16eb6985c",
+    "license": "古注原典公有領域；Kanripo 四部叢刊轉錄未明示整理授權"
+  },
+  {
+    "file": "KR1c0009_020.txt",
+    "repository": "https://github.com/kanripo/KR1c0009",
+    "commit": "efc202d5265c368b0ea6e54850872ff4b5aef667",
+    "url": "https://raw.githubusercontent.com/kanripo/KR1c0009/efc202d5265c368b0ea6e54850872ff4b5aef667/KR1c0009_020.txt",
+    "sha256": "953b6fea54df1d2077773d8a235aec106f370ff22ace7ff4fc54598738286227",
+    "license": "古注原典公有領域；Kanripo 四部叢刊轉錄未明示整理授權"
+  },
+  {
+    "file": "KR1g0003_005.txt",
+    "repository": "https://github.com/kanripo/KR1g0003",
+    "commit": "31270f868a66396f7dc16d02e19518effe14cb90",
+    "url": "https://raw.githubusercontent.com/kanripo/KR1g0003/31270f868a66396f7dc16d02e19518effe14cb90/KR1g0003_005.txt",
+    "sha256": "43a3fcb5d69b2cefdca194bd7526429e1feaea5b6f33810faf9171393dd06aaa",
+    "license": "古注原典公有領域；Kanripo 四部叢刊轉錄未明示整理授權"
+  },
+  {
+    "file": "KR1g0003_006.txt",
+    "repository": "https://github.com/kanripo/KR1g0003",
+    "commit": "31270f868a66396f7dc16d02e19518effe14cb90",
+    "url": "https://raw.githubusercontent.com/kanripo/KR1g0003/31270f868a66396f7dc16d02e19518effe14cb90/KR1g0003_006.txt",
+    "sha256": "376002e9d08fd179abaa4abbaf5e7fe2f285f6278e01288b8a4c55580fdba99f",
+    "license": "古注原典公有領域；Kanripo 四部叢刊轉錄未明示整理授權"
+  },
+  {
+    "file": "KR1g0003_007.txt",
+    "repository": "https://github.com/kanripo/KR1g0003",
+    "commit": "31270f868a66396f7dc16d02e19518effe14cb90",
+    "url": "https://raw.githubusercontent.com/kanripo/KR1g0003/31270f868a66396f7dc16d02e19518effe14cb90/KR1g0003_007.txt",
+    "sha256": "8efa794dc37093a125ae1bc679cf39cf684b2061f840e0e530ed6d41e044f5ff",
+    "license": "古注原典公有領域；Kanripo 四部叢刊轉錄未明示整理授權"
+  },
+  {
+    "file": "qieyun-wang3.csv",
+    "url": "https://raw.githubusercontent.com/nk2028/tshet-uinh-data/21585e22c8a730ca2fd175112f4d18e16d5ce578/%E9%9F%BB%E6%9B%B8/%E7%8E%8B%E4%B8%89.csv",
+    "commit": "21585e22c8a730ca2fd175112f4d18e16d5ce578",
+    "sha256": "470bd60915648f4449b23c23f56954774b518a0c2b4e03b82fd46e62513961d4",
+    "repository": "https://github.com/nk2028/tshet-uinh-data",
+    "license": "CC0-1.0",
+    "sourcePath": "韻書/王三.csv"
+  },
+  {
+    "file": "guangyun.csv",
+    "url": "https://raw.githubusercontent.com/nk2028/tshet-uinh-data/21585e22c8a730ca2fd175112f4d18e16d5ce578/%E9%9F%BB%E6%9B%B8/%E5%BB%A3%E9%9F%BB.csv",
+    "commit": "21585e22c8a730ca2fd175112f4d18e16d5ce578",
+    "sha256": "f2b66197355d4fbff0776ab34e4aece817363b00446fbcf08e2f1677a7ac0c5f",
+    "repository": "https://github.com/nk2028/tshet-uinh-data",
+    "license": "CC0-1.0",
+    "sourcePath": "韻書/廣韻.csv"
+  },
+  {
+    "file": "qieyun-data-LICENSE.txt",
+    "url": "https://raw.githubusercontent.com/nk2028/tshet-uinh-data/21585e22c8a730ca2fd175112f4d18e16d5ce578/LICENSE",
+    "commit": "21585e22c8a730ca2fd175112f4d18e16d5ce578",
+    "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+    "repository": "https://github.com/nk2028/tshet-uinh-data",
+    "license": "CC0-1.0",
+    "sourcePath": "LICENSE"
   }
 ]

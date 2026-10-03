@@ -1,0 +1,569 @@
+{
+  "version": 1,
+  "editedOn": "2026-10-03",
+  "policy": "按具體篇句核對古注常音；異讀、候選和原引文保留，不採協韻音。",
+  "rules": [
+    {
+      "char": "弟",
+      "dictionaryChar": "悌",
+      "position": "定開四齊上",
+      "fanqie": "徒禮",
+      "dictionaryQuote": "愷悌詩作豈弟毛萇云豈樂也弟易也",
+      "pattern": "豈~弟~",
+      "basis": "豈弟即愷悌。《廣韻》悌字明引詩作豈弟；《釋文》首列徒禮反，後豈弟皆同。本版採首音，音待異讀仍保留於引文。",
+      "sourceReferences": [
+        {
+          "file": "KR1g0003_007.txt",
+          "page": "KR1g0003_SBCK_007-4a",
+          "lemma": "豈弟",
+          "quote": "本亦作愷又作凱苦亥反弟亦作悌徒禮反一音待豈樂也弟易也後豈弟皆同"
+        }
+      ]
+    },
+    {
+      "char": "大",
+      "dictionaryChar": "泰",
+      "position": "透開一泰去",
+      "fanqie": "他蓋",
+      "dictionaryQuote": "大也通也古作太他蓋切四",
+      "pattern": "~大~(?:任|姒)",
+      "titles": [
+        "大雅・文王之什・大明",
+        "大雅・文王之什・思齊"
+      ],
+      "basis": "大任、大姒為太任、太姒。《釋文》明標音泰，後大任大姒大姜皆同；保留大字原有候選，以泰補音。",
+      "sourceReferences": [
+        {
+          "file": "KR1g0003_007.txt",
+          "page": "KR1g0003_SBCK_007-1b",
+          "lemma": "大任",
+          "quote": "音泰後大任大姒大姜皆同"
+        }
+      ]
+    },
+    {
+      "char": "大",
+      "dictionaryChar": "泰",
+      "position": "透開一泰去",
+      "fanqie": "他蓋",
+      "dictionaryQuote": "大也通也古作太他蓋切四",
+      "pattern": "~大~王",
+      "titles": [
+        "周頌・清廟之什・天作",
+        "魯頌・閟宮"
+      ],
+      "basis": "此二篇的大王專指古公亶父（太王），據《釋文》音泰、後大王皆同補音；不套用於文王有聲的大王。",
+      "sourceReferences": [
+        {
+          "file": "KR1g0003_007.txt",
+          "page": "KR1g0003_SBCK_007-1a",
+          "lemma": "大王",
+          "quote": "音泰後大王皆同"
+        },
+        {
+          "file": "KR1g0003_007.txt",
+          "page": "KR1g0003_SBCK_007-24a",
+          "lemma": "大王",
+          "quote": "音泰後大王大祖皆同"
+        }
+      ]
+    },
+    {
+      "char": "大",
+      "dictionaryChar": "泰",
+      "position": "透開一泰去",
+      "fanqie": "他蓋",
+      "dictionaryQuote": "大也通也古作太他蓋切四",
+      "pattern": "~大~伯",
+      "titles": [
+        "大雅・文王之什・皇矣"
+      ],
+      "basis": "皇矣的大伯為太伯，據《釋文》音泰、注大伯同補音。",
+      "sourceReferences": [
+        {
+          "file": "KR1g0003_007.txt",
+          "page": "KR1g0003_SBCK_007-5b",
+          "lemma": "大伯",
+          "quote": "音泰注大伯同"
+        }
+      ]
+    },
+    {
+      "char": "大",
+      "dictionaryChar": "泰",
+      "position": "透開一泰去",
+      "fanqie": "他蓋",
+      "dictionaryQuote": "大也通也古作太他蓋切四",
+      "pattern": "~大~師",
+      "titles": [
+        "小雅・祈父之什・節南山"
+      ],
+      "basis": "尹氏大師的太師官名，據《釋文》音泰下皆同及《詩集傳》本句音泰補音。",
+      "sourceReferences": [
+        {
+          "file": "KR1g0003_006.txt",
+          "page": "KR1g0003_SBCK_006-19b",
+          "lemma": "大師",
+          "quote": "音泰下皆同"
+        }
+      ]
+    },
+    {
+      "char": "大",
+      "dictionaryChar": "泰",
+      "position": "透開一泰去",
+      "fanqie": "他蓋",
+      "dictionaryQuote": "大也通也古作太他蓋切四",
+      "pattern": "~大~師",
+      "titles": [
+        "大雅・生民之什・板"
+      ],
+      "basis": "板的大師採《釋文》首列音泰。朱熹釋師為眾，與毛鄭的三公解不同；此處明列本版音據，並保留原候選。",
+      "sourceReferences": [
+        {
+          "file": "KR1g0003_007.txt",
+          "page": "KR1g0003_SBCK_007-13a",
+          "lemma": "大師",
+          "quote": "音泰注大師同"
+        }
+      ]
+    },
+    {
+      "char": "大",
+      "dictionaryChar": "泰",
+      "position": "透開一泰去",
+      "fanqie": "他蓋",
+      "dictionaryQuote": "大也通也古作太他蓋切四",
+      "pattern": "~大~(?:祖|師)",
+      "titles": [
+        "大雅・蕩之什・常武"
+      ],
+      "basis": "常武的大祖、大師，據《釋文》大祖音泰、下及注大師大祖皆同補音。",
+      "sourceReferences": [
+        {
+          "file": "KR1g0003_007.txt",
+          "page": "KR1g0003_SBCK_007-21a",
+          "lemma": "大祖",
+          "quote": "音泰下及注大師大祖皆同"
+        }
+      ]
+    },
+    {
+      "char": "大",
+      "dictionaryChar": "大",
+      "position": "定開一泰去",
+      "fanqie": "徒蓋",
+      "dictionaryQuote": "小大也說文曰天大地大人亦大故大象人形又漢複姓五氏晉獻公娶大狐氏楚襄王時有黃邑大夫大心子成史記秦將軍大羅洪周禮大羅氏掌鳥獸者其後氏焉又大庭氏古天子之号其後氏焉又有大叔氏又虜複姓後魏末有南州剌史大野拔又虜三字姓周書蔡祐賜姓大利稽氏周末有尉回將軍大莫于玄章後魏書南方大洛稽氏後改爲稽氏徒蓋切八",
+      "pattern": "~大~邦",
+      "titles": [
+        "大雅・生民之什・板"
+      ],
+      "basis": "大邦指強國，取《廣韻》小大義徒蓋切。僅對本字判義，避免被鄰近大師官名的排除規則連帶擱置。",
+      "sourceReferences": [
+        {
+          "file": "KR1c0009_017.txt",
+          "page": "KR1c0009_SBCK_017-27a",
+          "lemma": "畏",
+          "quote": "大邦強國也"
+        }
+      ]
+    },
+    {
+      "char": "共",
+      "dictionaryChar": "恭",
+      "position": "見三C鍾平",
+      "fanqie": "九容",
+      "dictionaryQuote": "恭敬也說文本作𢙄肅也又姓晉太子申生號恭君其後氏焉出國語九容切陸以恭蜙樅等入冬韻非也十",
+      "pattern": "~共~武",
+      "titles": [
+        "小雅・彤弓之什・六月"
+      ],
+      "basis": "重複的共武之服沿用本篇首見共字的音恭；共具軍服之義。",
+      "sourceReferences": [
+        {
+          "file": "KR1c0009_010.txt",
+          "page": "KR1c0009_SBCK_010-4b",
+          "lemma": "共",
+          "quote": "音恭"
+        }
+      ]
+    },
+    {
+      "char": "共",
+      "dictionaryChar": "恭",
+      "position": "見三C鍾平",
+      "fanqie": "九容",
+      "dictionaryQuote": "恭敬也說文本作𢙄肅也又姓晉太子申生號恭君其後氏焉出國語九容切陸以恭蜙樅等入冬韻非也十",
+      "pattern": "(?:彼~共~人|靖~共~爾位)",
+      "titles": [
+        "小雅・北山之什・小明"
+      ],
+      "basis": "小明的共人、靖共爾位均取恭敬義。《釋文》共人音恭、注下皆同；《詩集傳》首見音㳟，㳟為恭異體。",
+      "sourceReferences": [
+        {
+          "file": "KR1g0003_006.txt",
+          "page": "KR1g0003_SBCK_006-28b",
+          "lemma": "共人",
+          "quote": "音恭注下皆同"
+        },
+        {
+          "file": "KR1c0009_013.txt",
+          "page": "KR1c0009_SBCK_013-3b",
+          "lemma": "共",
+          "quote": "音㳟"
+        }
+      ]
+    },
+    {
+      "char": "共",
+      "dictionaryChar": "拱",
+      "position": "見三C鍾上",
+      "fanqie": "居悚",
+      "dictionaryQuote": "手抱也又斂手也居悚切十八",
+      "pattern": "克~共~明刑",
+      "titles": [
+        "大雅・蕩之什・抑"
+      ],
+      "basis": "克共明刑據《詩集傳》九勇反，取執持、奉持義的見母鍾韻上聲；拱僅作同音地位參照，與小明的共人音恭分開。",
+      "sourceReferences": [
+        {
+          "file": "KR1c0009_018.txt",
+          "page": "KR1c0009_SBCK_018-5b",
+          "lemma": "共",
+          "quote": "九勇反"
+        }
+      ]
+    },
+    {
+      "char": "莫",
+      "dictionaryChar": "暮",
+      "position": "明一模去",
+      "fanqie": "莫故",
+      "dictionaryQuote": "日晚也冥也又姓出何氏姓苑莫故切六",
+      "pattern": "則~莫~",
+      "titles": [
+        "齊風・東方未明"
+      ],
+      "basis": "此句莫讀暮，據《詩集傳》明標音慕取明母模韻去聲；不套用於莫莫或否定詞莫。",
+      "sourceReferences": [
+        {
+          "file": "KR1c0009_005.txt",
+          "page": "KR1c0009_SBCK_005-4b",
+          "lemma": "莫",
+          "quote": "音慕"
+        }
+      ]
+    },
+    {
+      "char": "莫",
+      "dictionaryChar": "暮",
+      "position": "明一模去",
+      "fanqie": "莫故",
+      "dictionaryQuote": "日晚也冥也又姓出何氏姓苑莫故切六",
+      "pattern": "其~莫~",
+      "titles": [
+        "魏風・汾沮洳"
+      ],
+      "basis": "采其莫的莫為菜名，據本句音慕取暮的同音地位；不按菜義推猜讀音。",
+      "sourceReferences": [
+        {
+          "file": "KR1c0009_005.txt",
+          "page": "KR1c0009_SBCK_005-13a",
+          "lemma": "莫",
+          "quote": "音慕"
+        }
+      ]
+    },
+    {
+      "char": "莫",
+      "dictionaryChar": "暮",
+      "position": "明一模去",
+      "fanqie": "莫故",
+      "dictionaryQuote": "日晚也冥也又姓出何氏姓苑莫故切六",
+      "pattern": "其~莫~",
+      "titles": [
+        "唐風・蟋蟀"
+      ],
+      "basis": "此句莫讀暮，據《詩集傳》明標音慕取明母模韻去聲；不套用於莫莫或否定詞莫。",
+      "sourceReferences": [
+        {
+          "file": "KR1c0009_006.txt",
+          "page": "KR1c0009_SBCK_006-1a",
+          "lemma": "莫",
+          "quote": "音慕"
+        }
+      ]
+    },
+    {
+      "char": "莫",
+      "dictionaryChar": "暮",
+      "position": "明一模去",
+      "fanqie": "莫故",
+      "dictionaryQuote": "日晚也冥也又姓出何氏姓苑莫故切六",
+      "pattern": "亦~莫~",
+      "titles": [
+        "小雅・鹿鳴之什・采薇"
+      ],
+      "basis": "此句莫讀暮，據《詩集傳》明標音慕取明母模韻去聲；不套用於莫莫或否定詞莫。",
+      "sourceReferences": [
+        {
+          "file": "KR1c0009_009.txt",
+          "page": "KR1c0009_SBCK_009-15a",
+          "lemma": "莫",
+          "quote": "音慕"
+        }
+      ]
+    },
+    {
+      "char": "莫",
+      "dictionaryChar": "暮",
+      "position": "明一模去",
+      "fanqie": "莫故",
+      "dictionaryQuote": "日晚也冥也又姓出何氏姓苑莫故切六",
+      "pattern": "而~莫~",
+      "titles": [
+        "大雅・蕩之什・抑"
+      ],
+      "basis": "此句莫讀暮，據《詩集傳》明標音慕取明母模韻去聲；不套用於莫莫或否定詞莫。",
+      "sourceReferences": [
+        {
+          "file": "KR1c0009_018.txt",
+          "page": "KR1c0009_SBCK_018-9a",
+          "lemma": "莫",
+          "quote": "音慕"
+        }
+      ]
+    },
+    {
+      "char": "莫",
+      "dictionaryChar": "暮",
+      "position": "明一模去",
+      "fanqie": "莫故",
+      "dictionaryQuote": "日晚也冥也又姓出何氏姓苑莫故切六",
+      "pattern": "不~莫~",
+      "titles": [
+        "大雅・蕩之什・雲漢"
+      ],
+      "basis": "此句莫讀暮，據《詩集傳》明標音慕取明母模韻去聲；不套用於莫莫或否定詞莫。",
+      "sourceReferences": [
+        {
+          "file": "KR1c0009_018.txt",
+          "page": "KR1c0009_SBCK_018-20a",
+          "lemma": "莫",
+          "quote": "音慕"
+        }
+      ]
+    },
+    {
+      "char": "莫",
+      "dictionaryChar": "暮",
+      "position": "明一模去",
+      "fanqie": "莫故",
+      "dictionaryQuote": "日晚也冥也又姓出何氏姓苑莫故切六",
+      "pattern": "維~莫~",
+      "titles": [
+        "周頌・臣工之什・臣工"
+      ],
+      "basis": "此句莫讀暮，據《詩集傳》明標音慕取明母模韻去聲；不套用於莫莫或否定詞莫。",
+      "sourceReferences": [
+        {
+          "file": "KR1c0009_019.txt",
+          "page": "KR1c0009_SBCK_019-10b",
+          "lemma": "莫",
+          "quote": "音慕"
+        }
+      ]
+    },
+    {
+      "char": "喪",
+      "position": "心開一唐去",
+      "fanqie": "蘇浪",
+      "dictionaryQuote": "亡也蘇浪切又音桑二",
+      "titles": [
+        "邶風・擊鼓"
+      ],
+      "pattern": "~喪~",
+      "basis": "本句古注明列息浪反，按《廣韻》喪的蘇浪切取心母唐韻去聲；息、蘇同心母，浪取波浪之去聲。浪另有平聲水名讀，故不以反切字的第一個候選自動推定。",
+      "sourceReferences": [
+        {
+          "file": "KR1c0009_002.txt",
+          "page": "KR1c0009_SBCK_002-9a",
+          "lemma": "喪",
+          "quote": "息浪反"
+        }
+      ]
+    },
+    {
+      "char": "喪",
+      "position": "心開一唐去",
+      "fanqie": "蘇浪",
+      "dictionaryQuote": "亡也蘇浪切又音桑二",
+      "titles": [
+        "小雅・祈父之什・節南山"
+      ],
+      "pattern": "~喪~",
+      "basis": "本句古注明列息浪反，按《廣韻》喪的蘇浪切取心母唐韻去聲；息、蘇同心母，浪取波浪之去聲。浪另有平聲水名讀，故不以反切字的第一個候選自動推定。",
+      "sourceReferences": [
+        {
+          "file": "KR1c0009_011.txt",
+          "page": "KR1c0009_SBCK_011-12a",
+          "lemma": "喪",
+          "quote": "息浪反"
+        }
+      ]
+    },
+    {
+      "char": "喪",
+      "position": "心開一唐去",
+      "fanqie": "蘇浪",
+      "dictionaryQuote": "亡也蘇浪切又音桑二",
+      "titles": [
+        "小雅・祈父之什・雨無正"
+      ],
+      "pattern": "~喪~",
+      "basis": "本句古注明列息浪反，按《廣韻》喪的蘇浪切取心母唐韻去聲；息、蘇同心母，浪取波浪之去聲。浪另有平聲水名讀，故不以反切字的第一個候選自動推定。",
+      "sourceReferences": [
+        {
+          "file": "KR1c0009_011.txt",
+          "page": "KR1c0009_SBCK_011-27a",
+          "lemma": "喪",
+          "quote": "息浪反"
+        }
+      ]
+    },
+    {
+      "char": "喪",
+      "position": "心開一唐去",
+      "fanqie": "蘇浪",
+      "dictionaryQuote": "亡也蘇浪切又音桑二",
+      "titles": [
+        "大雅・文王之什・文王"
+      ],
+      "pattern": "~喪~",
+      "basis": "本句古注明列息浪反，按《廣韻》喪的蘇浪切取心母唐韻去聲；息、蘇同心母，浪取波浪之去聲。浪另有平聲水名讀，故不以反切字的第一個候選自動推定。",
+      "sourceReferences": [
+        {
+          "file": "KR1c0009_016.txt",
+          "page": "KR1c0009_SBCK_016-4b",
+          "lemma": "喪",
+          "quote": "息浪反"
+        }
+      ]
+    },
+    {
+      "char": "喪",
+      "position": "心開一唐去",
+      "fanqie": "蘇浪",
+      "dictionaryQuote": "亡也蘇浪切又音桑二",
+      "titles": [
+        "大雅・文王之什・皇矣"
+      ],
+      "pattern": "~喪~",
+      "basis": "本句古注明列息浪反，按《廣韻》喪的蘇浪切取心母唐韻去聲；息、蘇同心母，浪取波浪之去聲。浪另有平聲水名讀，故不以反切字的第一個候選自動推定。",
+      "sourceReferences": [
+        {
+          "file": "KR1c0009_016.txt",
+          "page": "KR1c0009_SBCK_016-23a",
+          "lemma": "喪",
+          "quote": "息浪反"
+        }
+      ]
+    },
+    {
+      "char": "喪",
+      "position": "心開一唐去",
+      "fanqie": "蘇浪",
+      "dictionaryQuote": "亡也蘇浪切又音桑二",
+      "titles": [
+        "大雅・生民之什・板"
+      ],
+      "pattern": "~喪~",
+      "basis": "本句古注明列息浪反，按《廣韻》喪的蘇浪切取心母唐韻去聲；息、蘇同心母，浪取波浪之去聲。浪另有平聲水名讀，故不以反切字的第一個候選自動推定。",
+      "sourceReferences": [
+        {
+          "file": "KR1c0009_017.txt",
+          "page": "KR1c0009_SBCK_017-26a",
+          "lemma": "喪",
+          "quote": "息浪反"
+        }
+      ]
+    },
+    {
+      "char": "喪",
+      "position": "心開一唐去",
+      "fanqie": "蘇浪",
+      "dictionaryQuote": "亡也蘇浪切又音桑二",
+      "titles": [
+        "大雅・蕩之什・抑"
+      ],
+      "pattern": "~喪~",
+      "basis": "本句古注明列息浪反，按《廣韻》喪的蘇浪切取心母唐韻去聲；息、蘇同心母，浪取波浪之去聲。浪另有平聲水名讀，故不以反切字的第一個候選自動推定。",
+      "sourceReferences": [
+        {
+          "file": "KR1c0009_018.txt",
+          "page": "KR1c0009_SBCK_018-10a",
+          "lemma": "喪",
+          "quote": "息浪反"
+        }
+      ]
+    },
+    {
+      "char": "喪",
+      "position": "心開一唐去",
+      "fanqie": "蘇浪",
+      "dictionaryQuote": "亡也蘇浪切又音桑二",
+      "titles": [
+        "大雅・蕩之什・雲漢"
+      ],
+      "pattern": "~喪~",
+      "basis": "本句古注明列息浪反，按《廣韻》喪的蘇浪切取心母唐韻去聲；息、蘇同心母，浪取波浪之去聲。浪另有平聲水名讀，故不以反切字的第一個候選自動推定。",
+      "sourceReferences": [
+        {
+          "file": "KR1c0009_018.txt",
+          "page": "KR1c0009_SBCK_018-18a",
+          "lemma": "喪",
+          "quote": "息浪反"
+        }
+      ]
+    },
+    {
+      "char": "喪",
+      "position": "心開一唐去",
+      "fanqie": "蘇浪",
+      "dictionaryQuote": "亡也蘇浪切又音桑二",
+      "titles": [
+        "大雅・蕩之什・召旻"
+      ],
+      "pattern": "~喪~",
+      "basis": "本句古注明列息浪反，按《廣韻》喪的蘇浪切取心母唐韻去聲；息、蘇同心母，浪取波浪之去聲。浪另有平聲水名讀，故不以反切字的第一個候選自動推定。",
+      "sourceReferences": [
+        {
+          "file": "KR1c0009_018.txt",
+          "page": "KR1c0009_SBCK_018-41b",
+          "lemma": "喪",
+          "quote": "息浪反"
+        }
+      ]
+    },
+    {
+      "char": "復",
+      "dictionaryChar": "福",
+      "position": "幫三C東入",
+      "fanqie": "方六",
+      "dictionaryQuote": "德也祐也方六切十七",
+      "titles": [
+        "大雅・文王之什・緜"
+      ],
+      "pattern": "陶~復~",
+      "basis": "陶復指土窰，據《詩集傳》《釋文》音福取幫母東韻入聲。《釋文》並云說文作覆；福僅作同音地位參照，不套用返復之復。",
+      "sourceReferences": [
+        {
+          "file": "KR1g0003_007.txt",
+          "page": "KR1g0003_SBCK_007-2b",
+          "lemma": "陶復",
+          "quote": "音福注同累土於地上也說文作覆"
+        }
+      ]
+    }
+  ]
+}

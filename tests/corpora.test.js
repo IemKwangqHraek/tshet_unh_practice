@@ -6,6 +6,8 @@ import { romanizePolyhedron } from '../src/polyhedron-scheme.js';
 import { alignPolyhedron, convertReading, parsePolyhedronPairs, syllablesIn } from '../src/polyhedron.js';
 import { parseImport, inspectToken, documentStatus, exportDocument, confirmToken, practiceTokens } from '../src/corpus.js';
 import { catalogueEntries, filterCatalogue, loadCatalogueDocument } from '../src/catalogue.js';
+import { reviewView } from '../src/views.js';
+import { createSession, inputKey } from '../src/session.js';
 
 test('source-selected readings preserve tone and differ from the sample selection', () => {
   assert.equal(romanizePolyhedron(TshetUinh.音韻地位.from描述('端一東平')), 'tung');
@@ -87,4 +89,52 @@ test('catalogue search, readiness filters and lazy loading preserve metadata wit
   assert.notEqual(again.tokens[0].char,'改');
   assert.deepEqual(parseImport(JSON.stringify(exportDocument(again)),'json')[0].provenance,again.provenance);
   await assert.rejects(()=>loadCatalogueDocument('unknown',fetcher),/找不到/);
+});
+
+test('Shijing pilots select source readings, preserve alternatives and export the editorial evidence', async () => {
+  const pack=JSON.parse(await readFile(new URL('../public/corpora/shijing.json',import.meta.url),'utf8'));
+  const expected={
+    'shijing-fuyi': {掇:'端合一寒入',袺:'見開四先入'},
+    'shijing-taoyao': {夭:'影開三B宵平',其:'羣開三C之平',華:'曉合二麻平',葉:'以開三鹽入'}
+  };
+  assert.equal(pack.documents.length,305);
+  assert.equal(filterCatalogue(catalogueEntries,{category:'詩經',status:'all'}).length,305);
+  for(const raw of pack.documents.filter(doc=>expected[doc.id])) {
+    const [doc]=parseImport(JSON.stringify(raw),'json');
+    assert.equal(documentStatus(doc).total,48);
+    assert.equal(documentStatus(doc).ready,48);
+    assert.equal(documentStatus(doc).pending,0);
+    assert.ok(doc.tokens.every(t=>!t.skip));
+    for(const [char,position] of Object.entries(expected[raw.id])) {
+      const tokens=doc.tokens.filter(t=>t.char===char);
+      assert.ok(tokens.length);
+      for(const token of tokens) {
+        assert.equal(token.position,position);
+        assert.ok(token.positions.length>1,`${char}: original dictionary alternatives`);
+        assert.equal(token.audit[0].after,position);
+        assert.ok(token.audit[0].references.length);
+      }
+    }
+    const [again]=parseImport(JSON.stringify(exportDocument(doc)),'json');
+    assert.deepEqual(again.provenance,doc.provenance);
+    assert.deepEqual(again.tokens,doc.tokens);
+    assert.match(doc.license,/CC BY-SA 4\.0/);
+    assert.equal(doc.provenance.readingSystem,'切韻系讀法');
+    assert.match(reviewView(doc,'all',0,[doc]),/本篇選讀依據/);
+    for(const variant of ['three','full']) {
+      const session=createSession(practiceTokens(again),variant);
+      let time=0;
+      for(const reading of session.tokens) {
+        for(const key of variant==='three'?reading.triple:reading.full) assert.notEqual(inputKey(session,key,++time),'wrong');
+        if(variant==='full') inputKey(session,' ',++time);
+      }
+      assert.equal(session.cursor,48);
+      assert.equal(session.finished,true);
+      assert.deepEqual(session.errors,[]);
+    }
+  }
+  const fuyi=pack.documents.find(doc=>doc.id==='shijing-fuyi');
+  assert.match(fuyi.provenance.readingNotes.find(note=>note.char==='掇').basis,/知劣反/);
+  const taoyao=pack.documents.find(doc=>doc.id==='shijing-taoyao');
+  assert.ok(taoyao.provenance.readingNotes.find(note=>note.char==='華').references.some(r=>r.commit==='revision:2626705'));
 });

@@ -1,0 +1,504 @@
+{
+  "version": 1,
+  "editedOn": "2026-10-03",
+  "rules": [
+    {
+      "char": "茲",
+      "position": "精開三之平",
+      "dictionaryChar": "兹",
+      "fanqie": "子之",
+      "dictionaryQuote": "此也又姓左傳魯大夫兹無還子之切十四",
+      "basis": "異體兹，正文均為此、今茲等，排除龜兹國名。"
+    },
+    {
+      "char": "享",
+      "position": "曉開三C陽上",
+      "dictionaryChar": "響",
+      "fanqie": "許兩",
+      "dictionaryQuote": "聲也許兩切八",
+      "basis": "享獻、享祀，據《釋文》許丈／許兩反取曉母陽韻上聲；響僅作同音地位參照。"
+    },
+    {
+      "char": "韓",
+      "position": "匣開一寒平",
+      "dictionaryChar": "寒",
+      "fanqie": "胡安",
+      "dictionaryQuote": "寒暑也釋名曰寒捍也捍格也亦姓後漢博士",
+      "basis": "韓國、韓侯字頭缺失，以寒的匣母寒韻平聲補讀。"
+    },
+    {
+      "char": "肇",
+      "position": "澄開三宵上",
+      "dictionaryChar": "肈",
+      "fanqie": "治小",
+      "dictionaryQuote": "始也正也敏也長也治小切十一",
+      "basis": "肇、肈為同字異寫，取始義。"
+    },
+    {
+      "char": "鴥",
+      "position": "以合三真入",
+      "dictionaryChar": "遹",
+      "fanqie": "餘律",
+      "dictionaryQuote": "述也自也一曰遵也",
+      "basis": "《釋文》尹橘反的疾飛字；遹僅作同音地位參照。"
+    },
+    {
+      "char": "椓",
+      "position": "知二江入",
+      "dictionaryChar": "斲",
+      "fanqie": "竹角",
+      "dictionaryQuote": "削也竹角切十九",
+      "basis": "《釋文》陟角反，椓擊與斲削分義，借斲的音韻地位補字頭。"
+    },
+    {
+      "char": "靁",
+      "position": "來合一灰平",
+      "dictionaryChar": "雷",
+      "fanqie": "魯回",
+      "dictionaryQuote": "說文作靁云陰陽薄動靁雨生物者也又姓後",
+      "basis": "雷的古字，廣韻釋義明言說文作靁。"
+    },
+    {
+      "char": "穉",
+      "position": "澄開三脂去",
+      "dictionaryChar": "稚",
+      "fanqie": "直利",
+      "dictionaryQuote": "幼稚亦小也晚也又姓史記云湯後因國爲姓",
+      "basis": "穉、稚異體，幼穉或稙穉均取直利切。"
+    },
+    {
+      "char": "間",
+      "position": "見開二山平",
+      "dictionaryChar": "閒",
+      "fanqie": "古閑",
+      "dictionaryQuote": "隙也近也又中閒亦姓出何氏姓苑古閑切又",
+      "basis": "間、閒異體，間隙、中間或間關取見母山韻平聲。",
+      "exclude": "以間之"
+    },
+    {
+      "char": "間",
+      "position": "見開二山去",
+      "dictionaryChar": "閒",
+      "fanqie": "古莧",
+      "dictionaryQuote": "廁也瘳也代也送也迭也隔也又音平聲",
+      "basis": "皇以間之據間代、隔的去聲。",
+      "pattern": "以~間~之"
+    },
+    {
+      "char": "鞗",
+      "position": "定開四蕭平",
+      "dictionaryChar": "條",
+      "fanqie": "徒聊",
+      "dictionaryQuote": "小枝也貫也教也爾雅云柚條似橙而實酸又",
+      "basis": "鞗革馬轡，《詩集傳》音條；條僅作同音地位參照。"
+    },
+    {
+      "char": "孽",
+      "position": "疑開三C元入",
+      "dictionaryChar": "钀",
+      "fanqie": "語訐",
+      "dictionaryQuote": "馬勒旁鐵語訐切一",
+      "basis": "〈碩人〉孽孽盛飾，《釋文》魚竭反；钀僅作疑母元韻入聲的地位參照。",
+      "pattern": "~孽~孽|孽~孽~"
+    },
+    {
+      "char": "葘",
+      "position": "莊開三之平",
+      "dictionaryChar": "菑",
+      "fanqie": "側持",
+      "dictionaryQuote": "說文曰不耕田也爾雅曰田一歲曰菑側持切",
+      "basis": "菑的異體，葘畝或枯立木，取側持切。",
+      "exclude": "無葘"
+    },
+    {
+      "char": "葘",
+      "position": "精開一咍平",
+      "dictionaryChar": "災",
+      "fanqie": "祖才",
+      "dictionaryQuote": "籀文（天火曰烖祖才切十二）",
+      "basis": "無葘無害的葘通災，取精母咍韻。",
+      "pattern": "無~葘~"
+    },
+    {
+      "char": "滺",
+      "position": "以三尤平",
+      "dictionaryChar": "悠",
+      "fanqie": "以周",
+      "dictionaryQuote": "遠也遐也思也憂也",
+      "basis": "滺滺與悠悠的遠流、長貌同音。"
+    },
+    {
+      "char": "瀟",
+      "position": "心開四蕭平",
+      "dictionaryChar": "蕭",
+      "fanqie": "蘇彫",
+      "dictionaryQuote": "蒿也詩云采蕭穫菽亦縣名在沛郡新語云蕭",
+      "basis": "瀟瀟風雨，《釋文》音蕭。"
+    },
+    {
+      "char": "蕑",
+      "position": "見開二刪平",
+      "dictionaryChar": "菅",
+      "fanqie": "古顏",
+      "dictionaryQuote": "草名又姓出趙郡或作蕳",
+      "basis": "蘭草／荷蕑依毛讀《釋文》古顔反；鄭改蓮的異文不改入本次正文。"
+    },
+    {
+      "char": "瞏",
+      "position": "羣合三A清平",
+      "dictionaryChar": "睘",
+      "fanqie": "渠營",
+      "dictionaryQuote": "驚視",
+      "basis": "瞏瞏孤獨貌，睘同聲的羣母合口清韻。"
+    },
+    {
+      "char": "駵",
+      "position": "來三尤平",
+      "dictionaryChar": "騮",
+      "fanqie": "力求",
+      "dictionaryQuote": "驊騮周穆王馬",
+      "basis": "駵、騮異體，赤身黑鬣馬，音留。"
+    },
+    {
+      "char": "樗",
+      "position": "徹開三魚平",
+      "dictionaryChar": "攄",
+      "fanqie": "丑居",
+      "dictionaryQuote": "舒也丑居切四",
+      "basis": "《釋文》勑居／勑書反的木名；攄僅作同音地位參照。"
+    },
+    {
+      "char": "冲",
+      "position": "澄三東平",
+      "dictionaryChar": "沖",
+      "fanqie": "直弓",
+      "dictionaryQuote": "和也深也",
+      "basis": "冲冲鑿冰聲，本版按沖的直弓切補字頭。"
+    },
+    {
+      "char": "鱨",
+      "position": "常開三陽平",
+      "dictionaryChar": "甞",
+      "fanqie": "市羊",
+      "dictionaryQuote": "試也曾也說文本作嘗口味之也又姓風俗通",
+      "basis": "魚名鱨，《釋文》音常；甞僅作同音地位參照。"
+    },
+    {
+      "char": "晰",
+      "position": "心開四青入",
+      "dictionaryChar": "析",
+      "fanqie": "先擊",
+      "dictionaryQuote": "分也字從木斤破木也又爾雅曰析木謂之津",
+      "basis": "晰晰庭燎明亮與析的青韻入聲同音。"
+    },
+    {
+      "char": "晳",
+      "position": "心開四青入",
+      "dictionaryChar": "析",
+      "fanqie": "先擊",
+      "dictionaryQuote": "分也字從木斤破木也又爾雅曰析木謂之津",
+      "basis": "晳白明亮，《釋文》星歷反。"
+    },
+    {
+      "char": "廄",
+      "position": "見三C尤去",
+      "dictionaryChar": "廏",
+      "fanqie": "居祐",
+      "dictionaryQuote": "馬舍釋名曰廏聚也生馬之所聚也又灸廏並",
+      "basis": "廄、廏異體，馬舍義。"
+    },
+    {
+      "char": "穈",
+      "position": "明一魂平",
+      "dictionaryChar": "捫",
+      "fanqie": "莫奔",
+      "dictionaryQuote": "以手撫持",
+      "basis": "赤黍穈按莫奔切補音；捫僅作同音地位參照。"
+    },
+    {
+      "char": "祛",
+      "position": "溪開三C魚平",
+      "dictionaryChar": "袪",
+      "fanqie": "去魚",
+      "dictionaryQuote": "袖也舉也",
+      "basis": "車祛祛強健，《釋文》起居反；袪僅作同音地位參照。"
+    },
+    {
+      "char": "憇",
+      "position": "溪開三B祭去",
+      "dictionaryChar": "憩",
+      "fanqie": "去例",
+      "dictionaryQuote": "息也去例切六",
+      "basis": "憇、憩異體，止息。"
+    },
+    {
+      "char": "泲",
+      "position": "精開四齊上",
+      "dictionaryChar": "濟",
+      "fanqie": "子禮",
+      "dictionaryQuote": "定也止也齊也亦濟濟多威儀皃又水名出王",
+      "basis": "泲水、地名據《釋文》子禮反。"
+    },
+    {
+      "char": "幩",
+      "position": "並三C文平",
+      "dictionaryChar": "蕡",
+      "fanqie": "符分",
+      "dictionaryQuote": "草木多實",
+      "basis": "朱幩飾馬鑣，本版採《釋文》又符云反的並母文韻平聲；首列孚云反的滂母讀保留在說明中。"
+    },
+    {
+      "char": "罕",
+      "position": "曉開一寒上",
+      "dictionaryChar": "䍐",
+      "fanqie": "呼旱",
+      "dictionaryQuote": "希也亦鳥網又姓左傳鄭有䍐氏出自穆公以",
+      "basis": "鳥網罕、䍐異體，取上聲；不取枹罕地名去聲。"
+    },
+    {
+      "char": "鷊",
+      "position": "疑開四青入",
+      "dictionaryChar": "鷁",
+      "fanqie": "五歷",
+      "dictionaryQuote": "水鳥也博物志曰鷁雄雌相視則孕或曰雄鳴",
+      "basis": "旨鷊綬草，據《釋文》五厯反；鷁僅作同音地位參照。"
+    },
+    {
+      "char": "皓",
+      "position": "匣開一豪上",
+      "dictionaryChar": "浩",
+      "fanqie": "胡老",
+      "dictionaryQuote": "浩汗大水皃又姓漢青州剌史浩賞又漢複姓",
+      "basis": "皓皓白貌，本版取胡老切；浩僅作同音地位參照。"
+    },
+    {
+      "char": "鵙",
+      "position": "見合四青入",
+      "dictionaryChar": "鶪",
+      "fanqie": "古闃",
+      "dictionaryQuote": "伯勞",
+      "basis": "鵙、鶪均伯勞，按廣韻古闃切補字頭。"
+    },
+    {
+      "char": "蠨",
+      "position": "心開四蕭平",
+      "dictionaryChar": "蟰",
+      "fanqie": "蘇彫",
+      "dictionaryQuote": "蟰蛸蟲一名長蚑出崔豹古今注",
+      "basis": "蠨、蟰異體，按蕭韻平聲；不取喜子之東韻入聲。"
+    },
+    {
+      "char": "醓",
+      "position": "透開一覃上",
+      "dictionaryChar": "嗿",
+      "fanqie": "他感",
+      "dictionaryQuote": "眾聲",
+      "basis": "肉醬醓，《釋文》他感反；嗿僅作同音地位參照。"
+    },
+    {
+      "char": "溯",
+      "position": "心一模去",
+      "dictionaryChar": "泝",
+      "fanqie": "桑故",
+      "dictionaryQuote": "逆流而上廣雅曰泝斗舟中抒水斗",
+      "basis": "溯、泝異體，逆流而上。"
+    },
+    {
+      "char": "惽",
+      "position": "曉合一魂平",
+      "dictionaryChar": "惛",
+      "fanqie": "呼昆",
+      "dictionaryQuote": "不明",
+      "basis": "惽怓混亂，據《釋文》音昬的魂韻平聲。"
+    },
+    {
+      "char": "緡",
+      "position": "明三B真平",
+      "dictionaryChar": "緍",
+      "fanqie": "武巾",
+      "dictionaryQuote": "錢貫亦絲緒釣魚綸也又姓出何氏姓苑",
+      "basis": "緡、緍異體；言緡之絲取明母真韻平聲。"
+    },
+    {
+      "char": "耗",
+      "position": "曉開一豪去",
+      "dictionaryChar": "秏",
+      "fanqie": "呼到",
+      "dictionaryQuote": "減也亦稻屬呂氏春秋云飯之美者南海之秏",
+      "basis": "耗、秏異體，減損义。"
+    },
+    {
+      "char": "䢋",
+      "position": "見開三C之去",
+      "dictionaryChar": "記",
+      "fanqie": "居吏",
+      "dictionaryQuote": "記志也說文疏也居吏切一",
+      "basis": "原文作䢋，〈崧高〉往近王舅之毛讀音記；保留原字並按見母之韻去聲補音。"
+    },
+    {
+      "char": "蘖",
+      "position": "疑開一寒入",
+      "dictionaryChar": "櫱",
+      "fanqie": "五割",
+      "dictionaryQuote": "上同書作蘖（頭戴皃說文曰伐木餘也）",
+      "basis": "〈閟宮〉三蘖，餘根義依《釋文》五葛反取寒韻入聲，不取魚列切仙韻。"
+    },
+    {
+      "char": "罙",
+      "position": "書開三侵平",
+      "dictionaryChar": "深",
+      "fanqie": "式針",
+      "dictionaryQuote": "遠也又水名出桂陽南平式針切二",
+      "basis": "罙為深的古字，罙入取深遠、深入的平聲。"
+    },
+    {
+      "char": "于",
+      "dictionaryChar": "吁",
+      "position": "曉合三C虞平",
+      "fanqie": "況于",
+      "dictionaryQuote": "歎也",
+      "basis": "于嗟借吁的歎詞，取曉母虞韻平聲；由〈麟之趾〉及〈騶虞〉音吁的語境推及同詞。",
+      "pattern": "~于~嗟",
+      "sourceReferences": [
+        {
+          "file": "KR1c0009_001.txt",
+          "page": "KR1c0009_SBCK_001-14b",
+          "quote": "音吁下同"
+        }
+      ]
+    },
+    {
+      "char": "齊",
+      "dictionaryChar": "齋",
+      "position": "莊開二皆平",
+      "fanqie": "側皆",
+      "dictionaryQuote": "齋潔也亦莊也敬也經典通用齊也側皆切一",
+      "basis": "有齊季女的齊借齋、敬，按本篇側皆反取莊母皆韻平聲。",
+      "pattern": "有~齊~季女",
+      "sourceReferences": [
+        {
+          "file": "KR1c0009_001.txt",
+          "page": "KR1c0009_SBCK_001-19b",
+          "quote": "側皆反"
+        }
+      ]
+    },
+    {
+      "char": "御",
+      "dictionaryChar": "迓",
+      "position": "疑開二麻去",
+      "fanqie": "吾駕",
+      "dictionaryQuote": "迎也吾駕切六",
+      "basis": "迎婦御之或迎田祖的御借迓，採毛讀迎義的疑母麻韻去聲；鄭讀魚據反另保留。",
+      "pattern": "百兩~御~|以~御~田祖",
+      "sourceReferences": [
+        {
+          "file": "KR1g0003_007.txt",
+          "page": "KR1g0003_SBCK_007-4b",
+          "quote": "毛牙嫁反迎也鄭魚據反治也"
+        }
+      ]
+    },
+    {
+      "char": "害",
+      "dictionaryChar": "曷",
+      "position": "匣開一寒入",
+      "fanqie": "胡葛",
+      "dictionaryQuote": "何也胡葛切十一",
+      "basis": "害澣害否的害為曷、何，本篇戶葛反取匣母寒韻入聲。",
+      "pattern": "~害~澣|~害~否",
+      "sourceReferences": [
+        {
+          "file": "KR1c0009_001.txt",
+          "page": "KR1c0009_SBCK_001-6a",
+          "quote": "戶葛反"
+        }
+      ]
+    },
+    {
+      "char": "殷",
+      "dictionaryChar": "隱",
+      "position": "影開三C殷上",
+      "fanqie": "於謹",
+      "dictionaryQuote": "藏也痛也私也安也定也又微也又姓吳志有廷尉左監隱蕃於謹切十一",
+      "basis": "殷其靁取本篇音隱、雷聲的影母殷韻上聲，非殷商的平聲。",
+      "pattern": "~殷~其(?:靁|雷)",
+      "sourceReferences": [
+        {
+          "file": "KR1c0009_001.txt",
+          "page": "KR1c0009_SBCK_001-22b",
+          "quote": "音隱"
+        }
+      ]
+    },
+    {
+      "char": "敖",
+      "dictionaryChar": "傲",
+      "position": "疑開一豪去",
+      "fanqie": "五到",
+      "dictionaryQuote": "慢也倨也說文作敖餘倣此五到切八",
+      "basis": "笑敖通傲，依古注五報反的慢義取疑母豪韻去聲。",
+      "pattern": "笑~敖~",
+      "sourceReferences": [
+        {
+          "file": "KR1c0009_002.txt",
+          "page": "KR1c0009_SBCK_002-7b",
+          "quote": "五報反"
+        }
+      ]
+    },
+    {
+      "char": "汙",
+      "dictionaryChar": "烏",
+      "position": "影一模平",
+      "fanqie": "哀都",
+      "dictionaryQuote": "安也語辝也說文曰孝烏小也爾雅曰純黑而返哺者謂之烏小而不返哺者",
+      "basis": "薄汙我私的汙煩撋洗衣，取《釋文》音烏的影母模韻平聲；不取汙染去聲。",
+      "pattern": "薄~汙~我私",
+      "sourceReferences": [
+        {
+          "file": "KR1g0003_005.txt",
+          "page": "KR1g0003_SBCK_005-3a",
+          "quote": "音烏煩也"
+        }
+      ]
+    },
+    {
+      "char": "施",
+      "dictionaryChar": "貤",
+      "fanqie": "以豉",
+      "position": "以開三支去",
+      "dictionaryQuote": "物之重次也",
+      "basis": "葛覃施于中谷的施移、延蔓，依本篇以䜴反取以母支韻去聲；貤僅作同音地位參照。",
+      "pattern": "~施~于中谷",
+      "sourceReferences": [
+        {
+          "file": "KR1c0009_001.txt",
+          "page": "KR1c0009_SBCK_001-5b",
+          "quote": "以䜴反"
+        }
+      ]
+    },
+    {
+      "char": "揖",
+      "dictionaryChar": "戢",
+      "fanqie": "阻立",
+      "position": "莊開三侵入",
+      "dictionaryQuote": "止也斂也阻立切九",
+      "basis": "螽斯揖揖會聚，採《詩集傳》首列側立反的莊母緝韻入聲；《釋文》子入另讀及字庫揖的影母候選保留於引文、候選。",
+      "pattern": "~揖~揖|揖~揖~",
+      "sourceReferences": [
+        {
+          "file": "KR1c0009_001.txt",
+          "page": "KR1c0009_SBCK_001-9b",
+          "quote": "側立反"
+        },
+        {
+          "file": "KR1g0003_005.txt",
+          "page": "KR1g0003_SBCK_005-4a",
+          "quote": "子入側立二反㑹聚也"
+        }
+      ]
+    }
+  ]
+}

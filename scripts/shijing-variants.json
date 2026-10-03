@@ -1,0 +1,2857 @@
+{
+  "version": 1,
+  "editedOn": "2026-10-03",
+  "policy": "字形對應供配對使用；實質異文逐字位記錄，不以另一字的音注替正文定音。",
+  "orthography": [
+    {
+      "source": "逺",
+      "body": "遠",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "邶風・燕燕",
+        "bodyContext": "于飛差池其羽之子于歸遠",
+        "sourceContext": "于飛差池其羽之子于歸逺",
+        "file": "KR1c0009_002.txt",
+        "page": "KR1c0009_SBCK_002-4b"
+      }
+    },
+    {
+      "source": "乗",
+      "body": "乘",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "邶風・二子乘舟",
+        "bodyContext": "二子乘舟汎汎其景願言思",
+        "sourceContext": "二子乗舟汎汎其景願言思",
+        "file": "KR1c0009_002.txt",
+        "page": "KR1c0009_SBCK_002-26a"
+      }
+    },
+    {
+      "source": "兹",
+      "body": "茲",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "邶風・泉水",
+        "bodyContext": "于衛不瑕有害我思肥泉茲",
+        "sourceContext": "于衛不瑕有害我思肥泉兹",
+        "file": "KR1c0009_002.txt",
+        "page": "KR1c0009_SBCK_002-21a"
+      }
+    },
+    {
+      "source": "愼",
+      "body": "慎",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "魏風・陟岵",
+        "bodyContext": "上慎旃哉猶來無止陟彼屺",
+        "sourceContext": "上愼旃哉猶來無止陟彼屺",
+        "file": "KR1c0009_005.txt",
+        "page": "KR1c0009_SBCK_005-15a"
+      }
+    },
+    {
+      "source": "禄",
+      "body": "祿",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "小雅・鹿鳴之什・天保",
+        "bodyContext": "爾戩穀罄無不宜受天百祿",
+        "sourceContext": "爾戩穀罄無不宜受天百禄",
+        "file": "KR1c0009_009.txt",
+        "page": "KR1c0009_SBCK_009-13a"
+      }
+    },
+    {
+      "source": "昬",
+      "body": "昏",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "邶風・谷風",
+        "bodyContext": "宴爾新昏如兄如弟涇以渭",
+        "sourceContext": "宴爾新昬如兄如弟涇以渭",
+        "file": "KR1c0009_002.txt",
+        "page": "KR1c0009_SBCK_002-14a"
+      }
+    },
+    {
+      "source": "舎",
+      "body": "舍",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "鄭風・羔裘",
+        "bodyContext": "如濡洵直且侯彼其之子舍",
+        "sourceContext": "如濡洵直且矦彼其之子舎",
+        "file": "KR1c0009_004.txt",
+        "page": "KR1c0009_SBCK_004-18a"
+      }
+    },
+    {
+      "source": "顚",
+      "body": "顛",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "邶風・谷風",
+        "bodyContext": "用不售昔育恐育鞫及爾顛",
+        "sourceContext": "用不售昔育恐育鞫及爾顚",
+        "file": "KR1c0009_002.txt",
+        "page": "KR1c0009_SBCK_002-15b"
+      }
+    },
+    {
+      "source": "熈",
+      "body": "熙",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "大雅・文王之什・文王",
+        "bodyContext": "文王以寧穆穆文王於緝熙",
+        "sourceContext": "文王以寧穆穆文王於緝熈",
+        "file": "KR1c0009_016.txt",
+        "page": "KR1c0009_SBCK_016-2b"
+      }
+    },
+    {
+      "source": "飮",
+      "body": "飲",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "鄭風・女曰雞鳴",
+        "bodyContext": "弋言加之與子宜之宜言飲",
+        "sourceContext": "弋言加之與子宜之宜言飮",
+        "file": "KR1c0009_004.txt",
+        "page": "KR1c0009_SBCK_004-20a"
+      }
+    },
+    {
+      "source": "厡",
+      "body": "原",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "陳風・東門之枌",
+        "bodyContext": "娑其下穀旦于差南方之原",
+        "sourceContext": "娑其下穀旦于差南方之厡",
+        "file": "KR1c0009_007.txt",
+        "page": "KR1c0009_SBCK_007-2b"
+      }
+    },
+    {
+      "source": "渉",
+      "body": "涉",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "邶風・匏有苦葉",
+        "bodyContext": "匏有苦葉濟有深涉深則厲",
+        "sourceContext": "匏有苦葉濟有深渉深則厲",
+        "file": "KR1c0009_002.txt",
+        "page": "KR1c0009_SBCK_002-12a"
+      }
+    },
+    {
+      "source": "畒",
+      "body": "畝",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "齊風・南山",
+        "bodyContext": "麻如之何衡從其畝取妻如",
+        "sourceContext": "麻如之何衡從其畒取妻如",
+        "file": "KR1c0009_005.txt",
+        "page": "KR1c0009_SBCK_005-5b"
+      }
+    },
+    {
+      "source": "𣏌",
+      "body": "杞",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "鄭風・將仲子",
+        "bodyContext": "子兮無踰我里無折我樹杞",
+        "sourceContext": "子兮無踰我里無折我樹𣏌",
+        "file": "KR1c0009_004.txt",
+        "page": "KR1c0009_SBCK_004-13a"
+      }
+    },
+    {
+      "source": "顔",
+      "body": "顏",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "鄘風・君子偕老",
+        "bodyContext": "揚且之顏也展如之人兮邦",
+        "sourceContext": "揚且之顔也展如之人兮邦",
+        "file": "KR1c0009_003.txt",
+        "page": "KR1c0009_SBCK_003-3b"
+      }
+    },
+    {
+      "source": "届",
+      "body": "屆",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "小雅・祈父之什・節南山",
+        "bodyContext": "天不惠降此大戾君子如屆",
+        "sourceContext": "天不惠降此大戾君子如届",
+        "file": "KR1c0009_011.txt",
+        "page": "KR1c0009_SBCK_011-13b"
+      }
+    },
+    {
+      "source": "荆",
+      "body": "荊",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "小雅・彤弓之什・采芑",
+        "bodyContext": "鼓淵淵振旅闐闐蠢爾蠻荊",
+        "sourceContext": "鼓淵淵振旅闐闐蠢爾蠻荆",
+        "file": "KR1c0009_010.txt",
+        "page": "KR1c0009_SBCK_010-8b"
+      }
+    },
+    {
+      "source": "譛",
+      "body": "譖",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "小雅・小旻之什・巷伯",
+        "bodyContext": "萋兮斐兮成是貝錦彼譖人",
+        "sourceContext": "萋兮斐兮成是貝錦彼譛人",
+        "file": "KR1c0009_012.txt",
+        "page": "KR1c0009_SBCK_012-17b"
+      }
+    },
+    {
+      "source": "髪",
+      "body": "髮",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "小雅・都人士之什・都人士",
+        "bodyContext": "笠緇撮彼君子女綢直如髮",
+        "sourceContext": "笠緇撮彼君子女綢直如髪",
+        "file": "KR1c0009_015.txt",
+        "page": "KR1c0009_SBCK_015-1a"
+      }
+    },
+    {
+      "source": "宼",
+      "body": "寇",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "大雅・生民之什・民勞",
+        "bodyContext": "無縱詭隨以謹無良式遏寇",
+        "sourceContext": "無縱詭隨以謹無良式遏宼",
+        "file": "KR1c0009_017.txt",
+        "page": "KR1c0009_SBCK_017-22b"
+      }
+    },
+    {
+      "source": "卭",
+      "body": "邛",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "陳風・防有鵲巢",
+        "bodyContext": "防有鵲巢邛有旨苕誰侜予",
+        "sourceContext": "防有鵲巢卭有旨苕誰侜予",
+        "file": "KR1c0009_007.txt",
+        "page": "KR1c0009_SBCK_007-5b"
+      }
+    },
+    {
+      "source": "塡",
+      "body": "填",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "小雅・小旻之什・小宛",
+        "bodyContext": "啄粟哀我填寡宜岸宜獄握",
+        "sourceContext": "啄粟哀我塡寡宜岸宜獄握",
+        "file": "KR1c0009_012.txt",
+        "page": "KR1c0009_SBCK_012-5b"
+      }
+    },
+    {
+      "source": "㝛",
+      "body": "宿",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "邶風・泉水",
+        "bodyContext": "思孌彼諸姬聊與之謀出宿",
+        "sourceContext": "思孌彼諸姬聊與之謀出㝛",
+        "file": "KR1c0009_002.txt",
+        "page": "KR1c0009_SBCK_002-20a"
+      }
+    },
+    {
+      "source": "虗",
+      "body": "虛",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "邶風・北風",
+        "bodyContext": "雱惠而好我攜手同行其虛",
+        "sourceContext": "雱惠而好我攜手同行其虗",
+        "file": "KR1c0009_002.txt",
+        "page": "KR1c0009_SBCK_002-23b"
+      }
+    },
+    {
+      "source": "黄",
+      "body": "黃",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "小雅・都人士之什・都人士",
+        "bodyContext": "彼都人士狐裘黃黃其容不",
+        "sourceContext": "彼都人士狐裘黄黃其容不",
+        "file": "KR1c0009_015.txt",
+        "page": "KR1c0009_SBCK_015-1a"
+      }
+    },
+    {
+      "source": "䑕",
+      "body": "鼠",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "鄘風・相鼠",
+        "bodyContext": "止人而無止不死何俟相鼠",
+        "sourceContext": "止人而無止不死何俟相䑕",
+        "file": "KR1c0009_003.txt",
+        "page": "KR1c0009_SBCK_003-10a"
+      }
+    },
+    {
+      "source": "衆",
+      "body": "眾",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "鄘風・載馳",
+        "bodyContext": "善懷亦各有行許人尤之眾",
+        "sourceContext": "善懷亦各有行許人尤之衆",
+        "file": "KR1c0009_003.txt",
+        "page": "KR1c0009_SBCK_003-12b"
+      }
+    },
+    {
+      "source": "温",
+      "body": "溫",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "秦風・小戎",
+        "bodyContext": "暢轂駕我騏馵言念君子溫",
+        "sourceContext": "暢轂駕我騏馵言念君子温",
+        "file": "KR1c0009_006.txt",
+        "page": "KR1c0009_SBCK_006-14b"
+      }
+    },
+    {
+      "source": "稺",
+      "body": "穉",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "鄘風・載馳",
+        "bodyContext": "穉且狂我行其野芃芃其麥",
+        "sourceContext": "稺且狂我行其野芃芃其麥",
+        "file": "KR1c0009_003.txt",
+        "page": "KR1c0009_SBCK_003-13a"
+      }
+    },
+    {
+      "source": "奥",
+      "body": "奧",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "衛風・淇奧",
+        "bodyContext": "瞻彼淇奧綠竹猗猗有匪君",
+        "sourceContext": "瞻彼淇奥緑竹猗猗有匪君",
+        "file": "KR1c0009_003.txt",
+        "page": "KR1c0009_SBCK_003-14a"
+      }
+    },
+    {
+      "source": "鄕",
+      "body": "鄉",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "鄘風・桑中",
+        "bodyContext": "爰采唐矣沬之鄉矣云誰之",
+        "sourceContext": "爰采唐矣沬之鄕矣云誰之",
+        "file": "KR1c0009_003.txt",
+        "page": "KR1c0009_SBCK_003-4b"
+      }
+    },
+    {
+      "source": "殱",
+      "body": "殲",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "秦風・黃鳥",
+        "bodyContext": "其穴惴惴其慄彼蒼者天殲",
+        "sourceContext": "其穴惴惴其慄彼蒼者天殱",
+        "file": "KR1c0009_006.txt",
+        "page": "KR1c0009_SBCK_006-19b"
+      }
+    },
+    {
+      "source": "剥",
+      "body": "剝",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "豳風・七月",
+        "bodyContext": "及薁七月亨葵及菽八月剝",
+        "sourceContext": "及薁七月亨葵及菽八月剥",
+        "file": "KR1c0009_008.txt",
+        "page": "KR1c0009_SBCK_008-6a"
+      }
+    },
+    {
+      "source": "皐",
+      "body": "皋",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "小雅・彤弓之什・鶴鳴",
+        "bodyContext": "鶴鳴于九皋聲聞于野魚潛",
+        "sourceContext": "鶴鳴于九皐聲聞于野魚潛",
+        "file": "KR1c0009_010.txt",
+        "page": "KR1c0009_SBCK_010-17a"
+      }
+    },
+    {
+      "source": "収",
+      "body": "收",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "大雅・蕩之什・瞻卬",
+        "bodyContext": "罪罟不收靡有夷瘳人有土",
+        "sourceContext": "罪罟不収靡有夷瘳人有土",
+        "file": "KR1c0009_018.txt",
+        "page": "KR1c0009_SBCK_018-38a"
+      }
+    },
+    {
+      "source": "斾",
+      "body": "旆",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "小雅・鹿鳴之什・出車",
+        "bodyContext": "建彼旄矣彼旟旐斯胡不旆",
+        "sourceContext": "建彼旄矣彼旟旐斯胡不斾",
+        "file": "KR1c0009_009.txt",
+        "page": "KR1c0009_SBCK_009-18a"
+      }
+    },
+    {
+      "source": "㦧",
+      "body": "憯",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "小雅・祈父之什・節南山",
+        "bodyContext": "薦瘥喪亂弘多民言無嘉憯",
+        "sourceContext": "薦瘥喪亂弘多民言無嘉㦧",
+        "file": "KR1c0009_011.txt",
+        "page": "KR1c0009_SBCK_011-12a"
+      }
+    },
+    {
+      "source": "墍",
+      "body": "塈",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "召南・摽有梅",
+        "bodyContext": "士迨其今兮摽有梅頃筐塈",
+        "sourceContext": "士迨其今兮摽有梅頃筐墍",
+        "file": "KR1c0009_001.txt",
+        "page": "KR1c0009_SBCK_001-23b"
+      }
+    },
+    {
+      "source": "歳",
+      "body": "歲",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "唐風・蟋蟀",
+        "bodyContext": "無荒良士瞿瞿蟋蟀在堂歲",
+        "sourceContext": "無荒良士瞿瞿蟋蟀在堂歳",
+        "file": "KR1c0009_006.txt",
+        "page": "KR1c0009_SBCK_006-1b"
+      }
+    },
+    {
+      "source": "枤",
+      "body": "杕",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "唐風・杕杜",
+        "bodyContext": "焉人無兄弟胡不佽焉有杕",
+        "sourceContext": "焉人無兄弟胡不佽焉有枤",
+        "file": "KR1c0009_006.txt",
+        "page": "KR1c0009_SBCK_006-6b"
+      }
+    },
+    {
+      "source": "紏",
+      "body": "糾",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "陳風・月出",
+        "bodyContext": "月出皎兮佼人僚兮舒窈糾",
+        "sourceContext": "月出皎兮佼人僚兮舒窈紏",
+        "file": "KR1c0009_007.txt",
+        "page": "KR1c0009_SBCK_007-6a"
+      }
+    },
+    {
+      "source": "恒",
+      "body": "恆",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "小雅・鹿鳴之什・天保",
+        "bodyContext": "黎百姓徧爲爾德如月之恆",
+        "sourceContext": "黎百姓徧爲爾德如月之恒",
+        "file": "KR1c0009_009.txt",
+        "page": "KR1c0009_SBCK_009-14a"
+      }
+    },
+    {
+      "source": "岀",
+      "body": "出",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "衛風・竹竿",
+        "bodyContext": "淇水滺滺檜楫松舟駕言出",
+        "sourceContext": "淇水滺滺檜楫松舟駕言岀",
+        "file": "KR1c0009_003.txt",
+        "page": "KR1c0009_SBCK_003-24a"
+      }
+    },
+    {
+      "source": "藴",
+      "body": "蘊",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "檜風・素冠",
+        "bodyContext": "同歸兮庶見素韠兮我心蘊",
+        "sourceContext": "同歸兮庶見素韠兮我心藴",
+        "file": "KR1c0009_007.txt",
+        "page": "KR1c0009_SBCK_007-10b"
+      }
+    },
+    {
+      "source": "寛",
+      "body": "寬",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "衛風・淇奧",
+        "bodyContext": "君子如金如錫如圭如璧寬",
+        "sourceContext": "君子如金如錫如圭如璧寛",
+        "file": "KR1c0009_003.txt",
+        "page": "KR1c0009_SBCK_003-15a"
+      }
+    },
+    {
+      "source": "絶",
+      "body": "絕",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "小雅・祈父之什・正月",
+        "bodyContext": "屢顧爾僕不輸爾載終踰絕",
+        "sourceContext": "屢顧爾僕不輸爾載終踰絶",
+        "file": "KR1c0009_011.txt",
+        "page": "KR1c0009_SBCK_011-21a"
+      }
+    },
+    {
+      "source": "乆",
+      "body": "久",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "邶風・旄丘",
+        "bodyContext": "何其處也必有與也何其久",
+        "sourceContext": "何其處也必有與也何其乆",
+        "file": "KR1c0009_002.txt",
+        "page": "KR1c0009_SBCK_002-17b"
+      }
+    },
+    {
+      "source": "濳",
+      "body": "潛",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "小雅・彤弓之什・鶴鳴",
+        "bodyContext": "聲聞于天魚在于渚或潛在",
+        "sourceContext": "聲聞于天魚在于渚或濳在",
+        "file": "KR1c0009_010.txt",
+        "page": "KR1c0009_SBCK_010-17b"
+      }
+    },
+    {
+      "source": "吴",
+      "body": "吳",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "周頌・閔予小子之什・絲衣",
+        "bodyContext": "鼒兕觥其觩旨酒思柔不吳",
+        "sourceContext": "鼒兕觥其觩旨酒思柔不吴",
+        "file": "KR1c0009_019.txt",
+        "page": "KR1c0009_SBCK_019-24b"
+      }
+    },
+    {
+      "source": "聦",
+      "body": "聰",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "王風・兔爰",
+        "bodyContext": "生之後逢此百凶尚寐無聰",
+        "sourceContext": "生之後逢此百凶尚寐無聦",
+        "file": "KR1c0009_004.txt",
+        "page": "KR1c0009_SBCK_004-8b"
+      }
+    },
+    {
+      "source": "翶",
+      "body": "翱",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "鄭風・清人",
+        "bodyContext": "介旁旁二矛重英河上乎翱",
+        "sourceContext": "介旁旁二矛重英河上乎翶",
+        "file": "KR1c0009_004.txt",
+        "page": "KR1c0009_SBCK_004-16b"
+      }
+    },
+    {
+      "source": "澘",
+      "body": "潸",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "小雅・小旻之什・大東",
+        "bodyContext": "所履小人所視睠言顧之潸",
+        "sourceContext": "所履小人所視睠言顧之澘",
+        "file": "KR1c0009_012.txt",
+        "page": "KR1c0009_SBCK_012-23a"
+      }
+    },
+    {
+      "source": "遟",
+      "body": "遲",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "小雅・北山之什・北山",
+        "bodyContext": "知叫號或慘慘劬勞或棲遲",
+        "sourceContext": "知叫號或慘慘劬勞或棲遟",
+        "file": "KR1c0009_013.txt",
+        "page": "KR1c0009_SBCK_013-2a"
+      }
+    },
+    {
+      "source": "㫖",
+      "body": "旨",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "小雅・桑扈之什・頍弁",
+        "bodyContext": "頍者弁實維在首爾酒既旨",
+        "sourceContext": "頍者弁實維在首爾酒旣㫖",
+        "file": "KR1c0009_014.txt",
+        "page": "KR1c0009_SBCK_014-4a"
+      }
+    },
+    {
+      "source": "遥",
+      "body": "遙",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "鄭風・清人",
+        "bodyContext": "麃麃二矛重喬河上乎逍遙",
+        "sourceContext": "麃麃二矛重喬河上乎逍遥",
+        "file": "KR1c0009_004.txt",
+        "page": "KR1c0009_SBCK_004-17a"
+      }
+    },
+    {
+      "source": "蘝",
+      "body": "蘞",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "唐風・葛生",
+        "bodyContext": "葛生蒙楚蘞蔓于野予美亡",
+        "sourceContext": "葛生蒙楚蘝蔓于野予美亡",
+        "file": "KR1c0009_006.txt",
+        "page": "KR1c0009_SBCK_006-10a"
+      }
+    },
+    {
+      "source": "懐",
+      "body": "懷",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "小雅・北山之什・小明",
+        "bodyContext": "念彼共人涕零如雨豈不懷",
+        "sourceContext": "念彼共人涕零如雨豈不懐",
+        "file": "KR1c0009_013.txt",
+        "page": "KR1c0009_SBCK_013-3b"
+      }
+    },
+    {
+      "source": "寜",
+      "body": "寧",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "大雅・生民之什・生民",
+        "bodyContext": "無害以赫厥靈上帝不寧不",
+        "sourceContext": "無害以赫厥靈上帝不寜不",
+        "file": "KR1c0009_017.txt",
+        "page": "KR1c0009_SBCK_017-2a"
+      }
+    },
+    {
+      "source": "𧖟",
+      "body": "蠶",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "豳風・七月",
+        "bodyContext": "同歸七月流火八月萑葦蠶",
+        "sourceContext": "同歸七月流火八月萑葦𧖟",
+        "file": "KR1c0009_008.txt",
+        "page": "KR1c0009_SBCK_008-3b"
+      }
+    },
+    {
+      "source": "壷",
+      "body": "壺",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "豳風・七月",
+        "bodyContext": "介眉壽七月食瓜八月斷壺",
+        "sourceContext": "介眉壽七月食瓜八月斷壷",
+        "file": "KR1c0009_008.txt",
+        "page": "KR1c0009_SBCK_008-6a"
+      }
+    },
+    {
+      "source": "衮",
+      "body": "袞",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "豳風・九罭",
+        "bodyContext": "九罭之魚鱒魴我覯之子袞",
+        "sourceContext": "九罭之魚鱒魴我覯之子衮",
+        "file": "KR1c0009_008.txt",
+        "page": "KR1c0009_SBCK_008-16b"
+      }
+    },
+    {
+      "source": "桺",
+      "body": "柳",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "小雅・桑扈之什・菀柳",
+        "bodyContext": "有菀者柳不尚息焉上帝甚",
+        "sourceContext": "有菀者桺不尚息焉上帝甚",
+        "file": "KR1c0009_014.txt",
+        "page": "KR1c0009_SBCK_014-15b"
+      }
+    },
+    {
+      "source": "㒺",
+      "body": "罔",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "小雅・小旻之什・蓼莪",
+        "bodyContext": "出入腹我欲報之德昊天罔",
+        "sourceContext": "出入腹我欲報之德昊天㒺",
+        "file": "KR1c0009_012.txt",
+        "page": "KR1c0009_SBCK_012-22a"
+      }
+    },
+    {
+      "source": "夣",
+      "body": "夢",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "齊風・雞鳴",
+        "bodyContext": "之光蟲飛薨薨甘與子同夢",
+        "sourceContext": "之光蟲飛薨薨甘與子同夣",
+        "file": "KR1c0009_005.txt",
+        "page": "KR1c0009_SBCK_005-1b"
+      }
+    },
+    {
+      "source": "飱",
+      "body": "飧",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "魏風・伐檀",
+        "bodyContext": "有縣鶉兮彼君子兮不素飧",
+        "sourceContext": "有縣鶉兮彼君子兮不素飱",
+        "file": "KR1c0009_005.txt",
+        "page": "KR1c0009_SBCK_005-18a"
+      }
+    },
+    {
+      "source": "羮",
+      "body": "羹",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "大雅・蕩之什・蕩",
+        "bodyContext": "女殷商如蜩如螗如沸如羹",
+        "sourceContext": "女殷商如蜩如螗如沸如羮",
+        "file": "KR1c0009_018.txt",
+        "page": "KR1c0009_SBCK_018-3a"
+      }
+    },
+    {
+      "source": "鳬",
+      "body": "鳧",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "鄭風・女曰雞鳴",
+        "bodyContext": "將翔弋鳧與鴈弋言加之與",
+        "sourceContext": "將翔弋鳬與鴈弋言加之與",
+        "file": "KR1c0009_004.txt",
+        "page": "KR1c0009_SBCK_004-19b"
+      }
+    },
+    {
+      "source": "䖍",
+      "body": "虔",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "大雅・蕩之什・韓奕",
+        "bodyContext": "祖考無廢朕命夙夜匪解虔",
+        "sourceContext": "祖考無廢朕命夙夜匪解䖍",
+        "file": "KR1c0009_018.txt",
+        "page": "KR1c0009_SBCK_018-29b"
+      }
+    },
+    {
+      "source": "凢",
+      "body": "凡",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "小雅・祈父之什・雨無正",
+        "bodyContext": "不信如彼行邁則靡所臻凡",
+        "sourceContext": "不信如彼行邁則靡所臻凢",
+        "file": "KR1c0009_011.txt",
+        "page": "KR1c0009_SBCK_011-28a"
+      }
+    },
+    {
+      "source": "歩",
+      "body": "步",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "小雅・都人士之什・白華",
+        "bodyContext": "兮英英白雲露彼菅茅天步",
+        "sourceContext": "兮英英白雲露彼菅茅天歩",
+        "file": "KR1c0009_015.txt",
+        "page": "KR1c0009_SBCK_015-6a"
+      }
+    },
+    {
+      "source": "摇",
+      "body": "搖",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "王風・黍離",
+        "bodyContext": "彼稷之苗行邁靡靡中心搖",
+        "sourceContext": "彼稷之苗行邁靡靡中心摇",
+        "file": "KR1c0009_004.txt",
+        "page": "KR1c0009_SBCK_004-1b"
+      }
+    },
+    {
+      "source": "𫀆",
+      "body": "袍",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "秦風・無衣",
+        "bodyContext": "豈曰無衣與子同袍王于興",
+        "sourceContext": "豈曰無衣與子同𫀆王于興",
+        "file": "KR1c0009_006.txt",
+        "page": "KR1c0009_SBCK_006-22a"
+      }
+    },
+    {
+      "source": "漑",
+      "body": "溉",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "檜風・匪風",
+        "bodyContext": "周道中心弔兮誰能亨魚溉",
+        "sourceContext": "周道中心弔兮誰能亨魚漑",
+        "file": "KR1c0009_007.txt",
+        "page": "KR1c0009_SBCK_007-12a"
+      }
+    },
+    {
+      "source": "冩",
+      "body": "寫",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "小雅・白華之什・蓼蕭",
+        "bodyContext": "零露湑兮既見君子我心寫",
+        "sourceContext": "零露湑兮旣見君子我心冩",
+        "file": "KR1c0009_009.txt",
+        "page": "KR1c0009_SBCK_009-27b"
+      }
+    },
+    {
+      "source": "盗",
+      "body": "盜",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "小雅・小旻之什・巧言",
+        "bodyContext": "子屢盟亂是用長君子信盜",
+        "sourceContext": "子屢盟亂是用長君子信盗",
+        "file": "KR1c0009_012.txt",
+        "page": "KR1c0009_SBCK_012-12a"
+      }
+    },
+    {
+      "source": "黒",
+      "body": "黑",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "邶風・北風",
+        "bodyContext": "邪既亟只且莫赤匪狐莫黑",
+        "sourceContext": "邪旣亟只且莫赤匪狐莫黒",
+        "file": "KR1c0009_002.txt",
+        "page": "KR1c0009_SBCK_002-24a"
+      }
+    },
+    {
+      "source": "衞",
+      "body": "衛",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "衛風・碩人",
+        "bodyContext": "其頎衣錦褧衣齊侯之子衛",
+        "sourceContext": "其頎衣錦褧衣齊矦之子衞",
+        "file": "KR1c0009_003.txt",
+        "page": "KR1c0009_SBCK_003-17a"
+      }
+    },
+    {
+      "source": "墻",
+      "body": "牆",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "鄭風・將仲子",
+        "bodyContext": "可畏也將仲子兮無踰我牆",
+        "sourceContext": "可畏也將仲子兮無踰我墻",
+        "file": "KR1c0009_004.txt",
+        "page": "KR1c0009_SBCK_004-13b"
+      }
+    },
+    {
+      "source": "㕓",
+      "body": "廛",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "魏風・伐檀",
+        "bodyContext": "猗不稼不穡胡取禾三百廛",
+        "sourceContext": "猗不稼不穡胡取禾三百㕓",
+        "file": "KR1c0009_005.txt",
+        "page": "KR1c0009_SBCK_005-16b"
+      }
+    },
+    {
+      "source": "内",
+      "body": "內",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "唐風・山有樞",
+        "bodyContext": "愉山有栲隰有杻子有廷內",
+        "sourceContext": "愉山有栲隰有杻子有廷内",
+        "file": "KR1c0009_006.txt",
+        "page": "KR1c0009_SBCK_006-3a"
+      }
+    },
+    {
+      "source": "戸",
+      "body": "戶",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "唐風・綢繆",
+        "bodyContext": "邂逅何綢繆束楚三星在戶",
+        "sourceContext": "邂逅何綢繆束楚三星在戸",
+        "file": "KR1c0009_006.txt",
+        "page": "KR1c0009_SBCK_006-6a"
+      }
+    },
+    {
+      "source": "嵗",
+      "body": "歲",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "唐風・葛生",
+        "bodyContext": "與獨旦夏之日冬之夜百歲",
+        "sourceContext": "與獨旦夏之日冬之夜百嵗",
+        "file": "KR1c0009_006.txt",
+        "page": "KR1c0009_SBCK_006-10b"
+      }
+    },
+    {
+      "source": "巓",
+      "body": "巔",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "唐風・采苓",
+        "bodyContext": "采苓采苓首陽之巔人之爲",
+        "sourceContext": "采苓采苓首陽之巓人之爲",
+        "file": "KR1c0009_006.txt",
+        "page": "KR1c0009_SBCK_006-11a"
+      }
+    },
+    {
+      "source": "耊",
+      "body": "耋",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "秦風・車鄰",
+        "bodyContext": "坐鼓瑟今者不樂逝者其耋",
+        "sourceContext": "坐鼓瑟今者不樂逝者其耊",
+        "file": "KR1c0009_006.txt",
+        "page": "KR1c0009_SBCK_006-13a"
+      }
+    },
+    {
+      "source": "蓞",
+      "body": "萏",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "陳風・澤陂",
+        "bodyContext": "心悁悁彼澤之陂有蒲菡萏",
+        "sourceContext": "心悁悁彼澤之陂有蒲菡蓞",
+        "file": "KR1c0009_007.txt",
+        "page": "KR1c0009_SBCK_007-8a"
+      }
+    },
+    {
+      "source": "閲",
+      "body": "閱",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "曹風・蜉蝣",
+        "bodyContext": "之憂矣於我歸息蜉蝣掘閱",
+        "sourceContext": "之憂矣於我歸息蜉蝣掘閲",
+        "file": "KR1c0009_007.txt",
+        "page": "KR1c0009_SBCK_007-13b"
+      }
+    },
+    {
+      "source": "㝠",
+      "body": "冥",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "小雅・祈父之什・斯干",
+        "bodyContext": "覺其楹噲噲其正噦噦其冥",
+        "sourceContext": "覺其楹噲噲其正噦噦其㝠",
+        "file": "KR1c0009_011.txt",
+        "page": "KR1c0009_SBCK_011-7b"
+      }
+    },
+    {
+      "source": "襃",
+      "body": "褒",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "小雅・祈父之什・正月",
+        "bodyContext": "方揚寧或滅之赫赫宗周褒",
+        "sourceContext": "方揚寧或滅之赫赫宗周襃",
+        "file": "KR1c0009_011.txt",
+        "page": "KR1c0009_SBCK_011-19b"
+      }
+    },
+    {
+      "source": "隣",
+      "body": "鄰",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "小雅・祈父之什・正月",
+        "bodyContext": "有旨酒又有嘉殽洽比其鄰",
+        "sourceContext": "有旨酒又有嘉殽洽比其隣",
+        "file": "KR1c0009_011.txt",
+        "page": "KR1c0009_SBCK_011-21b"
+      }
+    },
+    {
+      "source": "䔩",
+      "body": "蔌",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "小雅・祈父之什・正月",
+        "bodyContext": "兮憂心慇慇佌佌彼有屋蔌",
+        "sourceContext": "兮憂心慇慇佌佌彼有屋䔩",
+        "file": "KR1c0009_011.txt",
+        "page": "KR1c0009_SBCK_011-21b"
+      }
+    },
+    {
+      "source": "憗",
+      "body": "憖",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "小雅・祈父之什・十月之交",
+        "bodyContext": "向擇三有事亶侯多藏不憖",
+        "sourceContext": "向擇三有事亶矦多藏不憗",
+        "file": "KR1c0009_011.txt",
+        "page": "KR1c0009_SBCK_011-25b"
+      }
+    },
+    {
+      "source": "羡",
+      "body": "羨",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "小雅・祈父之什・十月之交",
+        "bodyContext": "悠我里亦孔之痗四方有羨",
+        "sourceContext": "悠我里亦孔之痗四方有羡",
+        "file": "KR1c0009_011.txt",
+        "page": "KR1c0009_SBCK_011-26b"
+      }
+    },
+    {
+      "source": "頽",
+      "body": "頹",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "小雅・小旻之什・谷風",
+        "bodyContext": "轉棄予習習谷風維風及頹",
+        "sourceContext": "轉棄予習習谷風維風及頽",
+        "file": "KR1c0009_012.txt",
+        "page": "KR1c0009_SBCK_012-20b"
+      }
+    },
+    {
+      "source": "衘",
+      "body": "銜",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "小雅・小旻之什・蓼莪",
+        "bodyContext": "無父何怙無母何恃出則銜",
+        "sourceContext": "無父何怙無母何恃出則衘",
+        "file": "KR1c0009_012.txt",
+        "page": "KR1c0009_SBCK_012-21b"
+      }
+    },
+    {
+      "source": "爼",
+      "body": "俎",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "小雅・北山之什・楚茨",
+        "bodyContext": "福萬壽無疆執爨踖踖爲俎",
+        "sourceContext": "福萬壽無疆執爨踖踖爲爼",
+        "file": "KR1c0009_013.txt",
+        "page": "KR1c0009_SBCK_013-8a"
+      }
+    },
+    {
+      "source": "穂",
+      "body": "穗",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "小雅・北山之什・大田",
+        "bodyContext": "不斂穧彼有遺秉此有滯穗",
+        "sourceContext": "不斂穧彼有遺秉此有滯穂",
+        "file": "KR1c0009_013.txt",
+        "page": "KR1c0009_SBCK_013-17b"
+      }
+    },
+    {
+      "source": "説",
+      "body": "說",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "小雅・桑扈之什・頍弁",
+        "bodyContext": "憂心弈弈既見君子庶幾說",
+        "sourceContext": "憂心弈弈旣見君子庶幾説",
+        "file": "KR1c0009_014.txt",
+        "page": "KR1c0009_SBCK_014-3a"
+      }
+    },
+    {
+      "source": "㳟",
+      "body": "恭",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "小雅・桑扈之什・賓之初筵",
+        "bodyContext": "奏爾時賓之初筵溫溫其恭",
+        "sourceContext": "奏爾時賓之初筵溫溫其㳟",
+        "file": "KR1c0009_014.txt",
+        "page": "KR1c0009_SBCK_014-9b"
+      }
+    },
+    {
+      "source": "竝",
+      "body": "並",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "小雅・桑扈之什・賓之初筵",
+        "bodyContext": "之俄屢舞傞傞既醉而出並",
+        "sourceContext": "之俄屢舞傞傞旣醉而出竝",
+        "file": "KR1c0009_014.txt",
+        "page": "KR1c0009_SBCK_014-10a"
+      }
+    },
+    {
+      "source": "摰",
+      "body": "摯",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "大雅・文王之什・大明",
+        "bodyContext": "王天位殷適使不挾四方摯",
+        "sourceContext": "王天位殷適使不挾四方摰",
+        "file": "KR1c0009_016.txt",
+        "page": "KR1c0009_SBCK_016-7a"
+      }
+    },
+    {
+      "source": "爕",
+      "body": "燮",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "大雅・文王之什・大明",
+        "bodyContext": "維行篤生武王保右命爾燮",
+        "sourceContext": "維行篤生武王保右命爾爕",
+        "file": "KR1c0009_016.txt",
+        "page": "KR1c0009_SBCK_016-9a"
+      }
+    },
+    {
+      "source": "卽",
+      "body": "即",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "大雅・生民之什・生民",
+        "bodyContext": "實秀實堅實好實穎實栗即",
+        "sourceContext": "實秀實堅實好實穎實栗卽",
+        "file": "KR1c0009_017.txt",
+        "page": "KR1c0009_SBCK_017-3b"
+      }
+    },
+    {
+      "source": "吿",
+      "body": "告",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "大雅・生民之什・既醉",
+        "bodyContext": "朗令終令終有俶公尸嘉告",
+        "sourceContext": "朗令終令終有俶公尸嘉吿",
+        "file": "KR1c0009_017.txt",
+        "page": "KR1c0009_SBCK_017-9a"
+      }
+    },
+    {
+      "source": "瑶",
+      "body": "瑤",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "大雅・生民之什・公劉",
+        "bodyContext": "降在原何以舟之維玉及瑤",
+        "sourceContext": "降在原何以舟之維玉及瑶",
+        "file": "KR1c0009_017.txt",
+        "page": "KR1c0009_SBCK_017-15b"
+      }
+    },
+    {
+      "source": "屛",
+      "body": "屏",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "大雅・生民之什・板",
+        "bodyContext": "人維藩大師維垣大邦維屏",
+        "sourceContext": "人維藩大師維垣大邦維屛",
+        "file": "KR1c0009_017.txt",
+        "page": "KR1c0009_SBCK_017-27a"
+      }
+    },
+    {
+      "source": "曽",
+      "body": "曾",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "大雅・蕩之什・蕩",
+        "bodyContext": "有終文王曰咨咨女殷商曾",
+        "sourceContext": "有終文王曰咨咨女殷商曽",
+        "file": "KR1c0009_018.txt",
+        "page": "KR1c0009_SBCK_018-1b"
+      }
+    },
+    {
+      "source": "冦",
+      "body": "寇",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "大雅・蕩之什・蕩",
+        "bodyContext": "義類彊禦多懟流言以對寇",
+        "sourceContext": "義類彊禦多懟流言以對冦",
+        "file": "KR1c0009_018.txt",
+        "page": "KR1c0009_SBCK_018-2a"
+      }
+    },
+    {
+      "source": "媿",
+      "body": "愧",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "大雅・蕩之什・抑",
+        "bodyContext": "不遐有愆相在爾室尚不愧",
+        "sourceContext": "不遐有愆相在爾室尚不媿",
+        "file": "KR1c0009_018.txt",
+        "page": "KR1c0009_SBCK_018-7b"
+      }
+    },
+    {
+      "source": "㓕",
+      "body": "滅",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "大雅・蕩之什・桑柔",
+        "bodyContext": "維寶代食維好天降喪亂滅",
+        "sourceContext": "維寶代食維好天降喪亂㓕",
+        "file": "KR1c0009_018.txt",
+        "page": "KR1c0009_SBCK_018-13b"
+      }
+    },
+    {
+      "source": "冡",
+      "body": "冢",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "大雅・蕩之什・雲漢",
+        "bodyContext": "散無友紀鞫哉庶正疚哉冢",
+        "sourceContext": "散無友紀鞫哉庶正疚哉冡",
+        "file": "KR1c0009_018.txt",
+        "page": "KR1c0009_SBCK_018-20b"
+      }
+    },
+    {
+      "source": "𥙷",
+      "body": "補",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "大雅・蕩之什・烝民",
+        "bodyContext": "助之袞職有闕維仲山甫補",
+        "sourceContext": "助之袞職有闕維仲山甫𥙷",
+        "file": "KR1c0009_018.txt",
+        "page": "KR1c0009_SBCK_018-28a"
+      }
+    },
+    {
+      "source": "貃",
+      "body": "貊",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "大雅・蕩之什・韓奕",
+        "bodyContext": "時百蠻王錫韓侯其追其貊",
+        "sourceContext": "時百蠻王錫韓矦其追其貃",
+        "file": "KR1c0009_018.txt",
+        "page": "KR1c0009_SBCK_018-32a"
+      }
+    },
+    {
+      "source": "瓉",
+      "body": "瓚",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "大雅・蕩之什・江漢",
+        "bodyContext": "敏戎公用錫爾祉釐爾圭瓚",
+        "sourceContext": "敏戎公用錫爾祉釐爾圭瓉",
+        "file": "KR1c0009_018.txt",
+        "page": "KR1c0009_SBCK_018-33b"
+      }
+    },
+    {
+      "source": "愽",
+      "body": "博",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "魯頌・泮水",
+        "bodyContext": "弓其觩束矢其搜戎車孔博",
+        "sourceContext": "弓其觩束矢其搜戎車孔愽",
+        "file": "KR1c0009_020.txt",
+        "page": "KR1c0009_SBCK_020-6b"
+      }
+    },
+    {
+      "source": "纉",
+      "body": "纘",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "魯頌・閟宮",
+        "bodyContext": "有黍有稻有秬奄有下土纘",
+        "sourceContext": "有黍有稻有秬奄有下土纉",
+        "file": "KR1c0009_020.txt",
+        "page": "KR1c0009_SBCK_020-7b"
+      }
+    },
+    {
+      "source": "𡵨",
+      "body": "岐",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "魯頌・閟宮",
+        "bodyContext": "緒后稷之孫實維大王居岐",
+        "sourceContext": "緒后稷之孫實維大王居𡵨",
+        "file": "KR1c0009_020.txt",
+        "page": "KR1c0009_SBCK_020-7b"
+      }
+    },
+    {
+      "source": "啇",
+      "body": "商",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "魯頌・閟宮",
+        "bodyContext": "野無貳無虞上帝臨女敦商",
+        "sourceContext": "野無貳無虞上帝臨女敦啇",
+        "file": "KR1c0009_020.txt",
+        "page": "KR1c0009_SBCK_020-8a"
+      }
+    },
+    {
+      "source": "犠",
+      "body": "犧",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "魯頌・閟宮",
+        "bodyContext": "皇后帝皇祖后稷享以騂犧",
+        "sourceContext": "皇后帝皇祖后稷享以騂犠",
+        "file": "KR1c0009_020.txt",
+        "page": "KR1c0009_SBCK_020-8b"
+      }
+    },
+    {
+      "source": "㝷",
+      "body": "尋",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "魯頌・閟宮",
+        "bodyContext": "松新甫之柏是斷是度是尋",
+        "sourceContext": "松新甫之柏是斷是度是㝷",
+        "file": "KR1c0009_020.txt",
+        "page": "KR1c0009_SBCK_020-12b"
+      }
+    },
+    {
+      "source": "觽",
+      "body": "觿",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "衛風・芄蘭",
+        "bodyContext": "芄蘭之支童子佩觿雖則佩",
+        "sourceContext": "芄蘭之支童子佩觽雖則佩",
+        "file": "KR1c0009_003.txt",
+        "page": "KR1c0009_SBCK_003-24a"
+      }
+    },
+    {
+      "source": "䦧",
+      "body": "鬩",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "小雅・鹿鳴之什・常棣",
+        "bodyContext": "有良朋況也永歎兄弟鬩于",
+        "sourceContext": "有良朋況也永歎兄弟䦧于",
+        "file": "KR1c0009_009.txt",
+        "page": "KR1c0009_SBCK_009-8a"
+      }
+    },
+    {
+      "source": "靑",
+      "body": "青",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "小雅・桑扈之什・青蠅",
+        "bodyContext": "營營青蠅止于樊豈弟君子",
+        "sourceContext": "營營靑蠅止于樊豈弟君子",
+        "file": "KR1c0009_014.txt",
+        "page": "KR1c0009_SBCK_014-6b"
+      }
+    },
+    {
+      "source": "貟",
+      "body": "員",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "商頌・玄鳥",
+        "bodyContext": "海四海來假來假祁祁景員",
+        "sourceContext": "海四海來假來假祁祁景貟",
+        "file": "KR1c0009_020.txt",
+        "page": "KR1c0009_SBCK_020-18a"
+      }
+    },
+    {
+      "source": "僴",
+      "body": "僩",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "衛風・淇奧",
+        "bodyContext": "如切如磋如琢如磨瑟兮僩",
+        "sourceContext": "如切如磋如琢如磨瑟兮僴",
+        "file": "KR1c0009_003.txt",
+        "page": "KR1c0009_SBCK_003-14a"
+      }
+    },
+    {
+      "source": "蓻",
+      "body": "蓺",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "齊風・南山",
+        "bodyContext": "庸止既曰庸止曷又從止蓺",
+        "sourceContext": "庸止旣曰庸止曷又從止蓻",
+        "file": "KR1c0009_005.txt",
+        "page": "KR1c0009_SBCK_005-5b"
+      }
+    },
+    {
+      "source": "户",
+      "body": "戶",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "豳風・七月",
+        "bodyContext": "我牀下穹窒熏鼠塞向墐戶",
+        "sourceContext": "我牀下穹窒熏鼠塞向墐户",
+        "file": "KR1c0009_008.txt",
+        "page": "KR1c0009_SBCK_008-5b"
+      }
+    },
+    {
+      "source": "鬰",
+      "body": "鬱",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "豳風・七月",
+        "bodyContext": "入此室處六月食鬱及薁七",
+        "sourceContext": "入此室處六月食鬰及薁七",
+        "file": "KR1c0009_008.txt",
+        "page": "KR1c0009_SBCK_008-6a"
+      }
+    },
+    {
+      "source": "彦",
+      "body": "彥",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "鄭風・羔裘",
+        "bodyContext": "三英粲兮彼其之子邦之彥",
+        "sourceContext": "三英粲兮彼其之子邦之彦",
+        "file": "KR1c0009_004.txt",
+        "page": "KR1c0009_SBCK_004-18b"
+      }
+    },
+    {
+      "source": "没",
+      "body": "沒",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "小雅・都人士之什・漸漸之石",
+        "bodyContext": "維其卒矣山川悠遠曷其沒",
+        "sourceContext": "維其卒矣山川悠遠曷其没",
+        "file": "KR1c0009_015.txt",
+        "page": "KR1c0009_SBCK_015-9b"
+      }
+    },
+    {
+      "source": "娯",
+      "body": "娛",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "鄭風・出其東門",
+        "bodyContext": "我思且縞衣茹藘聊可與娛",
+        "sourceContext": "我思且縞衣茹藘聊可與娯",
+        "file": "KR1c0009_004.txt",
+        "page": "KR1c0009_SBCK_004-27b"
+      }
+    },
+    {
+      "source": "廐",
+      "body": "廄",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "小雅・桑扈之什・鴛鴦",
+        "bodyContext": "馬在廄摧之秣之君子萬年",
+        "sourceContext": "馬在廐摧之秣之君子萬年",
+        "file": "KR1c0009_014.txt",
+        "page": "KR1c0009_SBCK_014-2b"
+      }
+    },
+    {
+      "source": "氷",
+      "body": "冰",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "邶風・匏有苦葉",
+        "bodyContext": "始旦士如歸妻迨冰未泮招",
+        "sourceContext": "始旦士如歸妻迨氷未泮招",
+        "file": "KR1c0009_002.txt",
+        "page": "KR1c0009_SBCK_002-12b"
+      }
+    },
+    {
+      "source": "𥘉",
+      "body": "初",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "小雅・小旻之什・巧言",
+        "bodyContext": "無辜亂之初生僭始既涵亂",
+        "sourceContext": "無辜亂之𥘉生僭始旣涵亂",
+        "file": "KR1c0009_012.txt",
+        "page": "KR1c0009_SBCK_012-11a"
+      }
+    },
+    {
+      "source": "遡",
+      "body": "溯",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "大雅・生民之什・公劉",
+        "bodyContext": "理爰眾爰有夾其皇澗溯其",
+        "sourceContext": "理爰眾爰有夾其皇㵎遡其",
+        "file": "KR1c0009_017.txt",
+        "page": "KR1c0009_SBCK_017-18a"
+      }
+    },
+    {
+      "source": "軧",
+      "body": "軝",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "商頌・烈祖",
+        "bodyContext": "耇無疆約軝錯衡八鸞鶬鶬",
+        "sourceContext": "耇無疆約軧錯衡八鸞鶬鶬",
+        "file": "KR1c0009_020.txt",
+        "page": "KR1c0009_SBCK_020-16b"
+      }
+    },
+    {
+      "source": "郷",
+      "body": "鄉",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "商頌・殷武",
+        "bodyContext": "楚居國南鄉昔有成湯自彼",
+        "sourceContext": "楚居國南郷昔有成湯自彼",
+        "file": "KR1c0009_020.txt",
+        "page": "KR1c0009_SBCK_020-22a"
+      }
+    },
+    {
+      "source": "毎",
+      "body": "每",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "小雅・鹿鳴之什・常棣",
+        "bodyContext": "兄弟急難每有良朋況也永",
+        "sourceContext": "兄弟急難毎有良朋況也永",
+        "file": "KR1c0009_009.txt",
+        "page": "KR1c0009_SBCK_009-8a"
+      }
+    },
+    {
+      "source": "畨",
+      "body": "番",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "小雅・祈父之什・十月之交",
+        "bodyContext": "莫懲皇父卿士番維司徒家",
+        "sourceContext": "莫懲皇父卿士畨維司徒家",
+        "file": "KR1c0009_011.txt",
+        "page": "KR1c0009_SBCK_011-24b"
+      }
+    },
+    {
+      "source": "隂",
+      "body": "陰",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "大雅・生民之什・公劉",
+        "bodyContext": "岡相其陰陽觀其流泉其軍",
+        "sourceContext": "岡相其隂陽觀其流泉其軍",
+        "file": "KR1c0009_017.txt",
+        "page": "KR1c0009_SBCK_017-17a"
+      }
+    },
+    {
+      "source": "淸",
+      "body": "清",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "鄭風・清人",
+        "bodyContext": "翔清人在消駟介麃麃二矛",
+        "sourceContext": "翔淸人在消駟介麃麃二矛",
+        "file": "KR1c0009_004.txt",
+        "page": "KR1c0009_SBCK_004-17a"
+      }
+    },
+    {
+      "source": "㦸",
+      "body": "戟",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "秦風・無衣",
+        "bodyContext": "我矛戟與子偕作豈曰無衣",
+        "sourceContext": "我矛㦸與子偕作豈曰無衣",
+        "file": "KR1c0009_006.txt",
+        "page": "KR1c0009_SBCK_006-22b"
+      }
+    },
+    {
+      "source": "俣",
+      "body": "俁",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "邶風・簡兮",
+        "bodyContext": "日之方中在前上處碩人俁",
+        "sourceContext": "日之方中在前上處碩人俣",
+        "file": "KR1c0009_002.txt",
+        "page": "KR1c0009_SBCK_002-18b"
+      }
+    },
+    {
+      "source": "讁",
+      "body": "謫",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "邶風・北門",
+        "bodyContext": "益我我入自外室人交徧謫",
+        "sourceContext": "益我我入自外室人交徧讁",
+        "file": "KR1c0009_002.txt",
+        "page": "KR1c0009_SBCK_002-22b"
+      }
+    },
+    {
+      "source": "凄",
+      "body": "淒",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "鄭風・風雨",
+        "bodyContext": "淒雞鳴喈喈既見君子云胡",
+        "sourceContext": "凄雞鳴喈喈旣見君子云胡",
+        "file": "KR1c0009_004.txt",
+        "page": "KR1c0009_SBCK_004-25a"
+      }
+    },
+    {
+      "source": "謡",
+      "body": "謠",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "魏風・園有桃",
+        "bodyContext": "實之殽心之憂矣我歌且謠",
+        "sourceContext": "實之殽心之憂矣我歌且謡",
+        "file": "KR1c0009_005.txt",
+        "page": "KR1c0009_SBCK_005-14a"
+      }
+    },
+    {
+      "source": "葱",
+      "body": "蔥",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "小雅・彤弓之什・采芑",
+        "bodyContext": "服其命服朱芾斯皇有瑲蔥",
+        "sourceContext": "服其命服朱芾斯皇有瑲葱",
+        "file": "KR1c0009_010.txt",
+        "page": "KR1c0009_SBCK_010-7b"
+      }
+    },
+    {
+      "source": "亾",
+      "body": "亡",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "小雅・桑扈之什・角弓",
+        "bodyContext": "斯亡老馬反爲駒不顧其後",
+        "sourceContext": "斯亾老馬反爲駒不顧其後",
+        "file": "KR1c0009_014.txt",
+        "page": "KR1c0009_SBCK_014-14b"
+      }
+    },
+    {
+      "source": "峩",
+      "body": "峨",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "大雅・文王之什・棫樸",
+        "bodyContext": "濟濟辟王左右奉璋奉璋峨",
+        "sourceContext": "濟濟辟王左右奉璋奉璋峩",
+        "file": "KR1c0009_016.txt",
+        "page": "KR1c0009_SBCK_016-16a"
+      }
+    },
+    {
+      "source": "斵",
+      "body": "斲",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "商頌・殷武",
+        "bodyContext": "山松柏丸丸是斷是遷方斲",
+        "sourceContext": "山松柏丸丸是斷是遷方斵",
+        "file": "KR1c0009_020.txt",
+        "page": "KR1c0009_SBCK_020-23a"
+      }
+    },
+    {
+      "source": "㧞",
+      "body": "拔",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "秦風・駟驖",
+        "bodyContext": "拔則獲遊于北園四馬既閑",
+        "sourceContext": "㧞則獲遊于北園四馬旣閑",
+        "file": "KR1c0009_006.txt",
+        "page": "KR1c0009_SBCK_006-14a"
+      }
+    },
+    {
+      "source": "夀",
+      "body": "壽",
+      "basis": "已覆核的字形對應，僅用於正文與注本配對；練習正文及原音注不改字。",
+      "example": {
+        "title": "商頌・烈祖",
+        "bodyContext": "假無言時靡有爭綏我眉壽",
+        "sourceContext": "假無言時靡有爭綏我眉夀",
+        "file": "KR1c0009_020.txt",
+        "page": "KR1c0009_SBCK_020-16a"
+      }
+    }
+  ],
+  "scoped": [
+    {
+      "title": "周南・葛覃",
+      "index": 28,
+      "bodyChar": "旋",
+      "sourceChar": "施",
+      "contextStart": 16,
+      "bodyContext": "集于灌木其鳴喈喈葛之覃兮旋于中谷維葉莫莫是刈是濩爲",
+      "file": "KR1c0009_001.txt",
+      "page": "KR1c0009_SBCK_001-5b",
+      "sourceIndex": 137,
+      "sourceContext": "集于灌木其鳴喈喈葛之覃兮施于中谷維葉莫莫是刈是濩爲",
+      "kind": "edition-text-difference",
+      "basis": "同篇連續二十五字除已列字形及此字外相符；記錄底文差異以恢復旁字配對。差異字本身不承接另一字音注。"
+    },
+    {
+      "title": "邶風・綠衣",
+      "index": 15,
+      "bodyChar": "已",
+      "sourceChar": "巳",
+      "contextStart": 3,
+      "bodyContext": "兮綠衣黃裏心之憂矣曷維其已綠兮衣兮綠衣黃裳心之憂矣",
+      "file": "KR1c0009_002.txt",
+      "page": "KR1c0009_SBCK_002-3b",
+      "sourceIndex": 154,
+      "sourceContext": "兮緑衣黃裏心之憂矣曷維其巳緑兮衣兮緑衣黃裳心之憂矣",
+      "kind": "edition-text-difference",
+      "basis": "同篇連續二十五字除已列字形及此字外相符；記錄底文差異以恢復旁字配對。差異字本身不承接另一字音注。"
+    },
+    {
+      "title": "邶風・匏有苦葉",
+      "index": 37,
+      "bodyChar": "日",
+      "sourceChar": "曰",
+      "contextStart": 25,
+      "bodyContext": "濡軌雉鳴求其牡雝雝鳴鴈旭日始旦士如歸妻迨冰未泮招招",
+      "file": "KR1c0009_002.txt",
+      "page": "KR1c0009_SBCK_002-12b",
+      "sourceIndex": 704,
+      "sourceContext": "濡軌雉鳴求其牡雝雝鳴鴈旭曰始旦士如歸妻迨氷未泮招招",
+      "kind": "edition-text-difference",
+      "basis": "同篇連續二十五字除已列字形及此字外相符；記錄底文差異以恢復旁字配對。差異字本身不承接另一字音注。"
+    },
+    {
+      "title": "邶風・北門",
+      "index": 16,
+      "bodyChar": "已",
+      "sourceChar": "巳",
+      "contextStart": 4,
+      "bodyContext": "憂心殷殷終窶且貧莫知我艱已焉哉天實爲之謂之何哉王事",
+      "file": "KR1c0009_002.txt",
+      "page": "KR1c0009_SBCK_002-22a",
+      "sourceIndex": 1257,
+      "sourceContext": "憂心殷殷終窶且貧莫知我艱巳焉哉天實爲之謂之何哉王事",
+      "kind": "edition-text-difference",
+      "basis": "同篇連續二十五字除已列字形及此字外相符；記錄底文差異以恢復旁字配對。差異字本身不承接另一字音注。"
+    },
+    {
+      "title": "邶風・北門",
+      "index": 47,
+      "bodyChar": "已",
+      "sourceChar": "巳",
+      "contextStart": 35,
+      "bodyContext": "益我我入自外室人交徧謫我已焉哉天實爲之謂之何哉王事",
+      "file": "KR1c0009_002.txt",
+      "page": "KR1c0009_SBCK_002-22b",
+      "sourceIndex": 1288,
+      "sourceContext": "益我我入自外室人交徧讁我巳焉哉天實爲之謂之何哉王事",
+      "kind": "edition-text-difference",
+      "basis": "同篇連續二十五字除已列字形及此字外相符；記錄底文差異以恢復旁字配對。差異字本身不承接另一字音注。"
+    },
+    {
+      "title": "邶風・北門",
+      "index": 78,
+      "bodyChar": "已",
+      "sourceChar": "巳",
+      "contextStart": 64,
+      "bodyContext": "一埤遺我我入自外室人交徧摧我已焉哉天實爲之謂之何哉",
+      "file": "KR1c0009_002.txt",
+      "page": "KR1c0009_SBCK_002-22b",
+      "sourceIndex": 1319,
+      "sourceContext": "一埤遺我我入自外室人交徧摧我巳焉哉天實爲之謂之何哉",
+      "kind": "edition-text-difference",
+      "basis": "同篇連續二十五字除已列字形及此字外相符；記錄底文差異以恢復旁字配對。差異字本身不承接另一字音注。"
+    },
+    {
+      "title": "鄘風・干旄",
+      "index": 22,
+      "bodyChar": "畀",
+      "sourceChar": "卑",
+      "contextStart": 10,
+      "bodyContext": "紕之良馬四之彼姝者子何以畀之孑孑干旟在浚之都素絲組",
+      "file": "KR1c0009_003.txt",
+      "page": "KR1c0009_SBCK_003-10b",
+      "sourceIndex": 608,
+      "sourceContext": "紕之良馬四之彼姝者子何以卑之孑孑干旟在浚之都素絲組",
+      "kind": "edition-text-difference",
+      "basis": "同篇連續二十五字除已列字形及此字外相符；記錄底文差異以恢復旁字配對。差異字本身不承接另一字音注。"
+    },
+    {
+      "title": "衛風・氓",
+      "index": 237,
+      "bodyChar": "已",
+      "sourceChar": "巳",
+      "contextStart": 215,
+      "bodyContext": "泮總角之宴言笑晏晏信誓旦旦不思其反反是不思亦已焉哉",
+      "file": "KR1c0009_003.txt",
+      "page": "KR1c0009_SBCK_003-22b",
+      "sourceIndex": 1297,
+      "sourceContext": "泮緫角之宴言笑晏晏信誓旦旦不思其反反是不思亦巳焉哉",
+      "kind": "edition-text-difference",
+      "basis": "同篇連續二十五字除已列字形及此字外相符；記錄底文差異以恢復旁字配對。差異字本身不承接另一字音注。"
+    },
+    {
+      "title": "王風・采葛",
+      "index": 17,
+      "bodyChar": "日",
+      "sourceChar": "曰",
+      "contextStart": 5,
+      "bodyContext": "日不見如三月兮彼采蕭兮一日不見如三秋兮彼采艾兮一日",
+      "file": "KR1c0009_004.txt",
+      "page": "KR1c0009_SBCK_004-9b",
+      "sourceIndex": 605,
+      "sourceContext": "日不見如三月兮彼采蕭兮一曰不見如三秋兮彼采艾兮一日",
+      "kind": "edition-text-difference",
+      "basis": "同篇連續二十五字除已列字形及此字外相符；記錄底文差異以恢復旁字配對。差異字本身不承接另一字音注。"
+    },
+    {
+      "title": "王風・大車",
+      "index": 32,
+      "bodyChar": "穀",
+      "sourceChar": "榖",
+      "contextStart": 20,
+      "bodyContext": "毳衣如璊豈不爾思畏子不奔穀則異室死則同穴謂予不信有",
+      "file": "KR1c0009_004.txt",
+      "page": "KR1c0009_SBCK_004-10b",
+      "sourceIndex": 663,
+      "sourceContext": "毳衣如璊豈不爾思畏子不奔榖則異室死則同穴謂予不信有",
+      "kind": "edition-text-difference",
+      "basis": "同篇連續二十五字除已列字形及此字外相符；記錄底文差異以恢復旁字配對。差異字本身不承接另一字音注。"
+    },
+    {
+      "title": "鄭風・風雨",
+      "index": 39,
+      "bodyChar": "已",
+      "sourceChar": "巳",
+      "contextStart": 23,
+      "bodyContext": "膠既見君子云胡不瘳風雨如晦雞鳴不已既見君子云胡不喜",
+      "file": "KR1c0009_004.txt",
+      "page": "KR1c0009_SBCK_004-25b",
+      "sourceIndex": 1716,
+      "sourceContext": "膠旣見君子云胡不瘳風雨如晦雞鳴不巳旣見君子云胡不喜",
+      "kind": "edition-text-difference",
+      "basis": "同篇連續二十五字除已列字形及此字外相符；記錄底文差異以恢復旁字配對。差異字本身不承接另一字音注。"
+    },
+    {
+      "title": "齊風・東方之日",
+      "index": 3,
+      "bodyChar": "日",
+      "sourceChar": "曰",
+      "contextStart": 0,
+      "bodyContext": "東方之日兮彼姝者子在我室兮在我室兮履我即兮東方之月",
+      "file": "KR1c0009_005.txt",
+      "page": "KR1c0009_SBCK_005-3b",
+      "sourceIndex": 211,
+      "sourceContext": "東方之曰兮彼姝者子在我室兮在我室兮履我即兮東方之月",
+      "kind": "edition-text-difference",
+      "basis": "同篇連續二十五字除已列字形及此字外相符；記錄底文差異以恢復旁字配對。差異字本身不承接另一字音注。"
+    },
+    {
+      "title": "魏風・陟岵",
+      "index": 18,
+      "bodyChar": "已",
+      "sourceChar": "巳",
+      "contextStart": 6,
+      "bodyContext": "父兮父曰嗟予子行役夙夜無已上慎旃哉猶來無止陟彼屺兮",
+      "file": "KR1c0009_005.txt",
+      "page": "KR1c0009_SBCK_005-15a",
+      "sourceIndex": 955,
+      "sourceContext": "父兮父曰嗟予子行役夙夜無巳上愼旃哉猶來無止陟彼屺兮",
+      "kind": "edition-text-difference",
+      "basis": "同篇連續二十五字除已列字形及此字外相符；記錄底文差異以恢復旁字配對。差異字本身不承接另一字音注。"
+    },
+    {
+      "title": "唐風・蟋蟀",
+      "index": 17,
+      "bodyChar": "已",
+      "sourceChar": "巳",
+      "contextStart": 5,
+      "bodyContext": "聿其莫今我不樂日月其除無已大康職思其居好樂無荒良士",
+      "file": "KR1c0009_006.txt",
+      "page": "KR1c0009_SBCK_006-1b",
+      "sourceIndex": 29,
+      "sourceContext": "聿其莫今我不樂日月其除無巳大康職思其居好樂無荒良士",
+      "kind": "edition-text-difference",
+      "basis": "同篇連續二十五字除已列字形及此字外相符；記錄底文差異以恢復旁字配對。差異字本身不承接另一字音注。"
+    },
+    {
+      "title": "唐風・蟋蟀",
+      "index": 49,
+      "bodyChar": "已",
+      "sourceChar": "巳",
+      "contextStart": 37,
+      "bodyContext": "聿其逝今我不樂日月其邁無已大康職思其外好樂無荒良士",
+      "file": "KR1c0009_006.txt",
+      "page": "KR1c0009_SBCK_006-2a",
+      "sourceIndex": 61,
+      "sourceContext": "聿其逝今我不樂日月其邁無巳大康職思其外好樂無荒良士",
+      "kind": "edition-text-difference",
+      "basis": "同篇連續二十五字除已列字形及此字外相符；記錄底文差異以恢復旁字配對。差異字本身不承接另一字音注。"
+    },
+    {
+      "title": "唐風・蟋蟀",
+      "index": 81,
+      "bodyChar": "已",
+      "sourceChar": "巳",
+      "contextStart": 69,
+      "bodyContext": "車其休今我不樂日月其慆無已大康職思其憂好樂無荒良士",
+      "file": "KR1c0009_006.txt",
+      "page": "KR1c0009_SBCK_006-2b",
+      "sourceIndex": 93,
+      "sourceContext": "車其休今我不樂日月其慆無巳大康職思其憂好樂無荒良士",
+      "kind": "edition-text-difference",
+      "basis": "同篇連續二十五字除已列字形及此字外相符；記錄底文差異以恢復旁字配對。差異字本身不承接另一字音注。"
+    },
+    {
+      "title": "唐風・鴇羽",
+      "index": 5,
+      "bodyChar": "于",
+      "sourceChar": "干",
+      "contextStart": 0,
+      "bodyContext": "肅肅鴇羽集于苞栩王事靡盬不能蓺稷黍父母何怙悠悠蒼天",
+      "file": "KR1c0009_006.txt",
+      "page": "KR1c0009_SBCK_006-7b",
+      "sourceIndex": 549,
+      "sourceContext": "肅肅鴇羽集干苞栩王事靡盬不能蓺稷黍父母何怙悠悠蒼天",
+      "kind": "edition-text-difference",
+      "basis": "同篇連續二十五字除已列字形及此字外相符；記錄底文差異以恢復旁字配對。差異字本身不承接另一字音注。"
+    },
+    {
+      "title": "唐風・鴇羽",
+      "index": 74,
+      "bodyChar": "粱",
+      "sourceChar": "梁",
+      "contextStart": 62,
+      "bodyContext": "集于苞桑王事靡盬不能蓺稻粱父母何嘗悠悠蒼天曷其有常",
+      "file": "KR1c0009_006.txt",
+      "page": "KR1c0009_SBCK_006-8b",
+      "sourceIndex": 618,
+      "sourceContext": "集于苞桑王事靡盬不能蓺稻梁父母何嘗悠悠蒼天曷其有常",
+      "kind": "edition-text-difference",
+      "basis": "同篇連續二十五字除已列字形及此字外相符；記錄底文差異以恢復旁字配對。差異字本身不承接另一字音注。"
+    },
+    {
+      "title": "秦風・小戎",
+      "index": 16,
+      "bodyChar": "文",
+      "sourceChar": "丈",
+      "contextStart": 4,
+      "bodyContext": "五楘梁輈游環脅驅陰靷鋈續文茵暢轂駕我騏馵言念君子溫",
+      "file": "KR1c0009_006.txt",
+      "page": "KR1c0009_SBCK_006-14b",
+      "sourceIndex": 1076,
+      "sourceContext": "五楘梁輈游環脅驅陰靷鋈續丈茵暢轂駕我騏馵言念君子温",
+      "kind": "edition-text-difference",
+      "basis": "同篇連續二十五字除已列字形及此字外相符；記錄底文差異以恢復旁字配對。差異字本身不承接另一字音注。"
+    },
+    {
+      "title": "秦風・蒹葭",
+      "index": 4,
+      "bodyChar": "白",
+      "sourceChar": "曰",
+      "contextStart": 0,
+      "bodyContext": "蒹葭蒼蒼白露爲霜所謂伊人在水一方遡洄從之道阻且長遡",
+      "file": "KR1c0009_006.txt",
+      "page": "KR1c0009_SBCK_006-17b",
+      "sourceIndex": 1192,
+      "sourceContext": "蒹葭蒼蒼曰露爲霜所謂伊人在水一方遡洄從之道阻且長遡",
+      "kind": "edition-text-difference",
+      "basis": "同篇連續二十五字除已列字形及此字外相符；記錄底文差異以恢復旁字配對。差異字本身不承接另一字音注。"
+    },
+    {
+      "title": "秦風・蒹葭",
+      "index": 73,
+      "bodyChar": "已",
+      "sourceChar": "巳",
+      "contextStart": 61,
+      "bodyContext": "宛在水中坻蒹葭采采白露未已所謂伊人在水之涘遡洄從之",
+      "file": "KR1c0009_006.txt",
+      "page": "KR1c0009_SBCK_006-18a",
+      "sourceIndex": 1261,
+      "sourceContext": "宛在水中坻蒹葭采采白露未巳所謂伊人在水之涘遡洄從之",
+      "kind": "edition-text-difference",
+      "basis": "同篇連續二十五字除已列字形及此字外相符；記錄底文差異以恢復旁字配對。差異字本身不承接另一字音注。"
+    },
+    {
+      "title": "秦風・無衣",
+      "index": 32,
+      "bodyChar": "修",
+      "sourceChar": "脩",
+      "contextStart": 20,
+      "bodyContext": "豈曰無衣與子同澤王于興師修我矛戟與子偕作豈曰無衣與",
+      "file": "KR1c0009_006.txt",
+      "page": "KR1c0009_SBCK_006-22b",
+      "sourceIndex": 1606,
+      "sourceContext": "豈曰無衣與子同澤王于興師脩我矛㦸與子偕作豈曰無衣與",
+      "kind": "edition-text-difference",
+      "basis": "同篇連續二十五字除已列字形及此字外相符；記錄底文差異以恢復旁字配對。差異字本身不承接另一字音注。"
+    },
+    {
+      "title": "秦風・無衣",
+      "index": 52,
+      "bodyChar": "修",
+      "sourceChar": "脩",
+      "contextStart": 35,
+      "bodyContext": "戟與子偕作豈曰無衣與子同裳王于興師修我甲兵與子偕行",
+      "file": "KR1c0009_006.txt",
+      "page": "KR1c0009_SBCK_006-23a",
+      "sourceIndex": 1626,
+      "sourceContext": "㦸與子偕作豈曰無衣與子同裳王于興師脩我甲兵與子偕行",
+      "kind": "edition-text-difference",
+      "basis": "同篇連續二十五字除已列字形及此字外相符；記錄底文差異以恢復旁字配對。差異字本身不承接另一字音注。"
+    },
+    {
+      "title": "陳風・墓門",
+      "index": 19,
+      "bodyChar": "已",
+      "sourceChar": "巳",
+      "contextStart": 7,
+      "bodyContext": "之夫也不良國人知之知而不已誰昔然矣墓門有梅有鴞萃止",
+      "file": "KR1c0009_007.txt",
+      "page": "KR1c0009_SBCK_007-4b",
+      "sourceIndex": 298,
+      "sourceContext": "之夫也不良國人知之知而不巳誰昔然矣墓門有梅有鴞萃止",
+      "kind": "edition-text-difference",
+      "basis": "同篇連續二十五字除已列字形及此字外相符；記錄底文差異以恢復旁字配對。差異字本身不承接另一字音注。"
+    },
+    {
+      "title": "豳風・七月",
+      "index": 33,
+      "bodyChar": "日",
+      "sourceChar": "曰",
+      "contextStart": 21,
+      "bodyContext": "褐何以卒歲三之日于耜四之日舉趾同我婦子饁彼南畝田畯",
+      "file": "KR1c0009_008.txt",
+      "page": "KR1c0009_SBCK_008-1b",
+      "sourceIndex": 46,
+      "sourceContext": "褐何以卒歲三之日于耜四之曰舉趾同我婦子饁彼南畒田畯",
+      "kind": "edition-text-difference",
+      "basis": "同篇連續二十五字除已列字形及此字外相符；記錄底文差異以恢復旁字配對。差異字本身不承接另一字音注。"
+    },
+    {
+      "title": "豳風・七月",
+      "index": 57,
+      "bodyChar": "日",
+      "sourceChar": "曰",
+      "contextStart": 45,
+      "bodyContext": "畯至喜七月流火九月授衣春日載陽有鳴倉庚女執懿筐遵彼",
+      "file": "KR1c0009_008.txt",
+      "page": "KR1c0009_SBCK_008-2b",
+      "sourceIndex": 70,
+      "sourceContext": "畯至喜七月流火九月授衣春曰載陽有鳴倉庚女執懿筐遵彼",
+      "kind": "edition-text-difference",
+      "basis": "同篇連續二十五字除已列字形及此字外相符；記錄底文差異以恢復旁字配對。差異字本身不承接另一字音注。"
+    },
+    {
+      "title": "豳風・七月",
+      "index": 77,
+      "bodyChar": "日",
+      "sourceChar": "曰",
+      "contextStart": 65,
+      "bodyContext": "執懿筐遵彼微行爰求柔桑春日遲遲采蘩祁祁女心傷悲殆及",
+      "file": "KR1c0009_008.txt",
+      "page": "KR1c0009_SBCK_008-3a",
+      "sourceIndex": 90,
+      "sourceContext": "執懿筐遵彼微行爰求柔桑春曰遲遲采蘩祁祁女心傷悲殆及",
+      "kind": "edition-text-difference",
+      "basis": "同篇連續二十五字除已列字形及此字外相符；記錄底文差異以恢復旁字配對。差異字本身不承接另一字音注。"
+    },
+    {
+      "title": "豳風・七月",
+      "index": 287,
+      "bodyChar": "場",
+      "sourceChar": "埸",
+      "contextStart": 275,
+      "bodyContext": "苴采荼薪樗食我農夫九月築場圃十月納禾稼黍稷重穋禾麻",
+      "file": "KR1c0009_008.txt",
+      "page": "KR1c0009_SBCK_008-6b",
+      "sourceIndex": 300,
+      "sourceContext": "苴采荼薪樗食我農夫九月築埸圃十月納禾稼黍稷重穋禾麻",
+      "kind": "edition-text-difference",
+      "basis": "同篇連續二十五字除已列字形及此字外相符；記錄底文差異以恢復旁字配對。差異字本身不承接另一字音注。"
+    },
+    {
+      "title": "豳風・七月",
+      "index": 370,
+      "bodyChar": "羊",
+      "sourceChar": "芉",
+      "contextStart": 358,
+      "bodyContext": "霜十月滌場朋酒斯饗曰殺羔羊躋彼公堂稱彼兕觥萬壽無疆",
+      "file": "KR1c0009_008.txt",
+      "page": "KR1c0009_SBCK_008-7b",
+      "sourceIndex": 383,
+      "sourceContext": "霜十月滌場朋酒斯饗曰殺羔芉躋彼公堂稱彼兕觥萬壽無疆",
+      "kind": "edition-text-difference",
+      "basis": "同篇連續二十五字除已列字形及此字外相符；記錄底文差異以恢復旁字配對。差異字本身不承接另一字音注。"
+    },
+    {
+      "title": "小雅・鹿鳴之什・天保",
+      "index": 109,
+      "bodyChar": "日",
+      "sourceChar": "曰",
+      "contextStart": 97,
+      "bodyContext": "神之弔矣詒爾多福民之質矣日用飲食羣黎百姓徧爲爾德如",
+      "file": "KR1c0009_009.txt",
+      "page": "KR1c0009_SBCK_009-14a",
+      "sourceIndex": 715,
+      "sourceContext": "神之弔矣詒爾多福民之質矣曰用飮食羣黎百姓徧爲爾德如",
+      "kind": "edition-text-difference",
+      "basis": "同篇連續二十五字除已列字形及此字外相符；記錄底文差異以恢復旁字配對。差異字本身不承接另一字音注。"
+    },
+    {
+      "title": "小雅・白華之什・南山有臺",
+      "index": 71,
+      "bodyChar": "已",
+      "sourceChar": "巳",
+      "contextStart": 59,
+      "bodyContext": "子民之父母樂只君子德音不已南山有栲北山有杻樂只君子",
+      "file": "KR1c0009_009.txt",
+      "page": "KR1c0009_SBCK_009-26b",
+      "sourceIndex": 1545,
+      "sourceContext": "子民之父母樂只君子德音不巳南山有栲北山有杻樂只君子",
+      "kind": "edition-text-difference",
+      "basis": "同篇連續二十五字除已列字形及此字外相符；記錄底文差異以恢復旁字配對。差異字本身不承接另一字音注。"
+    },
+    {
+      "title": "小雅・彤弓之什・彤弓",
+      "index": 16,
+      "bodyChar": "鐘",
+      "sourceChar": "鍾",
+      "contextStart": 4,
+      "bodyContext": "受言藏之我有嘉賓中心貺之鐘鼓既設一朝饗之彤弓弨兮受",
+      "file": "KR1c0009_010.txt",
+      "page": "KR1c0009_SBCK_010-1a",
+      "sourceIndex": 31,
+      "sourceContext": "受言藏之我有嘉賓中心貺之鍾鼓旣設一朝饗之彤弓弨兮受",
+      "kind": "edition-text-difference",
+      "basis": "同篇連續二十五字除已列字形及此字外相符；記錄底文差異以恢復旁字配對。差異字本身不承接另一字音注。"
+    },
+    {
+      "title": "小雅・彤弓之什・彤弓",
+      "index": 40,
+      "bodyChar": "鐘",
+      "sourceChar": "鍾",
+      "contextStart": 28,
+      "bodyContext": "受言載之我有嘉賓中心喜之鐘鼓既設一朝右之彤弓弨兮受",
+      "file": "KR1c0009_010.txt",
+      "page": "KR1c0009_SBCK_010-1b",
+      "sourceIndex": 55,
+      "sourceContext": "受言載之我有嘉賓中心喜之鍾鼓旣設一朝右之彤弓弨兮受",
+      "kind": "edition-text-difference",
+      "basis": "同篇連續二十五字除已列字形及此字外相符；記錄底文差異以恢復旁字配對。差異字本身不承接另一字音注。"
+    },
+    {
+      "title": "小雅・彤弓之什・彤弓",
+      "index": 64,
+      "bodyChar": "鐘",
+      "sourceChar": "鍾",
+      "contextStart": 47,
+      "bodyContext": "之彤弓弨兮受言櫜之我有嘉賓中心好之鐘鼓既設一朝醻之",
+      "file": "KR1c0009_010.txt",
+      "page": "KR1c0009_SBCK_010-2a",
+      "sourceIndex": 79,
+      "sourceContext": "之彤弓弨兮受言櫜之我有嘉賓中心好之鍾鼓旣設一朝醻之",
+      "kind": "edition-text-difference",
+      "basis": "同篇連續二十五字除已列字形及此字外相符；記錄底文差異以恢復旁字配對。差異字本身不承接另一字音注。"
+    },
+    {
+      "title": "小雅・彤弓之什・鶴鳴",
+      "index": 65,
+      "bodyChar": "榖",
+      "sourceChar": "穀",
+      "contextStart": 49,
+      "bodyContext": "渚或潛在淵樂彼之園爰有樹檀其下維榖它山之石可以攻玉",
+      "file": "KR1c0009_010.txt",
+      "page": "KR1c0009_SBCK_010-17b",
+      "sourceIndex": 1112,
+      "sourceContext": "渚或濳在淵樂彼之園爰有樹檀其下維穀它山之石可以攻玉",
+      "kind": "edition-text-difference",
+      "basis": "同篇連續二十五字除已列字形及此字外相符；記錄底文差異以恢復旁字配對。差異字本身不承接另一字音注。"
+    },
+    {
+      "title": "小雅・祈父之什・祈父",
+      "index": 30,
+      "bodyChar": "厎",
+      "sourceChar": "底",
+      "contextStart": 18,
+      "bodyContext": "予王之爪士胡轉予于恤靡所厎止祈父亶不聰胡轉予于恤有",
+      "file": "KR1c0009_011.txt",
+      "page": "KR1c0009_SBCK_011-1b",
+      "sourceIndex": 46,
+      "sourceContext": "予王之爪士胡轉予于恤靡所底止祈父亶不聦胡轉予于恤有",
+      "kind": "edition-text-difference",
+      "basis": "同篇連續二十五字除已列字形及此字外相符；記錄底文差異以恢復旁字配對。差異字本身不承接另一字音注。"
+    },
+    {
+      "title": "小雅・祈父之什・黃鳥",
+      "index": 19,
+      "bodyChar": "穀",
+      "sourceChar": "榖",
+      "contextStart": 7,
+      "bodyContext": "榖無啄我粟此邦之人不我肯穀言旋言歸復我邦族黃鳥黃鳥",
+      "file": "KR1c0009_011.txt",
+      "page": "KR1c0009_SBCK_011-3b",
+      "sourceIndex": 193,
+      "sourceContext": "榖無啄我粟此邦之人不我肯榖言旋言歸復我邦族黃鳥黃鳥",
+      "kind": "edition-text-difference",
+      "basis": "同篇連續二十五字除已列字形及此字外相符；記錄底文差異以恢復旁字配對。差異字本身不承接另一字音注。"
+    },
+    {
+      "title": "小雅・祈父之什・我行其野",
+      "index": 69,
+      "bodyChar": "祇",
+      "sourceChar": "祗",
+      "contextStart": 47,
+      "bodyContext": "復我行其野言采其葍不思舊姻求爾新特成不以富亦祇以異",
+      "file": "KR1c0009_011.txt",
+      "page": "KR1c0009_SBCK_011-5a",
+      "sourceIndex": 334,
+      "sourceContext": "復我行其野言采其葍不思舊姻求爾新特成不以富亦祗以異",
+      "kind": "edition-text-difference",
+      "basis": "同篇連續二十五字除已列字形及此字外相符；記錄底文差異以恢復旁字配對。差異字本身不承接另一字音注。"
+    },
+    {
+      "title": "小雅・祈父之什・無羊",
+      "index": 19,
+      "bodyChar": "羊",
+      "sourceChar": "芉",
+      "contextStart": 7,
+      "bodyContext": "維羣誰謂爾無牛九十其犉爾羊來思其角濈濈爾牛來思其耳",
+      "file": "KR1c0009_011.txt",
+      "page": "KR1c0009_SBCK_011-10a",
+      "sourceIndex": 593,
+      "sourceContext": "維羣誰謂爾無牛九十其犉爾芉來思其角濈濈爾牛來思其耳",
+      "kind": "edition-text-difference",
+      "basis": "同篇連續二十五字除已列字形及此字外相符；記錄底文差異以恢復旁字配對。差異字本身不承接另一字音注。"
+    },
+    {
+      "title": "小雅・祈父之什・無羊",
+      "index": 79,
+      "bodyChar": "羊",
+      "sourceChar": "芉",
+      "contextStart": 67,
+      "bodyContext": "牧來思以薪以蒸以雌以雄爾羊來思矜矜兢兢不騫不崩麾之",
+      "file": "KR1c0009_011.txt",
+      "page": "KR1c0009_SBCK_011-11a",
+      "sourceIndex": 653,
+      "sourceContext": "牧來思以薪以蒸以雌以雄爾芉來思矜矜兢兢不騫不崩麾之",
+      "kind": "edition-text-difference",
+      "basis": "同篇連續二十五字除已列字形及此字外相符；記錄底文差異以恢復旁字配對。差異字本身不承接另一字音注。"
+    },
+    {
+      "title": "小雅・祈父之什・節南山",
+      "index": 116,
+      "bodyChar": "已",
+      "sourceChar": "巳",
+      "contextStart": 104,
+      "bodyContext": "信弗問弗仕勿罔君子式夷式已無小人殆瑣瑣姻亞則無膴仕",
+      "file": "KR1c0009_011.txt",
+      "page": "KR1c0009_SBCK_011-13a",
+      "sourceIndex": 827,
+      "sourceContext": "信弗問弗仕勿罔君子式夷式巳無小人殆瑣瑣姻亞則無膴仕",
+      "kind": "edition-text-difference",
+      "basis": "同篇連續二十五字除已列字形及此字外相符；記錄底文差異以恢復旁字配對。差異字本身不承接另一字音注。"
+    },
+    {
+      "title": "小雅・祈父之什・正月",
+      "index": 364,
+      "bodyChar": "穀",
+      "sourceChar": "榖",
+      "contextStart": 352,
+      "bodyContext": "心慇慇佌佌彼有屋蔌蔌方有穀民今之無祿天夭是椓哿矣富",
+      "file": "KR1c0009_011.txt",
+      "page": "KR1c0009_SBCK_011-21b",
+      "sourceIndex": 1348,
+      "sourceContext": "心慇慇佌佌彼有屋䔩䔩方有榖民今之無禄天夭是椓哿矣富",
+      "kind": "edition-text-difference",
+      "basis": "同篇連續二十五字除已列字形及此字外相符；記錄底文差異以恢復旁字配對。差異字本身不承接另一字音注。"
+    },
+    {
+      "title": "小雅・小旻之什・小旻",
+      "index": 63,
+      "bodyChar": "厎",
+      "sourceChar": "底",
+      "contextStart": 51,
+      "bodyContext": "臧則具是依我視謀猶伊于胡厎我龜既厭不我告猶謀夫孔多",
+      "file": "KR1c0009_012.txt",
+      "page": "KR1c0009_SBCK_012-1b",
+      "sourceIndex": 79,
+      "sourceContext": "臧則具是依我視謀猶伊于胡底我龜旣厭不我告猶謀夫孔多",
+      "kind": "edition-text-difference",
+      "basis": "同篇連續二十五字除已列字形及此字外相符；記錄底文差異以恢復旁字配對。差異字本身不承接另一字音注。"
+    },
+    {
+      "title": "小雅・小旻之什・小宛",
+      "index": 69,
+      "bodyChar": "穀",
+      "sourceChar": "榖",
+      "contextStart": 57,
+      "bodyContext": "蛉有子蜾蠃負之教誨爾子式穀似之題彼脊令載飛載鳴我日",
+      "file": "KR1c0009_012.txt",
+      "page": "KR1c0009_SBCK_012-4b",
+      "sourceIndex": 293,
+      "sourceContext": "蛉有子蜾蠃負之敎誨爾子式榖似之題彼脊令載飛載鳴我日",
+      "kind": "edition-text-difference",
+      "basis": "同篇連續二十五字除已列字形及此字外相符；記錄底文差異以恢復旁字配對。差異字本身不承接另一字音注。"
+    },
+    {
+      "title": "小雅・小旻之什・小宛",
+      "index": 102,
+      "bodyChar": "場",
+      "sourceChar": "埸",
+      "contextStart": 90,
+      "bodyContext": "夜寐無忝爾所生交交桑扈率場啄粟哀我填寡宜岸宜獄握粟",
+      "file": "KR1c0009_012.txt",
+      "page": "KR1c0009_SBCK_012-5b",
+      "sourceIndex": 326,
+      "sourceContext": "夜寐無忝爾所生交交桑扈率埸啄粟哀我塡寡宜岸宜獄握粟",
+      "kind": "edition-text-difference",
+      "basis": "同篇連續二十五字除已列字形及此字外相符；記錄底文差異以恢復旁字配對。差異字本身不承接另一字音注。"
+    },
+    {
+      "title": "小雅・小旻之什・小宛",
+      "index": 120,
+      "bodyChar": "穀",
+      "sourceChar": "榖",
+      "contextStart": 108,
+      "bodyContext": "寡宜岸宜獄握粟出卜自何能穀溫溫恭人如集于木惴惴小心",
+      "file": "KR1c0009_012.txt",
+      "page": "KR1c0009_SBCK_012-5b",
+      "sourceIndex": 344,
+      "sourceContext": "寡宜岸宜獄握粟出卜自何能榖温温恭人如集于木惴惴小心",
+      "kind": "edition-text-difference",
+      "basis": "同篇連續二十五字除已列字形及此字外相符；記錄底文差異以恢復旁字配對。差異字本身不承接另一字音注。"
+    },
+    {
+      "title": "小雅・小旻之什・小弁",
+      "index": 11,
+      "bodyChar": "穀",
+      "sourceChar": "榖",
+      "contextStart": 0,
+      "bodyContext": "弁彼鸒斯歸飛提提民莫不穀我獨于罹何辜于天我罪伊何心",
+      "file": "KR1c0009_012.txt",
+      "page": "KR1c0009_SBCK_012-6b",
+      "sourceIndex": 387,
+      "sourceContext": "弁彼鸒斯歸飛提提民莫不榖我獨于罹何辜于天我罪伊何心",
+      "kind": "edition-text-difference",
+      "basis": "同篇連續二十五字除已列字形及此字外相符；記錄底文差異以恢復旁字配對。差異字本身不承接另一字音注。"
+    },
+    {
+      "title": "小雅・小旻之什・巧言",
+      "index": 63,
+      "bodyChar": "已",
+      "sourceChar": "巳",
+      "contextStart": 51,
+      "bodyContext": "怒亂庶遄沮君子如祉亂庶遄已君子屢盟亂是用長君子信盜",
+      "file": "KR1c0009_012.txt",
+      "page": "KR1c0009_SBCK_012-11b",
+      "sourceIndex": 704,
+      "sourceContext": "怒亂庶遄沮君子如祉亂庶遄巳君子屢盟亂是用長君子信盗",
+      "kind": "edition-text-difference",
+      "basis": "同篇連續二十五字除已列字形及此字外相符；記錄底文差異以恢復旁字配對。差異字本身不承接另一字音注。"
+    },
+    {
+      "title": "小雅・小旻之什・巷伯",
+      "index": 13,
+      "bodyChar": "已",
+      "sourceChar": "巳",
+      "contextStart": 1,
+      "bodyContext": "兮斐兮成是貝錦彼譖人者亦已大甚哆兮侈兮成是南箕彼譖",
+      "file": "KR1c0009_012.txt",
+      "page": "KR1c0009_SBCK_012-17b",
+      "sourceIndex": 1055,
+      "sourceContext": "兮斐兮成是貝錦彼譛人者亦巳大甚哆兮侈兮成是南箕彼譛",
+      "kind": "edition-text-difference",
+      "basis": "同篇連續二十五字除已列字形及此字外相符；記錄底文差異以恢復旁字配對。差異字本身不承接另一字音注。"
+    },
+    {
+      "title": "小雅・小旻之什・四月",
+      "index": 73,
+      "bodyChar": "日",
+      "sourceChar": "曰",
+      "contextStart": 61,
+      "bodyContext": "知其尤相彼泉水載清載濁我日構禍曷云能穀滔滔江漢南國",
+      "file": "KR1c0009_012.txt",
+      "page": "KR1c0009_SBCK_012-27a",
+      "sourceIndex": 1733,
+      "sourceContext": "知其尤相彼泉水載清載濁我曰構禍曷云能穀滔滔江漢南國",
+      "kind": "edition-text-difference",
+      "basis": "同篇連續二十五字除已列字形及此字外相符；記錄底文差異以恢復旁字配對。差異字本身不承接另一字音注。"
+    },
+    {
+      "title": "小雅・北山之什・無將大車",
+      "index": 44,
+      "bodyChar": "祇",
+      "sourceChar": "祗",
+      "contextStart": 23,
+      "bodyContext": "冥無思百憂不出于熲無將大車維塵雝兮無思百憂祇自重兮",
+      "file": "KR1c0009_013.txt",
+      "page": "KR1c0009_SBCK_013-3a",
+      "sourceIndex": 207,
+      "sourceContext": "冥無思百憂不出于熲無將大車維塵雝兮無思百憂祗自重兮",
+      "kind": "edition-text-difference",
+      "basis": "同篇連續二十五字除已列字形及此字外相符；記錄底文差異以恢復旁字配對。差異字本身不承接另一字音注。"
+    },
+    {
+      "title": "小雅・北山之什・小明",
+      "index": 52,
+      "bodyChar": "日",
+      "sourceChar": "曰",
+      "contextStart": 40,
+      "bodyContext": "豈不懷歸畏此罪罟昔我往矣日月方除曷云其還歲聿云莫念",
+      "file": "KR1c0009_013.txt",
+      "page": "KR1c0009_SBCK_013-3b",
+      "sourceIndex": 272,
+      "sourceContext": "豈不懐歸畏此罪罟昔我往矣曰月方除曷云其還歲聿云莫念",
+      "kind": "edition-text-difference",
+      "basis": "同篇連續二十五字除已列字形及此字外相符；記錄底文差異以恢復旁字配對。差異字本身不承接另一字音注。"
+    },
+    {
+      "title": "小雅・北山之什・小明",
+      "index": 100,
+      "bodyChar": "日",
+      "sourceChar": "曰",
+      "contextStart": 88,
+      "bodyContext": "豈不懷歸畏此譴怒昔我往矣日月方奧曷云其還政事愈蹙歲",
+      "file": "KR1c0009_013.txt",
+      "page": "KR1c0009_SBCK_013-4a",
+      "sourceIndex": 320,
+      "sourceContext": "豈不懷歸畏此譴怒昔我往矣曰月方奥曷云其還政事愈蹙歲",
+      "kind": "edition-text-difference",
+      "basis": "同篇連續二十五字除已列字形及此字外相符；記錄底文差異以恢復旁字配對。差異字本身不承接另一字音注。"
+    },
+    {
+      "title": "小雅・北山之什・鼓鍾",
+      "index": 61,
+      "bodyChar": "鍾",
+      "sourceChar": "鐘",
+      "contextStart": 49,
+      "bodyContext": "心且妯淑人君子其德不猶鼓鍾欽欽鼓瑟鼓琴笙磬同音以雅",
+      "file": "KR1c0009_013.txt",
+      "page": "KR1c0009_SBCK_013-6a",
+      "sourceIndex": 488,
+      "sourceContext": "心且妯淑人君子其德不猶鼓鐘欽欽鼓瑟鼓琴笙磬同音以雅",
+      "kind": "edition-text-difference",
+      "basis": "同篇連續二十五字除已列字形及此字外相符；記錄底文差異以恢復旁字配對。差異字本身不承接另一字音注。"
+    },
+    {
+      "title": "小雅・北山之什・楚茨",
+      "index": 37,
+      "bodyChar": "享",
+      "sourceChar": "饗",
+      "contextStart": 25,
+      "bodyContext": "倉既盈我庾維億以爲酒食以享以祀以妥以侑以介景福濟濟",
+      "file": "KR1c0009_013.txt",
+      "page": "KR1c0009_SBCK_013-7a",
+      "sourceIndex": 551,
+      "sourceContext": "倉旣盈我庾維億以爲酒食以饗以祀以妥以侑以介景福濟濟",
+      "kind": "edition-text-difference",
+      "basis": "同篇連續二十五字除已列字形及此字外相符；記錄底文差異以恢復旁字配對。差異字本身不承接另一字音注。"
+    },
+    {
+      "title": "小雅・北山之什・楚茨",
+      "index": 121,
+      "bodyChar": "醻",
+      "sourceChar": "酬",
+      "contextStart": 109,
+      "bodyContext": "婦莫莫爲豆孔庶爲賓爲客獻醻交錯禮儀卒度笑語卒獲神保",
+      "file": "KR1c0009_013.txt",
+      "page": "KR1c0009_SBCK_013-8a",
+      "sourceIndex": 635,
+      "sourceContext": "婦莫莫爲豆孔庶爲賓爲客獻酬交錯禮儀卒度笑語卒獲神保",
+      "kind": "edition-text-difference",
+      "basis": "同篇連續二十五字除已列字形及此字外相符；記錄底文差異以恢復旁字配對。差異字本身不承接另一字音注。"
+    },
+    {
+      "title": "小雅・北山之什・甫田",
+      "index": 151,
+      "bodyChar": "粱",
+      "sourceChar": "梁",
+      "contextStart": 139,
+      "bodyContext": "求千斯倉乃求萬斯箱黍稷稻粱農夫之慶報以介福萬壽無疆",
+      "file": "KR1c0009_013.txt",
+      "page": "KR1c0009_SBCK_013-16a",
+      "sourceIndex": 1112,
+      "sourceContext": "求千斯倉乃求萬斯箱黍稷稻梁農夫之慶報以介福萬壽無疆",
+      "kind": "edition-text-difference",
+      "basis": "同篇連續二十五字除已列字形及此字外相符；記錄底文差異以恢復旁字配對。差異字本身不承接另一字音注。"
+    },
+    {
+      "title": "小雅・桑扈之什・頍弁",
+      "index": 81,
+      "bodyChar": "見",
+      "sourceChar": "兄",
+      "contextStart": 69,
+      "bodyContext": "弟具來蔦與女蘿施于松上未見君子憂心怲怲既見君子庶幾",
+      "file": "KR1c0009_014.txt",
+      "page": "KR1c0009_SBCK_014-4a",
+      "sourceIndex": 239,
+      "sourceContext": "弟具來蔦與女蘿施于松上未兄君子憂心怲怲旣見君子庶幾",
+      "kind": "edition-text-difference",
+      "basis": "同篇連續二十五字除已列字形及此字外相符；記錄底文差異以恢復旁字配對。差異字本身不承接另一字音注。"
+    },
+    {
+      "title": "小雅・桑扈之什・頍弁",
+      "index": 131,
+      "bodyChar": "日",
+      "sourceChar": "曰",
+      "contextStart": 119,
+      "bodyContext": "舅如彼雨雪先集維霰死喪無日無幾相見樂酒今夕君子維宴",
+      "file": "KR1c0009_014.txt",
+      "page": "KR1c0009_SBCK_014-4a",
+      "sourceIndex": 289,
+      "sourceContext": "舅如彼雨雪先集維霰死喪無曰無幾相見樂酒今夕君子維宴",
+      "kind": "edition-text-difference",
+      "basis": "同篇連續二十五字除已列字形及此字外相符；記錄底文差異以恢復旁字配對。差異字本身不承接另一字音注。"
+    },
+    {
+      "title": "小雅・都人士之什・漸漸之石",
+      "index": 21,
+      "bodyChar": "皇",
+      "sourceChar": "遑",
+      "contextStart": 9,
+      "bodyContext": "川悠遠維其勞矣武人東征不皇朝矣漸漸之石維其卒矣山川",
+      "file": "KR1c0009_015.txt",
+      "page": "KR1c0009_SBCK_015-9b",
+      "sourceIndex": 704,
+      "sourceContext": "川悠遠維其勞矣武人東征不遑朝矣漸漸之石維其卒矣山川",
+      "kind": "edition-text-difference",
+      "basis": "同篇連續二十五字除已列字形及此字外相符；記錄底文差異以恢復旁字配對。差異字本身不承接另一字音注。"
+    },
+    {
+      "title": "小雅・都人士之什・漸漸之石",
+      "index": 45,
+      "bodyChar": "皇",
+      "sourceChar": "遑",
+      "contextStart": 33,
+      "bodyContext": "川悠遠曷其沒矣武人東征不皇出矣有豕白蹢烝涉波矣月離",
+      "file": "KR1c0009_015.txt",
+      "page": "KR1c0009_SBCK_015-9b",
+      "sourceIndex": 728,
+      "sourceContext": "川悠遠曷其没矣武人東征不遑出矣有豕白蹢烝渉波矣月離",
+      "kind": "edition-text-difference",
+      "basis": "同篇連續二十五字除已列字形及此字外相符；記錄底文差異以恢復旁字配對。差異字本身不承接另一字音注。"
+    },
+    {
+      "title": "小雅・都人士之什・漸漸之石",
+      "index": 69,
+      "bodyChar": "皇",
+      "sourceChar": "遑",
+      "contextStart": 47,
+      "bodyContext": "矣有豕白蹢烝涉波矣月離于畢俾滂沱矣武人東征不皇他矣",
+      "file": "KR1c0009_015.txt",
+      "page": "KR1c0009_SBCK_015-10a",
+      "sourceIndex": 752,
+      "sourceContext": "矣有豕白蹢烝渉波矣月離于畢俾滂沱矣武人東征不遑他矣",
+      "kind": "edition-text-difference",
+      "basis": "同篇連續二十五字除已列字形及此字外相符；記錄底文差異以恢復旁字配對。差異字本身不承接另一字音注。"
+    },
+    {
+      "title": "小雅・都人士之什・何草不黃",
+      "index": 5,
+      "bodyChar": "日",
+      "sourceChar": "曰",
+      "contextStart": 0,
+      "bodyContext": "何草不黃何日不行何人不將經營四方何草不玄何人不矜哀",
+      "file": "KR1c0009_015.txt",
+      "page": "KR1c0009_SBCK_015-11a",
+      "sourceIndex": 823,
+      "sourceContext": "何草不黃何曰不行何人不將經營四方何草不玄何人不矜哀",
+      "kind": "edition-text-difference",
+      "basis": "同篇連續二十五字除已列字形及此字外相符；記錄底文差異以恢復旁字配對。差異字本身不承接另一字音注。"
+    },
+    {
+      "title": "大雅・文王之什・靈臺",
+      "index": 13,
+      "bodyChar": "日",
+      "sourceChar": "曰",
+      "contextStart": 1,
+      "bodyContext": "始靈臺經之營之庶民攻之不日成之經始勿亟庶民子來王在",
+      "file": "KR1c0009_016.txt",
+      "page": "KR1c0009_SBCK_016-28a",
+      "sourceIndex": 1301,
+      "sourceContext": "始靈臺經之營之庶民攻之不曰成之經始勿亟庶民子來王在",
+      "kind": "edition-text-difference",
+      "basis": "同篇連續二十五字除已列字形及此字外相符；記錄底文差異以恢復旁字配對。差異字本身不承接另一字音注。"
+    },
+    {
+      "title": "大雅・文王之什・文王有聲",
+      "index": 76,
+      "bodyChar": "王",
+      "sourceChar": "主",
+      "contextStart": 64,
+      "bodyContext": "維豐之垣四方攸同王后維翰王后烝哉豐水東注維禹之績四",
+      "file": "KR1c0009_016.txt",
+      "page": "KR1c0009_SBCK_016-32a",
+      "sourceIndex": 1561,
+      "sourceContext": "維豐之垣四方攸同王后維翰主后烝哉豐水東注維禹之績四",
+      "kind": "edition-text-difference",
+      "basis": "同篇連續二十五字除已列字形及此字外相符；記錄底文差異以恢復旁字配對。差異字本身不承接另一字音注。"
+    },
+    {
+      "title": "大雅・蕩之什・江漢",
+      "index": 184,
+      "bodyChar": "已",
+      "sourceChar": "巳",
+      "contextStart": 168,
+      "bodyContext": "休作召公考天子萬壽明明天子令聞不已矢其文德洽此四國",
+      "file": "KR1c0009_018.txt",
+      "page": "KR1c0009_SBCK_018-34b",
+      "sourceIndex": 2522,
+      "sourceContext": "休作召公考天子萬壽明明天子令聞不巳矢其文德洽此四國",
+      "kind": "edition-text-difference",
+      "basis": "同篇連續二十五字除已列字形及此字外相符；記錄底文差異以恢復旁字配對。差異字本身不承接另一字音注。"
+    },
+    {
+      "title": "大雅・蕩之什・常武",
+      "index": 21,
+      "bodyChar": "修",
+      "sourceChar": "脩",
+      "contextStart": 9,
+      "bodyContext": "仲大祖大師皇父整我六師以修我戎既敬既戒惠此南國王謂",
+      "file": "KR1c0009_018.txt",
+      "page": "KR1c0009_SBCK_018-35b",
+      "sourceIndex": 2559,
+      "sourceContext": "仲大祖大師皇父整我六師以脩我戎旣敬旣戒惠此南國王謂",
+      "kind": "edition-text-difference",
+      "basis": "同篇連續二十五字除已列字形及此字外相符；記錄底文差異以恢復旁字配對。差異字本身不承接另一字音注。"
+    },
+    {
+      "title": "周頌・清廟之什・維天之命",
+      "index": 7,
+      "bodyChar": "已",
+      "sourceChar": "巳",
+      "contextStart": 0,
+      "bodyContext": "維天之命於穆不已於乎不顯文王之德之純假以溢我我其收",
+      "file": "KR1c0009_019.txt",
+      "page": "KR1c0009_SBCK_019-2b",
+      "sourceIndex": 67,
+      "sourceContext": "維天之命於穆不巳於乎不顯文王之德之純假以溢我我其収",
+      "kind": "edition-text-difference",
+      "basis": "同篇連續二十五字除已列字形及此字外相符；記錄底文差異以恢復旁字配對。差異字本身不承接另一字音注。"
+    },
+    {
+      "title": "周頌・清廟之什・我將",
+      "index": 30,
+      "bodyChar": "饗",
+      "sourceChar": "享",
+      "contextStart": 18,
+      "bodyContext": "之典日靖四方伊嘏文王既右饗之我其夙夜畏天之威于時保",
+      "file": "KR1c0009_019.txt",
+      "page": "KR1c0009_SBCK_019-6a",
+      "sourceIndex": 296,
+      "sourceContext": "之典日靖四方伊嘏文王旣右享之我其夙夜畏天之威于時保",
+      "kind": "edition-text-difference",
+      "basis": "同篇連續二十五字除已列字形及此字外相符；記錄底文差異以恢復旁字配對。差異字本身不承接另一字音注。"
+    },
+    {
+      "title": "周頌・臣工之什・豐年",
+      "index": 19,
+      "bodyChar": "畀",
+      "sourceChar": "卑",
+      "contextStart": 5,
+      "bodyContext": "稌亦有高廩萬億及秭爲酒爲醴烝畀祖妣以洽百禮降福孔皆",
+      "file": "KR1c0009_019.txt",
+      "page": "KR1c0009_SBCK_019-13a",
+      "sourceIndex": 671,
+      "sourceContext": "稌亦有髙廩萬億及秭爲酒爲醴烝卑祖妣以洽百禮降福孔皆",
+      "kind": "edition-text-difference",
+      "basis": "同篇連續二十五字除已列字形及此字外相符；記錄底文差異以恢復旁字配對。差異字本身不承接另一字音注。"
+    },
+    {
+      "title": "周頌・閔予小子之什・閔予小子",
+      "index": 33,
+      "bodyChar": "夜",
+      "sourceChar": "衣",
+      "contextStart": 20,
+      "bodyContext": "念茲皇祖陟降庭止維予小子夙夜敬止於乎皇王繼序思不忘",
+      "file": "KR1c0009_019.txt",
+      "page": "KR1c0009_SBCK_019-19a",
+      "sourceIndex": 1054,
+      "sourceContext": "念兹皇祖陟降庭止維予小子夙衣敬止於乎皇王繼序思不忘",
+      "kind": "edition-text-difference",
+      "basis": "同篇連續二十五字除已列字形及此字外相符；記錄底文差異以恢復旁字配對。差異字本身不承接另一字音注。"
+    },
+    {
+      "title": "周頌・閔予小子之什・載芟",
+      "index": 51,
+      "bodyChar": "穀",
+      "sourceChar": "榖",
+      "contextStart": 39,
+      "bodyContext": "士有略其耜俶載南畝播厥百穀實函斯活驛驛其達有厭其傑",
+      "file": "KR1c0009_019.txt",
+      "page": "KR1c0009_SBCK_019-22b",
+      "sourceIndex": 1284,
+      "sourceContext": "士有略其耜俶載南畒播厥百榖實函斯活驛驛其達有厭其傑",
+      "kind": "edition-text-difference",
+      "basis": "同篇連續二十五字除已列字形及此字外相符；記錄底文差異以恢復旁字配對。差異字本身不承接另一字音注。"
+    },
+    {
+      "title": "周頌・閔予小子之什・載芟",
+      "index": 89,
+      "bodyChar": "畀",
+      "sourceChar": "卑",
+      "contextStart": 77,
+      "bodyContext": "實其積萬億及秭爲酒爲醴烝畀祖妣以洽百禮有飶其香邦家",
+      "file": "KR1c0009_019.txt",
+      "page": "KR1c0009_SBCK_019-22b",
+      "sourceIndex": 1322,
+      "sourceContext": "實其積萬億及秭爲酒爲醴烝卑祖妣以洽百禮有飶其香邦家",
+      "kind": "edition-text-difference",
+      "basis": "同篇連續二十五字除已列字形及此字外相符；記錄底文差異以恢復旁字配對。差異字本身不承接另一字音注。"
+    },
+    {
+      "title": "周頌・閔予小子之什・良耜",
+      "index": 11,
+      "bodyChar": "穀",
+      "sourceChar": "榖",
+      "contextStart": 0,
+      "bodyContext": "畟畟良耜俶載南畝播厥百穀實函斯活或來瞻女載筐及筥其",
+      "file": "KR1c0009_019.txt",
+      "page": "KR1c0009_SBCK_019-23b",
+      "sourceIndex": 1376,
+      "sourceContext": "畟畟良耜俶載南畒播厥百榖實函斯活或來瞻女載筐及筥其",
+      "kind": "edition-text-difference",
+      "basis": "同篇連續二十五字除已列字形及此字外相符；記錄底文差異以恢復旁字配對。差異字本身不承接另一字音注。"
+    }
+  ]
+}

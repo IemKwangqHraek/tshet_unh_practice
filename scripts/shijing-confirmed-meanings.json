@@ -1,0 +1,5005 @@
+{
+  "version": 1,
+  "editedOn": "2026-10-03",
+  "policy": "只覆核指定詞例，排除已知本篇另音，依語義與固定韻書條目採切韻系讀法；候選與原音注均保留。",
+  "rules": [
+    {
+      "char": "朝",
+      "dictionaryChar": "朝",
+      "position": "知開三宵平",
+      "fanqie": "陟遙",
+      "dictionaryQuote": "早也又旦至食時爲終朝又朝鮮國名亦姓左傳有蔡大夫朝吳陟遙切又直遙切二",
+      "occurrences": [
+        {
+          "title": "衛風・氓",
+          "index": 174,
+          "context": "夙興夜寐靡有朝矣言既遂矣至"
+        }
+      ],
+      "selectionKind": "semantic-preference",
+      "basis": "本句為早晨、終朝或向日的朝陽，據陟遙切「早也」「旦至食時爲終朝」；排除朝廷、朝覲義。 限本句語境採讀，保留字庫其他候選；不宣稱該字在各篇各義都只有一音。",
+      "sourceReferences": [
+        {
+          "file": "KR1c0009_003.txt",
+          "page": "KR1c0009_SBCK_003-22a",
+          "lemma": "言思之躬自悼矣",
+          "quote": "賦也靡不夙早興起也咥笑貌○言我三歲爲婦盡心竭力不以室家之務爲勞早起夜卧無有朝旦之暇與爾始相謀約之言旣遂而爾遽以暴戾加我兄弟見我之歸不知其然但咥然其笑而巳蓋淫奔從人不爲兄弟所齒故其見棄而歸亦不爲兄弟所恤理固有必然者亦何所歸咎哉但自痛悼而巳",
+          "sourceIndex": 1259
+        }
+      ],
+      "rhymeReferences": [
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "13761",
+          "char": "朝",
+          "position": "知開三宵平",
+          "fanqie": "知遙反",
+          "quote": "知遥反。又直遥二反。旦朝。五。"
+        },
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "13771",
+          "char": "朝",
+          "position": "澄開三宵平",
+          "fanqie": "直遙反",
+          "quote": "參覲。"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "660.1",
+          "char": "朝",
+          "position": "知開三宵平",
+          "fanqie": "陟遙",
+          "quote": "早也又旦至食時爲終朝又朝鮮國名亦姓左傳有蔡大夫朝吳陟遙切又直遙切二"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "661.4",
+          "char": "朝",
+          "position": "澄開三宵平",
+          "fanqie": "直遙",
+          "quote": "朝廷也禮記曰諸侯於天子五年一朝又姓唐有拾遺朝衛"
+        }
+      ]
+    },
+    {
+      "char": "朝",
+      "dictionaryChar": "朝",
+      "position": "知開三宵平",
+      "fanqie": "陟遙",
+      "dictionaryQuote": "早也又旦至食時爲終朝又朝鮮國名亦姓左傳有蔡大夫朝吳陟遙切又直遙切二",
+      "occurrences": [
+        {
+          "title": "小雅・祈父之什・白駒",
+          "index": 15,
+          "context": "之維之以永今朝所謂伊人於焉"
+        }
+      ],
+      "selectionKind": "semantic-preference",
+      "basis": "本句為早晨、終朝或向日的朝陽，據陟遙切「早也」「旦至食時爲終朝」；排除朝廷、朝覲義。 限本句語境採讀，保留字庫其他候選；不宣稱該字在各篇各義都只有一音。",
+      "sourceReferences": [
+        {
+          "file": "KR1c0009_011.txt",
+          "page": "KR1c0009_SBCK_011-2b",
+          "lemma": "謂伊人於焉逍遥",
+          "quote": "賦也皎皎㓗白也駒馬之未壯者謂賢者所乗也場圃也縶絆其足維繋其靷也永乆也伊人指賢者也逍遥遊息也○爲此詩者以賢者之去而不可留也故託以其所乗之駒食我場苗而縶維之庶幾以永今朝使其人得以於此逍遥而不去若後人留客而投其轄於井中也",
+          "sourceIndex": 93
+        }
+      ],
+      "rhymeReferences": [
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "13761",
+          "char": "朝",
+          "position": "知開三宵平",
+          "fanqie": "知遙反",
+          "quote": "知遥反。又直遥二反。旦朝。五。"
+        },
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "13771",
+          "char": "朝",
+          "position": "澄開三宵平",
+          "fanqie": "直遙反",
+          "quote": "參覲。"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "660.1",
+          "char": "朝",
+          "position": "知開三宵平",
+          "fanqie": "陟遙",
+          "quote": "早也又旦至食時爲終朝又朝鮮國名亦姓左傳有蔡大夫朝吳陟遙切又直遙切二"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "661.4",
+          "char": "朝",
+          "position": "澄開三宵平",
+          "fanqie": "直遙",
+          "quote": "朝廷也禮記曰諸侯於天子五年一朝又姓唐有拾遺朝衛"
+        }
+      ]
+    },
+    {
+      "char": "朝",
+      "dictionaryChar": "朝",
+      "position": "知開三宵平",
+      "fanqie": "陟遙",
+      "dictionaryQuote": "早也又旦至食時爲終朝又朝鮮國名亦姓左傳有蔡大夫朝吳陟遙切又直遙切二",
+      "occurrences": [
+        {
+          "title": "小雅・小旻之什・小弁",
+          "index": 138,
+          "context": "維足伎伎雉之朝雊尚求其雌譬"
+        }
+      ],
+      "selectionKind": "semantic-preference",
+      "basis": "本句為早晨、終朝或向日的朝陽，據陟遙切「早也」「旦至食時爲終朝」；排除朝廷、朝覲義。 限本句語境採讀，保留字庫其他候選；不宣稱該字在各篇各義都只有一音。",
+      "sourceReferences": [
+        {
+          "file": "KR1c0009_012.txt",
+          "page": "KR1c0009_SBCK_012-8b",
+          "lemma": "之憂矣寧莫之知",
+          "quote": "興也伎伎舒貌宜疾而舒留其羣也雊雉鳴也壞傷病也寧猶何也○鹿斯之奔則足伎伎然雉之朝雊亦知求其妃匹今我獨見棄逐如傷病之木憔悴而無枝是以憂之而人莫之知也",
+          "sourceIndex": 535
+        }
+      ],
+      "rhymeReferences": [
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "13761",
+          "char": "朝",
+          "position": "知開三宵平",
+          "fanqie": "知遙反",
+          "quote": "知遥反。又直遥二反。旦朝。五。"
+        },
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "13771",
+          "char": "朝",
+          "position": "澄開三宵平",
+          "fanqie": "直遙反",
+          "quote": "參覲。"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "660.1",
+          "char": "朝",
+          "position": "知開三宵平",
+          "fanqie": "陟遙",
+          "quote": "早也又旦至食時爲終朝又朝鮮國名亦姓左傳有蔡大夫朝吳陟遙切又直遙切二"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "661.4",
+          "char": "朝",
+          "position": "澄開三宵平",
+          "fanqie": "直遙",
+          "quote": "朝廷也禮記曰諸侯於天子五年一朝又姓唐有拾遺朝衛"
+        }
+      ]
+    },
+    {
+      "char": "朝",
+      "dictionaryChar": "朝",
+      "position": "知開三宵平",
+      "fanqie": "陟遙",
+      "dictionaryQuote": "早也又旦至食時爲終朝又朝鮮國名亦姓左傳有蔡大夫朝吳陟遙切又直遙切二",
+      "occurrences": [
+        {
+          "title": "小雅・都人士之什・采綠",
+          "index": 1,
+          "context": "終朝采綠不盈一匊"
+        }
+      ],
+      "selectionKind": "semantic-preference",
+      "basis": "本句為早晨、終朝或向日的朝陽，據陟遙切「早也」「旦至食時爲終朝」；排除朝廷、朝覲義。 限本句語境採讀，保留字庫其他候選；不宣稱該字在各篇各義都只有一音。",
+      "sourceReferences": [],
+      "rhymeReferences": [
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "13761",
+          "char": "朝",
+          "position": "知開三宵平",
+          "fanqie": "知遙反",
+          "quote": "知遥反。又直遥二反。旦朝。五。"
+        },
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "13771",
+          "char": "朝",
+          "position": "澄開三宵平",
+          "fanqie": "直遙反",
+          "quote": "參覲。"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "660.1",
+          "char": "朝",
+          "position": "知開三宵平",
+          "fanqie": "陟遙",
+          "quote": "早也又旦至食時爲終朝又朝鮮國名亦姓左傳有蔡大夫朝吳陟遙切又直遙切二"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "661.4",
+          "char": "朝",
+          "position": "澄開三宵平",
+          "fanqie": "直遙",
+          "quote": "朝廷也禮記曰諸侯於天子五年一朝又姓唐有拾遺朝衛"
+        }
+      ]
+    },
+    {
+      "char": "朝",
+      "dictionaryChar": "朝",
+      "position": "知開三宵平",
+      "fanqie": "陟遙",
+      "dictionaryQuote": "早也又旦至食時爲終朝又朝鮮國名亦姓左傳有蔡大夫朝吳陟遙切又直遙切二",
+      "occurrences": [
+        {
+          "title": "小雅・都人士之什・采綠",
+          "index": 17,
+          "context": "局薄言歸沐終朝采藍不盈一襜"
+        }
+      ],
+      "selectionKind": "semantic-preference",
+      "basis": "本句為早晨、終朝或向日的朝陽，據陟遙切「早也」「旦至食時爲終朝」；排除朝廷、朝覲義。 限本句語境採讀，保留字庫其他候選；不宣稱該字在各篇各義都只有一音。",
+      "sourceReferences": [],
+      "rhymeReferences": [
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "13761",
+          "char": "朝",
+          "position": "知開三宵平",
+          "fanqie": "知遙反",
+          "quote": "知遥反。又直遥二反。旦朝。五。"
+        },
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "13771",
+          "char": "朝",
+          "position": "澄開三宵平",
+          "fanqie": "直遙反",
+          "quote": "參覲。"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "660.1",
+          "char": "朝",
+          "position": "知開三宵平",
+          "fanqie": "陟遙",
+          "quote": "早也又旦至食時爲終朝又朝鮮國名亦姓左傳有蔡大夫朝吳陟遙切又直遙切二"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "661.4",
+          "char": "朝",
+          "position": "澄開三宵平",
+          "fanqie": "直遙",
+          "quote": "朝廷也禮記曰諸侯於天子五年一朝又姓唐有拾遺朝衛"
+        }
+      ]
+    },
+    {
+      "char": "朝",
+      "dictionaryChar": "朝",
+      "position": "知開三宵平",
+      "fanqie": "陟遙",
+      "dictionaryQuote": "早也又旦至食時爲終朝又朝鮮國名亦姓左傳有蔡大夫朝吳陟遙切又直遙切二",
+      "occurrences": [
+        {
+          "title": "大雅・文王之什・大明",
+          "index": 222,
+          "context": "王肆伐大商會朝清明"
+        }
+      ],
+      "selectionKind": "semantic-preference",
+      "basis": "本句為早晨、終朝或向日的朝陽，據陟遙切「早也」「旦至食時爲終朝」；排除朝廷、朝覲義。 限本句語境採讀，保留字庫其他候選；不宣稱該字在各篇各義都只有一音。",
+      "sourceReferences": [
+        {
+          "file": "KR1c0009_016.txt",
+          "page": "KR1c0009_SBCK_016-10a",
+          "lemma": "伐大商會朝清明",
+          "quote": "叶謨郎反○賦也洋洋廣大之貌檀堅木宜爲車者也煌煌鮮明貌駵馬白腹曰騵彭彭強盛貌師尚父太公望爲太師而號尚父也鷹揚如鷹之飛揚而將擊言其猛也涼漢書作亮佐助也肆縱兵也會朝㑹戰之旦也○此章言武王師衆之盛將帥之賢伐商以除穢濁不崇朝而天下清明所以終首章之意也",
+          "sourceIndex": 438
+        }
+      ],
+      "rhymeReferences": [
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "13761",
+          "char": "朝",
+          "position": "知開三宵平",
+          "fanqie": "知遙反",
+          "quote": "知遥反。又直遥二反。旦朝。五。"
+        },
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "13771",
+          "char": "朝",
+          "position": "澄開三宵平",
+          "fanqie": "直遙反",
+          "quote": "參覲。"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "660.1",
+          "char": "朝",
+          "position": "知開三宵平",
+          "fanqie": "陟遙",
+          "quote": "早也又旦至食時爲終朝又朝鮮國名亦姓左傳有蔡大夫朝吳陟遙切又直遙切二"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "661.4",
+          "char": "朝",
+          "position": "澄開三宵平",
+          "fanqie": "直遙",
+          "quote": "朝廷也禮記曰諸侯於天子五年一朝又姓唐有拾遺朝衛"
+        }
+      ]
+    },
+    {
+      "char": "朝",
+      "dictionaryChar": "朝",
+      "position": "知開三宵平",
+      "fanqie": "陟遙",
+      "dictionaryQuote": "早也又旦至食時爲終朝又朝鮮國名亦姓左傳有蔡大夫朝吳陟遙切又直遙切二",
+      "occurrences": [
+        {
+          "title": "大雅・生民之什・卷阿",
+          "index": 198,
+          "context": "梧桐生矣于彼朝陽菶菶萋萋雝"
+        }
+      ],
+      "selectionKind": "semantic-preference",
+      "basis": "本句為早晨、終朝或向日的朝陽，據陟遙切「早也」「旦至食時爲終朝」；排除朝廷、朝覲義。 限本句語境採讀，保留字庫其他候選；不宣稱該字在各篇各義都只有一音。",
+      "sourceReferences": [
+        {
+          "file": "KR1c0009_017.txt",
+          "page": "KR1c0009_SBCK_017-21b",
+          "lemma": "菶萋萋雝雝喈喈",
+          "quote": "叶居奚反○比也又以興下章之事也山之東曰朝陽鳯凰之性非梧桐不棲非竹實不食菶菶萋萋梧桐生之盛也雝雝喈喈鳳凰鳴之和也",
+          "sourceIndex": 1274
+        }
+      ],
+      "rhymeReferences": [
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "13761",
+          "char": "朝",
+          "position": "知開三宵平",
+          "fanqie": "知遙反",
+          "quote": "知遥反。又直遥二反。旦朝。五。"
+        },
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "13771",
+          "char": "朝",
+          "position": "澄開三宵平",
+          "fanqie": "直遙反",
+          "quote": "參覲。"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "660.1",
+          "char": "朝",
+          "position": "知開三宵平",
+          "fanqie": "陟遙",
+          "quote": "早也又旦至食時爲終朝又朝鮮國名亦姓左傳有蔡大夫朝吳陟遙切又直遙切二"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "661.4",
+          "char": "朝",
+          "position": "澄開三宵平",
+          "fanqie": "直遙",
+          "quote": "朝廷也禮記曰諸侯於天子五年一朝又姓唐有拾遺朝衛"
+        }
+      ]
+    },
+    {
+      "char": "朝",
+      "dictionaryChar": "朝",
+      "position": "澄開三宵平",
+      "fanqie": "直遙",
+      "dictionaryQuote": "朝廷也禮記曰諸侯於天子五年一朝又姓唐有拾遺朝衛",
+      "occurrences": [
+        {
+          "title": "齊風・雞鳴",
+          "index": 20,
+          "context": "之聲東方明矣朝既昌矣匪東方"
+        }
+      ],
+      "selectionKind": "semantic-preference",
+      "basis": "「朝既昌矣」與首章「朝既盈矣」言朝中之人已盛，據直遙切朝廷義，不作時間名詞。 限本句語境採讀，保留字庫其他候選；不宣稱該字在各篇各義都只有一音。",
+      "sourceReferences": [
+        {
+          "file": "KR1c0009_005.txt",
+          "page": "KR1c0009_SBCK_005-1b",
+          "lemma": "歸矣無庶予子憎",
+          "quote": "賦也蟲飛夜將旦而百蟲作也甘樂會朝也○此三告也言當此時我豈不樂與子同寢而夣哉然羣臣之會於朝者俟君不出將散而歸矣無乃以我之故而并以子爲憎乎",
+          "sourceIndex": 62
+        }
+      ],
+      "rhymeReferences": [
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "13761",
+          "char": "朝",
+          "position": "知開三宵平",
+          "fanqie": "知遙反",
+          "quote": "知遥反。又直遥二反。旦朝。五。"
+        },
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "13771",
+          "char": "朝",
+          "position": "澄開三宵平",
+          "fanqie": "直遙反",
+          "quote": "參覲。"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "660.1",
+          "char": "朝",
+          "position": "知開三宵平",
+          "fanqie": "陟遙",
+          "quote": "早也又旦至食時爲終朝又朝鮮國名亦姓左傳有蔡大夫朝吳陟遙切又直遙切二"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "661.4",
+          "char": "朝",
+          "position": "澄開三宵平",
+          "fanqie": "直遙",
+          "quote": "朝廷也禮記曰諸侯於天子五年一朝又姓唐有拾遺朝衛"
+        }
+      ]
+    },
+    {
+      "char": "去",
+      "dictionaryChar": "去",
+      "position": "溪開三C魚去",
+      "fanqie": "丘倨",
+      "dictionaryQuote": "離也又卻呂切",
+      "occurrences": [
+        {
+          "title": "魏風・碩鼠",
+          "index": 18,
+          "context": "莫我肯顧逝將去女適彼樂土樂"
+        }
+      ],
+      "selectionKind": "semantic-preference",
+      "basis": "本句為離去、離開，據丘倨切離也；與羌舉切除也分別。 限本句語境採讀，保留字庫其他候選；不宣稱該字在各篇各義都只有一音。",
+      "sourceReferences": [
+        {
+          "file": "KR1c0009_005.txt",
+          "page": "KR1c0009_SBCK_005-18a",
+          "lemma": "土樂土爰得我所",
+          "quote": "比也碩大也三歲言其乆也貫習顧念逝往也樂土有道之國也爰於也○民困於貪殘之政故託言大䑕害己而去之也",
+          "sourceIndex": 1245
+        }
+      ],
+      "rhymeReferences": [
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "27034",
+          "char": "去",
+          "position": "溪開三魚上",
+          "fanqie": "羌舉反",
+          "quote": "羌舉反。又丘據反：却。正𠫟、■。三。"
+        },
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "38146",
+          "char": "去",
+          "position": "溪開三魚去",
+          "fanqie": "却據反",
+          "quote": "不住。正作𠫟。"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "1346.1",
+          "char": "去",
+          "position": "溪開三C魚上",
+          "fanqie": "羌舉",
+          "quote": "除也說文从大口也羌舉切又丘據切五"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "2295.2",
+          "char": "去",
+          "position": "溪開三C魚去",
+          "fanqie": "近〈丘〉倨",
+          "quote": "離也又卻呂切"
+        }
+      ]
+    },
+    {
+      "char": "去",
+      "dictionaryChar": "去",
+      "position": "溪開三C魚去",
+      "fanqie": "丘倨",
+      "dictionaryQuote": "離也又卻呂切",
+      "occurrences": [
+        {
+          "title": "魏風・碩鼠",
+          "index": 50,
+          "context": "莫我肯德逝將去女適彼樂國樂"
+        }
+      ],
+      "selectionKind": "semantic-preference",
+      "basis": "本句為離去、離開，據丘倨切離也；與羌舉切除也分別。 限本句語境採讀，保留字庫其他候選；不宣稱該字在各篇各義都只有一音。",
+      "sourceReferences": [],
+      "rhymeReferences": [
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "27034",
+          "char": "去",
+          "position": "溪開三魚上",
+          "fanqie": "羌舉反",
+          "quote": "羌舉反。又丘據反：却。正𠫟、■。三。"
+        },
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "38146",
+          "char": "去",
+          "position": "溪開三魚去",
+          "fanqie": "却據反",
+          "quote": "不住。正作𠫟。"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "1346.1",
+          "char": "去",
+          "position": "溪開三C魚上",
+          "fanqie": "羌舉",
+          "quote": "除也說文从大口也羌舉切又丘據切五"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "2295.2",
+          "char": "去",
+          "position": "溪開三C魚去",
+          "fanqie": "近〈丘〉倨",
+          "quote": "離也又卻呂切"
+        }
+      ]
+    },
+    {
+      "char": "去",
+      "dictionaryChar": "去",
+      "position": "溪開三C魚去",
+      "fanqie": "丘倨",
+      "dictionaryQuote": "離也又卻呂切",
+      "occurrences": [
+        {
+          "title": "魏風・碩鼠",
+          "index": 82,
+          "context": "莫我肯勞逝將去女適彼樂郊樂"
+        }
+      ],
+      "selectionKind": "semantic-preference",
+      "basis": "本句為離去、離開，據丘倨切離也；與羌舉切除也分別。 限本句語境採讀，保留字庫其他候選；不宣稱該字在各篇各義都只有一音。",
+      "sourceReferences": [],
+      "rhymeReferences": [
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "27034",
+          "char": "去",
+          "position": "溪開三魚上",
+          "fanqie": "羌舉反",
+          "quote": "羌舉反。又丘據反：却。正𠫟、■。三。"
+        },
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "38146",
+          "char": "去",
+          "position": "溪開三魚去",
+          "fanqie": "却據反",
+          "quote": "不住。正作𠫟。"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "1346.1",
+          "char": "去",
+          "position": "溪開三C魚上",
+          "fanqie": "羌舉",
+          "quote": "除也說文从大口也羌舉切又丘據切五"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "2295.2",
+          "char": "去",
+          "position": "溪開三C魚去",
+          "fanqie": "近〈丘〉倨",
+          "quote": "離也又卻呂切"
+        }
+      ]
+    },
+    {
+      "char": "去",
+      "dictionaryChar": "去",
+      "position": "溪開三C魚去",
+      "fanqie": "丘倨",
+      "dictionaryQuote": "離也又卻呂切",
+      "occurrences": [
+        {
+          "title": "大雅・生民之什・生民",
+          "index": 103,
+          "context": "鳥覆翼之鳥乃去矣后稷呱矣實"
+        }
+      ],
+      "selectionKind": "semantic-preference",
+      "basis": "本句為離去、離開，據丘倨切離也；與羌舉切除也分別。 限本句語境採讀，保留字庫其他候選；不宣稱該字在各篇各義都只有一音。",
+      "sourceReferences": [],
+      "rhymeReferences": [
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "27034",
+          "char": "去",
+          "position": "溪開三魚上",
+          "fanqie": "羌舉反",
+          "quote": "羌舉反。又丘據反：却。正𠫟、■。三。"
+        },
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "38146",
+          "char": "去",
+          "position": "溪開三魚去",
+          "fanqie": "却據反",
+          "quote": "不住。正作𠫟。"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "1346.1",
+          "char": "去",
+          "position": "溪開三C魚上",
+          "fanqie": "羌舉",
+          "quote": "除也說文从大口也羌舉切又丘據切五"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "2295.2",
+          "char": "去",
+          "position": "溪開三C魚去",
+          "fanqie": "近〈丘〉倨",
+          "quote": "離也又卻呂切"
+        }
+      ]
+    },
+    {
+      "char": "去",
+      "dictionaryChar": "去",
+      "position": "溪開三C魚去",
+      "fanqie": "丘倨",
+      "dictionaryQuote": "離也又卻呂切",
+      "occurrences": [
+        {
+          "title": "大雅・蕩之什・雲漢",
+          "index": 208,
+          "context": "既大甚黽勉畏去胡寧瘨我以旱"
+        }
+      ],
+      "selectionKind": "semantic-preference",
+      "basis": "本句為離去、離開，據丘倨切離也；與羌舉切除也分別。 限本句語境採讀，保留字庫其他候選；不宣稱該字在各篇各義都只有一音。",
+      "sourceReferences": [
+        {
+          "file": "KR1c0009_018.txt",
+          "page": "KR1c0009_SBCK_018-20b",
+          "lemma": "恭明神宜無悔怒",
+          "quote": "賦也黽勉畏去出無所之也瘨病㦧曾也祈年孟春祈穀于上帝孟冬祈來年于天宗是也方祭四方也社祭土神也虞度悔恨也言天曾不度我之心如我之敬事明神宜可以無恨怒也",
+          "sourceIndex": 1444
+        }
+      ],
+      "rhymeReferences": [
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "27034",
+          "char": "去",
+          "position": "溪開三魚上",
+          "fanqie": "羌舉反",
+          "quote": "羌舉反。又丘據反：却。正𠫟、■。三。"
+        },
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "38146",
+          "char": "去",
+          "position": "溪開三魚去",
+          "fanqie": "却據反",
+          "quote": "不住。正作𠫟。"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "1346.1",
+          "char": "去",
+          "position": "溪開三C魚上",
+          "fanqie": "羌舉",
+          "quote": "除也說文从大口也羌舉切又丘據切五"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "2295.2",
+          "char": "去",
+          "position": "溪開三C魚去",
+          "fanqie": "近〈丘〉倨",
+          "quote": "離也又卻呂切"
+        }
+      ]
+    },
+    {
+      "char": "監",
+      "dictionaryChar": "監",
+      "position": "見開二銜平",
+      "fanqie": "古銜",
+      "dictionaryQuote": "領也察也說文云臨下也古銜切又古懺切五",
+      "occurrences": [
+        {
+          "title": "大雅・文王之什・大明",
+          "index": 82,
+          "context": "回以受方國天監在下有命既集"
+        }
+      ],
+      "selectionKind": "semantic-preference",
+      "basis": "天監、監觀、日監、降監皆臨下察視，採古銜切察也、臨下也；不按官名之監處理。 限本句語境採讀，保留字庫其他候選；不宣稱該字在各篇各義都只有一音。",
+      "sourceReferences": [
+        {
+          "file": "KR1c0009_016.txt",
+          "page": "KR1c0009_SBCK_016-8a",
+          "lemma": "王嘉止大邦有子",
+          "quote": "叶奬禮反○賦也監視集就載年合配也洽水名本在今同州郃陽夏陽縣今流已絶故去水而加邑渭水亦逕此入河也嘉婚禮也大邦莘國也子大姒也○將言武王伐商之事故此又推其本而言天之監照實在於下其命旣集於周矣故於文王之𥘉年而默定其配所以洽陽渭涘當文王將昏之期而大邦有子也蓋曰非人之所能爲矣",
+          "sourceIndex": 326
+        }
+      ],
+      "rhymeReferences": [
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "24034",
+          "char": "監",
+          "position": "見開二銜平",
+          "fanqie": "古銜反",
+          "quote": "古銜反。又古懴反：明。五。"
+        },
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "49828",
+          "char": "監",
+          "position": "見開二銜去",
+          "fanqie": "格懺反",
+          "quote": "領【〻】。"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "1148.1",
+          "char": "監",
+          "position": "見開二銜平",
+          "fanqie": "古銜",
+          "quote": "領也察也說文云臨下也古銜切又古懺切五"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "3169.3",
+          "char": "監",
+          "position": "見開二銜去",
+          "fanqie": "格懺",
+          "quote": "領也亦姓風俗通云衛康叔爲連屬之監其後氏焉又古銜切"
+        }
+      ]
+    },
+    {
+      "char": "監",
+      "dictionaryChar": "監",
+      "position": "見開二銜平",
+      "fanqie": "古銜",
+      "dictionaryQuote": "領也察也說文云臨下也古銜切又古懺切五",
+      "occurrences": [
+        {
+          "title": "大雅・文王之什・皇矣",
+          "index": 8,
+          "context": "上帝臨下有赫監觀四方求民之"
+        }
+      ],
+      "selectionKind": "semantic-preference",
+      "basis": "天監、監觀、日監、降監皆臨下察視，採古銜切察也、臨下也；不按官名之監處理。 限本句語境採讀，保留字庫其他候選；不宣稱該字在各篇各義都只有一音。",
+      "sourceReferences": [],
+      "rhymeReferences": [
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "24034",
+          "char": "監",
+          "position": "見開二銜平",
+          "fanqie": "古銜反",
+          "quote": "古銜反。又古懴反：明。五。"
+        },
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "49828",
+          "char": "監",
+          "position": "見開二銜去",
+          "fanqie": "格懺反",
+          "quote": "領【〻】。"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "1148.1",
+          "char": "監",
+          "position": "見開二銜平",
+          "fanqie": "古銜",
+          "quote": "領也察也說文云臨下也古銜切又古懺切五"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "3169.3",
+          "char": "監",
+          "position": "見開二銜去",
+          "fanqie": "格懺",
+          "quote": "領也亦姓風俗通云衛康叔爲連屬之監其後氏焉又古銜切"
+        }
+      ]
+    },
+    {
+      "char": "監",
+      "dictionaryChar": "監",
+      "position": "見開二銜平",
+      "fanqie": "古銜",
+      "dictionaryQuote": "領也察也說文云臨下也古銜切又古懺切五",
+      "occurrences": [
+        {
+          "title": "大雅・蕩之什・烝民",
+          "index": 17,
+          "context": "彝好是懿德天監有周昭假于下"
+        }
+      ],
+      "selectionKind": "semantic-preference",
+      "basis": "天監、監觀、日監、降監皆臨下察視，採古銜切察也、臨下也；不按官名之監處理。 限本句語境採讀，保留字庫其他候選；不宣稱該字在各篇各義都只有一音。",
+      "sourceReferences": [],
+      "rhymeReferences": [
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "24034",
+          "char": "監",
+          "position": "見開二銜平",
+          "fanqie": "古銜反",
+          "quote": "古銜反。又古懴反：明。五。"
+        },
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "49828",
+          "char": "監",
+          "position": "見開二銜去",
+          "fanqie": "格懺反",
+          "quote": "領【〻】。"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "1148.1",
+          "char": "監",
+          "position": "見開二銜平",
+          "fanqie": "古銜",
+          "quote": "領也察也說文云臨下也古銜切又古懺切五"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "3169.3",
+          "char": "監",
+          "position": "見開二銜去",
+          "fanqie": "格懺",
+          "quote": "領也亦姓風俗通云衛康叔爲連屬之監其後氏焉又古銜切"
+        }
+      ]
+    },
+    {
+      "char": "監",
+      "dictionaryChar": "監",
+      "position": "見開二銜平",
+      "fanqie": "古銜",
+      "dictionaryQuote": "領也察也說文云臨下也古銜切又古懺切五",
+      "occurrences": [
+        {
+          "title": "周頌・閔予小子之什・敬之",
+          "index": 23,
+          "context": "上陟降厥士日監在茲維予小子"
+        }
+      ],
+      "selectionKind": "semantic-preference",
+      "basis": "天監、監觀、日監、降監皆臨下察視，採古銜切察也、臨下也；不按官名之監處理。 限本句語境採讀，保留字庫其他候選；不宣稱該字在各篇各義都只有一音。",
+      "sourceReferences": [
+        {
+          "file": "KR1c0009_019.txt",
+          "page": "KR1c0009_SBCK_019-20a",
+          "lemma": "降厥士日監在兹",
+          "quote": "叶津之反○賦也顯明也思語辭也士事也成王受羣臣之戒而述其言曰敬之哉敬之哉天道甚明其命不易保也無謂其髙而不吾察當知其聦明明畏常若陟降於吾之所爲而無日不臨監于此者不可以不敬也",
+          "sourceIndex": 1157
+        }
+      ],
+      "rhymeReferences": [
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "24034",
+          "char": "監",
+          "position": "見開二銜平",
+          "fanqie": "古銜反",
+          "quote": "古銜反。又古懴反：明。五。"
+        },
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "49828",
+          "char": "監",
+          "position": "見開二銜去",
+          "fanqie": "格懺反",
+          "quote": "領【〻】。"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "1148.1",
+          "char": "監",
+          "position": "見開二銜平",
+          "fanqie": "古銜",
+          "quote": "領也察也說文云臨下也古銜切又古懺切五"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "3169.3",
+          "char": "監",
+          "position": "見開二銜去",
+          "fanqie": "格懺",
+          "quote": "領也亦姓風俗通云衛康叔爲連屬之監其後氏焉又古銜切"
+        }
+      ]
+    },
+    {
+      "char": "監",
+      "dictionaryChar": "監",
+      "position": "見開二銜平",
+      "fanqie": "古銜",
+      "dictionaryQuote": "領也察也說文云臨下也古銜切又古懺切五",
+      "occurrences": [
+        {
+          "title": "商頌・殷武",
+          "index": 79,
+          "context": "穡匪解天命降監下民有嚴不僭"
+        }
+      ],
+      "selectionKind": "semantic-preference",
+      "basis": "天監、監觀、日監、降監皆臨下察視，採古銜切察也、臨下也；不按官名之監處理。 限本句語境採讀，保留字庫其他候選；不宣稱該字在各篇各義都只有一音。",
+      "sourceReferences": [
+        {
+          "file": "KR1c0009_020.txt",
+          "page": "KR1c0009_SBCK_020-22b",
+          "lemma": "于下國封建厥福",
+          "quote": "叶筆力反○賦也監視嚴威也僭賞之差也濫刑之過也遑暇封大也○言天命降監不在乎他皆在民之視聽則下民亦有嚴矣惟賞不僭刑不濫而不敢怠遑則天命之以天下而大建其福此髙宗所以受命而中興也",
+          "sourceIndex": 1629
+        }
+      ],
+      "rhymeReferences": [
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "24034",
+          "char": "監",
+          "position": "見開二銜平",
+          "fanqie": "古銜反",
+          "quote": "古銜反。又古懴反：明。五。"
+        },
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "49828",
+          "char": "監",
+          "position": "見開二銜去",
+          "fanqie": "格懺反",
+          "quote": "領【〻】。"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "1148.1",
+          "char": "監",
+          "position": "見開二銜平",
+          "fanqie": "古銜",
+          "quote": "領也察也說文云臨下也古銜切又古懺切五"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "3169.3",
+          "char": "監",
+          "position": "見開二銜去",
+          "fanqie": "格懺",
+          "quote": "領也亦姓風俗通云衛康叔爲連屬之監其後氏焉又古銜切"
+        }
+      ]
+    },
+    {
+      "char": "巧",
+      "dictionaryChar": "巧",
+      "position": "溪開二肴上",
+      "fanqie": "苦絞",
+      "dictionaryQuote": "好也能也善也苦絞切又巧僞苦教切二",
+      "occurrences": [
+        {
+          "title": "衛風・碩人",
+          "index": 48,
+          "context": "瓠犀螓首蛾眉巧笑倩兮美目盼"
+        }
+      ],
+      "selectionKind": "semantic-preference",
+      "basis": "巧笑、巧趨蹌言美好善能，據苦絞切好也能也善也；不取巧偽義。 限本句語境採讀，保留字庫其他候選；不宣稱該字在各篇各義都只有一音。",
+      "sourceReferences": [],
+      "rhymeReferences": [
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "31894",
+          "char": "巧",
+          "position": "溪開二肴上",
+          "fanqie": "苦絞反",
+          "quote": "苦絞反。工。又苦教反。一。"
+        },
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "45652",
+          "char": "巧",
+          "position": "溪開二肴去",
+          "fanqie": "苦教反",
+          "quote": "〻〈巧〉偽。又苦絞反。"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "1699.1",
+          "char": "巧",
+          "position": "溪開二肴上",
+          "fanqie": "苦絞",
+          "quote": "好也能也善也苦絞切又巧僞苦教切二"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "2795.3",
+          "char": "巧",
+          "position": "溪開二肴去",
+          "fanqie": "苦教",
+          "quote": "巧僞山海經曰義均始爲巧倕作百巧也又苦絞切"
+        }
+      ]
+    },
+    {
+      "char": "巧",
+      "dictionaryChar": "巧",
+      "position": "溪開二肴上",
+      "fanqie": "苦絞",
+      "dictionaryQuote": "好也能也善也苦絞切又巧僞苦教切二",
+      "occurrences": [
+        {
+          "title": "衛風・竹竿",
+          "index": 41,
+          "context": "在右泉源在左巧笑之瑳佩玉之"
+        }
+      ],
+      "selectionKind": "semantic-preference",
+      "basis": "巧笑、巧趨蹌言美好善能，據苦絞切好也能也善也；不取巧偽義。 限本句語境採讀，保留字庫其他候選；不宣稱該字在各篇各義都只有一音。",
+      "sourceReferences": [],
+      "rhymeReferences": [
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "31894",
+          "char": "巧",
+          "position": "溪開二肴上",
+          "fanqie": "苦絞反",
+          "quote": "苦絞反。工。又苦教反。一。"
+        },
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "45652",
+          "char": "巧",
+          "position": "溪開二肴去",
+          "fanqie": "苦教反",
+          "quote": "〻〈巧〉偽。又苦絞反。"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "1699.1",
+          "char": "巧",
+          "position": "溪開二肴上",
+          "fanqie": "苦絞",
+          "quote": "好也能也善也苦絞切又巧僞苦教切二"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "2795.3",
+          "char": "巧",
+          "position": "溪開二肴去",
+          "fanqie": "苦教",
+          "quote": "巧僞山海經曰義均始爲巧倕作百巧也又苦絞切"
+        }
+      ]
+    },
+    {
+      "char": "巧",
+      "dictionaryChar": "巧",
+      "position": "溪開二肴上",
+      "fanqie": "苦絞",
+      "dictionaryQuote": "好也能也善也苦絞切又巧僞苦教切二",
+      "occurrences": [
+        {
+          "title": "齊風・猗嗟",
+          "index": 16,
+          "context": "揚兮美目揚兮巧趨蹌兮射則臧"
+        }
+      ],
+      "selectionKind": "semantic-preference",
+      "basis": "巧笑、巧趨蹌言美好善能，據苦絞切好也能也善也；不取巧偽義。 限本句語境採讀，保留字庫其他候選；不宣稱該字在各篇各義都只有一音。",
+      "sourceReferences": [],
+      "rhymeReferences": [
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "31894",
+          "char": "巧",
+          "position": "溪開二肴上",
+          "fanqie": "苦絞反",
+          "quote": "苦絞反。工。又苦教反。一。"
+        },
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "45652",
+          "char": "巧",
+          "position": "溪開二肴去",
+          "fanqie": "苦教反",
+          "quote": "〻〈巧〉偽。又苦絞反。"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "1699.1",
+          "char": "巧",
+          "position": "溪開二肴上",
+          "fanqie": "苦絞",
+          "quote": "好也能也善也苦絞切又巧僞苦教切二"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "2795.3",
+          "char": "巧",
+          "position": "溪開二肴去",
+          "fanqie": "苦教",
+          "quote": "巧僞山海經曰義均始爲巧倕作百巧也又苦絞切"
+        }
+      ]
+    },
+    {
+      "char": "浸",
+      "dictionaryChar": "浸",
+      "position": "精開三侵去",
+      "fanqie": "子鴆",
+      "dictionaryQuote": "漬也漸也子鴆切四",
+      "occurrences": [
+        {
+          "title": "曹風・下泉",
+          "index": 4,
+          "context": "冽彼下泉浸彼苞稂愾我寤"
+        }
+      ],
+      "selectionKind": "semantic-preference",
+      "basis": "流水浸漬草木、田地或薪，據子鴆切漬也；不是「浸淫」連語的七林切用法。 限本句語境採讀，保留字庫其他候選；不宣稱該字在各篇各義都只有一音。",
+      "sourceReferences": [],
+      "rhymeReferences": [
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "49097",
+          "char": "浸",
+          "position": "精開三侵去",
+          "fanqie": "作鴆反",
+          "quote": "漬【〻】。"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "1045.4",
+          "char": "浸",
+          "position": "清開三侵平",
+          "fanqie": "七林",
+          "quote": "浸淫也又子鴆切"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "3086.1",
+          "char": "浸",
+          "position": "精開三侵去",
+          "fanqie": "子鴆",
+          "quote": "漬也漸也子鴆切四"
+        }
+      ]
+    },
+    {
+      "char": "浸",
+      "dictionaryChar": "浸",
+      "position": "精開三侵去",
+      "fanqie": "子鴆",
+      "dictionaryQuote": "漬也漸也子鴆切四",
+      "occurrences": [
+        {
+          "title": "曹風・下泉",
+          "index": 20,
+          "context": "周京冽彼下泉浸彼苞蕭愾我寤"
+        }
+      ],
+      "selectionKind": "semantic-preference",
+      "basis": "流水浸漬草木、田地或薪，據子鴆切漬也；不是「浸淫」連語的七林切用法。 限本句語境採讀，保留字庫其他候選；不宣稱該字在各篇各義都只有一音。",
+      "sourceReferences": [],
+      "rhymeReferences": [
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "49097",
+          "char": "浸",
+          "position": "精開三侵去",
+          "fanqie": "作鴆反",
+          "quote": "漬【〻】。"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "1045.4",
+          "char": "浸",
+          "position": "清開三侵平",
+          "fanqie": "七林",
+          "quote": "浸淫也又子鴆切"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "3086.1",
+          "char": "浸",
+          "position": "精開三侵去",
+          "fanqie": "子鴆",
+          "quote": "漬也漸也子鴆切四"
+        }
+      ]
+    },
+    {
+      "char": "浸",
+      "dictionaryChar": "浸",
+      "position": "精開三侵去",
+      "fanqie": "子鴆",
+      "dictionaryQuote": "漬也漸也子鴆切四",
+      "occurrences": [
+        {
+          "title": "曹風・下泉",
+          "index": 36,
+          "context": "京周冽彼下泉浸彼苞蓍愾我寤"
+        }
+      ],
+      "selectionKind": "semantic-preference",
+      "basis": "流水浸漬草木、田地或薪，據子鴆切漬也；不是「浸淫」連語的七林切用法。 限本句語境採讀，保留字庫其他候選；不宣稱該字在各篇各義都只有一音。",
+      "sourceReferences": [],
+      "rhymeReferences": [
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "49097",
+          "char": "浸",
+          "position": "精開三侵去",
+          "fanqie": "作鴆反",
+          "quote": "漬【〻】。"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "1045.4",
+          "char": "浸",
+          "position": "清開三侵平",
+          "fanqie": "七林",
+          "quote": "浸淫也又子鴆切"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "3086.1",
+          "char": "浸",
+          "position": "精開三侵去",
+          "fanqie": "子鴆",
+          "quote": "漬也漸也子鴆切四"
+        }
+      ]
+    },
+    {
+      "char": "浸",
+      "dictionaryChar": "浸",
+      "position": "精開三侵去",
+      "fanqie": "子鴆",
+      "dictionaryQuote": "漬也漸也子鴆切四",
+      "occurrences": [
+        {
+          "title": "小雅・小旻之什・大東",
+          "index": 69,
+          "context": "疚有冽氿泉無浸穫薪契契寤歎"
+        }
+      ],
+      "selectionKind": "semantic-preference",
+      "basis": "流水浸漬草木、田地或薪，據子鴆切漬也；不是「浸淫」連語的七林切用法。 限本句語境採讀，保留字庫其他候選；不宣稱該字在各篇各義都只有一音。",
+      "sourceReferences": [],
+      "rhymeReferences": [
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "49097",
+          "char": "浸",
+          "position": "精開三侵去",
+          "fanqie": "作鴆反",
+          "quote": "漬【〻】。"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "1045.4",
+          "char": "浸",
+          "position": "清開三侵平",
+          "fanqie": "七林",
+          "quote": "浸淫也又子鴆切"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "3086.1",
+          "char": "浸",
+          "position": "精開三侵去",
+          "fanqie": "子鴆",
+          "quote": "漬也漸也子鴆切四"
+        }
+      ]
+    },
+    {
+      "char": "浸",
+      "dictionaryChar": "浸",
+      "position": "精開三侵去",
+      "fanqie": "子鴆",
+      "dictionaryQuote": "漬也漸也子鴆切四",
+      "occurrences": [
+        {
+          "title": "小雅・都人士之什・白華",
+          "index": 36,
+          "context": "不猶滮池北流浸彼稻田嘯歌傷"
+        }
+      ],
+      "selectionKind": "semantic-preference",
+      "basis": "流水浸漬草木、田地或薪，據子鴆切漬也；不是「浸淫」連語的七林切用法。 限本句語境採讀，保留字庫其他候選；不宣稱該字在各篇各義都只有一音。",
+      "sourceReferences": [
+        {
+          "file": "KR1c0009_015.txt",
+          "page": "KR1c0009_SBCK_015-6a",
+          "lemma": "歌傷懷念彼碩人",
+          "quote": "比也滮流貌北流豐鎬之閒水多北流碩人尊大之稱亦謂幽王也○言小水微流尚能浸灌王之尊大而反不能通其寵澤所以使我嘯歌傷懷而念之也",
+          "sourceIndex": 421
+        }
+      ],
+      "rhymeReferences": [
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "49097",
+          "char": "浸",
+          "position": "精開三侵去",
+          "fanqie": "作鴆反",
+          "quote": "漬【〻】。"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "1045.4",
+          "char": "浸",
+          "position": "清開三侵平",
+          "fanqie": "七林",
+          "quote": "浸淫也又子鴆切"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "3086.1",
+          "char": "浸",
+          "position": "精開三侵去",
+          "fanqie": "子鴆",
+          "quote": "漬也漸也子鴆切四"
+        }
+      ]
+    },
+    {
+      "char": "張",
+      "dictionaryChar": "張",
+      "position": "知開三陽平",
+      "fanqie": "陟良",
+      "dictionaryQuote": "張施也又姓出清河南陽吳郡安定燉煌武威范陽犍爲沛國梁國中山汲郡河內高平十四望本自軒轅第五子揮始造弦寔張網羅世掌其職後因氏焉風俗傳云張王李趙黃帝賜姓也陟良切四",
+      "occurrences": [
+        {
+          "title": "小雅・彤弓之什・六月",
+          "index": 188,
+          "context": "膾鯉侯誰在矣張仲孝友"
+        }
+      ],
+      "selectionKind": "semantic-preference",
+      "basis": "張仲為人名，以陟良切所收張姓為据；不以弓張動作的平去異讀泛推。 限本句語境採讀，保留字庫其他候選；不宣稱該字在各篇各義都只有一音。",
+      "sourceReferences": [
+        {
+          "file": "KR1c0009_010.txt",
+          "page": "KR1c0009_SBCK_010-6a",
+          "lemma": "誰在矣張仲孝友",
+          "quote": "叶羽巳反賦也祉福御進矦維也張仲吉甫之友也善父母曰孝善兄弟曰友○此言吉甫燕飲喜樂多受福祉蓋以其歸自鎬而行永乆也是以飮酒進饌於朋友而孝友之張仲在焉言其所與燕者之賢所以賢吉甫而善是燕也",
+          "sourceIndex": 358
+        }
+      ],
+      "rhymeReferences": [
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "17070",
+          "char": "張",
+          "position": "知開三陽平",
+          "fanqie": "陟良反",
+          "quote": "陟良反。開。三。"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "816.1",
+          "char": "張",
+          "position": "知開三陽平",
+          "fanqie": "陟良",
+          "quote": "張施也又姓出清河南陽吳郡安定燉煌武威范陽犍爲沛國梁國中山汲郡河內高平十四望本自軒轅第五子揮始造弦寔張網羅世掌其職後因氏焉風俗傳云張王李趙黃帝賜姓也陟良切四"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "2898.5",
+          "char": "張",
+          "position": "知開三陽去",
+          "fanqie": "知亮",
+          "quote": "張施又陟良切"
+        }
+      ]
+    },
+    {
+      "char": "空",
+      "dictionaryChar": "空",
+      "position": "溪一東平",
+      "fanqie": "苦紅",
+      "dictionaryQuote": "空虛書曰伯禹作司空又漢複姓有空桐空相二氏苦紅切十四",
+      "occurrences": [
+        {
+          "title": "大雅・文王之什・緜",
+          "index": 99,
+          "context": "爰執事乃召司空乃召司徒俾立"
+        }
+      ],
+      "selectionKind": "semantic-preference",
+      "basis": "司空為官名；《廣韻》苦紅切直接引「伯禹作司空」。 限本句語境採讀，保留字庫其他候選；不宣稱該字在各篇各義都只有一音。",
+      "sourceReferences": [
+        {
+          "file": "KR1c0009_016.txt",
+          "page": "KR1c0009_SBCK_016-13a",
+          "lemma": "版以載作廟翼翼",
+          "quote": "賦也司空掌營國邑司徒掌徒役之事繩所以爲直凡營度位處皆先以繩正之旣正則束版而築也縮束也載上下相承也言以索束版投土築訖則升下而上以相",
+          "sourceIndex": 540
+        }
+      ],
+      "rhymeReferences": [
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "501",
+          "char": "空",
+          "position": "溪一東平",
+          "fanqie": "苦紅反",
+          "quote": "苦紅反。虚。七。"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "21.1",
+          "char": "空",
+          "position": "溪一東平",
+          "fanqie": "苦紅",
+          "quote": "空虛書曰伯禹作司空又漢複姓有空桐空相二氏苦紅切十四"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "2097.5",
+          "char": "空",
+          "position": "溪一東去",
+          "fanqie": "苦貢",
+          "quote": "空缺又苦紅切"
+        }
+      ]
+    },
+    {
+      "char": "舌",
+      "dictionaryChar": "舌",
+      "position": "船開三仙入",
+      "fanqie": "食列",
+      "dictionaryQuote": "口中舌山海經云長舌山有獸名長舌狀如禺而四耳出則郡多水又姓左傳越大夫舌庸也食列切四",
+      "occurrences": [
+        {
+          "title": "小雅・祈父之什・雨無正",
+          "index": 151,
+          "context": "哀哉不能言匪舌是出維躬是瘁"
+        }
+      ],
+      "selectionKind": "semantic-preference",
+      "basis": "口舌、喉舌及箕舌均為舌之本義或形狀譬喻，據食列切「口中舌」；下刮切是另訓塞口。 限本句語境採讀，保留字庫其他候選；不宣稱該字在各篇各義都只有一音。",
+      "sourceReferences": [],
+      "rhymeReferences": [
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "56332",
+          "char": "舌",
+          "position": "匣合二刪入",
+          "fanqie": "下刮反",
+          "quote": "口中肉。"
+        },
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "57368",
+          "char": "舌",
+          "position": "船開三仙入",
+          "fanqie": "食列反",
+          "quote": "食列反。言夲。二。"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "3454.5",
+          "char": "舌",
+          "position": "匣合二刪入",
+          "fanqie": "下刮",
+          "quote": "塞口說文作𠯑話栝之類从此"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "3497.1",
+          "char": "舌",
+          "position": "船開三仙入",
+          "fanqie": "食列",
+          "quote": "口中舌山海經云長舌山有獸名長舌狀如禺而四耳出則郡多水又姓左傳越大夫舌庸也食列切四"
+        }
+      ]
+    },
+    {
+      "char": "舌",
+      "dictionaryChar": "舌",
+      "position": "船開三仙入",
+      "fanqie": "食列",
+      "dictionaryQuote": "口中舌山海經云長舌山有獸名長舌狀如禺而四耳出則郡多水又姓左傳越大夫舌庸也食列切四",
+      "occurrences": [
+        {
+          "title": "小雅・小旻之什・大東",
+          "index": 218,
+          "context": "南有箕載翕其舌維北有斗西柄"
+        }
+      ],
+      "selectionKind": "semantic-preference",
+      "basis": "口舌、喉舌及箕舌均為舌之本義或形狀譬喻，據食列切「口中舌」；下刮切是另訓塞口。 限本句語境採讀，保留字庫其他候選；不宣稱該字在各篇各義都只有一音。",
+      "sourceReferences": [
+        {
+          "file": "KR1c0009_012.txt",
+          "page": "KR1c0009_SBCK_012-26a",
+          "lemma": "北有斗西柄之揭",
+          "quote": "音訐○賦也箕斗二星以夏秋之閒見於南方云北斗者以其在箕之北也或日北斗常見不隱者也翕引也舌下二星也南斗柄固指西若北斗而西柄則亦秋時也○言南箕旣不可以簸揚糠粃北斗旣不可以挹酌酒漿而箕引其舌反若有所吞噬斗西揭其柄反若有所挹取於東是天非徒無若我何乃亦若助西人而見困甚怨之詞也",
+          "sourceIndex": 1652
+        }
+      ],
+      "rhymeReferences": [
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "56332",
+          "char": "舌",
+          "position": "匣合二刪入",
+          "fanqie": "下刮反",
+          "quote": "口中肉。"
+        },
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "57368",
+          "char": "舌",
+          "position": "船開三仙入",
+          "fanqie": "食列反",
+          "quote": "食列反。言夲。二。"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "3454.5",
+          "char": "舌",
+          "position": "匣合二刪入",
+          "fanqie": "下刮",
+          "quote": "塞口說文作𠯑話栝之類从此"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "3497.1",
+          "char": "舌",
+          "position": "船開三仙入",
+          "fanqie": "食列",
+          "quote": "口中舌山海經云長舌山有獸名長舌狀如禺而四耳出則郡多水又姓左傳越大夫舌庸也食列切四"
+        }
+      ]
+    },
+    {
+      "char": "舌",
+      "dictionaryChar": "舌",
+      "position": "船開三仙入",
+      "fanqie": "食列",
+      "dictionaryQuote": "口中舌山海經云長舌山有獸名長舌狀如禺而四耳出則郡多水又姓左傳越大夫舌庸也食列切四",
+      "occurrences": [
+        {
+          "title": "大雅・蕩之什・抑",
+          "index": 193,
+          "context": "曰苟矣莫捫朕舌言不可逝矣無"
+        }
+      ],
+      "selectionKind": "semantic-preference",
+      "basis": "口舌、喉舌及箕舌均為舌之本義或形狀譬喻，據食列切「口中舌」；下刮切是另訓塞口。 限本句語境採讀，保留字庫其他候選；不宣稱該字在各篇各義都只有一音。",
+      "sourceReferences": [
+        {
+          "file": "KR1c0009_018.txt",
+          "page": "KR1c0009_SBCK_018-7a",
+          "lemma": "繩繩萬民靡不承",
+          "quote": "賦也易輕捫持逝去讎答承奉也○言不可輕易其言蓋無人爲我執持其舌者故言語由己易致差失常當執守不可放去也且天下之理無有言而不讎無有德而不報者若爾能惠于朋友庶民小子則子孫縄縄而萬民靡不承矣皆謹言之效也",
+          "sourceIndex": 509
+        }
+      ],
+      "rhymeReferences": [
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "56332",
+          "char": "舌",
+          "position": "匣合二刪入",
+          "fanqie": "下刮反",
+          "quote": "口中肉。"
+        },
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "57368",
+          "char": "舌",
+          "position": "船開三仙入",
+          "fanqie": "食列反",
+          "quote": "食列反。言夲。二。"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "3454.5",
+          "char": "舌",
+          "position": "匣合二刪入",
+          "fanqie": "下刮",
+          "quote": "塞口說文作𠯑話栝之類从此"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "3497.1",
+          "char": "舌",
+          "position": "船開三仙入",
+          "fanqie": "食列",
+          "quote": "口中舌山海經云長舌山有獸名長舌狀如禺而四耳出則郡多水又姓左傳越大夫舌庸也食列切四"
+        }
+      ]
+    },
+    {
+      "char": "舌",
+      "dictionaryChar": "舌",
+      "position": "船開三仙入",
+      "fanqie": "食列",
+      "dictionaryQuote": "口中舌山海經云長舌山有獸名長舌狀如禺而四耳出則郡多水又姓左傳越大夫舌庸也食列切四",
+      "occurrences": [
+        {
+          "title": "大雅・蕩之什・烝民",
+          "index": 89,
+          "context": "納王命王之喉舌賦政于外四方"
+        }
+      ],
+      "selectionKind": "semantic-preference",
+      "basis": "口舌、喉舌及箕舌均為舌之本義或形狀譬喻，據食列切「口中舌」；下刮切是另訓塞口。 限本句語境採讀，保留字庫其他候選；不宣稱該字在各篇各義都只有一音。",
+      "sourceReferences": [],
+      "rhymeReferences": [
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "56332",
+          "char": "舌",
+          "position": "匣合二刪入",
+          "fanqie": "下刮反",
+          "quote": "口中肉。"
+        },
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "57368",
+          "char": "舌",
+          "position": "船開三仙入",
+          "fanqie": "食列反",
+          "quote": "食列反。言夲。二。"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "3454.5",
+          "char": "舌",
+          "position": "匣合二刪入",
+          "fanqie": "下刮",
+          "quote": "塞口說文作𠯑話栝之類从此"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "3497.1",
+          "char": "舌",
+          "position": "船開三仙入",
+          "fanqie": "食列",
+          "quote": "口中舌山海經云長舌山有獸名長舌狀如禺而四耳出則郡多水又姓左傳越大夫舌庸也食列切四"
+        }
+      ]
+    },
+    {
+      "char": "舌",
+      "dictionaryChar": "舌",
+      "position": "船開三仙入",
+      "fanqie": "食列",
+      "dictionaryQuote": "口中舌山海經云長舌山有獸名長舌狀如禺而四耳出則郡多水又姓左傳越大夫舌庸也食列切四",
+      "occurrences": [
+        {
+          "title": "大雅・蕩之什・瞻卬",
+          "index": 91,
+          "context": "梟爲鴟婦有長舌維厲之階亂匪"
+        }
+      ],
+      "selectionKind": "semantic-preference",
+      "basis": "口舌、喉舌及箕舌均為舌之本義或形狀譬喻，據食列切「口中舌」；下刮切是另訓塞口。 限本句語境採讀，保留字庫其他候選；不宣稱該字在各篇各義都只有一音。",
+      "sourceReferences": [
+        {
+          "file": "KR1c0009_018.txt",
+          "page": "KR1c0009_SBCK_018-39a",
+          "lemma": "敎匪誨時維婦寺",
+          "quote": "賦也哲知也城猶國也哲婦蓋指褒姒也傾覆懿美也梟鴟惡聲之鳥也長舌能多言者也階梯也寺奄人也○言男子正位乎外爲國家之主故有知則能立國婦人以無非無儀爲善無所事哲哲則適以覆國而巳故此懿美之哲婦而反爲梟鴟蓋以其多言而能爲禍亂之梯也若是則亂豈眞自天降如首章之說哉特由此婦人而巳蓋其言雖多而非有敎誨之益者是惟婦人與奄人耳豈可近哉上文但言婦人之禍末句兼以奄人爲言蓋二者常相倚而爲姦不可不并以爲戒也歐陽公常言䆠者之禍甚於女寵其言尤爲深切有國家者可不戒哉",
+          "sourceIndex": 2850
+        }
+      ],
+      "rhymeReferences": [
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "56332",
+          "char": "舌",
+          "position": "匣合二刪入",
+          "fanqie": "下刮反",
+          "quote": "口中肉。"
+        },
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "57368",
+          "char": "舌",
+          "position": "船開三仙入",
+          "fanqie": "食列反",
+          "quote": "食列反。言夲。二。"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "3454.5",
+          "char": "舌",
+          "position": "匣合二刪入",
+          "fanqie": "下刮",
+          "quote": "塞口說文作𠯑話栝之類从此"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "3497.1",
+          "char": "舌",
+          "position": "船開三仙入",
+          "fanqie": "食列",
+          "quote": "口中舌山海經云長舌山有獸名長舌狀如禺而四耳出則郡多水又姓左傳越大夫舌庸也食列切四"
+        }
+      ]
+    },
+    {
+      "char": "召",
+      "dictionaryChar": "召",
+      "position": "澄開三宵去",
+      "fanqie": "直照",
+      "dictionaryQuote": "呼也直照切一",
+      "occurrences": [
+        {
+          "title": "大雅・文王之什・緜",
+          "index": 97,
+          "context": "東周爰執事乃召司空乃召司徒"
+        }
+      ],
+      "selectionKind": "semantic-preference",
+      "basis": "「乃召司空、乃召司徒」為召呼官員，據直照切呼也。 限本句語境採讀，保留字庫其他候選；不宣稱該字在各篇各義都只有一音。",
+      "sourceReferences": [],
+      "rhymeReferences": [
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "45337",
+          "char": "召",
+          "position": "澄開三宵去",
+          "fanqie": "直笑反",
+          "quote": "直𥬇反。呼。一。"
+        },
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "45347",
+          "char": "召",
+          "position": "常開三宵去",
+          "fanqie": "寔曜反",
+          "quote": "髙。又時燒反。"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "2772.1",
+          "char": "召",
+          "position": "澄開三宵去",
+          "fanqie": "直照",
+          "quote": "呼也直照切一"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "2773.2",
+          "char": "召",
+          "position": "常開三宵去",
+          "fanqie": "寔照",
+          "quote": "上同"
+        }
+      ]
+    },
+    {
+      "char": "召",
+      "dictionaryChar": "召",
+      "position": "澄開三宵去",
+      "fanqie": "直照",
+      "dictionaryQuote": "呼也直照切一",
+      "occurrences": [
+        {
+          "title": "大雅・文王之什・緜",
+          "index": 101,
+          "context": "事乃召司空乃召司徒俾立室家"
+        }
+      ],
+      "selectionKind": "semantic-preference",
+      "basis": "「乃召司空、乃召司徒」為召呼官員，據直照切呼也。 限本句語境採讀，保留字庫其他候選；不宣稱該字在各篇各義都只有一音。",
+      "sourceReferences": [],
+      "rhymeReferences": [
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "45337",
+          "char": "召",
+          "position": "澄開三宵去",
+          "fanqie": "直笑反",
+          "quote": "直𥬇反。呼。一。"
+        },
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "45347",
+          "char": "召",
+          "position": "常開三宵去",
+          "fanqie": "寔曜反",
+          "quote": "髙。又時燒反。"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "2772.1",
+          "char": "召",
+          "position": "澄開三宵去",
+          "fanqie": "直照",
+          "quote": "呼也直照切一"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "2773.2",
+          "char": "召",
+          "position": "常開三宵去",
+          "fanqie": "寔照",
+          "quote": "上同"
+        }
+      ]
+    },
+    {
+      "char": "召",
+      "dictionaryChar": "召",
+      "position": "常開三宵去",
+      "fanqie": "寔照",
+      "dictionaryQuote": "上同（邑名又姓出魏郡周文王子邵公奭之後寔照切七）",
+      "occurrences": [
+        {
+          "title": "大雅・蕩之什・江漢",
+          "index": 70,
+          "context": "江漢之滸王命召虎式辟四方徹"
+        }
+      ],
+      "selectionKind": "semantic-preference",
+      "basis": "召虎、召祖指召公一系，據寔照切邑名、姓及召公奭之後；不讀召呼之召。 限本句語境採讀，保留字庫其他候選；不宣稱該字在各篇各義都只有一音。",
+      "sourceReferences": [
+        {
+          "file": "KR1c0009_018.txt",
+          "page": "KR1c0009_SBCK_018-33b",
+          "lemma": "理于理至于南海",
+          "quote": "叶虎委反○賦也虎召穆公名也辟與闢同徹井其田也疚病棘急也極中之衣也居中而爲四方所取正也○言江漢旣平王又命召公闢四方之侵地而治其疆界非以病之非以急之也但使其來取正於王國而巳於是遂疆理之盡南海而止也",
+          "sourceIndex": 2433
+        }
+      ],
+      "rhymeReferences": [
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "45337",
+          "char": "召",
+          "position": "澄開三宵去",
+          "fanqie": "直笑反",
+          "quote": "直𥬇反。呼。一。"
+        },
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "45347",
+          "char": "召",
+          "position": "常開三宵去",
+          "fanqie": "寔曜反",
+          "quote": "髙。又時燒反。"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "2772.1",
+          "char": "召",
+          "position": "澄開三宵去",
+          "fanqie": "直照",
+          "quote": "呼也直照切一"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "2773.2",
+          "char": "召",
+          "position": "常開三宵去",
+          "fanqie": "寔照",
+          "quote": "上同"
+        }
+      ]
+    },
+    {
+      "char": "召",
+      "dictionaryChar": "召",
+      "position": "常開三宵去",
+      "fanqie": "寔照",
+      "dictionaryQuote": "上同（邑名又姓出魏郡周文王子邵公奭之後寔照切七）",
+      "occurrences": [
+        {
+          "title": "大雅・蕩之什・江漢",
+          "index": 98,
+          "context": "至于南海王命召虎來旬來宣文"
+        }
+      ],
+      "selectionKind": "semantic-preference",
+      "basis": "召虎、召祖指召公一系，據寔照切邑名、姓及召公奭之後；不讀召呼之召。 限本句語境採讀，保留字庫其他候選；不宣稱該字在各篇各義都只有一音。",
+      "sourceReferences": [
+        {
+          "file": "KR1c0009_018.txt",
+          "page": "KR1c0009_SBCK_018-33b",
+          "lemma": "敏戎公用錫爾祉",
+          "quote": "賦也旬徧宣布也自江漢之滸言之故曰來召公召康公奭也翰榦也予小子王自稱也肇開戎女公功也○又言王命召虎來此江漢之滸徧治其事以布王命而曰昔文武受命惟召公爲楨榦今女無曰以予小子之故也但自爲嗣女召公之事耳能開敏女功則我當錫女以祉福如下章所云也",
+          "sourceIndex": 2466
+        }
+      ],
+      "rhymeReferences": [
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "45337",
+          "char": "召",
+          "position": "澄開三宵去",
+          "fanqie": "直笑反",
+          "quote": "直𥬇反。呼。一。"
+        },
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "45347",
+          "char": "召",
+          "position": "常開三宵去",
+          "fanqie": "寔曜反",
+          "quote": "髙。又時燒反。"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "2772.1",
+          "char": "召",
+          "position": "澄開三宵去",
+          "fanqie": "直照",
+          "quote": "呼也直照切一"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "2773.2",
+          "char": "召",
+          "position": "常開三宵去",
+          "fanqie": "寔照",
+          "quote": "上同"
+        }
+      ]
+    },
+    {
+      "char": "召",
+      "dictionaryChar": "召",
+      "position": "常開三宵去",
+      "fanqie": "寔照",
+      "dictionaryQuote": "上同（邑名又姓出魏郡周文王子邵公奭之後寔照切七）",
+      "occurrences": [
+        {
+          "title": "大雅・蕩之什・江漢",
+          "index": 150,
+          "context": "田于周受命自召祖命虎拜稽首"
+        }
+      ],
+      "selectionKind": "semantic-preference",
+      "basis": "召虎、召祖指召公一系，據寔照切邑名、姓及召公奭之後；不讀召呼之召。 限本句語境採讀，保留字庫其他候選；不宣稱該字在各篇各義都只有一音。",
+      "sourceReferences": [
+        {
+          "file": "KR1c0009_018.txt",
+          "page": "KR1c0009_SBCK_018-34a",
+          "lemma": "拜稽首天子萬年",
+          "quote": "叶禰因反○賦也釐賜卣尊也文人先祖之有文德者謂文王也周𡵨周也召祖穆公之祖康公也○此叙王賜召公䇿命之詞言錫爾圭瓚秬鬯者使之以祀其先祖又告于文人而錫之山川土田以廣其封邑蓋古者爵人必於祖廟示不敢專也又使往受命於𡵨周從其祖康公受命於文王之所以寵異之而召公拜稽首以受王命之䇿書也人臣受恩無可以報謝者但言使君壽考而巳",
+          "sourceIndex": 2498
+        }
+      ],
+      "rhymeReferences": [
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "45337",
+          "char": "召",
+          "position": "澄開三宵去",
+          "fanqie": "直笑反",
+          "quote": "直𥬇反。呼。一。"
+        },
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "45347",
+          "char": "召",
+          "position": "常開三宵去",
+          "fanqie": "寔曜反",
+          "quote": "髙。又時燒反。"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "2772.1",
+          "char": "召",
+          "position": "澄開三宵去",
+          "fanqie": "直照",
+          "quote": "呼也直照切一"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "2773.2",
+          "char": "召",
+          "position": "常開三宵去",
+          "fanqie": "寔照",
+          "quote": "上同"
+        }
+      ]
+    },
+    {
+      "char": "溥",
+      "dictionaryChar": "溥",
+      "position": "滂一模上",
+      "fanqie": "滂古",
+      "dictionaryQuote": "大也廣也",
+      "occurrences": [
+        {
+          "title": "大雅・生民之什・公劉",
+          "index": 87,
+          "context": "逝彼百泉瞻彼溥原迺陟南岡乃"
+        }
+      ],
+      "selectionKind": "semantic-preference",
+      "basis": "此數句皆廣大、普遍義，採滂古切大也廣也；不作補各切水名。 限本句語境採讀，保留字庫其他候選；不宣稱該字在各篇各義都只有一音。",
+      "sourceReferences": [],
+      "rhymeReferences": [
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "27962",
+          "char": "溥",
+          "position": "滂一模上",
+          "fanqie": "滂古反",
+          "quote": "大。"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "1390.2",
+          "char": "溥",
+          "position": "滂一模上",
+          "fanqie": "滂古",
+          "quote": "大也廣也"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "3586.16",
+          "char": "溥",
+          "position": "幫一唐入",
+          "fanqie": "補各",
+          "quote": "水名"
+        }
+      ]
+    },
+    {
+      "char": "溥",
+      "dictionaryChar": "溥",
+      "position": "滂一模上",
+      "fanqie": "滂古",
+      "dictionaryQuote": "大也廣也",
+      "occurrences": [
+        {
+          "title": "大雅・生民之什・公劉",
+          "index": 160,
+          "context": "宗之篤公劉既溥既長既景迺岡"
+        }
+      ],
+      "selectionKind": "semantic-preference",
+      "basis": "此數句皆廣大、普遍義，採滂古切大也廣也；不作補各切水名。 限本句語境採讀，保留字庫其他候選；不宣稱該字在各篇各義都只有一音。",
+      "sourceReferences": [],
+      "rhymeReferences": [
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "27962",
+          "char": "溥",
+          "position": "滂一模上",
+          "fanqie": "滂古反",
+          "quote": "大。"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "1390.2",
+          "char": "溥",
+          "position": "滂一模上",
+          "fanqie": "滂古",
+          "quote": "大也廣也"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "3586.16",
+          "char": "溥",
+          "position": "幫一唐入",
+          "fanqie": "補各",
+          "quote": "水名"
+        }
+      ]
+    },
+    {
+      "char": "溥",
+      "dictionaryChar": "溥",
+      "position": "滂一模上",
+      "fanqie": "滂古",
+      "dictionaryQuote": "大也廣也",
+      "occurrences": [
+        {
+          "title": "大雅・蕩之什・韓奕",
+          "index": 241,
+          "context": "令居韓姞燕譽溥彼韓城燕師所"
+        }
+      ],
+      "selectionKind": "semantic-preference",
+      "basis": "此數句皆廣大、普遍義，採滂古切大也廣也；不作補各切水名。 限本句語境採讀，保留字庫其他候選；不宣稱該字在各篇各義都只有一音。",
+      "sourceReferences": [
+        {
+          "file": "KR1c0009_018.txt",
+          "page": "KR1c0009_SBCK_018-32a",
+          "lemma": "其貔皮赤豹黄羆",
+          "quote": "賦也溥大也燕召公之國也師衆也追貊夷狄之國也墉城壑池籍稅也貔猛獸名○韓初封時召公爲司空王命以其衆爲築此城如召伯營謝山甫城齊春秋諸矦城邢城楚丘之類也王以韓矦之先因是百蠻而長之故錫之追貃使爲之伯以脩其城池治其田畒正其稅法而貢其所有於王也",
+          "sourceIndex": 2329
+        }
+      ],
+      "rhymeReferences": [
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "27962",
+          "char": "溥",
+          "position": "滂一模上",
+          "fanqie": "滂古反",
+          "quote": "大。"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "1390.2",
+          "char": "溥",
+          "position": "滂一模上",
+          "fanqie": "滂古",
+          "quote": "大也廣也"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "3586.16",
+          "char": "溥",
+          "position": "幫一唐入",
+          "fanqie": "補各",
+          "quote": "水名"
+        }
+      ]
+    },
+    {
+      "char": "溥",
+      "dictionaryChar": "溥",
+      "position": "滂一模上",
+      "fanqie": "滂古",
+      "dictionaryQuote": "大也廣也",
+      "occurrences": [
+        {
+          "title": "大雅・蕩之什・召旻",
+          "index": 125,
+          "context": "竭矣不云自中溥斯害矣職兄斯"
+        }
+      ],
+      "selectionKind": "semantic-preference",
+      "basis": "此數句皆廣大、普遍義，採滂古切大也廣也；不作補各切水名。 限本句語境採讀，保留字庫其他候選；不宣稱該字在各篇各義都只有一音。",
+      "sourceReferences": [
+        {
+          "file": "KR1c0009_018.txt",
+          "page": "KR1c0009_SBCK_018-43a",
+          "lemma": "兄斯弘不烖我躬",
+          "quote": "叶姑弘反○賦也頻崖溥廣弘大也○池水之鍾也泉水之發也故池之竭由外之不入泉之竭由內之不出言禍亂有所從起而今不云然也此其爲害亦巳廣矣是使我心專爲此故至於愴怳日益弘大而憂之曰是豈不烖及我躬也乎",
+          "sourceIndex": 3137
+        }
+      ],
+      "rhymeReferences": [
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "27962",
+          "char": "溥",
+          "position": "滂一模上",
+          "fanqie": "滂古反",
+          "quote": "大。"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "1390.2",
+          "char": "溥",
+          "position": "滂一模上",
+          "fanqie": "滂古",
+          "quote": "大也廣也"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "3586.16",
+          "char": "溥",
+          "position": "幫一唐入",
+          "fanqie": "補各",
+          "quote": "水名"
+        }
+      ]
+    },
+    {
+      "char": "溥",
+      "dictionaryChar": "溥",
+      "position": "滂一模上",
+      "fanqie": "滂古",
+      "dictionaryQuote": "大也廣也",
+      "occurrences": [
+        {
+          "title": "商頌・烈祖",
+          "index": 63,
+          "context": "假以享我受命溥將自天降康豐"
+        }
+      ],
+      "selectionKind": "semantic-preference",
+      "basis": "此數句皆廣大、普遍義，採滂古切大也廣也；不作補各切水名。 限本句語境採讀，保留字庫其他候選；不宣稱該字在各篇各義都只有一音。",
+      "sourceReferences": [
+        {
+          "file": "KR1c0009_020.txt",
+          "page": "KR1c0009_SBCK_020-16b",
+          "lemma": "假來饗降福無疆",
+          "quote": "約軧錯衡八鸞見采芭篇鶬見載見篇言助祭之諸矦乗是車以假以享于祖宗之廟也溥廣將大也穰穰多也言我受命旣廣大而天降以豐年黍稷之多使得以祭也假之而祖考來假享之而祖考來饗則降福無疆矣",
+          "sourceIndex": 1218
+        }
+      ],
+      "rhymeReferences": [
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "27962",
+          "char": "溥",
+          "position": "滂一模上",
+          "fanqie": "滂古反",
+          "quote": "大。"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "1390.2",
+          "char": "溥",
+          "position": "滂一模上",
+          "fanqie": "滂古",
+          "quote": "大也廣也"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "3586.16",
+          "char": "溥",
+          "position": "幫一唐入",
+          "fanqie": "補各",
+          "quote": "水名"
+        }
+      ]
+    },
+    {
+      "char": "卒",
+      "dictionaryChar": "卒",
+      "position": "精合三真入",
+      "fanqie": "子聿",
+      "dictionaryQuote": "終也盡也子聿切又倉沒切又則骨切五",
+      "occurrences": [
+        {
+          "title": "大雅・蕩之什・桑柔",
+          "index": 206,
+          "context": "降此蟊賊稼穡卒痒哀恫中國具"
+        }
+      ],
+      "selectionKind": "semantic-preference",
+      "basis": "「稼穡卒痒」言稼穡盡病；同章《詩集傳》於「具贅卒荒」釋「卒盡荒虗」，並說本句稼穡病而不得代食，取同章盡皆義互證。採《廣韻》子聿切終也盡也，非士卒或急遽義。此為限定語境的語義採讀，並非本字直接音注。",
+      "sourceReferences": [
+        {
+          "file": "KR1c0009_018.txt",
+          "page": "KR1c0009_SBCK_018-14a",
+          "lemma": "以念穹蒼",
+          "quote": "賦也恫痛具俱也贅屬也言危也春秋傳曰君若綴旒然與此贅同卒盡荒虗也旅與膂同穹蒼天也穹言其形蒼言其色言天降喪亂固巳㓕我所立之王矣又降此蟊賊則我之稼穡又病而不得以代食矣哀此中國皆危盡荒是以危困之極無力以念天禍也此詩之作不知的在何時其言㓕我立王則疑在共和之後也",
+          "sourceIndex": 959
+        }
+      ],
+      "rhymeReferences": [
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "53548",
+          "char": "卒",
+          "position": "精合三真入",
+          "fanqie": "子聿反",
+          "quote": "子聿反。又則骨反。二。"
+        },
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "54941",
+          "char": "卒",
+          "position": "精合一魂入",
+          "fanqie": "則沒反",
+          "quote": "則沒反。兵〻〈卒〉。三。"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "3327.1",
+          "char": "卒",
+          "position": "精合三真入",
+          "fanqie": "子聿",
+          "quote": "終也盡也子聿切又倉沒切又則骨切五"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "3387.2",
+          "char": "卒",
+          "position": "清合一魂入",
+          "fanqie": "倉沒",
+          "quote": "急也遽也又子沒切又將律切"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "3391.1",
+          "char": "卒",
+          "position": "精合一魂入",
+          "fanqie": "臧沒",
+          "quote": "說文隷人給事者衣爲卒卒衣有題識者臧沒切又將聿切三"
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://zh.wikisource.org/wiki/毛詩正義/卷十八",
+          "work": "毛詩正義",
+          "chapter": "卷十八・桑柔",
+          "lemma": "稼穡卒癢",
+          "quote": "箋云：滅，盡也。蟲食苗根曰蟊，食節曰賊。耕種曰稼，收斂曰穡。卒，盡。癢，病也。",
+          "role": "已開讀的原典轉錄旁證；未納入固定來源驗證，選讀的固定證據仍為上述集傳與韻書",
+          "commentator": "鄭玄箋"
+        }
+      ]
+    },
+    {
+      "char": "卒",
+      "dictionaryChar": "卒",
+      "position": "精合三真入",
+      "fanqie": "子聿",
+      "dictionaryQuote": "終也盡也子聿切又倉沒切又則骨切五",
+      "occurrences": [
+        {
+          "title": "大雅・蕩之什・桑柔",
+          "index": 214,
+          "context": "哀恫中國具贅卒荒靡有旅力以"
+        }
+      ],
+      "selectionKind": "semantic-preference",
+      "basis": "「具贅卒荒」的卒，《詩集傳》本章明釋「卒盡荒虗」，並以「皆危盡荒」申說，採《廣韻》子聿切終也盡也，非士卒或急遽義。限本句語義採讀，保留字庫其他候選。",
+      "sourceReferences": [
+        {
+          "file": "KR1c0009_018.txt",
+          "page": "KR1c0009_SBCK_018-14a",
+          "lemma": "以念穹蒼",
+          "quote": "賦也恫痛具俱也贅屬也言危也春秋傳曰君若綴旒然與此贅同卒盡荒虗也旅與膂同穹蒼天也穹言其形蒼言其色言天降喪亂固巳㓕我所立之王矣又降此蟊賊則我之稼穡又病而不得以代食矣哀此中國皆危盡荒是以危困之極無力以念天禍也此詩之作不知的在何時其言㓕我立王則疑在共和之後也",
+          "sourceIndex": 959
+        }
+      ],
+      "rhymeReferences": [
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "53548",
+          "char": "卒",
+          "position": "精合三真入",
+          "fanqie": "子聿反",
+          "quote": "子聿反。又則骨反。二。"
+        },
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "54941",
+          "char": "卒",
+          "position": "精合一魂入",
+          "fanqie": "則沒反",
+          "quote": "則沒反。兵〻〈卒〉。三。"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "3327.1",
+          "char": "卒",
+          "position": "精合三真入",
+          "fanqie": "子聿",
+          "quote": "終也盡也子聿切又倉沒切又則骨切五"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "3387.2",
+          "char": "卒",
+          "position": "清合一魂入",
+          "fanqie": "倉沒",
+          "quote": "急也遽也又子沒切又將律切"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "3391.1",
+          "char": "卒",
+          "position": "精合一魂入",
+          "fanqie": "臧沒",
+          "quote": "說文隷人給事者衣爲卒卒衣有題識者臧沒切又將聿切三"
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://zh.wikisource.org/wiki/毛詩正義/卷十八",
+          "work": "毛詩正義",
+          "chapter": "卷十八・桑柔",
+          "lemma": "具贅卒荒",
+          "quote": "今中國之人，俱見係屬於兵役，家家盡皆空虛，是深可哀矣。",
+          "role": "已開讀的原典轉錄旁證；未納入固定來源驗證，選讀的固定證據仍為上述集傳與韻書",
+          "commentator": "孔穎達正義"
+        }
+      ]
+    },
+    {
+      "char": "卒",
+      "dictionaryChar": "卒",
+      "position": "精合三真入",
+      "fanqie": "子聿",
+      "dictionaryQuote": "終也盡也子聿切又倉沒切又則骨切五",
+      "occurrences": [
+        {
+          "title": "大雅・蕩之什・桑柔",
+          "index": 254,
+          "context": "自有肺腸俾民卒狂瞻彼中林甡"
+        }
+      ],
+      "selectionKind": "semantic-preference",
+      "basis": "「俾民卒狂」言使民皆至迷惑；《詩集傳》本章釋為使民眩惑至於狂亂，同篇前章又明釋「卒盡」。結合句中使民的語境，採《廣韻》子聿切終也盡也，非士卒或急遽義。這是篇內語義互證，並非把前章的音注泛推。",
+      "sourceReferences": [
+        {
+          "file": "KR1c0009_018.txt",
+          "page": "KR1c0009_SBCK_018-14b",
+          "lemma": "俾民卒狂",
+          "quote": "賦也惠順也順於義理也宣徧猶謀相輔狂惑也○言彼順理之君所以爲民所尊仰者以其能秉持其心周徧謀度考擇其輔相必衆以爲賢而後用之彼不順理之君則自以爲善而不考衆謀自有私見而不通衆志所以使民眩惑至於狂亂也",
+          "sourceIndex": 991
+        },
+        {
+          "file": "KR1c0009_018.txt",
+          "page": "KR1c0009_SBCK_018-14a",
+          "lemma": "以念穹蒼",
+          "quote": "賦也恫痛具俱也贅屬也言危也春秋傳曰君若綴旒然與此贅同卒盡荒虗也旅與膂同穹蒼天也穹言其形蒼言其色言天降喪亂固巳㓕我所立之王矣又降此蟊賊則我之稼穡又病而不得以代食矣哀此中國皆危盡荒是以危困之極無力以念天禍也此詩之作不知的在何時其言㓕我立王則疑在共和之後也",
+          "sourceIndex": 959
+        }
+      ],
+      "rhymeReferences": [
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "53548",
+          "char": "卒",
+          "position": "精合三真入",
+          "fanqie": "子聿反",
+          "quote": "子聿反。又則骨反。二。"
+        },
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "54941",
+          "char": "卒",
+          "position": "精合一魂入",
+          "fanqie": "則沒反",
+          "quote": "則沒反。兵〻〈卒〉。三。"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "3327.1",
+          "char": "卒",
+          "position": "精合三真入",
+          "fanqie": "子聿",
+          "quote": "終也盡也子聿切又倉沒切又則骨切五"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "3387.2",
+          "char": "卒",
+          "position": "清合一魂入",
+          "fanqie": "倉沒",
+          "quote": "急也遽也又子沒切又將律切"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "3391.1",
+          "char": "卒",
+          "position": "精合一魂入",
+          "fanqie": "臧沒",
+          "quote": "說文隷人給事者衣爲卒卒衣有題識者臧沒切又將聿切三"
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://zh.wikisource.org/wiki/毛詩正義/卷十八",
+          "work": "毛詩正義",
+          "chapter": "卷十八・桑柔",
+          "lemma": "俾民卒狂",
+          "quote": "自有肺腸行其心中之所欲，乃使民盡迷惑如狂，是又不宣猶。",
+          "role": "已開讀的原典轉錄旁證；未納入固定來源驗證，選讀的固定證據仍為上述集傳與韻書",
+          "commentator": "鄭玄箋"
+        }
+      ]
+    },
+    {
+      "char": "卒",
+      "dictionaryChar": "卒",
+      "position": "精合三真入",
+      "fanqie": "子聿",
+      "dictionaryQuote": "終也盡也子聿切又倉沒切又則骨切五",
+      "occurrences": [
+        {
+          "title": "大雅・蕩之什・召旻",
+          "index": 13,
+          "context": "喪瘨我饑饉民卒流亡我居圉卒"
+        }
+      ],
+      "selectionKind": "semantic-preference",
+      "basis": "本句言全都、盡皆或終至，採子聿切終也盡也；不作士卒，亦非倉沒切急遽義。 限本句語境採讀，保留字庫其他候選；不宣稱該字在各篇各義都只有一音。",
+      "sourceReferences": [
+        {
+          "file": "KR1c0009_018.txt",
+          "page": "KR1c0009_SBCK_018-41b",
+          "lemma": "流亡我居圉卒荒",
+          "quote": "賦也篤厚瘨病卒盡也居國中也圉邊垂也○此刺幽王任用小人以致饑饉侵削之詩也",
+          "sourceIndex": 3021
+        }
+      ],
+      "rhymeReferences": [
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "53548",
+          "char": "卒",
+          "position": "精合三真入",
+          "fanqie": "子聿反",
+          "quote": "子聿反。又則骨反。二。"
+        },
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "54941",
+          "char": "卒",
+          "position": "精合一魂入",
+          "fanqie": "則沒反",
+          "quote": "則沒反。兵〻〈卒〉。三。"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "3327.1",
+          "char": "卒",
+          "position": "精合三真入",
+          "fanqie": "子聿",
+          "quote": "終也盡也子聿切又倉沒切又則骨切五"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "3387.2",
+          "char": "卒",
+          "position": "清合一魂入",
+          "fanqie": "倉沒",
+          "quote": "急也遽也又子沒切又將律切"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "3391.1",
+          "char": "卒",
+          "position": "精合一魂入",
+          "fanqie": "臧沒",
+          "quote": "說文隷人給事者衣爲卒卒衣有題識者臧沒切又將聿切三"
+        }
+      ]
+    },
+    {
+      "char": "卒",
+      "dictionaryChar": "卒",
+      "position": "精合三真入",
+      "fanqie": "子聿",
+      "dictionaryQuote": "終也盡也子聿切又倉沒切又則骨切五",
+      "occurrences": [
+        {
+          "title": "大雅・蕩之什・召旻",
+          "index": 19,
+          "context": "卒流亡我居圉卒荒天降罪罟蟊"
+        }
+      ],
+      "selectionKind": "semantic-preference",
+      "basis": "本句言全都、盡皆或終至，採子聿切終也盡也；不作士卒，亦非倉沒切急遽義。 限本句語境採讀，保留字庫其他候選；不宣稱該字在各篇各義都只有一音。",
+      "sourceReferences": [
+        {
+          "file": "KR1c0009_018.txt",
+          "page": "KR1c0009_SBCK_018-41b",
+          "lemma": "流亡我居圉卒荒",
+          "quote": "賦也篤厚瘨病卒盡也居國中也圉邊垂也○此刺幽王任用小人以致饑饉侵削之詩也",
+          "sourceIndex": 3021
+        }
+      ],
+      "rhymeReferences": [
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "53548",
+          "char": "卒",
+          "position": "精合三真入",
+          "fanqie": "子聿反",
+          "quote": "子聿反。又則骨反。二。"
+        },
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "54941",
+          "char": "卒",
+          "position": "精合一魂入",
+          "fanqie": "則沒反",
+          "quote": "則沒反。兵〻〈卒〉。三。"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "3327.1",
+          "char": "卒",
+          "position": "精合三真入",
+          "fanqie": "子聿",
+          "quote": "終也盡也子聿切又倉沒切又則骨切五"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "3387.2",
+          "char": "卒",
+          "position": "清合一魂入",
+          "fanqie": "倉沒",
+          "quote": "急也遽也又子沒切又將律切"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "3391.1",
+          "char": "卒",
+          "position": "精合一魂入",
+          "fanqie": "臧沒",
+          "quote": "說文隷人給事者衣爲卒卒衣有題識者臧沒切又將聿切三"
+        }
+      ]
+    },
+    {
+      "char": "造",
+      "dictionaryChar": "造",
+      "position": "從開一豪上",
+      "fanqie": "昨早",
+      "dictionaryQuote": "造作又七到切",
+      "occurrences": [
+        {
+          "title": "鄭風・緇衣",
+          "index": 32,
+          "context": "好兮敝予又改造兮適子之館兮"
+        }
+      ],
+      "selectionKind": "semantic-preference",
+      "basis": "「敝予又改造」承衣裳破敝再製，據昨早切造作；不取七到切至也。 限本句語境採讀，保留字庫其他候選；不宣稱該字在各篇各義都只有一音。",
+      "sourceReferences": [],
+      "rhymeReferences": [
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "32219",
+          "char": "造",
+          "position": "從開一豪上",
+          "fanqie": "昨早反",
+          "quote": "修〻〈造〉。又七到反。"
+        },
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "46040",
+          "char": "造",
+          "position": "清開一豪去",
+          "fanqie": "七到反",
+          "quote": "至。又昨早反。"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "1723.3",
+          "char": "造",
+          "position": "從開一豪上",
+          "fanqie": "昨早",
+          "quote": "造作又七到切"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "2815.2",
+          "char": "造",
+          "position": "清開一豪去",
+          "fanqie": "七到",
+          "quote": "至也又昨早切"
+        }
+      ]
+    },
+    {
+      "char": "蓼",
+      "dictionaryChar": "蓼",
+      "position": "來三東入",
+      "fanqie": "力竹",
+      "dictionaryQuote": "蓼莪詩傳云蓼長大貌",
+      "occurrences": [
+        {
+          "title": "小雅・小旻之什・蓼莪",
+          "index": 16,
+          "context": "父母生我劬勞蓼蓼者莪匪莪伊"
+        }
+      ],
+      "selectionKind": "semantic-preference",
+      "basis": "蓼蓼者莪言長大貌；《廣韻》力竹切直接引《蓼莪》詩傳，不是蓼草名。 限本句語境採讀，保留字庫其他候選；不宣稱該字在各篇各義都只有一音。",
+      "sourceReferences": [],
+      "rhymeReferences": [
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "31523",
+          "char": "蓼",
+          "position": "來開四蕭上",
+          "fanqie": "盧鳥反",
+          "quote": "菜。亦作蓼。"
+        },
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "50712",
+          "char": "蓼",
+          "position": "來三東入",
+          "fanqie": "力竹反",
+          "quote": "〻〈蓼〉莪。"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "1667.2",
+          "char": "蓼",
+          "position": "來開四蕭上",
+          "fanqie": "盧鳥",
+          "quote": "辛菜"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "3203.9",
+          "char": "蓼",
+          "position": "來三東入",
+          "fanqie": "力竹",
+          "quote": "蓼莪詩傳云蓼長大貌"
+        }
+      ]
+    },
+    {
+      "char": "蓼",
+      "dictionaryChar": "蓼",
+      "position": "來三東入",
+      "fanqie": "力竹",
+      "dictionaryQuote": "蓼莪詩傳云蓼長大貌",
+      "occurrences": [
+        {
+          "title": "小雅・小旻之什・蓼莪",
+          "index": 17,
+          "context": "母生我劬勞蓼蓼者莪匪莪伊蔚"
+        }
+      ],
+      "selectionKind": "semantic-preference",
+      "basis": "蓼蓼者莪言長大貌；《廣韻》力竹切直接引《蓼莪》詩傳，不是蓼草名。 限本句語境採讀，保留字庫其他候選；不宣稱該字在各篇各義都只有一音。",
+      "sourceReferences": [],
+      "rhymeReferences": [
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "31523",
+          "char": "蓼",
+          "position": "來開四蕭上",
+          "fanqie": "盧鳥反",
+          "quote": "菜。亦作蓼。"
+        },
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "50712",
+          "char": "蓼",
+          "position": "來三東入",
+          "fanqie": "力竹反",
+          "quote": "〻〈蓼〉莪。"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "1667.2",
+          "char": "蓼",
+          "position": "來開四蕭上",
+          "fanqie": "盧鳥",
+          "quote": "辛菜"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "3203.9",
+          "char": "蓼",
+          "position": "來三東入",
+          "fanqie": "力竹",
+          "quote": "蓼莪詩傳云蓼長大貌"
+        }
+      ]
+    },
+    {
+      "char": "蓼",
+      "dictionaryChar": "蓼",
+      "position": "來開四蕭上",
+      "fanqie": "盧鳥",
+      "dictionaryQuote": "辛菜",
+      "occurrences": [
+        {
+          "title": "周頌・閔予小子之什・良耜",
+          "index": 39,
+          "context": "鎛斯趙以薅荼蓼荼蓼朽止黍稷"
+        }
+      ],
+      "selectionKind": "semantic-preference",
+      "basis": "荼蓼為田中草木，採盧鳥切辛菜；本篇《釋文》「荼蓼」明注下音了，亦相符。 限本句語境採讀，保留字庫其他候選；不宣稱該字在各篇各義都只有一音。",
+      "sourceReferences": [
+        {
+          "file": "KR1c0009_019.txt",
+          "page": "KR1c0009_SBCK_019-23b",
+          "lemma": "鎛斯趙以薅荼蓼",
+          "quote": "紏然笠之輕舉也趙刺薅去也荼陸草蓼水草一物而有水陸之異也今南方人猶謂蓼為辣荼或用以毒溪取魚即所謂荼毒也",
+          "sourceIndex": 1404
+        }
+      ],
+      "rhymeReferences": [
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "31523",
+          "char": "蓼",
+          "position": "來開四蕭上",
+          "fanqie": "盧鳥反",
+          "quote": "菜。亦作蓼。"
+        },
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "50712",
+          "char": "蓼",
+          "position": "來三東入",
+          "fanqie": "力竹反",
+          "quote": "〻〈蓼〉莪。"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "1667.2",
+          "char": "蓼",
+          "position": "來開四蕭上",
+          "fanqie": "盧鳥",
+          "quote": "辛菜"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "3203.9",
+          "char": "蓼",
+          "position": "來三東入",
+          "fanqie": "力竹",
+          "quote": "蓼莪詩傳云蓼長大貌"
+        }
+      ]
+    },
+    {
+      "char": "蓼",
+      "dictionaryChar": "蓼",
+      "position": "來開四蕭上",
+      "fanqie": "盧鳥",
+      "dictionaryQuote": "辛菜",
+      "occurrences": [
+        {
+          "title": "周頌・閔予小子之什・良耜",
+          "index": 41,
+          "context": "趙以薅荼蓼荼蓼朽止黍稷茂止"
+        }
+      ],
+      "selectionKind": "semantic-preference",
+      "basis": "荼蓼為田中草木，採盧鳥切辛菜；本篇《釋文》「荼蓼」明注下音了，亦相符。 限本句語境採讀，保留字庫其他候選；不宣稱該字在各篇各義都只有一音。",
+      "sourceReferences": [],
+      "rhymeReferences": [
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "31523",
+          "char": "蓼",
+          "position": "來開四蕭上",
+          "fanqie": "盧鳥反",
+          "quote": "菜。亦作蓼。"
+        },
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "50712",
+          "char": "蓼",
+          "position": "來三東入",
+          "fanqie": "力竹反",
+          "quote": "〻〈蓼〉莪。"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "1667.2",
+          "char": "蓼",
+          "position": "來開四蕭上",
+          "fanqie": "盧鳥",
+          "quote": "辛菜"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "3203.9",
+          "char": "蓼",
+          "position": "來三東入",
+          "fanqie": "力竹",
+          "quote": "蓼莪詩傳云蓼長大貌"
+        }
+      ]
+    },
+    {
+      "char": "達",
+      "dictionaryChar": "達",
+      "position": "定開一寒入",
+      "fanqie": "唐割",
+      "dictionaryQuote": "通達亦姓出何氏姓苑又虜複姓三氏後魏獻帝弟爲達奚氏又達勃氏後改爲襃氏周文帝達步妃生齊煬王憲唐割切二",
+      "occurrences": [
+        {
+          "title": "周頌・閔予小子之什・載芟",
+          "index": 59,
+          "context": "函斯活驛驛其達有厭其傑厭厭"
+        }
+      ],
+      "selectionKind": "semantic-preference",
+      "basis": "達為通達、發達之義，採唐割切；不屬「挑達」往來貌的他達切。 限本句語境採讀，保留字庫其他候選；不宣稱該字在各篇各義都只有一音。",
+      "sourceReferences": [
+        {
+          "file": "KR1c0009_019.txt",
+          "page": "KR1c0009_SBCK_019-22b",
+          "lemma": "驛其達有厭其傑",
+          "quote": "驛驛苗生貌達岀土也厭受氣足也傑先長者也",
+          "sourceIndex": 1296
+        }
+      ],
+      "rhymeReferences": [
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "55196",
+          "char": "達",
+          "position": "定開一寒入",
+          "fanqie": "陁割反",
+          "quote": "陁割反。通。正作𨔶。一。"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "3395.11",
+          "char": "達",
+          "position": "透開一寒入",
+          "fanqie": "他達",
+          "quote": "挑達往來皃又唐割切"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "3399.1",
+          "char": "達",
+          "position": "定開一寒入",
+          "fanqie": "唐割",
+          "quote": "通達亦姓出何氏姓苑又虜複姓三氏後魏獻帝弟爲達奚氏又達勃氏後改爲襃氏周文帝達步妃生齊煬王憲唐割切二"
+        }
+      ]
+    },
+    {
+      "char": "達",
+      "dictionaryChar": "達",
+      "position": "定開一寒入",
+      "fanqie": "唐割",
+      "dictionaryQuote": "通達亦姓出何氏姓苑又虜複姓三氏後魏獻帝弟爲達奚氏又達勃氏後改爲襃氏周文帝達步妃生齊煬王憲唐割切二",
+      "occurrences": [
+        {
+          "title": "商頌・長發",
+          "index": 43,
+          "context": "桓撥受小國是達受大國是達率"
+        }
+      ],
+      "selectionKind": "semantic-preference",
+      "basis": "達為通達、發達之義，採唐割切；不屬「挑達」往來貌的他達切。 限本句語境採讀，保留字庫其他候選；不宣稱該字在各篇各義都只有一音。",
+      "sourceReferences": [
+        {
+          "file": "KR1c0009_020.txt",
+          "page": "KR1c0009_SBCK_020-19a",
+          "lemma": "土烈烈海外有截",
+          "quote": "賦也玄王契也玄者深微之稱或曰以玄鳥降而生也王者追尊之號桓武撥治達通也受小國大國無所不達言其無所不宜也率循履禮越過發應也言契能循禮不過越遂視其民則旣發以應之矣相土契之孫也截整齊也至是而商益大四方諸矦歸之截然整齊矣其後湯以七十里起豈嘗中衰也與",
+          "sourceIndex": 1402
+        }
+      ],
+      "rhymeReferences": [
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "55196",
+          "char": "達",
+          "position": "定開一寒入",
+          "fanqie": "陁割反",
+          "quote": "陁割反。通。正作𨔶。一。"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "3395.11",
+          "char": "達",
+          "position": "透開一寒入",
+          "fanqie": "他達",
+          "quote": "挑達往來皃又唐割切"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "3399.1",
+          "char": "達",
+          "position": "定開一寒入",
+          "fanqie": "唐割",
+          "quote": "通達亦姓出何氏姓苑又虜複姓三氏後魏獻帝弟爲達奚氏又達勃氏後改爲襃氏周文帝達步妃生齊煬王憲唐割切二"
+        }
+      ]
+    },
+    {
+      "char": "達",
+      "dictionaryChar": "達",
+      "position": "定開一寒入",
+      "fanqie": "唐割",
+      "dictionaryQuote": "通達亦姓出何氏姓苑又虜複姓三氏後魏獻帝弟爲達奚氏又達勃氏後改爲襃氏周文帝達步妃生齊煬王憲唐割切二",
+      "occurrences": [
+        {
+          "title": "商頌・長發",
+          "index": 48,
+          "context": "是達受大國是達率履不越遂視"
+        }
+      ],
+      "selectionKind": "semantic-preference",
+      "basis": "達為通達、發達之義，採唐割切；不屬「挑達」往來貌的他達切。 限本句語境採讀，保留字庫其他候選；不宣稱該字在各篇各義都只有一音。",
+      "sourceReferences": [
+        {
+          "file": "KR1c0009_020.txt",
+          "page": "KR1c0009_SBCK_020-19a",
+          "lemma": "土烈烈海外有截",
+          "quote": "賦也玄王契也玄者深微之稱或曰以玄鳥降而生也王者追尊之號桓武撥治達通也受小國大國無所不達言其無所不宜也率循履禮越過發應也言契能循禮不過越遂視其民則旣發以應之矣相土契之孫也截整齊也至是而商益大四方諸矦歸之截然整齊矣其後湯以七十里起豈嘗中衰也與",
+          "sourceIndex": 1402
+        }
+      ],
+      "rhymeReferences": [
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "55196",
+          "char": "達",
+          "position": "定開一寒入",
+          "fanqie": "陁割反",
+          "quote": "陁割反。通。正作𨔶。一。"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "3395.11",
+          "char": "達",
+          "position": "透開一寒入",
+          "fanqie": "他達",
+          "quote": "挑達往來皃又唐割切"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "3399.1",
+          "char": "達",
+          "position": "定開一寒入",
+          "fanqie": "唐割",
+          "quote": "通達亦姓出何氏姓苑又虜複姓三氏後魏獻帝弟爲達奚氏又達勃氏後改爲襃氏周文帝達步妃生齊煬王憲唐割切二"
+        }
+      ]
+    },
+    {
+      "char": "達",
+      "dictionaryChar": "達",
+      "position": "定開一寒入",
+      "fanqie": "唐割",
+      "dictionaryQuote": "通達亦姓出何氏姓苑又虜複姓三氏後魏獻帝弟爲達奚氏又達勃氏後改爲襃氏周文帝達步妃生齊煬王憲唐割切二",
+      "occurrences": [
+        {
+          "title": "商頌・長發",
+          "index": 179,
+          "context": "有三蘖莫遂莫達九有有截韋顧"
+        }
+      ],
+      "selectionKind": "semantic-preference",
+      "basis": "達為通達、發達之義，採唐割切；不屬「挑達」往來貌的他達切。 限本句語境採讀，保留字庫其他候選；不宣稱該字在各篇各義都只有一音。",
+      "sourceReferences": [],
+      "rhymeReferences": [
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "55196",
+          "char": "達",
+          "position": "定開一寒入",
+          "fanqie": "陁割反",
+          "quote": "陁割反。通。正作𨔶。一。"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "3395.11",
+          "char": "達",
+          "position": "透開一寒入",
+          "fanqie": "他達",
+          "quote": "挑達往來皃又唐割切"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "3399.1",
+          "char": "達",
+          "position": "定開一寒入",
+          "fanqie": "唐割",
+          "quote": "通達亦姓出何氏姓苑又虜複姓三氏後魏獻帝弟爲達奚氏又達勃氏後改爲襃氏周文帝達步妃生齊煬王憲唐割切二"
+        }
+      ]
+    },
+    {
+      "char": "活",
+      "dictionaryChar": "活",
+      "position": "匣合一寒入",
+      "fanqie": "戶括",
+      "dictionaryQuote": "不死也又水流聲戶括切八",
+      "occurrences": [
+        {
+          "title": "周頌・閔予小子之什・載芟",
+          "index": 55,
+          "context": "厥百穀實函斯活驛驛其達有厭"
+        }
+      ],
+      "selectionKind": "semantic-preference",
+      "basis": "實函斯活言穀種包涵生意而生活，採戶括切不死也；不取古活切水流聲。 限本句語境採讀，保留字庫其他候選；不宣稱該字在各篇各義都只有一音。",
+      "sourceReferences": [],
+      "rhymeReferences": [
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "55580",
+          "char": "活",
+          "position": "匣合一寒入",
+          "fanqie": "戶括反",
+          "quote": "户括反。水流。六。"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "3412.2",
+          "char": "活",
+          "position": "見合一寒入",
+          "fanqie": "古活",
+          "quote": "水流聲又乎括切"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "3414.1",
+          "char": "活",
+          "position": "匣合一寒入",
+          "fanqie": "戶括",
+          "quote": "不死也又水流聲戶括切八"
+        }
+      ]
+    },
+    {
+      "char": "活",
+      "dictionaryChar": "活",
+      "position": "匣合一寒入",
+      "fanqie": "戶括",
+      "dictionaryQuote": "不死也又水流聲戶括切八",
+      "occurrences": [
+        {
+          "title": "周頌・閔予小子之什・良耜",
+          "index": 15,
+          "context": "厥百穀實函斯活或來瞻女載筐"
+        }
+      ],
+      "selectionKind": "semantic-preference",
+      "basis": "實函斯活言穀種包涵生意而生活，採戶括切不死也；不取古活切水流聲。 限本句語境採讀，保留字庫其他候選；不宣稱該字在各篇各義都只有一音。",
+      "sourceReferences": [],
+      "rhymeReferences": [
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "55580",
+          "char": "活",
+          "position": "匣合一寒入",
+          "fanqie": "戶括反",
+          "quote": "户括反。水流。六。"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "3412.2",
+          "char": "活",
+          "position": "見合一寒入",
+          "fanqie": "古活",
+          "quote": "水流聲又乎括切"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "3414.1",
+          "char": "活",
+          "position": "匣合一寒入",
+          "fanqie": "戶括",
+          "quote": "不死也又水流聲戶括切八"
+        }
+      ]
+    },
+    {
+      "char": "淺",
+      "dictionaryChar": "淺",
+      "position": "清開三仙上",
+      "fanqie": "七演",
+      "dictionaryQuote": "不深也七演切一",
+      "occurrences": [
+        {
+          "title": "邶風・匏有苦葉",
+          "index": 11,
+          "context": "有深涉深則厲淺則揭有瀰濟盈"
+        }
+      ],
+      "selectionKind": "semantic-preference",
+      "basis": "與深相對，或以淺處可游，採七演切不深也；不取淺淺流疾貌。 限本句語境採讀，保留字庫其他候選；不宣稱該字在各篇各義都只有一音。",
+      "sourceReferences": [
+        {
+          "file": "KR1c0009_002.txt",
+          "page": "KR1c0009_SBCK_002-12a",
+          "lemma": "渉深則厲淺則揭",
+          "quote": "苦例反○比也匏瓠也匏之苦者不可食特可佩以渡水而巳然今尚有葉則亦未可用之時也濟渡處也行渡水曰渉以衣而渉曰厲褰衣而渉曰揭○此刺淫亂之詩言匏未可用而渡處方深行者當量其深淺而後可渡以比男女之際亦當量度禮義而行也",
+          "sourceIndex": 680
+        }
+      ],
+      "rhymeReferences": [
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "31022",
+          "char": "淺",
+          "position": "清開三仙上",
+          "fanqie": "七演反",
+          "quote": "七演反。不深。一。"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "578.7",
+          "char": "淺",
+          "position": "精開四先平",
+          "fanqie": "則前",
+          "quote": "淺淺流疾皃又倉翦切"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "1625.1",
+          "char": "淺",
+          "position": "清開三仙上",
+          "fanqie": "士〈七〉演",
+          "quote": "不深也士演切一"
+        }
+      ]
+    },
+    {
+      "char": "淺",
+      "dictionaryChar": "淺",
+      "position": "清開三仙上",
+      "fanqie": "七演",
+      "dictionaryQuote": "不深也七演切一",
+      "occurrences": [
+        {
+          "title": "邶風・谷風",
+          "index": 106,
+          "context": "方之舟之就其淺矣泳之游之何"
+        }
+      ],
+      "selectionKind": "semantic-preference",
+      "basis": "與深相對，或以淺處可游，採七演切不深也；不取淺淺流疾貌。 限本句語境採讀，保留字庫其他候選；不宣稱該字在各篇各義都只有一音。",
+      "sourceReferences": [
+        {
+          "file": "KR1c0009_002.txt",
+          "page": "KR1c0009_SBCK_002-15b",
+          "lemma": "民有喪匍匐救之",
+          "quote": "興也方桴舟船也潛行曰泳浮水曰游匍匐手足並行急遽之甚也○婦人自陳其治家勤勞之事言我隨事盡其心力而爲之深則方舟淺則泳游不計其有與亡而強勉以求之又周睦其隣里郷黨莫不盡其道也",
+          "sourceIndex": 867
+        }
+      ],
+      "rhymeReferences": [
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "31022",
+          "char": "淺",
+          "position": "清開三仙上",
+          "fanqie": "七演反",
+          "quote": "七演反。不深。一。"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "578.7",
+          "char": "淺",
+          "position": "精開四先平",
+          "fanqie": "則前",
+          "quote": "淺淺流疾皃又倉翦切"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "1625.1",
+          "char": "淺",
+          "position": "清開三仙上",
+          "fanqie": "士〈七〉演",
+          "quote": "不深也士演切一"
+        }
+      ]
+    },
+    {
+      "char": "衣",
+      "dictionaryChar": "衣",
+      "position": "影開三C微平",
+      "fanqie": "於希",
+      "dictionaryQuote": "上曰衣下曰裳世本曰胡曹作衣白虎通云衣者隱也裳者障也所以隱形自障蔽也又姓出姓苑",
+      "occurrences": [
+        {
+          "title": "衛風・碩人",
+          "index": 7,
+          "context": "人其頎衣錦褧衣齊侯之子衛侯"
+        }
+      ],
+      "selectionKind": "semantic-preference",
+      "basis": "此處均是褧衣的名詞衣，不是前文衣錦的穿著動詞，據於希切上曰衣；逐字限定位置。 限本句語境採讀，保留字庫其他候選；不宣稱該字在各篇各義都只有一音。",
+      "sourceReferences": [
+        {
+          "file": "KR1c0009_003.txt",
+          "page": "KR1c0009_SBCK_003-17a",
+          "lemma": "矦之姨譚公維私",
+          "quote": "息夷反○賦也碩人指莊姜也頎長貌錦文衣也褧禪也錦衣而加褧焉爲其文之太著也東宫太子所居之宫齊太子得臣也繫太子言之者明與同母言所生之貴也女子後生曰妹妻之姊妹曰姨姊妹之夫曰私邢矦譚公皆莊姜姊妹之夫互言之也諸矦之女嫁於諸矦則尊同故歷言之○莊姜事見邶風緑衣等篇春秋傳曰莊姜美而無子衛人爲之賦碩人即謂此詩而其首章極稱其族類之貴以見其爲正嫡小君所宜親厚而重歎莊公之昬惑也",
+          "sourceIndex": 1008
+        }
+      ],
+      "rhymeReferences": [
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "6022",
+          "char": "衣",
+          "position": "影開三微平",
+          "fanqie": "於機反",
+          "quote": "〻〈衣〉服。"
+        },
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "38068",
+          "char": "衣",
+          "position": "影開三微去",
+          "fanqie": "於既反",
+          "quote": "於旣反。着。一。"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "221.3",
+          "char": "衣",
+          "position": "影開三C微平",
+          "fanqie": "於希",
+          "quote": "上曰衣下曰裳世本曰胡曹作衣白虎通云衣者隱也裳者障也所以隱形自障蔽也又姓出姓苑"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "2290.1",
+          "char": "衣",
+          "position": "影開三C微去",
+          "fanqie": "於既",
+          "quote": "衣著於既切又音依一"
+        }
+      ]
+    },
+    {
+      "char": "衣",
+      "dictionaryChar": "衣",
+      "position": "影開三C微平",
+      "fanqie": "於希",
+      "dictionaryQuote": "上曰衣下曰裳世本曰胡曹作衣白虎通云衣者隱也裳者障也所以隱形自障蔽也又姓出姓苑",
+      "occurrences": [
+        {
+          "title": "鄭風・丰",
+          "index": 31,
+          "context": "不將兮衣錦褧衣裳錦褧裳叔兮"
+        }
+      ],
+      "selectionKind": "semantic-preference",
+      "basis": "此處均是褧衣的名詞衣，不是前文衣錦的穿著動詞，據於希切上曰衣；逐字限定位置。 限本句語境採讀，保留字庫其他候選；不宣稱該字在各篇各義都只有一音。",
+      "sourceReferences": [],
+      "rhymeReferences": [
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "6022",
+          "char": "衣",
+          "position": "影開三微平",
+          "fanqie": "於機反",
+          "quote": "〻〈衣〉服。"
+        },
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "38068",
+          "char": "衣",
+          "position": "影開三微去",
+          "fanqie": "於既反",
+          "quote": "於旣反。着。一。"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "221.3",
+          "char": "衣",
+          "position": "影開三C微平",
+          "fanqie": "於希",
+          "quote": "上曰衣下曰裳世本曰胡曹作衣白虎通云衣者隱也裳者障也所以隱形自障蔽也又姓出姓苑"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "2290.1",
+          "char": "衣",
+          "position": "影開三C微去",
+          "fanqie": "於既",
+          "quote": "衣著於既切又音依一"
+        }
+      ]
+    },
+    {
+      "char": "衣",
+      "dictionaryChar": "衣",
+      "position": "影開三C微平",
+      "fanqie": "於希",
+      "dictionaryQuote": "上曰衣下曰裳世本曰胡曹作衣白虎通云衣者隱也裳者障也所以隱形自障蔽也又姓出姓苑",
+      "occurrences": [
+        {
+          "title": "鄭風・丰",
+          "index": 51,
+          "context": "錦褧裳衣錦褧衣叔兮伯兮駕予"
+        }
+      ],
+      "selectionKind": "semantic-preference",
+      "basis": "此處均是褧衣的名詞衣，不是前文衣錦的穿著動詞，據於希切上曰衣；逐字限定位置。 限本句語境採讀，保留字庫其他候選；不宣稱該字在各篇各義都只有一音。",
+      "sourceReferences": [],
+      "rhymeReferences": [
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "6022",
+          "char": "衣",
+          "position": "影開三微平",
+          "fanqie": "於機反",
+          "quote": "〻〈衣〉服。"
+        },
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "38068",
+          "char": "衣",
+          "position": "影開三微去",
+          "fanqie": "於既反",
+          "quote": "於旣反。着。一。"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "221.3",
+          "char": "衣",
+          "position": "影開三C微平",
+          "fanqie": "於希",
+          "quote": "上曰衣下曰裳世本曰胡曹作衣白虎通云衣者隱也裳者障也所以隱形自障蔽也又姓出姓苑"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "2290.1",
+          "char": "衣",
+          "position": "影開三C微去",
+          "fanqie": "於既",
+          "quote": "衣著於既切又音依一"
+        }
+      ]
+    },
+    {
+      "char": "晏",
+      "dictionaryChar": "晏",
+      "position": "影開二刪去",
+      "fanqie": "烏澗",
+      "dictionaryQuote": "柔也天清也又晚也又姓左傳齊有晏氏代爲大夫烏澗切五",
+      "occurrences": [
+        {
+          "title": "衛風・氓",
+          "index": 222,
+          "context": "總角之宴言笑晏晏信誓旦旦不"
+        }
+      ],
+      "selectionKind": "semantic-preference",
+      "basis": "言笑晏晏與羔裘晏兮取和柔、清明鮮盛之義，據烏澗切柔也天清也；不作晚也。 限本句語境採讀，保留字庫其他候選；不宣稱該字在各篇各義都只有一音。",
+      "sourceReferences": [
+        {
+          "file": "KR1c0009_003.txt",
+          "page": "KR1c0009_SBCK_003-22b",
+          "lemma": "是不思亦巳焉哉",
+          "quote": "叶將黎反○賦而興也及與也泮涯也髙下之判也緫角女子未許嫁則未笄但結髪爲飾也晏晏和柔也旦旦明也○言我與女本期偕老不知老而見棄如此徒使我怨也淇則有岸矣隰則有泮矣而我緫角之時與爾宴樂言笑成此信誓曾不思其反復以至於此也此則興也旣不思其反復而至此矣則亦如之何哉亦巳而巳矣傳曰思其終也思其復也思其反之謂也",
+          "sourceIndex": 1299
+        }
+      ],
+      "rhymeReferences": [
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "43386",
+          "char": "晏",
+          "position": "影開一寒去",
+          "fanqie": "烏旦反",
+          "quote": "晚【〻】。"
+        },
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "44205",
+          "char": "晏",
+          "position": "影開二刪去",
+          "fanqie": "烏澗反",
+          "quote": "烏㵎反。晚。俗作晏。五。"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "2636.4",
+          "char": "晏",
+          "position": "影開一寒去",
+          "fanqie": "烏旰",
+          "quote": "晚也又於諫切"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "2670.1",
+          "char": "晏",
+          "position": "影開二刪去",
+          "fanqie": "烏澗",
+          "quote": "柔也天清也又晚也又姓左傳齊有晏氏代爲大夫烏澗切五"
+        }
+      ]
+    },
+    {
+      "char": "晏",
+      "dictionaryChar": "晏",
+      "position": "影開二刪去",
+      "fanqie": "烏澗",
+      "dictionaryQuote": "柔也天清也又晚也又姓左傳齊有晏氏代爲大夫烏澗切五",
+      "occurrences": [
+        {
+          "title": "衛風・氓",
+          "index": 223,
+          "context": "角之宴言笑晏晏信誓旦旦不思"
+        }
+      ],
+      "selectionKind": "semantic-preference",
+      "basis": "言笑晏晏與羔裘晏兮取和柔、清明鮮盛之義，據烏澗切柔也天清也；不作晚也。 限本句語境採讀，保留字庫其他候選；不宣稱該字在各篇各義都只有一音。",
+      "sourceReferences": [
+        {
+          "file": "KR1c0009_003.txt",
+          "page": "KR1c0009_SBCK_003-22b",
+          "lemma": "是不思亦巳焉哉",
+          "quote": "叶將黎反○賦而興也及與也泮涯也髙下之判也緫角女子未許嫁則未笄但結髪爲飾也晏晏和柔也旦旦明也○言我與女本期偕老不知老而見棄如此徒使我怨也淇則有岸矣隰則有泮矣而我緫角之時與爾宴樂言笑成此信誓曾不思其反復以至於此也此則興也旣不思其反復而至此矣則亦如之何哉亦巳而巳矣傳曰思其終也思其復也思其反之謂也",
+          "sourceIndex": 1299
+        }
+      ],
+      "rhymeReferences": [
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "43386",
+          "char": "晏",
+          "position": "影開一寒去",
+          "fanqie": "烏旦反",
+          "quote": "晚【〻】。"
+        },
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "44205",
+          "char": "晏",
+          "position": "影開二刪去",
+          "fanqie": "烏澗反",
+          "quote": "烏㵎反。晚。俗作晏。五。"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "2636.4",
+          "char": "晏",
+          "position": "影開一寒去",
+          "fanqie": "烏旰",
+          "quote": "晚也又於諫切"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "2670.1",
+          "char": "晏",
+          "position": "影開二刪去",
+          "fanqie": "烏澗",
+          "quote": "柔也天清也又晚也又姓左傳齊有晏氏代爲大夫烏澗切五"
+        }
+      ]
+    },
+    {
+      "char": "越",
+      "dictionaryChar": "越",
+      "position": "云合三C元入",
+      "fanqie": "王伐",
+      "dictionaryQuote": "墜也干也於也遠也走也逾也曰也揚也說文度也亦吳越又姓句踐之後又虜三字姓後秦錄有北梁州刺史越質詰歸王伐切十六",
+      "occurrences": [
+        {
+          "title": "陳風・東門之枌",
+          "index": 36,
+          "context": "婆娑穀旦于逝越以鬷邁視爾如"
+        }
+      ],
+      "selectionKind": "semantic-preference",
+      "basis": "越以、對越、不越分別為於、揚、逾一組常用訓義，均在王伐切條；不取戶括切瑟下孔或翦蒲席義。 限本句語境採讀，保留字庫其他候選；不宣稱該字在各篇各義都只有一音。",
+      "sourceReferences": [
+        {
+          "file": "KR1c0009_007.txt",
+          "page": "KR1c0009_SBCK_007-2b",
+          "lemma": "爾如荍貽我握椒",
+          "quote": "賦也逝往越於衆也邁行也荍芘芣也又名荆葵紫色椒芬芳之物也○言又以善旦而往於是其衆行而男女相與道其慕悅之詞日我視女顔色之美如芘芣之華於是遺我以一握之椒而交情好也",
+          "sourceIndex": 116
+        }
+      ],
+      "rhymeReferences": [
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "54176",
+          "char": "越",
+          "position": "云合三元入",
+          "fanqie": "王伐反",
+          "quote": "王伐反。國名。八。"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "3358.1",
+          "char": "越",
+          "position": "云合三C元入",
+          "fanqie": "王伐",
+          "quote": "墜也干也於也遠也走也逾也曰也揚也說文度也亦吳越又姓句踐之後又虜三字姓後秦錄有北梁州刺史越質詰歸王伐切十六"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "3414.4",
+          "char": "越",
+          "position": "匣合一寒入",
+          "fanqie": "戶括",
+          "quote": "鄭玄云瑟下孔又云翦蒲爲席又音粵或作趏"
+        }
+      ]
+    },
+    {
+      "char": "越",
+      "dictionaryChar": "越",
+      "position": "云合三C元入",
+      "fanqie": "王伐",
+      "dictionaryQuote": "墜也干也於也遠也走也逾也曰也揚也說文度也亦吳越又姓句踐之後又虜三字姓後秦錄有北梁州刺史越質詰歸王伐切十六",
+      "occurrences": [
+        {
+          "title": "周頌・清廟之什・清廟",
+          "index": 17,
+          "context": "士秉文之德對越在天駿奔走在"
+        }
+      ],
+      "selectionKind": "semantic-preference",
+      "basis": "越以、對越、不越分別為於、揚、逾一組常用訓義，均在王伐切條；不取戶括切瑟下孔或翦蒲席義。 限本句語境採讀，保留字庫其他候選；不宣稱該字在各篇各義都只有一音。",
+      "sourceReferences": [
+        {
+          "file": "KR1c0009_019.txt",
+          "page": "KR1c0009_SBCK_019-1b",
+          "lemma": "不承無射於人斯",
+          "quote": "周頌多不叶韻未詳其說○賦也於歎辭穆深逺也清清靜也肅敬雝和顯明相助也謂助祭之公卿諸矦也濟濟衆也多士與祭執事之人也越於也駿大而疾也承尊奉也斯語辭○此周公旣成洛邑而朝諸矦因率之以祀文王之樂歌言於穆哉此清靜之廟其助祭之公矦皆敬且和而其執事之人又無不執行文王之德旣對越其在天之神而又駿奔走其在廟之主如此則是文王之德豈不顯乎豈不承乎信乎其無有厭斁於人也",
+          "sourceIndex": 53
+        }
+      ],
+      "rhymeReferences": [
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "54176",
+          "char": "越",
+          "position": "云合三元入",
+          "fanqie": "王伐反",
+          "quote": "王伐反。國名。八。"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "3358.1",
+          "char": "越",
+          "position": "云合三C元入",
+          "fanqie": "王伐",
+          "quote": "墜也干也於也遠也走也逾也曰也揚也說文度也亦吳越又姓句踐之後又虜三字姓後秦錄有北梁州刺史越質詰歸王伐切十六"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "3414.4",
+          "char": "越",
+          "position": "匣合一寒入",
+          "fanqie": "戶括",
+          "quote": "鄭玄云瑟下孔又云翦蒲爲席又音粵或作趏"
+        }
+      ]
+    },
+    {
+      "char": "越",
+      "dictionaryChar": "越",
+      "position": "云合三C元入",
+      "fanqie": "王伐",
+      "dictionaryQuote": "墜也干也於也遠也走也逾也曰也揚也說文度也亦吳越又姓句踐之後又虜三字姓後秦錄有北梁州刺史越質詰歸王伐切十六",
+      "occurrences": [
+        {
+          "title": "商頌・長發",
+          "index": 52,
+          "context": "國是達率履不越遂視既發相土"
+        }
+      ],
+      "selectionKind": "semantic-preference",
+      "basis": "越以、對越、不越分別為於、揚、逾一組常用訓義，均在王伐切條；不取戶括切瑟下孔或翦蒲席義。 限本句語境採讀，保留字庫其他候選；不宣稱該字在各篇各義都只有一音。",
+      "sourceReferences": [
+        {
+          "file": "KR1c0009_020.txt",
+          "page": "KR1c0009_SBCK_020-19a",
+          "lemma": "土烈烈海外有截",
+          "quote": "賦也玄王契也玄者深微之稱或曰以玄鳥降而生也王者追尊之號桓武撥治達通也受小國大國無所不達言其無所不宜也率循履禮越過發應也言契能循禮不過越遂視其民則旣發以應之矣相土契之孫也截整齊也至是而商益大四方諸矦歸之截然整齊矣其後湯以七十里起豈嘗中衰也與",
+          "sourceIndex": 1402
+        }
+      ],
+      "rhymeReferences": [
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "54176",
+          "char": "越",
+          "position": "云合三元入",
+          "fanqie": "王伐反",
+          "quote": "王伐反。國名。八。"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "3358.1",
+          "char": "越",
+          "position": "云合三C元入",
+          "fanqie": "王伐",
+          "quote": "墜也干也於也遠也走也逾也曰也揚也說文度也亦吳越又姓句踐之後又虜三字姓後秦錄有北梁州刺史越質詰歸王伐切十六"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "3414.4",
+          "char": "越",
+          "position": "匣合一寒入",
+          "fanqie": "戶括",
+          "quote": "鄭玄云瑟下孔又云翦蒲爲席又音粵或作趏"
+        }
+      ]
+    },
+    {
+      "char": "質",
+      "dictionaryChar": "質",
+      "position": "章開三真入",
+      "fanqie": "之日",
+      "dictionaryQuote": "朴也主也信也平也謹也正也又姓漢書貨殖傳云質氏以洒削而鼎食注云理刀劒也之日切又音致十五",
+      "occurrences": [
+        {
+          "title": "小雅・鹿鳴之什・天保",
+          "index": 107,
+          "context": "詒爾多福民之質矣日用飲食羣"
+        }
+      ],
+      "selectionKind": "semantic-preference",
+      "basis": "民之質、質厥成、質爾人民取樸、平正或成定之義，據之日切相應義項；不作交質或抵押物。 限本句語境採讀，保留字庫其他候選；不宣稱該字在各篇各義都只有一音。",
+      "sourceReferences": [],
+      "rhymeReferences": [
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "37235",
+          "char": "質",
+          "position": "知開三脂去",
+          "fanqie": "陟利反",
+          "quote": "交〻〈質〉。"
+        },
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "52691",
+          "char": "質",
+          "position": "章開三真入",
+          "fanqie": "之日反",
+          "quote": "之日反。形。又直。九。"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "2217.14",
+          "char": "質",
+          "position": "知開三脂去",
+          "fanqie": "陟利",
+          "quote": "交質又物相贅又之日切"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "3285.1",
+          "char": "質",
+          "position": "章開三真入",
+          "fanqie": "之日",
+          "quote": "朴也主也信也平也謹也正也又姓漢書貨殖傳云質氏以洒削而鼎食注云理刀劒也之日切又音致十五"
+        }
+      ]
+    },
+    {
+      "char": "質",
+      "dictionaryChar": "質",
+      "position": "章開三真入",
+      "fanqie": "之日",
+      "dictionaryQuote": "朴也主也信也平也謹也正也又姓漢書貨殖傳云質氏以洒削而鼎食注云理刀劒也之日切又音致十五",
+      "occurrences": [
+        {
+          "title": "大雅・文王之什・緜",
+          "index": 196,
+          "context": "維其喙矣虞芮質厥成文王蹶厥"
+        }
+      ],
+      "selectionKind": "semantic-preference",
+      "basis": "民之質、質厥成、質爾人民取樸、平正或成定之義，據之日切相應義項；不作交質或抵押物。 限本句語境採讀，保留字庫其他候選；不宣稱該字在各篇各義都只有一音。",
+      "sourceReferences": [
+        {
+          "file": "KR1c0009_016.txt",
+          "page": "KR1c0009_SBCK_016-14b",
+          "lemma": "奔奏予曰有禦侮",
+          "quote": "賦也虞芮二國名質正成平也傳曰虞芮之君相與爭田久而不平乃相與朝周入其境則耕者讓畔行者讓路入其邑男女異路斑白者不提挈入其朝士讓爲大夫大夫讓爲卿二國之君感而相謂曰我等小人不可以履君子之境乃相讓以其所爭田爲閒田而退天下聞之而歸者四十餘國蘇氏曰虞在陜之平陸芮在同之馮翊平陸有閒原焉則虞芮之所讓也蹶生未詳其義或曰蹶動而疾也生猶起也予詩人自予也率下親上曰疏附相道前後曰先後喻徳宣譽曰奔奏武臣折衝曰禦侮○言昆夷旣服而虞芮來質其訟之成於是諸侯歸服者衆而文王由此動其興起之勢是雖其徳之盛然亦由有此四臣之助而然故各以予曰起之其辭繁而不殺者所以深歎其得人之盛也",
+          "sourceIndex": 610
+        }
+      ],
+      "rhymeReferences": [
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "37235",
+          "char": "質",
+          "position": "知開三脂去",
+          "fanqie": "陟利反",
+          "quote": "交〻〈質〉。"
+        },
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "52691",
+          "char": "質",
+          "position": "章開三真入",
+          "fanqie": "之日反",
+          "quote": "之日反。形。又直。九。"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "2217.14",
+          "char": "質",
+          "position": "知開三脂去",
+          "fanqie": "陟利",
+          "quote": "交質又物相贅又之日切"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "3285.1",
+          "char": "質",
+          "position": "章開三真入",
+          "fanqie": "之日",
+          "quote": "朴也主也信也平也謹也正也又姓漢書貨殖傳云質氏以洒削而鼎食注云理刀劒也之日切又音致十五"
+        }
+      ]
+    },
+    {
+      "char": "質",
+      "dictionaryChar": "質",
+      "position": "章開三真入",
+      "fanqie": "之日",
+      "dictionaryQuote": "朴也主也信也平也謹也正也又姓漢書貨殖傳云質氏以洒削而鼎食注云理刀劒也之日切又音致十五",
+      "occurrences": [
+        {
+          "title": "大雅・蕩之什・抑",
+          "index": 142,
+          "context": "戎作用逷蠻方質爾人民謹爾侯"
+        }
+      ],
+      "selectionKind": "semantic-preference",
+      "basis": "民之質、質厥成、質爾人民取樸、平正或成定之義，據之日切相應義項；不作交質或抵押物。 限本句語境採讀，保留字庫其他候選；不宣稱該字在各篇各義都只有一音。",
+      "sourceReferences": [
+        {
+          "file": "KR1c0009_018.txt",
+          "page": "KR1c0009_SBCK_018-6b",
+          "lemma": "言之玷不可爲也",
+          "quote": "賦也質成也定也矦度諸矦所守之法度也虞慮話言柔安嘉善玷缺也○言旣治民守法防意外之患矣又當謹其言語蓋玉之玷缺尚可磨鑢使平言語一失莫能救之其戒深切矣故南容一日三復此章而孔子以其兄之子妻之",
+          "sourceIndex": 467
+        }
+      ],
+      "rhymeReferences": [
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "37235",
+          "char": "質",
+          "position": "知開三脂去",
+          "fanqie": "陟利反",
+          "quote": "交〻〈質〉。"
+        },
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "52691",
+          "char": "質",
+          "position": "章開三真入",
+          "fanqie": "之日反",
+          "quote": "之日反。形。又直。九。"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "2217.14",
+          "char": "質",
+          "position": "知開三脂去",
+          "fanqie": "陟利",
+          "quote": "交質又物相贅又之日切"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "3285.1",
+          "char": "質",
+          "position": "章開三真入",
+          "fanqie": "之日",
+          "quote": "朴也主也信也平也謹也正也又姓漢書貨殖傳云質氏以洒削而鼎食注云理刀劒也之日切又音致十五"
+        }
+      ]
+    },
+    {
+      "char": "繁",
+      "dictionaryChar": "繁",
+      "position": "並三C元平",
+      "fanqie": "附袁",
+      "dictionaryQuote": "穊也多也",
+      "occurrences": [
+        {
+          "title": "小雅・祈父之什・正月",
+          "index": 2,
+          "context": "正月繁霜我心憂傷民"
+        }
+      ],
+      "selectionKind": "semantic-preference",
+      "basis": "繁霜、既繁、繁祉皆多盛，據附袁切穊也多也；排除馬飾、姓氏的別讀。 限本句語境採讀，保留字庫其他候選；不宣稱該字在各篇各義都只有一音。",
+      "sourceReferences": [
+        {
+          "file": "KR1c0009_011.txt",
+          "page": "KR1c0009_SBCK_011-16b",
+          "lemma": "我小心癙憂以痒",
+          "quote": "音羊○賦也正月夏之四月謂之正月者以純陽用事爲正陽之月也繁多訛僞將大也京京亦大也癙憂幽憂也痒病也此詩亦大夫所作言霜降失節不以其時旣使我心憂傷矣而造爲姦僞之言以惑羣聽者又方甚大然衆人莫以爲憂故我獨憂之以至於病也",
+          "sourceIndex": 1015
+        }
+      ],
+      "rhymeReferences": [
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "10888",
+          "char": "繁",
+          "position": "並三元平",
+          "fanqie": "附袁反",
+          "quote": "多。"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "471.5",
+          "char": "繁",
+          "position": "並三C元平",
+          "fanqie": "附袁",
+          "quote": "穊也多也"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "535.14",
+          "char": "繁",
+          "position": "並一寒平",
+          "fanqie": "薄官",
+          "quote": "繁纓馬飾見左傳"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "743.6",
+          "char": "繁",
+          "position": "並一歌平",
+          "fanqie": "薄波",
+          "quote": "姓也左傳殷人七族有繁氏漢有御史大夫繁延壽又音煩"
+        }
+      ]
+    },
+    {
+      "char": "繁",
+      "dictionaryChar": "繁",
+      "position": "並三C元平",
+      "fanqie": "附袁",
+      "dictionaryQuote": "穊也多也",
+      "occurrences": [
+        {
+          "title": "大雅・生民之什・公劉",
+          "index": 49,
+          "context": "胥斯原既庶既繁既順迺宣而無"
+        }
+      ],
+      "selectionKind": "semantic-preference",
+      "basis": "繁霜、既繁、繁祉皆多盛，據附袁切穊也多也；排除馬飾、姓氏的別讀。 限本句語境採讀，保留字庫其他候選；不宣稱該字在各篇各義都只有一音。",
+      "sourceReferences": [],
+      "rhymeReferences": [
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "10888",
+          "char": "繁",
+          "position": "並三元平",
+          "fanqie": "附袁反",
+          "quote": "多。"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "471.5",
+          "char": "繁",
+          "position": "並三C元平",
+          "fanqie": "附袁",
+          "quote": "穊也多也"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "535.14",
+          "char": "繁",
+          "position": "並一寒平",
+          "fanqie": "薄官",
+          "quote": "繁纓馬飾見左傳"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "743.6",
+          "char": "繁",
+          "position": "並一歌平",
+          "fanqie": "薄波",
+          "quote": "姓也左傳殷人七族有繁氏漢有御史大夫繁延壽又音煩"
+        }
+      ]
+    },
+    {
+      "char": "繁",
+      "dictionaryChar": "繁",
+      "position": "並三C元平",
+      "fanqie": "附袁",
+      "dictionaryQuote": "穊也多也",
+      "occurrences": [
+        {
+          "title": "周頌・臣工之什・雝",
+          "index": 54,
+          "context": "綏我眉壽介以繁祉既右烈考亦"
+        }
+      ],
+      "selectionKind": "semantic-preference",
+      "basis": "繁霜、既繁、繁祉皆多盛，據附袁切穊也多也；排除馬飾、姓氏的別讀。 限本句語境採讀，保留字庫其他候選；不宣稱該字在各篇各義都只有一音。",
+      "sourceReferences": [],
+      "rhymeReferences": [
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "10888",
+          "char": "繁",
+          "position": "並三元平",
+          "fanqie": "附袁反",
+          "quote": "多。"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "471.5",
+          "char": "繁",
+          "position": "並三C元平",
+          "fanqie": "附袁",
+          "quote": "穊也多也"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "535.14",
+          "char": "繁",
+          "position": "並一寒平",
+          "fanqie": "薄官",
+          "quote": "繁纓馬飾見左傳"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "743.6",
+          "char": "繁",
+          "position": "並一歌平",
+          "fanqie": "薄波",
+          "quote": "姓也左傳殷人七族有繁氏漢有御史大夫繁延壽又音煩"
+        }
+      ]
+    },
+    {
+      "char": "稽",
+      "dictionaryChar": "稽",
+      "position": "溪開四齊上",
+      "fanqie": "康禮",
+      "dictionaryQuote": "上同又古兮切（首至地也）",
+      "occurrences": [
+        {
+          "title": "小雅・北山之什・楚茨",
+          "index": 262,
+          "context": "既醉既飽小大稽首神嗜飲食使"
+        }
+      ],
+      "selectionKind": "semantic-preference",
+      "basis": "三處均為稽首禮，據康禮切首至地也；不取考察、稽留或姓氏義。 限本句語境採讀，保留字庫其他候選；不宣稱該字在各篇各義都只有一音。",
+      "sourceReferences": [
+        {
+          "file": "KR1c0009_013.txt",
+          "page": "KR1c0009_SBCK_013-10b",
+          "lemma": "子孫孫勿替引之",
+          "quote": "賦也凡廟之制前廟以奉神後寢以藏衣冠祭於廟而燕於寢故於此將燕而祭時之樂皆入奏於寢也且於祭旣受祿矣故以燕爲將受後祿而綏之也爾殽旣進與燕之人無有怨者而皆懽慶醉飽稽首而言曰向者之祭神旣嗜君之飲食矣是以使君壽考也又言君之祭祀甚順甚時無所不盡子子孫孫當不廢而引長之也",
+          "sourceIndex": 801
+        }
+      ],
+      "rhymeReferences": [
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "8686",
+          "char": "稽",
+          "position": "見開四齊平",
+          "fanqie": "古嵇反",
+          "quote": "久。從禾，音雞。古今從禾，■【〻】。"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "303.3",
+          "char": "稽",
+          "position": "見開四齊平",
+          "fanqie": "古奚",
+          "quote": "考也同也當也留止也又山名亦姓呂氏春秋有秦賢者稽黃"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "1402.6",
+          "char": "稽",
+          "position": "溪開四齊上",
+          "fanqie": "康禮",
+          "quote": "上同又古兮切"
+        }
+      ]
+    },
+    {
+      "char": "稽",
+      "dictionaryChar": "稽",
+      "position": "溪開四齊上",
+      "fanqie": "康禮",
+      "dictionaryQuote": "上同又古兮切（首至地也）",
+      "occurrences": [
+        {
+          "title": "大雅・蕩之什・江漢",
+          "index": 155,
+          "context": "自召祖命虎拜稽首天子萬年虎"
+        }
+      ],
+      "selectionKind": "semantic-preference",
+      "basis": "三處均為稽首禮，據康禮切首至地也；不取考察、稽留或姓氏義。 限本句語境採讀，保留字庫其他候選；不宣稱該字在各篇各義都只有一音。",
+      "sourceReferences": [
+        {
+          "file": "KR1c0009_018.txt",
+          "page": "KR1c0009_SBCK_018-34a",
+          "lemma": "拜稽首天子萬年",
+          "quote": "叶禰因反○賦也釐賜卣尊也文人先祖之有文德者謂文王也周𡵨周也召祖穆公之祖康公也○此叙王賜召公䇿命之詞言錫爾圭瓚秬鬯者使之以祀其先祖又告于文人而錫之山川土田以廣其封邑蓋古者爵人必於祖廟示不敢專也又使往受命於𡵨周從其祖康公受命於文王之所以寵異之而召公拜稽首以受王命之䇿書也人臣受恩無可以報謝者但言使君壽考而巳",
+          "sourceIndex": 2498
+        }
+      ],
+      "rhymeReferences": [
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "8686",
+          "char": "稽",
+          "position": "見開四齊平",
+          "fanqie": "古嵇反",
+          "quote": "久。從禾，音雞。古今從禾，■【〻】。"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "303.3",
+          "char": "稽",
+          "position": "見開四齊平",
+          "fanqie": "古奚",
+          "quote": "考也同也當也留止也又山名亦姓呂氏春秋有秦賢者稽黃"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "1402.6",
+          "char": "稽",
+          "position": "溪開四齊上",
+          "fanqie": "康禮",
+          "quote": "上同又古兮切"
+        }
+      ]
+    },
+    {
+      "char": "稽",
+      "dictionaryChar": "稽",
+      "position": "溪開四齊上",
+      "fanqie": "康禮",
+      "dictionaryQuote": "上同又古兮切（首至地也）",
+      "occurrences": [
+        {
+          "title": "大雅・蕩之什・江漢",
+          "index": 163,
+          "context": "天子萬年虎拜稽首對揚王休作"
+        }
+      ],
+      "selectionKind": "semantic-preference",
+      "basis": "三處均為稽首禮，據康禮切首至地也；不取考察、稽留或姓氏義。 限本句語境採讀，保留字庫其他候選；不宣稱該字在各篇各義都只有一音。",
+      "sourceReferences": [
+        {
+          "file": "KR1c0009_018.txt",
+          "page": "KR1c0009_SBCK_018-35a",
+          "lemma": "其文德洽此四國",
+          "quote": "叶越逼反○賦也對答揚稱休美考成矢陳也○言穆公旣受賜遂答稱天子之美命作康公之廟器而勒王䇿命之詞以考其成且祝天子以萬壽也古器物銘云拜稽首敢對揚天子休命用作朕皇考龔伯尊敦其眉壽萬年無疆語正相類但彼自祝其壽而此祝君壽耳旣又美其君之令聞而進之以不巳勸其君以文德而不欲其極意於武功古人愛君之心於此可見矣",
+          "sourceIndex": 2530
+        }
+      ],
+      "rhymeReferences": [
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "8686",
+          "char": "稽",
+          "position": "見開四齊平",
+          "fanqie": "古嵇反",
+          "quote": "久。從禾，音雞。古今從禾，■【〻】。"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "303.3",
+          "char": "稽",
+          "position": "見開四齊平",
+          "fanqie": "古奚",
+          "quote": "考也同也當也留止也又山名亦姓呂氏春秋有秦賢者稽黃"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "1402.6",
+          "char": "稽",
+          "position": "溪開四齊上",
+          "fanqie": "康禮",
+          "quote": "上同又古兮切"
+        }
+      ]
+    },
+    {
+      "char": "識",
+      "dictionaryChar": "識",
+      "position": "書開三蒸入",
+      "fanqie": "賞職",
+      "dictionaryQuote": "說文云常也一曰知也賞職切十",
+      "occurrences": [
+        {
+          "title": "小雅・桑扈之什・賓之初筵",
+          "index": 275,
+          "context": "出童羖三爵不識矧敢多又"
+        }
+      ],
+      "selectionKind": "semantic-preference",
+      "basis": "本句「三爵不識」取飲醉而不能記憶之義；《詩集傳》明訓「識記也」，並說「昏然無所記矣」。王三《切韻》商職反條「記傳」支持入聲記憶義，與《廣韻》賞職切相承；不將此句強釋為識別。本字另注「叶失志二音」屬協韻，本次不以協韻推導常音。限本句採讀，保留字庫其他候選。",
+      "sourceReferences": [
+        {
+          "file": "KR1c0009_014.txt",
+          "page": "KR1c0009_SBCK_014-10b",
+          "lemma": "爵不識矧敢多又",
+          "quote": "叶夷益夷豉二反賦也監史司正之屬燕禮鄉射恐有懈倦失禮者立司正以監之察儀法也謂告由從也童羖無角之羖羊必無之物也識記也○言飲酒者或醉或不醉故旣立監而佐之以史則彼醉者所爲不善而不自知使不醉者反爲之羞愧也安得從而告之使勿至於大怠乎告之若曰所不當言者勿言所不當從者勿語醉而妄言則將罰女使出童羖矣設言必無之物以恐之也女飲至三爵已昏然無所記矣况敢又多飲乎又丁寧以戒之也",
+          "sourceIndex": 709
+        },
+        {
+          "file": "KR1c0009_014.txt",
+          "page": "KR1c0009_SBCK_014-10b",
+          "lemma": "三爵不識",
+          "quote": "叶失志二音",
+          "sourceIndex": 705
+        }
+      ],
+      "rhymeReferences": [
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "61761",
+          "char": "識",
+          "position": "書開三蒸入",
+          "fanqie": "商職反",
+          "quote": "商軄反。記傳。五。"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "2251.7",
+          "char": "識",
+          "position": "章開三之去",
+          "fanqie": "職吏",
+          "quote": "標識見禮本音式"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "3702.1",
+          "char": "識",
+          "position": "書開三蒸入",
+          "fanqie": "賞職",
+          "quote": "說文云常也一曰知也賞職切十"
+        }
+      ]
+    },
+    {
+      "char": "識",
+      "dictionaryChar": "識",
+      "position": "書開三蒸入",
+      "fanqie": "賞職",
+      "dictionaryQuote": "說文云常也一曰知也賞職切十",
+      "occurrences": [
+        {
+          "title": "大雅・文王之什・皇矣",
+          "index": 312,
+          "context": "不長夏以革不識不知順帝之則"
+        }
+      ],
+      "selectionKind": "semantic-preference",
+      "basis": "不識、識知及君子是識取知、識別之義，據賞職切；不作標識記號。 限本句語境採讀，保留字庫其他候選；不宣稱該字在各篇各義都只有一音。",
+      "sourceReferences": [],
+      "rhymeReferences": [
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "61761",
+          "char": "識",
+          "position": "書開三蒸入",
+          "fanqie": "商職反",
+          "quote": "商軄反。記傳。五。"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "2251.7",
+          "char": "識",
+          "position": "章開三之去",
+          "fanqie": "職吏",
+          "quote": "標識見禮本音式"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "3702.1",
+          "char": "識",
+          "position": "書開三蒸入",
+          "fanqie": "賞職",
+          "quote": "說文云常也一曰知也賞職切十"
+        }
+      ]
+    },
+    {
+      "char": "識",
+      "dictionaryChar": "識",
+      "position": "書開三蒸入",
+      "fanqie": "賞職",
+      "dictionaryQuote": "說文云常也一曰知也賞職切十",
+      "occurrences": [
+        {
+          "title": "大雅・蕩之什・瞻卬",
+          "index": 136,
+          "context": "賈三倍君子是識婦無公事休其"
+        }
+      ],
+      "selectionKind": "semantic-preference",
+      "basis": "不識、識知及君子是識取知、識別之義，據賞職切；不作標識記號。 限本句語境採讀，保留字庫其他候選；不宣稱該字在各篇各義都只有一音。",
+      "sourceReferences": [
+        {
+          "file": "KR1c0009_018.txt",
+          "page": "KR1c0009_SBCK_018-39b",
+          "lemma": "無公事休其𧖟織",
+          "quote": "賦也鞫窮忮害忒變也譛不信也竟終背反極巳慝惡也賈居貨者也三倍獲利之多也公事朝廷之事𧖟織婦人之業○言婦寺能以其知辨窮人之言其心忮害而變詐無常旣以譖妄唱始於前而終或不驗於後則亦不復自謂其言之放恣無所極巳而反曰是何足爲慝乎夫商賈之利非君子之所宜識如朝廷之事非婦人之所宜與也今賈三倍而君子識其所以然婦人無朝廷之事而舎其𧖟織以圖之則豈不爲慝哉",
+          "sourceIndex": 2882
+        }
+      ],
+      "rhymeReferences": [
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "61761",
+          "char": "識",
+          "position": "書開三蒸入",
+          "fanqie": "商職反",
+          "quote": "商軄反。記傳。五。"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "2251.7",
+          "char": "識",
+          "position": "章開三之去",
+          "fanqie": "職吏",
+          "quote": "標識見禮本音式"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "3702.1",
+          "char": "識",
+          "position": "書開三蒸入",
+          "fanqie": "賞職",
+          "quote": "說文云常也一曰知也賞職切十"
+        }
+      ]
+    },
+    {
+      "char": "丁",
+      "dictionaryChar": "丁",
+      "position": "端開四青平",
+      "fanqie": "當經",
+      "dictionaryQuote": "當也亦辰名爾雅云太歲在下曰強圉又姓本自姜姓齊太公子伋諡丁公因以命族出濟陽濟陰二望當經切八",
+      "occurrences": [
+        {
+          "title": "大雅・蕩之什・雲漢",
+          "index": 78,
+          "context": "臨耗斁下土寧丁我躬旱既大甚"
+        }
+      ],
+      "selectionKind": "semantic-preference",
+      "basis": "丁我躬取當、遇義；武丁為用天干命名的商王，均據當經切當也、辰名；排除伐木丁丁的中莖切。 限本句語境採讀，保留字庫其他候選；不宣稱該字在各篇各義都只有一音。",
+      "sourceReferences": [
+        {
+          "file": "KR1c0009_018.txt",
+          "page": "KR1c0009_SBCK_018-18b",
+          "lemma": "斁下土寧丁我躬",
+          "quote": "賦也藴蓄隆盛也蟲蟲熱氣也殄絶也郊祀天地也宮宗廟也上祭天下祭地奠其禮瘞其物宗尊也克勝也言后稷欲救此旱災而不能勝也臨享也稷以親言帝以尊言也斁敗丁當也何以當我之身而有是災也或曰與其耗斁下土寧使災害當我身也亦通",
+          "sourceIndex": 1281
+        }
+      ],
+      "rhymeReferences": [
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "19441",
+          "char": "丁",
+          "position": "端開四青平",
+          "fanqie": "當經反",
+          "quote": "當經反。壯。三。"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "895.2",
+          "char": "丁",
+          "position": "知開二耕平",
+          "fanqie": "中莖",
+          "quote": "上同詩曰伐木丁丁"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "935.1",
+          "char": "丁",
+          "position": "端開四青平",
+          "fanqie": "當經",
+          "quote": "當也亦辰名爾雅云太歲在下曰強圉又姓本自姜姓齊太公子伋諡丁公因以命族出濟陽濟陰二望當經切八"
+        }
+      ]
+    },
+    {
+      "char": "丁",
+      "dictionaryChar": "丁",
+      "position": "端開四青平",
+      "fanqie": "當經",
+      "dictionaryQuote": "當也亦辰名爾雅云太歲在下曰強圉又姓本自姜姓齊太公子伋諡丁公因以命族出濟陽濟陰二望當經切八",
+      "occurrences": [
+        {
+          "title": "商頌・玄鳥",
+          "index": 41,
+          "context": "受命不殆在武丁孫子武丁孫子"
+        }
+      ],
+      "selectionKind": "semantic-preference",
+      "basis": "丁我躬取當、遇義；武丁為用天干命名的商王，均據當經切當也、辰名；排除伐木丁丁的中莖切。 限本句語境採讀，保留字庫其他候選；不宣稱該字在各篇各義都只有一音。",
+      "sourceReferences": [
+        {
+          "file": "KR1c0009_020.txt",
+          "page": "KR1c0009_SBCK_020-17b",
+          "lemma": "不殆在武丁孫子",
+          "quote": "叶奬履反○方命厥后四方諸矦無不受命也九有九州也武丁髙宗也言商之先后受天命不危殆故今武丁孫子猶賴其福",
+          "sourceIndex": 1278
+        }
+      ],
+      "rhymeReferences": [
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "19441",
+          "char": "丁",
+          "position": "端開四青平",
+          "fanqie": "當經反",
+          "quote": "當經反。壯。三。"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "895.2",
+          "char": "丁",
+          "position": "知開二耕平",
+          "fanqie": "中莖",
+          "quote": "上同詩曰伐木丁丁"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "935.1",
+          "char": "丁",
+          "position": "端開四青平",
+          "fanqie": "當經",
+          "quote": "當也亦辰名爾雅云太歲在下曰強圉又姓本自姜姓齊太公子伋諡丁公因以命族出濟陽濟陰二望當經切八"
+        }
+      ]
+    },
+    {
+      "char": "丁",
+      "dictionaryChar": "丁",
+      "position": "端開四青平",
+      "fanqie": "當經",
+      "dictionaryQuote": "當也亦辰名爾雅云太歲在下曰強圉又姓本自姜姓齊太公子伋諡丁公因以命族出濟陽濟陰二望當經切八",
+      "occurrences": [
+        {
+          "title": "商頌・玄鳥",
+          "index": 45,
+          "context": "在武丁孫子武丁孫子武王靡不"
+        }
+      ],
+      "selectionKind": "semantic-preference",
+      "basis": "丁我躬取當、遇義；武丁為用天干命名的商王，均據當經切當也、辰名；排除伐木丁丁的中莖切。 限本句語境採讀，保留字庫其他候選；不宣稱該字在各篇各義都只有一音。",
+      "sourceReferences": [
+        {
+          "file": "KR1c0009_020.txt",
+          "page": "KR1c0009_SBCK_020-17b",
+          "lemma": "旂十乗大糦是承",
+          "quote": "武王湯號而其後丗亦以自稱也龍旂諸矦所建交龍之旂也大糦黍稷也承奉也言武丁孫子今襲湯號者其武無所不勝於是諸矦無不奉黍稷以來助祭也",
+          "sourceIndex": 1295
+        }
+      ],
+      "rhymeReferences": [
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "19441",
+          "char": "丁",
+          "position": "端開四青平",
+          "fanqie": "當經反",
+          "quote": "當經反。壯。三。"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "895.2",
+          "char": "丁",
+          "position": "知開二耕平",
+          "fanqie": "中莖",
+          "quote": "上同詩曰伐木丁丁"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "935.1",
+          "char": "丁",
+          "position": "端開四青平",
+          "fanqie": "當經",
+          "quote": "當也亦辰名爾雅云太歲在下曰強圉又姓本自姜姓齊太公子伋諡丁公因以命族出濟陽濟陰二望當經切八"
+        }
+      ]
+    },
+    {
+      "char": "咎",
+      "dictionaryChar": "咎",
+      "position": "羣三C尤上",
+      "fanqie": "其九",
+      "dictionaryQuote": "愆也惡也過也災也從人各各者相違也",
+      "occurrences": [
+        {
+          "title": "衛風・氓",
+          "index": 70,
+          "context": "爾卜爾筮體無咎言以爾車來以"
+        }
+      ],
+      "selectionKind": "semantic-preference",
+      "basis": "無咎、執其咎皆過失災咎，據其九切愆過災義；不屬咎繇（皋陶）人名。 限本句語境採讀，保留字庫其他候選；不宣稱該字在各篇各義都只有一音。",
+      "sourceReferences": [],
+      "rhymeReferences": [
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "34272",
+          "char": "咎",
+          "position": "羣三尤上",
+          "fanqie": "強久反",
+          "quote": "灾。"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "707.9",
+          "char": "咎",
+          "position": "見開一豪平",
+          "fanqie": "古勞",
+          "quote": "皋陶舜臣古作咎繇"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "1941.7",
+          "char": "咎",
+          "position": "羣三C尤上",
+          "fanqie": "其九",
+          "quote": "愆也惡也過也災也從人各各者相違也"
+        }
+      ]
+    },
+    {
+      "char": "咎",
+      "dictionaryChar": "咎",
+      "position": "羣三C尤上",
+      "fanqie": "其九",
+      "dictionaryQuote": "愆也惡也過也災也從人各各者相違也",
+      "occurrences": [
+        {
+          "title": "小雅・小旻之什・小旻",
+          "index": 88,
+          "context": "盈庭誰敢執其咎如匪行邁謀是"
+        }
+      ],
+      "selectionKind": "semantic-preference",
+      "basis": "無咎、執其咎皆過失災咎，據其九切愆過災義；不屬咎繇（皋陶）人名。 限本句語境採讀，保留字庫其他候選；不宣稱該字在各篇各義都只有一音。",
+      "sourceReferences": [],
+      "rhymeReferences": [
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "34272",
+          "char": "咎",
+          "position": "羣三尤上",
+          "fanqie": "強久反",
+          "quote": "灾。"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "707.9",
+          "char": "咎",
+          "position": "見開一豪平",
+          "fanqie": "古勞",
+          "quote": "皋陶舜臣古作咎繇"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "1941.7",
+          "char": "咎",
+          "position": "羣三C尤上",
+          "fanqie": "其九",
+          "quote": "愆也惡也過也災也從人各各者相違也"
+        }
+      ]
+    },
+    {
+      "char": "乾",
+      "dictionaryChar": "乾",
+      "position": "見開一寒平",
+      "fanqie": "古寒",
+      "dictionaryQuote": "字樣云本音虔今借爲乾濕字又姓出何氏姓苑",
+      "occurrences": [
+        {
+          "title": "王風・中谷有蓷",
+          "index": 6,
+          "context": "中谷有蓷暵其乾矣有女仳離嘅"
+        }
+      ],
+      "selectionKind": "semantic-preference",
+      "basis": "本句「暵其乾矣」寫草木枯乾，首章《詩集傳》釋「暵燥」並以凶年饑饉解此興象；據《廣韻》古寒切乾濕字採乾燥義，與渠焉切天、君義分開。此據首章上下文作語義採讀，並非乾字有直接音注；保留字庫其他候選。",
+      "sourceReferences": [
+        {
+          "file": "KR1c0009_004.txt",
+          "page": "KR1c0009_SBCK_004-6b",
+          "lemma": "遇人之艱難矣",
+          "quote": "興也蓷鵻也葉似萑方莖白華華生節閒即今益母草也暵燥仳别也嘅歎聲艱難窮厄也○凶年饑饉室家相棄婦人覧物起興而自述其悲歎之詞也",
+          "sourceIndex": 361
+        }
+      ],
+      "rhymeReferences": [
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "11393",
+          "char": "乾",
+          "position": "見開一寒平",
+          "fanqie": "古寒反",
+          "quote": "燥。古作漧。"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "517.2",
+          "char": "乾",
+          "position": "見開一寒平",
+          "fanqie": "古寒",
+          "quote": "字樣云本音虔今借爲乾濕字又姓出何氏姓苑"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "636.1",
+          "char": "乾",
+          "position": "羣開三B仙平",
+          "fanqie": "渠焉",
+          "quote": "天也君也堅也渠焉切又音干九"
+        }
+      ]
+    },
+    {
+      "char": "乾",
+      "dictionaryChar": "乾",
+      "position": "見開一寒平",
+      "fanqie": "古寒",
+      "dictionaryQuote": "字樣云本音虔今借爲乾濕字又姓出何氏姓苑",
+      "occurrences": [
+        {
+          "title": "小雅・鹿鳴之什・伐木",
+          "index": 116,
+          "context": "無遠民之失德乾餱以愆有酒湑"
+        }
+      ],
+      "selectionKind": "semantic-preference",
+      "basis": "暵其乾、乾餱皆乾燥義，據古寒切乾濕字，與渠焉切天、君義分開。 限本句語境採讀，保留字庫其他候選；不宣稱該字在各篇各義都只有一音。",
+      "sourceReferences": [
+        {
+          "file": "KR1c0009_009.txt",
+          "page": "KR1c0009_SBCK_009-12b",
+          "lemma": "我暇矣飲此湑矣",
+          "quote": "興也衍多也踐陳列貌兄弟朋友之同儕者無逺皆在也先諸舅而後兄弟者尊卑之等也乾餱食之薄者也愆過也湑亦釃也酤買也坎坎擊鼔聲蹲蹲舞貌迨及也○言人之所以至於失朋友之義者非必有大故或但以乾餱之薄不以分人而至於有愆耳故我於朋友不計有無但及閑暇則飲酒以相樂也",
+          "sourceIndex": 597
+        }
+      ],
+      "rhymeReferences": [
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "11393",
+          "char": "乾",
+          "position": "見開一寒平",
+          "fanqie": "古寒反",
+          "quote": "燥。古作漧。"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "517.2",
+          "char": "乾",
+          "position": "見開一寒平",
+          "fanqie": "古寒",
+          "quote": "字樣云本音虔今借爲乾濕字又姓出何氏姓苑"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "636.1",
+          "char": "乾",
+          "position": "羣開三B仙平",
+          "fanqie": "渠焉",
+          "quote": "天也君也堅也渠焉切又音干九"
+        }
+      ]
+    },
+    {
+      "char": "冠",
+      "dictionaryChar": "冠",
+      "position": "見合一寒平",
+      "fanqie": "古丸",
+      "dictionaryQuote": "首飾說文曰絭也所以絭髮弁冕之總名也亦姓風俗通云古賢者鶡冠子之後又音灌",
+      "occurrences": [
+        {
+          "title": "齊風・南山",
+          "index": 28,
+          "context": "懷止葛屨五兩冠緌雙止魯道有"
+        }
+      ],
+      "selectionKind": "semantic-preference",
+      "basis": "冠緌與素冠均為首服名詞，據古丸切首飾；不作冠束動詞。 限本句語境採讀，保留字庫其他候選；不宣稱該字在各篇各義都只有一音。",
+      "sourceReferences": [
+        {
+          "file": "KR1c0009_005.txt",
+          "page": "KR1c0009_SBCK_005-5b",
+          "lemma": "曰庸止曷又從止",
+          "quote": "比也兩二屨也緌冠上飾也屨必兩緌必雙物各有偶不可亂也庸用也用此道以嫁于魯也從相從也",
+          "sourceIndex": 363
+        }
+      ],
+      "rhymeReferences": [
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "11693",
+          "char": "冠",
+          "position": "見合一寒平",
+          "fanqie": "古丸反",
+          "quote": "首飾。又古玩反。"
+        },
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "43873",
+          "char": "冠",
+          "position": "見合一寒去",
+          "fanqie": "古段反",
+          "quote": "首飾。"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "530.7",
+          "char": "冠",
+          "position": "見合一寒平",
+          "fanqie": "古丸",
+          "quote": "首飾說文曰絭也所以絭髮弁冕之總名也亦姓風俗通云古賢者鶡冠子之後又音灌"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "2652.19",
+          "char": "冠",
+          "position": "見合一寒去",
+          "fanqie": "古玩",
+          "quote": "冠束白虎通曰男子幼娶必冠女子幼嫁必笄又姓列仙傳有仙人冠先又音官"
+        }
+      ]
+    },
+    {
+      "char": "冠",
+      "dictionaryChar": "冠",
+      "position": "見合一寒平",
+      "fanqie": "古丸",
+      "dictionaryQuote": "首飾說文曰絭也所以絭髮弁冕之總名也亦姓風俗通云古賢者鶡冠子之後又音灌",
+      "occurrences": [
+        {
+          "title": "檜風・素冠",
+          "index": 3,
+          "context": "庶見素冠兮棘人欒欒兮"
+        }
+      ],
+      "selectionKind": "semantic-preference",
+      "basis": "冠緌與素冠均為首服名詞，據古丸切首飾；不作冠束動詞。 限本句語境採讀，保留字庫其他候選；不宣稱該字在各篇各義都只有一音。",
+      "sourceReferences": [
+        {
+          "file": "KR1c0009_007.txt",
+          "page": "KR1c0009_SBCK_007-10a",
+          "lemma": "欒兮勞心慱慱兮",
+          "quote": "賦也庶幸也縞冠素紕旣祥之冠也黑經白緯曰縞縁邊曰紕棘急也喪事欲其揔揔爾哀遽之狀也欒欒瘠貌慱慱憂勞之貌○祥冠祥則冠之禫則除之今人皆不能行三年之喪矣安得見此服乎當時賢者庶幾見之至於憂勞也",
+          "sourceIndex": 634
+        }
+      ],
+      "rhymeReferences": [
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "11693",
+          "char": "冠",
+          "position": "見合一寒平",
+          "fanqie": "古丸反",
+          "quote": "首飾。又古玩反。"
+        },
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "43873",
+          "char": "冠",
+          "position": "見合一寒去",
+          "fanqie": "古段反",
+          "quote": "首飾。"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "530.7",
+          "char": "冠",
+          "position": "見合一寒平",
+          "fanqie": "古丸",
+          "quote": "首飾說文曰絭也所以絭髮弁冕之總名也亦姓風俗通云古賢者鶡冠子之後又音灌"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "2652.19",
+          "char": "冠",
+          "position": "見合一寒去",
+          "fanqie": "古玩",
+          "quote": "冠束白虎通曰男子幼娶必冠女子幼嫁必笄又姓列仙傳有仙人冠先又音官"
+        }
+      ]
+    },
+    {
+      "char": "易",
+      "dictionaryChar": "易",
+      "position": "以開三清入",
+      "fanqie": "羊益",
+      "dictionaryQuote": "變易又始也改也奪也轉也亦水名出涿郡安閻山見水經亦州名漢書趙分晉得中山秦爲上谷郡漢置涿郡隋爲易州因水名之又姓齊大夫易牙又盈義切",
+      "occurrences": [
+        {
+          "title": "大雅・蕩之什・韓奕",
+          "index": 39,
+          "context": "共爾位朕命不易榦不庭方以佐"
+        }
+      ],
+      "selectionKind": "semantic-preference",
+      "basis": "朕命不易為不可改變，依入聲變易義，與去聲容易義分開。 限本句語境採讀，保留字庫其他候選；不宣稱該字在各篇各義都只有一音。",
+      "sourceReferences": [
+        {
+          "file": "KR1c0009_018.txt",
+          "page": "KR1c0009_SBCK_018-29b",
+          "lemma": "不庭方以佐戎辟",
+          "quote": "音壁○賦也奕奕大也梁山韓之鎭也今在同州韓城縣甸治也倬明貌韓國名矦爵武王之後也受命蓋即位除喪以士服入見天子而聽命也纘繼戎汝也言王錫命之使繼丗而爲諸矦也䖍敬易改榦正也不庭方不來庭之國也辟君也此又戒之以修其職業之詞也○韓矦初立來朝始受王命而歸詩人作此以送之序亦以爲尹吉甫作今未有據下篇云召穆公凡伯者放此",
+          "sourceIndex": 2089
+        }
+      ],
+      "rhymeReferences": [
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "36709",
+          "char": "易",
+          "position": "以開三支去",
+          "fanqie": "以豉反",
+          "quote": "以豉反。又以益反。一。"
+        },
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "60191",
+          "char": "易",
+          "position": "以開三清入",
+          "fanqie": "羊益反",
+          "quote": "變。"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "2167.1",
+          "char": "易",
+          "position": "以開三支去",
+          "fanqie": "以豉",
+          "quote": "難易也簡易也又禮云易墓非古也易謂芟除草木以豉切又以益切六"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "3652.16",
+          "char": "易",
+          "position": "以開三清入",
+          "fanqie": "羊益",
+          "quote": "變易又始也改也奪也轉也亦水名出涿郡安閻山見水經亦州名漢書趙分晉得中山秦爲上谷郡漢置涿郡隋爲易州因水名之又姓齊大夫易牙又盈義切"
+        }
+      ]
+    },
+    {
+      "char": "亨",
+      "dictionaryChar": "亨",
+      "position": "滂二庚平",
+      "fanqie": "撫庚",
+      "dictionaryQuote": "煑也俗作烹又許庚許兩二切",
+      "occurrences": [
+        {
+          "title": "小雅・都人士之什・瓠葉",
+          "index": 6,
+          "context": "幡幡瓠葉采之亨之君子有酒酌"
+        }
+      ],
+      "selectionKind": "semantic-preference",
+      "basis": "采瓠葉而亨之，亨為烹煮，據普庚切煮也俗作烹；不作亨通或享獻。 限本句語境採讀，保留字庫其他候選；不宣稱該字在各篇各義都只有一音。",
+      "sourceReferences": [
+        {
+          "file": "KR1c0009_015.txt",
+          "page": "KR1c0009_SBCK_015-8b",
+          "lemma": "子有酒酌言嘗之",
+          "quote": "賦也幡幡瓠葉貌○此亦燕飲之詩言幡幡瓠葉采之亨之至薄也然君子有酒則亦以是酌而嘗之蓋述主人之謙詞言物雖薄而必與賓客共之也",
+          "sourceIndex": 627
+        }
+      ],
+      "rhymeReferences": [
+        {
+          "file": "guangyun.csv",
+          "entryId": "869.3",
+          "char": "亨",
+          "position": "曉開二庚平",
+          "fanqie": "許庚",
+          "quote": "通也或作亯又匹庚許兩二切"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "874.3",
+          "char": "亨",
+          "position": "滂二庚平",
+          "fanqie": "撫庚",
+          "quote": "煑也俗作烹又許庚許兩二切"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "1811.6",
+          "char": "亨",
+          "position": "曉開三C陽上",
+          "fanqie": "許兩",
+          "quote": "上同亦作享"
+        }
+      ]
+    },
+    {
+      "char": "濫",
+      "dictionaryChar": "濫",
+      "position": "來開一談去",
+      "fanqie": "盧𣊟",
+      "dictionaryQuote": "叨濫汎濫盧𣊟切九",
+      "occurrences": [
+        {
+          "title": "商頌・殷武",
+          "index": 87,
+          "context": "民有嚴不僭不濫不敢怠遑命于"
+        }
+      ],
+      "selectionKind": "semantic-preference",
+      "basis": "不僭不濫言不逾越、不妄行，採盧瞰切泛濫失度義；不取濫泉的胡黤切。 限本句語境採讀，保留字庫其他候選；不宣稱該字在各篇各義都只有一音。",
+      "sourceReferences": [
+        {
+          "file": "KR1c0009_020.txt",
+          "page": "KR1c0009_SBCK_020-22b",
+          "lemma": "于下國封建厥福",
+          "quote": "叶筆力反○賦也監視嚴威也僭賞之差也濫刑之過也遑暇封大也○言天命降監不在乎他皆在民之視聽則下民亦有嚴矣惟賞不僭刑不濫而不敢怠遑則天命之以天下而大建其福此髙宗所以受命而中興也",
+          "sourceIndex": 1629
+        }
+      ],
+      "rhymeReferences": [
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "35958",
+          "char": "濫",
+          "position": "匣開二咸上",
+          "fanqie": "下斬反",
+          "quote": "〻〈濫〉泉。又盧蹔反：汎。"
+        },
+        {
+          "file": "qieyun-wang3.csv",
+          "entryId": "49398",
+          "char": "濫",
+          "position": "來開一談去",
+          "fanqie": "盧瞰反",
+          "quote": "盧瞰反。汎。八。"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "2079.6",
+          "char": "濫",
+          "position": "匣開二銜上",
+          "fanqie": "胡黤",
+          "quote": "泉正出也又盧暫切"
+        },
+        {
+          "file": "guangyun.csv",
+          "entryId": "3119.1",
+          "char": "濫",
+          "position": "來開一談去",
+          "fanqie": "盧𣊟",
+          "quote": "叨濫汎濫盧𣊟切九"
+        }
+      ]
+    }
+  ]
+}

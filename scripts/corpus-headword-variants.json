@@ -1,0 +1,457 @@
+{
+  "version": 1,
+  "editedOn": "2026-10-03",
+  "rules": [
+    {
+      "char": "魂",
+      "dictionaryChar": "䰟",
+      "kind": "headword-orthography",
+      "basis": "正文保留上游原字；僅在上游指定地位或原注拼音與已覆核的字庫別體唯一相符時採讀。",
+      "entries": [
+        {
+          "position": "匣合一魂平",
+          "fanqie": "戶昆",
+          "quote": "魂魄也白虎通曰魂者沄也猶沄沄行不休也魄者迫也猶迫迫然著於人也淮南子曰天氣爲䰟地氣爲魄又反魂樹名在西海中聚窟洲上花葉香聞數百里狀如楓香煎其汁可爲丸名曰震靈丸亦名反生香又名卻死香死屍在地聞氣乃活出十洲記戶昆切二十四"
+        }
+      ]
+    },
+    {
+      "char": "窗",
+      "dictionaryChar": "窻",
+      "kind": "headword-orthography",
+      "basis": "正文保留上游原字；僅在上游指定地位或原注拼音與已覆核的字庫別體唯一相符時採讀。",
+      "entries": [
+        {
+          "position": "初二江平",
+          "fanqie": "楚江",
+          "quote": "說文作窗通孔也釋名曰窻聰也於內見外之聰明也"
+        }
+      ]
+    },
+    {
+      "char": "劍",
+      "dictionaryChar": "劒",
+      "kind": "headword-orthography",
+      "basis": "正文保留上游原字；僅在上游指定地位或原注拼音與已覆核的字庫別體唯一相符時採讀。",
+      "entries": [
+        {
+          "position": "見開三C嚴去",
+          "fanqie": "居欠",
+          "quote": "釋名曰劒檢也所以防檢非常也廣雅曰龍泉太阿干將鏌鋣斷蛇魚腸純鈞燕支蔡倫屬鹿干隊堂谿墨陽巨闕辟閭並劒名也崔豹古今注云吳大皇帝有寶劒六一曰白虹二曰紫電三曰辟邪四曰流星五曰青冥六曰百里列子云孔周有三劒一曰含光二曰承影三曰霄練吳王賜子胥屬鏤之劒而死周穆王有錕鋙劒切玉如泥居欠切一"
+        }
+      ]
+    },
+    {
+      "char": "劎",
+      "dictionaryChar": "劒",
+      "kind": "headword-orthography",
+      "basis": "正文保留上游原字；僅在上游指定地位或原注拼音與已覆核的字庫別體唯一相符時採讀。",
+      "entries": [
+        {
+          "position": "見開三C嚴去",
+          "fanqie": "居欠",
+          "quote": "釋名曰劒檢也所以防檢非常也廣雅曰龍泉太阿干將鏌鋣斷蛇魚腸純鈞燕支蔡倫屬鹿干隊堂谿墨陽巨闕辟閭並劒名也崔豹古今注云吳大皇帝有寶劒六一曰白虹二曰紫電三曰辟邪四曰流星五曰青冥六曰百里列子云孔周有三劒一曰含光二曰承影三曰霄練吳王賜子胥屬鏤之劒而死周穆王有錕鋙劒切玉如泥居欠切一"
+        }
+      ]
+    },
+    {
+      "char": "韓",
+      "dictionaryChar": "𩏑",
+      "kind": "headword-orthography",
+      "basis": "正文保留上游原字；僅在上游指定地位或原注拼音與已覆核的字庫別體唯一相符時採讀。",
+      "entries": [
+        {
+          "position": "匣開一寒平",
+          "fanqie": "胡安",
+          "quote": "亦作韓井垣也亦國名又姓出自唐叔虞之後曲沃桓叔之子萬食邑於韓因以爲氏代爲晉卿後分晉爲國韓爲秦滅復以國爲氏出潁川後韓騫避王莽亂移居南陽故有潁川南陽二望"
+        }
+      ]
+    },
+    {
+      "char": "群",
+      "dictionaryChar": "羣",
+      "kind": "headword-orthography",
+      "basis": "正文保留上游原字；僅在上游指定地位或原注拼音與已覆核的字庫別體唯一相符時採讀。",
+      "entries": [
+        {
+          "position": "羣合三C文平",
+          "fanqie": "渠云",
+          "quote": "羣隊也說文輩也亦作群渠云切五"
+        }
+      ]
+    },
+    {
+      "char": "峰",
+      "dictionaryChar": "峯",
+      "kind": "headword-orthography",
+      "basis": "正文保留上游原字；僅在上游指定地位或原注拼音與已覆核的字庫別體唯一相符時採讀。",
+      "entries": [
+        {
+          "position": "滂三C鍾平",
+          "fanqie": "敷容",
+          "quote": "山峯也敷容切十六"
+        }
+      ]
+    },
+    {
+      "char": "裡",
+      "dictionaryChar": "裏",
+      "kind": "headword-orthography",
+      "basis": "正文保留上游原字；僅在上游指定地位或原注拼音與已覆核的字庫別體唯一相符時採讀。",
+      "entries": [
+        {
+          "position": "來開三之上",
+          "fanqie": "良士",
+          "quote": "中裏說文曰衣內也"
+        }
+      ]
+    },
+    {
+      "char": "衆",
+      "dictionaryChar": "眾",
+      "kind": "headword-orthography",
+      "basis": "正文保留上游原字；僅在上游指定地位或原注拼音與已覆核的字庫別體唯一相符時採讀。",
+      "entries": [
+        {
+          "position": "章三東平",
+          "fanqie": "職戎",
+          "quote": "又之仲切"
+        },
+        {
+          "position": "章三東去",
+          "fanqie": "之仲",
+          "quote": "多也三人爲眾又姓左傳魯大夫眾仲之仲切又音終一"
+        }
+      ]
+    },
+    {
+      "char": "茲",
+      "dictionaryChar": "兹",
+      "kind": "headword-orthography",
+      "basis": "正文保留上游原字；僅在上游指定地位或原注拼音與已覆核的字庫別體唯一相符時採讀。",
+      "entries": [
+        {
+          "position": "從開三之平",
+          "fanqie": "疾之",
+          "quote": "龜兹國名龜音丘"
+        },
+        {
+          "position": "精開三之平",
+          "fanqie": "子之",
+          "quote": "此也又姓左傳魯大夫兹無還子之切十四"
+        }
+      ]
+    },
+    {
+      "char": "愼",
+      "dictionaryChar": "慎",
+      "kind": "headword-orthography",
+      "basis": "正文保留上游原字；僅在上游指定地位或原注拼音與已覆核的字庫別體唯一相符時採讀。",
+      "entries": [
+        {
+          "position": "常開三真去",
+          "fanqie": "時刃",
+          "quote": "誠也謹也亦姓古有慎到著書又漢複姓家語魯有慎潰氏奢侈逾法時刃切三"
+        }
+      ]
+    },
+    {
+      "char": "敎",
+      "dictionaryChar": "教",
+      "kind": "headword-orthography",
+      "basis": "正文保留上游原字；僅在上游指定地位或原注拼音與已覆核的字庫別體唯一相符時採讀。",
+      "entries": [
+        {
+          "position": "見開二肴平",
+          "fanqie": "古肴",
+          "quote": "效也又古孝切"
+        },
+        {
+          "position": "見開二肴去",
+          "fanqie": "古孝",
+          "quote": "教訓也又法也語也元命包云天垂文象人行其事謂之教教之爲言傚也古孝切十一"
+        }
+      ]
+    },
+    {
+      "char": "衞",
+      "dictionaryChar": "衛",
+      "kind": "headword-orthography",
+      "basis": "正文保留上游原字；僅在上游指定地位或原注拼音與已覆核的字庫別體唯一相符時採讀。",
+      "entries": [
+        {
+          "position": "云合三B祭去",
+          "fanqie": "于歲",
+          "quote": "護也垂也加也亦州名殷所都也本衛國爲翟所滅齊桓公伐翟遷衛于河南秦屬東郡魏文置朝歌郡晉爲汲郡東魏爲義州周武改爲衛州亦官名漢書曰衛尉秦官掌宮門衛屯兵又姓周文王子衛康叔之後國滅因氏焉出河東陳留二望又精衛鳥名山海經云狀如鳥白首赤喙其鳴目呼取西山木石以填東海于歲切十三"
+        }
+      ]
+    },
+    {
+      "char": "乗",
+      "dictionaryChar": "乘",
+      "kind": "headword-orthography",
+      "basis": "正文保留上游原字；僅在上游指定地位或原注拼音與已覆核的字庫別體唯一相符時採讀。",
+      "entries": [
+        {
+          "position": "船開三蒸平",
+          "fanqie": "食陵",
+          "quote": "駕也勝也登也守也說文作椉覆也又姓漢有乘昌爲煑棗侯"
+        },
+        {
+          "position": "船開三蒸去",
+          "fanqie": "實證",
+          "quote": "車乘也實證切又食陵切七"
+        }
+      ]
+    },
+    {
+      "char": "旣",
+      "dictionaryChar": "既",
+      "kind": "headword-orthography",
+      "basis": "正文保留上游原字；僅在上游指定地位或原注拼音與已覆核的字庫別體唯一相符時採讀。",
+      "entries": [
+        {
+          "position": "見開三C微去",
+          "fanqie": "居豙",
+          "quote": "已也盡也又姓吳王夫既之後居豙切七"
+        }
+      ]
+    },
+    {
+      "char": "恒",
+      "dictionaryChar": "恆",
+      "kind": "headword-orthography",
+      "basis": "正文保留上游原字；僅在上游指定地位或原注拼音與已覆核的字庫別體唯一相符時採讀。",
+      "entries": [
+        {
+          "position": "匣開一登平",
+          "fanqie": "胡登",
+          "quote": "常也久也亦州名春秋時鮮虞國地漢爲恆山郡周武帝置恆州因山以爲名爾雅曰恆山爲北嶽又姓楚有大夫恆思公胡登切三"
+        }
+      ]
+    },
+    {
+      "char": "幷",
+      "dictionaryChar": "并",
+      "kind": "headword-orthography",
+      "basis": "正文保留上游原字；僅在上游指定地位或原注拼音與已覆核的字庫別體唯一相符時採讀。",
+      "entries": [
+        {
+          "position": "幫三A清平",
+          "fanqie": "府盈",
+          "quote": "合也亦州名舜分冀州爲幽州并州春秋時爲晉國後屬趙秦爲太原郡魏復置并州又姓出姓苑府盈切四"
+        },
+        {
+          "position": "幫三A清去",
+          "fanqie": "畀政",
+          "quote": "專也"
+        }
+      ]
+    },
+    {
+      "char": "隣",
+      "dictionaryChar": "鄰",
+      "kind": "headword-orthography",
+      "basis": "正文保留上游原字；僅在上游指定地位或原注拼音與已覆核的字庫別體唯一相符時採讀。",
+      "entries": [
+        {
+          "position": "來開三真平",
+          "fanqie": "力珍",
+          "quote": "近也親也說文曰五家爲鄰俗作隣"
+        }
+      ]
+    },
+    {
+      "char": "荆",
+      "dictionaryChar": "荊",
+      "kind": "headword-orthography",
+      "basis": "正文保留上游原字；僅在上游指定地位或原注拼音與已覆核的字庫別體唯一相符時採讀。",
+      "entries": [
+        {
+          "position": "見開三B庚平",
+          "fanqie": "舉卿",
+          "quote": "荊楚亦木名可染又州名夏及周並爲州秦爲南郡即郢都之渚宮又姓燕刺客荊軻"
+        }
+      ]
+    },
+    {
+      "char": "湧",
+      "dictionaryChar": "涌",
+      "kind": "headword-orthography",
+      "basis": "正文保留上游原字；僅在上游指定地位或原注拼音與已覆核的字庫別體唯一相符時採讀。",
+      "entries": [
+        {
+          "position": "以三鍾上",
+          "fanqie": "余隴",
+          "quote": "涌泉說文曰滕也一曰涌水在楚國"
+        }
+      ]
+    },
+    {
+      "char": "廻",
+      "dictionaryChar": "回",
+      "kind": "headword-orthography",
+      "basis": "正文保留上游原字；僅在上游指定地位或原注拼音與已覆核的字庫別體唯一相符時採讀。",
+      "entries": [
+        {
+          "position": "匣合一灰平",
+          "fanqie": "戶恢",
+          "quote": "違也轉也邪也又回中地名亦姓古賢者方回之後戶恢切十三"
+        }
+      ]
+    },
+    {
+      "char": "衮",
+      "dictionaryChar": "袞",
+      "kind": "headword-orthography",
+      "basis": "正文保留上游原字；僅在上游指定地位或原注拼音與已覆核的字庫別體唯一相符時採讀。",
+      "entries": [
+        {
+          "position": "見合一魂上",
+          "fanqie": "古本",
+          "quote": "天子服也"
+        }
+      ]
+    },
+    {
+      "char": "啟",
+      "dictionaryChar": "啓",
+      "kind": "headword-orthography",
+      "basis": "正文保留上游原字；僅在上游指定地位或原注拼音與已覆核的字庫別體唯一相符時採讀。",
+      "entries": [
+        {
+          "position": "溪開四齊上",
+          "fanqie": "康禮",
+          "quote": "開也發也別也刻也說文教也俗作啓康禮切十二"
+        }
+      ]
+    },
+    {
+      "char": "崑",
+      "dictionaryChar": "崐",
+      "kind": "headword-orthography",
+      "basis": "正文保留上游原字；僅在上游指定地位或原注拼音與已覆核的字庫別體唯一相符時採讀。",
+      "entries": [
+        {
+          "position": "見合一魂平",
+          "fanqie": "古渾",
+          "quote": "崐崘山名"
+        }
+      ]
+    },
+    {
+      "char": "稿",
+      "dictionaryChar": "稾",
+      "kind": "headword-orthography",
+      "basis": "正文保留上游原字；僅在上游指定地位或原注拼音與已覆核的字庫別體唯一相符時採讀。",
+      "entries": [
+        {
+          "position": "見開一豪上",
+          "fanqie": "古老",
+          "quote": "禾稈又稾本草刱之本"
+        },
+        {
+          "position": "溪開一豪去",
+          "fanqie": "苦到",
+          "quote": "槀飫書篇名"
+        }
+      ]
+    },
+    {
+      "char": "抬",
+      "dictionaryChar": "擡",
+      "kind": "headword-orthography",
+      "basis": "正文保留上游原字；僅在上游指定地位或原注拼音與已覆核的字庫別體唯一相符時採讀。",
+      "entries": [
+        {
+          "position": "定開一咍平",
+          "fanqie": "徒哀",
+          "quote": "擡舉"
+        }
+      ]
+    },
+    {
+      "char": "為",
+      "dictionaryChar": "爲",
+      "kind": "headword-orthography",
+      "basis": "正文保留上游原字；僅在上游指定地位或原注拼音與已覆核的字庫別體唯一相符時採讀。",
+      "entries": [
+        {
+          "position": "云合三B支平",
+          "fanqie": "薳支",
+          "quote": "爾雅曰作造爲也說文曰母猴也又姓風俗通云漢有南郡太守爲昆薳支切又王僞切六"
+        },
+        {
+          "position": "云合三B支去",
+          "fanqie": "于僞",
+          "quote": "助也于僞切又允危切一"
+        }
+      ]
+    },
+    {
+      "char": "台",
+      "dictionaryChar": "臺",
+      "kind": "headword-orthography",
+      "basis": "正文保留上游原字；僅在上游指定地位或原注拼音與已覆核的字庫別體、通用字唯一相符時採讀。",
+      "entries": [
+        {
+          "position": "定開一咍平",
+          "fanqie": "徒哀",
+          "quote": "土高四方曰臺又姓漢有侍中臺崇徒哀切十五"
+        }
+      ]
+    },
+    {
+      "char": "唇",
+      "dictionaryChar": "脣",
+      "kind": "headword-orthography",
+      "basis": "正文保留上游原字；僅在上游指定地位或原注拼音與已覆核的字庫別體、通用字唯一相符時採讀。",
+      "entries": [
+        {
+          "position": "船合三真平",
+          "fanqie": "食倫",
+          "quote": "口脣食倫切五"
+        }
+      ]
+    },
+    {
+      "char": "卭",
+      "dictionaryChar": "邛",
+      "kind": "headword-orthography",
+      "basis": "正文保留上游原字；僅在上游指定地位或原注拼音與已覆核的字庫別體、通用字唯一相符時採讀。",
+      "entries": [
+        {
+          "position": "羣三C鍾平",
+          "fanqie": "渠容",
+          "quote": "勞也病也又臨邛縣亦邛僰又姓列仙傳有周封史邛疏"
+        }
+      ]
+    },
+    {
+      "char": "犂",
+      "dictionaryChar": "犁",
+      "kind": "headword-orthography",
+      "basis": "正文保留上游原字；僅在上游指定地位或原注拼音與已覆核的字庫別體、通用字唯一相符時採讀。",
+      "entries": [
+        {
+          "position": "來開四齊平",
+          "fanqie": "郎奚",
+          "quote": "墾田器亦耕也山海經曰后稷之孫叔均所作魏略曰皇甫隆爲燉煌太守教民作樓犁也"
+        }
+      ]
+    },
+    {
+      "char": "幃",
+      "dictionaryChar": "帷",
+      "kind": "headword-orthography",
+      "basis": "正文保留上游原字；僅在上游指定地位或原注拼音與已覆核的字庫別體、通用字唯一相符時採讀。",
+      "entries": [
+        {
+          "position": "云合三B脂平",
+          "fanqie": "洧悲",
+          "quote": "說文曰在旁曰帷釋名曰帷圍也所以自障圍也洧悲切一"
+        }
+      ]
+    }
+  ]
+}

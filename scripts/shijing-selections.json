@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "editedOn": "2026-10-03",
+  "readingSystem": "切韻系讀法",
+  "documents": [
+    {
+      "id": "shijing-fuyi",
+      "title": "周南・芣苢",
+      "annotationFile": "shijing-fuyi.xml",
+      "expectedHan": "采采芣苢薄言采之采采芣苢薄言有之采采芣苢薄言掇之采采芣苢薄言捋之采采芣苢薄言袺之采采芣苢薄言襭之",
+      "selections": [
+        {
+          "char": "掇",
+          "position": "端合一寒入",
+          "basis": "《釋文》首列都奪反，對應端合一寒入；本次練習採首讀，另列的知劣反（知合三仙入）保留為異讀，不宣稱此字只有一讀。",
+          "references": [{ "file": "shijing-fuyi.xml", "xmlId": "sj008s02e1_com_LDM", "quote": "掇，都奪反，一音知劣反。" }]
+        },
+        {
+          "char": "袺",
+          "position": "見開四先入",
+          "basis": "《釋文》袺音結，取結的見開四先入，對應《廣韻》古屑切；不採古黠切的見開二山入。",
+          "references": [{ "file": "shijing-fuyi.xml", "xmlId": "sj008s03e1_com_LDM", "quote": "袺，音結。" }]
+        }
+      ]
+    },
+    {
+      "id": "shijing-taoyao",
+      "title": "周南・桃夭",
+      "annotationFile": "shijing-taoyao.xml",
+      "expectedHan": "桃之夭夭灼灼其華之子于歸宜其室家桃之夭夭有蕡其實之子于歸宜其家室桃之夭夭其葉蓁蓁之子于歸宜其家人",
+      "selections": [
+        {
+          "char": "夭",
+          "position": "影開三B宵平",
+          "basis": "《釋文》於驕反，《毛傳》夭夭其少壯也，取平聲宵韻；B 類由該字的《廣韻》於喬切地位確定，不由反切單獨推定重紐。",
+          "references": [{ "file": "shijing-taoyao.xml", "xmlId": "sj006_com_LDM", "quote": "「桃夭」，於驕反。" }]
+        },
+        {
+          "char": "其",
+          "position": "羣開三C之平",
+          "basis": "此處是代詞，取《廣韻》渠之切；居之切條目為不其等專名讀音。",
+          "references": [{ "dictionaryChar": "其", "position": "羣開三C之平", "quote": "辝也" }, { "dictionaryChar": "其", "position": "見開三C之平", "quote": "不其邑名" }]
+        },
+        {
+          "char": "華",
+          "position": "曉合二麻平",
+          "basis": "指桃花，補據《詩集傳》本篇華音花，取《廣韻》呼瓜切的曉母平聲；不把匣母戶花切或宋人協韻音混入本次選讀。",
+          "references": [{ "file": "shijing-jizhuan.wiki", "quote": "灼灼其華{{annotate|音花}}", "displayQuote": "灼灼其華〈音花〉" }, { "dictionaryChar": "花", "position": "曉合二麻平", "quote": "爾雅云華荂也" }]
+        },
+        {
+          "char": "葉",
+          "position": "以開三鹽入",
+          "basis": "其葉蓁蓁指桃樹枝葉，取《廣韻》與涉切；不取汝州縣名的書涉切。",
+          "references": [{ "dictionaryChar": "葉", "position": "以開三鹽入", "quote": "枝葉" }, { "dictionaryChar": "葉", "position": "書開三鹽入", "quote": "縣名在汝州" }]
+        }
+      ]
+    }
+  ]
+}

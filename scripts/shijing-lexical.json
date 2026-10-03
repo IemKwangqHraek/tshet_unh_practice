@@ -1,0 +1,2837 @@
+{
+  "version": 1,
+  "editedOn": "2026-10-03",
+  "rules": [
+    {
+      "char": "其",
+      "position": "羣開三C之平",
+      "basis": "代詞或語助；專名「不其」「食其」不在本篇正文。",
+      "fanqie": "渠之",
+      "dictionaryQuote": "辝也亦姓陽阿侯其石是也又漢複姓六氏左"
+    },
+    {
+      "char": "如",
+      "position": "日開三魚平",
+      "basis": "取似、若、往的通常讀音。",
+      "fanqie": "人諸",
+      "dictionaryQuote": "而也均也似也謀也往也若也又姓晉中經部"
+    },
+    {
+      "char": "方",
+      "position": "幫三C陽平",
+      "basis": "方位、方法或語辭；不取方與縣名讀音。",
+      "fanqie": "府良",
+      "dictionaryQuote": "四方也正也道也比也類也法術也亦官名續"
+    },
+    {
+      "char": "女",
+      "position": "孃開三魚上",
+      "basis": "女子或汝的借字；嫁女的使動用法另留校對。",
+      "fanqie": "尼呂",
+      "dictionaryQuote": "禮記曰女者如也如男子之教尼呂切又尼慮",
+      "exclude": "女妻"
+    },
+    {
+      "char": "生",
+      "position": "生開三庚平",
+      "basis": "取生長、出生的通常平聲。",
+      "fanqie": "所庚",
+      "dictionaryQuote": "生長也易曰天地之大德曰生又姓出姓苑所"
+    },
+    {
+      "char": "食",
+      "position": "船開三蒸入",
+      "basis": "取飲食；不取酈食其的人名讀音。",
+      "fanqie": "乘力",
+      "dictionaryQuote": "飲食大戴禮曰食穀者智惠而巧古史考曰古"
+    },
+    {
+      "char": "作",
+      "position": "精開一唐入",
+      "basis": "取爲、起、始的通常入聲。",
+      "fanqie": "則落",
+      "dictionaryQuote": "爲也起也行也役也始也生也又姓漢有涿郡"
+    },
+    {
+      "char": "三",
+      "position": "心開一談平",
+      "basis": "取數名；不取三思的去聲。",
+      "fanqie": "蘇甘",
+      "dictionaryQuote": "數名又漢複姓五氏三閭氏三閭大夫屈原之"
+    },
+    {
+      "char": "厥",
+      "position": "見合三C元入",
+      "basis": "取其的代詞；不取突厥族名。",
+      "fanqie": "居月",
+      "dictionaryQuote": "其也亦短也說文曰發石也又姓京兆人也漢"
+    },
+    {
+      "char": "事",
+      "position": "崇開三之去",
+      "basis": "取事務或侍奉；不取剚刃義。",
+      "fanqie": "鉏吏",
+      "dictionaryQuote": "使也立也由也鉏吏切又側吏切二"
+    },
+    {
+      "char": "居",
+      "position": "見開三C魚平",
+      "basis": "取居住、止處；句末語助另留校對。",
+      "fanqie": "九魚",
+      "dictionaryQuote": "當也處也安也九魚切十四",
+      "exclude": "何其久也必有以也何其處也必有與也"
+    },
+    {
+      "char": "庶",
+      "position": "書開三魚去",
+      "basis": "取眾、庶幾；不取庶氏官名。",
+      "fanqie": "商署",
+      "dictionaryQuote": "眾也冀也侈也幸也又庶幾也亦姓"
+    },
+    {
+      "char": "土",
+      "position": "透一模上",
+      "basis": "取土地通常讀音。",
+      "fanqie": "他魯",
+      "dictionaryQuote": "釋名曰土吐也吐萬物也文字指歸無點他魯"
+    },
+    {
+      "char": "猶",
+      "position": "以三尤平",
+      "basis": "取尚、似、若；不取獸名。",
+      "fanqie": "以周",
+      "dictionaryQuote": "上同又尚也似也（謀也已也圖也若也道也"
+    },
+    {
+      "char": "後",
+      "position": "匣一侯上",
+      "basis": "取先後；不取娣姒義。",
+      "fanqie": "胡口",
+      "dictionaryQuote": "先後說文遟也又胡豆切"
+    },
+    {
+      "char": "取",
+      "position": "清合三虞上",
+      "basis": "取收取的通常讀音。",
+      "fanqie": "七庾",
+      "dictionaryQuote": "收也受也七庾切一"
+    },
+    {
+      "char": "葉",
+      "position": "以開三鹽入",
+      "basis": "取枝葉；不取汝州縣名。",
+      "fanqie": "與涉",
+      "dictionaryQuote": "枝葉又姓吳志孫堅傳有都尉葉雄與涉切又"
+    },
+    {
+      "char": "反",
+      "position": "幫三C元上",
+      "basis": "取反返、反覆；不取平反獄訟。",
+      "fanqie": "府遠",
+      "dictionaryQuote": "反覆又不順也府遠切六"
+    },
+    {
+      "char": "楚",
+      "position": "初開三魚上",
+      "basis": "取草木、荊楚或楚楚之貌。",
+      "fanqie": "創舉",
+      "dictionaryQuote": "萇楚亦荊楚又州本漢射陽縣地春秋時屬吳"
+    },
+    {
+      "char": "諸",
+      "position": "章開三魚平",
+      "basis": "取眾、之於等語法用法；不取姓氏。",
+      "fanqie": "章魚",
+      "dictionaryQuote": "之也旃也辯也非一也又姓漢有洛陽令諸於"
+    },
+    {
+      "char": "首",
+      "position": "書三尤上",
+      "basis": "取頭首、開始；不取自首罪名。",
+      "fanqie": "書九",
+      "dictionaryQuote": "頭也始也書九切六"
+    },
+    {
+      "char": "傷",
+      "position": "書開三陽平",
+      "basis": "取傷損；不取未成年死的殤義。",
+      "fanqie": "式羊",
+      "dictionaryQuote": "傷損"
+    },
+    {
+      "char": "氏",
+      "position": "常開三支上",
+      "basis": "取氏族；不取月氏或狋氏地名。",
+      "fanqie": "承紙",
+      "dictionaryQuote": "氏族又支精二音"
+    },
+    {
+      "char": "臨",
+      "position": "來開三侵平",
+      "basis": "取臨視；不取哭臨。",
+      "fanqie": "力尋",
+      "dictionaryQuote": "莅也大也監也又姓後趙錄有秦州刺史臨深"
+    },
+    {
+      "char": "蒼",
+      "position": "清開一唐平",
+      "basis": "取蒼色；不取莽蒼。",
+      "fanqie": "七岡",
+      "dictionaryQuote": "蒼色也又姓漢江夏太守蒼英"
+    },
+    {
+      "char": "戾",
+      "position": "來開四齊去",
+      "basis": "取乖戾或來至的通常讀音。",
+      "fanqie": "郎計",
+      "dictionaryQuote": "乖也待也利也立也罪也來也至也定也又很"
+    },
+    {
+      "char": "驅",
+      "position": "溪合三C虞平",
+      "basis": "取驅馳通常讀音。",
+      "fanqie": "豈俱",
+      "dictionaryQuote": "驅馳也"
+    },
+    {
+      "char": "獻",
+      "position": "曉開三C元去",
+      "basis": "取進獻；不取犧尊器名。",
+      "fanqie": "許建",
+      "dictionaryQuote": "進也禮云大曰羹獻又姓風俗通有秦大夫獻"
+    },
+    {
+      "char": "零",
+      "position": "來開四青平",
+      "basis": "取零落、雨零；不取先零族名。",
+      "fanqie": "郎丁",
+      "dictionaryQuote": "落也說文曰徐雨也又姓出姓苑"
+    },
+    {
+      "char": "光",
+      "position": "見合一唐平",
+      "basis": "取明光；不取上色。",
+      "fanqie": "古黃",
+      "dictionaryQuote": "明也亦州名漢西陽縣地屬江夏郡梁置光州"
+    },
+    {
+      "char": "荒",
+      "position": "曉合一唐平",
+      "basis": "取荒蕪、荒遠通常讀音。",
+      "fanqie": "呼光",
+      "dictionaryQuote": "荒蕪又姓呼光切十四"
+    },
+    {
+      "char": "薇",
+      "position": "明三C微平",
+      "basis": "取菜薇；不取垂水草名。",
+      "fanqie": "無非",
+      "dictionaryQuote": "菜也"
+    },
+    {
+      "char": "角",
+      "position": "見二江入",
+      "basis": "取獸角；不取角里先生人名。",
+      "fanqie": "古岳",
+      "dictionaryQuote": "芒也競也觸也說文曰獸角也又角抵戲漢武"
+    },
+    {
+      "char": "若",
+      "position": "日開三陽入",
+      "basis": "取如、順、若；不取蜀地名或般若。",
+      "fanqie": "而灼",
+      "dictionaryQuote": "如也順也汝也辝也又杜若香草亦姓魯人也"
+    },
+    {
+      "char": "涉",
+      "position": "常開三鹽入",
+      "basis": "取涉水、經歷；不取血流貌。",
+      "fanqie": "時攝",
+      "dictionaryQuote": "歷也徒行渡水也亦漳水別名涉縣是也又姓"
+    },
+    {
+      "char": "顛",
+      "position": "端開四先平",
+      "basis": "取頂、顛倒；不取瑱的通用字。",
+      "fanqie": "都年",
+      "dictionaryQuote": "頂也又姓左傳晉有顛頡都年切十五"
+    },
+    {
+      "char": "俟",
+      "position": "俟開三之上",
+      "basis": "取等待；不取万俟複姓。",
+      "fanqie": "牀史",
+      "dictionaryQuote": "待也亦作竢又姓風俗通云有俟子古賢人著"
+    },
+    {
+      "char": "狂",
+      "position": "羣合三C陽平",
+      "basis": "取狂病、狂態通常平聲。",
+      "fanqie": "巨王",
+      "dictionaryQuote": "病也韓子曰心不能審得失之地則謂之狂也"
+    },
+    {
+      "char": "夢",
+      "position": "明三C東去",
+      "basis": "取睡夢。",
+      "fanqie": "莫鳳",
+      "dictionaryQuote": "上同又亡中切（寐中神游說文云寐而有覺"
+    },
+    {
+      "char": "池",
+      "position": "澄開三支平",
+      "basis": "取池沼；不取滹池水名。",
+      "fanqie": "直離",
+      "dictionaryQuote": "停水曰池廣雅曰沼也又姓漢有中牟令池瑗"
+    },
+    {
+      "char": "奔",
+      "position": "幫一魂平",
+      "basis": "取奔走通常平聲。",
+      "fanqie": "博昆",
+      "dictionaryQuote": "奔走也說文作奔博昆切四"
+    },
+    {
+      "char": "蕩",
+      "position": "定開一唐上",
+      "basis": "取蕩蕩、大、動蕩；不取蒗蕩渠名。",
+      "fanqie": "徒朗",
+      "dictionaryQuote": "大也又水名出湯陰又姓宋之公族也徒朗切"
+    },
+    {
+      "char": "騤",
+      "position": "羣合三B脂平",
+      "basis": "取馬行強盛；不取回毛在背。",
+      "fanqie": "渠追",
+      "dictionaryQuote": "強也盛也又馬行皃"
+    },
+    {
+      "char": "蟲",
+      "position": "澄三東平",
+      "basis": "取蟲名詞；蟲食動詞另留校對。",
+      "fanqie": "直弓",
+      "dictionaryQuote": "爾雅曰有足曰蟲無足曰豸又姓漢功臣表有",
+      "exclude": "蟲食"
+    },
+    {
+      "char": "純",
+      "position": "常合三真平",
+      "basis": "取大、篤、純粹；緣邊義另留校對。",
+      "fanqie": "常倫",
+      "dictionaryQuote": "篤也至也好也文也大也常倫切十三",
+      "exclude": "純束"
+    },
+    {
+      "char": "詒",
+      "position": "以開三之平",
+      "basis": "取贈遺；相欺義另留校對。",
+      "fanqie": "與之",
+      "dictionaryQuote": "贈言"
+    },
+    {
+      "char": "會",
+      "position": "匣合一泰去",
+      "basis": "取會合；不取會稽地名。",
+      "fanqie": "黃外",
+      "dictionaryQuote": "合也古作會亦州秦屬隴西郡漢分爲金城郡"
+    },
+    {
+      "char": "留",
+      "position": "來三尤平",
+      "basis": "取住止；不取宿留。",
+      "fanqie": "力求",
+      "dictionaryQuote": "住也止也說文作畱亦姓出會稽本自衛大夫"
+    },
+    {
+      "char": "蓋",
+      "position": "見開一泰去",
+      "basis": "取覆蓋；不取姓氏或苫蓋。",
+      "fanqie": "古太",
+      "dictionaryQuote": "覆也掩也通俗文曰張帛也禮記曰敝蓋不棄"
+    },
+    {
+      "char": "每",
+      "position": "明一灰上",
+      "basis": "取每、頻的通常讀音。",
+      "fanqie": "武罪",
+      "dictionaryQuote": "雖也辝也頻也說文作𡴋艸盛上出也"
+    },
+    {
+      "char": "讒",
+      "position": "崇開二咸平",
+      "basis": "取讒譖的通常讀音。",
+      "fanqie": "士咸",
+      "dictionaryQuote": "譖也士咸切又士銜切十三"
+    },
+    {
+      "char": "經",
+      "position": "見開四青平",
+      "basis": "取經行或經常；不取經緯之去聲。",
+      "fanqie": "古靈",
+      "dictionaryQuote": "常也絞也徑也亦經緯又姓出何氏姓苑古靈"
+    },
+    {
+      "char": "阻",
+      "position": "莊開三魚上",
+      "basis": "取阻隔、險阻；不取馬阻蹄。",
+      "fanqie": "側呂",
+      "dictionaryQuote": "隔也憂也側呂切二"
+    },
+    {
+      "char": "鴻",
+      "position": "匣一東平",
+      "basis": "取鴻鳥；不取鴻濛。",
+      "fanqie": "戶公",
+      "dictionaryQuote": "詩傳云大曰鴻小曰鴈又姓左傳衛大夫鴻聊"
+    },
+    {
+      "char": "孌",
+      "position": "來合三仙上",
+      "basis": "取美好。",
+      "fanqie": "力兗",
+      "dictionaryQuote": "美好"
+    },
+    {
+      "char": "風",
+      "position": "幫三C東平",
+      "basis": "正文的風、風聲；不套用序文中的諷刺義。",
+      "fanqie": "方戎",
+      "dictionaryQuote": "教也佚也告也聲也河圖曰風者天地之使元"
+    },
+    {
+      "char": "中",
+      "position": "知三東平",
+      "basis": "取中間、中央；動詞中另留校對。",
+      "fanqie": "陟弓",
+      "dictionaryQuote": "平也成也宜也堪也任也和也半也又姓漢少",
+      "exclude": "中其|中于|必中"
+    },
+    {
+      "char": "將",
+      "position": "精開三陽平",
+      "basis": "取將、扶助、送；將帥名詞另留校對。",
+      "fanqie": "即良",
+      "dictionaryQuote": "送也行也大也助也辝也又姓後趙錄有常山",
+      "exclude": "將帥|大將"
+    },
+    {
+      "char": "王",
+      "position": "云合三C陽平",
+      "basis": "取君王名詞；動詞王此等另留校對。",
+      "fanqie": "雨方",
+      "dictionaryQuote": "大也君也字林云三者天地人一貫三爲王天",
+      "exclude": "王此|王彼"
+    },
+    {
+      "char": "何",
+      "position": "匣開一歌平",
+      "basis": "取疑問語辭；何戈等荷負義另留校對。",
+      "fanqie": "胡歌",
+      "dictionaryQuote": "辝也說文儋也又姓出自周成王母弟唐叔虞",
+      "exclude": "何戈|何蓑|何簑|何天之"
+    },
+    {
+      "char": "予",
+      "position": "以開三魚平",
+      "basis": "取我代詞；錫予等給與義另留校對。",
+      "fanqie": "以諸",
+      "dictionaryQuote": "我也又餘佇切",
+      "exclude": "錫予|以予|予之"
+    },
+    {
+      "char": "不",
+      "position": "幫三C文入",
+      "basis": "取否定詞；不顯等可能通丕的用法另留校對。",
+      "fanqie": "分勿",
+      "dictionaryQuote": "與弗同又府鳩方久二切",
+      "exclude": "不顯|不遐"
+    },
+    {
+      "char": "出",
+      "position": "昌合三真入",
+      "basis": "取出入的入聲；使出之義另留校對。",
+      "fanqie": "赤律",
+      "dictionaryQuote": "進也見也遠也赤律切又赤季切一"
+    },
+    {
+      "char": "興",
+      "position": "曉開三C蒸平",
+      "basis": "正文的起、興盛；不套用注釋賦比興的去聲。",
+      "fanqie": "虛陵",
+      "dictionaryQuote": "盛也舉也善也說文曰起也从舁从同同力也"
+    },
+    {
+      "char": "在",
+      "position": "從開一咍上",
+      "basis": "居、存的上聲；所在的去聲同義候選仍保留。",
+      "fanqie": "昨宰",
+      "dictionaryQuote": "居也存也昨宰切一"
+    },
+    {
+      "char": "見",
+      "position": "見開四先去",
+      "basis": "見視；顯現或露出義另留校對。",
+      "fanqie": "古電",
+      "dictionaryQuote": "視也又姓出姓苑古電切又胡電切二",
+      "exclude": "天見|出見|見于天"
+    },
+    {
+      "char": "大",
+      "position": "定開一泰去",
+      "basis": "小大；大王、大任等通太的名稱另按音注。",
+      "fanqie": "徒蓋",
+      "dictionaryQuote": "小大也說文曰天大地大人亦大故大象人形",
+      "exclude": "大王|大任|大姒|大姜|大師|大伯|大叔"
+    },
+    {
+      "char": "且",
+      "position": "清開三麻上",
+      "basis": "且、并且的上聲；句末語助另留校對。",
+      "fanqie": "七也",
+      "dictionaryQuote": "語辝七也切又子余切一",
+      "exclude": "狂且|只且|揚且"
+    },
+    {
+      "char": "與",
+      "position": "以開三魚上",
+      "basis": "與、給與、共同；猗與的語助另留校對。",
+      "fanqie": "余呂",
+      "dictionaryQuote": "善也待也說文曰黨與也余呂切又余譽二音",
+      "exclude": "猗與"
+    },
+    {
+      "char": "車",
+      "position": "昌開三麻平",
+      "basis": "本版車輛採尺遮切，九魚切同義異讀保留。",
+      "fanqie": "尺遮",
+      "dictionaryQuote": "古史考曰黃帝作車引重致遠少昊時加牛禹"
+    },
+    {
+      "char": "弟",
+      "position": "定開四齊上",
+      "basis": "兄弟義；豈弟（愷悌）另據音注。",
+      "fanqie": "徒禮",
+      "dictionaryQuote": "兄弟爾雅曰男子先生爲兄後生爲弟徒禮切",
+      "exclude": "豈弟"
+    },
+    {
+      "char": "夫",
+      "position": "幫三C虞平",
+      "basis": "丈夫、大夫；句首發語詞另留校對。",
+      "fanqie": "甫無",
+      "dictionaryQuote": "丈夫又羌複姓後秦建威將軍夫蒙大羌",
+      "exclude": "且夫"
+    },
+    {
+      "char": "燕",
+      "position": "影開四先去",
+      "basis": "燕鳥或宴安義；燕國另留校對。",
+      "fanqie": "於甸",
+      "dictionaryQuote": "說文云玄鳥也作巢避戊己",
+      "exclude": "燕師"
+    },
+    {
+      "char": "遠",
+      "position": "云合三C元上",
+      "basis": "遙遠；離遠的動詞義另留校對。",
+      "fanqie": "雲阮",
+      "dictionaryQuote": "遙遠也雲阮切二",
+      "exclude": "遠父|遠兄|遠之|遠我"
+    },
+    {
+      "char": "降",
+      "position": "見二江去",
+      "basis": "下降、歸降的去聲；伏降義另留校對。",
+      "fanqie": "古巷",
+      "dictionaryQuote": "下也歸也落也又音缸伏也",
+      "exclude": "心則降|降伏|降服"
+    },
+    {
+      "char": "勞",
+      "position": "來開一豪平",
+      "basis": "勞苦、勤勞；慰勞義另留校對。",
+      "fanqie": "魯刀",
+      "dictionaryQuote": "倦也勤也病也又姓後漢有琅邪勞丙魯刀切",
+      "exclude": "肯勞|勞之|勞爾|勞來"
+    },
+    {
+      "char": "飲",
+      "position": "影開三B侵上",
+      "basis": "喝飲的上聲；使飲義另留校對。",
+      "fanqie": "於錦",
+      "dictionaryQuote": "上同（說文曰㱃也於錦切三）",
+      "exclude": "飲之|飲爾|飲君"
+    },
+    {
+      "char": "於",
+      "position": "影開三C魚平",
+      "basis": "介詞於；歎詞於另按音注。",
+      "fanqie": "央居",
+      "dictionaryQuote": "居也代也語辝也又商於地名亦姓今淮南有",
+      "exclude": "於昭|於赫|於乎|於鑠|於皇|於論"
+    },
+    {
+      "char": "於",
+      "position": "影一模平",
+      "basis": "歎詞於，與嗚呼的烏同音。",
+      "fanqie": "哀都",
+      "dictionaryQuote": "古作於戲今作嗚呼",
+      "pattern": "~於~(?:昭|赫|乎|鑠|皇|論)"
+    },
+    {
+      "char": "爲",
+      "position": "云合三B支平",
+      "basis": "作、造、成爲或以爲的動詞平聲。",
+      "fanqie": "薳支",
+      "dictionaryQuote": "爾雅曰作造爲也說文曰母猴也又姓風俗通",
+      "pattern": "~爲~(?:絺|綌|讎|婦|兄|君|酒|裳|龍|鴟)|以~爲~|天實~爲~"
+    },
+    {
+      "char": "爲",
+      "position": "云合三B支去",
+      "basis": "爲誰、誰爲等介詞去聲。",
+      "fanqie": "于僞",
+      "dictionaryQuote": "助也于僞切又允危切一",
+      "pattern": "~爲~誰|誰~爲~"
+    },
+    {
+      "char": "載",
+      "position": "精開一咍去",
+      "basis": "語辭、開始的精母去聲；負載等運載义保留待校對。",
+      "fanqie": "作代",
+      "dictionaryQuote": "年也事也則也乘也始也盟辭也又姓風俗通",
+      "pattern": "~載~(?:笑|言|馳|驅|寢|興|陽|歌|舞|路|績|玄|黃|纘|渴|饑|飛|鳴|震|弄|生|見|考|清|好)|俶~載~"
+    },
+    {
+      "char": "思",
+      "position": "心開三之平",
+      "basis": "思念動詞或句末語助，採通常平聲；情思名詞另留校對。",
+      "fanqie": "息兹",
+      "dictionaryQuote": "思念也息兹切又息吏切十五",
+      "pattern": "~思~(?:服|之|古|齊|馬|子|柔|文|皇|成|明)|(?:求|泳|方|去)~思~"
+    },
+    {
+      "char": "行",
+      "position": "匣開一唐平",
+      "basis": "周行大道、鴈行的行列讀。",
+      "fanqie": "胡郎",
+      "dictionaryQuote": "伍也列也又戶庚戶浪戶孟三切",
+      "pattern": "周~行~|鴈~行~|雁~行~"
+    },
+    {
+      "char": "行",
+      "position": "匣開二庚去",
+      "basis": "德行、行爲或景跡的去聲。",
+      "fanqie": "下更",
+      "dictionaryQuote": "景迹又事也言也下更切又胡郎胡浪胡庚三",
+      "pattern": "德~行~|淑~行~|其~行~|用其~行~"
+    },
+    {
+      "char": "行",
+      "position": "匣開二庚平",
+      "basis": "行走、道路的平聲；行列與行爲義另按規則。",
+      "fanqie": "戶庚",
+      "dictionaryQuote": "行步也適也往也去也又姓周有大行人之官",
+      "exclude": "周行|鴈行|雁行|德行|淑行|其行"
+    },
+    {
+      "char": "樂",
+      "position": "來開一唐入",
+      "basis": "喜樂、快樂或使之樂的入聲；音樂、愛好等另留校對。",
+      "fanqie": "盧各",
+      "dictionaryQuote": "喜樂又五角五教二切",
+      "exclude": "樂具|于樂|於樂|好樂|樂饑"
+    },
+    {
+      "char": "樂",
+      "position": "疑二江入",
+      "basis": "樂具、樂器的音樂義。",
+      "fanqie": "五角",
+      "dictionaryQuote": "音樂周禮有六樂雲門咸池大韶大夏大濩大",
+      "pattern": "~樂~具|~樂~器"
+    },
+    {
+      "char": "父",
+      "position": "並三C虞上",
+      "basis": "父母、父親的並母；名字與美稱另留校對。",
+      "fanqie": "扶雨",
+      "dictionaryQuote": "說文曰父矩也家長率教者扶雨切十五",
+      "exclude": "皇父|尚父|亶父|仲父|尼父|孔父|吉父|甫父"
+    },
+    {
+      "char": "父",
+      "position": "幫三C虞上",
+      "basis": "尚父、皇父、亶父等名稱美稱的幫母。",
+      "fanqie": "方矩",
+      "dictionaryQuote": "尼父尚父皆男子之美稱又漢複姓三氏孔子",
+      "pattern": "(?:皇|尚|亶|仲|尼|孔|吉|甫)~父~"
+    },
+    {
+      "char": "衣",
+      "position": "影開三C微平",
+      "basis": "衣裳名詞的平聲；衣錦的衣著動詞另據去聲。",
+      "fanqie": "於希",
+      "dictionaryQuote": "上曰衣下曰裳世本曰胡曹作衣白虎通云衣",
+      "exclude": "衣錦"
+    },
+    {
+      "char": "衣",
+      "position": "影開三C微去",
+      "basis": "衣錦的衣著動詞去聲。",
+      "fanqie": "於既",
+      "dictionaryQuote": "衣著於既切又音依一",
+      "pattern": "~衣~錦"
+    },
+    {
+      "char": "好",
+      "position": "曉開一豪上",
+      "basis": "善、美、好逑的上聲；愛好、相好另留校對。",
+      "fanqie": "呼晧",
+      "dictionaryQuote": "善也美也呼晧切又呼号切二",
+      "pattern": "~好~(?:逑|仇|人)|(?:且|靜|緇衣之)~好~"
+    },
+    {
+      "char": "好",
+      "position": "曉開一豪去",
+      "basis": "相好、愛好之去聲。",
+      "fanqie": "呼到",
+      "dictionaryQuote": "愛好亦璧孔也見周禮又姓出纂文又呼老切",
+      "pattern": "相~好~|~好~我|~好~之|知子之~好~"
+    },
+    {
+      "char": "下",
+      "position": "匣開二麻上",
+      "basis": "名詞下、下土或在下的上聲；下降動作另留校對。",
+      "fanqie": "胡雅",
+      "dictionaryQuote": "賤也去也後也底也降也胡雅切四",
+      "exclude": "下來|下括|下上"
+    },
+    {
+      "char": "下",
+      "position": "匣開二麻去",
+      "basis": "下來、下括的下降動詞。",
+      "fanqie": "胡駕",
+      "dictionaryQuote": "行下又胡雅切",
+      "pattern": "~下~來|~下~括"
+    },
+    {
+      "char": "上",
+      "position": "常開三陽上",
+      "basis": "登升或上下位置的上聲；上帝、尚慎等另據去聲。",
+      "fanqie": "時掌",
+      "dictionaryQuote": "登也升也時掌切又音尚二",
+      "exclude": "上帝|上慎"
+    },
+    {
+      "char": "上",
+      "position": "常開三陽去",
+      "basis": "上帝君上或上慎（尚）的去聲。",
+      "fanqie": "時亮",
+      "dictionaryQuote": "君也猶天子也又時兩切",
+      "pattern": "~上~帝|~上~慎"
+    },
+    {
+      "char": "雨",
+      "position": "云合三C虞上",
+      "basis": "雨名詞的上聲；雨雪、雨我等降雨動詞另據去聲。",
+      "fanqie": "王矩",
+      "dictionaryQuote": "元命包曰陰陽和爲雨大戴禮云天地之氣和",
+      "exclude": "雨雪|雨我"
+    },
+    {
+      "char": "雨",
+      "position": "云合三C虞去",
+      "basis": "雨雪或雨我之降雨動詞去聲。",
+      "fanqie": "王遇",
+      "dictionaryQuote": "詩曰雨雪其霶又音禹",
+      "pattern": "~雨~雪|~雨~我"
+    },
+    {
+      "char": "右",
+      "position": "云三C尤上",
+      "basis": "右方的上聲；保右、福右等佑助另據去聲。",
+      "fanqie": "云久",
+      "dictionaryQuote": "左右也又漢複姓五氏左傳宋樂大心爲右師",
+      "exclude": "保右|福右|右之"
+    },
+    {
+      "char": "右",
+      "position": "云三C尤去",
+      "basis": "保右、福右的佑助去聲。",
+      "fanqie": "于救",
+      "dictionaryQuote": "左右又于久切",
+      "pattern": "保~右~|福~右~"
+    },
+    {
+      "char": "左",
+      "position": "精開一歌上",
+      "basis": "左方的上聲；佐助義另留校對。",
+      "fanqie": "臧可",
+      "dictionaryQuote": "左右也亦姓齊之公族有左右公子後因氏焉"
+    },
+    {
+      "char": "烝",
+      "position": "章開三蒸平",
+      "basis": "烝民、烝祭等平聲。",
+      "fanqie": "煑仍",
+      "dictionaryQuote": "說文曰火氣上行也"
+    },
+    {
+      "char": "壽",
+      "position": "常三尤上",
+      "basis": "壽考兩讀同義；本版取上聲，去聲候選保留。",
+      "fanqie": "殖酉",
+      "dictionaryQuote": "壽考又州名楚考烈王自陳徙都壽春号曰郢"
+    },
+    {
+      "char": "能",
+      "position": "泥開一咍平",
+      "basis": "能夠的通常咍韻平聲；其他字庫讀音保留。",
+      "fanqie": "奴來",
+      "dictionaryQuote": "爾雅謂三足鼈也又獸名禹父所化也奴來切"
+    },
+    {
+      "char": "只",
+      "position": "章開三支上",
+      "basis": "句中或句末語助的上聲。",
+      "fanqie": "諸氏",
+      "dictionaryQuote": "語辤"
+    },
+    {
+      "char": "野",
+      "position": "以開三麻上",
+      "basis": "田野兩讀同義；本版取以母麻韻。",
+      "fanqie": "羊者",
+      "dictionaryQuote": "田野說文云郊外也羊者切五"
+    },
+    {
+      "char": "乘",
+      "position": "船開三蒸平",
+      "basis": "乘車動詞的平聲；車乘數量另據去聲。",
+      "fanqie": "食陵",
+      "dictionaryQuote": "駕也勝也登也守也說文作椉覆也又姓漢有",
+      "exclude": "乘乘|一乘|二乘|三乘|四乘|百乘"
+    },
+    {
+      "char": "乘",
+      "position": "船開三蒸去",
+      "basis": "乘乘、車乘的名詞數量去聲。",
+      "fanqie": "實證",
+      "dictionaryQuote": "車乘也實證切又食陵切七",
+      "pattern": "~乘~乘|乘~乘~|(?:一|二|三|四|百)~乘~"
+    },
+    {
+      "char": "殷",
+      "position": "影開三C殷平",
+      "basis": "殷商或殷殷的殷韻平聲；雷聲另留校對。",
+      "fanqie": "於斤",
+      "dictionaryQuote": "眾也正也大也中也說文从㐆殳作樂之盛稱",
+      "exclude": "殷其靁|殷其雷"
+    },
+    {
+      "char": "辟",
+      "position": "幫三A清入",
+      "basis": "君辟、辟王或辟除；便辟、邪辟等另留校對。",
+      "fanqie": "必益",
+      "dictionaryQuote": "爾雅皇王后辟君也亦除也又姓漢有富室辟",
+      "exclude": "邪辟|便辟|寤辟"
+    },
+    {
+      "char": "先",
+      "position": "心開四先平",
+      "basis": "先後順序；娣姒義未用於正文。",
+      "fanqie": "蘇前",
+      "dictionaryQuote": "先後也又姓左傳晉有先軫蘇前切又蘇薦切"
+    },
+    {
+      "char": "令",
+      "position": "來開三清去",
+      "basis": "善、令儀或命令去聲；其他候選保留。",
+      "fanqie": "力政",
+      "dictionaryQuote": "善也命也律也法也力政切又力盈切又歷丁"
+    },
+    {
+      "char": "處",
+      "position": "昌開三魚上",
+      "basis": "處居、止處上聲；處所名詞另留校對。",
+      "fanqie": "昌與",
+      "dictionaryQuote": "居也止也制也息也留也定也說文又作処亦"
+    },
+    {
+      "char": "焉",
+      "position": "云開三B仙平",
+      "basis": "語助焉的云母；何焉、焉得等問詞另留校對。",
+      "fanqie": "有乾",
+      "dictionaryQuote": "語助也又於乾切",
+      "exclude": "焉得|焉用|焉知"
+    },
+    {
+      "char": "焉",
+      "position": "影開三B仙平",
+      "basis": "焉得等何處問詞。",
+      "fanqie": "於乾",
+      "dictionaryQuote": "何也又鳥雜毛說文曰鳥黃色出江淮閒於乾",
+      "pattern": "~焉~(?:得|用|知)"
+    },
+    {
+      "char": "召",
+      "position": "常開三宵去",
+      "basis": "召伯、召公及召地名。",
+      "fanqie": "寔照",
+      "dictionaryQuote": "上同（邑名又姓出魏郡周文王子邵公奭之",
+      "pattern": "~召~(?:伯|公|南)"
+    },
+    {
+      "char": "定",
+      "position": "定開四青去",
+      "basis": "安定的定母；定之方中或額義另據端母。",
+      "fanqie": "徒徑",
+      "dictionaryQuote": "安也亦州名帝堯始封唐國之城秦爲趙郡鉅",
+      "exclude": "定之方中|麟之定"
+    },
+    {
+      "char": "定",
+      "position": "端開四青去",
+      "basis": "營室星定之方中、麟額的端母讀。",
+      "fanqie": "丁定",
+      "dictionaryQuote": "題額詩云定之方中定營室也又徒徑切",
+      "pattern": "~定~之方中|麟之~定~"
+    },
+    {
+      "char": "已",
+      "position": "以開三之上",
+      "basis": "止、已經或語助的上聲；字庫去聲候選保留。",
+      "fanqie": "羊己",
+      "dictionaryQuote": "止也此也甚也訖也又音似"
+    },
+    {
+      "char": "曾",
+      "position": "精開一登平",
+      "basis": "曾孫或則、竟的讀法；經曾義另留校對。",
+      "fanqie": "作滕",
+      "dictionaryQuote": "則也亦姓曾參之後漢有尚書曾偉古作曾又"
+    },
+    {
+      "char": "尚",
+      "position": "常開三陽去",
+      "basis": "庶幾、尚的去聲；尚書官名不在正文。",
+      "fanqie": "時亮",
+      "dictionaryQuote": "庶幾亦高尚又飾也曾也加也佐也韻略云凡"
+    },
+    {
+      "char": "率",
+      "position": "生合三真入",
+      "basis": "率領、循率的入聲；率網另留校對。",
+      "fanqie": "所律",
+      "dictionaryQuote": "循也領也將也用也行也說文曰捕鳥畢也象"
+    },
+    {
+      "char": "告",
+      "position": "見開一豪去",
+      "basis": "報告的常用去聲；古沃切異讀保留。",
+      "fanqie": "古到",
+      "dictionaryQuote": "報也說文作𠰛又音梏"
+    },
+    {
+      "char": "齊",
+      "position": "從開四齊平",
+      "basis": "齊整或齊國；齊敬、齊衰另據音注。",
+      "fanqie": "徂奚",
+      "dictionaryQuote": "整也中也莊也好也疾也等也亦州名春秋時",
+      "exclude": "有齊|齊齊"
+    },
+    {
+      "char": "離",
+      "position": "來開三支平",
+      "basis": "離離、流離、離別的常用平聲；其他同義候選保留。",
+      "fanqie": "呂支",
+      "dictionaryQuote": "近曰離遠曰別說文曰離黃倉庚鳴則蠶生今"
+    },
+    {
+      "char": "平",
+      "position": "並三B庚平",
+      "basis": "平和、平均的庚韻平聲；平平辯治另據音注。",
+      "fanqie": "符兵",
+      "dictionaryQuote": "正也和也易也亦州名古山戎孤竹白狄肥子",
+      "exclude": "平平"
+    },
+    {
+      "char": "卒",
+      "position": "精合三真入",
+      "basis": "終、盡之入聲；卒急、隸卒另留校對。",
+      "fanqie": "子聿",
+      "dictionaryQuote": "終也盡也子聿切又倉沒切又則骨切五",
+      "exclude": "卒癉|卒狂|卒流|卒痒|卒迷|卒荒|其卒"
+    },
+    {
+      "char": "適",
+      "position": "章開三清入",
+      "basis": "往、適到的章母入聲；樂善與跟從義另留校對。",
+      "fanqie": "之石",
+      "dictionaryQuote": "往也又施隻切又都歷切",
+      "exclude": "適我願|王事適我"
+    },
+    {
+      "char": "猗",
+      "position": "影開三B支平",
+      "basis": "歎詞、猗猗或長的平聲；倚靠動詞另留校對。",
+      "fanqie": "於離",
+      "dictionaryQuote": "長也倚也施也又犗犬出字林或作犄",
+      "exclude": "猗重較|猗彼女桑"
+    },
+    {
+      "char": "正",
+      "position": "章開三清去",
+      "basis": "正當、正直去聲；正月、正朔另據音注。",
+      "fanqie": "之盛",
+      "dictionaryQuote": "正當也長也定也平也是也君也亦姓左傳宋",
+      "exclude": "正月"
+    },
+    {
+      "char": "正",
+      "position": "章開三清平",
+      "basis": "正月的正朔平聲。",
+      "fanqie": "諸盈",
+      "dictionaryQuote": "正朔本音政",
+      "pattern": "~正~月"
+    },
+    {
+      "char": "胥",
+      "position": "心開三魚平",
+      "basis": "相、皆、視的平聲；才智義不在正文。",
+      "fanqie": "相居",
+      "dictionaryQuote": "相也說文曰蟹醢也又姓晉有大夫胥童何氏"
+    },
+    {
+      "char": "長",
+      "position": "澄開三陽平",
+      "basis": "長久、長遠；長養或長幼另留校對。",
+      "fanqie": "直良",
+      "dictionaryQuote": "久也遠也常也永也直良切又直向丁丈二切",
+      "exclude": "長我|長子|長孫"
+    },
+    {
+      "char": "長",
+      "position": "知開三陽上",
+      "basis": "長我、长子的長養長幼上聲。",
+      "fanqie": "知丈",
+      "dictionaryQuote": "大也又漢複姓晉有長兒魯少事智伯智伯絕",
+      "pattern": "~長~我|~長~子"
+    },
+    {
+      "char": "后",
+      "position": "匣一侯上",
+      "basis": "君后本版取上聲；去聲同義異讀保留。",
+      "fanqie": "胡口",
+      "dictionaryQuote": "君也又姓漢有少府后倉又音候"
+    },
+    {
+      "char": "舍",
+      "position": "書開三麻上",
+      "basis": "止息、捨的上聲；屋舍名詞另留校對。",
+      "fanqie": "書冶",
+      "dictionaryQuote": "止息亦上同又音赦（釋也書冶切五）",
+      "exclude": "廬舍|屋舍"
+    },
+    {
+      "char": "觀",
+      "position": "見合一寒平",
+      "basis": "觀看平聲；樓觀義不在正文。",
+      "fanqie": "古丸",
+      "dictionaryQuote": "視也又音灌"
+    },
+    {
+      "char": "難",
+      "position": "泥開一寒平",
+      "basis": "艱難的平聲；患難義另留校對。",
+      "fanqie": "那干",
+      "dictionaryQuote": "艱也不易稱也又木難珠名其色黃生東夷曹",
+      "exclude": "患難|遭難|我難"
+    },
+    {
+      "char": "度",
+      "position": "定一模去",
+      "basis": "法度、儀度去聲；度量動詞另留校對。",
+      "fanqie": "徒故",
+      "dictionaryQuote": "法度又姓出後漢荊州刺史度尚又徒各切",
+      "exclude": "度之|度其|度彼|是度"
+    },
+    {
+      "char": "夏",
+      "position": "匣開二麻上",
+      "basis": "諸夏、夏代的上聲；夏季另留校對。",
+      "fanqie": "胡雅",
+      "dictionaryQuote": "大也又諸夏亦州名秦屬上郡漢分置朔方郡",
+      "exclude": "無夏|冬夏|春夏"
+    },
+    {
+      "char": "夏",
+      "position": "匣開二麻去",
+      "basis": "夏季去聲。",
+      "fanqie": "胡駕",
+      "dictionaryQuote": "春夏又胡雅切",
+      "pattern": "~夏~日|無~夏~|冬~夏~|春~夏~"
+    },
+    {
+      "char": "共",
+      "position": "羣三C鍾去",
+      "basis": "同、共的去聲；供、恭的借字另留校對。",
+      "fanqie": "渠用",
+      "dictionaryQuote": "同也皆也渠用切一",
+      "exclude": "共人|共武|共爾|共明|執共"
+    },
+    {
+      "char": "施",
+      "position": "書開三支平",
+      "basis": "施行的平聲；延蔓或施布去聲另留校對。",
+      "fanqie": "式支",
+      "dictionaryQuote": "施設亦姓左傳魯大夫施伯何氏姓苑云今沛",
+      "exclude": "施于|雨施"
+    },
+    {
+      "char": "祁",
+      "position": "羣開三A脂平",
+      "basis": "盛多或姓祁；不取職雉切地名。",
+      "fanqie": "渠脂",
+      "dictionaryQuote": "盛也縣名在太原左傳晉大夫祁奚之邑因以"
+    },
+    {
+      "char": "怒",
+      "position": "泥一模上",
+      "basis": "怒恚兩讀同義；本版取上聲。",
+      "fanqie": "奴古",
+      "dictionaryQuote": "恚也奴古切又奴故切五"
+    },
+    {
+      "char": "望",
+      "position": "明三C陽去",
+      "basis": "望見或期望本版取去聲；平聲候選保留。",
+      "fanqie": "巫放",
+      "dictionaryQuote": "看望說文曰出亡在外望其還也亦祭名又姓"
+    },
+    {
+      "char": "忘",
+      "position": "明三C陽去",
+      "basis": "遺忘本版取去聲；平聲同義候選保留。",
+      "fanqie": "巫放",
+      "dictionaryQuote": "遺忘又音亡"
+    },
+    {
+      "char": "妻",
+      "position": "清開四齊平",
+      "basis": "妻名詞平聲；以女妻人另留校對。",
+      "fanqie": "七稽",
+      "dictionaryQuote": "齊也七稽切又七計切十"
+    },
+    {
+      "char": "聞",
+      "position": "明三C文平",
+      "basis": "聽聞平聲；令聞名望另據去聲。",
+      "fanqie": "無分",
+      "dictionaryQuote": "說文曰知聲也又音問",
+      "exclude": "令聞"
+    },
+    {
+      "char": "聞",
+      "position": "明三C文去",
+      "basis": "令聞的名聲去聲。",
+      "fanqie": "亡運",
+      "dictionaryQuote": "名達詩曰令聞令望",
+      "pattern": "令~聞~"
+    },
+    {
+      "char": "聽",
+      "position": "透開四青平",
+      "basis": "聽聞兩讀同義；本版取平聲。",
+      "fanqie": "他丁",
+      "dictionaryQuote": "聆也又湯定切"
+    },
+    {
+      "char": "和",
+      "position": "匣合一歌平",
+      "basis": "和順、和樂或笙和的平聲；聲相應去聲另留校對。",
+      "fanqie": "戶戈",
+      "dictionaryQuote": "爾雅云笙之小者謂之和和順也諧也不堅不"
+    },
+    {
+      "char": "宛",
+      "position": "影合三C元上",
+      "basis": "宛然、宛在上聲；宛丘首字另據音注。",
+      "fanqie": "於阮",
+      "dictionaryQuote": "宛然說文曰屈艸自覆也又姓左傳有宛春",
+      "exclude": "宛丘"
+    },
+    {
+      "char": "盬",
+      "position": "見一模上",
+      "basis": "不固的盬上聲；鹽池義不在正文。",
+      "fanqie": "公戶",
+      "dictionaryQuote": "鹽池又左傳曰盬其腦杜預云盬𠯗也又詩"
+    },
+    {
+      "char": "厭",
+      "position": "影開三A鹽去",
+      "basis": "厭足、厭棄去聲；厭浥、厭厭等另留校對。",
+      "fanqie": "於豔",
+      "dictionaryQuote": "論語曰食不厭精於豔切五",
+      "exclude": "厭浥|厭厭"
+    },
+    {
+      "char": "樹",
+      "position": "常合三虞去",
+      "basis": "木樹或植立的去聲；扶樹另留校對。",
+      "fanqie": "常句",
+      "dictionaryQuote": "木摠名也立也又姓姓苑云今江東有之後魏"
+    },
+    {
+      "char": "宿",
+      "position": "心三東入",
+      "basis": "宿夜、止宿入聲；星宿另留校對。",
+      "fanqie": "息逐",
+      "dictionaryQuote": "素也大也舍也說文作㝛止也左傳曰一宿爲"
+    },
+    {
+      "char": "甚",
+      "position": "常開三侵上",
+      "basis": "甚、尤的上聲；去聲同義候選保留。",
+      "fanqie": "常枕",
+      "dictionaryQuote": "劇過也說文曰尤安樂也常枕切二"
+    },
+    {
+      "char": "教",
+      "position": "見開二肴去",
+      "basis": "教訓、教導去聲；仿效義另留校對。",
+      "fanqie": "古孝",
+      "dictionaryQuote": "教訓也又法也語也元命包云天垂文象人行"
+    },
+    {
+      "char": "否",
+      "position": "幫三C尤上",
+      "basis": "否定的方久切；否塞義另留校對。",
+      "fanqie": "方久",
+      "dictionaryQuote": "說文不也又房彼切"
+    },
+    {
+      "char": "怨",
+      "position": "影合三C元去",
+      "basis": "怨恨去聲；怨讎義另留校對。",
+      "fanqie": "於願",
+      "dictionaryQuote": "恨也說文恚也於願切二"
+    },
+    {
+      "char": "湛",
+      "position": "端開一覃平",
+      "basis": "湛樂的丁含切。",
+      "fanqie": "丁含",
+      "dictionaryQuote": "湛樂亦見詩",
+      "pattern": "~湛~湛|湛~湛~"
+    },
+    {
+      "char": "顧",
+      "position": "見一模去",
+      "basis": "顧視的去聲。",
+      "fanqie": "古暮",
+      "dictionaryQuote": "迴視也眷也又姓出吳郡古暮切十五"
+    },
+    {
+      "char": "參",
+      "position": "初開三侵平",
+      "basis": "參差不齊，廣韻明載此義。",
+      "fanqie": "楚簪",
+      "dictionaryQuote": "上同（嵾差不齊皃亦作參楚簪切六）",
+      "pattern": "~參~差"
+    },
+    {
+      "char": "差",
+      "position": "初開三支平",
+      "basis": "參差不齊的初母支韻。",
+      "fanqie": "楚宜",
+      "dictionaryQuote": "次也不齊等也楚宜切又楚佳楚懈二切四",
+      "pattern": "參~差~"
+    },
+    {
+      "char": "荇",
+      "position": "匣開二庚上",
+      "basis": "荇菜植物，按廣韻菜名取匣母庚韻上聲；古注行孟反不直接等同切韻韻調。",
+      "fanqie": "何梗",
+      "dictionaryQuote": "上同（莕菜）"
+    },
+    {
+      "char": "轉",
+      "position": "知合三仙上",
+      "basis": "輾轉、轉動的上聲；流轉去聲同義候選保留。",
+      "fanqie": "陟兗",
+      "dictionaryQuote": "動也運也陟兗切二"
+    },
+    {
+      "char": "旋",
+      "position": "邪合三仙平",
+      "basis": "旋返、旋歸的平聲。",
+      "fanqie": "似宣",
+      "dictionaryQuote": "還也疾也似宣切十七"
+    },
+    {
+      "char": "刈",
+      "position": "疑開三C廢去",
+      "basis": "刈取割草的去聲。",
+      "fanqie": "魚肺",
+      "dictionaryQuote": "刈穫魚肺切八"
+    },
+    {
+      "char": "絺",
+      "position": "徹開三脂平",
+      "basis": "葛布絺，採廣韻徹母脂韻平聲。",
+      "fanqie": "丑飢",
+      "dictionaryQuote": "細葛也丑飢切七"
+    },
+    {
+      "char": "樛",
+      "position": "見開三A幽平",
+      "basis": "樛木下曲，以廣韻木曲義選見母幽韻。",
+      "fanqie": "居虯",
+      "dictionaryQuote": "說文曰下句曰樛詩曰南有樛木傳云木下曲也居虯切五"
+    },
+    {
+      "char": "詵",
+      "position": "生開三臻平",
+      "basis": "詵詵眾多，以廣韻詵眾多義取生母臻韻。",
+      "fanqie": "所臻",
+      "dictionaryQuote": "眾人言也"
+    },
+    {
+      "char": "僕",
+      "position": "並一冬入",
+      "basis": "本版僮僕、僕夫取蒲沃切；蒲木切侍從同義候選保留。",
+      "fanqie": "蒲沃",
+      "dictionaryQuote": "僮僕說文曰給事者也漢書曰太僕秦官掌輿馬亦姓風俗通云漢有渾梁侯"
+    },
+    {
+      "char": "吁",
+      "position": "曉合三C虞平",
+      "basis": "歎詞吁，廣韻云歎也，取曉母虞韻。",
+      "fanqie": "況于",
+      "dictionaryQuote": "歎也"
+    },
+    {
+      "char": "羽",
+      "position": "云合三C虞上",
+      "basis": "鳥羽或羽舞名詞，本版取廣韻上聲，鳥翅去聲同義讀仍保留。",
+      "fanqie": "王矩",
+      "dictionaryQuote": "舒也聚也亦鳥長毛也又官名羽林監應劭漢官儀曰羽林者言其爲國羽翼"
+    },
+    {
+      "char": "振",
+      "position": "章開三真平",
+      "basis": "振振疊字，取仁厚、盛貌的平聲。",
+      "fanqie": "職鄰",
+      "dictionaryQuote": "又之刃切",
+      "pattern": "~振~振|振~振~"
+    },
+    {
+      "char": "振",
+      "position": "章開三真去",
+      "basis": "振奮、振舉的動詞去聲。",
+      "fanqie": "章刃",
+      "dictionaryQuote": "奮也裂也舉也整也救也又之人切",
+      "exclude": "振振"
+    },
+    {
+      "char": "丁",
+      "position": "知開二耕平",
+      "basis": "丁丁擊打聲，廣韻明引詩伐木丁丁。",
+      "fanqie": "中莖",
+      "dictionaryQuote": "上同詩曰伐木丁丁（伐木聲也中莖切七）",
+      "pattern": "~丁~丁|丁~丁~"
+    },
+    {
+      "char": "喬",
+      "position": "羣開三B宵平",
+      "basis": "喬木、高喬，本版取羣母宵韻平聲。",
+      "fanqie": "巨嬌",
+      "dictionaryQuote": "高也說文曰高而曲也又虜姓前代錄云匈奴貴姓喬氏代爲輔相巨嬌切十"
+    },
+    {
+      "char": "翹",
+      "position": "羣開三A宵平",
+      "basis": "翹翹高出，本版取平聲，去聲同義候選保留。",
+      "fanqie": "渠遙",
+      "dictionaryQuote": "舉也懸也危也又鳥尾也渠遙切六"
+    },
+    {
+      "char": "錯",
+      "position": "清開一唐入",
+      "basis": "錯薪、交錯，廣韻明載東西爲交、邪行爲錯。",
+      "fanqie": "倉各",
+      "dictionaryQuote": "鑢別名又雜也摩也詩傳云東西爲交邪行爲錯說文云金涂也倉各切七"
+    },
+    {
+      "char": "墳",
+      "position": "並三C文平",
+      "basis": "汝墳水岸、墳土的文韻平聲；土膏肥上聲另留校對。",
+      "fanqie": "符分",
+      "dictionaryQuote": "墳籍又墓也",
+      "exclude": "如坻如墳"
+    },
+    {
+      "char": "赬",
+      "position": "徹開三清平",
+      "basis": "魚尾赬赤，廣韻赤義徹母清韻平聲。",
+      "fanqie": "丑貞",
+      "dictionaryQuote": "赤色俗作頳"
+    },
+    {
+      "char": "巢",
+      "position": "崇開二肴平",
+      "basis": "鳥巢通常平聲。",
+      "fanqie": "鉏交",
+      "dictionaryQuote": "說文曰鳥在木上曰巢在穴曰窠爾雅曰大笙謂之巢又縣名在廬江亦姓有"
+    },
+    {
+      "char": "兩",
+      "position": "來開三陽去",
+      "basis": "百兩、車輛數量的去聲。",
+      "fanqie": "力讓",
+      "dictionaryQuote": "車數",
+      "pattern": "百~兩~"
+    },
+    {
+      "char": "兩",
+      "position": "來開三陽上",
+      "basis": "兩、成雙的數詞上聲。",
+      "fanqie": "良㢡",
+      "dictionaryQuote": "上同說文曰二十四銖爲一兩（說文曰再也易云參天㒳地今通作兩良㢡",
+      "exclude": "百兩"
+    },
+    {
+      "char": "被",
+      "position": "並三B支去",
+      "basis": "被之僮僮、被之祁祁的披被服飾去聲。",
+      "fanqie": "平義",
+      "dictionaryQuote": "被服也覆也書曰光被四表又平彼切寢衣也",
+      "pattern": "~被~之(?:僮|祁)"
+    },
+    {
+      "char": "還",
+      "position": "匣合二刪平",
+      "basis": "回還、還車，本版取匣母刪韻平聲；似宣切同義候選保留。",
+      "fanqie": "戶關",
+      "dictionaryQuote": "反也退也顧也復也戶關切又音旋二十"
+    },
+    {
+      "char": "趯",
+      "position": "透開四青入",
+      "basis": "趯趯跳躍，以廣韻跳義取透母錫韻入聲。",
+      "fanqie": "他歷",
+      "dictionaryQuote": "跳皃"
+    },
+    {
+      "char": "說",
+      "position": "以合三仙入",
+      "basis": "心悅、喜悅，以廣韻悅字同音的以母仙韻入聲。",
+      "fanqie": "弋雪",
+      "dictionaryQuote": "姓傅說之後又失爇始銳二切",
+      "pattern": "心則~說~|既見君子.*~說~|~說~懌"
+    },
+    {
+      "char": "筥",
+      "position": "見開三C魚上",
+      "basis": "筐筥容器，取廣韻圜筐義。",
+      "fanqie": "居許",
+      "dictionaryQuote": "筐筥"
+    },
+    {
+      "char": "錡",
+      "position": "羣開三B支上",
+      "basis": "釜類錡，廣韻明載釜屬有足曰錡。",
+      "fanqie": "渠綺",
+      "dictionaryQuote": "釜也又魚綺切",
+      "pattern": "維~錡~|及~錡~"
+    },
+    {
+      "char": "奠",
+      "position": "定開四先去",
+      "basis": "設奠、陳置的去聲。",
+      "fanqie": "堂練",
+      "dictionaryQuote": "設奠禮注云薦也陳也書傳云定也"
+    },
+    {
+      "char": "芾",
+      "position": "幫三C微去",
+      "basis": "蔽芾小貌，廣韻引毛傳蔽芾小貌。",
+      "fanqie": "方味",
+      "dictionaryQuote": "毛萇詩傳曰蔽芾小皃",
+      "pattern": "蔽~芾~"
+    },
+    {
+      "char": "茇",
+      "position": "並一寒入",
+      "basis": "召伯所茇草舍、止宿，取並母寒韻入聲。",
+      "fanqie": "蒲撥",
+      "dictionaryQuote": "草木根也"
+    },
+    {
+      "char": "敗",
+      "position": "幫二夬去",
+      "basis": "勿翦勿敗的敗毁動詞，取幫母。",
+      "fanqie": "補邁",
+      "dictionaryQuote": "破他曰敗補邁切又音唄一",
+      "pattern": "勿~敗~"
+    },
+    {
+      "char": "敗",
+      "position": "並二夬去",
+      "basis": "敗壞、傾敗，取並母；勿敗毁壞動詞另取幫母。",
+      "fanqie": "薄邁",
+      "dictionaryQuote": "自破曰敗說文毀也薄邁切又北邁切四",
+      "exclude": "勿敗"
+    },
+    {
+      "char": "厭",
+      "position": "影開三A鹽入",
+      "basis": "厭浥濕貌，取影母鹽韻入聲。",
+      "fanqie": "於葉",
+      "dictionaryQuote": "厭伏亦惡夢又於琰切六",
+      "pattern": "~厭~浥"
+    },
+    {
+      "char": "厭",
+      "position": "影開三A鹽上",
+      "basis": "厭厭安静的夜飲，採影母鹽韻上聲。",
+      "fanqie": "於琰",
+      "dictionaryQuote": "厭魅也又於豔切",
+      "pattern": "~厭~厭|厭~厭~"
+    },
+    {
+      "char": "浥",
+      "position": "影開三B侵入",
+      "basis": "厭浥沾濕，採廣韻濕也的緝韻入聲。",
+      "fanqie": "於汲",
+      "dictionaryQuote": "濕潤",
+      "pattern": "厭~浥~"
+    },
+    {
+      "char": "穿",
+      "position": "昌合三仙平",
+      "basis": "穿通、穿屋，採昌母仙韻平聲。",
+      "fanqie": "昌緣",
+      "dictionaryQuote": "通也孔也昌緣切三"
+    },
+    {
+      "char": "足",
+      "position": "精三鍾入",
+      "basis": "足、足夠，採通常精母燭韻入聲。",
+      "fanqie": "即玉",
+      "dictionaryQuote": "爾雅云趾足也又滿也止也從口止即玉切又將喻切二"
+    },
+    {
+      "char": "訟",
+      "position": "邪三鍾去",
+      "basis": "爭訟常用去聲；平聲同義讀保留。",
+      "fanqie": "似用",
+      "dictionaryQuote": "爭罪曰獄爭財曰訟"
+    },
+    {
+      "char": "從",
+      "position": "從三鍾平",
+      "basis": "跟從、從行、本版取從母鍾韻平聲，疾用切同義異讀保留。",
+      "fanqie": "疾容",
+      "dictionaryQuote": "就也又姓漢有將軍從公何氏姓苑云今東莞人疾容切又即容七恭秦用三",
+      "exclude": "從容"
+    },
+    {
+      "char": "委",
+      "position": "影合三B支平",
+      "basis": "委蛇從容，採於爲切平聲。",
+      "fanqie": "於爲",
+      "dictionaryQuote": "委委佗佗美也",
+      "pattern": "~委~蛇"
+    },
+    {
+      "char": "蛇",
+      "position": "以開三支平",
+      "basis": "委蛇從容，採以母支韻平聲。",
+      "fanqie": "弋支",
+      "dictionaryQuote": "蜲蛇莊子所謂紫衣而朱冠又蛇丘縣名又神遮切",
+      "pattern": "委~蛇~"
+    },
+    {
+      "char": "蛇",
+      "position": "船開三麻平",
+      "basis": "虺蛇動物，採船母麻韻平聲。",
+      "fanqie": "食遮",
+      "dictionaryQuote": "毒蟲又姓後秦錄姚萇后蛇氏也南安人食遮切又音它三",
+      "pattern": "虺~蛇~|維~蛇~"
+    },
+    {
+      "char": "總",
+      "position": "精一東上",
+      "basis": "總、聚束，取廣韻合也的東韻上聲。",
+      "fanqie": "作孔",
+      "dictionaryQuote": "聚束也合也皆也眾也作孔切十五"
+    },
+    {
+      "char": "頃",
+      "position": "溪合三A清平",
+      "basis": "頃筐斜口，讀傾的溪母清韻平聲。",
+      "fanqie": "去營",
+      "dictionaryQuote": "西頃地名出地理志說文曰頭不正也又去潁切",
+      "pattern": "~頃~筐"
+    },
+    {
+      "char": "悔",
+      "position": "曉合一灰上",
+      "basis": "悔恨本版取上聲，改悔去聲同義候選保留。",
+      "fanqie": "呼罪",
+      "dictionaryQuote": "悔吝"
+    },
+    {
+      "char": "沱",
+      "position": "定開一歌平",
+      "basis": "江沱、滂沱，廣韻明引江爲沱、滂沱大雨。",
+      "fanqie": "徒河",
+      "dictionaryQuote": "滂沱大雨也詩云月離于畢俾滂沱矣又爾雅云江爲沱謂江水出別爲沱也"
+    },
+    {
+      "char": "過",
+      "position": "見合一歌平",
+      "basis": "經過、來過，本版取戈韻平聲，古臥切同義候選保留。",
+      "fanqie": "古禾",
+      "dictionaryQuote": "經也又過所也釋名曰過所至關津以示之也或曰傳過也移所在識以爲信"
+    },
+    {
+      "char": "樸",
+      "position": "幫一東入",
+      "basis": "樸樕、棫樸木名的東韻入聲。",
+      "fanqie": "博木",
+      "dictionaryQuote": "棫樸叢木又音僕樸樕小木也",
+      "pattern": "~樸~樕|棫~樸~"
+    },
+    {
+      "char": "純",
+      "position": "章合三真上",
+      "basis": "純束纏束，按緣繞義取章母真韻上聲；常倫切大、篤義不適用。",
+      "fanqie": "之尹",
+      "dictionaryQuote": "緣也又音淳",
+      "pattern": "~純~束"
+    },
+    {
+      "char": "使",
+      "position": "生開三之上",
+      "basis": "使令動詞本版取上聲，去聲同義異讀保留。",
+      "fanqie": "疎士",
+      "dictionaryQuote": "役也令也又疎事切"
+    },
+    {
+      "char": "襛",
+      "position": "日三鍾平",
+      "basis": "襛盛服，本版取日母鍾韻平聲；女容切同義異讀保留。",
+      "fanqie": "而容",
+      "dictionaryQuote": "華皃又厚衣皃又女容切"
+    },
+    {
+      "char": "華",
+      "position": "曉合二麻平",
+      "basis": "草木開花義讀花的曉母。",
+      "fanqie": "呼瓜",
+      "dictionaryQuote": "爾雅云華荂也呼瓜切四",
+      "pattern": "(?:之|其)~華~|~華~如桃李|~華~如英|~華~如芸"
+    },
+    {
+      "char": "華",
+      "position": "匣合二麻平",
+      "basis": "華麗、華盛的匣母；花義按具體語境另取曉母。",
+      "fanqie": "戶花",
+      "dictionaryQuote": "草盛也色也說文作䔢榮也崔豹古今注曰堯設誹謗木今之華表也西京記",
+      "pattern": "~華~髮|尚之以瓊~華~"
+    },
+    {
+      "char": "姬",
+      "position": "見開三C之平",
+      "basis": "王姬或周族姬姓，取見母之韻平聲。",
+      "fanqie": "居之",
+      "dictionaryQuote": "周姓也居之切十二"
+    },
+    {
+      "char": "茁",
+      "position": "莊合三仙入",
+      "basis": "茁然芽生，本版取廣韻草芽也的仙韻入聲；其他同義音保留。",
+      "fanqie": "側劣",
+      "dictionaryQuote": "草生皃側劣切又側滑切二"
+    },
+    {
+      "char": "豝",
+      "position": "幫二麻平",
+      "basis": "豝牝豕，以廣韻牝豕義取幫母麻韻。",
+      "fanqie": "伯加",
+      "dictionaryQuote": "豕也"
+    },
+    {
+      "char": "汎",
+      "position": "並三C東平",
+      "basis": "汎浮水，本版取廣韻浮也的並母東韻平聲；孚梵切同義音保留。",
+      "fanqie": "房戎",
+      "dictionaryQuote": "浮也又孚劒切"
+    },
+    {
+      "char": "隱",
+      "position": "影開三C殷上",
+      "basis": "隱憂、隱匿，本版取殷韻上聲；去聲異讀保留。",
+      "fanqie": "於謹",
+      "dictionaryQuote": "藏也痛也私也安也定也又微也又姓吳志有廷尉左監隱蕃於謹切十一"
+    },
+    {
+      "char": "愬",
+      "position": "心一模去",
+      "basis": "訴告、愬，取廣韻訴譖義的去聲。",
+      "fanqie": "桑故",
+      "dictionaryQuote": "譖也說文同上（訟也毁也說文作𧩯告也桑故切十五）"
+    },
+    {
+      "char": "選",
+      "position": "心合三仙上",
+      "basis": "選擇或選舞的上聲，本版保留去聲同義候選。",
+      "fanqie": "思兗",
+      "dictionaryQuote": "擇也思兗切又思絹切又思管切三"
+    },
+    {
+      "char": "濟",
+      "position": "精開四齊上",
+      "basis": "濟水、濟濟，採齊韻上聲；過渡去聲另留校對。",
+      "fanqie": "子禮",
+      "dictionaryQuote": "定也止也齊也亦濟濟多威儀皃又水名出王屋亦州本齊地秦屬東郡宋於",
+      "pattern": "~濟~濟|濟~濟~|~濟~有深涉|河~濟~"
+    },
+    {
+      "char": "濡",
+      "position": "日合三虞平",
+      "basis": "濡濕，取廣韻濡濕義的日母虞韻平聲。",
+      "fanqie": "人朱",
+      "dictionaryQuote": "水名出涿郡又霑濡"
+    },
+    {
+      "char": "卬",
+      "position": "疑開一唐平",
+      "basis": "卬我、仰起的平聲；仰望動詞的上聲另留校對。",
+      "fanqie": "五剛",
+      "dictionaryQuote": "高也我也又姓漢有御史大夫卬祗五剛切又魚兩切七",
+      "exclude": "卬之|卬望"
+    },
+    {
+      "char": "葑",
+      "position": "幫三C鍾平",
+      "basis": "葑菜，廣韻明引采葑采菲。",
+      "fanqie": "府容",
+      "dictionaryQuote": "菜名詩云采葑采菲"
+    },
+    {
+      "char": "菲",
+      "position": "滂三C微上",
+      "basis": "菲菜，廣韻蕪菁、菜名的微韻上聲。",
+      "fanqie": "敷尾",
+      "dictionaryQuote": "薄也微也又菜名又音妃",
+      "pattern": "采~菲~"
+    },
+    {
+      "char": "荼",
+      "position": "定一模平",
+      "basis": "苦菜荼，採廣韻苦菜義的模韻平聲；茅花如荼另留校對。",
+      "fanqie": "同都",
+      "dictionaryQuote": "苦菜",
+      "pattern": "苦~荼~|甘如薺.*~荼~"
+    },
+    {
+      "char": "薺",
+      "position": "從開四齊上",
+      "basis": "薺菜，取廣韻甘菜義的齊韻上聲。",
+      "fanqie": "徂禮",
+      "dictionaryQuote": "甘菜徂禮切五"
+    },
+    {
+      "char": "宴",
+      "position": "影開四先去",
+      "basis": "宴安、宴飲，取先韻去聲；於殄切同義音保留。",
+      "fanqie": "於甸",
+      "dictionaryQuote": "安也息也於甸切十三"
+    },
+    {
+      "char": "屑",
+      "position": "心開四先入",
+      "basis": "屑、屑屑，取先韻入聲；不取周姜姓氏。",
+      "fanqie": "先結",
+      "dictionaryQuote": "動作屑屑又清也敬也顧也勞也說文作㞕先結切十一二"
+    },
+    {
+      "char": "恐",
+      "position": "溪三C鍾上",
+      "basis": "恐懼本版取上聲，丘用切同義候選保留。",
+      "fanqie": "丘隴",
+      "dictionaryQuote": "懼也丘隴切又丘用切三"
+    },
+    {
+      "char": "覆",
+      "position": "滂三C東入",
+      "basis": "顛覆、反覆、覆用的入聲。",
+      "fanqie": "芳福",
+      "dictionaryQuote": "反覆又敗也倒也審也又敷救切",
+      "pattern": "顛~覆~|反~覆~|~覆~用"
+    },
+    {
+      "char": "蓄",
+      "position": "曉三C東入",
+      "basis": "蓄聚、御冬蓄菜，本版取曉母東韻入聲；敕六切同義讀保留。",
+      "fanqie": "許竹",
+      "dictionaryQuote": "蓄冬菜也許竹切又丑六切十"
+    },
+    {
+      "char": "肄",
+      "position": "以開三脂去",
+      "basis": "條肄餘枿，採以母脂韻去聲。",
+      "fanqie": "羊至",
+      "dictionaryQuote": "習也嫩條也羊至切八"
+    },
+    {
+      "char": "余",
+      "position": "以開三魚平",
+      "basis": "余我，採代詞以母魚韻平聲。",
+      "fanqie": "以諸",
+      "dictionaryQuote": "我也又姓風俗通云秦由余之後何氏姓苑云今新安人以諸切三十"
+    },
+    {
+      "char": "爲",
+      "position": "云合三B支去",
+      "basis": "胡爲、何爲詢問緣故，採介詞去聲。",
+      "fanqie": "于僞",
+      "dictionaryQuote": "助也于僞切又允危切一",
+      "pattern": "(?:胡|何)~爲~"
+    },
+    {
+      "char": "爲",
+      "position": "云合三B支平",
+      "basis": "無爲、爲之、所爲的作爲動詞平聲。",
+      "fanqie": "薳支",
+      "dictionaryQuote": "爾雅曰作造爲也說文曰母猴也又姓風俗通云漢有南郡太守爲昆薳支切",
+      "pattern": "無~爲~|~爲~之|所~爲~"
+    },
+    {
+      "char": "泥",
+      "position": "泥開四齊平",
+      "basis": "泥水、泥土的齊韻平聲。",
+      "fanqie": "奴低",
+      "dictionaryQuote": "水和土也說文云水出北地郁郅北蠻中詩疏云泥中衛之小邑又姓出姓苑"
+    },
+    {
+      "char": "旄",
+      "position": "明一豪平",
+      "basis": "旄丘、干旄、旄旗的平聲；狗尾義去聲不適用。",
+      "fanqie": "莫袍",
+      "dictionaryQuote": "旄鉞書曰武王右秉白旄史記曰昴星曰旄頭星徐爰釋疑曰乘輿黃麾內羽"
+    },
+    {
+      "char": "榛",
+      "position": "莊開三臻平",
+      "basis": "榛木、榛實，採廣韻木名的臻韻平聲。",
+      "fanqie": "側詵",
+      "dictionaryQuote": "上同（𣓀栗）"
+    },
+    {
+      "char": "餞",
+      "position": "從開三仙上",
+      "basis": "餞送本版取上聲，才線切同義候選保留。",
+      "fanqie": "慈演",
+      "dictionaryQuote": "酒食送人又疾箭切"
+    },
+    {
+      "char": "遠",
+      "position": "云合三C元去",
+      "basis": "遠父母、遠兄弟、遠之的離遠動詞去聲。",
+      "fanqie": "于願",
+      "dictionaryQuote": "離也于願切一",
+      "pattern": "~遠~(?:父|兄|之|我)"
+    },
+    {
+      "char": "載",
+      "position": "精開一咍去",
+      "basis": "載脂載舝等語助、始或則的精母去聲。",
+      "fanqie": "作代",
+      "dictionaryQuote": "年也事也則也乘也始也盟辭也又姓風俗通云姬姓之後作代切又材代切",
+      "pattern": "~載~(?:脂|舝|色|翕|謀|南|獫|燔|夙|嚴|芟|柞|耜|離|岐|猃|績|弄|寢|震|錫)"
+    },
+    {
+      "char": "載",
+      "position": "精開一咍上",
+      "basis": "歲、年載的上聲。",
+      "fanqie": "作亥",
+      "dictionaryQuote": "年也出方言又音再",
+      "pattern": "千~載~|百~載~|萬~載~"
+    },
+    {
+      "char": "適",
+      "position": "書開三清入",
+      "basis": "適我願、王事適我的舒適、善義書母入聲。",
+      "fanqie": "施隻",
+      "dictionaryQuote": "樂也善也悟也往也又姓",
+      "pattern": "~適~我"
+    },
+    {
+      "char": "埤",
+      "position": "並三A支平",
+      "basis": "埤益、增加，取並母支韻平聲。",
+      "fanqie": "符支",
+      "dictionaryQuote": "附也增也又音婢"
+    },
+    {
+      "char": "敦",
+      "position": "端合一魂平",
+      "basis": "王事敦我迫促，取端母魂韻平聲。",
+      "fanqie": "都昆",
+      "dictionaryQuote": "迫也亦厚也又姓敦洽衛之醜人也都昆切七",
+      "pattern": "王事~敦~"
+    },
+    {
+      "char": "敦",
+      "position": "端合一灰平",
+      "basis": "敦彼獨宿，廣韻明引此句灰韻平聲。",
+      "fanqie": "都回",
+      "dictionaryQuote": "詩曰敦彼獨宿",
+      "pattern": "~敦~彼獨宿"
+    },
+    {
+      "char": "敦",
+      "position": "定合一寒平",
+      "basis": "有敦瓜苦，廣韻明引此句定母寒韻平聲。",
+      "fanqie": "度官",
+      "dictionaryQuote": "詩云有敦瓜苦又都昆切",
+      "pattern": "有~敦~瓜苦"
+    },
+    {
+      "char": "涼",
+      "position": "來開三陽平",
+      "basis": "涼、寒或薄，本版取廣韻薄也、寒也的陽韻平聲；力讓切同義音保留。",
+      "fanqie": "呂張",
+      "dictionaryQuote": "薄也亦寒涼也又州名禹貢雍州之域古西戎地也六國時至秦屬戎狄月氏"
+    },
+    {
+      "char": "雱",
+      "position": "滂一唐平",
+      "basis": "雨雪雱盛，以廣韻雨雪盛義取唐韻平聲。",
+      "fanqie": "普郎",
+      "dictionaryQuote": "雨雪盛皃詩曰雨雪其雱"
+    },
+    {
+      "char": "邪",
+      "position": "以開三麻平",
+      "basis": "其虛其邪的語助詞。",
+      "fanqie": "以遮",
+      "dictionaryQuote": "琅邪郡名俗作耶瑘亦語助以遮切又似嗟切十三",
+      "pattern": "其~邪~"
+    },
+    {
+      "char": "邪",
+      "position": "邪開三麻平",
+      "basis": "邪僻、不正，取邪母麻韻。",
+      "fanqie": "似嗟",
+      "dictionaryQuote": "鬼病亦不正也論語曰思無邪",
+      "pattern": "無~邪~|~邪~辟"
+    },
+    {
+      "char": "亟",
+      "position": "見開三C蒸入",
+      "basis": "亟急、亟只且，廣韻急也的見母職韻入聲。",
+      "fanqie": "紀力",
+      "dictionaryQuote": "急也疾也趣也又音氣"
+    },
+    {
+      "char": "且",
+      "position": "精開三魚平",
+      "basis": "句末語助、且且，採精母魚韻平聲。",
+      "fanqie": "子魚",
+      "dictionaryQuote": "語辝也說文薦也子魚切又七也切四",
+      "pattern": "(?:狂|只|思|今|舍|將|偕)~且~|揚~且~"
+    },
+    {
+      "char": "荑",
+      "position": "定開四齊平",
+      "basis": "柔荑、歸荑茅芽的齊韻平聲。",
+      "fanqie": "杜奚",
+      "dictionaryQuote": "荑秀",
+      "pattern": "柔~荑~|歸~荑~"
+    },
+    {
+      "char": "洵",
+      "position": "邪合三真平",
+      "basis": "洵美、誠信，取廣韻均也的邪母真韻平聲；不取水名相倫切。",
+      "fanqie": "詳遵",
+      "dictionaryQuote": "均也龕也"
+    },
+    {
+      "char": "鮮",
+      "position": "心開三仙上",
+      "basis": "終鮮、鮮兄弟、鮮民的少義上聲。",
+      "fanqie": "息淺",
+      "dictionaryQuote": "少也",
+      "pattern": "終~鮮~|~鮮~兄弟|~鮮~民"
+    },
+    {
+      "char": "鮮",
+      "position": "心開三仙平",
+      "basis": "鮮潔、美好平聲；少義另取上聲。",
+      "fanqie": "相然",
+      "dictionaryQuote": "鮮潔也善也又鮮卑山因爲國号亦水名水經曰北鮮之山鮮水出焉又姓後",
+      "exclude": "終鮮|鮮兄弟|鮮民"
+    },
+    {
+      "char": "洒",
+      "position": "生開二佳去",
+      "basis": "洒埽清掃，廣韻明載洒埽。",
+      "fanqie": "所賣",
+      "dictionaryQuote": "洒埽又先禮切",
+      "pattern": "~洒~埽|弗~洒~"
+    },
+    {
+      "char": "浼",
+      "position": "明一灰上",
+      "basis": "浼浼水滿，以廣韻水流平皃取明母灰韻上聲。",
+      "fanqie": "武罪",
+      "dictionaryQuote": "水流平皃武罪切六"
+    },
+    {
+      "char": "養",
+      "position": "以開三陽上",
+      "basis": "養育、養生本版取上聲；供養去聲候選保留。",
+      "fanqie": "餘兩",
+      "dictionaryQuote": "育也樂也飾也字從羊食又姓孝子傳有養奮餘兩切七"
+    },
+    {
+      "char": "埽",
+      "position": "心開一豪上",
+      "basis": "洒埽、埽除本版取上聲，去聲同義候選保留。",
+      "fanqie": "蘇老",
+      "dictionaryQuote": "埽除"
+    },
+    {
+      "char": "冓",
+      "position": "見一侯去",
+      "basis": "中冓內室，取廣韻周禮陰訟、中冓的侯韻去聲。",
+      "fanqie": "古候",
+      "dictionaryQuote": "數也",
+      "pattern": "中~冓~"
+    },
+    {
+      "char": "詳",
+      "position": "邪開三陽平",
+      "basis": "詳、論說，取邪母陽韻平聲；佯狂的通假不在正文。",
+      "fanqie": "似羊",
+      "dictionaryQuote": "審也論也諟也似羊切八"
+    },
+    {
+      "char": "副",
+      "position": "滂三C尤去",
+      "basis": "副笄首飾，採廣韻首飾的尤韻去聲。",
+      "fanqie": "敷救",
+      "dictionaryQuote": "貳也佐也又虜姓後魏書副呂氏後改爲副氏敷救切七",
+      "pattern": "~副~笄"
+    },
+    {
+      "char": "玼",
+      "position": "清開三支上",
+      "basis": "玼美色，取廣韻玉色鮮的清母支韻上聲。",
+      "fanqie": "雌氏",
+      "dictionaryQuote": "玉色鮮又千禮切"
+    },
+    {
+      "char": "翟",
+      "position": "定開四青入",
+      "basis": "羽翟、翟服，採廣韻雉也的定母錫韻入聲。",
+      "fanqie": "徒歷",
+      "dictionaryQuote": "翟雉又姓漢有上蔡翟方進"
+    },
+    {
+      "char": "瑱",
+      "position": "透開四先去",
+      "basis": "充耳瑱，採廣韻充耳義的先韻去聲。",
+      "fanqie": "他甸",
+      "dictionaryQuote": "玉名說文曰以玉充耳也詩曰玉之瑱也他甸切又音田四"
+    },
+    {
+      "char": "揥",
+      "position": "徹開三祭去",
+      "basis": "佩飾揥，採广韻詩之佩也的徹母祭韻去聲。",
+      "fanqie": "丑例",
+      "dictionaryQuote": "佩飾"
+    },
+    {
+      "char": "瑳",
+      "position": "清開一歌上",
+      "basis": "瑳美色，本版取上聲，七何切同義候選保留。",
+      "fanqie": "千可",
+      "dictionaryQuote": "王色鮮白千可切三"
+    },
+    {
+      "char": "媛",
+      "position": "云合三B仙去",
+      "basis": "邦之媛、美人，採广韻美女義的仙韻去聲。",
+      "fanqie": "王眷",
+      "dictionaryQuote": "淑媛"
+    },
+    {
+      "char": "要",
+      "position": "影開三A宵去",
+      "basis": "要約、要成、邀約的去聲；腰中平聲另留校對。",
+      "fanqie": "於笑",
+      "dictionaryQuote": "約也於笑切又於招切三",
+      "pattern": "成~要~|出此三物以~要~"
+    },
+    {
+      "char": "彊",
+      "position": "羣開三C陽平",
+      "basis": "彊彊、彊力、本版取羣母陽韻平聲，去聲外的上聲同義候選保留。",
+      "fanqie": "巨良",
+      "dictionaryQuote": "與強通用說文曰弓有力也"
+    },
+    {
+      "char": "椅",
+      "position": "影開三B支平",
+      "basis": "椅桐木名，採廣韻木名義的平聲。",
+      "fanqie": "於離",
+      "dictionaryQuote": "木名校實桐皮"
+    },
+    {
+      "char": "牝",
+      "position": "並三A真上",
+      "basis": "牝雌，本版取真韻上聲，扶履切同義候選保留。",
+      "fanqie": "毗忍",
+      "dictionaryQuote": "牝牡毗忍切又扶履切四"
+    },
+    {
+      "char": "蝃",
+      "position": "端開四齊去",
+      "basis": "蝃蝀虹，取广韻虹也的齊韻去聲。",
+      "fanqie": "都計",
+      "dictionaryQuote": "上同見詩（螮蝀）"
+    },
+    {
+      "char": "蝀",
+      "position": "端一東平",
+      "basis": "蝃蝀虹，本版取東韻平聲，多動切同義候選保留。",
+      "fanqie": "德紅",
+      "dictionaryQuote": "螮蝀虹也又音董"
+    },
+    {
+      "char": "朝",
+      "position": "知開三宵平",
+      "basis": "崇朝、朝夕、早晨的知母宵韻平聲。",
+      "fanqie": "陟遙",
+      "dictionaryQuote": "早也又旦至食時爲終朝又朝鮮國名亦姓左傳有蔡大夫朝吳陟遙切又直",
+      "pattern": "崇~朝~|~朝~(?:夕|隮|雨|食|哺)|一~朝~"
+    },
+    {
+      "char": "朝",
+      "position": "澄開三宵平",
+      "basis": "朝廷、在朝、來朝的澄母宵韻平聲。",
+      "fanqie": "直遙",
+      "dictionaryQuote": "朝廷也禮記曰諸侯於天子五年一朝又姓唐有拾遺朝衛",
+      "pattern": "~朝~王|~朝~宗|~朝~廷|在~朝~|盈~朝~|來~朝~"
+    },
+    {
+      "char": "予",
+      "position": "以開三魚上",
+      "basis": "給與、以予之的動詞上聲。",
+      "fanqie": "余呂",
+      "dictionaryQuote": "郭璞云予猶與也又弋諸切",
+      "pattern": "(?:錫|以)~予~|~予~之"
+    },
+    {
+      "char": "視",
+      "position": "常開三脂去",
+      "basis": "看視本版取脂韻去聲，承矢切同義上聲候選保留。",
+      "fanqie": "常利",
+      "dictionaryQuote": "看視又音是"
+    },
+    {
+      "char": "眾",
+      "position": "章三東去",
+      "basis": "眾人、多眾本版取東韻去聲，之戎切同義候選保留。",
+      "fanqie": "之仲",
+      "dictionaryQuote": "多也三人爲眾又姓左傳魯大夫眾仲之仲切又音終一"
+    },
+    {
+      "char": "切",
+      "position": "清開四先入",
+      "basis": "切磋、雕切，取广韻刻也的屑韻入聲。",
+      "fanqie": "千結",
+      "dictionaryQuote": "割也刻也近也迫也義也說文折也千結切八"
+    },
+    {
+      "char": "磨",
+      "position": "明一歌平",
+      "basis": "磨礪、磨磋的平聲；磨盤去聲不在正文。",
+      "fanqie": "莫婆",
+      "dictionaryQuote": "磨礪爾雅曰石謂之磨"
+    },
+    {
+      "char": "僩",
+      "position": "匣開二刪上",
+      "basis": "僩寬大、威武，取廣韻寬大義的匣母山韻上聲。",
+      "fanqie": "下赧",
+      "dictionaryQuote": "武猛皃一曰寬大下赧切又音簡五"
+    },
+    {
+      "char": "琇",
+      "position": "心三尤去",
+      "basis": "琇瑩玉石，本版取尤韻去聲，以九切同義音保留。",
+      "fanqie": "息救",
+      "dictionaryQuote": "玉名"
+    },
+    {
+      "char": "瑩",
+      "position": "云合三B庚平",
+      "basis": "琇瑩玉色，採廣韻玉色義的云母庚韻平聲。",
+      "fanqie": "永兵",
+      "dictionaryQuote": "玉色詩云充耳秀瑩母烏定切"
+    },
+    {
+      "char": "猗",
+      "position": "影開三B支上",
+      "basis": "猗重較、猗彼女桑借倚、依的上聲。",
+      "fanqie": "於綺",
+      "dictionaryQuote": "猗狔猶窈窕也又於羈切",
+      "pattern": "~猗~重較|~猗~彼女桑"
+    },
+    {
+      "char": "戲",
+      "position": "曉開三B支去",
+      "basis": "戲樂、戲嬉，採广韻之韻去聲。",
+      "fanqie": "香義",
+      "dictionaryQuote": "戲弄也施也謔也歇也說文曰三軍之偏也一曰兵也又姓魏志有潁川戲志"
+    },
+    {
+      "char": "相",
+      "position": "心開三陽去",
+      "basis": "相好、相助的去聲。",
+      "fanqie": "息亮",
+      "dictionaryQuote": "視也助也扶也仲虺爲湯左相漢書曰相國丞相皆秦官金印紫綬掌丞天子",
+      "pattern": "~相~好|~相~助"
+    },
+    {
+      "char": "相",
+      "position": "心開三陽平",
+      "basis": "相視、相鼠，採广韻瞻視義的平聲。",
+      "fanqie": "息良",
+      "dictionaryQuote": "共供也瞻視也崔豹古今注云相風烏夏禹作亦相思木名又姓出姓苑又息",
+      "pattern": "~相~鼠|~相~彼|~相~此"
+    },
+    {
+      "char": "好",
+      "position": "曉開一豪上",
+      "basis": "美好、好音或君子之好的上聲。",
+      "fanqie": "呼晧",
+      "dictionaryQuote": "善也美也呼晧切又呼号切二",
+      "pattern": "~好~其音|~好~爾|~好~是|之~好~|靜~好~"
+    },
+    {
+      "char": "好",
+      "position": "曉開一豪去",
+      "basis": "永以爲好、結好、相好的去聲。",
+      "fanqie": "呼到",
+      "dictionaryQuote": "愛好亦璧孔也見周禮又姓出纂文又呼老切",
+      "pattern": "爲~好~|相~好~"
+    },
+    {
+      "char": "蓼",
+      "position": "來三東入",
+      "basis": "蓼蕭、蓼莪長大貌，广韻明引蓼莪。",
+      "fanqie": "力竹",
+      "dictionaryQuote": "蓼莪詩傳云蓼長大貌",
+      "pattern": "~蓼~(?:蕭|莪|彼)"
+    },
+    {
+      "char": "湯",
+      "position": "書開三陽平",
+      "basis": "湯湯水流，廣韻明載此義。",
+      "fanqie": "式羊",
+      "dictionaryQuote": "湯湯流皃本他郎切",
+      "pattern": "~湯~湯|湯~湯~"
+    },
+    {
+      "char": "湯",
+      "position": "透開一唐平",
+      "basis": "成湯、商王湯，取透母唐韻平聲。",
+      "fanqie": "吐郎",
+      "dictionaryQuote": "熱水又姓宋有沙門湯休有文集吐郎切十一",
+      "pattern": "武~湯~|成~湯~|~湯~孫|~湯~降|~湯~齊"
+    },
+    {
+      "char": "陳",
+      "position": "澄開三真平",
+      "basis": "陳國、陳列本版取平聲，直刃切同義去聲候選保留。",
+      "fanqie": "直珍",
+      "dictionaryQuote": "陳列也張也眾也布也故也亦州名本太昊之墟畫八卦之所周武王封舜後"
+    },
+    {
+      "char": "洋",
+      "position": "以開三陽平",
+      "basis": "洋洋水流、盛貌，取广韻水流皃的以母陽韻平聲。",
+      "fanqie": "與章",
+      "dictionaryQuote": "水流皃又海名又音祥"
+    },
+    {
+      "char": "縱",
+      "position": "精三鍾去",
+      "basis": "放縱、縱然、縱送，取精母鍾韻去聲；縱橫平聲另留校對。",
+      "fanqie": "子用",
+      "dictionaryQuote": "放縱說文緩也一曰舍也子用切又子容切二"
+    },
+    {
+      "char": "召",
+      "position": "澄開三宵去",
+      "basis": "呼召的動詞去聲。",
+      "fanqie": "直照",
+      "dictionaryQuote": "呼也直照切一",
+      "pattern": "~召~(?:之|彼|旻|和)"
+    },
+    {
+      "char": "徹",
+      "position": "徹開三仙入",
+      "basis": "徹通、拆徹，本版取徹母仙韻入聲，直列切同義候選保留。",
+      "fanqie": "丑列",
+      "dictionaryQuote": "通也"
+    },
+    {
+      "char": "幾",
+      "position": "見開三C微平",
+      "basis": "庶幾語辭，取見母微韻平聲。",
+      "fanqie": "居依",
+      "dictionaryQuote": "庶幾又祈蟣二音",
+      "pattern": "庶~幾~"
+    },
+    {
+      "char": "幾",
+      "position": "見開三C微上",
+      "basis": "幾何數問，取微韻上聲。",
+      "fanqie": "居豨",
+      "dictionaryQuote": "幾何又既稀切",
+      "pattern": "~幾~何"
+    },
+    {
+      "char": "翰",
+      "position": "匣開一寒去",
+      "basis": "翰飛、羽翰或屏翰，本版取寒韻去聲；平聲同義候選保留。",
+      "fanqie": "侯旰",
+      "dictionaryQuote": "鳥羽也高飛也亦詞翰說文曰天雞赤羽也又姓左傳曹大夫翰胡侯旰切二"
+    },
+    {
+      "char": "濯",
+      "position": "澄二江入",
+      "basis": "洗濯、濯濯光明，本版取澄母江韻入聲；浣衣去聲候選保留。",
+      "fanqie": "直角",
+      "dictionaryQuote": "澣濯又姓風俗通云濯輯之後"
+    },
+    {
+      "char": "吹",
+      "position": "昌合三支平",
+      "basis": "風吹、吹動的平聲；樂部鼓吹去聲不適用。",
+      "fanqie": "昌垂",
+      "dictionaryQuote": "吹噓昌垂切又尺僞切三"
+    },
+    {
+      "char": "苦",
+      "position": "溪一模上",
+      "basis": "苦、苦辛的模韻上聲。",
+      "fanqie": "康杜",
+      "dictionaryQuote": "麤也勤也患也說文曰大苦苓也康杜切二"
+    },
+    {
+      "char": "膏",
+      "position": "見開一豪平",
+      "basis": "膏脂、膏澤名詞平聲；膏之動詞去聲另取。",
+      "fanqie": "古勞",
+      "dictionaryQuote": "脂也元命包曰膏者神之液也又澤也肥也",
+      "exclude": "膏之"
+    },
+    {
+      "char": "膏",
+      "position": "見開一豪去",
+      "basis": "膏之潤澤的動詞去聲。",
+      "fanqie": "古到",
+      "dictionaryQuote": "膏車又音高",
+      "pattern": "~膏~之"
+    },
+    {
+      "char": "渴",
+      "position": "溪開一寒入",
+      "basis": "饑渴，取廣韻饑渴義的寒韻入聲。",
+      "fanqie": "苦曷",
+      "dictionaryQuote": "飢渴又虜複姓二氏後魏書渴侯氏後改爲緱氏渴單氏後改爲單氏亦虜三"
+    },
+    {
+      "char": "折",
+      "position": "章開三仙入",
+      "basis": "折斷、折樹，本版取章母仙韻入聲；常列切同義候選保留。",
+      "fanqie": "旨熱",
+      "dictionaryQuote": "拗折又虜複姓南涼禿髮傉檀立其妻折屈氏爲皇后又常列切"
+    },
+    {
+      "char": "摻",
+      "position": "生開二咸上",
+      "basis": "摻執把持，广韻明引摻執子之袪。",
+      "fanqie": "所斬",
+      "dictionaryQuote": "擥也詩曰摻執子之袪兮所斬切四",
+      "pattern": "~摻~執"
+    },
+    {
+      "char": "茹",
+      "position": "日開三魚平",
+      "basis": "茹藘草名、茹柔，本版取日母魚韻平聲。",
+      "fanqie": "人諸",
+      "dictionaryQuote": "恣也相牽引皃也易曰拔茅連茹又虜複姓後魏書普陋茹氏後改爲茹氏又",
+      "pattern": "~茹~藘|~茹~柔"
+    },
+    {
+      "char": "蔓",
+      "position": "明三C元去",
+      "basis": "蔓草蔓延，取广韻瓜蔓的元韻去聲。",
+      "fanqie": "無販",
+      "dictionaryQuote": "瓜蔓又姓左傳楚有蔓成然"
+    },
+    {
+      "char": "瞿",
+      "position": "見合三C虞去",
+      "basis": "瞿瞿警視，採見母虞韻去聲。",
+      "fanqie": "九遇",
+      "dictionaryQuote": "視皃又音衢",
+      "pattern": "~瞿~瞿|瞿~瞿~"
+    },
+    {
+      "char": "貫",
+      "position": "見合一寒去",
+      "basis": "貫穿、貫通，本版取寒韻去聲，古丸切同義候選保留。",
+      "fanqie": "古玩",
+      "dictionaryQuote": "事也穿也累也行也又姓漢有趙相貫高古玩切二十八"
+    },
+    {
+      "char": "號",
+      "position": "匣開一豪平",
+      "basis": "呼號、永號的平聲。",
+      "fanqie": "胡刀",
+      "dictionaryQuote": "大呼也又哭也詩云或號或呼易云先號咷而後笑又乎到切",
+      "pattern": "永~號~|叫~號~|~號~呼|維~號~"
+    },
+    {
+      "char": "蟋",
+      "position": "生開三臻入",
+      "basis": "蟋蟀本版取生母臻韻入聲，息七切同義候選保留。",
+      "fanqie": "所櫛",
+      "dictionaryQuote": "蟋蟀又音悉"
+    },
+    {
+      "char": "綢",
+      "position": "澄三尤平",
+      "basis": "綢繆纏綿，廣韻明引此義。",
+      "fanqie": "直由",
+      "dictionaryQuote": "綢繆猶纏綿也",
+      "pattern": "~綢~繆"
+    },
+    {
+      "char": "繆",
+      "position": "明三B幽平",
+      "basis": "綢繆纏綿，廣韻明引此義。",
+      "fanqie": "武彪",
+      "dictionaryQuote": "詩傳云綢繆猶纏緜也說文曰枲十絜也武彪切又目謬二音三",
+      "pattern": "綢~繆~"
+    },
+    {
+      "char": "栩",
+      "position": "曉合三C虞上",
+      "basis": "栩柞木，取廣韻木名義的曉母虞韻上聲。",
+      "fanqie": "況羽",
+      "dictionaryQuote": "柞木名說文云杼也其實皁一曰樣樣音象"
+    },
+    {
+      "char": "收",
+      "position": "書三尤平",
+      "basis": "收斂、俴收車軫的平聲。",
+      "fanqie": "式州",
+      "dictionaryQuote": "斂也捕也又夏冕名史記曰堯黃收純衣俗作収式州切一"
+    },
+    {
+      "char": "宛",
+      "position": "影合三C元平",
+      "basis": "宛丘地名，取影母元韻平聲。",
+      "fanqie": "於袁",
+      "dictionaryQuote": "屈草自覆又宛縣在南陽又音苑",
+      "pattern": "~宛~丘"
+    },
+    {
+      "char": "伏",
+      "position": "並三C東入",
+      "basis": "伏枕、潛伏的東韻入聲；鳥菢子去聲不適用。",
+      "fanqie": "房六",
+      "dictionaryQuote": "匿藏也伺也隱也歷忌釋曰伏者何金氣伏藏之日金畏火故三伏皆庚日又"
+    },
+    {
+      "char": "亨",
+      "position": "滂二庚平",
+      "basis": "烹魚、亨葵煮食，廣韻明载煑也、俗作烹。",
+      "fanqie": "撫庚",
+      "dictionaryQuote": "煑也俗作烹又許庚許兩二切",
+      "pattern": "~亨~(?:魚|葵)|或~亨~"
+    },
+    {
+      "char": "何",
+      "position": "匣開一歌上",
+      "basis": "何戈、何蓑的荷負動詞上聲。",
+      "fanqie": "胡可",
+      "dictionaryQuote": "上同（負荷也胡可切又戶哥切二）",
+      "pattern": "~何~(?:戈|蓑|簑|天之衢)"
+    },
+    {
+      "char": "祭",
+      "position": "精開三祭去",
+      "basis": "祭祀的精母祭韻去聲；地名祭伯的莊母不在正文。",
+      "fanqie": "子例",
+      "dictionaryQuote": "享也祀也薦也至也察也子例切七"
+    },
+    {
+      "char": "濛",
+      "position": "明一東平",
+      "basis": "濛細雨，取廣韻涳濛細雨的東韻平聲。",
+      "fanqie": "莫紅",
+      "dictionaryQuote": "涳濛細雨"
+    },
+    {
+      "char": "親",
+      "position": "清開三真平",
+      "basis": "親自、親愛的真韻平聲；親家去聲不在正文。",
+      "fanqie": "七人",
+      "dictionaryQuote": "愛也近也說文至也七人切三"
+    },
+    {
+      "char": "舄",
+      "position": "心開三清入",
+      "basis": "赤舄、金舄履，取廣韻履義的心母昔韻入聲。",
+      "fanqie": "思積",
+      "dictionaryQuote": "履也崔豹古今注云以木置履下乾腊不畏泥濕故曰舄也"
+    },
+    {
+      "char": "厚",
+      "position": "匣一侯上",
+      "basis": "厚薄本版取上聲，胡遘切同義音保留。",
+      "fanqie": "胡口",
+      "dictionaryQuote": "厚薄又重也廣也說文作𠪀曰山陵之𠪀也又姓出姓苑胡口切七"
+    },
+    {
+      "char": "右",
+      "position": "云三C尤去",
+      "basis": "右之佑助的去聲。",
+      "fanqie": "于救",
+      "dictionaryQuote": "左右又于久切",
+      "pattern": "~右~之"
+    },
+    {
+      "char": "噦",
+      "position": "曉合一泰去",
+      "basis": "噦噦鸞聲，採廣韻鳥聲義的曉母泰韻去聲。",
+      "fanqie": "呼會",
+      "dictionaryQuote": "鳥聲",
+      "pattern": "~噦~噦|噦~噦~"
+    },
+    {
+      "char": "占",
+      "position": "章開三鹽平",
+      "basis": "占夢、占卜動詞平聲。",
+      "fanqie": "職廉",
+      "dictionaryQuote": "視兆也亦姓陳大夫子占之後又章豔切"
+    },
+    {
+      "char": "喤",
+      "position": "匣合二庚平",
+      "basis": "喤喤泣聲，採广韻泣聲義的匣母庚韻平聲。",
+      "fanqie": "戶盲",
+      "dictionaryQuote": "泣聲"
+    },
+    {
+      "char": "毛",
+      "position": "明一豪平",
+      "basis": "獸毛、毛髮名詞平聲。",
+      "fanqie": "莫袍",
+      "dictionaryQuote": "說文曰眉髮之屬及獸毛也亦姓本自周武王母弟毛公後以爲氏本居鉅鹿"
+    },
+    {
+      "char": "引",
+      "position": "以開三真上",
+      "basis": "引伸、引導、引長的上聲；去聲同義候選保留。",
+      "fanqie": "余忍",
+      "dictionaryQuote": "爾雅曰長也說文曰開弓也余忍切又餘刃切十四"
+    },
+    {
+      "char": "屏",
+      "position": "幫三A清上",
+      "basis": "屏蔽、邦屏的幫母清韻上聲。",
+      "fanqie": "必郢",
+      "dictionaryQuote": "蔽也爾雅曰屏謂之樹又廣雅曰罘罳謂之屏風俗通云鄉大夫帷士以廉以",
+      "pattern": "之~屏~|~屏~之"
+    },
+    {
+      "char": "芃",
+      "position": "並一東平",
+      "basis": "芃芃草盛，本版取東韻平聲，房戎切同義候選保留。",
+      "fanqie": "薄紅",
+      "dictionaryQuote": "芃芃草盛皃又音馮"
+    },
+    {
+      "char": "藐",
+      "position": "明三A宵上",
+      "basis": "藐藐深遠，採廣韻遠義的宵韻上聲。",
+      "fanqie": "亡沼",
+      "dictionaryQuote": "字書藐遠又亡角切"
+    },
+    {
+      "char": "斁",
+      "position": "以開三清入",
+      "basis": "斁厭倦，本版取以母昔韻入聲；徒故切同義候選保留。",
+      "fanqie": "羊益",
+      "dictionaryQuote": "猒也"
+    },
+    {
+      "char": "思",
+      "position": "心開三之去",
+      "basis": "我思、君思、情思的名詞去聲。",
+      "fanqie": "相吏",
+      "dictionaryQuote": "念也又音司",
+      "pattern": "(?:我|君|百爾所|中心之)~思~|之~思~|~思~不遠"
+    },
+    {
+      "char": "思",
+      "position": "心開三之平",
+      "basis": "思念動詞、思之及句末語助平聲。",
+      "fanqie": "息兹",
+      "dictionaryQuote": "思念也息兹切又息吏切十五",
+      "pattern": "~思~(?:念|歸|遠|不出|無|福|輯|媚|樂|昔)|(?:來|止|矣|作|射|藏|忘|敗|畢|從)~思~"
+    },
+    {
+      "char": "駜",
+      "position": "並三B真入",
+      "basis": "駜肥馬，本版取並母真韻 B 類，毗必切 A 類同義音保留。",
+      "fanqie": "房密",
+      "dictionaryQuote": "馬肥"
+    },
+    {
+      "char": "谷",
+      "position": "見一東入",
+      "fanqie": "古祿",
+      "dictionaryQuote": "山谷亦養也窮也又姓漢有谷永又欲鹿二音",
+      "basis": "山谷或穀善的通常東韻入聲；不取谷蠡、吐谷渾的專名音。"
+    },
+    {
+      "char": "卷",
+      "position": "見合三B仙上",
+      "fanqie": "居轉",
+      "dictionaryQuote": "卷舒說文曰膝曲也居轉切六",
+      "basis": "卷耳或卷席，取見母仙韻上聲。",
+      "pattern": "~卷~耳|不可~卷~"
+    },
+    {
+      "char": "施",
+      "position": "書開三支平",
+      "fanqie": "式支",
+      "dictionaryQuote": "施設亦姓左傳魯大夫施伯何氏姓苑云今沛人又式豉以寘二切",
+      "basis": "施兔罝布置，採施設的書母支韻平聲。",
+      "pattern": "~施~于中(?:逵|林)"
+    },
+    {
+      "char": "中",
+      "position": "知三東平",
+      "fanqie": "陟弓",
+      "dictionaryQuote": "平也成也宜也堪也任也和也半也又姓漢少府鄉中京出風俗通又漢複姓",
+      "basis": "澗中、林中、河中等處所名詞的平聲。",
+      "pattern": "(?:之|林|河|田|谷|野|庭|宮|溱|澗)~中~"
+    },
+    {
+      "char": "說",
+      "position": "書合三祭去",
+      "fanqie": "舒芮",
+      "dictionaryQuote": "說誘",
+      "basis": "召伯所說的說通稅、舍息，取書母祭韻去聲。",
+      "pattern": "召伯所~說~"
+    },
+    {
+      "char": "摽",
+      "position": "並三A宵上",
+      "fanqie": "符少",
+      "dictionaryQuote": "落也又拊心也字統云合此𦭼符少切八",
+      "basis": "摽梅落下或有摽拊心，取並母宵韻上聲。",
+      "pattern": "~摽~有梅|有~摽~"
+    },
+    {
+      "char": "塈",
+      "position": "羣開三B脂去",
+      "fanqie": "具冀",
+      "dictionaryQuote": "息也又仰塗也",
+      "basis": "塈取、塈息，本版取廣韻息也的羣母脂韻去聲；許既切同義音保留。"
+    },
+    {
+      "char": "少",
+      "position": "書開三宵上",
+      "fanqie": "書沼",
+      "dictionaryQuote": "不多也書沼切又式照切三",
+      "basis": "多少、少寡的上聲；少壯去聲另留校對。",
+      "pattern": "不~少~|~少~儀"
+    },
+    {
+      "char": "澣",
+      "position": "匣合一寒上",
+      "fanqie": "胡管",
+      "dictionaryQuote": "濯也",
+      "basis": "澣洗衣，以廣韻洗也義取匣母寒韻上聲。"
+    },
+    {
+      "char": "治",
+      "position": "澄開三之平",
+      "fanqie": "直之",
+      "dictionaryQuote": "水名出東萊亦理也直之切三",
+      "basis": "治理、製作動詞本版取平聲，去聲同義候選保留。"
+    },
+    {
+      "char": "差",
+      "position": "初開三支平",
+      "fanqie": "楚宜",
+      "dictionaryQuote": "次也不齊等也楚宜切又楚佳楚懈二切四",
+      "basis": "差池燕翼不齊，取初母支韻平聲。",
+      "pattern": "~差~池"
+    },
+    {
+      "char": "涕",
+      "position": "透開四齊上",
+      "fanqie": "他禮",
+      "dictionaryQuote": "目汁",
+      "basis": "泣涕名詞，本版取齊韻上聲，去聲同義候選保留。"
+    },
+    {
+      "char": "頡",
+      "position": "匣開四先入",
+      "fanqie": "胡結",
+      "dictionaryQuote": "頡頏詩傳云飛而上曰頡飛而下曰頏說文曰頡直項也又姓風俗通有頡衛",
+      "basis": "頡上飛、頡頏，取匣母屑韻入聲；軋義見母不適用。"
+    },
+    {
+      "char": "頏",
+      "position": "匣開一唐平",
+      "fanqie": "胡郎",
+      "dictionaryQuote": "頡頏詩傳云飛而上曰頡飛而下曰頏說文音剛與亢同",
+      "basis": "頡頏下飛，取匣母唐韻平聲。"
+    },
+    {
+      "char": "下",
+      "position": "匣開二麻去",
+      "fanqie": "胡駕",
+      "dictionaryQuote": "行下又胡雅切",
+      "basis": "下上燕音的下行動詞去聲。",
+      "pattern": "~下~上其音"
+    },
+    {
+      "char": "任",
+      "position": "日開三侵平",
+      "fanqie": "如林",
+      "dictionaryQuote": "堪也保也當也又姓出樂安黃帝二十五子十二人各以德爲姓第一七爲任",
+      "basis": "任誠、信任、任用的平聲；負荷去聲另留校對。",
+      "pattern": "仲氏~任~|~任~只"
+    },
+    {
+      "char": "塞",
+      "position": "心開一登入",
+      "fanqie": "蘇則",
+      "dictionaryQuote": "滿也窒也隔也蘇則切又蘇載切五",
+      "basis": "塞淵、充塞實義，本版取心母德韻入聲。",
+      "pattern": "~塞~淵|~塞~充"
+    },
+    {
+      "char": "冒",
+      "position": "明一豪去",
+      "fanqie": "莫報",
+      "dictionaryQuote": "覆也涉也又莫北切",
+      "basis": "冒覆的豪韻去聲；見莫北切的冒頓音不適用。"
+    },
+    {
+      "char": "畜",
+      "position": "曉三C東入",
+      "fanqie": "許竹",
+      "dictionaryQuote": "養也說文曰田畜也淮南子曰玄田爲畜又丑六許救二切",
+      "basis": "畜養、畜我、畜之的曉母東韻入聲。"
+    },
+    {
+      "char": "暴",
+      "position": "並一豪去",
+      "fanqie": "薄報",
+      "dictionaryQuote": "侵暴猝也急也又晞也案說文作曓疾有所趣也又作㬥晞也今通作暴亦姓",
+      "basis": "暴烈、暴虐的豪韻去聲；曝曬的入聲另留校對。"
+    },
+    {
+      "char": "浪",
+      "position": "來開一唐去",
+      "fanqie": "來宕",
+      "dictionaryQuote": "波浪謔浪游浪又姓晉永嘉末張平保青州爲其下浪逢所殺來宕切又魯當",
+      "basis": "謔浪、浪水，採廣韻浪波、謔浪笑傲義的唐韻去聲。"
+    },
+    {
+      "char": "霾",
+      "position": "明二皆平",
+      "fanqie": "莫皆",
+      "dictionaryQuote": "爾雅曰風而雨土爲霾釋名曰霾晦也如物塵晦之色也",
+      "basis": "風霾，以廣韻風而雨土為霾義取明母皆韻。"
+    },
+    {
+      "char": "虺",
+      "position": "曉合三C微上",
+      "fanqie": "許偉",
+      "dictionaryQuote": "蛇虺許偉切五",
+      "basis": "虺虺雷聲，本版取曉母微韻上聲，與虺蛇同音。",
+      "pattern": "~虺~虺|虺~虺~"
+    },
+    {
+      "char": "瀰",
+      "position": "明三A支上",
+      "fanqie": "綿婢",
+      "dictionaryQuote": "詩曰河水瀰瀰水盛皃也",
+      "basis": "瀰瀰水盛，廣韻明引詩河水瀰瀰，取明母支韻上聲。"
+    },
+    {
+      "char": "庇",
+      "position": "幫三A脂去",
+      "fanqie": "必至",
+      "dictionaryQuote": "庇廕",
+      "basis": "庇覆、庇蔭的脂韻去聲。"
+    },
+    {
+      "char": "任",
+      "position": "日開三侵去",
+      "fanqie": "汝鴆",
+      "dictionaryQuote": "已上四字並又音壬",
+      "basis": "任負、負荷的侵韻去聲。",
+      "pattern": "~任~重|~任~負"
+    },
+    {
+      "char": "思",
+      "position": "心開三之平",
+      "fanqie": "息兹",
+      "dictionaryQuote": "思念也息兹切又息吏切十五",
+      "basis": "句末思語助以及思其、思惠動詞的平聲。",
+      "pattern": "~思~(?:其|惠)|(?:有|止|來|懌|心|飲)~思~"
+    },
+    {
+      "char": "爲",
+      "position": "云合三B支平",
+      "fanqie": "薳支",
+      "dictionaryQuote": "爾雅曰作造爲也說文曰母猴也又姓風俗通云漢有南郡太守爲昆薳支切",
+      "basis": "爲猶、爲謀、爲心的作、為的平聲。",
+      "pattern": "~爲~(?:猶|謀|心|孝|用|德|家|寇|災|民|毒|福|言|式|寶|藩|屏|棟|翰)"
+    },
+    {
+      "char": "降",
+      "fanqie": "下江",
+      "position": "匣二江平",
+      "dictionaryQuote": "降伏又古巷切",
+      "basis": "心則降的降服、心平，取匣母江韻平聲。",
+      "pattern": "心則~降~"
+    }
+  ]
+}
