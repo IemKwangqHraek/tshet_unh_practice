@@ -1,5 +1,6 @@
 import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
+import { gunzipSync } from 'node:zlib';
 import { fileURLToPath } from 'node:url';
 import { alignPolyhedron, parsePolyhedronPairs, syllablesIn, isHan } from '../src/polyhedron.js';
 import { parseImport, documentStatus, exportDocument } from '../src/corpus.js';
@@ -9,6 +10,8 @@ import tangBaseline from './tang-edition-baseline.json' with { type: 'json' };
 import { corpusEditionStatus } from './corpus-edition-status.mjs';
 import { reviewCorpusAlignment } from './corpus-alignment-review.mjs';
 import { reviewConfirmedHeadwords } from './corpus-confirmed-headwords.mjs';
+import { reviewTangSourceReadings, validateTangSourceEvidence } from './tang-source-readings.mjs';
+import { reviewShijingRhymes, validateShijingRhymeEvidence, shijingRhymeReport } from './shijing-rhyme-review.mjs';
 
 const root = fileURLToPath(new URL('../', import.meta.url));
 const sourceManifest = JSON.parse(await readFile(`${root}scripts/corpus-sources.json`, 'utf8'));
@@ -35,8 +38,10 @@ for (const source of sourceManifest) {
     await writeFile(path, bytes);
   }
   if (hash(bytes) !== source.sha256) throw new Error(`快取 SHA-256 不符：${source.file}`);
-  files[source.file] = bytes.toString('utf8');
+  files[source.file] = (source.file.endsWith('.gz') ? gunzipSync(bytes) : bytes).toString('utf8');
 }
+validateTangSourceEvidence(files, editionSnapshot);
+validateShijingRhymeEvidence(files);
 
 const polySource = sourceManifest.find(s => s.file === 'poly-tang.txt');
 const polyURL = 'https://github.com/biopolyhedron/middle-chinese-text-label';
@@ -49,6 +54,8 @@ const entries = [];
 const failures = [];
 function add(pack, document, id) {
   if (pack !== 'shijing') document = reviewConfirmedHeadwords(reviewHeadwordVariants(reviewCorpusAlignment(document, id)), id);
+  if (pack === 'tang') document = reviewTangSourceReadings(document, id);
+  if (pack === 'shijing') document = reviewShijingRhymes(document, id);
   if (document.provenance?.alignmentError) failures.push({ pack, title: document.title, reason: document.provenance.alignmentError });
   const [parsed] = parseImport(JSON.stringify(document), 'json');
   const stats = documentStatus(parsed);
@@ -216,7 +223,7 @@ outputs['public/corpora/shijing-downloads.json'] = { version: 1, downloads };
 const pendingByChar = new Map(), methods = {};
 for (const doc of packs.shijing) {
   for (const token of doc.tokens.filter(token => /\p{Script=Han}/u.test(token.char))) {
-    const method = token.position ? token.audit?.[0]?.action === 'editorial-selection' ? 'pilot-selection' : token.audit?.length ? doc.provenance.readingNotes.find(note => note.id === token.audit[0].references[0].noteId)?.method : 'dictionary-single' : 'pending';
+    const method = token.position ? token.audit?.at(-1)?.action === 'rhyme-philology-selection' ? 'rhyme-philology-review' : token.audit?.[0]?.action === 'editorial-selection' ? 'pilot-selection' : token.audit?.length ? doc.provenance.readingNotes.find(note => note.id === token.audit[0].references[0].noteId)?.method : 'dictionary-single' : 'pending';
     methods[method] = (methods[method] || 0) + 1;
   }
   for (const pending of doc.provenance.pendingReadings || []) {
@@ -229,6 +236,7 @@ outputs['docs/shijing-review.json'] = { version: 1, editedOn: '2026-10-03', read
   byCharacter: [...pendingByChar.values()].map(row => ({ ...row, documents: [...row.documents] })).sort((a, b) => b.occurrences - a.occurrences),
   documents: packs.shijing.map(doc => ({ id: doc.id, title: doc.title, section: doc.provenance.section,
     total: shijingRows.find(row => row.id === doc.id).total, pending: doc.provenance.pendingReadings || [] })) };
+outputs['docs/shijing-rhyme-review.json'] = shijingRhymeReport(packs.shijing);
 await mkdir(outputDir,{recursive:true});
 await mkdir(`${outputDir}/shijing`,{recursive:true});
 for (const [path,data] of Object.entries(outputs)) {

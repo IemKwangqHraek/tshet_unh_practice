@@ -60,9 +60,11 @@ cix yat: ghruk nji zji zsip cji, pyot jek jyet gho?
 }
 ```
 
-`position` 是已選讀音，`positions` 是原始候選。`confirmed: true` 表示使用者已確認字典未收讀音；無效的音韻地位仍會被列入校對。`skip: true` 跳過該字。匯出文件中的 `audit` 保存選讀修改與跳過記錄。
+`position` 是已選讀音，`positions` 是原始候選。`confirmed: true` 表示已依來源或人工校對採用讀音，並不表示字庫收錄了本字此音；具體依據保存在 `audit` 及 `provenance`。無效的音韻地位仍會被列入校對。`skip: true` 跳過該字。匯出文件中的 `audit` 保存選讀修改與跳過記錄。
 
 轉換語料另保留 token 的 `sourceReading`、`conversion`，以及文章的 `category`、`provenance`（來源版本、原始拼音、原文配對來源、對齊問題）。這些欄位會在匯出重讀與本機保存後保留。`conversion: "ambiguous"` 即使只剩一個字庫候選，也仍須明確確認原作者的疑讀。
+
+校對頁的「多音字」篩選包含已採讀及待核字位；每個候選顯示全拼、音韻地位和來源。候選合併字庫讀音、原標註地位及目前選讀，`sourceReading` 保留原注拼式，不能當成本練習方案的全拼直接輸入。「取得新版副本」會保留舊語料及其人工校對，新副本的 `provenance.catalogueCopy` 記錄內建條目 ID、舊副本 ID 和取得時間；此關聯也隨 JSON 匯出保存。
 
 另一種接受格式是 `text` 加 `annotations`：
 

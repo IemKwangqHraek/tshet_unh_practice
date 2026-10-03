@@ -4,17 +4,38 @@ import { readFile } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
 import { inspectToken, parseImport } from '../src/corpus.js';
 import { reviewView } from '../src/views.js';
+import { rewindTangSourceReadings } from '../scripts/tang-source-readings.mjs';
+import { rewindShijingRhymeReview } from '../scripts/shijing-rhyme-review.mjs';
 
 const root=new URL('../',import.meta.url);
 const read=path=>readFile(new URL(path,root));
 const json=async path=>JSON.parse(await read(path));
 const hash=bytes=>createHash('sha256').update(bytes).digest('hex');
 
+function precedingPack(pack) {
+  return { ...pack, documents: pack.documents.map(document => {
+    const previous = rewindShijingRhymeReview(rewindTangSourceReadings(document));
+    // The stored before-token is the builder's pre-export object. Restore the
+    // original compact export order and omission of empty defaults as well.
+    const order = ['char', 'positions', 'position', 'confirmed', 'skip', 'audit', 'sourceReading', 'conversion'];
+    return { ...previous, tokens: previous.tokens.map(token => Object.fromEntries(order
+      .filter(key => key in token && !(['positions', 'audit'].includes(key) && !token[key].length)
+        && !(['position', 'confirmed', 'skip'].includes(key) && !token[key]))
+      .map(key => [key, token[key]]))) };
+  }) };
+}
+
 test('confirmation report accounts for every change and preserves all original bodies and full annotations',async()=>{
   const report=await json('docs/corpus-confirmation-review.json');
-  for(const [path,expected] of Object.entries(report.inputHashes)) assert.equal(hash(await read(path)),expected,path);
+  for(const [path,expected] of Object.entries(report.inputHashes)) {
+    const bytes = ['public/corpora/tang.json', 'public/corpora/shijing.json'].includes(path)
+      ? JSON.stringify(precedingPack(await json(path))) + '\n' : await read(path);
+    assert.equal(hash(bytes),expected,path);
+  }
   const packs=await Promise.all(['classics','analects','tang','shijing'].map(pack=>json(`public/corpora/${pack}.json`)));
-  const documents=new Map(packs.flatMap(pack=>pack.documents).map(doc=>[doc.id,doc]));
+  // This report records the preceding confirmation stage. Later Tang text and
+  // source selections have their own audit; validate the report against its input.
+  const documents=new Map(packs.flatMap(pack=>pack.documents).map(doc=>[doc.id,rewindShijingRhymeReview(rewindTangSourceReadings(doc))]));
   assert.equal(report.preservation.length,documents.size);
   for(const row of report.preservation){
     const doc=documents.get(row.id);

@@ -9,6 +9,19 @@ export const syllablesIn = text => (text.split(/\r?\n/).map(line=>line.split('#'
 const charCache = new Map();
 let reverse;
 
+// These legal positions occur in the pinned Tang source but have no entry in
+// 資料.iter音韻地位(). They are conversion coverage, not dictionary attestations.
+// Keep this opt-in: importing an arbitrary text must not confirm a reading.
+const sourceOnlyPositions = new Map([
+  ['zsjye', '船合三支平'], ['cjyih', '章合三脂去'],
+  ['ginx', '羣開三B真上'], ['ngrang', '疑開二庚平'],
+  ['ghruaix', '匣合二皆上'], ['zsinh', '邪開三真去'],
+].map(([spelling, description]) => {
+  const position = TshetUinh.音韻地位.from描述(description);
+  if (romanizePolyhedron(position) !== spelling) throw new Error(`原注音位不能回拼：${spelling}`);
+  return [spelling, position.描述];
+}));
+
 function dictionaryReadings(char) {
   if (!charCache.has(char)) charCache.set(char, TshetUinh.資料.query字頭(char).map(entry => ({
     position: entry.音韻地位.描述, spelling: romanizePolyhedron(entry.音韻地位, char)
@@ -34,10 +47,13 @@ function reverseIndex() {
 
 // A source reading selects among this character's attested readings first.
 // Global matches remain unconfirmed, even if there is only one position.
-export function convertReading(char, sourceReading) {
+export function convertReading(char, sourceReading, { includeUnattestedPositions = false } = {}) {
   const spellings = sourceReading.toLowerCase().split('/');
   const attested = [...new Set(dictionaryReadings(char).filter(r => spellings.includes(r.spelling)).map(r => r.position))];
-  const positions = attested.length ? attested : [...new Set(spellings.flatMap(s => reverseIndex().get(s) ?? []))];
+  const positions = attested.length ? attested : [...new Set(spellings.flatMap(s => [
+    ...(reverseIndex().get(s) ?? []),
+    ...(includeUnattestedPositions && sourceOnlyPositions.has(s) ? [sourceOnlyPositions.get(s)] : []),
+  ]))];
   return { char, positions, sourceReading, conversion: attested.length === 1 && spellings.length === 1 ? 'dictionary-match'
     : attested.length ? 'ambiguous' : positions.length ? 'unattested' : 'unmapped' };
 }

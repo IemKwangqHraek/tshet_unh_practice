@@ -10,6 +10,7 @@ import { reviewHeadwordVariants, matchesReviewedHeadword } from '../scripts/corp
 import { contextualNotes, parseCommentary } from '../scripts/shijing-commentary.mjs';
 import { windowCoverage } from '../scripts/corpus-edition-status.mjs';
 import { reviewView } from '../src/views.js';
+import { rewindTangSourceReadings } from '../scripts/tang-source-readings.mjs';
 const json = async path => JSON.parse(await readFile(new URL(path, import.meta.url), 'utf8'));
 
 test('headword review preserves punctuation indices, original spellings and candidates, and requires unique source support', async () => {
@@ -65,7 +66,8 @@ test('Shijing restored glyph pairing exposes the actual source context and retai
 test('Tang edition changes preserve source alignment, stable identities and every formerly compatible word', async () => {
   const { documents } = await json('../public/corpora/tang.json');
   const baseline = (await json('../scripts/tang-edition-baseline.json')).documents;
-  for (const doc of documents) {
+  for (const latest of documents) {
+    const doc = rewindTangSourceReadings(latest);
     const previous = baseline.find(b => b.id === doc.id);
     assert.ok(previous, doc.id);
     for (const field of ['title', 'author', 'category']) assert.equal(doc[field], previous[field]);
@@ -100,7 +102,7 @@ test('new Tang snapshot is fixed and selected snapshot texts remain whole attest
   assert.equal(snapshot.coverage.availablePages, snapshot.coverage.listedPages);
   const { documents } = await json('../public/corpora/tang.json');
   for (const doc of documents.filter(d => d.provenance.editionReview.snapshotSha256)) {
-    const chars = doc.tokens.filter(t => isHan(t.char));
+    const chars = rewindTangSourceReadings(doc).tokens.filter(t => isHan(t.char));
     for (const part of doc.provenance.textParts.filter(p => p.source.startsWith('https://www.donglishuzhai.net/'))) {
       const selected = chars.slice(part.start, part.start + part.length).map(t => t.char).join('');
       assert.ok(snapshot.documents.some(p => p.textSource === part.source && p.paragraphs.join('').replace(/[^\p{Script=Han}]/gu, '') === selected), doc.title);
@@ -123,7 +125,9 @@ test('every Tang text part exactly matches a whole poem in its recorded source',
   original.push(...(await json('../scripts/snapshots/tang-dongli.json')).documents);
   const { documents } = await json('../public/corpora/tang.json');
   for (const doc of documents) {
-    const chars = doc.tokens.filter(t => isHan(t.char));
+    // textParts records the complete base edition; scoped source corrections
+    // are independently checked against their fixed text witnesses.
+    const chars = rewindTangSourceReadings(doc).tokens.filter(t => isHan(t.char));
     assert.equal(doc.provenance.textParts.reduce((n, p) => n + p.length, 0), chars.length);
     for (const part of doc.provenance.textParts) {
       const selected = chars.slice(part.start, part.start + part.length).map(t => t.char).join('');

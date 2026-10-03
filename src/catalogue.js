@@ -12,12 +12,13 @@ export function filterCatalogue(entries, { query = '', category = '', status = '
     && terms.every(term => `${entry.title} ${entry.author} ${entry.excerpt}`.toLocaleLowerCase().includes(term)));
 }
 
-export async function loadCatalogueDocument(id, fetcher = fetch, base = '/') {
+export async function loadCatalogueDocument(id, fetcher = fetch, base = '/', { refresh = false } = {}) {
   const entry = catalogueEntries.find(e => e.id === id);
   if (!entry) throw new Error('找不到這篇內建語料');
+  if (refresh) packs.delete(entry.pack);
   if (!packs.has(entry.pack)) {
     packs.set(entry.pack, (async () => {
-      const response = await fetcher(`${base}corpora/${entry.pack}.json`);
+      const response = await fetcher(`${base}corpora/${entry.pack}.json`, refresh ? { cache: 'no-store' } : undefined);
       if (!response.ok) throw new Error('內建語料載入失敗，請重試');
       const pack = await response.json();
       if (pack.version !== 1 || !Array.isArray(pack.documents)) throw new Error('內建語料格式無效');

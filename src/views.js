@@ -1,7 +1,8 @@
-import { escapeHTML as e, documentStatus, inspectToken, suggestions } from './corpus.js';
-import { allKeyParts, keyCandidates, definitionsFor } from './phonology.js';
+import { escapeHTML as e, documentStatus, inspectToken, suggestions, hasReadingAlternatives } from './corpus.js';
+import { allKeyParts, keyCandidates, definitionsFor, derive } from './phonology.js';
 import { sessionStats } from './session.js';
-import { filterCatalogue, cataloguePageSize } from './catalogue.js';
+import { filterCatalogue, cataloguePageSize, catalogueEntries } from './catalogue.js';
+import { getCatalogueSourceId } from './corpus-update.js';
 import shijingDownloads from '../public/corpora/shijing-downloads.json' with { type: 'json' };
 
 export function definitionPanel(reading) {
@@ -32,6 +33,11 @@ export const heading = (title, subtitle, actions = '') => `<div class="heading">
 export const formatTime = ms => `${Math.floor(ms / 60000).toString().padStart(2, '0')}:${Math.floor(ms / 1000 % 60).toString().padStart(2, '0')}`;
 export const option = (value, label, selected) => `<option value="${e(value)}" ${value === selected ? 'selected' : ''}>${e(label)}</option>`;
 
+function catalogueUpdateButton(doc) {
+  return catalogueEntries.some(entry => entry.id === getCatalogueSourceId(doc))
+    ? button('取得新版副本', 'update-catalogue-copy', '', 'repeat', `data-id="${e(doc.id)}" title="另存內建語料的最新版本，保留目前副本與人工校對"`) : '';
+}
+
 function provenanceView(doc) {
   const p=doc.provenance;
   if(!p) return '';
@@ -40,11 +46,12 @@ function provenanceView(doc) {
   const referenceHTML=reference=>`<p class="small-muted">${reference.book?`${e(reference.book)} · 條目 ${e(reference.entryId)} · ${e(reference.position)} · `:''}${e(reference.page || reference.fanqie || '')} · ${e(reference.displayQuote || reference.quote)}${reference.url?` · <a href="${e(reference.url)}" target="_blank" rel="noopener noreferrer">原文</a>`:''}${reference.editionDifferences?.length?`<br>正文／注本：${reference.editionDifferences.map(d=>`${e(d.bodyChar)}／${e(d.sourceChar)}（第 ${d.index+1} 字）`).join('、')}`:''}</p>`;
   const review=p.editionReview;
   const alignment=p.corpusAlignmentReview;
+  const tangSourceReview=p.tangSourceReadings?.notes?.length?`<details><summary>polyhedron 原注與選讀校訂 · ${p.tangSourceReadings.notes.length} 處</summary><p class="small-muted">${e(p.tangSourceReadings.textPolicy || '')}</p>${p.tangSourceReadings.notes.map(note=>`<p>第 ${note.index+1} 字：${e(note.char)}${note.targetChar!==note.char?` → ${e(note.targetChar)}`:''} · ${e(note.position)}<br>${e(note.basis)}</p>${(note.references || []).map(readingReference).join('')}`).join('')}</details>`:'';
   const alignmentReview=alignment?`<details><summary>原注配對校訂</summary>${alignment.alignment?`<p>${e(alignment.alignment.basis)}</p><p class="small-muted">保留缺音字位：${alignment.alignment.unpairedTextIndexes.map(i=>i+1).join('、')||'無'}；未配入正文的原音：${alignment.alignment.unpairedSourceIndexes.length} 處。</p>`:''}${[...alignment.formats,...alignment.orders].map(n=>`<p>第 ${n.index+1} 字 ${e(n.char)}：${e(n.originalSourceReading)} → ${e(n.interpretedSourceReading)}<br>${e(n.basis||n.reason||'')} · ${e(n.position)}</p>`).join('')}</details>`:'';
   const confirmedHeadwords=p.confirmedHeadwords?.notes?.length?`<details><summary>本句音義核定 · ${p.confirmedHeadwords.notes.length} 處</summary>${p.confirmedHeadwords.notes.map(n=>`<p>第 ${n.index+1} 字 ${e(n.char)}／${e(n.dictionaryChar)} · ${e(n.position)}<br>${e(n.basis)}</p>${n.references.map(referenceHTML).join('')}`).join('')}</details>`:'';
   const editionReview=review?`${review.textChanges?.length?`<details><summary>正文版本校對 · ${review.textChanges.length} 處</summary><p>${e(review.textBasis || '')}</p>${review.textChanges.map(d=>`<p class="small-muted">第 ${d.index+1} 字：${e(d.before)} → ${e(d.after)} · ${e(d.context)}</p>`).join('')}</details>`:''}${review.differences?.length?`<details><summary>正文與注本用字差異 · ${review.differences.length} 處</summary>${review.differences.map(d=>`<p>第 ${d.index+1} 字：正文 ${e(d.bodyChar)}／注本 ${e(d.sourceChar)}<br><span class="small-muted">${e(d.bodyContext)}<br>${e(d.sourceContext)} · ${e(d.page)}${d.url?` · <a href="${e(d.url)}" target="_blank" rel="noopener noreferrer">原文</a>`:''}</span></p>`).join('')}</details>`:''}${review.alternatives?.some(a=>a.differences.length)?`<details><summary>其他版本用字</summary><p>列出完整版本的用字差異；原注音尚不相容的字位繼續待核。</p>${review.alternatives.filter(a=>a.differences.length).map(a=>`<p><a href="${e(a.source)}" target="_blank" rel="noopener noreferrer">${e(a.title)}</a><br><span class="small-muted">${a.differences.map(d=>`第 ${d.index+1} 字：本版 ${e(d.selected)}／此本 ${e(d.alternate)}`).join('；')}</span>${a.introducesSourceConflicts?.length?`<br><span class="small-muted">此本在第 ${a.introducesSourceConflicts.map(i=>i+1).join('、')} 字另與原注音不合。</span>`:''}</p>`).join('')}</details>`:''}${review.notes?.length?`<details><summary>字庫用字核對 · ${review.notes.length} 處</summary>${review.notes.map(n=>`<p>第 ${n.index+1} 字：${e(n.char)}／${e(n.dictionaryChar)} · ${e(n.position)}<br>${e(n.basis)}</p>${n.references.map(referenceHTML).join('')}`).join('')}</details>`:''}`:'';
   const edition=p.readingSystem?`<p class="small-muted">${e(p.readingSystem)} · ${e(p.editedOn || '')}${p.section?` · ${e(p.section)}`:''}</p><p class="small-muted">${e(p.sourceEditors || '')}</p><p>${e(p.selectionPolicy || '')}</p>${notes.length?`<details><summary>本篇選讀依據 · ${notes.length} 項</summary><div class="table-scroll"><table><thead><tr><th>字 / 位置</th><th>選定地位</th><th>依據及異讀</th></tr></thead><tbody>${notes.map(note=>`<tr><td>${e(note.char)}${note.indices?`<p class="small-muted">第 ${note.indices.map(index=>index+1).join('、')} 字</p>`:''}</td><td>${e(note.position)}</td><td>${e(note.basis)}${(note.references || []).map(referenceHTML).join('')}${note.comparison?`<p>${e(note.comparison)}</p>${(note.sourceNotes || []).map(referenceHTML).join('')}`:''}</td></tr>`).join('')}</tbody></table></div></details>`:''}${pending.length?`<details><summary>本篇待校對依據 · ${pending.length} 處</summary><div class="table-scroll"><table><thead><tr><th>字 / 位置</th><th>上下文</th><th>待核事項</th></tr></thead><tbody>${pending.map(note=>`<tr><td>${e(note.char)} · 第 ${note.index+1} 字</td><td>${e(note.context)}</td><td>${e(note.reason)}${(note.sourceNotes || []).map(referenceHTML).join('')}${(note.alternateReadingReferences || []).map(referenceHTML).join('')}</td></tr>`).join('')}</tbody></table></div></details>`:''}`:'';
-  return `<div class="corpus-provenance"><p class="small-muted">${p.annotator?`原注音：${e(p.annotator)} · `:''}來源版本：${e(p.annotationCommit || '')}</p>${edition}${editionReview}${alignmentReview}${confirmedHeadwords}${p.alignmentError?`<p class="error-text">${e(p.alignmentError)}</p>`:''}${p.originalRomanization?`<details><summary>原始 polyhedron 拼音</summary><pre>${e(p.originalRomanization)}</pre></details>`:''}${p.excludedPrefaceRomanization?`<details><summary>尚未配對的序文拼音</summary><pre>${e(p.excludedPrefaceRomanization)}</pre></details>`:''}<p class="small-muted">${Array.isArray(p.textSources)?`正文來源：${p.textSources.map(url=>e(url)).join('<br>')}`:''}</p>${Array.isArray(p.annotationSources)?`<p class="small-muted">音義來源：${p.annotationSources.map(url=>e(url)).join('<br>')}</p>`:''}</div>`;
+  return `<div class="corpus-provenance"><p class="small-muted">${p.annotator?`原注音：${e(p.annotator)} · `:''}來源版本：${e(p.annotationCommit || '')}</p>${edition}${editionReview}${alignmentReview}${confirmedHeadwords}${tangSourceReview}${p.alignmentError?`<p class="error-text">${e(p.alignmentError)}</p>`:''}${p.originalRomanization?`<details><summary>原始 polyhedron 拼音</summary><pre>${e(p.originalRomanization)}</pre></details>`:''}${p.excludedPrefaceRomanization?`<details><summary>尚未配對的序文拼音</summary><pre>${e(p.excludedPrefaceRomanization)}</pre></details>`:''}<p class="small-muted">${Array.isArray(p.textSources)?`正文來源：${p.textSources.map(url=>e(url)).join('<br>')}`:''}</p>${Array.isArray(p.annotationSources)?`<p class="small-muted">音義來源：${p.annotationSources.map(url=>e(url)).join('<br>')}</p>`:''}</div>`;
 }
 
 export function keyboard(mode, reading, stage, prefix = '', interactive = true, additional = []) {
@@ -64,7 +71,7 @@ export function keyboard(mode, reading, stage, prefix = '', interactive = true, 
 export function libraryView(documents, selectedId, entries = [], filter = {}) {
   return heading('語料', '從內建語料庫按篇加入，或導入自己的標註文本。', '<a class="btn primary" href="#import">'+icon('upload')+'導入語料</a>') + catalogueView(entries, documents, filter) + `<h2 class="library-section-title">我的語料 · ${documents.length} 篇</h2><div class="library-grid">${documents.map(doc => {
     const stats = documentStatus(doc);
-    return `<section class="panel library-card"><div class="library-card-head"><h2>${e(doc.title)}</h2><span class="tag ${stats.pending ? 'amber' : 'green'}">${stats.pending ? `待校對 ${stats.pending}` : '可練習'}</span></div><p class="author">${e(doc.author || '自選語料')} · ${stats.total} 字</p><p class="library-excerpt">${e(doc.tokens.map(t => t.char).join('').slice(0, 90))}</p><div class="library-actions">${button(stats.pending ? '校對讀音' : '開始練習', stats.pending ? 'review-doc' : 'practice-doc', 'primary', '', `data-id="${e(doc.id)}"`)}${button('匯出', 'export-doc', '', '', `data-id="${e(doc.id)}"`)}<button class="text-link" data-action="remove-doc" data-id="${e(doc.id)}">移除</button></div>${doc.id === selectedId ? '<span class="selected-document">目前語料</span>' : ''}</section>`;
+    return `<section class="panel library-card"><div class="library-card-head"><h2>${e(doc.title)}</h2><span class="tag ${stats.pending ? 'amber' : 'green'}">${stats.pending ? `待校對 ${stats.pending}` : '可練習'}</span></div><p class="author">${e(doc.author || '自選語料')} · ${stats.total} 字</p><p class="library-excerpt">${e(doc.tokens.map(t => t.char).join('').slice(0, 90))}</p><div class="library-actions">${button(stats.pending ? '校對讀音' : '開始練習', stats.pending ? 'review-doc' : 'practice-doc', 'primary', '', `data-id="${e(doc.id)}"`)}${button('多音字', 'review-doc', '', '', `data-id="${e(doc.id)}" data-filter="polyphonic"`)}${catalogueUpdateButton(doc)}${button('匯出', 'export-doc', '', '', `data-id="${e(doc.id)}"`)}<button class="text-link" data-action="remove-doc" data-id="${e(doc.id)}">移除</button></div>${doc.id === selectedId ? '<span class="selected-document">目前語料</span>' : ''}</section>`;
   }).join('')}</div><p class="small-muted">語料與成績保存在此瀏覽器。移除的語料可在本次操作後撤銷；建議定期匯出備份。</p>`;
 }
 
@@ -110,14 +117,115 @@ export function importView(draft, preview) {
   return heading('導入語料', '保留原文與逐字選讀；全拼和三拼共用一份語料。') + `<div class="flow"><span class="flow-item active"><b>1</b>選擇語料</span><i></i><span class="flow-item"><b>2</b>校對讀音</span><i></i><span class="flow-item"><b>3</b>開始練習</span></div><div class="import-layout"><div class="import-main"><form id="import-form" class="panel"><div class="import-section-head"><h2>手動導入</h2><span class="tag">文件留在本機</span></div><div class="upload" id="drop-zone">${icon('upload')}<h3>選擇或拖入標註文本</h3><p>UTF-8 · TXT / TSV / JSON · 單次 2 MB</p><input id="file-input" type="file" accept=".txt,.tsv,.json,text/plain,application/json" aria-label="選擇標註文件">${draft.filename ? `<small>${e(draft.filename)}</small>` : ''}</div><div class="import-fields"><label>導入格式<select name="format">${['auto', 'txt', 'tsv', 'json', 'polyhedron'].map(k => option(k, {auto:'自動識別',txt:'字(音韻地位) TXT',tsv:'逐字 TSV',json:'JSON',polyhedron:'polyhedron 原文／拼音行'}[k], draft.format)).join('')}</select></label><label>默認標題<input name="title" value="${e(draft.title)}" placeholder="未標題的文本使用此名稱"></label><label>作者<input name="author" value="${e(draft.author)}"></label><label>語料來源<input name="source" value="${e(draft.source)}" placeholder="來源名稱或網址"></label><label>許可資訊<input name="license" value="${e(draft.license)}" placeholder="例如 CC0-1.0"></label><label class="check-label"><input name="split" type="checkbox" ${draft.split ? 'checked' : ''}>TXT 空行分篇</label><label class="span-all">標註文本<textarea name="text" rows="8" spellcheck="false" required placeholder="春(昌合三真平)眠(明四先平)……">${e(draft.text)}</textarea></label><div class="span-all import-submit"><button class="btn primary" type="submit">識別並預覽 ${icon('arrow')}</button>${button('載入春曉範例', 'sample-import')}${button('載入校對範例', 'review-example')}</div></div></form>${preview.length ? `<section class="panel preview-panel"><div class="panel-title"><h2>識別結果</h2><span class="tag green">${preview.length} 篇</span></div>${preview.map(doc => {const s=documentStatus(doc);return `<div class="import-preview-item"><h3>${e(doc.title)}</h3><p>${s.total} 字 · 已確認 ${s.ready} · 待處理 ${s.pending}</p><div class="small-muted">${e(doc.tokens.map(t=>t.char).join('').slice(0,110))}</div></div>`;}).join('')}${button('保存並校對讀音', 'save-import', 'primary', 'check')}</section>` : ''}</div><aside class="rail"><section class="panel source-list"><h3>語料來源</h3><div class="source-card"><strong>逐字音韻地位語料</strong><p>可直接導入原始標註文本，標題與作者會從首行識別。</p><a class="source-link" href="https://github.com/nk2028/tshet-uinh-text-label" target="_blank" rel="noreferrer">nk2028/tshet-uinh-text-label ↗</a><p>CC0-1.0</p></div><div class="source-card"><strong>polyhedron · 中古漢語文本</strong><p>可直接導入《論語》的原文／拼音行，轉換成音韻地位。《唐詩三百首》已在內建語料庫配對原文；字數缺漏和多讀保留待校對。CC BY-NC-SA 3.0 · polyhedron。</p><a class="source-link" href="https://github.com/biopolyhedron/middle-chinese-text-label" target="_blank" rel="noreferrer">middle-chinese-text-label ↗</a></div></section><section class="panel format-example"><h3>標註格式</h3><code>韻(云合三C文去)<br>聞(明三C文平|明三C文去)</code><p>多讀用 | 分隔。缺失、無效、多讀及字典未收的讀音會交由人工校對。標點與換行按原文保留。</p><div class="download-examples"><a href="./example.txt" download>TXT 範例 ↓</a><a href="./example.tsv" download>TSV 範例 ↓</a>${button('下載 JSON 範例', 'json-example')}</div></section></aside></div>`;
 }
 
-export function reviewView(doc, filter, page, documents) {
+export const reviewFilters = { pending: '待處理', polyphonic: '多音字', ready: '已確認', all: '所有' };
+
+// Token indices drive edits; Han indices address the source notes, which exclude punctuation.
+export function reviewEntries(doc, filter = 'all', query = '') {
+  let hanIndex = -1;
+  return doc.tokens.flatMap((token, index) => {
+    const info = inspectToken(token);
+    if (info.status === 'punctuation') return [];
+    hanIndex++;
+    const alternatives = hasReadingAlternatives(token);
+    if (filter === 'pending' && ['ready', 'skipped'].includes(info.status)
+      || filter === 'ready' && info.status !== 'ready'
+      || filter === 'polyphonic' && !alternatives) return [];
+    const candidates = suggestions(token);
+    let current = info.reading;
+    if (token.position) {
+      try { current = derive(token.position, token.char); } catch { /* The invalid annotation is displayed below. */ }
+    }
+    const noteIds = new Set((token.audit || []).flatMap(a => (a.references || []).map(r => r.noteId)).filter(Boolean));
+    const belongs = note => note.index === hanIndex || note.indices?.includes(hanIndex) || noteIds.has(note.id);
+    const p = doc.provenance || {};
+    const rhymeNote = p.rhymeReview?.notes.find(belongs);
+    const originalPositions = rhymeNote?.sourcePositions || token.positions || [];
+    for (const reading of candidates) {
+      if (rhymeNote?.addedPositions?.includes(reading.position) && !originalPositions.includes(reading.position)) {
+        reading.origins = reading.origins.map(origin => origin === 'annotation' ? 'supplement' : origin);
+      }
+    }
+    const evidence = [
+      ...(p.readingNotes || []).filter(belongs),
+      ...(p.pendingReadings || []).filter(belongs),
+      ...(p.editionReview?.notes || []).filter(belongs),
+      ...(p.confirmedHeadwords?.notes || []).filter(belongs),
+      ...(p.corpusAlignmentReview?.formats || []).filter(belongs),
+      ...(p.corpusAlignmentReview?.orders || []).filter(belongs),
+      ...(p.tangSourceReadings?.notes || []).filter(belongs),
+      ...(p.tangSourceReadings?.deferred || []).filter(belongs),
+      ...(p.rhymeReview?.notes || []).filter(belongs),
+    ];
+    const entry = { token, index, hanIndex, info, candidates, current, alternatives, evidence, originalPositions, rhymeModel: p.rhymeReview?.model };
+    return matchesReviewQuery(doc, entry, query) ? [entry] : [];
+  });
+}
+
+function matchesReviewQuery(doc, entry, query) {
+  query = query.trim().toLocaleLowerCase();
+  if (!query) return true;
+  if (/^\p{Script=Han}$/u.test(query)) return entry.token.char === query;
+  const context = doc.tokens.slice(Math.max(0, entry.index - 7), entry.index + 8).map(t => t.char).join('');
+  return [context, entry.token.sourceReading, ...entry.candidates.flatMap(r => [r.full, r.position])]
+    .some(value => value?.toLocaleLowerCase().includes(query));
+}
+
+function readingReference(reference) {
+  const label = [reference.book || reference.dictionary || reference.title || (reference.kind === 'user-instruction' ? '使用者指定' : ''), reference.page || reference.file,
+    reference.line != null ? `第 ${reference.line} 行` : '',
+    reference.entryId != null ? `條目 ${reference.entryId}` : '', reference.dictionaryChar,
+    reference.position, reference.fanqie ? `反切 ${reference.fanqie}` : ''].filter(Boolean).join(' · ');
+  const quote = reference.displayQuote || reference.quote;
+  const url = /^https?:\/\//i.test(reference.url || '') ? reference.url : '';
+  if (!label && !quote && !url) return '';
+  return `<div class="reading-reference">${label ? `<div class="small-muted">${e(label)}</div>` : ''}${quote ? `<blockquote>${e(quote)}</blockquote>` : ''}${url ? `<a href="${e(url)}" target="_blank" rel="noopener noreferrer">查看原文 ↗</a>` : ''}</div>`;
+}
+
+function readingEvidence(entry) {
+  const { token, evidence } = entry;
+  const sourceEvidence = evidence.map(note => `<div class="reading-evidence-note">${note.position ? `<b>${e(note.position)}</b>` : ''}<p>${e(note.basis || note.reason || '')}</p>${note.comparison ? `<p>${e(note.comparison)}</p>` : ''}${rhymeEvidence(note, entry.rhymeModel)}${[...(note.references || []), ...(note.sourceNotes || []), ...(note.alternateReadingReferences || [])].map(readingReference).join('')}</div>`).join('');
+  const audit = (token.audit || []).map(record => {
+    const name = record.action === 'confirm' ? '人工確認' : record.action === 'user-reading-override' ? '使用者指定' : record.action === 'skip' ? '跳過' : '來源校訂';
+    const format = value => Array.isArray(value) ? value.join(' | ') : value && typeof value === 'object'
+      ? [value.char, value.position || value.positions?.join(' | ')].filter(Boolean).join(' · ') : value || '';
+    return `<div class="reading-evidence-note"><b>${name}</b>${record.at ? `<span class="small-muted"> · ${e(record.at)}</span>` : ''}${record.after ? `<p>${e(format(record.before))} → ${e(format(record.after))}</p>` : ''}${record.reason ? `<p>${e(record.reason)}</p>` : ''}${(record.references || []).map(readingReference).join('')}</div>`;
+  }).join('');
+  return `${sourceEvidence ? `<details class="reading-evidence"><summary>本句選讀依據與異讀</summary>${sourceEvidence}</details>` : ''}${audit ? `<details class="reading-evidence"><summary>校對記錄 · ${token.audit.length} 項</summary>${audit}</details>` : ''}`;
+}
+
+function rhymeEvidence(note, model) {
+  if (!note.rhyme && !note.pboc?.length) return '';
+  const rhyme = note.rhyme;
+  return `<div class="rhyme-evidence"><b>章內押韻覆核</b>${rhyme ? `<p>${e(rhyme.lines.join('，'))}</p><p>韻腳：${e(rhyme.words.join('—'))}</p><p>${e(rhyme.constraint)}</p>` : '<p>本字不以韻腳判音；依本句音義校對。</p>'}${note.pboc?.length ? `<details><summary>PBOC 擬音對照 · 模型推導</summary><p class="small-muted">下表的中古對應是模型推導，並非韻書實收；未列的讀法也不表示已被排除。同章押韻可能已用於模型構擬，不能算作另一份獨立證據。</p><div class="table-scroll"><table><thead><tr><th>字</th><th>上古擬音</th><th>推導中古</th></tr></thead><tbody>${note.pboc.map(fact => `<tr><td>${e(fact.char)}<br><span class="small-muted">行 ${e(fact.rowIndex)}</span></td><td class="mono">${e(fact.oc)}</td><td>${e(fact.derivedMc)}</td></tr>`).join('')}</tbody></table></div>${model?.methodUrl ? `<p class="small-muted">行號從 0 起算 · <a href="${e(model.methodUrl)}" target="_blank" rel="noopener noreferrer">固定版本 ${e(model.commit.slice(0, 7))} 的音系說明 ↗</a></p>` : ''}<a href="https://qwert-ly.github.io/xtext/?q=${encodeURIComponent(note.char)}&amp;mode=exact" target="_blank" rel="noopener noreferrer">PBOC 字表 ↗</a></details>` : ''}</div>`;
+}
+
+function reviewEntryView(doc, entry, filter) {
+  const { token, index, hanIndex, info, current, candidates } = entry;
+  const ready = info.status === 'ready';
+  const lastSelection = (token.audit || []).findLast(a => a.after && a.action !== 'skip');
+  const origin = lastSelection?.action === 'confirm' ? '人工確認' : lastSelection?.action === 'user-reading-override' ? '使用者指定' : lastSelection ? '依來源校訂' : token.sourceReading ? '依 polyhedron 原注' : '依語料標註';
+  const currentLabel = ready ? '目前採讀 · 全拼' : token.skip ? '保留讀音 · 全拼 · 已跳過' : '待確認讀音 · 全拼';
+  const candidatesHTML = candidates.map(reading => {
+    const selected = current?.position === reading.position;
+    const origins = (reading.origins || []).filter(o => o !== 'selected').map(o => ({ dictionary: '字庫', annotation: '原標註', supplement: '古注補充' })[o]).filter(Boolean);
+    const definitions = definitionsFor(token.char, reading.position);
+    return `<div class="review-candidate ${selected ? 'chosen' : ''}"><div class="candidate-heading"><strong class="mono">${e(reading.full)}</strong><span>${e(reading.position)}</span>${selected ? `<span class="tag ${ready ? 'green' : 'amber'}">${ready ? '目前採讀' : '目前標註'}</span>` : ''}</div><div class="small-muted">${e(origins.join(' · ') || '已選地位')} · 三拼 <span class="mono">${e(reading.triple)}</span></div>${definitions.length ? `<details class="candidate-definitions"><summary>韻書音義 · ${definitions.length} 條</summary>${definitions.map(d => `<div class="reading-reference"><div class="small-muted">${e(d.source)} · ${e(d.rhyme)}韻 · 小韻 ${e(d.group)}${d.fanqie ? ` · 反切 ${e(d.fanqie)}` : ''}</div><p>${e(d.text || '此條目未錄釋義')}</p></div>`).join('')}</details>` : '<p class="small-muted">字庫未收此字此音；請參照本句來源依據。</p>'}${button(selected && ready ? '已採用' : selected ? '確認此讀' : '改用此讀', 'choose-reading', selected ? 'soft' : '', '', `data-index="${index}" data-position="${e(reading.position)}" aria-label="${e(`${token.char} 第 ${hanIndex + 1} 字：選讀 ${reading.full}，${reading.position}`)}" ${selected && ready ? 'disabled' : ''}`)}</div>`;
+  }).join('');
+  return `<article class="review-entry" data-token-index="${index}" tabindex="-1"><header class="review-entry-header"><div class="review-character"><span class="cell-char">${e(token.char)}</span><span class="small-muted">第 ${hanIndex + 1} 字</span></div><p class="review-context">${e(doc.tokens.slice(Math.max(0, index - 7), index).map(t => t.char).join(''))}<mark>${e(token.char)}</mark>${e(doc.tokens.slice(index + 1, index + 8).map(t => t.char).join(''))}</p><span class="tag ${ready ? 'green' : info.status === 'skipped' ? '' : 'amber'}">${labels[info.status]}</span></header><div class="review-entry-body"><div class="review-current"><div class="position-label">${currentLabel}</div>${current ? `<div class="review-current-full mono">${e(current.full)}</div><div class="position-value">${e(current.position)}</div><p class="small-muted">三拼 <span class="mono">${e(current.triple)}</span>${ready ? ` · ${origin}` : ''}</p>` : '<p class="small-muted">尚未採讀，請選擇下方候選。</p>'}${info.error ? `<p class="error-text">${e(info.error)}</p>` : ''}<div class="review-original">${token.sourceReading ? `<div class="position-label">polyhedron 原注</div><p class="mono">${e(token.sourceReading)}</p>` : ''}<div class="position-label">原標註地位</div><p>${e(entry.originalPositions.join(' | ') || '未提供')}</p></div></div><div class="review-choices"><details class="review-candidates" ${filter === 'polyphonic' || !ready ? 'open' : ''}><summary>查看與切換讀音 · ${candidates.length} 個候選</summary><p class="small-muted">字庫候選可屬不同詞義，請對照本句語義與原注選讀。</p><div class="review-candidate-grid">${candidatesHTML || '<p class="small-muted">沒有可推導的候選，請手動輸入音韻地位。</p>'}</div></details><details class="review-manual"><summary>手動輸入音韻地位</summary><form class="reading-editor" data-index="${index}"><label>音韻地位<input name="position" value="${e(token.position || current?.position || ((token.positions || []).length === 1 ? token.positions[0] : ''))}" placeholder="例如 云合三C文去" required></label><button class="btn soft" type="submit">確認讀音</button></form></details><div class="review-entry-actions">${button(token.skip ? '恢復校對' : '跳過此字', token.skip ? 'unskip' : 'skip', '', '', `data-index="${index}"`)}</div></div><div class="review-entry-evidence">${readingEvidence(entry)}</div></div></article>`;
+}
+
+export function reviewView(doc, filter, page, documents, query = '') {
   if (!doc) return heading('校對讀音', '先導入一篇語料。') + '<a class="btn primary" href="#import">導入語料</a>';
+  if (!Object.hasOwn(reviewFilters, filter)) filter = 'pending';
   const stats = documentStatus(doc);
-  const entries = doc.tokens.map((token, index) => ({ token, index, info: inspectToken(token) })).filter(x => x.info.status !== 'punctuation' && (filter === 'all' || !['ready', 'skipped'].includes(x.info.status)));
+  const allEntries = reviewEntries(doc);
+  const entries = allEntries.filter(entry => (filter === 'all' || filter === 'polyphonic' && entry.alternatives || filter === 'ready' && entry.info.status === 'ready' || filter === 'pending' && !['ready', 'skipped'].includes(entry.info.status)) && matchesReviewQuery(doc, entry, query));
+  const counts = { all: stats.total, pending: stats.pending, ready: stats.ready, polyphonic: allEntries.filter(entry => entry.alternatives).length };
   const pages = Math.max(1, Math.ceil(entries.length / 20));
-  page = Math.min(page, pages - 1);
+  page = Math.max(0, Math.min(Number(page) || 0, pages - 1));
   const rows = entries.slice(page * 20, (page + 1) * 20);
-  return heading('校對讀音', `${e(doc.title)} · 確認原文選讀後開始練習`, button('匯出語料', 'export-doc', '', 'file', `data-id="${e(doc.id)}"`)) + `<label class="article-selector">語料<select id="review-article">${documents.map(d=>option(d.id,d.title,doc.id)).join('')}</select></label><div class="review-summary">${[['練習正文',stats.total,'字'],['已確認讀音',stats.ready,'處'],['讀音待處理',stats.pending,'處'],['已跳過',stats.skipped,'處']].map(([label,n,unit])=>`<div class="panel summary-box"><div class="summary-label">${label}</div><div class="summary-number">${n}<span class="summary-unit">${unit}</span></div></div>`).join('')}</div><details class="panel metadata-panel"><summary>語料資料</summary><form id="metadata-form" class="import-fields"><label>標題<input name="title" value="${e(doc.title)}" required></label><label>作者<input name="author" value="${e(doc.author)}"></label><label>來源<input name="source" value="${e(doc.source)}"></label><label>許可資訊<input name="license" value="${e(doc.license)}"></label><button type="submit" class="btn soft">保存資料</button></form>${provenanceView(doc)}</details><section class="panel review-table-panel"><div class="table-heading"><h2>讀音條目</h2><div class="table-filters">${button(`待處理 ${stats.pending}`, 'review-filter', filter==='pending'?'soft':'', '', 'data-filter="pending"')}${button(`全部 ${stats.total}`, 'review-filter', filter==='all'?'soft':'', '', 'data-filter="all"')}</div></div>${rows.length ? `<div class="table-scroll"><table><thead><tr><th>原文字 / 上下文</th><th>狀態</th><th>音韻地位 / 建議讀音</th><th>處理方式</th></tr></thead><tbody>${rows.map(({token,index,info})=>`<tr><td><span class="cell-char">${e(token.char)}</span><span class="cell-sub">第 ${doc.tokens.slice(0,index+1).filter(t=>/\p{Script=Han}/u.test(t.char)).length} 字</span><p class="review-snippet">${e(doc.tokens.slice(Math.max(0,index-5),index+6).map(t=>t.char).join(''))}</p></td><td><span class="tag ${info.status==='ready'?'green':'amber'}">${labels[info.status]}</span>${info.error?`<p class="error-text small-muted">${e(info.error)}</p>`:''}</td><td><div class="cell-title">原始標註：${e((token.positions??[]).join(' | ')||'無')}</div>${token.sourceReading?`<p class="small-muted">polyhedron 原音：<span class="mono">${e(token.sourceReading)}</span></p>`:''}${info.reading?`<p class="mono">${e(info.reading.position)} · ${e(info.reading.full)} · ${e(info.reading.triple)}</p>`:''}<div class="reading-options">${suggestions(token).map(r=>`<button type="button" class="reading-option ${token.position===r.position?'chosen':''}" data-action="choose-reading" data-index="${index}" data-position="${e(r.position)}"><span>${e(r.position)}</span><span class="mono">${e(r.full)} · ${e(r.triple)}</span><small>${e(r.fanqie)}</small></button>`).join('')||'<p class="small-muted">字庫沒有建議讀音，可在右側手動輸入。</p>'}</div></td><td><form class="reading-editor" data-index="${index}"><label>手動音韻地位<input name="position" value="${e(token.position||info.reading?.position||(token.positions??[]).length===1&&token.positions[0]||'')}" placeholder="例如 云合三C文去" required></label><button class="btn soft" type="submit">${info.status==='absent'?'確認保留讀音':'確認讀音'}</button></form>${button(token.skip?'恢復校對':'跳過此字',token.skip?'unskip':'skip','','',`data-index="${index}"`)}</td></tr>`).join('')}</tbody></table></div>` : '<div class="empty-state"><h3>讀音已校對完成</h3><p>可以開始全拼或三拼練習。</p></div>'}<div class="review-bottom"><div class="pagination">${button('上一頁','review-page','','','data-direction="-1" '+(page===0?'disabled':''))}<span>${page+1} / ${pages}</span>${button('下一頁','review-page','','','data-direction="1" '+(page+1>=pages?'disabled':''))}</div>${button('開始練習','practice-doc','primary','arrow',`data-id="${e(doc.id)}" ${stats.pending||!stats.ready?'disabled':''}`)}</div></section><p class="review-policy">缺失與多讀條目需手動確認；字典未收但可推導的標註可確認保留。跳過的字不計入練習字數，校對記錄隨語料匯出。</p>`;
+  const empty = query.trim() ? ['沒有符合的字位', '可更換搜尋字詞，或切換至「所有」讀音。'] : { pending: ['讀音已校對完成', '可以開始全拼或三拼練習。'], polyphonic: ['本篇沒有多音字條目', '此篩選包含字庫或原注列出多種讀音的字位。'], ready: ['尚無已確認讀音', '請先在「待處理」中確認本句選讀。'], all: ['沒有可校對的字', '此篇沒有漢字條目。'] }[filter];
+  return heading('校對讀音', `${e(doc.title)} · 原注、候選與本句採讀`, catalogueUpdateButton(doc) + button('匯出語料', 'export-doc', '', 'file', `data-id="${e(doc.id)}"`)) + `<label class="article-selector">語料<select id="review-article">${documents.map(d => option(d.id, d.title, doc.id)).join('')}</select></label><div class="review-summary">${[['練習正文', stats.total, '字'], ['已確認讀音', stats.ready, '處'], ['讀音待處理', stats.pending, '處'], ['已跳過', stats.skipped, '處']].map(([label, n, unit]) => `<div class="panel summary-box"><div class="summary-label">${label}</div><div class="summary-number">${n}<span class="summary-unit">${unit}</span></div></div>`).join('')}</div><details class="panel metadata-panel"><summary>語料資料</summary><form id="metadata-form" class="import-fields"><label>標題<input name="title" value="${e(doc.title)}" required></label><label>作者<input name="author" value="${e(doc.author)}"></label><label>來源<input name="source" value="${e(doc.source)}"></label><label>許可資訊<input name="license" value="${e(doc.license)}"></label><button type="submit" class="btn soft">保存資料</button></form>${provenanceView(doc)}</details><section class="panel review-reading-panel"><div class="table-heading"><h2>讀音條目</h2><div class="table-filters" role="group" aria-label="讀音篩選">${Object.entries(reviewFilters).map(([key, label]) => button(`${label} ${counts[key]}`, 'review-filter', filter === key ? 'soft' : '', '', `data-filter="${key}" aria-pressed="${filter === key}"`)).join('')}</div></div><form id="review-search" class="review-search"><label for="review-query">搜尋字詞或讀音</label><div><input id="review-query" name="query" value="${e(query)}" placeholder="例如 將、將進酒、tsvang" autocomplete="off"><button class="btn soft" type="submit">搜尋</button>${query ? button('清除', 'clear-review-search') : ''}</div></form><p class="review-filter-note small-muted">${filter === 'polyphonic' ? '包含已採讀與待確認的字位；列出字庫或原注的不同讀音，不表示本句各讀法皆適用。' : '選讀在全拼與三拼練習中共用；原注與校對記錄會一直保留。'}</p><div class="review-entries">${rows.length ? rows.map(entry => reviewEntryView(doc, entry, filter)).join('') : `<div class="empty-state"><h3>${empty[0]}</h3><p>${empty[1]}</p></div>`}</div><div class="review-bottom"><span class="small-muted">${entries.length ? `${page * 20 + 1}–${Math.min((page + 1) * 20, entries.length)} / ${entries.length} 處` : '0 處'}</span><div class="pagination">${button('上一頁', 'review-page', '', '', 'data-direction="-1" ' + (page === 0 ? 'disabled' : ''))}<span>${page + 1} / ${pages}</span>${button('下一頁', 'review-page', '', '', 'data-direction="1" ' + (page + 1 >= pages ? 'disabled' : ''))}</div>${button('開始練習', 'practice-doc', 'primary', 'arrow', `data-id="${e(doc.id)}" ${stats.pending || !stats.ready ? 'disabled' : ''}`)}</div></section><p class="review-policy">字庫未收但可推導的標註可依來源確認保留。跳過的字不計入練習字數，校對記錄隨語料匯出。</p>`;
 }
 
 export function modesView(reading, stage) {

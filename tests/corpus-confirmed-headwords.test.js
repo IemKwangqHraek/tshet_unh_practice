@@ -4,6 +4,7 @@ import { readFileSync } from 'node:fs';
 import { reviewCorpusAlignment } from '../scripts/corpus-alignment-review.mjs';
 import { reviewConfirmedHeadwords } from '../scripts/corpus-confirmed-headwords.mjs';
 import rules from '../scripts/corpus-confirmed-headwords.json' with { type: 'json' };
+import { rewindTangSourceReadings } from '../scripts/tang-source-readings.mjs';
 
 // Rewind only this module's own audit entries so the tests exercise selection
 // even after build:corpora has already generated confirmed public documents.
@@ -22,7 +23,7 @@ function beforeHeadwordReview(document) {
 
 const documents = new Map(['classics', 'analects', 'tang'].flatMap(pack =>
   JSON.parse(readFileSync(new URL(`../public/corpora/${pack}.json`, import.meta.url))).documents
-    .map(document => [document.id, beforeHeadwordReview(reviewCorpusAlignment(document))])));
+    .map(document => [document.id, beforeHeadwordReview(reviewCorpusAlignment(rewindTangSourceReadings(document)))])));
 const han = document => document.tokens.filter(token => /\p{Script=Han}/u.test(token.char));
 
 test('reviewed occurrences retain the original text, source readings and candidates', () => {

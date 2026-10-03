@@ -6,7 +6,8 @@ import { parseImport, documentStatus, practiceTokens, confirmToken, skipToken, e
 import { createSession, inputKey, pause, resume, sessionStats, mistakeTokens } from './session.js';
 import { loadState, saveState, cleanSettings, STORAGE_KEY } from './storage.js';
 import { catalogueEntries, loadCatalogueDocument } from './catalogue.js';
-import { icon, button, practiceView, libraryView, importView, reviewView, modesView, resultsView, formatTime } from './views.js';
+import { getCatalogueSourceId, createCatalogueUpdateCopy } from './corpus-update.js';
+import { icon, button, practiceView, libraryView, importView, reviewView, reviewFilters, modesView, resultsView, formatTime } from './views.js';
 
 const app = document.querySelector('#app');
 const sampleDocuments = sampleTexts.map((text, i) => ({ ...parseImport(text, 'txt', {
@@ -25,6 +26,7 @@ let sessionDocumentId = null;
 let resultId = null;
 let reviewFilter = 'pending';
 let reviewPage = 0;
+let reviewQuery = '';
 let modeStage = 1;
 let undoDocument = null;
 let preview = [];
@@ -103,6 +105,7 @@ function setDocument(id) {
   activeSession = null;
   sessionDocumentId = null;
   reviewPage = 0;
+  reviewQuery = '';
   persist();
 }
 
@@ -145,7 +148,7 @@ function render(focusTyping = false) {
   let body;
   if (name === 'import') body = importView(draft, preview);
   else if (name === 'library') body = libraryView(documents, selectedId, catalogueEntries, catalogueFilter);
-  else if (name === 'review') body = reviewView(currentDocument(), reviewFilter, reviewPage, documents);
+  else if (name === 'review') body = reviewView(currentDocument(), reviewFilter, reviewPage, documents, reviewQuery);
   else if (name === 'modes') body = modesView({ ...derive('曉開四蕭上', '曉'), char: '曉' }, modeStage);
   else if (name === 'results') body = resultsView(currentRecord(), history);
   else body = practiceView(currentDocument(), activeSession, settings, documents);
@@ -153,6 +156,16 @@ function render(focusTyping = false) {
   renderStorageError();
   if (focusTyping) document.querySelector('#typing')?.focus({ preventScroll: true });
   document.querySelector('.live-poem .current')?.scrollIntoView({ block: 'nearest', inline: 'nearest' });
+}
+
+function finishReadingChange(index) {
+  activeSession = null;
+  persist();
+  render();
+  const target = document.querySelector(`.review-entry[data-token-index="${index}"]`)
+    || document.querySelector(`[data-action="review-filter"][data-filter="${reviewFilter}"]`);
+  target?.focus({ preventScroll: true });
+  notify('已確認此字選讀，全拼與三拼同步更新。');
 }
 
 function handleKey(key) {
@@ -251,16 +264,32 @@ app.addEventListener('click', async event => {
         persist(); practiceDocument(id);
       } finally { element.disabled = false; }
     }
+    else if (action === 'update-catalogue-copy') {
+      element.disabled = true;
+      try {
+        const previous = documents.find(d => d.id === element.dataset.id);
+        if (!previous) throw new Error('找不到目前語料。');
+        const latest = await loadCatalogueDocument(getCatalogueSourceId(previous), fetch, import.meta.env.BASE_URL, { refresh: true });
+        const copy = createCatalogueUpdateCopy(previous, latest);
+        documents.push(copy);
+        setDocument(copy.id);
+        reviewFilter = documentStatus(copy).pending ? 'pending' : 'polyphonic';
+        persist(true);
+        route('#review');
+        notify('已取得新版副本；原副本與人工校對記錄仍保留在「我的語料」。');
+      } finally { element.disabled = false; }
+    }
     else if (action === 'catalogue-page') { catalogueFilter.page=Math.max(0,catalogueFilter.page+Number(element.dataset.direction)); render(); document.querySelector('.catalogue-panel')?.scrollIntoView({block:'start'}); }
-    else if (action === 'review-doc') { if (element.dataset.id!==selectedId) setDocument(element.dataset.id); reviewFilter='pending'; reviewPage=0; route('#review'); }
+    else if (action === 'review-doc') { if (element.dataset.id!==selectedId) setDocument(element.dataset.id); reviewFilter=Object.hasOwn(reviewFilters,element.dataset.filter)?element.dataset.filter:documentStatus(currentDocument()).pending?'pending':'polyphonic'; reviewPage=0; route('#review'); }
     else if (action === 'export-doc') { const target=documents.find(d=>d.id===element.dataset.id); download(`${target.title}.json`,JSON.stringify(exportDocument(target),null,2)); }
     else if (action === 'sample-import') { readDraft(); Object.assign(draft,{text:sampleTexts[1],title:'',author:'',source:'https://github.com/nk2028/tshet-uinh-text-label',license:'CC0-1.0',format:'txt',split:false}); preview=[]; render(); }
     else if (action === 'review-example') { readDraft(); Object.assign(draft,{text:'# 校對範例\n聞(明三C文平|明三C文去)曉抬(定開一咍平)。',title:'',author:'',source:'人工構造校對範例',license:'',format:'txt',split:false}); preview=[]; render(); }
     else if (action === 'save-import') { if(!preview.length)throw new Error('請重新識別並預覽語料。'); documents.push(...preview); const first=preview[0]; preview=[]; setDocument(first.id); reviewFilter='pending'; route('#review'); notify('語料已保存，請確認待處理讀音。'); }
     else if (action === 'json-example') download('example.json',JSON.stringify(exportDocument(sampleDocuments[1]),null,2));
-    else if (action === 'review-filter') { reviewFilter=element.dataset.filter; reviewPage=0; render(); }
-    else if (action === 'review-page') { reviewPage=Math.max(0,reviewPage+Number(element.dataset.direction)); render(); }
-    else if (action === 'choose-reading') { confirmToken(doc.tokens[Number(element.dataset.index)],element.dataset.position); activeSession=null; persist(); render(); notify('已確認此字選讀。'); }
+    else if (action === 'review-filter') { if(!Object.hasOwn(reviewFilters,element.dataset.filter))return; reviewFilter=element.dataset.filter; reviewPage=0; render(); document.querySelector(`[data-filter="${reviewFilter}"]`)?.focus({preventScroll:true}); }
+    else if (action === 'clear-review-search') { reviewQuery=''; reviewPage=0; render(); document.querySelector('#review-query')?.focus({preventScroll:true}); }
+    else if (action === 'review-page') { reviewPage=Math.max(0,reviewPage+Number(element.dataset.direction)); render(); document.querySelector('.review-reading-panel')?.scrollIntoView({block:'start'}); }
+    else if (action === 'choose-reading') { const index=Number(element.dataset.index); confirmToken(doc.tokens[index],element.dataset.position); finishReadingChange(index); }
     else if (action === 'skip' || action === 'unskip') { const token=doc.tokens[Number(element.dataset.index)]; if(action==='skip')skipToken(token);else token.skip=false; activeSession=null; persist(); render(); }
     else if (action === 'use-mode') { settings.keyMode=element.dataset.mode; updateSessionSettings(); persist(); route('#practice/three'); }
     else if (action === 'history') { resultId=element.dataset.id; render(); }
@@ -288,9 +317,11 @@ app.addEventListener('submit', event => {
       const data = new FormData(event.target);
       catalogueFilter={query:String(data.get('query')||''),category:String(data.get('category')||''),status:String(data.get('status')||'ready'),page:0};
       render();
+    } else if (event.target.id === 'review-search') {
+      reviewQuery=String(new FormData(event.target).get('query') || '').trim(); reviewPage=0; render(); document.querySelector('#review-query')?.focus({preventScroll:true});
     } else if (event.target.matches('.reading-editor')) {
       const index=Number(event.target.dataset.index); const position=new FormData(event.target).get('position');
-      confirmToken(currentDocument().tokens[index],position); activeSession=null; persist(); render(); notify('已確認此字選讀。');
+      confirmToken(currentDocument().tokens[index],position); finishReadingChange(index);
     } else if (event.target.id==='metadata-form') {
       const data=new FormData(event.target); for(const key of ['title','author','source','license'])currentDocument()[key]=String(data.get(key)||'').trim(); persist();render();notify('語料資料已保存。');
     }

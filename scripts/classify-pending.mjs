@@ -6,11 +6,14 @@ import { inspectToken } from '../src/corpus.js';
 import { isHan } from '../src/polyhedron.js';
 import { normalizeSoundChar, parseCommentary } from './shijing-commentary.mjs';
 import { parseRhymeCsv, validateRhymeReference } from './shijing-rhyme-books.mjs';
+import { rewindTangSourceReadings } from './tang-source-readings.mjs';
 
 const root = fileURLToPath(new URL('../', import.meta.url));
 const readJSON = async path => JSON.parse(await readFile(root + path, 'utf8'));
 const current = await readJSON('docs/corpus-edition-status.json');
 const evidence = await readJSON('scripts/pending-triage-evidence.json');
+const tangReview = await readJSON('scripts/tang-source-readings.json');
+const tangDeferred = new Map(tangReview.deferred.map(row => [`${row.id}:${row.index}`, row]));
 const manifest = await readJSON('scripts/corpus-sources.json');
 const confirmationFiles = ['shijing-confirmed-contexts.json', 'shijing-confirmed-meanings.json', 'shijing-confirmed-glosses.json', 'corpus-confirmed-headwords.json'];
 const confirmationData = await Promise.all(confirmationFiles.map(file => readJSON('scripts/' + file)));
@@ -89,6 +92,7 @@ const workTypes = {
   'glyph-headword': { label: '異體或字庫詞頭對應待確認', priority: 1, nextStep: '核對替代詞頭的原韻書釋義及本句用法；相容字形只作查字線索，不全域替換正文。' },
   'loanword-headword': { label: '有借讀或同音詞頭線索', priority: 2, nextStep: '尋找本句通假或訓詁證據；與另一字同音只提供線索，不能直接確認借讀。' },
   'source-spelling-unmapped': { label: '原拼音格式或音系待核', priority: 1, nextStep: '核對原拼音方案、排印與轉換規則；未映射的拼音不等於缺音，不擅改為最相近字串。' },
+  'source-text-pairing': { label: '正文與原注所指詞待核', priority: 1, nextStep: '按具體詩句核對原注所據用字；原音能轉換不等於當前正文已配對，確認版本後再採讀。' },
   'local-order-mismatch': { label: '正文與原音局部次序疑有差異', priority: 1, nextStep: '比對原注正文與完整版本，確認語序後重建配對；不逕行交换相鄰讀音。' },
   'edition-mismatch': { label: '另本文字更合原標音', priority: 1, nextStep: '查明原標音所依完整版本；保留現版和另本，不能僅為符合音注拼接正文。' },
   'source-dictionary-unresolved': { label: '原標音與詞頭音義仍待互證', priority: 2, nextStep: '按具體詞義、字形和原注音系回查韻書；字庫不合本身不足以證明原注有誤。' },
@@ -101,6 +105,14 @@ const workTypes = {
 };
 function classifyWork(doc, p, reviewed) {
   if (doc.alignmentError) return 'alignment-gap';
+  const latestTang = tangDeferred.get(`${doc.id}:${p.index}`);
+  if (latestTang) return {
+    'source-annotator-uncertain': 'missing-or-questioned-source',
+    'source-reading-missing': 'missing-or-questioned-source',
+    'text-or-headword-pairing': 'source-text-pairing',
+    'source-spelling-unconverted': 'source-spelling-unmapped',
+    'possible-source-transcription-error': 'source-spelling-unmapped',
+  }[latestTang.reason] || 'source-dictionary-unresolved';
   if (doc.pack !== 'shijing') {
     let category = reviewed?.earlier?.category;
     if (!category || category === 'alignment-gap') {
@@ -160,15 +172,20 @@ for (const pack of ['classics', 'analects', 'tang', 'shijing']) {
   packs[pack] = new Map(JSON.parse(bytes).documents.map(d => [d.id, d]));
 }
 const rows = current.documents.flatMap(doc => doc.pending.map(p => {
-  const token = packs[doc.pack].get(doc.id).tokens.filter(t => isHan(t.char))[p.index];
+  const currentDocument = packs[doc.pack].get(doc.id);
+  const token = currentDocument.tokens.filter(t => isHan(t.char))[p.index];
   if (token.char !== p.char || inspectToken(token).status !== p.status) throw new Error(`待核清單過期：${doc.id}:${p.index}`);
   const reviewed = curated.get(`${doc.id}:${p.index}`);
   const retained = deferred.get(`${doc.id}:${p.index}`);
   const currentReview = unresolvedReviews.get(`${doc.id}:${p.index}`);
-  if (retained && (retained.char !== p.char || retained.context !== p.context)) throw new Error(`保留異讀詞例已變：${doc.id}:${p.index}`);
-  if (reviewed && (reviewed.char !== p.char || reviewed.context !== p.context)) throw new Error(`詞例上下文改變：${doc.id}:${p.index}`);
+  // Older evidence describes the fixed text at that review stage. Subsequent
+  // scoped Tang corrections retain that text; never relabel an old quotation.
+  const earlierChars = rewindTangSourceReadings(currentDocument).tokens.filter(t => isHan(t.char));
+  const earlierContext = earlierChars.slice(Math.max(0, p.index - 6), p.index + 7).map(t => t.char).join('');
+  if (retained && (retained.char !== earlierChars[p.index].char || retained.context !== earlierContext)) throw new Error(`保留異讀詞例已變：${doc.id}:${p.index}`);
+  if (reviewed && (reviewed.char !== earlierChars[p.index].char || reviewed.context !== earlierContext)) throw new Error(`詞例上下文改變：${doc.id}:${p.index}`);
   for (const ref of reviewed?.earlier?.references || []) {
-    const raw = packs[doc.pack].get(doc.id), chars = raw.tokens.filter(t => isHan(t.char));
+    const raw = rewindTangSourceReadings(currentDocument), chars = raw.tokens.filter(t => isHan(t.char));
     if (ref.kind === 'neighbor-source-reading') {
       if (chars[ref.index]?.char !== ref.char || chars[ref.index]?.sourceReading !== ref.sourceReading) throw new Error(`鄰字原音不符：${doc.id}:${p.index}`);
       ref.verification = 'checked-against-current-corpus';
@@ -180,23 +197,35 @@ const rows = current.documents.flatMap(doc => doc.pending.map(p => {
   }
   const work = classifyWork(doc, p, reviewed), detail = mappingDetail(p);
   const nextSteps = ['recoverable', 'earlier', 'historical'].flatMap(kind => reviewed?.[kind]?.nextStep && !(kind === 'earlier' && reviewed.earlier.category === 'alignment-gap' && !doc.alignmentError) ? [{ kind, text: reviewed[kind].nextStep }] : []);
+  const latestTang = tangDeferred.get(`${doc.id}:${p.index}`);
+  const latestRhyme = currentDocument.provenance.rhymeReview?.notes.find(note => note.index === p.index);
   if (currentReview?.nextStep) nextSteps.unshift({kind:'current-review', text:currentReview.reason + ' ' + currentReview.nextStep});
   if (retained?.reason || retained?.basis) nextSteps.unshift({kind:'retained-evidence', text:retained.reason || retained.basis});
+  if (latestTang) nextSteps.unshift({ kind: 'tang-source-review', text: latestTang.basis });
+  if (latestRhyme) nextSteps.unshift({ kind: 'shijing-rhyme-review', text: latestRhyme.basis });
   if (!nextSteps.length) nextSteps.push({ kind: 'classification', text: workTypes[work].nextStep });
   return { pack: doc.pack, id: doc.id, title: doc.title, index: p.index, char: p.char, context: p.context, status: p.status,
     candidates: p.candidates, ...(p.sourceReading ? { sourceReading: p.sourceReading } : {}),
     evidenceClass: reviewed?.historical ? 'attested-historical-variants' : retained ? (retained.evidenceClass === 'documented-alternative-readings' ? 'attested-historical-variants' : retained.evidenceClass) || 'attested-historical-variants' : reviewed?.earlier?.explicitAlternatives || (/\//.test(p.sourceReading || '') && !/unknown|\?/.test(p.sourceReading || '')) ? 'annotator-explicit-alternatives' : 'not-established',
     workType: work, ...(reviewed?.earlier ? { workSubtype: reviewed.earlier.category } : {}), priority: workTypes[work].priority, nextSteps,
+    ...(latestTang ? { tangSourceReview: latestTang } : {}),
+    ...(latestRhyme ? { rhymeReview: { action: latestRhyme.action, basis: latestRhyme.basis, rhyme: latestRhyme.rhyme, addedPositions: latestRhyme.addedPositions } } : {}),
     ...(detail ? { mappingDetail: detail } : {}), ...(p.sourceNotes?.length ? { sourceNotes: p.sourceNotes } : {}),
     ...(reviewed ? { review: reviewed } : {}), ...(retained ? { retainedEvidence: retained } : {}), ...(currentReview ? { currentReview } : {}) };
 }));
 if (rows.length !== current.totals.pending) throw new Error('分類漏項');
 for (const entry of curated.values()) {
-  const raw = Object.values(packs).map(pack => pack.get(entry.id)).find(Boolean), chars = raw?.tokens.filter(t => isHan(t.char));
+  const currentDocument = Object.values(packs).map(pack => pack.get(entry.id)).find(Boolean);
+  const raw = currentDocument && rewindTangSourceReadings(currentDocument), chars = raw?.tokens.filter(t => isHan(t.char));
   if (!chars || chars[entry.index]?.char !== entry.char || chars.slice(Math.max(0, entry.index - 6), entry.index + 7).map(t=>t.char).join('') !== entry.context) throw new Error(`歷次覆核詞例失效：${entry.id}:${entry.index}`);
   if (entry.historical && inspectToken(chars[entry.index]).status === 'ready') throw new Error(`歷史多說被強定：${entry.id}:${entry.index}`);
 }
-for (const [key, entry] of deferred) if (!rows.some(r => `${r.id}:${r.index}` === key)) throw new Error(`新發現的待核字位被強定：${key}`);
+for (const [key, entry] of deferred) if (!rows.some(r => `${r.id}:${r.index}` === key)) {
+  const newerSelection = packs.tang.get(entry.id)?.provenance?.tangSourceReadings?.notes.find(note => note.index === entry.index);
+  if (!newerSelection || !tangReview.cases.some(rule => rule.id === entry.id && rule.index === entry.index && rule.position === newerSelection.position)) {
+    throw new Error(`新發現的待核字位被強定：${key}`);
+  }
+}
 const actualPending = Object.values(packs).flatMap(docs => [...docs.values()].flatMap(doc => doc.tokens.filter(t => isHan(t.char)).flatMap((token, index) => inspectToken(token).status !== 'ready' ? [`${doc.id}:${index}`] : []))).sort();
 if (JSON.stringify(actualPending) !== JSON.stringify(rows.map(r => `${r.id}:${r.index}`).sort())) throw new Error('全庫待核字位與分類覆蓋不一致');
 for (const diagnosis of evidence.alignmentDiagnostics) {
@@ -204,10 +233,12 @@ for (const diagnosis of evidence.alignmentDiagnostics) {
   if (!doc || doc.tokens.map(t => t.char).join('') !== diagnosis.originalText || doc.provenance.originalRomanization !== diagnosis.originalRomanization || (doc.provenance.alignmentError || doc.provenance.corpusAlignmentReview?.alignment?.previousAlignmentError) !== diagnosis.error || doc.tokens.filter(t => isHan(t.char)).length !== diagnosis.characters) throw new Error(`整段對齊診斷過期：${diagnosis.id}`);
 }
 const counts = (key, subset = rows) => subset.reduce((r, row) => ({ ...r, [row[key]]: (r[row[key]] || 0) + 1 }), {});
-const output = { version: 2, editedOn: evidence.editedOn, scope: '本輪有據確認後，四包全部剩餘待核字位；確認及更正另見 corpus-confirmation-review.json。',
+const output = { version: 2, editedOn: evidence.editedOn, scope: '唐詩按原注採讀、詩經音義與章韻覆核後，四包全部剩餘待核字位；歷次確認另見 corpus-confirmation-review.json，最新依據見 scripts/tang-source-readings.json 和 scripts/shijing-rhyme-review.json。',
   indexConvention: 'index 為不含標點的零起始漢字索引。',
   interpretation: 'evidenceClass 記錄目前已核到的多說證據；workType 記錄現行建置的配對或選讀卡點，不代表人工覆核未找到新證據。兩個維度分開計數。同一字位可同時有傳統異讀及配對問題。not-established 不表示沒有歷史異讀。nextSteps 保留修復工作與古注取捨兩方面的要求。',
   inputHashes, evidenceInputSha256: hash(await readFile(root + 'scripts/pending-triage-evidence.json')), workTypes,
+  tangSourceReviewSha256: hash(await readFile(root + 'scripts/tang-source-readings.json')),
+  shijingRhymeReviewSha256: hash(await readFile(root + 'scripts/shijing-rhyme-review.json')),
   historicalPhonology: evidence.historicalPhonology,
   historicalPhonologyScope: '僅前輪已核183字位的換算分級；本輪新發現另讀未併入這一分級統計。',
   baselineEarlierSubtypeCounts: evidence.earlierSubtypeCounts,

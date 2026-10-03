@@ -6,6 +6,7 @@ import { reviewCorpusAlignment } from '../scripts/corpus-alignment-review.mjs';
 import rules from '../scripts/corpus-alignment-review.json' with { type: 'json' };
 import { convertReading, isHan, syllablesIn } from '../src/polyhedron.js';
 import { documentStatus, inspectToken, parseImport, exportDocument } from '../src/corpus.js';
+import { rewindTangSourceReadings } from '../scripts/tang-source-readings.mjs';
 
 const hash = value => createHash('sha256').update(value).digest('hex');
 const originalAlignment = rule => ({ id: rule.id, title: rule.title,
@@ -14,7 +15,7 @@ const originalAlignment = rule => ({ id: rule.id, title: rule.title,
 const han = doc => doc.tokens.filter(token => isHan(token.char));
 async function originalAnnotated(id) {
   const pack = id.startsWith('poly-analects-') ? 'analects' : 'tang';
-  const raw = JSON.parse(await readFile(new URL(`../public/corpora/${pack}.json`, import.meta.url), 'utf8')).documents.find(d => d.id === id);
+  const raw = rewindTangSourceReadings(JSON.parse(await readFile(new URL(`../public/corpora/${pack}.json`, import.meta.url), 'utf8')).documents.find(d => d.id === id));
   const { corpusAlignmentReview, ...provenance } = raw.provenance;
   const tokens = raw.tokens.map(token => isHan(token.char) ? convertReading(token.char, token.sourceReading) : { char: token.char });
   // A subsequent verified edition may have already put this pair in source order.

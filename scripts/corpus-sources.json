@@ -281,5 +281,37 @@
     "repository": "https://github.com/nk2028/tshet-uinh-data",
     "license": "CC0-1.0",
     "sourcePath": "LICENSE"
+  },
+  {
+    "file": "pboc-base.json.gz",
+    "repository": "https://github.com/Qwert-ly/xtext",
+    "commit": "a3862472dc25ee4b3b74961c9d87e5f2f19f982f",
+    "url": "https://raw.githubusercontent.com/Qwert-ly/xtext/a3862472dc25ee4b3b74961c9d87e5f2f19f982f/docs/base.json.gz",
+    "sha256": "401d0334bd09de8b4bd500ae65091d526acbad61bdbc6b894c43cc2848c603a1",
+    "license": "模型倉庫未明示授權；建置時讀取固定快取，只輸出本次所需音位事實及來源連結"
+  },
+  {
+    "file": "pboc-extra.json.gz",
+    "repository": "https://github.com/Qwert-ly/xtext",
+    "commit": "a3862472dc25ee4b3b74961c9d87e5f2f19f982f",
+    "url": "https://raw.githubusercontent.com/Qwert-ly/xtext/a3862472dc25ee4b3b74961c9d87e5f2f19f982f/docs/extra.json.gz",
+    "sha256": "90dca066b4748fad0f2a9d9de5b3584d81884d7ab7e70ee4a3efada5a2d3f237",
+    "license": "模型倉庫未明示授權；建置時讀取固定快取，只輸出本次所需音位事實及來源連結"
+  },
+  {
+    "file": "KR1j0057_007.txt",
+    "repository": "https://github.com/kanripo/KR1j0057",
+    "commit": "17674413224bd1fb54efaac2a865d2bf03be7133",
+    "url": "https://raw.githubusercontent.com/kanripo/KR1j0057/17674413224bd1fb54efaac2a865d2bf03be7133/KR1j0057_007.txt",
+    "sha256": "87b4cf18f4d61e45dc026f15a58a6b7c32a3ac848f9e6c8eb39dfaf1fbbc83dc",
+    "license": "《集韻》原典公有領域；Kanripo 四庫全書轉錄未明示整理授權"
+  },
+  {
+    "file": "KR1j0057_009.txt",
+    "repository": "https://github.com/kanripo/KR1j0057",
+    "commit": "17674413224bd1fb54efaac2a865d2bf03be7133",
+    "url": "https://raw.githubusercontent.com/kanripo/KR1j0057/17674413224bd1fb54efaac2a865d2bf03be7133/KR1j0057_009.txt",
+    "sha256": "f5552852c94bccbb6fc83f75e433aa36aef98c3c3834ea010e4819ef354872bb",
+    "license": "《集韻》原典公有領域；Kanripo 四庫全書轉錄未明示整理授權"
   }
 ]

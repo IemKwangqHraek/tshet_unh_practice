@@ -180,14 +180,29 @@ export function practiceTokens(doc) {
 }
 
 export function suggestions(token) {
-  const suggested = readingsFor(token.char);
-  for (const position of token.positions ?? []) {
+  const suggested = readingsFor(token.char).map(reading => ({ ...reading, origins: ['dictionary'] }));
+  const annotations = [...new Set([...(token.positions ?? []), ...(token.position ? [token.position] : [])])];
+  for (const position of annotations) {
     try {
       const reading = derive(position, token.char);
-      if (!suggested.some(r => r.position === reading.position)) suggested.unshift({ ...reading, fanqie: '原始標註' });
+      const origins = [
+        ...((token.positions ?? []).includes(position) ? ['annotation'] : []),
+        ...(token.position === position ? ['selected'] : []),
+      ];
+      const existing = suggested.find(r => r.position === reading.position);
+      if (existing) existing.origins.push(...origins);
+      else suggested.unshift({ ...reading, origins, fanqie: origins.includes('annotation') ? '原始標註' : '目前選讀' });
     } catch { /* Invalid original annotations remain visible in the review row. */ }
   }
   return suggested;
+}
+
+export function hasReadingAlternatives(token) {
+  if (!isHan(token.char)) return false;
+  if (suggestions(token).length > 1) return true;
+  const sourceAlternatives = (token.sourceReading || '').split('/')
+    .filter(spelling => spelling !== 'unknown' && /^[a-z]+(?:'[a-z]+)*$/i.test(spelling));
+  return new Set(sourceAlternatives).size > 1;
 }
 
 export function exportDocument(doc) {

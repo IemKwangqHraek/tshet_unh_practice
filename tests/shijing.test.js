@@ -5,6 +5,7 @@ import TshetUinh from 'tshet-uinh';
 import { parseImport, exportDocument, documentStatus, inspectToken, practiceTokens } from '../src/corpus.js';
 import { contextualNotes, normalizeChar, normalizeSoundChar, parseCommentary, pairCommentary, resolveNote, initialSoundGloss } from '../scripts/shijing-commentary.mjs';
 import { shijingTexts } from '../scripts/shijing.mjs';
+import { rewindShijingRhymeReview } from '../scripts/shijing-rhyme-review.mjs';
 import { parseRhymeCsv, validateRhymeReference } from '../scripts/shijing-rhyme-books.mjs';
 import { createSession, inputKey } from '../src/session.js';
 import { catalogueView, reviewView } from '../src/views.js';
@@ -103,10 +104,11 @@ test('whole-book edition preserves all 305 bodies, uncertainty and auditable sel
     assert.equal(stats.skipped,0,doc.title);
     groups[raw.provenance.section]=(groups[raw.provenance.section]||0)+1;
     const chars=doc.tokens.filter(token=>/\p{Script=Han}/u.test(token.char));
+    const precedingChars=rewindShijingRhymeReview(doc).tokens.filter(token=>/\p{Script=Han}/u.test(token.char));
     const unresolved=raw.provenance.pendingReadings||[];
     assert.equal(unresolved.length,stats.pending,doc.title);
     for(const item of unresolved){assert.equal(chars[item.index].char,item.char);assert.notEqual(inspectToken(chars[item.index]).status,'ready');}
-    for(const token of chars) {
+    for(const [index,token] of chars.entries()) {
       if(token.position&&!token.confirmed) assert.ok(TshetUinh.資料.query字頭(token.char).some(entry=>entry.音韻地位.描述===token.position),token.char);
       if(token.audit?.[0]?.action==='source-selection') {
         const note=raw.provenance.readingNotes.find(note=>note.id===token.audit[0].references[0].noteId);
@@ -114,7 +116,7 @@ test('whole-book edition preserves all 305 bodies, uncertainty and auditable sel
         assert.ok(note.basis&&note.references.length);
       }
       const original=[...new Set(TshetUinh.資料.query字頭(token.char).map(entry=>entry.音韻地位.描述))];
-      if(original.length)assert.deepEqual([...token.positions].sort(),original.sort(),token.char);
+      if(original.length)assert.deepEqual([...precedingChars[index].positions].sort(),original.sort(),token.char);
       if(token.confirmed)assert.ok(token.audit?.length,token.char);
     }
     const [again]=parseImport(JSON.stringify(exportDocument(doc)),'json');
