@@ -2,9 +2,11 @@
 
 ## 本地方案與鍵位
 
-`src/scheme.js` 是 TU3K 倉庫 `prengQvm.js` 的函數包裝快照，使用相同的全拼、三段與三拼推導規則。來源提交為 `36773009a44262afdfa0db5d4048c1f905aabea1`；雜湊、資料數量與採用的「韻」讀音記錄在 [snapshot.json](snapshot.json)。
+`src/scheme.js` 是 TU3K 倉庫 `prengQvm.js` 的函數包裝快照，使用相同的全拼、三段與三拼推導規則。來源提交為 `f68b7f0b690f00a6134715b348d99cfe72123213`；雜湊、資料數量與採用的「韻」讀音記錄在 [snapshot.json](snapshot.json)。
 
 鍵表來自 `config/keyboards/default.json`，固定音節表來自 `data/positions.tsv`。3,809 個音節為已驗證的 3,808 個音韻地位加本方案補充「怎」，不宣稱覆蓋所有理論音韻地位。有效的導入讀音也會加入當次候選篩選。
+
+2026-10-31 同步莊組蒸韻 B 拼式：7 個地位的 `rv` 改為 `ri`，如色 `srik`、測 `tshrik`、側 `tsrik`；知組仍用 C 拼式，如陟 `trvk`。三拼配鍵不變，音節快照與方案同時更新。語料保存音韻地位，載入與練習時依現行方案推導；恢復未完成進度時也會更新尚未完成的字音。已完成的歷史成績保留當時答案與錯鍵紀錄。
 
 本方案原始上游為 [IemKwangqHraek/prengQvm](https://github.com/IemKwangqHraek/prengQvm)。新專案標為 private，未替來源未明示授權的方案另行宣告開源授權。
 

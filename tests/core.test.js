@@ -2,7 +2,7 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { derive, syllables, keyCandidates, allKeyParts } from '../src/phonology.js';
 import { parseImport, documentStatus, confirmToken, skipToken, practiceTokens, exportDocument, escapeHTML } from '../src/corpus.js';
-import { createSession, inputKey, pause, resume, elapsedMs, sessionStats, mistakeTokens } from '../src/session.js';
+import { createSession, restoreSession, inputKey, pause, resume, elapsedMs, sessionStats, mistakeTokens } from '../src/session.js';
 import { defaultSettings, loadState, saveState, cleanSettings } from '../src/storage.js';
 import { practiceView, reviewView } from '../src/views.js';
 import samples from '../src/data/samples.json' with { type: 'json' };
@@ -26,6 +26,65 @@ test('bundled scheme reproduces every verified syllable and its fixed key fragme
     assert.deepEqual(actual.parts, row.parts, row.position);
     for (let stage=0;stage<3;stage++) assert.ok(allKeyParts(stage)[row.triple[stage]].includes(row.parts[stage]));
   }
+});
+
+test('Zhuang Zheng uses class B spelling while Zhi stays class C, retaining the three keys', () => {
+  const fixtures = [
+    ['生開三蒸平', '㱡', 'sring', 'LPL'], ['生開三蒸上', '㱡', 'sringq', 'LPG'],
+    ['崇開三蒸平', '磳', 'dzring', 'VPL'], ['崇開三蒸入', '崱', 'dzrik', 'VPS'],
+    ['初開三蒸入', '測', 'tshrik', 'EPS'], ['生開三蒸入', '色', 'srik', 'LPS'],
+    ['莊開三蒸入', '側', 'tsrik', 'RPS'], ['知開三蒸入', '陟', 'trvk', 'FPS'],
+    ['徹開三蒸入', '敕', 'thrvk', 'BPS'], ['澄開三蒸入', '直', 'drvk', 'GPS'],
+    ['孃開三蒸入', '匿', 'nrvk', 'TPS'],
+  ];
+  for (const [position, char, full, triple] of fixtures) {
+    const actual = derive(position, char);
+    assert.equal(actual.full, full);
+    assert.equal(actual.triple, triple);
+    assert.equal(actual.parts[1], '莊初崇生俟'.includes(position[0]) ? 'ri' : 'rv');
+  }
+  const [doc] = parseImport('色(生開三蒸入)測(初開三蒸入)陟(知開三蒸入)', 'txt');
+  assert.deepEqual(practiceTokens(doc).map(t => t.full), ['srik', 'tshrik', 'trvk']);
+  for (const variant of ['full', 'three']) {
+    const session = createSession(practiceTokens(doc), variant);
+    for (const reading of session.tokens) {
+      for (const key of variant === 'full' ? reading.full : reading.triple) inputKey(session, key, 0);
+      if (variant === 'full') inputKey(session, ' ', 0);
+    }
+    assert.equal(session.finished, true);
+    assert.deepEqual(session.errors, []);
+  }
+});
+
+test('restoring full spelling progress refreshes the answer and clears an obsolete current buffer', () => {
+  const updated = { ...derive('生開三蒸入', '色'), char: '色', sourceIndex: 0 };
+  const old = { ...updated, full: 'srvk', parts: ['s', 'rv', 'k'] };
+  const saved = createSession([old], 'full');
+  for (const key of 'srv') inputKey(saved, key, 100);
+  const restored = restoreSession(saved, [updated]);
+  assert.equal(restored.tokens[0].full, 'srik');
+  assert.equal(restored.buffer, '');
+  assert.equal(restored.wrong, false);
+  assert.equal(restored.paused, true);
+  assert.equal(restored.runningSince, null);
+  assert.equal(restored.attempts, saved.attempts);
+  assert.equal(saved.tokens[0].full, 'srvk');
+  assert.equal(saved.buffer, 'srv');
+  resume(restored, 200);
+  for (const key of 'srik') inputKey(restored, key, 300);
+  assert.equal(inputKey(restored, ' ', 400), 'finished');
+});
+
+test('restoring three-key progress refreshes fragments and retains the unchanged prefix', () => {
+  const updated = { ...derive('生開三蒸入', '色'), char: '色', sourceIndex: 0 };
+  const saved = createSession([{ ...updated, full: 'srvk', parts: ['s', 'rv', 'k'] }], 'three');
+  for (const key of 'LP') inputKey(saved, key, 100);
+  const restored = restoreSession(saved, [updated]);
+  assert.equal(restored.buffer, 'LP');
+  assert.deepEqual(restored.tokens[0].parts, ['s', 'ri', 'k']);
+  resume(restored, 200);
+  assert.equal(inputKey(restored, 'S', 300), 'finished');
+  assert.equal(restored.correct, 3);
 });
 
 test('current-key filtering preserves only legal fragments for the entered prefix', () => {

@@ -5,6 +5,14 @@ export function createSession(tokens, variant = 'three', settings = {}, now = 0)
     correct: 0, attempts: 0, errors: [], elapsed: 0, runningSince: null, paused: false, finished: false, createdAt: now };
 }
 
+// Refresh unfinished readings after a scheme update, preserving the recorded progress.
+export function restoreSession(saved, tokens) {
+  const expected = reading => saved.variant === 'three' ? reading.triple : reading.full;
+  const changed = expected(saved.tokens[saved.cursor]) !== expected(tokens[saved.cursor]);
+  return { ...saved, tokens, runningSince: null, paused: true,
+    ...(changed ? { buffer: '', wrong: false } : {}) };
+}
+
 export function elapsedMs(session, now) {
   return session.elapsed + (session.runningSince === null ? 0 : Math.max(0, now - session.runningSince));
 }

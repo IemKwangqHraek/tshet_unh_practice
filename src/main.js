@@ -3,7 +3,7 @@ import './app.css';
 import sampleTexts from './data/samples.json' with { type: 'json' };
 import { derive } from './phonology.js';
 import { parseImport, documentStatus, practiceTokens, confirmToken, skipToken, exportDocument, escapeHTML as e, newId } from './corpus.js';
-import { createSession, inputKey, pause, resume, sessionStats, mistakeTokens } from './session.js';
+import { createSession, restoreSession, inputKey, pause, resume, sessionStats, mistakeTokens } from './session.js';
 import { loadState, saveState, cleanSettings, STORAGE_KEY } from './storage.js';
 import { catalogueEntries, loadCatalogueDocument } from './catalogue.js';
 import { getCatalogueSourceId, createCatalogueUpdateCopy } from './corpus-update.js';
@@ -46,9 +46,9 @@ if (loaded.data) {
     if (loaded.data.activeSession && documents.some(d => d.id === loaded.data.sessionDocumentId)) {
       const saved = loaded.data.activeSession;
       if (!saved.finished && Array.isArray(saved.tokens) && saved.cursor >= 0 && saved.cursor < saved.tokens.length && Array.isArray(saved.errors)) {
-        activeSession = saved;
-        activeSession.runningSince = null;
-        activeSession.paused = true;
+        const tokens = saved.tokens.map((token, index) => index < saved.cursor ? token
+          : { ...token, ...derive(token.position, token.char) });
+        activeSession = restoreSession(saved, tokens);
         sessionDocumentId = loaded.data.sessionDocumentId;
       }
     }
