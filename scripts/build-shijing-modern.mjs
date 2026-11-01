@@ -5,18 +5,23 @@ import assert from 'node:assert/strict';
 
 const root = new URL('../', import.meta.url);
 const read = async path => JSON.parse(await readFile(new URL(path, root), 'utf8'));
-const [pilot, snapshot, previousAdditions, newAdditions, latestAdditions, corpus, firstAudit, nextAudit, latestAudit] = await Promise.all([
+const [pilot, snapshot, previousAdditions, newAdditions, latestAdditions, remainderAdditions, recheckedAdditions, readingRechecks, corpus, firstAudit, nextAudit, latestAudit, remainderAudit, recheckAudit] = await Promise.all([
   read('src/data/shijing-zhou-nan-pilot.json'), read('scripts/snapshots/shijing-yuan-modern.json'),
   read('scripts/shijing-modern-reviewed.json'), read('scripts/shijing-modern-reviewed-100.json'),
   read('scripts/shijing-modern-reviewed-500.json'),
+  read('scripts/shijing-modern-reviewed-remainder.json'), read('scripts/shijing-modern-reviewed-recheck.json'),
+  read('scripts/shijing-modern-reading-rechecks.json'),
   read('public/corpora/shijing.json'), read('scripts/shijing-ocr-audit.json'), read('scripts/shijing-ocr-audit-100.json'),
   read('scripts/shijing-ocr-audit-500.json'),
+  read('scripts/shijing-ocr-audit-remainder.json'), read('scripts/shijing-ocr-audit-recheck.json'),
 ]);
-const additions = [...previousAdditions, ...newAdditions, ...latestAdditions];
-const audits = [firstAudit, nextAudit, latestAudit];
-const audit = latestAudit;
+const additions = [...new Map([...previousAdditions, ...newAdditions, ...latestAdditions, ...remainderAdditions, ...recheckedAdditions].map(row=>[row.unit,row])).values()].filter(row=>!row.remove).sort((a,b)=>a.unit-b.unit);
+const audits = [firstAudit, nextAudit, latestAudit, remainderAudit, recheckAudit];
+const audit = remainderAudit;
 const checks = audits.flatMap(batch=>batch.checks.map(check=>({...check,batchId:batch.id,checkedOn:batch.checkedOn})));
 const checksById = new Map(checks.map(check=>[check.unitId,check]));
+const historyById = new Map();
+for (const check of checks) historyById.set(check.unitId,[...historyById.get(check.unitId)||[],check]);
 assert.equal(snapshot.units.length, 2129);
 assert.equal(snapshot.poems.length, 305);
 assert.equal(snapshot.untexted.length, 6);
@@ -26,16 +31,17 @@ for (const batch of audits) {
   assert.equal(batch.sourcePdfSha256, snapshot.sourcePdfSha256);
   assert.equal(new Set(batch.checks.map(c=>c.unitId)).size, batch.expectedCount || 10);
 }
-assert.equal(checksById.size,610);
+assert.equal(checksById.size,2088);
 assert.deepEqual(nextAudit.checks.map(c=>c.unit),Array.from({length:100},(_,i)=>54+i));
 assert.deepEqual(latestAudit.checks.map(c=>c.unit),Array.from({length:500},(_,i)=>154+i));
+assert.deepEqual(remainderAudit.checks.map(c=>c.unit),Array.from({length:1476},(_,i)=>654+i));
 for (const check of checks) {
   const unit = snapshot.units.find(u=>u.id===check.unitId);
   assert.equal(check.pdfPage, check.page + 25);
   assert.equal(check.decisions.length, unit.candidates.length);
   assert.deepEqual(check.decisions.map(d=>d.candidate), unit.candidates.map((_,i)=>i));
   check.decisions.forEach(d=>assert.equal(d.ocr, unit.candidates[d.candidate].text));
-  for(const page of check.continuationPages || []) assert.ok(page>check.page && page<=236);
+  for(const page of check.continuationPages || []) assert.ok(page>check.page && page<=860);
   for(const glyph of check.pendingGlyphs || []) assert.deepEqual(glyph.pdfPages,glyph.printPages.map(p=>p+25));
 }
 
@@ -49,10 +55,11 @@ const entries = [...pilot.entries.map(row => ({
   assert.ok(positions.length);
   for(const reading of row.readings) {
     assert.ok(doc.tokens.map(t=>t.char).join('').includes(reading.base || row.base), `${row.unit}: reading anchor`);
-    if(row.auditId===latestAudit.id) assert.notEqual(reading.text,reading.base || row.base, `${row.unit}: unchanged reading`);
+    if([latestAudit.id,remainderAudit.id,recheckAudit.id].includes(row.auditId)) assert.notEqual(reading.text,reading.base || row.base, `${row.unit}: unchanged reading`);
   }
   return {id:`modern-yuan-${String(row.unit).padStart(4,'0')}`,poemId:row.poemId,title:doc.title,
     lemma:row.lemma,baseText:row.baseText,base:row.base,note:row.note,positions,auditId:row.auditId,
+    auditHistory:[...new Set((historyById.get(`yuan2013-${String(row.unit).padStart(4,'0')}`)||[]).map(c=>c.batchId))],
     sourceUnitIds:[`yuan2013-${String(row.unit).padStart(4,'0')}`],
     section:'袁書續輯',status:'現代整理頁已核',disputed:false,
     verification:'現代整理頁已逐圖核字；所引古籍原件尚未全面覆核。',
@@ -60,6 +67,13 @@ const entries = [...pilot.entries.map(row => ({
       evidence:[{sourceId:'yuan2013',printPages:[row.page,...row.continuationPages||[]],pdfPages:[row.page,...row.continuationPages||[]].map(p=>p+25),
       witness:r.witness,schools:r.schools,scope:r.scope || (r.schools.length ? '分家' : '未定'),basis:r.basis,note:r.note||''}]}))};
 })];
+for (const patch of readingRechecks) {
+  const row = entries.find(row=>row.id===patch.entryId);
+  assert.ok(row?.readings[patch.reading], `missing glyph recheck: ${patch.entryId}`);
+  Object.assign(row.readings[patch.reading],patch.set);
+  if(patch.evidenceNote) row.readings[patch.reading].evidence.forEach(ref=>ref.note=[ref.note,patch.evidenceNote].filter(Boolean).join(' '));
+  row.auditHistory=[...new Set([...(row.auditHistory||[]),recheckAudit.id])];
+}
 // Explicit reviewed index labels. The original OCR is retained alongside them.
 const reviewedLabels = ['關關','洲','逑','荇','左右流之','左右芼之','服','輾','鍾鼓',
   '覃','維','灌','濩','斁','虺隤','姑','岡','兕觥','吁','樛','縈','詵詵','繩繩',
@@ -74,6 +88,7 @@ const units = snapshot.units.map((unit, i) => {
     indexReviewed: !!(related.length || check),
     reviewedEntryIds: related.map(row => row.id),
     ...(check ? {ocrAudit:check} : {}),
+    ...(historyById.get(unit.id)?.length>1 ? {ocrAuditHistory:historyById.get(unit.id)} : {}),
     // Draft candidates and their family mentions are never promoted by a match.
     candidateStatus: '機器抽取待核', schools: [],
   };
@@ -81,9 +96,9 @@ const units = snapshot.units.map((unit, i) => {
 const linkedIndexItems = units.filter(unit => unit.reviewedEntryIds.length).length;
 const reviewedIndexItems = units.filter(unit => unit.indexReviewed).length;
 assert.equal(linkedIndexItems,35+new Set(additions.map(row=>row.unit)).size);
-assert.equal(reviewedIndexItems,653);
+assert.equal(reviewedIndexItems,2129);
 const unlinkedReviewedItems = reviewedIndexItems-linkedIndexItems;
-const pendingAuditItems = checks.filter(c=>c.pendingGlyphs?.length).length;
+const pendingAuditItems = units.filter(unit=>unit.ocrAudit?.pendingGlyphs?.length).length;
 const poems = snapshot.poems.map(poem => ({...poem,
   reviewedRecords: entries.filter(row => row.poemId === poem.id).length,
   reviewedIndexItems: units.filter(unit => unit.poemId === poem.id && unit.indexReviewed).length,
@@ -96,14 +111,14 @@ const index = {version: 1, title: '詩經異文全書工作索引', source,
 const indexJson = JSON.stringify(index, null, 2) + '\n';
 const result = {
   version: 1, editedOn: audit.checkedOn, title: '詩經異文輯錄',
-  coverage: `全305篇可查袁書索引，共2129個條目；其中${reviewedIndexItems}個索引項已回查，${linkedIndexItems}項連結${entries.length}筆校讀，另${unlinkedReviewedItems}項因訓義或待辨字形等未新增校讀；已回查項中${pendingAuditItems}項仍有部分字形／字碼待辨。已核記錄覆蓋${new Set(entries.map(r=>r.poemId)).size}篇，未表示各篇已輯盡；其餘字頭與作字句候選為OCR工作底稿，尚待逐圖核定。《集校》目前僅前十首補證。`,
-  verification: '前十首核對袁書印刷頁3–17（PDF第28–42頁）。續批100項核對正文印刷頁21–54（PDF第46–79頁）及附錄索引印刷頁889–893（PDF第914–918頁）；續批500項回查第154–653索引項，核對正文印刷頁54–236（PDF第79–261頁）與附錄索引印刷頁893–918（PDF第918–943頁）。《集校》核對各條引用頁。已核指現代整理頁；所引古籍原件尚未全面覆核。部分字形／字碼仍待辨，列出回查頁碼，少數另附小字圖。',
+  coverage: `全305篇可查袁書索引，共2129個條目；其中${reviewedIndexItems}個索引項已回查，${linkedIndexItems}項連結${entries.length}筆校讀，另${unlinkedReviewedItems}項因訓義或待辨字形等未新增校讀；已回查項中${pendingAuditItems}項仍有部分字形／字碼待辨。已核記錄覆蓋${new Set(entries.map(r=>r.poemId)).size}篇，未表示各篇已輯盡；原OCR字頭與作字句候選保留為工作底稿，取捨見逐項核對記錄。《集校》目前僅前十首補證。`,
+  verification: '前十首及早期續輯核對袁書印刷頁3–21；續批100項核對印刷頁21–54，續批500項核對54–236；餘下1476項逐圖回查正文印刷頁236–860（PDF261–885）及索引印刷頁918–984（PDF943–1009），跨頁續讀。另覆查前批84個待辨索引項與7處未定字形，保留每次報告及最新結果。《集校》目前僅前十首補證。已核指現代整理頁；所引古籍原件尚未全面覆核，部分字形／字碼仍待辨。',
   textPolicy: pilot.textPolicy, attributionPolicy: pilot.attributionPolicy, glyphPolicy: pilot.glyphPolicy,
   progress: {totalPoems: poems.length, indexItems: units.length, reviewedIndexItems, linkedIndexItems,
     reviewedPoems: poems.filter(poem => poem.reviewedRecords).length, reviewedRecords: entries.length,
     disputedRecords: entries.filter(row => row.disputed).length,
     pendingGlyphs: entries.flatMap(row => row.readings).filter(r => r.glyphStatus).length,
-    pendingAuditItems,
+    pendingAuditItems, auditedIndexItems:checksById.size,
     unreviewedIndexItems: units.filter(unit => !unit.indexReviewed).length,
     ...snapshot.totals},
   workIndex: {url:'collations/shijing-modern-index.json', textUrl:'collations/shijing-modern-index.txt',
@@ -113,8 +128,8 @@ const result = {
     selection:audit.selection},
   ocrAudits: audits.map(batch=>({id:batch.id,checkedOn:batch.checkedOn,count:batch.checks.length,
     url:`collations/shijing-${batch.id}.json`,textUrl:`collations/shijing-${batch.id}.txt`,selection:batch.selection,
-    pendingGlyphItems:batch.totals?.pendingGlyphItems || 0})),
-  sources: pilot.sources.map(s=>s.id==='yuan2013' ? {...s,use:s.use+` 續輯另核印刷頁17–236，共增${additions.length}筆（含文字學相關字與未編碼字形）；部分索引字形另標待辨。`} : s), poems, entries, corrections: pilot.corrections,
+    pendingGlyphItems:batch.totals?.pendingGlyphItems || 0,kind:batch.kind||'initial'})),
+  sources: pilot.sources.map(s=>s.id==='yuan2013' ? {...s,use:s.use+` 續輯另核印刷頁17–860，共增${additions.length}筆（含文字學相關字與未編碼字形）；部分索引字形另標待辨。`} : s), poems, entries, corrections: pilot.corrections,
 };
 const family = ref=>ref.scope==='三家未分' ? ref.scope : ref.schools.length ? ref.schools.map(s=>s+'詩').join('、') : '未定家別';
 const reviewedText = [result.title+'・已核記錄',result.coverage,result.verification,result.textPolicy,'',
@@ -130,7 +145,7 @@ const indexText = [index.title,index.policy,
     ...units.filter(unit => unit.poemId === poem.id).flatMap(unit => [
       `[${unit.id}] ${unit.lemma}（${unit.status}）`,
       `索引：印刷頁${unit.indexPrintPage}／PDF第${unit.indexPdfPage}頁；正文範圍：印刷頁${unit.bodyPrintRange.join('–')}／PDF第${unit.bodyPdfRange.join('–')}頁。`,
-      ...(unit.bodyMatch ? [`機器定位：印刷頁${unit.bodyMatch.printPage}／PDF第${unit.bodyMatch.pdfPage}頁，待核。`] : ['字頭未能唯一對句，請按正文範圍回查。']),
+      ...(unit.bodyMatch ? [`原OCR機器定位：印刷頁${unit.bodyMatch.printPage}／PDF第${unit.bodyMatch.pdfPage}頁；${unit.ocrAudit ? '核定見逐圖記錄' : '待核'}。`] : ['字頭未能唯一對句，請按正文範圍回查。']),
       ...(unit.reviewedEntryIds.length ? [`已核記錄：${unit.reviewedEntryIds.join('、')}`] : []),
       ...(unit.ocrAudit ? [`OCR逐圖核對（${unit.ocrAudit.checkedOn}；${unit.ocrAudit.batchId}）：${unit.ocrAudit.summary}`] : []),
       ...unit.candidates.map((c,i) => `  原OCR作字句候選${unit.ocrAudit ? '（核定見上項及核對報告）' : '（待核）'}：${c.text}；印刷頁${c.printPage}／PDF第${c.pdfPage}頁。上下文：${c.context}`),
@@ -161,4 +176,4 @@ for (const [path, content] of [
   if(process.argv.includes('--check')) assert.equal(await readFile(new URL(path,root),'utf8'),content,`${path} stale`);
   else await writeFile(new URL(path,root),content);
 }
-console.log(`全書：${poems.length}篇／${units.length}索引項；已核${reviewedIndexItems}項、${entries.length}筆記錄；原OCR候選${snapshot.totals.candidateReadings}項，另附${checks.length}項逐圖核對。`);
+console.log(`全書：${poems.length}篇／${units.length}索引項；已核${reviewedIndexItems}項、${entries.length}筆記錄；原OCR候選${snapshot.totals.candidateReadings}項，${checksById.size}項附逐項報告（含${recheckAudit.checks.length}項覆查）。`);

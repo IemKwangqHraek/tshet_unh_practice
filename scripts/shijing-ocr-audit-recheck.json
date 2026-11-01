@@ -1,0 +1,6197 @@
+{
+  "version": 1,
+  "id": "ocr-check-2026-11-01-recheck",
+  "kind": "recheck",
+  "checkedOn": "2026-11-01",
+  "title": "詩經異文前批91項字形覆查",
+  "sourceId": "yuan2013",
+  "sourcePdfSha256": "49be56a9ae517badc002fe930e844ef25f505e98a87db5825414b9b7531aab76",
+  "expectedCount": 91,
+  "selection": "覆查前500項報告中84個含待辨字形的索引項，另回查早期7處未定字形，共91個索引項；與既有批次重疊，不重複計入全書覆蓋數。",
+  "method": "重新視讀各項正文及續頁；核定可辨字碼、對照範圍與見證層次，未定者保留構件說明、雙頁碼及部分單字圖。字學／本字說的未編碼相關形體亦保留待辨，不能因非另一詩本便算已定碼。前批候選取捨沿錄，當次結論以覆查摘要及校讀為準；舊批次報告保留不改。所引古籍原件尚未全面覆核。",
+  "checks": [
+    {
+      "unit": 10,
+      "unitId": "yuan2013-0010",
+      "poemId": "shijing-002",
+      "title": "周南・葛覃",
+      "lemma": "覃",
+      "page": 7,
+      "pdfPage": 32,
+      "indexPdfPage": 911,
+      "indexPrintPage": 886,
+      "decisions": [],
+      "findings": [
+        {
+          "text": "蕈",
+          "schools": [],
+          "kind": "其他傳本",
+          "witness": "《釋文》《五經文字》《九經字樣》；陸德明《音義》異本"
+        },
+        {
+          "text": "〔覃之又作字，待辨〕",
+          "schools": [],
+          "kind": "字形待辨",
+          "witness": "《釋文》又作本"
+        }
+      ],
+      "continuationPages": [],
+      "summary": "2026-11-01再看印刷頁7：保存《釋文》第二個「本又作」的原字圖；形體與碼位仍待辨，不用近形字代錄。",
+      "status": "字形覆核",
+      "pendingGlyphs": [
+        {
+          "id": "10-recheck",
+          "label": "2026-11-01再看印刷頁7：保存《釋文》第二個「本又作」的原字圖；形體與碼位仍待辨，不用近形字代錄。",
+          "printPages": [
+            7
+          ],
+          "pdfPages": [
+            32
+          ]
+        }
+      ],
+      "glyphs": [
+        {
+          "url": "collations/glyphs/yuan2013-p7-tan-again.png",
+          "alt": "原書待辨單字",
+          "note": "2026-11-01再看印刷頁7：保存《釋文》第二個「本又作」的原字圖；形體與碼位仍待辨，不用近形字代錄。",
+          "pdfPage": 32,
+          "printPage": 7,
+          "cropPixels": [
+            825,
+            1096,
+            866,
+            1142
+          ],
+          "renderPixels": [
+            1218,
+            1800
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 34,
+      "unitId": "yuan2013-0034",
+      "poemId": "shijing-010",
+      "title": "周南・汝墳",
+      "lemma": "調飢",
+      "page": 16,
+      "pdfPage": 41,
+      "indexPdfPage": 913,
+      "indexPrintPage": 888,
+      "decisions": [
+        {
+          "candidate": 0,
+          "ocr": "輖飢",
+          "decision": "keep",
+          "label": "保留",
+          "result": "輖飢",
+          "note": "回查印刷頁16的調飢段，單字引詩、後人用句及本字說分列。"
+        },
+        {
+          "candidate": 1,
+          "ocr": "朝",
+          "decision": "keep",
+          "label": "保留",
+          "result": "朝",
+          "note": "回查印刷頁16的調飢段，單字引詩、後人用句及本字說分列。"
+        },
+        {
+          "candidate": 2,
+          "ocr": "怒焉如朝飢",
+          "decision": "related",
+          "label": "字學／訓解相關字",
+          "result": "郭璞詩的他人用句，不作另一詩本",
+          "note": "回查印刷頁16的調飢段，單字引詩、後人用句及本字說分列。"
+        },
+        {
+          "candidate": 3,
+          "ocr": "調",
+          "decision": "related",
+          "label": "字學／訓解相關字",
+          "result": "與本站調同字，屬本字說",
+          "note": "回查印刷頁16的調飢段，單字引詩、後人用句及本字說分列。"
+        }
+      ],
+      "findings": [
+        {
+          "text": "輖",
+          "schools": [],
+          "kind": "其他傳本",
+          "witness": "《蜀石經》《說文鈔》《五音韻譜》引詩；《釋文》及敦煌詩卷斯3951"
+        },
+        {
+          "text": "朝",
+          "schools": [
+            "韓",
+            "魯"
+          ],
+          "kind": "整理本列家別；清人推定",
+          "witness": "袁書列《韓詩》；王先謙《集疏》列魯詩"
+        },
+        {
+          "text": "周",
+          "schools": [
+            "齊"
+          ],
+          "kind": "清人推定",
+          "witness": "王先謙《集疏》列齊詩"
+        },
+        {
+          "text": "〔朝之古文，待辨〕",
+          "schools": [],
+          "kind": "字形待辨",
+          "witness": "《說文》朝的古文及袁氏本字說"
+        }
+      ],
+      "continuationPages": [],
+      "summary": "2026-11-01再看印刷頁16：保存袁書所引朝之古文原圖；此為字學本字說，並非另一份韓詩經字見證。",
+      "status": "字形覆核",
+      "pendingGlyphs": [
+        {
+          "id": "34-recheck",
+          "label": "2026-11-01再看印刷頁16：保存袁書所引朝之古文原圖；此為字學本字說，並非另一份韓詩經字見證。",
+          "printPages": [
+            16
+          ],
+          "pdfPages": [
+            41
+          ]
+        }
+      ],
+      "glyphs": [
+        {
+          "url": "collations/glyphs/yuan2013-p16-zhao-ancient.png",
+          "alt": "原書待辨單字",
+          "note": "2026-11-01再看印刷頁16：保存袁書所引朝之古文原圖；此為字學本字說，並非另一份韓詩經字見證。",
+          "pdfPage": 41,
+          "printPage": 16,
+          "cropPixels": [
+            207,
+            1448,
+            245,
+            1494
+          ],
+          "renderPixels": [
+            1218,
+            1800
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 43,
+      "lemma": "夙夜在公",
+      "page": 19,
+      "summary": "2026-11-01再看印刷頁19：碑刻夙字省變形仍按原圖保存，沒有足夠依據改配碼位。",
+      "decisions": [
+        {
+          "candidate": 0,
+          "ocr": "死",
+          "decision": "reject",
+          "label": "OCR誤字",
+          "result": "〔碑刻字形，見圖〕",
+          "note": "原書所示不是死；特殊字形暫不強配Unicode。"
+        }
+      ],
+      "findings": [
+        {
+          "text": "〔碑刻字形，見圖〕",
+          "schools": [],
+          "kind": "其他文字材料",
+          "witness": "《鄭季宣碑》"
+        }
+      ],
+      "glyphs": [
+        {
+          "url": "collations/glyphs/yuan2013-recheck-43.png",
+          "alt": "鄭季宣碑夙字異形",
+          "note": "重新截取PDF44原字；舊圖及舊報告保留。",
+          "pdfPage": 44,
+          "printPage": 19,
+          "cropPixels": [
+            1487,
+            431,
+            1565,
+            512
+          ],
+          "renderPixels": [
+            2436,
+            3600
+          ]
+        }
+      ],
+      "unitId": "yuan2013-0043",
+      "poemId": "shijing-013",
+      "title": "召南・采蘩",
+      "indexPdfPage": 913,
+      "indexPrintPage": 888,
+      "pdfPage": 44,
+      "status": "字形覆核",
+      "pendingGlyphs": [
+        {
+          "id": "43-recheck",
+          "label": "2026-11-01再看印刷頁19：碑刻夙字省變形仍按原圖保存，沒有足夠依據改配碼位。",
+          "printPages": [
+            19
+          ],
+          "pdfPages": [
+            44
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 65,
+      "unitId": "yuan2013-0065",
+      "poemId": "shijing-018",
+      "title": "召南・羔羊",
+      "lemma": "紽、緎、總",
+      "page": 24,
+      "pdfPage": 49,
+      "indexPdfPage": 914,
+      "indexPrintPage": 889,
+      "summary": "2026-11-01再看印刷頁24：英倫藏本糸旁字的右部與通行紽有別，仍保留原字圖待辨。",
+      "decisions": [],
+      "findings": [
+        {
+          "text": "它",
+          "schools": [],
+          "kind": "其他傳本",
+          "witness": "《釋文》出字"
+        },
+        {
+          "text": "他",
+          "schools": [],
+          "kind": "其他傳本",
+          "witness": "《釋文》本又作"
+        },
+        {
+          "text": "佗",
+          "schools": [],
+          "kind": "其他傳本",
+          "witness": "葉石林鈔本《釋文》"
+        },
+        {
+          "text": "紬",
+          "schools": [],
+          "kind": "其他傳本",
+          "witness": "《彙校》舊抄本"
+        },
+        {
+          "text": "〔英倫藏本字形，見圖〕",
+          "schools": [],
+          "kind": "其他傳本",
+          "witness": "《彙校》英倫藏本"
+        }
+      ],
+      "status": "字形覆核",
+      "glyphs": [
+        {
+          "url": "collations/glyphs/yuan2013-p24-65-thread.png",
+          "alt": "袁書印刷頁24英倫藏本字形",
+          "note": "僅截取有疑義的字形；保留原頁形體，Unicode暫不強配。",
+          "cropPixels": [
+            1050,
+            1520,
+            1160,
+            1630
+          ],
+          "renderPixels": [
+            2977,
+            4400
+          ],
+          "pdfPage": 49,
+          "printPage": 24
+        }
+      ],
+      "pendingGlyphs": [
+        {
+          "id": "65-recheck",
+          "label": "2026-11-01再看印刷頁24：英倫藏本糸旁字的右部與通行紽有別，仍保留原字圖待辨。",
+          "printPages": [
+            24
+          ],
+          "pdfPages": [
+            49
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 66,
+      "unitId": "yuan2013-0066",
+      "poemId": "shijing-019",
+      "title": "召南・殷其靁",
+      "lemma": "殷",
+      "page": 25,
+      "pdfPage": 50,
+      "indexPdfPage": 914,
+      "indexPrintPage": 889,
+      "summary": "2026-11-01再看印刷頁25：韓詩字為雨頭下追形，非OCR近形字；保留既有字圖及臧鏞堂轉引層次，字碼待定。",
+      "decisions": [],
+      "findings": [
+        {
+          "text": "〔韓詩字，見圖〕",
+          "schools": [
+            "韓"
+          ],
+          "kind": "整理本轉引",
+          "witness": "袁書列《韓詩》及臧鏞堂引《廣韻》"
+        },
+        {
+          "text": "磤",
+          "schools": [],
+          "kind": "注文字形",
+          "witness": "《文選》李善注引毛傳"
+        },
+        {
+          "text": "隱",
+          "schools": [],
+          "kind": "文字學相關字",
+          "witness": "袁書音轉通假說"
+        }
+      ],
+      "status": "字形覆核",
+      "glyphs": [
+        {
+          "url": "collations/glyphs/yuan2013-p25-66-han.png",
+          "alt": "袁書印刷頁25韓詩殷字異形",
+          "note": "僅截取有疑義的字形；保留原頁形體，Unicode暫不強配。",
+          "cropPixels": [
+            1215,
+            1500,
+            1310,
+            1620
+          ],
+          "renderPixels": [
+            2977,
+            4400
+          ],
+          "pdfPage": 50,
+          "printPage": 25
+        }
+      ],
+      "pendingGlyphs": [
+        {
+          "id": "66-recheck",
+          "label": "2026-11-01再看印刷頁25：韓詩字為雨頭下追形，非OCR近形字；保留既有字圖及臧鏞堂轉引層次，字碼待定。",
+          "printPages": [
+            25
+          ],
+          "pdfPages": [
+            50
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 77,
+      "unitId": "yuan2013-0077",
+      "poemId": "shijing-021",
+      "title": "召南・小星",
+      "lemma": "昴",
+      "page": 28,
+      "pdfPage": 53,
+      "indexPdfPage": 915,
+      "indexPrintPage": 890,
+      "summary": "2026-11-01再看印刷頁28–29：《集韻》引詩的日、卯構件位置與通行昴有別，仍存圖，不以同碼字替代。",
+      "decisions": [
+        {
+          "decision": "reject",
+          "label": "排除",
+          "result": "",
+          "note": "跨引號長串並非一個異文；毛公所訓為留，OCR又誤作雷。",
+          "candidate": 0,
+          "ocr": "昴’，始與毛公訓‘雷"
+        }
+      ],
+      "findings": [
+        {
+          "text": "〔《集韻》引詩字，見圖〕",
+          "schools": [],
+          "kind": "其他傳本",
+          "witness": "《彙校》引《集韻》引詩"
+        },
+        {
+          "text": "罶",
+          "schools": [],
+          "kind": "其他傳本",
+          "witness": "《蜀石經》"
+        }
+      ],
+      "status": "字形覆核",
+      "continuationPages": [
+        29
+      ],
+      "glyphs": [
+        {
+          "url": "collations/glyphs/yuan2013-p28-77-ji.png",
+          "alt": "袁書印刷頁28《集韻》引詩字形",
+          "note": "僅截取有疑義的字形；保留原頁形體，Unicode暫不強配。",
+          "cropPixels": [
+            645,
+            3770,
+            735,
+            3930
+          ],
+          "renderPixels": [
+            2977,
+            4400
+          ],
+          "pdfPage": 53,
+          "printPage": 28
+        }
+      ],
+      "pendingGlyphs": [
+        {
+          "id": "77-recheck",
+          "label": "2026-11-01再看印刷頁28–29：《集韻》引詩的日、卯構件位置與通行昴有別，仍存圖，不以同碼字替代。",
+          "printPages": [
+            28,
+            29
+          ],
+          "pdfPages": [
+            53,
+            54
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 97,
+      "unitId": "yuan2013-0097",
+      "poemId": "shijing-025",
+      "title": "召南・騶虞",
+      "lemma": "豵",
+      "page": 35,
+      "pdfPage": 60,
+      "indexPdfPage": 916,
+      "indexPrintPage": 891,
+      "summary": "2026-11-01再看印刷頁35：犬旁、豕旁與宗聲形體有別，保留整組字圖；未逐一確定碼位，不將此組合記作單一經字。",
+      "decisions": [
+        {
+          "decision": "related",
+          "label": "字學／訓解相關字",
+          "result": "豵（正字比較）",
+          "note": "原豵候選是正字比較；獲、綜均為近形誤識。各種獸旁、豕旁形體留圖辨碼，不用獲、綜冒充異文。",
+          "candidate": 0,
+          "ocr": "豵"
+        },
+        {
+          "decision": "pending",
+          "label": "字形待定",
+          "result": "〔見圖〕",
+          "note": "原豵候選是正字比較；獲、綜均為近形誤識。各種獸旁、豕旁形體留圖辨碼，不用獲、綜冒充異文。",
+          "candidate": 1,
+          "ocr": "獲"
+        },
+        {
+          "decision": "pending",
+          "label": "字形待定",
+          "result": "〔見圖〕",
+          "note": "原豵候選是正字比較；獲、綜均為近形誤識。各種獸旁、豕旁形體留圖辨碼，不用獲、綜冒充異文。",
+          "candidate": 2,
+          "ocr": "綜"
+        }
+      ],
+      "findings": [
+        {
+          "text": "〔所列豵字異形，見圖〕",
+          "schools": [],
+          "kind": "傳本及字書形體",
+          "witness": "《釋文》《玉篇》等所列形體"
+        }
+      ],
+      "status": "字形覆核",
+      "glyphs": [
+        {
+          "url": "collations/glyphs/yuan2013-p35-97-forms.png",
+          "alt": "袁書印刷頁35豵字異形三字組",
+          "note": "僅截取有疑義的字形；保留原頁形體，Unicode暫不強配。",
+          "cropPixels": [
+            320,
+            3920,
+            950,
+            4050
+          ],
+          "renderPixels": [
+            2977,
+            4400
+          ],
+          "pdfPage": 60,
+          "printPage": 35
+        }
+      ],
+      "pendingGlyphs": [
+        {
+          "id": "97-recheck",
+          "label": "2026-11-01再看印刷頁35：犬旁、豕旁與宗聲形體有別，保留整組字圖；未逐一確定碼位，不將此組合記作單一經字。",
+          "printPages": [
+            35
+          ],
+          "pdfPages": [
+            60
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 164,
+      "unitId": "yuan2013-0164",
+      "poemId": "shijing-038",
+      "title": "邶風・簡兮",
+      "lemma": "榛",
+      "page": 57,
+      "pdfPage": 82,
+      "indexPdfPage": 919,
+      "indexPrintPage": 894,
+      "summary": "實看57頁：馬瑞辰所論本字從辛從木，榛與蓁假借之；其確切Unicode尚未核定。屬字學參校，非另一詩本，維持待辨。",
+      "decisions": [
+        {
+          "candidate": 0,
+          "ocr": "蓁",
+          "decision": "keep",
+          "label": "前批保留",
+          "result": "蓁",
+          "note": "前批候選取捨沿錄；本次覆查結論：實看57頁：馬瑞辰所論本字從辛從木，榛與蓁假借之；其確切Unicode尚未核定。屬字學參校，非另一詩本，維持待辨。"
+        },
+        {
+          "candidate": 1,
+          "ocr": "業",
+          "decision": "pending",
+          "label": "前批字形待辨",
+          "result": "馬氏本字待辨",
+          "note": "前批候選取捨沿錄；本次覆查結論：實看57頁：馬瑞辰所論本字從辛從木，榛與蓁假借之；其確切Unicode尚未核定。屬字學參校，非另一詩本，維持待辨。"
+        }
+      ],
+      "findings": [
+        {
+          "text": "蓁",
+          "witness": "《釋文》本亦作、《齊民要術》引詩",
+          "schools": [],
+          "kind": "傳本異文",
+          "note": ""
+        }
+      ],
+      "status": "字形覆核",
+      "continuationPages": [],
+      "pendingGlyphs": [
+        {
+          "id": "164-recheck",
+          "label": "實看57頁：馬瑞辰所論本字從辛從木，榛與蓁假借之；其確切Unicode尚未核定。屬字學參校，非另一詩本，維持待辨。",
+          "printPages": [
+            57
+          ],
+          "pdfPages": [
+            82
+          ]
+        }
+      ],
+      "recheckOf": "ocr-check-2026-11-01-500",
+      "viewedPdfPages": [
+        82
+      ],
+      "glyphs": [
+        {
+          "alt": "第164項字學參校待辨字",
+          "note": "字學參校，非另一詩本；若本條有其餘形體，其餘位置仍待辨。",
+          "pdfPage": 82,
+          "printPage": 57,
+          "cropPixels": [
+            854,
+            2618,
+            964,
+            2718
+          ],
+          "renderPixels": [
+            2436,
+            3600
+          ],
+          "url": "collations/glyphs/yuan2013-recheck-164-1.png"
+        }
+      ]
+    },
+    {
+      "unit": 165,
+      "unitId": "yuan2013-0165",
+      "poemId": "shijing-038",
+      "title": "邶風・簡兮",
+      "lemma": "苓",
+      "page": 57,
+      "pdfPage": 82,
+      "indexPdfPage": 919,
+      "indexPrintPage": 894,
+      "summary": "實看57–58頁：魯詩字為艸覆雨下三口（霝聲）的蘦；正義、爾雅同，釋義大苦，不能誤作蓄／蕾或甘草。",
+      "decisions": [],
+      "findings": [
+        {
+          "text": "蘦",
+          "witness": "袁書明列魯詩、正義及爾雅釋草",
+          "schools": [
+            "魯"
+          ],
+          "kind": "傳本異文",
+          "note": "",
+          "base": "苓"
+        }
+      ],
+      "status": "字形覆核",
+      "continuationPages": [
+        58
+      ],
+      "recheckOf": "ocr-check-2026-11-01-500",
+      "viewedPdfPages": [
+        82,
+        83
+      ]
+    },
+    {
+      "unit": 179,
+      "unitId": "yuan2013-0179",
+      "poemId": "shijing-042",
+      "title": "邶風・靜女",
+      "lemma": "靜女其姝",
+      "page": 62,
+      "pdfPage": 87,
+      "indexPdfPage": 920,
+      "indexPrintPage": 895,
+      "summary": "女殳的古文形在62頁說文引「靜女其〔女殳〕」，與姝、袾音義同；三家歸屬仍是袁書蓋本的推測。女殳字碼未確定，不以妓代錄。袾舊讀可留。",
+      "decisions": [
+        {
+          "candidate": 0,
+          "ocr": "妓",
+          "decision": "pending",
+          "label": "前批字形待辨",
+          "result": "女殳形體",
+          "note": "前批候選取捨沿錄；本次覆查結論：女殳的古文形在62頁說文引「靜女其〔女殳〕」，與姝、袾音義同；三家歸屬仍是袁書蓋本的推測。女殳字碼未確定，不以妓代錄。袾舊讀可留。"
+        }
+      ],
+      "findings": [
+        {
+          "text": "袾",
+          "witness": "《說文》引詩；袁氏疑本三家",
+          "schools": [],
+          "kind": "整理本推測",
+          "note": "",
+          "scope": "三家未分"
+        }
+      ],
+      "status": "字形覆核",
+      "continuationPages": [],
+      "pendingGlyphs": [
+        {
+          "id": "179-recheck",
+          "label": "女殳的古文形在62頁說文引「靜女其〔女殳〕」，與姝、袾音義同；三家歸屬仍是袁書蓋本的推測。女殳字碼未確定，不以妓代錄。袾舊讀可留。",
+          "printPages": [
+            62
+          ],
+          "pdfPages": [
+            87
+          ]
+        }
+      ],
+      "recheckOf": "ocr-check-2026-11-01-500",
+      "viewedPdfPages": [
+        87
+      ],
+      "glyphs": [
+        {
+          "alt": "第179項待辨字原圖",
+          "note": "取關鍵一字；本條若有其餘古形，其餘位置仍待辨。",
+          "pdfPage": 87,
+          "printPage": 62,
+          "cropPixels": [
+            1064,
+            924,
+            1154,
+            1024
+          ],
+          "renderPixels": [
+            2436,
+            3600
+          ],
+          "url": "collations/glyphs/yuan2013-recheck-179-1.png"
+        }
+      ]
+    },
+    {
+      "unit": 181,
+      "unitId": "yuan2013-0181",
+      "poemId": "shijing-042",
+      "title": "邶風・靜女",
+      "lemma": "愛",
+      "page": 62,
+      "pdfPage": 87,
+      "indexPdfPage": 920,
+      "indexPrintPage": 895,
+      "summary": "實看62頁：另一形為心愛之懓（玉篇隱蔽義、廣雅障義），袁書將薆、懓歸魯，僾歸齊。懓之詩家歸屬屬整理者判斷，明列限定。",
+      "decisions": [
+        {
+          "candidate": 0,
+          "ocr": "薆",
+          "decision": "keep",
+          "label": "前批保留",
+          "result": "薆",
+          "note": "前批候選取捨沿錄；本次覆查結論：實看62頁：另一形為心愛之懓（玉篇隱蔽義、廣雅障義），袁書將薆、懓歸魯，僾歸齊。懓之詩家歸屬屬整理者判斷，明列限定。"
+        },
+        {
+          "candidate": 1,
+          "ocr": "優",
+          "decision": "correct",
+          "label": "前批OCR訂正",
+          "result": "僾",
+          "note": "前批候選取捨沿錄；本次覆查結論：實看62頁：另一形為心愛之懓（玉篇隱蔽義、廣雅障義），袁書將薆、懓歸魯，僾歸齊。懓之詩家歸屬屬整理者判斷，明列限定。"
+        }
+      ],
+      "findings": [
+        {
+          "text": "薆",
+          "witness": "《方言》郭注引詩；袁氏歸魯",
+          "schools": [
+            "魯"
+          ],
+          "kind": "傳本異文",
+          "note": ""
+        },
+        {
+          "text": "僾",
+          "witness": "《說文》《禮記》正義及石經引詩；袁氏歸齊",
+          "schools": [
+            "齊"
+          ],
+          "kind": "傳本異文",
+          "note": ""
+        },
+        {
+          "text": "懓",
+          "witness": "玉篇、廣雅；袁書歸魯",
+          "schools": [
+            "魯"
+          ],
+          "kind": "整理本推定",
+          "note": "",
+          "qualification": "字書訓義與袁書歸家，非獨立保存的完整引詩句",
+          "base": "愛"
+        }
+      ],
+      "status": "字形覆核",
+      "continuationPages": [],
+      "recheckOf": "ocr-check-2026-11-01-500",
+      "viewedPdfPages": [
+        87
+      ]
+    },
+    {
+      "unit": 182,
+      "unitId": "yuan2013-0182",
+      "poemId": "shijing-042",
+      "title": "邶風・靜女",
+      "lemma": "踟躕",
+      "page": 62,
+      "pdfPage": 87,
+      "indexPdfPage": 920,
+      "indexPrintPage": 895,
+      "summary": "實看62–63頁後經主核者放大PDF88、以BabelStone字型覆判，繫傳應作歭䠧：首字止寺（非足寺之跱）、次字足屠（非足居之踞）。此兩字可清pending，保留原字圖。",
+      "decisions": [],
+      "findings": [
+        {
+          "text": "躊躇",
+          "witness": "《韓詩外傳》及《文選》注引詩",
+          "schools": [
+            "韓"
+          ],
+          "kind": "傳本異文",
+          "note": ""
+        },
+        {
+          "text": "躑躅",
+          "witness": "《韓詩章句》引詩",
+          "schools": [
+            "韓"
+          ],
+          "kind": "傳本異文",
+          "note": ""
+        },
+        {
+          "text": "歭䠧",
+          "base": "踟躕",
+          "witness": "說文繫傳引詩",
+          "schools": [],
+          "kind": "傳本異文",
+          "note": "",
+          "qualification": "經主核者放大原圖並以BabelStone字型覆判：止寺之歭、足屠之䠧"
+        }
+      ],
+      "status": "字形覆核",
+      "continuationPages": [
+        63
+      ],
+      "recheckOf": "ocr-check-2026-11-01-500",
+      "viewedPdfPages": [
+        87,
+        88
+      ],
+      "glyphs": [
+        {
+          "alt": "說文繫傳歭䠧二字原圖",
+          "note": "止寺之歭、足屠之䠧；經主核者字型對照覆判。",
+          "pdfPage": 88,
+          "printPage": 63,
+          "cropPixels": [
+            329,
+            274,
+            469,
+            350
+          ],
+          "renderPixels": [
+            1624,
+            2400
+          ],
+          "url": "collations/glyphs/yuan2013-recheck-182-1.png"
+        }
+      ]
+    },
+    {
+      "unit": 188,
+      "unitId": "yuan2013-0188",
+      "poemId": "shijing-043",
+      "title": "邶風・新臺",
+      "lemma": "燕婉",
+      "page": 64,
+      "pdfPage": 89,
+      "indexPdfPage": 920,
+      "indexPrintPage": 895,
+      "summary": "實看64頁：齊詩從目晏聲的字為䁙，說文目部引䁙婉之求；燕、嬿、䁙同為宴之假。",
+      "decisions": [
+        {
+          "candidate": 0,
+          "ocr": "嬿婉",
+          "decision": "keep",
+          "label": "前批保留",
+          "result": "嬿婉",
+          "note": "前批候選取捨沿錄；本次覆查結論：實看64頁：齊詩從目晏聲的字為䁙，說文目部引䁙婉之求；燕、嬿、䁙同為宴之假。"
+        },
+        {
+          "candidate": 1,
+          "ocr": "瞜婉",
+          "decision": "pending",
+          "label": "前批字形待辨",
+          "result": "目晏婉",
+          "note": "前批候選取捨沿錄；本次覆查結論：實看64頁：齊詩從目晏聲的字為䁙，說文目部引䁙婉之求；燕、嬿、䁙同為宴之假。"
+        }
+      ],
+      "findings": [
+        {
+          "text": "嬿婉",
+          "witness": "袁書列魯韓，並引類書引詩",
+          "schools": [
+            "魯",
+            "韓"
+          ],
+          "kind": "傳本異文",
+          "note": ""
+        },
+        {
+          "text": "䁙婉",
+          "witness": "袁書明列齊詩、說文目部引詩",
+          "schools": [
+            "齊"
+          ],
+          "kind": "傳本異文",
+          "note": "",
+          "base": "燕婉"
+        }
+      ],
+      "status": "字形覆核",
+      "continuationPages": [],
+      "recheckOf": "ocr-check-2026-11-01-500",
+      "viewedPdfPages": [
+        89
+      ]
+    },
+    {
+      "unit": 189,
+      "unitId": "yuan2013-0189",
+      "poemId": "shijing-043",
+      "title": "邶風・新臺",
+      "lemma": "洒",
+      "page": 64,
+      "pdfPage": 89,
+      "indexPdfPage": 920,
+      "indexPrintPage": 895,
+      "summary": "實看64–65頁：韓詩漼有釋文明列可留；繫傳新義之水旁字及所引「新臺有〔水旁字〕」尚不確定Unicode，其右部上白下夲類，勿拿常見澤直接猜配。其餘洗、淬僅所舉他文。",
+      "decisions": [],
+      "findings": [
+        {
+          "text": "漼",
+          "witness": "《釋文》明列韓詩",
+          "schools": [
+            "韓"
+          ],
+          "kind": "傳本異文",
+          "note": ""
+        }
+      ],
+      "status": "字形覆核",
+      "continuationPages": [
+        65
+      ],
+      "pendingGlyphs": [
+        {
+          "id": "189-recheck",
+          "label": "實看64–65頁：韓詩漼有釋文明列可留；繫傳新義之水旁字及所引「新臺有〔水旁字〕」尚不確定Unicode，其右部上白下夲類，勿拿常見澤直接猜配。其餘洗、淬僅所舉他文。",
+          "printPages": [
+            64,
+            65
+          ],
+          "pdfPages": [
+            89,
+            90
+          ]
+        }
+      ],
+      "recheckOf": "ocr-check-2026-11-01-500",
+      "viewedPdfPages": [
+        89,
+        90
+      ],
+      "glyphs": [
+        {
+          "alt": "第189項待辨字原圖",
+          "note": "取關鍵一字；本條若有其餘古形，其餘位置仍待辨。",
+          "pdfPage": 89,
+          "printPage": 64,
+          "cropPixels": [
+            671,
+            2911,
+            761,
+            3011
+          ],
+          "renderPixels": [
+            2436,
+            3600
+          ],
+          "url": "collations/glyphs/yuan2013-recheck-189-1.png"
+        }
+      ]
+    },
+    {
+      "unit": 193,
+      "unitId": "yuan2013-0193",
+      "poemId": "shijing-043",
+      "title": "邶風・新臺",
+      "lemma": "戚施",
+      "page": 65,
+      "pdfPage": 90,
+      "indexPdfPage": 920,
+      "indexPrintPage": 895,
+      "summary": "實看65–66頁全段：說文引用兩黽部字，首為从酉的龜形或體，後從爾聲；袁書先說蓋齊、又引韓章句推韓，均保留推測。蟾蜍是訓義而非替經；兩黽部形體仍待定碼。",
+      "decisions": [
+        {
+          "candidate": 0,
+          "ocr": "蟾蜍",
+          "decision": "related",
+          "label": "前批字學／訓解相關字",
+          "result": "蟾蜍（訓義）",
+          "note": "前批候選取捨沿錄；本次覆查結論：實看65–66頁全段：說文引用兩黽部字，首為从酉的龜形或體，後從爾聲；袁書先說蓋齊、又引韓章句推韓，均保留推測。蟾蜍是訓義而非替經；兩黽部形體仍待定碼。"
+        }
+      ],
+      "findings": [],
+      "status": "字形覆核",
+      "continuationPages": [
+        66
+      ],
+      "pendingGlyphs": [
+        {
+          "id": "193-recheck",
+          "label": "實看65–66頁全段：說文引用兩黽部字，首為从酉的龜形或體，後從爾聲；袁書先說蓋齊、又引韓章句推韓，均保留推測。蟾蜍是訓義而非替經；兩黽部形體仍待定碼。",
+          "printPages": [
+            65,
+            66
+          ],
+          "pdfPages": [
+            90,
+            91
+          ]
+        }
+      ],
+      "recheckOf": "ocr-check-2026-11-01-500",
+      "viewedPdfPages": [
+        90,
+        91
+      ],
+      "glyphs": [
+        {
+          "alt": "第193項待辨字原圖",
+          "note": "取關鍵一字；本條若有其餘古形，其餘位置仍待辨。",
+          "pdfPage": 90,
+          "printPage": 65,
+          "cropPixels": [
+            305,
+            2642,
+            395,
+            2742
+          ],
+          "renderPixels": [
+            2436,
+            3600
+          ],
+          "url": "collations/glyphs/yuan2013-recheck-193-1.png"
+        }
+      ]
+    },
+    {
+      "unit": 197,
+      "unitId": "yuan2013-0197",
+      "poemId": "shijing-045",
+      "title": "鄘風・柏舟",
+      "lemma": "髧",
+      "page": 68,
+      "pdfPage": 93,
+      "indexPdfPage": 921,
+      "indexPrintPage": 896,
+      "summary": "實看68頁：釋文及考文古本亻旁字確與髧、紞不同，但右部近尤／元，掃描仍不足定碼。紞原有齊韓歸屬保留，亻旁字續待辨。",
+      "decisions": [
+        {
+          "candidate": 0,
+          "ocr": "紞",
+          "decision": "keep",
+          "label": "前批保留",
+          "result": "紞",
+          "note": "前批候選取捨沿錄；本次覆查結論：實看68頁：釋文及考文古本亻旁字確與髧、紞不同，但右部近尤／元，掃描仍不足定碼。紞原有齊韓歸屬保留，亻旁字續待辨。"
+        }
+      ],
+      "findings": [
+        {
+          "text": "紞",
+          "witness": "袁書列齊韓；說文引詩",
+          "schools": [
+            "齊",
+            "韓"
+          ],
+          "kind": "傳本異文",
+          "note": ""
+        }
+      ],
+      "status": "字形覆核",
+      "continuationPages": [],
+      "pendingGlyphs": [
+        {
+          "id": "197-recheck",
+          "label": "實看68頁：釋文及考文古本亻旁字確與髧、紞不同，但右部近尤／元，掃描仍不足定碼。紞原有齊韓歸屬保留，亻旁字續待辨。",
+          "printPages": [
+            68
+          ],
+          "pdfPages": [
+            93
+          ]
+        }
+      ],
+      "recheckOf": "ocr-check-2026-11-01-500",
+      "viewedPdfPages": [
+        93
+      ],
+      "glyphs": [
+        {
+          "alt": "第197項待辨字原圖",
+          "note": "取關鍵一字；本條若有其餘古形，其餘位置仍待辨。",
+          "pdfPage": 93,
+          "printPage": 68,
+          "cropPixels": [
+            739,
+            781,
+            829,
+            881
+          ],
+          "renderPixels": [
+            2436,
+            3600
+          ],
+          "url": "collations/glyphs/yuan2013-recheck-197-1.png"
+        }
+      ]
+    },
+    {
+      "unit": 219,
+      "unitId": "yuan2013-0219",
+      "poemId": "shijing-049",
+      "title": "鄘風・鶉之奔奔",
+      "lemma": "鶉",
+      "page": 74,
+      "pdfPage": 99,
+      "indexPdfPage": 922,
+      "indexPrintPage": 897,
+      "summary": "實看74頁：豐坊所載鳥字右鳥、左部比鶉之享省複不同；袁書稱鶉為該鳥字隸省。罕鳥字未定碼，且豐坊資料不可無限定提升為三家經文。",
+      "decisions": [],
+      "findings": [],
+      "status": "字形覆核",
+      "continuationPages": [],
+      "glyphs": [
+        {
+          "url": "collations/glyphs/yuan2013-b500-219-1.png",
+          "alt": "豐坊所載鶉字異形",
+          "note": "豐坊所載鶉字異形；按原頁截圖保留形體，字碼暫不強配。",
+          "cropPixels": [
+            1085,
+            1773,
+            1190,
+            1850
+          ],
+          "renderPixels": [
+            1624,
+            2400
+          ],
+          "pdfPage": 99,
+          "printPage": 74
+        },
+        {
+          "alt": "第219項待辨字原圖",
+          "note": "取關鍵一字；本條若有其餘古形，其餘位置仍待辨。",
+          "pdfPage": 99,
+          "printPage": 74,
+          "cropPixels": [
+            354,
+            2780,
+            444,
+            2880
+          ],
+          "renderPixels": [
+            2436,
+            3600
+          ],
+          "url": "collations/glyphs/yuan2013-recheck-219-1.png"
+        }
+      ],
+      "pendingGlyphs": [
+        {
+          "id": "219-recheck",
+          "label": "實看74頁：豐坊所載鳥字右鳥、左部比鶉之享省複不同；袁書稱鶉為該鳥字隸省。罕鳥字未定碼，且豐坊資料不可無限定提升為三家經文。",
+          "printPages": [
+            74
+          ],
+          "pdfPages": [
+            99
+          ]
+        }
+      ],
+      "recheckOf": "ocr-check-2026-11-01-500",
+      "viewedPdfPages": [
+        99
+      ]
+    },
+    {
+      "unit": 249,
+      "unitId": "yuan2013-0249",
+      "poemId": "shijing-054",
+      "title": "鄘風・載馳",
+      "lemma": "言采其蝱",
+      "page": 83,
+      "pdfPage": 108,
+      "indexPdfPage": 923,
+      "indexPrintPage": 898,
+      "summary": "實看83頁全段：魯詩字為莔（艸下囧），說文明說貝母、從艸明省聲；淮南子注及繫傳有完整引詩。",
+      "decisions": [],
+      "findings": [
+        {
+          "text": "虻",
+          "witness": "《太平御覽》《易林》引字",
+          "schools": [],
+          "kind": "傳本異文",
+          "note": ""
+        },
+        {
+          "text": "莔",
+          "witness": "袁書明列魯詩、淮南子氾論高注及說文繫傳引詩",
+          "schools": [
+            "魯"
+          ],
+          "kind": "傳本異文",
+          "note": "",
+          "base": "蝱"
+        }
+      ],
+      "status": "字形覆核",
+      "continuationPages": [],
+      "recheckOf": "ocr-check-2026-11-01-500",
+      "viewedPdfPages": [
+        108
+      ]
+    },
+    {
+      "unit": 254,
+      "unitId": "yuan2013-0254",
+      "poemId": "shijing-055",
+      "title": "衛風・淇奧",
+      "lemma": "有匪君子",
+      "page": 87,
+      "pdfPage": 112,
+      "indexPdfPage": 923,
+      "indexPrintPage": 898,
+      "summary": "實看87–88頁：韓詩字右阝、左部近必，先前描述為分下刀不確；精確形碼仍待核，不擅以邲等近形配碼。斐的魯齊見證保留，原字另附圖。",
+      "decisions": [
+        {
+          "candidate": 0,
+          "ocr": "斐",
+          "decision": "keep",
+          "label": "前批保留",
+          "result": "斐",
+          "note": "前批候選取捨沿錄；本次覆查結論：實看87–88頁：韓詩字右阝、左部近必，先前描述為分下刀不確；精確形碼仍待核，不擅以邲等近形配碼。斐的魯齊見證保留，原字另附圖。"
+        },
+        {
+          "candidate": 1,
+          "ocr": "匪",
+          "decision": "related",
+          "label": "前批字學／訓解相關字",
+          "result": "匪",
+          "note": "前批候選取捨沿錄；本次覆查結論：實看87–88頁：韓詩字右阝、左部近必，先前描述為分下刀不確；精確形碼仍待核，不擅以邲等近形配碼。斐的魯齊見證保留，原字另附圖。"
+        }
+      ],
+      "findings": [
+        {
+          "text": "斐",
+          "witness": "袁書列魯齊，禮記等引詩",
+          "schools": [
+            "魯",
+            "齊"
+          ],
+          "kind": "傳本異文",
+          "note": ""
+        }
+      ],
+      "status": "字形覆核",
+      "continuationPages": [
+        88
+      ],
+      "pendingGlyphs": [
+        {
+          "id": "254-recheck",
+          "label": "實看87–88頁：韓詩字右阝、左部近必，先前描述為分下刀不確；精確形碼仍待核，不擅以邲等近形配碼。斐的魯齊見證保留，原字另附圖。",
+          "printPages": [
+            87,
+            88
+          ],
+          "pdfPages": [
+            112,
+            113
+          ]
+        }
+      ],
+      "recheckOf": "ocr-check-2026-11-01-500",
+      "viewedPdfPages": [
+        112,
+        113
+      ],
+      "glyphs": [
+        {
+          "alt": "第254項待辨字原圖",
+          "note": "取關鍵一字；本條若有其餘古形，其餘位置仍待辨。",
+          "pdfPage": 113,
+          "printPage": 88,
+          "cropPixels": [
+            246,
+            454,
+            336,
+            554
+          ],
+          "renderPixels": [
+            2436,
+            3600
+          ],
+          "url": "collations/glyphs/yuan2013-recheck-254-1.png"
+        }
+      ]
+    },
+    {
+      "unit": 255,
+      "unitId": "yuan2013-0255",
+      "poemId": "shijing-055",
+      "title": "衛風・淇奧",
+      "lemma": "如切如磋",
+      "page": 88,
+      "pdfPage": 113,
+      "indexPdfPage": 923,
+      "indexPrintPage": 898,
+      "summary": "實看88頁：魯詩切字作齒旁，右部屑類，說文釋齒差、讀若切。此齒部罕字未定碼，不能以翻或同音常字補；瑳的已知證據保留。",
+      "decisions": [
+        {
+          "candidate": 0,
+          "ocr": "翻",
+          "decision": "pending",
+          "label": "前批字形待辨",
+          "result": "齒部字",
+          "note": "前批候選取捨沿錄；本次覆查結論：實看88頁：魯詩切字作齒旁，右部屑類，說文釋齒差、讀若切。此齒部罕字未定碼，不能以翻或同音常字補；瑳的已知證據保留。"
+        },
+        {
+          "candidate": 1,
+          "ocr": "瑳",
+          "decision": "keep",
+          "label": "前批保留",
+          "result": "瑳",
+          "note": "前批候選取捨沿錄；本次覆查結論：實看88頁：魯詩切字作齒旁，右部屑類，說文釋齒差、讀若切。此齒部罕字未定碼，不能以翻或同音常字補；瑳的已知證據保留。"
+        }
+      ],
+      "findings": [
+        {
+          "text": "瑳",
+          "witness": "袁書列三家，毛本異本及諸書引詩",
+          "schools": [],
+          "kind": "整理本轉引",
+          "note": "",
+          "scope": "三家未分"
+        }
+      ],
+      "status": "字形覆核",
+      "continuationPages": [],
+      "pendingGlyphs": [
+        {
+          "id": "255-recheck",
+          "label": "實看88頁：魯詩切字作齒旁，右部屑類，說文釋齒差、讀若切。此齒部罕字未定碼，不能以翻或同音常字補；瑳的已知證據保留。",
+          "printPages": [
+            88
+          ],
+          "pdfPages": [
+            113
+          ]
+        }
+      ],
+      "recheckOf": "ocr-check-2026-11-01-500",
+      "viewedPdfPages": [
+        113
+      ],
+      "glyphs": [
+        {
+          "alt": "第255項待辨字原圖",
+          "note": "取關鍵一字；本條若有其餘古形，其餘位置仍待辨。",
+          "pdfPage": 113,
+          "printPage": 88,
+          "cropPixels": [
+            1825,
+            1569,
+            1915,
+            1669
+          ],
+          "renderPixels": [
+            2436,
+            3600
+          ],
+          "url": "collations/glyphs/yuan2013-recheck-255-1.png"
+        }
+      ]
+    },
+    {
+      "unit": 259,
+      "unitId": "yuan2013-0259",
+      "poemId": "shijing-055",
+      "title": "衛風・淇奧",
+      "lemma": "琇",
+      "page": 90,
+      "pdfPage": 115,
+      "indexPdfPage": 923,
+      "indexPrintPage": 898,
+      "summary": "實看90頁：三家字為璓，玉旁、右部莠形（艸下秀）；說文釋石之次玉、引充耳璓瑩。廣韻又省作秀。三家合稱不分家。",
+      "decisions": [],
+      "findings": [
+        {
+          "text": "秀",
+          "witness": "《廣韻·十一尤》引詩",
+          "schools": [],
+          "kind": "傳本異文",
+          "note": ""
+        },
+        {
+          "text": "璓",
+          "witness": "袁書三家合稱、說文引詩",
+          "schools": [],
+          "kind": "傳本異文",
+          "note": "",
+          "qualification": "未分魯齊韓",
+          "base": "琇",
+          "scope": "三家未分"
+        }
+      ],
+      "status": "字形覆核",
+      "continuationPages": [],
+      "recheckOf": "ocr-check-2026-11-01-500",
+      "viewedPdfPages": [
+        115
+      ]
+    },
+    {
+      "unit": 265,
+      "unitId": "yuan2013-0265",
+      "poemId": "shijing-056",
+      "title": "衛風・考槃",
+      "lemma": "薖",
+      "page": 91,
+      "pdfPage": 116,
+      "indexPdfPage": 924,
+      "indexPrintPage": 899,
+      "summary": "實看91–92頁：韓詩亻旁右咼之字（不是薖字本身），後文俞樾以和古文咼說義。字碼尚未確定，續留構件；咼只屬本字說。",
+      "decisions": [
+        {
+          "candidate": 0,
+          "ocr": "咼",
+          "decision": "related",
+          "label": "前批字學／訓解相關字",
+          "result": "咼（古和字）",
+          "note": "前批候選取捨沿錄；本次覆查結論：實看91–92頁：韓詩亻旁右咼之字（不是薖字本身），後文俞樾以和古文咼說義。字碼尚未確定，續留構件；咼只屬本字說。"
+        },
+        {
+          "candidate": 1,
+          "ocr": "邁",
+          "decision": "correct",
+          "label": "前批OCR訂正",
+          "result": "薖（原字）",
+          "note": "前批候選取捨沿錄；本次覆查結論：實看91–92頁：韓詩亻旁右咼之字（不是薖字本身），後文俞樾以和古文咼說義。字碼尚未確定，續留構件；咼只屬本字說。"
+        }
+      ],
+      "findings": [],
+      "status": "字形覆核",
+      "continuationPages": [
+        92
+      ],
+      "pendingGlyphs": [
+        {
+          "id": "265-recheck",
+          "label": "實看91–92頁：韓詩亻旁右咼之字（不是薖字本身），後文俞樾以和古文咼說義。字碼尚未確定，續留構件；咼只屬本字說。",
+          "printPages": [
+            91,
+            92
+          ],
+          "pdfPages": [
+            116,
+            117
+          ]
+        }
+      ],
+      "recheckOf": "ocr-check-2026-11-01-500",
+      "viewedPdfPages": [
+        116,
+        117
+      ],
+      "glyphs": [
+        {
+          "alt": "第265項待辨字原圖",
+          "note": "取關鍵一字；本條若有其餘古形，其餘位置仍待辨。",
+          "pdfPage": 116,
+          "printPage": 91,
+          "cropPixels": [
+            310,
+            3186,
+            400,
+            3286
+          ],
+          "renderPixels": [
+            2436,
+            3600
+          ],
+          "url": "collations/glyphs/yuan2013-recheck-265-1.png"
+        }
+      ]
+    },
+    {
+      "unit": 268,
+      "unitId": "yuan2013-0268",
+      "poemId": "shijing-057",
+      "title": "衛風・碩人",
+      "lemma": "譚公維私",
+      "page": 94,
+      "pdfPage": 119,
+      "indexPdfPage": 924,
+      "indexPrintPage": 899,
+      "summary": "實看94頁：覃公與厶已有明引；古文譚之阝旁形仍未定碼，屬字學參校，非另一詩本，維持待辨。",
+      "decisions": [
+        {
+          "candidate": 0,
+          "ocr": "覃",
+          "decision": "keep",
+          "label": "前批保留",
+          "result": "覃",
+          "note": "前批候選取捨沿錄；本次覆查結論：實看94頁：覃公與厶已有明引；古文譚之阝旁形仍未定碼，屬字學參校，非另一詩本，維持待辨。"
+        },
+        {
+          "candidate": 1,
+          "ocr": "覃公維私",
+          "decision": "keep",
+          "label": "前批保留",
+          "result": "覃公維私",
+          "note": "前批候選取捨沿錄；本次覆查結論：實看94頁：覃公與厶已有明引；古文譚之阝旁形仍未定碼，屬字學參校，非另一詩本，維持待辨。"
+        },
+        {
+          "candidate": 2,
+          "ocr": "鄆",
+          "decision": "pending",
+          "label": "前批字形待辨",
+          "result": "古文形體",
+          "note": "前批候選取捨沿錄；本次覆查結論：實看94頁：覃公與厶已有明引；古文譚之阝旁形仍未定碼，屬字學參校，非另一詩本，維持待辨。"
+        },
+        {
+          "candidate": 3,
+          "ocr": "私",
+          "decision": "related",
+          "label": "前批字學／訓解相關字",
+          "result": "私",
+          "note": "前批候選取捨沿錄；本次覆查結論：實看94頁：覃公與厶已有明引；古文譚之阝旁形仍未定碼，屬字學參校，非另一詩本，維持待辨。"
+        }
+      ],
+      "findings": [
+        {
+          "text": "覃公維私",
+          "witness": "袁書列魯詩及白虎通等引詩",
+          "schools": [
+            "魯"
+          ],
+          "kind": "傳本異文",
+          "note": ""
+        },
+        {
+          "text": "譚公維厶",
+          "witness": "袁書列齊韓；說文繫傳引詩",
+          "schools": [
+            "齊",
+            "韓"
+          ],
+          "kind": "傳本異文",
+          "note": ""
+        }
+      ],
+      "status": "字形覆核",
+      "continuationPages": [],
+      "pendingGlyphs": [
+        {
+          "id": "268-recheck",
+          "label": "實看94頁：覃公與厶已有明引；古文譚之阝旁形仍未定碼，屬字學參校，非另一詩本，維持待辨。",
+          "printPages": [
+            94
+          ],
+          "pdfPages": [
+            119
+          ]
+        }
+      ],
+      "recheckOf": "ocr-check-2026-11-01-500",
+      "viewedPdfPages": [
+        119
+      ],
+      "glyphs": [
+        {
+          "alt": "第268項字學參校待辨字",
+          "note": "字學參校，非另一詩本；若本條有其餘形體，其餘位置仍待辨。",
+          "pdfPage": 119,
+          "printPage": 94,
+          "cropPixels": [
+            1882,
+            2220,
+            1992,
+            2320
+          ],
+          "renderPixels": [
+            2436,
+            3600
+          ],
+          "url": "collations/glyphs/yuan2013-recheck-268-1.png"
+        }
+      ]
+    },
+    {
+      "unit": 269,
+      "unitId": "yuan2013-0269",
+      "poemId": "shijing-057",
+      "title": "衛風・碩人",
+      "lemma": "蝤蠐",
+      "page": 94,
+      "pdfPage": 119,
+      "indexPdfPage": 924,
+      "indexPrintPage": 899,
+      "summary": "實看94–95頁：魯詩蝤作螬（虫曹），蔡邕青衣賦領如螬蠐亦據之。爾雅區分糞土與木中種類為訓義；不影響螬字可辨。",
+      "decisions": [],
+      "findings": [
+        {
+          "text": "螬蠐",
+          "witness": "袁書明列魯詩、蔡邕青衣賦",
+          "schools": [
+            "魯"
+          ],
+          "kind": "傳本異文",
+          "note": "",
+          "base": "蝤蠐"
+        }
+      ],
+      "status": "字形覆核",
+      "continuationPages": [
+        95
+      ],
+      "recheckOf": "ocr-check-2026-11-01-500",
+      "viewedPdfPages": [
+        119,
+        120
+      ]
+    },
+    {
+      "unit": 271,
+      "unitId": "yuan2013-0271",
+      "poemId": "shijing-057",
+      "title": "衛風・碩人",
+      "lemma": "螓首蛾眉",
+      "page": 95,
+      "pdfPage": 120,
+      "indexPdfPage": 924,
+      "indexPrintPage": 899,
+      "summary": "實看95頁全段：三家螓首的異字從頁爭聲、釋好貌，不是穎。頁爭之Unicode仍未定；娥眉舊條可留。",
+      "decisions": [
+        {
+          "candidate": 0,
+          "ocr": "穎",
+          "decision": "pending",
+          "label": "前批字形待辨",
+          "result": "頁部字",
+          "note": "前批候選取捨沿錄；本次覆查結論：實看95頁全段：三家螓首的異字從頁爭聲、釋好貌，不是穎。頁爭之Unicode仍未定；娥眉舊條可留。"
+        },
+        {
+          "candidate": 1,
+          "ocr": "娥",
+          "decision": "keep",
+          "label": "前批保留",
+          "result": "娥",
+          "note": "前批候選取捨沿錄；本次覆查結論：實看95頁全段：三家螓首的異字從頁爭聲、釋好貌，不是穎。頁爭之Unicode仍未定；娥眉舊條可留。"
+        },
+        {
+          "candidate": 2,
+          "ocr": "娥眉",
+          "decision": "keep",
+          "label": "前批保留",
+          "result": "娥眉",
+          "note": "前批候選取捨沿錄；本次覆查結論：實看95頁全段：三家螓首的異字從頁爭聲、釋好貌，不是穎。頁爭之Unicode仍未定；娥眉舊條可留。"
+        }
+      ],
+      "findings": [
+        {
+          "text": "娥眉",
+          "witness": "袁書列三家；所引楚辭王注等",
+          "schools": [],
+          "kind": "整理本轉引",
+          "note": "",
+          "scope": "三家未分"
+        }
+      ],
+      "status": "字形覆核",
+      "continuationPages": [],
+      "pendingGlyphs": [
+        {
+          "id": "271-recheck",
+          "label": "實看95頁全段：三家螓首的異字從頁爭聲、釋好貌，不是穎。頁爭之Unicode仍未定；娥眉舊條可留。",
+          "printPages": [
+            95
+          ],
+          "pdfPages": [
+            120
+          ]
+        }
+      ],
+      "recheckOf": "ocr-check-2026-11-01-500",
+      "viewedPdfPages": [
+        120
+      ],
+      "glyphs": [
+        {
+          "alt": "第271項待辨字原圖",
+          "note": "取關鍵一字；本條若有其餘古形，其餘位置仍待辨。",
+          "pdfPage": 120,
+          "printPage": 95,
+          "cropPixels": [
+            289,
+            1408,
+            379,
+            1508
+          ],
+          "renderPixels": [
+            2436,
+            3600
+          ],
+          "url": "collations/glyphs/yuan2013-recheck-271-1.png"
+        }
+      ]
+    },
+    {
+      "unit": 274,
+      "unitId": "yuan2013-0274",
+      "poemId": "shijing-057",
+      "title": "衛風・碩人",
+      "lemma": "說",
+      "page": 96,
+      "pdfPage": 121,
+      "indexPdfPage": 924,
+      "indexPrintPage": 899,
+      "summary": "實看96頁整段：衣旁字為襚，鄭箋「說當作襚」與「易服曰襚」皆注文校字。可作本字說收錄，不能列為另一詩家經文。",
+      "decisions": [],
+      "findings": [
+        {
+          "text": "稅",
+          "witness": "袁書列魯詩，釋文及文選注引詩",
+          "schools": [
+            "魯"
+          ],
+          "kind": "傳本異文",
+          "note": ""
+        },
+        {
+          "text": "襚",
+          "witness": "鄭箋、曾釗及馬瑞辰校說",
+          "schools": [],
+          "kind": "本字說",
+          "note": "",
+          "qualification": "鄭箋改字說，非獨立傳本",
+          "base": "說"
+        }
+      ],
+      "status": "字形覆核",
+      "continuationPages": [],
+      "recheckOf": "ocr-check-2026-11-01-500",
+      "viewedPdfPages": [
+        121
+      ]
+    },
+    {
+      "unit": 276,
+      "unitId": "yuan2013-0276",
+      "poemId": "shijing-057",
+      "title": "衛風・碩人",
+      "lemma": "鑣鑣",
+      "page": 96,
+      "pdfPage": 121,
+      "indexPdfPage": 924,
+      "indexPrintPage": 899,
+      "summary": "實看96–97頁：金鹿為鑣、人鹿為儦，原有儦儦已可定；說文、廣雅行貌與盛貌的差異屬訓義，無另罕字需待編碼，可清除pending。",
+      "decisions": [
+        {
+          "candidate": 0,
+          "ocr": "儦儦",
+          "decision": "keep",
+          "label": "前批保留",
+          "result": "儦儦",
+          "note": "前批候選取捨沿錄；本次覆查結論：實看96–97頁：金鹿為鑣、人鹿為儦，原有儦儦已可定；說文、廣雅行貌與盛貌的差異屬訓義，無另罕字需待編碼，可清除pending。"
+        }
+      ],
+      "findings": [
+        {
+          "text": "儦儦",
+          "witness": "袁書列韓詩；玉篇引詩",
+          "schools": [
+            "韓"
+          ],
+          "kind": "傳本異文",
+          "note": ""
+        }
+      ],
+      "status": "字形覆核",
+      "continuationPages": [
+        97
+      ],
+      "recheckOf": "ocr-check-2026-11-01-500",
+      "viewedPdfPages": [
+        121,
+        122
+      ]
+    },
+    {
+      "unit": 279,
+      "unitId": "yuan2013-0279",
+      "poemId": "shijing-057",
+      "title": "衛風・碩人",
+      "lemma": "活活",
+      "page": 97,
+      "pdfPage": 122,
+      "indexPdfPage": 924,
+      "indexPrintPage": 899,
+      "summary": "實看97頁：繫傳引北流涽涽，水昏之涽（昏聲），不同於水舌之活。",
+      "decisions": [],
+      "findings": [
+        {
+          "text": "涽涽",
+          "witness": "說文繫傳引詩",
+          "schools": [],
+          "kind": "傳本異文",
+          "note": "",
+          "base": "活活"
+        }
+      ],
+      "status": "字形覆核",
+      "continuationPages": [],
+      "recheckOf": "ocr-check-2026-11-01-500",
+      "viewedPdfPages": [
+        122
+      ]
+    },
+    {
+      "unit": 280,
+      "unitId": "yuan2013-0280",
+      "poemId": "shijing-057",
+      "title": "衛風・碩人",
+      "lemma": "罛",
+      "page": 97,
+      "pdfPage": 122,
+      "indexPdfPage": 924,
+      "indexPrintPage": 899,
+      "summary": "實看97頁：魯詩明列罟（网古），說文引施罟濊濊，淮南子說山、呂氏春秋上農高注同；本站罛（网瓜）。可補正原有罟的家別為魯，形碼無懸疑。",
+      "decisions": [
+        {
+          "candidate": 0,
+          "ocr": "黑",
+          "decision": "correct",
+          "label": "前批OCR訂正",
+          "result": "罟",
+          "note": "前批候選取捨沿錄；本次覆查結論：實看97頁：魯詩明列罟（网古），說文引施罟濊濊，淮南子說山、呂氏春秋上農高注同；本站罛（网瓜）。可補正原有罟的家別為魯，形碼無懸疑。"
+        },
+        {
+          "candidate": 1,
+          "ocr": "罛",
+          "decision": "related",
+          "label": "前批字學／訓解相關字",
+          "result": "罛",
+          "note": "前批候選取捨沿錄；本次覆查結論：實看97頁：魯詩明列罟（网古），說文引施罟濊濊，淮南子說山、呂氏春秋上農高注同；本站罛（网瓜）。可補正原有罟的家別為魯，形碼無懸疑。"
+        }
+      ],
+      "findings": [
+        {
+          "text": "罟",
+          "witness": "袁書明列魯詩、說文及淮南子說山、呂氏春秋上農高注引詩",
+          "schools": [
+            "魯"
+          ],
+          "kind": "傳本異文",
+          "note": "",
+          "base": "罛"
+        }
+      ],
+      "status": "字形覆核",
+      "continuationPages": [],
+      "recheckOf": "ocr-check-2026-11-01-500",
+      "viewedPdfPages": [
+        122
+      ]
+    },
+    {
+      "unit": 281,
+      "unitId": "yuan2013-0281",
+      "poemId": "shijing-057",
+      "title": "衛風・碩人",
+      "lemma": "濊濊",
+      "page": 97,
+      "pdfPage": 122,
+      "indexPdfPage": 924,
+      "indexPrintPage": 899,
+      "summary": "實看97–98頁：本條有水歲及其重文／或體，小徐另水旁亡形之雙字；原書區別濊與幾種添減筆俗體。尚不能把每形穩定對碼，不將OCR同形當確定異文。",
+      "decisions": [],
+      "findings": [],
+      "status": "字形覆核",
+      "continuationPages": [
+        98
+      ],
+      "pendingGlyphs": [
+        {
+          "id": "281-recheck",
+          "label": "實看97–98頁：本條有水歲及其重文／或體，小徐另水旁亡形之雙字；原書區別濊與幾種添減筆俗體。尚不能把每形穩定對碼，不將OCR同形當確定異文。",
+          "printPages": [
+            97,
+            98
+          ],
+          "pdfPages": [
+            122,
+            123
+          ]
+        }
+      ],
+      "recheckOf": "ocr-check-2026-11-01-500",
+      "viewedPdfPages": [
+        122,
+        123
+      ],
+      "glyphs": [
+        {
+          "alt": "第281項待辨字原圖",
+          "note": "取關鍵一字；本條若有其餘古形，其餘位置仍待辨。",
+          "pdfPage": 122,
+          "printPage": 97,
+          "cropPixels": [
+            302,
+            3110,
+            392,
+            3210
+          ],
+          "renderPixels": [
+            2436,
+            3600
+          ],
+          "url": "collations/glyphs/yuan2013-recheck-281-1.png"
+        }
+      ]
+    },
+    {
+      "unit": 283,
+      "unitId": "yuan2013-0283",
+      "poemId": "shijing-057",
+      "title": "衛風・碩人",
+      "lemma": "孽孽",
+      "page": 98,
+      "pdfPage": 123,
+      "indexPdfPage": 924,
+      "indexPrintPage": 899,
+      "summary": "實看98頁：韓詩車旁字、音牛渴反、長貌，說文訓載高貌；右部非普通載。字碼未定，不以車同字替錄；整段屬同音假借說。",
+      "decisions": [],
+      "findings": [],
+      "status": "字形覆核",
+      "continuationPages": [],
+      "pendingGlyphs": [
+        {
+          "id": "283-recheck",
+          "label": "實看98頁：韓詩車旁字、音牛渴反、長貌，說文訓載高貌；右部非普通載。字碼未定，不以車同字替錄；整段屬同音假借說。",
+          "printPages": [
+            98
+          ],
+          "pdfPages": [
+            123
+          ]
+        }
+      ],
+      "recheckOf": "ocr-check-2026-11-01-500",
+      "viewedPdfPages": [
+        123
+      ],
+      "glyphs": [
+        {
+          "alt": "第283項待辨字原圖",
+          "note": "取關鍵一字；本條若有其餘古形，其餘位置仍待辨。",
+          "pdfPage": 123,
+          "printPage": 98,
+          "cropPixels": [
+            674,
+            1917,
+            764,
+            2017
+          ],
+          "renderPixels": [
+            2436,
+            3600
+          ],
+          "url": "collations/glyphs/yuan2013-recheck-283-1.png"
+        }
+      ]
+    },
+    {
+      "unit": 286,
+      "unitId": "yuan2013-0286",
+      "poemId": "shijing-058",
+      "title": "衛風・氓",
+      "lemma": "愆",
+      "page": 100,
+      "pdfPage": 125,
+      "indexPdfPage": 925,
+      "indexPrintPage": 900,
+      "summary": "實看100頁：釋文又作諐，說文標諐為愆之籀文，言在下的諐形可辨；與本站心行之愆分開。",
+      "decisions": [],
+      "findings": [
+        {
+          "text": "諐",
+          "witness": "釋文又作、說文籀文",
+          "schools": [],
+          "kind": "傳本異文",
+          "note": "",
+          "base": "愆"
+        }
+      ],
+      "status": "字形覆核",
+      "continuationPages": [],
+      "recheckOf": "ocr-check-2026-11-01-500",
+      "viewedPdfPages": [
+        125
+      ]
+    },
+    {
+      "unit": 291,
+      "unitId": "yuan2013-0291",
+      "poemId": "shijing-058",
+      "title": "衛風・氓",
+      "lemma": "耽",
+      "page": 101,
+      "pdfPage": 126,
+      "indexPdfPage": 925,
+      "indexPrintPage": 900,
+      "summary": "實看101頁：原姚所誤是媅（女甚），說文及一切經音義引其為字學；爾雅、邢疏引本詩仍是妉（女冘）。妉已存，媅可辨但未增作獨立經文，清除pending。",
+      "decisions": [
+        {
+          "candidate": 0,
+          "ocr": "妉",
+          "decision": "keep",
+          "label": "前批保留",
+          "result": "妉",
+          "note": "前批候選取捨沿錄；本次覆查結論：實看101頁：原姚所誤是媅（女甚），說文及一切經音義引其為字學；爾雅、邢疏引本詩仍是妉（女冘）。妉已存，媅可辨但未增作獨立經文，清除pending。"
+        },
+        {
+          "candidate": 1,
+          "ocr": "姚",
+          "decision": "pending",
+          "label": "前批字形待辨",
+          "result": "字書女旁字",
+          "note": "前批候選取捨沿錄；本次覆查結論：實看101頁：原姚所誤是媅（女甚），說文及一切經音義引其為字學；爾雅、邢疏引本詩仍是妉（女冘）。妉已存，媅可辨但未增作獨立經文，清除pending。"
+        }
+      ],
+      "findings": [
+        {
+          "text": "妉",
+          "witness": "爾雅釋詁及邢疏引詩",
+          "schools": [],
+          "kind": "傳本異文",
+          "note": ""
+        }
+      ],
+      "status": "字形覆核",
+      "continuationPages": [],
+      "recheckOf": "ocr-check-2026-11-01-500",
+      "viewedPdfPages": [
+        126
+      ]
+    },
+    {
+      "unit": 292,
+      "unitId": "yuan2013-0292",
+      "poemId": "shijing-058",
+      "title": "衛風・氓",
+      "lemma": "帷",
+      "page": 101,
+      "pdfPage": 126,
+      "indexPdfPage": 925,
+      "indexPrintPage": 900,
+      "summary": "實看101頁：三種古形中有匚部古文及巾章／巾韋差異；各禮疏引漸車之巾旁字需再精確對碼，惟是石經形近訛字已有記載，不足解決全部形體。",
+      "decisions": [
+        {
+          "candidate": 0,
+          "ocr": "漸車惟裳",
+          "decision": "pending",
+          "label": "前批字形待辨",
+          "result": "引詩巾旁字",
+          "note": "前批候選取捨沿錄；本次覆查結論：實看101頁：三種古形中有匚部古文及巾章／巾韋差異；各禮疏引漸車之巾旁字需再精確對碼，惟是石經形近訛字已有記載，不足解決全部形體。"
+        },
+        {
+          "candidate": 1,
+          "ocr": "医",
+          "decision": "pending",
+          "label": "前批字形待辨",
+          "result": "古文字形",
+          "note": "前批候選取捨沿錄；本次覆查結論：實看101頁：三種古形中有匚部古文及巾章／巾韋差異；各禮疏引漸車之巾旁字需再精確對碼，惟是石經形近訛字已有記載，不足解決全部形體。"
+        },
+        {
+          "candidate": 2,
+          "ocr": "惟",
+          "decision": "keep",
+          "label": "前批保留",
+          "result": "惟",
+          "note": "前批候選取捨沿錄；本次覆查結論：實看101頁：三種古形中有匚部古文及巾章／巾韋差異；各禮疏引漸車之巾旁字需再精確對碼，惟是石經形近訛字已有記載，不足解決全部形體。"
+        }
+      ],
+      "findings": [
+        {
+          "text": "惟",
+          "witness": "南宋石經",
+          "schools": [],
+          "kind": "傳本異文",
+          "note": "",
+          "qualification": "原書判形近致訛"
+        }
+      ],
+      "status": "字形覆核",
+      "continuationPages": [],
+      "pendingGlyphs": [
+        {
+          "id": "292-recheck",
+          "label": "實看101頁：三種古形中有匚部古文及巾章／巾韋差異；各禮疏引漸車之巾旁字需再精確對碼，惟是石經形近訛字已有記載，不足解決全部形體。",
+          "printPages": [
+            101
+          ],
+          "pdfPages": [
+            126
+          ]
+        }
+      ],
+      "recheckOf": "ocr-check-2026-11-01-500",
+      "viewedPdfPages": [
+        126
+      ],
+      "glyphs": [
+        {
+          "alt": "第292項待辨字原圖",
+          "note": "取關鍵一字；本條若有其餘古形，其餘位置仍待辨。",
+          "pdfPage": 126,
+          "printPage": 101,
+          "cropPixels": [
+            1620,
+            1969,
+            1710,
+            2069
+          ],
+          "renderPixels": [
+            2436,
+            3600
+          ],
+          "url": "collations/glyphs/yuan2013-recheck-292-1.png"
+        }
+      ]
+    },
+    {
+      "unit": 296,
+      "unitId": "yuan2013-0296",
+      "poemId": "shijing-058",
+      "title": "衛風・氓",
+      "lemma": "旦旦",
+      "page": 102,
+      "pdfPage": 127,
+      "indexPdfPage": 925,
+      "indexPrintPage": 900,
+      "summary": "實看102頁：字為旦下心的上下形（不是怛的左右形）；說文、釋文引信誓〔旦下心〕〔旦下心〕。構件可辨但Unicode未核定，原pending保留此描述，不能填忌或怛。",
+      "decisions": [],
+      "findings": [],
+      "status": "字形覆核",
+      "continuationPages": [],
+      "pendingGlyphs": [
+        {
+          "id": "296-recheck",
+          "label": "實看102頁：字為旦下心的上下形（不是怛的左右形）；說文、釋文引信誓〔旦下心〕〔旦下心〕。構件可辨但Unicode未核定，原pending保留此描述，不能填忌或怛。",
+          "printPages": [
+            102
+          ],
+          "pdfPages": [
+            127
+          ]
+        }
+      ],
+      "recheckOf": "ocr-check-2026-11-01-500",
+      "viewedPdfPages": [
+        127
+      ],
+      "glyphs": [
+        {
+          "alt": "第296項待辨字原圖",
+          "note": "取關鍵一字；本條若有其餘古形，其餘位置仍待辨。",
+          "pdfPage": 127,
+          "printPage": 102,
+          "cropPixels": [
+            574,
+            2681,
+            664,
+            2781
+          ],
+          "renderPixels": [
+            2436,
+            3600
+          ],
+          "url": "collations/glyphs/yuan2013-recheck-296-1.png"
+        }
+      ]
+    },
+    {
+      "unit": 304,
+      "unitId": "yuan2013-0304",
+      "poemId": "shijing-060",
+      "title": "衛風・芄蘭",
+      "lemma": "悸",
+      "page": 104,
+      "pdfPage": 129,
+      "indexPdfPage": 925,
+      "indexPrintPage": 900,
+      "summary": "印105正文的本字為三心下糸的繠；集韻另記從木作橤。悸、萃是假借的說法須與韓詩直接作萃分層。原待辨兩種形碼均可辨明。",
+      "decisions": [
+        {
+          "candidate": 0,
+          "ocr": "萃",
+          "decision": "keep",
+          "label": "前批保留",
+          "result": "萃",
+          "note": "前批候選取捨沿錄；本次覆查結論：印105正文的本字為三心下糸的繠；集韻另記從木作橤。悸、萃是假借的說法須與韓詩直接作萃分層。原待辨兩種形碼均可辨明。"
+        },
+        {
+          "candidate": 1,
+          "ocr": "橤",
+          "decision": "pending",
+          "label": "前批字形待辨",
+          "result": "垂貌字學字",
+          "note": "前批候選取捨沿錄；本次覆查結論：印105正文的本字為三心下糸的繠；集韻另記從木作橤。悸、萃是假借的說法須與韓詩直接作萃分層。原待辨兩種形碼均可辨明。"
+        }
+      ],
+      "findings": [
+        {
+          "text": "萃",
+          "witness": "釋文明列韓詩",
+          "schools": [
+            "韓"
+          ],
+          "kind": "傳本異文",
+          "note": ""
+        },
+        {
+          "text": "繠",
+          "witness": "袁梅據馬瑞辰及說文所取本字",
+          "schools": [],
+          "kind": "本字說",
+          "note": "",
+          "qualification": "垂貌的本字推定；非韓詩另有明引經字",
+          "base": "悸"
+        },
+        {
+          "text": "橤",
+          "witness": "集韻所記繠的木部異體",
+          "schools": [],
+          "kind": "字學說明",
+          "note": "",
+          "qualification": "字學參校，非另一詩本",
+          "base": "悸"
+        }
+      ],
+      "status": "字形覆核",
+      "continuationPages": [
+        105
+      ],
+      "recheckOf": "ocr-check-2026-11-01-500",
+      "viewedPdfPages": [
+        129,
+        130
+      ]
+    },
+    {
+      "unit": 309,
+      "unitId": "yuan2013-0309",
+      "poemId": "shijing-061",
+      "title": "衛風・河廣",
+      "lemma": "刀",
+      "page": 107,
+      "pdfPage": 132,
+      "indexPdfPage": 926,
+      "indexPrintPage": 901,
+      "summary": "舠有御覽引詩實據。另有舟旁、右部周形的小船字及相倒異體，原書稱今說文脫字；不能把舟周形直接當舠，也不憑小船義補碼。",
+      "decisions": [],
+      "findings": [
+        {
+          "text": "舠",
+          "witness": "太平御覽引詩及字書所記",
+          "schools": [],
+          "kind": "傳本異文",
+          "note": ""
+        }
+      ],
+      "status": "字形覆核",
+      "continuationPages": [],
+      "pendingGlyphs": [
+        {
+          "id": "309-recheck",
+          "label": "舟旁右部周形的小船字；字學參校，非另一詩本；其他相倒形位置亦待辨。",
+          "printPages": [
+            107
+          ],
+          "pdfPages": [
+            132
+          ]
+        }
+      ],
+      "recheckOf": "ocr-check-2026-11-01-500",
+      "viewedPdfPages": [
+        132
+      ],
+      "glyphs": [
+        {
+          "pdfPage": 132,
+          "printPage": 107,
+          "cropPixels": [
+            1702,
+            382,
+            1810,
+            498
+          ],
+          "renderPixels": [
+            2436,
+            3600
+          ],
+          "alt": "第309項待辨原字",
+          "note": "舟旁右部周形的小船字；字學參校，非另一詩本；其他相倒形位置亦待辨。",
+          "url": "collations/glyphs/yuan2013-recheck-309-1.png"
+        }
+      ]
+    },
+    {
+      "unit": 312,
+      "unitId": "yuan2013-0312",
+      "poemId": "shijing-062",
+      "title": "衛風・伯兮",
+      "lemma": "諼",
+      "page": 107,
+      "pdfPage": 132,
+      "indexPdfPage": 926,
+      "indexPrintPage": 901,
+      "summary": "印108可分清藼（憲聲）、蕿（从煖）、萱（宣聲）、萲（爰形）與諠。新補蕿與萲均有引詩位置；說文重文與正字推說保留其字學資格。原待辨艸旁形碼已辨明。",
+      "decisions": [
+        {
+          "candidate": 0,
+          "ocr": "菱",
+          "decision": "pending",
+          "label": "前批字形待辨",
+          "result": "艸旁形體",
+          "note": "前批候選取捨沿錄；本次覆查結論：印108可分清藼（憲聲）、蕿（从煖）、萱（宣聲）、萲（爰形）與諠。新補蕿與萲均有引詩位置；說文重文與正字推說保留其字學資格。原待辨艸旁形碼已辨明。"
+        },
+        {
+          "candidate": 1,
+          "ocr": "蕙",
+          "decision": "pending",
+          "label": "前批字形待辨",
+          "result": "艸旁形體",
+          "note": "前批候選取捨沿錄；本次覆查結論：印108可分清藼（憲聲）、蕿（从煖）、萱（宣聲）、萲（爰形）與諠。新補蕿與萲均有引詩位置；說文重文與正字推說保留其字學資格。原待辨艸旁形碼已辨明。"
+        }
+      ],
+      "findings": [
+        {
+          "text": "萱",
+          "witness": "初學記、白帖引詩",
+          "schools": [],
+          "kind": "傳本異文",
+          "note": ""
+        },
+        {
+          "text": "諠",
+          "witness": "文選注明引韓詩",
+          "schools": [
+            "韓"
+          ],
+          "kind": "傳本異文",
+          "note": ""
+        },
+        {
+          "text": "藼",
+          "witness": "袁氏據說文所取正字",
+          "schools": [],
+          "kind": "本字說",
+          "note": "",
+          "qualification": "本字推定"
+        },
+        {
+          "text": "蕿",
+          "witness": "文選阮籍詠懷詩注、吳淑事類賦引詩",
+          "schools": [],
+          "kind": "傳本異文",
+          "note": "",
+          "qualification": "所引作焉得蕿草；未明分三家",
+          "base": "諼"
+        },
+        {
+          "text": "萲",
+          "witness": "王應麟詩攷引釋文爾雅音義引詩",
+          "schools": [],
+          "kind": "傳本異文",
+          "note": "",
+          "qualification": "艸下爰形；與說文从煖的蕿分開",
+          "base": "諼"
+        }
+      ],
+      "status": "字形覆核",
+      "continuationPages": [
+        108
+      ],
+      "recheckOf": "ocr-check-2026-11-01-500",
+      "viewedPdfPages": [
+        132,
+        133
+      ]
+    },
+    {
+      "unit": 314,
+      "unitId": "yuan2013-0314",
+      "poemId": "shijing-062",
+      "title": "衛風・伯兮",
+      "lemma": "痗",
+      "page": 108,
+      "pdfPage": 133,
+      "indexPdfPage": 926,
+      "indexPrintPage": 901,
+      "summary": "薛君章句的轉引作疒旁、下部毒似形；原書隨即判不體、字書所無、當傳寫致訛。爾雅作痗與本站同。未把訛形猜成癌或其他常字。",
+      "decisions": [],
+      "findings": [],
+      "status": "字形覆核",
+      "continuationPages": [],
+      "pendingGlyphs": [
+        {
+          "id": "314-recheck",
+          "label": "疒旁下部毒似形；轉引訛字待辨，非可確定三家經字。",
+          "printPages": [
+            108
+          ],
+          "pdfPages": [
+            133
+          ]
+        }
+      ],
+      "recheckOf": "ocr-check-2026-11-01-500",
+      "viewedPdfPages": [
+        133
+      ],
+      "glyphs": [
+        {
+          "pdfPage": 133,
+          "printPage": 108,
+          "cropPixels": [
+            308,
+            3092,
+            416,
+            3208
+          ],
+          "renderPixels": [
+            2436,
+            3600
+          ],
+          "alt": "第314項待辨原字",
+          "note": "疒旁下部毒似形；轉引訛字待辨，非可確定三家經字。",
+          "url": "collations/glyphs/yuan2013-recheck-314-1.png"
+        }
+      ]
+    },
+    {
+      "unit": 319,
+      "unitId": "yuan2013-0319",
+      "poemId": "shijing-065",
+      "title": "王風・黍離",
+      "lemma": "靡靡",
+      "page": 111,
+      "pdfPage": 136,
+      "indexPdfPage": 926,
+      "indexPrintPage": 901,
+      "summary": "玉篇所出是亻麻形，解作遲遲，原書說靡的初文。確有字學參校價值，但未見可獨立定碼的形證，不以儞或近形字代錄。",
+      "decisions": [],
+      "findings": [],
+      "status": "字形覆核",
+      "continuationPages": [],
+      "pendingGlyphs": [
+        {
+          "id": "319-recheck",
+          "label": "亻麻形；字學參校，非另一詩本。",
+          "printPages": [
+            111
+          ],
+          "pdfPages": [
+            136
+          ]
+        }
+      ],
+      "recheckOf": "ocr-check-2026-11-01-500",
+      "viewedPdfPages": [
+        136
+      ],
+      "glyphs": [
+        {
+          "pdfPage": 136,
+          "printPage": 111,
+          "cropPixels": [
+            1038,
+            1188,
+            1146,
+            1304
+          ],
+          "renderPixels": [
+            2436,
+            3600
+          ],
+          "alt": "第319項待辨原字",
+          "note": "亻麻形；字學參校，非另一詩本。",
+          "url": "collations/glyphs/yuan2013-recheck-319-1.png"
+        }
+      ]
+    },
+    {
+      "unit": 326,
+      "unitId": "yuan2013-0326",
+      "poemId": "shijing-066",
+      "title": "王風・君子于役",
+      "lemma": "佸",
+      "page": 112,
+      "pdfPage": 137,
+      "indexPdfPage": 927,
+      "indexPrintPage": 902,
+      "summary": "說文的會也、从人昏聲古形及引詩位置俱在；韓詩至也是訓義，不能另外造一經字。括保留字學比較，古形仍待辨碼。",
+      "decisions": [],
+      "findings": [
+        {
+          "text": "括",
+          "witness": "廣雅所記同音字",
+          "schools": [],
+          "kind": "字學說明",
+          "note": "",
+          "qualification": "他書字形比較"
+        }
+      ],
+      "status": "字形覆核",
+      "continuationPages": [
+        113
+      ],
+      "pendingGlyphs": [
+        {
+          "id": "326-recheck",
+          "label": "亻旁、右部昏聲古形；字學參校，非另一詩本；隸變佸相對位置亦須保留。",
+          "printPages": [
+            112,
+            113
+          ],
+          "pdfPages": [
+            137,
+            138
+          ]
+        }
+      ],
+      "recheckOf": "ocr-check-2026-11-01-500",
+      "viewedPdfPages": [
+        137,
+        138
+      ],
+      "glyphs": [
+        {
+          "pdfPage": 137,
+          "printPage": 112,
+          "cropPixels": [
+            846,
+            2743,
+            954,
+            2859
+          ],
+          "renderPixels": [
+            2436,
+            3600
+          ],
+          "alt": "第326項待辨原字",
+          "note": "亻旁、右部昏聲古形；字學參校，非另一詩本；隸變佸相對位置亦須保留。",
+          "url": "collations/glyphs/yuan2013-recheck-326-1.png"
+        }
+      ]
+    },
+    {
+      "unit": 328,
+      "unitId": "yuan2013-0328",
+      "poemId": "shijing-067",
+      "title": "王風・君子陽陽",
+      "lemma": "翿",
+      "page": 113,
+      "pdfPage": 138,
+      "indexPdfPage": 927,
+      "indexPrintPage": 902,
+      "summary": "說文羽部古文、翿的隸變以及宋本爾雅、葉林宗鈔本釋文所見省體有別。舊OCR赣、關均不足以代替，仍以圖保存。",
+      "decisions": [
+        {
+          "candidate": 0,
+          "ocr": "赣",
+          "decision": "pending",
+          "label": "前批字形待辨",
+          "result": "羽部古文",
+          "note": "前批候選取捨沿錄；本次覆查結論：說文羽部古文、翿的隸變以及宋本爾雅、葉林宗鈔本釋文所見省體有別。舊OCR赣、關均不足以代替，仍以圖保存。"
+        },
+        {
+          "candidate": 1,
+          "ocr": "關",
+          "decision": "pending",
+          "label": "前批字形待辨",
+          "result": "宋本俗體",
+          "note": "前批候選取捨沿錄；本次覆查結論：說文羽部古文、翿的隸變以及宋本爾雅、葉林宗鈔本釋文所見省體有別。舊OCR赣、關均不足以代替，仍以圖保存。"
+        }
+      ],
+      "findings": [],
+      "status": "字形覆核",
+      "continuationPages": [],
+      "pendingGlyphs": [
+        {
+          "id": "328-recheck",
+          "label": "羽部壽聲古文與宋本省體；本裁圖選古文，其他宋本位置仍待辨。",
+          "printPages": [
+            113
+          ],
+          "pdfPages": [
+            138
+          ]
+        }
+      ],
+      "recheckOf": "ocr-check-2026-11-01-500",
+      "viewedPdfPages": [
+        138
+      ],
+      "glyphs": [
+        {
+          "pdfPage": 138,
+          "printPage": 113,
+          "cropPixels": [
+            1340,
+            1514,
+            1448,
+            1630
+          ],
+          "renderPixels": [
+            2436,
+            3600
+          ],
+          "alt": "第328項待辨原字",
+          "note": "羽部壽聲古文與宋本省體；本裁圖選古文，其他宋本位置仍待辨。",
+          "url": "collations/glyphs/yuan2013-recheck-328-1.png"
+        }
+      ]
+    },
+    {
+      "unit": 348,
+      "unitId": "yuan2013-0348",
+      "poemId": "shijing-073",
+      "title": "王風・大車",
+      "lemma": "啍啍",
+      "page": 119,
+      "pdfPage": 144,
+      "indexPdfPage": 928,
+      "indexPrintPage": 903,
+      "summary": "韓詩所作確為車旁隹聲形，玉篇訓車盛貌；口部古文及廣韻訛字另有字形。尚未確定車旁字碼，不用雗或難代錄。",
+      "decisions": [],
+      "findings": [],
+      "status": "字形覆核",
+      "continuationPages": [],
+      "pendingGlyphs": [
+        {
+          "id": "348-recheck",
+          "label": "韓詩車隹形；另有說文篆體與廣韻訛字位置待辨。",
+          "printPages": [
+            119
+          ],
+          "pdfPages": [
+            144
+          ]
+        }
+      ],
+      "recheckOf": "ocr-check-2026-11-01-500",
+      "viewedPdfPages": [
+        144
+      ],
+      "glyphs": [
+        {
+          "pdfPage": 144,
+          "printPage": 119,
+          "cropPixels": [
+            492,
+            2186,
+            600,
+            2302
+          ],
+          "renderPixels": [
+            2436,
+            3600
+          ],
+          "alt": "第348項待辨原字",
+          "note": "韓詩車隹形；另有說文篆體與廣韻訛字位置待辨。",
+          "url": "collations/glyphs/yuan2013-recheck-348-1.png"
+        }
+      ]
+    },
+    {
+      "unit": 349,
+      "unitId": "yuan2013-0349",
+      "poemId": "shijing-073",
+      "title": "王風・大車",
+      "lemma": "璊",
+      "page": 119,
+      "pdfPage": 144,
+      "indexPdfPage": 928,
+      "indexPrintPage": 903,
+      "summary": "韓詩麻下賁的黂可辨。魯齊字與說文从毛㒼聲的赤苗字另需核配字碼；原頁形體不能因禾之赤苗的訓語便替換成穈。",
+      "decisions": [],
+      "findings": [
+        {
+          "text": "黂",
+          "witness": "韓詩及內傳所記",
+          "schools": [
+            "韓"
+          ],
+          "kind": "傳本異文",
+          "note": "",
+          "qualification": "內傳訓異色之衣；與魯齊的另一㒼聲形分開",
+          "base": "璊"
+        }
+      ],
+      "status": "字形覆核",
+      "continuationPages": [],
+      "pendingGlyphs": [
+        {
+          "id": "349-recheck",
+          "label": "魯齊所記㒼聲形（左部原書字體待精確辨碼）；从毛條及服色訓語只作字學參校。",
+          "printPages": [
+            119
+          ],
+          "pdfPages": [
+            144
+          ]
+        }
+      ],
+      "recheckOf": "ocr-check-2026-11-01-500",
+      "viewedPdfPages": [
+        144
+      ],
+      "glyphs": [
+        {
+          "pdfPage": 144,
+          "printPage": 119,
+          "cropPixels": [
+            597,
+            2973,
+            705,
+            3089
+          ],
+          "renderPixels": [
+            2436,
+            3600
+          ],
+          "alt": "第349項待辨原字",
+          "note": "魯齊所記㒼聲形（左部原書字體待精確辨碼）；从毛條及服色訓語只作字學參校。",
+          "url": "collations/glyphs/yuan2013-recheck-349-1.png"
+        }
+      ]
+    },
+    {
+      "unit": 358,
+      "unitId": "yuan2013-0358",
+      "poemId": "shijing-075",
+      "title": "鄭風・緇衣",
+      "lemma": "粲",
+      "page": 122,
+      "pdfPage": 147,
+      "indexPdfPage": 928,
+      "indexPrintPage": 903,
+      "summary": "唐石經字的下部為木形，監本毛本另有糸形；字頭上部與粲的關係清楚，但桑、累均是OCR誤配。餐的本字說不能補足這兩個字形的字碼。",
+      "decisions": [
+        {
+          "candidate": 0,
+          "ocr": "桑",
+          "decision": "pending",
+          "label": "前批字形待辨",
+          "result": "唐石經形體",
+          "note": "前批候選取捨沿錄；本次覆查結論：唐石經字的下部為木形，監本毛本另有糸形；字頭上部與粲的關係清楚，但桑、累均是OCR誤配。餐的本字說不能補足這兩個字形的字碼。"
+        },
+        {
+          "candidate": 1,
+          "ocr": "累",
+          "decision": "pending",
+          "label": "前批字形待辨",
+          "result": "監本毛本形體",
+          "note": "前批候選取捨沿錄；本次覆查結論：唐石經字的下部為木形，監本毛本另有糸形；字頭上部與粲的關係清楚，但桑、累均是OCR誤配。餐的本字說不能補足這兩個字形的字碼。"
+        }
+      ],
+      "findings": [],
+      "status": "字形覆核",
+      "continuationPages": [],
+      "pendingGlyphs": [
+        {
+          "id": "358-recheck",
+          "label": "唐石經粲下木形；另監本毛本糸形待辨；字學參校部分非另一詩本。",
+          "printPages": [
+            122
+          ],
+          "pdfPages": [
+            147
+          ]
+        }
+      ],
+      "recheckOf": "ocr-check-2026-11-01-500",
+      "viewedPdfPages": [
+        147
+      ],
+      "glyphs": [
+        {
+          "pdfPage": 147,
+          "printPage": 122,
+          "cropPixels": [
+            1018,
+            1190,
+            1126,
+            1306
+          ],
+          "renderPixels": [
+            2436,
+            3600
+          ],
+          "alt": "第358項待辨原字",
+          "note": "唐石經粲下木形；另監本毛本糸形待辨；字學參校部分非另一詩本。",
+          "url": "collations/glyphs/yuan2013-recheck-358-1.png"
+        }
+      ]
+    },
+    {
+      "unit": 360,
+      "unitId": "yuan2013-0360",
+      "poemId": "shijing-076",
+      "title": "鄭風・將仲子",
+      "lemma": "杞",
+      "page": 123,
+      "pdfPage": 148,
+      "indexPdfPage": 928,
+      "indexPrintPage": 903,
+      "summary": "毛本木旁形的己／巳開口位置與通常杞字有異，嚴可均判不體。這是原頁實有的字形差，未直接用枢、杷或日文字體補碼。",
+      "decisions": [
+        {
+          "candidate": 0,
+          "ocr": "枢",
+          "decision": "pending",
+          "label": "前批字形待辨",
+          "result": "毛本木旁異形",
+          "note": "前批候選取捨沿錄；本次覆查結論：毛本木旁形的己／巳開口位置與通常杞字有異，嚴可均判不體。這是原頁實有的字形差，未直接用枢、杷或日文字體補碼。"
+        }
+      ],
+      "findings": [],
+      "status": "字形覆核",
+      "continuationPages": [],
+      "pendingGlyphs": [
+        {
+          "id": "360-recheck",
+          "label": "木旁右部己巳開口位置異形；不體字碼待辨。",
+          "printPages": [
+            123
+          ],
+          "pdfPages": [
+            148
+          ]
+        }
+      ],
+      "recheckOf": "ocr-check-2026-11-01-500",
+      "viewedPdfPages": [
+        148
+      ],
+      "glyphs": [
+        {
+          "pdfPage": 148,
+          "printPage": 123,
+          "cropPixels": [
+            898,
+            746,
+            1006,
+            862
+          ],
+          "renderPixels": [
+            2436,
+            3600
+          ],
+          "alt": "第360項待辨原字",
+          "note": "木旁右部己巳開口位置異形；不體字碼待辨。",
+          "url": "collations/glyphs/yuan2013-recheck-360-1.png"
+        }
+      ]
+    },
+    {
+      "unit": 371,
+      "unitId": "yuan2013-0371",
+      "poemId": "shijing-078",
+      "title": "鄭風・大叔于田",
+      "lemma": "罕",
+      "page": 126,
+      "pdfPage": 151,
+      "indexPdfPage": 929,
+      "indexPrintPage": 904,
+      "summary": "玄應引叔發罕忌的字上部為完整网形，下干；說文及五經文字說隸省作罕。字形脈絡可明，但完整网形與罒干不能僅憑外觀互配碼。",
+      "decisions": [],
+      "findings": [],
+      "status": "字形覆核",
+      "continuationPages": [],
+      "pendingGlyphs": [
+        {
+          "id": "371-recheck",
+          "label": "完整网下干形；字學參校與玄應引詩形體並見，未定碼。",
+          "printPages": [
+            126
+          ],
+          "pdfPages": [
+            151
+          ]
+        }
+      ],
+      "recheckOf": "ocr-check-2026-11-01-500",
+      "viewedPdfPages": [
+        151
+      ],
+      "glyphs": [
+        {
+          "pdfPage": 151,
+          "printPage": 126,
+          "cropPixels": [
+            1706,
+            1446,
+            1814,
+            1562
+          ],
+          "renderPixels": [
+            2436,
+            3600
+          ],
+          "alt": "第371項待辨原字",
+          "note": "完整网下干形；字學參校與玄應引詩形體並見，未定碼。",
+          "url": "collations/glyphs/yuan2013-recheck-371-1.png"
+        }
+      ]
+    },
+    {
+      "unit": 384,
+      "unitId": "yuan2013-0384",
+      "poemId": "shijing-081",
+      "title": "鄭風・遵大路",
+      "lemma": "摻",
+      "page": 129,
+      "pdfPage": 154,
+      "indexPdfPage": 929,
+      "indexPrintPage": 904,
+      "summary": "印130開頭作攬子袪，並明說攬俗擥字；可補攬為後世釋詩語。擥、操、摻的本字說均能辨明，原待辨字碼已明。",
+      "decisions": [
+        {
+          "candidate": 0,
+          "ocr": "摻",
+          "decision": "related",
+          "label": "前批字學／訓解相關字",
+          "result": "摻為本站同字",
+          "note": "前批候選取捨沿錄；本次覆查結論：印130開頭作攬子袪，並明說攬俗擥字；可補攬為後世釋詩語。擥、操、摻的本字說均能辨明，原待辨字碼已明。"
+        }
+      ],
+      "findings": [
+        {
+          "text": "操",
+          "witness": "馬瑞辰及袁氏所取本字",
+          "schools": [],
+          "kind": "本字說",
+          "note": ""
+        },
+        {
+          "text": "攬",
+          "witness": "文選宋玉登徒子好色賦釋詩語",
+          "schools": [],
+          "kind": "後世用詩",
+          "note": "",
+          "qualification": "所釋攬子袪；李善注真正引詩仍作摻，不當作三家傳本",
+          "base": "摻"
+        }
+      ],
+      "status": "字形覆核",
+      "continuationPages": [
+        130
+      ],
+      "recheckOf": "ocr-check-2026-11-01-500",
+      "viewedPdfPages": [
+        154,
+        155
+      ]
+    },
+    {
+      "unit": 385,
+      "unitId": "yuan2013-0385",
+      "poemId": "shijing-081",
+      "title": "鄭風・遵大路",
+      "lemma": "魗",
+      "page": 130,
+      "pdfPage": 155,
+      "indexPdfPage": 929,
+      "indexPrintPage": 904,
+      "summary": "釋文另本與說文攴部的壽聲形、隸變形有別。原書以毛傳棄也論之，不足以把兩形碼定成覃或載；仍保留字形圖。",
+      "decisions": [
+        {
+          "candidate": 0,
+          "ocr": "覃",
+          "decision": "pending",
+          "label": "前批字形待辨",
+          "result": "釋文與說文字形",
+          "note": "前批候選取捨沿錄；本次覆查結論：釋文另本與說文攴部的壽聲形、隸變形有別。原書以毛傳棄也論之，不足以把兩形碼定成覃或載；仍保留字形圖。"
+        },
+        {
+          "candidate": 1,
+          "ocr": "载",
+          "decision": "pending",
+          "label": "前批字形待辨",
+          "result": "隸變字形",
+          "note": "前批候選取捨沿錄；本次覆查結論：釋文另本與說文攴部的壽聲形、隸變形有別。原書以毛傳棄也論之，不足以把兩形碼定成覃或載；仍保留字形圖。"
+        }
+      ],
+      "findings": [],
+      "status": "字形覆核",
+      "continuationPages": [],
+      "pendingGlyphs": [
+        {
+          "id": "385-recheck",
+          "label": "壽聲攴部形及另本俗形；字學參校，非另外由訓義造三家經字。",
+          "printPages": [
+            130
+          ],
+          "pdfPages": [
+            155
+          ]
+        }
+      ],
+      "recheckOf": "ocr-check-2026-11-01-500",
+      "viewedPdfPages": [
+        155
+      ],
+      "glyphs": [
+        {
+          "pdfPage": 155,
+          "printPage": 130,
+          "cropPixels": [
+            1287,
+            1443,
+            1395,
+            1559
+          ],
+          "renderPixels": [
+            2436,
+            3600
+          ],
+          "alt": "第385項待辨原字",
+          "note": "壽聲攴部形及另本俗形；字學參校，非另外由訓義造三家經字。",
+          "url": "collations/glyphs/yuan2013-recheck-385-1.png"
+        }
+      ]
+    },
+    {
+      "unit": 395,
+      "unitId": "yuan2013-0395",
+      "poemId": "shijing-085",
+      "title": "鄭風・蘀兮",
+      "lemma": "蘀",
+      "page": 133,
+      "pdfPage": 158,
+      "indexPdfPage": 930,
+      "indexPrintPage": 905,
+      "summary": "列女傳竹頭擇聲的籜可以辨定；另說文木葉陊也、从艸包聲的重文形碼未定，故本條仍pending。原書判籜為蘀的隸變之體。",
+      "decisions": [],
+      "findings": [
+        {
+          "text": "籜",
+          "witness": "列女傳魯公乘姒引詩",
+          "schools": [],
+          "kind": "傳本異文",
+          "note": "",
+          "qualification": "所引籜兮籜兮；篇名魯公不是魯詩家別證據",
+          "base": "蘀"
+        }
+      ],
+      "status": "字形覆核",
+      "continuationPages": [],
+      "glyphs": [
+        {
+          "url": "collations/glyphs/yuan2013-b500-395-2.png",
+          "alt": "列女傳所引擇聲字",
+          "note": "列女傳所引擇聲字；按原頁截圖保留形體，字碼暫不強配。",
+          "cropPixels": [
+            1075,
+            1060,
+            1160,
+            1130
+          ],
+          "renderPixels": [
+            1624,
+            2400
+          ],
+          "pdfPage": 158,
+          "printPage": 133
+        },
+        {
+          "pdfPage": 158,
+          "printPage": 133,
+          "cropPixels": [
+            1772,
+            1928,
+            1880,
+            2044
+          ],
+          "renderPixels": [
+            2436,
+            3600
+          ],
+          "alt": "第395項待辨原字",
+          "note": "說文从艸包聲的木葉陊也字；字學參校，非另一詩本。",
+          "url": "collations/glyphs/yuan2013-recheck-395-1.png"
+        }
+      ],
+      "pendingGlyphs": [
+        {
+          "id": "395-recheck",
+          "label": "說文从艸包聲的木葉陊也字；字學參校，非另一詩本。",
+          "printPages": [
+            133
+          ],
+          "pdfPages": [
+            158
+          ]
+        }
+      ],
+      "recheckOf": "ocr-check-2026-11-01-500",
+      "viewedPdfPages": [
+        158
+      ]
+    },
+    {
+      "unit": 399,
+      "unitId": "yuan2013-0399",
+      "poemId": "shijing-087",
+      "title": "鄭風・褰裳",
+      "lemma": "褰裳涉溱",
+      "page": 134,
+      "pdfPage": 159,
+      "indexPdfPage": 930,
+      "indexPrintPage": 905,
+      "summary": "繫傳手旁引句、漢碑搴及水部潧須分開，不能混造一條整句。搴（下手）與潧（水曾）可辨；繫傳手旁字的右部仍待核碼。",
+      "decisions": [],
+      "findings": [
+        {
+          "text": "騫裳涉溱",
+          "witness": "釋文本或作、文選注引毛詩",
+          "schools": [],
+          "kind": "傳本異文",
+          "note": ""
+        },
+        {
+          "text": "搴",
+          "witness": "漢碑所引褰裳涉洧",
+          "schools": [],
+          "kind": "傳本異文",
+          "note": "",
+          "qualification": "原書未於此指明碑名；只補單字對應，不拼接繫傳引句",
+          "base": "褰"
+        },
+        {
+          "text": "潧",
+          "witness": "袁梅據馬瑞辰、說文所取溱的本字",
+          "schools": [],
+          "kind": "本字說",
+          "note": "",
+          "qualification": "字學參校，非此句另一詩本；所引說文詩句出溱洧",
+          "base": "溱"
+        }
+      ],
+      "status": "字形覆核",
+      "continuationPages": [
+        135
+      ],
+      "pendingGlyphs": [
+        {
+          "id": "399-recheck",
+          "label": "繫傳手旁字：右部與攐、攓的構件須再分，不以近形配碼；其他本字說屬字學參校，非另一詩本。",
+          "printPages": [
+            134,
+            135
+          ],
+          "pdfPages": [
+            159,
+            160
+          ]
+        }
+      ],
+      "recheckOf": "ocr-check-2026-11-01-500",
+      "viewedPdfPages": [
+        159,
+        160
+      ],
+      "glyphs": [
+        {
+          "pdfPage": 159,
+          "printPage": 134,
+          "cropPixels": [
+            400,
+            2890,
+            520,
+            3006
+          ],
+          "renderPixels": [
+            2436,
+            3600
+          ],
+          "alt": "第399項待辨原字",
+          "note": "繫傳手旁字：右部與攐、攓的構件須再分，不以近形配碼；其他本字說屬字學參校，非另一詩本。",
+          "url": "collations/glyphs/yuan2013-recheck-399-1.png"
+        }
+      ]
+    },
+    {
+      "unit": 404,
+      "unitId": "yuan2013-0404",
+      "poemId": "shijing-088",
+      "title": "鄭風・丰",
+      "lemma": "歸",
+      "page": 136,
+      "pdfPage": 161,
+      "indexPdfPage": 930,
+      "indexPrintPage": 905,
+      "summary": "毛本省聲形為止與帚組合，原書以歸的構字省聲解釋。婦是說文分析部件，不是詩本異文；原省聲形仍不配帰等近形碼。",
+      "decisions": [
+        {
+          "candidate": 0,
+          "ocr": "婦",
+          "decision": "reject",
+          "label": "前批排除",
+          "result": "婦為字形分析部件",
+          "note": "前批候選取捨沿錄；本次覆查結論：毛本省聲形為止與帚組合，原書以歸的構字省聲解釋。婦是說文分析部件，不是詩本異文；原省聲形仍不配帰等近形碼。"
+        },
+        {
+          "candidate": 1,
+          "ocr": "帰",
+          "decision": "pending",
+          "label": "前批字形待辨",
+          "result": "毛本省聲形",
+          "note": "前批候選取捨沿錄；本次覆查結論：毛本省聲形為止與帚組合，原書以歸的構字省聲解釋。婦是說文分析部件，不是詩本異文；原省聲形仍不配帰等近形碼。"
+        }
+      ],
+      "findings": [],
+      "status": "字形覆核",
+      "continuationPages": [],
+      "pendingGlyphs": [
+        {
+          "id": "404-recheck",
+          "label": "左止右帚的毛本省聲形；字學參校，非另一詩本的婦字。",
+          "printPages": [
+            136
+          ],
+          "pdfPages": [
+            161
+          ]
+        }
+      ],
+      "recheckOf": "ocr-check-2026-11-01-500",
+      "viewedPdfPages": [
+        161
+      ],
+      "glyphs": [
+        {
+          "pdfPage": 161,
+          "printPage": 136,
+          "cropPixels": [
+            866,
+            1005,
+            974,
+            1121
+          ],
+          "renderPixels": [
+            2436,
+            3600
+          ],
+          "alt": "第404項待辨原字",
+          "note": "左止右帚的毛本省聲形；字學參校，非另一詩本的婦字。",
+          "url": "collations/glyphs/yuan2013-recheck-404-1.png"
+        }
+      ]
+    },
+    {
+      "unit": 411,
+      "unitId": "yuan2013-0411",
+      "poemId": "shijing-091",
+      "title": "鄭風・子衿",
+      "lemma": "衿",
+      "page": 138,
+      "pdfPage": 163,
+      "indexPdfPage": 931,
+      "indexPrintPage": 906,
+      "summary": "漢石經與豐坊字右部為金，能定作䘳；說文䘳交衽也、衽衣䘳也及未收衿襟的上下文相合。襟另本保持原資格；原待辨位置形碼已明。",
+      "decisions": [
+        {
+          "candidate": 0,
+          "ocr": "裣",
+          "decision": "pending",
+          "label": "前批字形待辨",
+          "result": "漢石經衣旁形",
+          "note": "前批候選取捨沿錄；本次覆查結論：漢石經與豐坊字右部為金，能定作䘳；說文䘳交衽也、衽衣䘳也及未收衿襟的上下文相合。襟另本保持原資格；原待辨位置形碼已明。"
+        },
+        {
+          "candidate": 1,
+          "ocr": "检",
+          "decision": "pending",
+          "label": "前批字形待辨",
+          "result": "異本衣旁形",
+          "note": "前批候選取捨沿錄；本次覆查結論：漢石經與豐坊字右部為金，能定作䘳；說文䘳交衽也、衽衣䘳也及未收衿襟的上下文相合。襟另本保持原資格；原待辨位置形碼已明。"
+        }
+      ],
+      "findings": [
+        {
+          "text": "襟",
+          "witness": "釋文本亦作",
+          "schools": [],
+          "kind": "傳本異文",
+          "note": ""
+        },
+        {
+          "text": "䘳",
+          "witness": "漢石經、明豐坊詩傳及詩說",
+          "schools": [],
+          "kind": "傳本異文",
+          "note": "",
+          "qualification": "衤金形；說文交衽也亦用此字，不是衤令的袊或衤合的袷",
+          "base": "衿"
+        }
+      ],
+      "status": "字形覆核",
+      "continuationPages": [
+        139
+      ],
+      "glyphs": [
+        {
+          "url": "collations/glyphs/yuan2013-b500-411-3.png",
+          "alt": "漢石經所載衣部字",
+          "note": "漢石經所載衣部字；按原頁截圖保留形體，字碼暫不強配。",
+          "cropPixels": [
+            275,
+            1460,
+            350,
+            1535
+          ],
+          "renderPixels": [
+            1624,
+            2400
+          ],
+          "pdfPage": 163,
+          "printPage": 138
+        }
+      ],
+      "recheckOf": "ocr-check-2026-11-01-500",
+      "viewedPdfPages": [
+        163,
+        164
+      ]
+    },
+    {
+      "unit": 415,
+      "unitId": "yuan2013-0415",
+      "poemId": "shijing-091",
+      "title": "鄭風・子衿",
+      "lemma": "挑兮達兮",
+      "page": 139,
+      "pdfPage": 164,
+      "indexPdfPage": 931,
+      "indexPrintPage": 906,
+      "summary": "又部古字與足部逹形分明，但又部上止下又形仍未核配碼。御覽撻、初學記及繫傳逹可維持，不能把古字直接作支，亦不依本字說自動分魯齊韓。",
+      "decisions": [
+        {
+          "candidate": 0,
+          "ocr": "支",
+          "decision": "pending",
+          "label": "前批字形待辨",
+          "result": "又部古字",
+          "note": "前批候選取捨沿錄；本次覆查結論：又部古字與足部逹形分明，但又部上止下又形仍未核配碼。御覽撻、初學記及繫傳逹可維持，不能把古字直接作支，亦不依本字說自動分魯齊韓。"
+        },
+        {
+          "candidate": 1,
+          "ocr": "逢",
+          "decision": "correct",
+          "label": "前批OCR訂正",
+          "result": "逹",
+          "note": "前批候選取捨沿錄；本次覆查結論：又部古字與足部逹形分明，但又部上止下又形仍未核配碼。御覽撻、初學記及繫傳逹可維持，不能把古字直接作支，亦不依本字說自動分魯齊韓。"
+        },
+        {
+          "candidate": 2,
+          "ocr": "蓬",
+          "decision": "correct",
+          "label": "前批OCR訂正",
+          "result": "撻",
+          "note": "前批候選取捨沿錄；本次覆查結論：又部古字與足部逹形分明，但又部上止下又形仍未核配碼。御覽撻、初學記及繫傳逹可維持，不能把古字直接作支，亦不依本字說自動分魯齊韓。"
+        }
+      ],
+      "findings": [
+        {
+          "text": "挑兮逹兮",
+          "witness": "初學記、說文繫傳引詩",
+          "schools": [],
+          "kind": "傳本異文",
+          "note": ""
+        },
+        {
+          "text": "挑兮撻兮",
+          "witness": "太平御覽引詩",
+          "schools": [],
+          "kind": "傳本異文",
+          "note": ""
+        }
+      ],
+      "status": "字形覆核",
+      "continuationPages": [
+        140
+      ],
+      "pendingGlyphs": [
+        {
+          "id": "415-recheck",
+          "label": "又部上止下又的古字；字學參校與說文引詩之三家主張須分層；足部古形亦待辨。",
+          "printPages": [
+            139,
+            140
+          ],
+          "pdfPages": [
+            164,
+            165
+          ]
+        }
+      ],
+      "recheckOf": "ocr-check-2026-11-01-500",
+      "viewedPdfPages": [
+        164,
+        165
+      ],
+      "glyphs": [
+        {
+          "pdfPage": 164,
+          "printPage": 139,
+          "cropPixels": [
+            1536,
+            3186,
+            1644,
+            3302
+          ],
+          "renderPixels": [
+            2436,
+            3600
+          ],
+          "alt": "第415項待辨原字",
+          "note": "又部上止下又的古字；字學參校與說文引詩之三家主張須分層；足部古形亦待辨。",
+          "url": "collations/glyphs/yuan2013-recheck-415-1.png"
+        }
+      ]
+    },
+    {
+      "unit": 421,
+      "unitId": "yuan2013-0421",
+      "poemId": "shijing-094",
+      "title": "鄭風・野有蔓草",
+      "lemma": "零露漙兮",
+      "page": 143,
+      "pdfPage": 168,
+      "indexPdfPage": 931,
+      "indexPrintPage": 906,
+      "summary": "零的雨下三口本字可定霝；顏氏記古本單作專亦可補。字林、玉篇的雨部專聲相關形仍未定碼，不能把OCR霉、赛當經字。",
+      "decisions": [
+        {
+          "candidate": 0,
+          "ocr": "雷",
+          "decision": "pending",
+          "label": "前批字形待辨",
+          "result": "零的雨部本字",
+          "note": "前批候選取捨沿錄；本次覆查結論：零的雨下三口本字可定霝；顏氏記古本單作專亦可補。字林、玉篇的雨部專聲相關形仍未定碼，不能把OCR霉、赛當經字。"
+        },
+        {
+          "candidate": 1,
+          "ocr": "靈",
+          "decision": "keep",
+          "label": "前批保留",
+          "result": "靈",
+          "note": "前批候選取捨沿錄；本次覆查結論：零的雨下三口本字可定霝；顏氏記古本單作專亦可補。字林、玉篇的雨部專聲相關形仍未定碼，不能把OCR霉、赛當經字。"
+        },
+        {
+          "candidate": 2,
+          "ocr": "霉",
+          "decision": "pending",
+          "label": "前批字形待辨",
+          "result": "雨部異形",
+          "note": "前批候選取捨沿錄；本次覆查結論：零的雨下三口本字可定霝；顏氏記古本單作專亦可補。字林、玉篇的雨部專聲相關形仍未定碼，不能把OCR霉、赛當經字。"
+        },
+        {
+          "candidate": 3,
+          "ocr": "赛",
+          "decision": "pending",
+          "label": "前批字形待辨",
+          "result": "漙的字書異形",
+          "note": "前批候選取捨沿錄；本次覆查結論：零的雨下三口本字可定霝；顏氏記古本單作專亦可補。字林、玉篇的雨部專聲相關形仍未定碼，不能把OCR霉、赛當經字。"
+        },
+        {
+          "candidate": 4,
+          "ocr": "專",
+          "decision": "related",
+          "label": "前批字學／訓解相關字",
+          "result": "專為省借字說",
+          "note": "前批候選取捨沿錄；本次覆查結論：零的雨下三口本字可定霝；顏氏記古本單作專亦可補。字林、玉篇的雨部專聲相關形仍未定碼，不能把OCR霉、赛當經字。"
+        }
+      ],
+      "findings": [
+        {
+          "text": "靈",
+          "witness": "馬瑞辰據正義所論古經用字",
+          "schools": [],
+          "kind": "校勘推說",
+          "note": "",
+          "base": "零"
+        },
+        {
+          "text": "團",
+          "witness": "釋文本亦作、藝文類聚及文選注引詩",
+          "schools": [],
+          "kind": "傳本異文",
+          "note": "",
+          "base": "漙"
+        },
+        {
+          "text": "霝",
+          "witness": "袁梅據說文、玉篇及馬瑞辰所取本字",
+          "schools": [],
+          "kind": "本字說",
+          "note": "",
+          "qualification": "字學參校，非直接傳本異文；雨下三口形",
+          "base": "零"
+        },
+        {
+          "text": "專",
+          "witness": "顏師古匡謬正俗所記古本",
+          "schools": [],
+          "kind": "傳本異文",
+          "note": "",
+          "qualification": "明記亦有單作專者；家別未明，不以後世用詩自動分三家",
+          "base": "漙"
+        }
+      ],
+      "status": "字形覆核",
+      "continuationPages": [],
+      "pendingGlyphs": [
+        {
+          "id": "421-recheck",
+          "label": "字林所出雨部專聲形；字學參校，非另一詩本；玉篇另一露多字形亦待辨。",
+          "printPages": [
+            143
+          ],
+          "pdfPages": [
+            168
+          ]
+        }
+      ],
+      "recheckOf": "ocr-check-2026-11-01-500",
+      "viewedPdfPages": [
+        168
+      ],
+      "glyphs": [
+        {
+          "pdfPage": 168,
+          "printPage": 143,
+          "cropPixels": [
+            1406,
+            2632,
+            1514,
+            2748
+          ],
+          "renderPixels": [
+            2436,
+            3600
+          ],
+          "alt": "第421項待辨原字",
+          "note": "字林所出雨部專聲形；字學參校，非另一詩本；玉篇另一露多字形亦待辨。",
+          "url": "collations/glyphs/yuan2013-recheck-421-1.png"
+        }
+      ]
+    },
+    {
+      "unit": 422,
+      "unitId": "yuan2013-0422",
+      "poemId": "shijing-094",
+      "title": "鄭風・野有蔓草",
+      "lemma": "清揚婉兮",
+      "page": 144,
+      "pdfPage": 169,
+      "indexPdfPage": 931,
+      "indexPrintPage": 906,
+      "summary": "玉篇、集韻的字左部是面形，右部宛；原先稱目旁應更正，不能作睕，也不是醜。韓詩引句確有此面宛形，但其精確字碼仍待核。",
+      "decisions": [
+        {
+          "candidate": 0,
+          "ocr": "清陽婉今",
+          "decision": "correct",
+          "label": "前批OCR訂正",
+          "result": "清陽婉兮",
+          "note": "前批候選取捨沿錄；本次覆查結論：玉篇、集韻的字左部是面形，右部宛；原先稱目旁應更正，不能作睕，也不是醜。韓詩引句確有此面宛形，但其精確字碼仍待核。"
+        },
+        {
+          "candidate": 1,
+          "ocr": "清陽婉兮",
+          "decision": "keep",
+          "label": "前批保留",
+          "result": "清陽婉兮",
+          "note": "前批候選取捨沿錄；本次覆查結論：玉篇、集韻的字左部是面形，右部宛；原先稱目旁應更正，不能作睕，也不是醜。韓詩引句確有此面宛形，但其精確字碼仍待核。"
+        },
+        {
+          "candidate": 2,
+          "ocr": "青",
+          "decision": "keep",
+          "label": "前批保留",
+          "result": "青",
+          "note": "前批候選取捨沿錄；本次覆查結論：玉篇、集韻的字左部是面形，右部宛；原先稱目旁應更正，不能作睕，也不是醜。韓詩引句確有此面宛形，但其精確字碼仍待核。"
+        },
+        {
+          "candidate": 3,
+          "ocr": "醜",
+          "decision": "pending",
+          "label": "前批字形待辨",
+          "result": "韓詩目旁形",
+          "note": "前批候選取捨沿錄；本次覆查結論：玉篇、集韻的字左部是面形，右部宛；原先稱目旁應更正，不能作睕，也不是醜。韓詩引句確有此面宛形，但其精確字碼仍待核。"
+        }
+      ],
+      "findings": [
+        {
+          "text": "清陽婉兮",
+          "witness": "初學記引韓詩外傳",
+          "schools": [
+            "韓"
+          ],
+          "kind": "傳本異文",
+          "note": ""
+        },
+        {
+          "text": "青陽宛兮",
+          "witness": "王氏詩攷所引韓詩外傳",
+          "schools": [
+            "韓"
+          ],
+          "kind": "傳本異文",
+          "note": ""
+        },
+        {
+          "text": "清揚宛兮",
+          "witness": "家語致思引詩",
+          "schools": [],
+          "kind": "傳本異文",
+          "note": ""
+        }
+      ],
+      "status": "字形覆核",
+      "continuationPages": [],
+      "pendingGlyphs": [
+        {
+          "id": "422-recheck",
+          "label": "面宛形（不是目宛的睕，亦非酉鬼的醜）；韓詩明引，仍待定碼。",
+          "printPages": [
+            144
+          ],
+          "pdfPages": [
+            169
+          ]
+        }
+      ],
+      "recheckOf": "ocr-check-2026-11-01-500",
+      "viewedPdfPages": [
+        169
+      ],
+      "glyphs": [
+        {
+          "pdfPage": 169,
+          "printPage": 144,
+          "cropPixels": [
+            964,
+            774,
+            1072,
+            890
+          ],
+          "renderPixels": [
+            2436,
+            3600
+          ],
+          "alt": "第422項待辨原字",
+          "note": "面宛形（不是目宛的睕，亦非酉鬼的醜）；韓詩明引，仍待定碼。",
+          "url": "collations/glyphs/yuan2013-recheck-422-1.png"
+        }
+      ]
+    },
+    {
+      "unit": 424,
+      "unitId": "yuan2013-0424",
+      "poemId": "shijing-094",
+      "title": "鄭風・野有蔓草",
+      "lemma": "瀼瀼",
+      "page": 145,
+      "pdfPage": 170,
+      "indexPdfPage": 931,
+      "indexPrintPage": 906,
+      "summary": "廣雅露也的重文上雨下襄；瀼是初文、雨襄是後起字屬原書字學說，仍不把漏雨部的囊囊作異文。",
+      "decisions": [
+        {
+          "candidate": 0,
+          "ocr": "囊囊",
+          "decision": "pending",
+          "label": "前批字形待辨",
+          "result": "廣雅雨部重文",
+          "note": "前批候選取捨沿錄；本次覆查結論：廣雅露也的重文上雨下襄；瀼是初文、雨襄是後起字屬原書字學說，仍不把漏雨部的囊囊作異文。"
+        }
+      ],
+      "findings": [],
+      "status": "字形覆核",
+      "continuationPages": [],
+      "pendingGlyphs": [
+        {
+          "id": "424-recheck",
+          "label": "雨襄重文；字學參校，非另一詩本。",
+          "printPages": [
+            145
+          ],
+          "pdfPages": [
+            170
+          ]
+        }
+      ],
+      "recheckOf": "ocr-check-2026-11-01-500",
+      "viewedPdfPages": [
+        170
+      ],
+      "glyphs": [
+        {
+          "pdfPage": 170,
+          "printPage": 145,
+          "cropPixels": [
+            1150,
+            717,
+            1258,
+            833
+          ],
+          "renderPixels": [
+            2436,
+            3600
+          ],
+          "alt": "第424項待辨原字",
+          "note": "雨襄重文；字學參校，非另一詩本。",
+          "url": "collations/glyphs/yuan2013-recheck-424-1.png"
+        }
+      ]
+    },
+    {
+      "unit": 439,
+      "unitId": "yuan2013-0439",
+      "poemId": "shijing-097",
+      "title": "齊風・還",
+      "lemma": "峱",
+      "page": 150,
+      "pdfPage": 175,
+      "indexPdfPage": 932,
+      "indexPrintPage": 907,
+      "summary": "漢書、崔本的嶩及御覽猱可以辨。顏注亦作的山旁夒形仍需精確核碼，不以巎或近形擅配。",
+      "decisions": [],
+      "findings": [
+        {
+          "text": "嶩",
+          "witness": "崔集注本、漢書地理志引詩",
+          "schools": [],
+          "kind": "傳本異文",
+          "note": "",
+          "qualification": "山農形；漢書齊詩一語原書辨為齊國風，不能據此分齊家",
+          "base": "峱"
+        },
+        {
+          "text": "猱",
+          "witness": "太平御覽二十一引詩",
+          "schools": [],
+          "kind": "傳本異文",
+          "note": "",
+          "qualification": "犬夒形；與顏師古山旁另形分開",
+          "base": "峱"
+        }
+      ],
+      "status": "字形覆核",
+      "continuationPages": [
+        151
+      ],
+      "pendingGlyphs": [
+        {
+          "id": "439-recheck",
+          "label": "顏師古所記山旁夒形；所附此字，其他位置已分錄。",
+          "printPages": [
+            150,
+            151
+          ],
+          "pdfPages": [
+            175,
+            176
+          ]
+        }
+      ],
+      "recheckOf": "ocr-check-2026-11-01-500",
+      "viewedPdfPages": [
+        175,
+        176
+      ],
+      "glyphs": [
+        {
+          "pdfPage": 175,
+          "printPage": 150,
+          "cropPixels": [
+            1254,
+            3212,
+            1362,
+            3328
+          ],
+          "renderPixels": [
+            2436,
+            3600
+          ],
+          "alt": "第439項待辨原字",
+          "note": "顏師古所記山旁夒形；所附此字，其他位置已分錄。",
+          "url": "collations/glyphs/yuan2013-recheck-439-1.png"
+        }
+      ]
+    },
+    {
+      "unit": 453,
+      "unitId": "yuan2013-0453",
+      "poemId": "shijing-101",
+      "title": "齊風・南山",
+      "lemma": "畝",
+      "page": 156,
+      "pdfPage": 181,
+      "indexPdfPage": 933,
+      "indexPrintPage": 908,
+      "summary": "說文從田每的畮、從田十久的畞可以辨，並列古文。唐石經隸省與毛本不體形仍有局部筆勢差，未僅以常見畝替代其形碼。",
+      "decisions": [
+        {
+          "candidate": 0,
+          "ocr": "取",
+          "decision": "reassign",
+          "label": "前批歸其他條目",
+          "result": "取妻條",
+          "note": "前批候選取捨沿錄；本次覆查結論：說文從田每的畮、從田十久的畞可以辨，並列古文。唐石經隸省與毛本不體形仍有局部筆勢差，未僅以常見畝替代其形碼。"
+        },
+        {
+          "candidate": 1,
+          "ocr": "畝",
+          "decision": "related",
+          "label": "前批字學／訓解相關字",
+          "result": "畝為本站同字",
+          "note": "前批候選取捨沿錄；本次覆查結論：說文從田每的畮、從田十久的畞可以辨，並列古文。唐石經隸省與毛本不體形仍有局部筆勢差，未僅以常見畝替代其形碼。"
+        }
+      ],
+      "findings": [
+        {
+          "text": "畮",
+          "witness": "說文田部所記",
+          "schools": [],
+          "kind": "字學說明",
+          "note": "",
+          "qualification": "田每形；字學參校，非另一詩本",
+          "base": "畝"
+        },
+        {
+          "text": "畞",
+          "witness": "說文田部所記重文",
+          "schools": [],
+          "kind": "字學說明",
+          "note": "",
+          "qualification": "从田十久；字學參校，非另一詩本",
+          "base": "畝"
+        }
+      ],
+      "status": "字形覆核",
+      "continuationPages": [],
+      "pendingGlyphs": [
+        {
+          "id": "453-recheck",
+          "label": "毛本被判不體的畝省形，右部筆勢待精確辨碼；字學參校位置的畮、畞已辨。",
+          "printPages": [
+            156
+          ],
+          "pdfPages": [
+            181
+          ]
+        }
+      ],
+      "recheckOf": "ocr-check-2026-11-01-500",
+      "viewedPdfPages": [
+        181
+      ],
+      "glyphs": [
+        {
+          "pdfPage": 181,
+          "printPage": 156,
+          "cropPixels": [
+            1441,
+            408,
+            1549,
+            524
+          ],
+          "renderPixels": [
+            2436,
+            3600
+          ],
+          "alt": "第453項待辨原字",
+          "note": "毛本被判不體的畝省形，右部筆勢待精確辨碼；字學參校位置的畮、畞已辨。",
+          "url": "collations/glyphs/yuan2013-recheck-453-1.png"
+        }
+      ]
+    },
+    {
+      "unit": 458,
+      "unitId": "yuan2013-0458",
+      "poemId": "shijing-102",
+      "title": "齊風・甫田",
+      "lemma": "孌",
+      "page": 157,
+      "pdfPage": 182,
+      "indexPdfPage": 933,
+      "indexPrintPage": 908,
+      "summary": "說文女部的另一字明記順也，並引婉兮某兮；原書稱三家今文。其右部為古形聲符，不能用嫡、婿或只依孌的音義配碼。",
+      "decisions": [
+        {
+          "candidate": 0,
+          "ocr": "變",
+          "decision": "reject",
+          "label": "前批排除",
+          "result": "變是字頭誤識",
+          "note": "前批候選取捨沿錄；本次覆查結論：說文女部的另一字明記順也，並引婉兮某兮；原書稱三家今文。其右部為古形聲符，不能用嫡、婿或只依孌的音義配碼。"
+        },
+        {
+          "candidate": 1,
+          "ocr": "嫡",
+          "decision": "pending",
+          "label": "前批字形待辨",
+          "result": "說文女部三家字",
+          "note": "前批候選取捨沿錄；本次覆查結論：說文女部的另一字明記順也，並引婉兮某兮；原書稱三家今文。其右部為古形聲符，不能用嫡、婿或只依孌的音義配碼。"
+        }
+      ],
+      "findings": [],
+      "status": "字形覆核",
+      "continuationPages": [],
+      "pendingGlyphs": [
+        {
+          "id": "458-recheck",
+          "label": "女旁右部古形聲符（原書以其為孌的今文）；三家未分的主張保留，字碼未定。",
+          "printPages": [
+            157
+          ],
+          "pdfPages": [
+            182
+          ]
+        }
+      ],
+      "recheckOf": "ocr-check-2026-11-01-500",
+      "viewedPdfPages": [
+        182
+      ],
+      "glyphs": [
+        {
+          "pdfPage": 182,
+          "printPage": 157,
+          "cropPixels": [
+            288,
+            1491,
+            396,
+            1607
+          ],
+          "renderPixels": [
+            2436,
+            3600
+          ],
+          "alt": "第458項待辨原字",
+          "note": "女旁右部古形聲符（原書以其為孌的今文）；三家未分的主張保留，字碼未定。",
+          "url": "collations/glyphs/yuan2013-recheck-458-1.png"
+        }
+      ]
+    },
+    {
+      "unit": 462,
+      "unitId": "yuan2013-0462",
+      "poemId": "shijing-103",
+      "title": "齊風・盧令",
+      "lemma": "盧令令",
+      "page": 158,
+      "pdfPage": 183,
+      "indexPdfPage": 933,
+      "indexPrintPage": 908,
+      "summary": "犬粦獜、金粦鏻、鈴、冷均可分辨。原候選磷辚與僯猪是犬金部的誤識，無另一未定字。補鏻鏻時只對應令令，不能把二字讀法覆蓋整句盧令令。",
+      "decisions": [
+        {
+          "candidate": 0,
+          "ocr": "磷辚",
+          "decision": "pending",
+          "label": "前批字形待辨",
+          "result": "原候選不定碼",
+          "note": "前批候選取捨沿錄；本次覆查結論：犬粦獜、金粦鏻、鈴、冷均可分辨。原候選磷辚與僯猪是犬金部的誤識，無另一未定字。補鏻鏻時只對應令令，不能把二字讀法覆蓋整句盧令令。"
+        },
+        {
+          "candidate": 1,
+          "ocr": "令令",
+          "decision": "related",
+          "label": "前批字學／訓解相關字",
+          "result": "令令為本站同字",
+          "note": "前批候選取捨沿錄；本次覆查結論：犬粦獜、金粦鏻、鈴、冷均可分辨。原候選磷辚與僯猪是犬金部的誤識，無另一未定字。補鏻鏻時只對應令令，不能把二字讀法覆蓋整句盧令令。"
+        },
+        {
+          "candidate": 2,
+          "ocr": "鈴鈴",
+          "decision": "keep",
+          "label": "前批保留",
+          "result": "鈴鈴",
+          "note": "前批候選取捨沿錄；本次覆查結論：犬粦獜、金粦鏻、鈴、冷均可分辨。原候選磷辚與僯猪是犬金部的誤識，無另一未定字。補鏻鏻時只對應令令，不能把二字讀法覆蓋整句盧令令。"
+        },
+        {
+          "candidate": 3,
+          "ocr": "僯猪",
+          "decision": "pending",
+          "label": "前批字形待辨",
+          "result": "犬部與金部比較",
+          "note": "前批候選取捨沿錄；本次覆查結論：犬粦獜、金粦鏻、鈴、冷均可分辨。原候選磷辚與僯猪是犬金部的誤識，無另一未定字。補鏻鏻時只對應令令，不能把二字讀法覆蓋整句盧令令。"
+        },
+        {
+          "candidate": 4,
+          "ocr": "盧重令",
+          "decision": "keep",
+          "label": "前批保留",
+          "result": "盧重令",
+          "note": "前批候選取捨沿錄；本次覆查結論：犬粦獜、金粦鏻、鈴、冷均可分辨。原候選磷辚與僯猪是犬金部的誤識，無另一未定字。補鏻鏻時只對應令令，不能把二字讀法覆蓋整句盧令令。"
+        }
+      ],
+      "findings": [
+        {
+          "text": "獜獜",
+          "witness": "說文犬部引詩",
+          "schools": [],
+          "kind": "傳本異文",
+          "note": "",
+          "scope": "三家未分",
+          "base": "令令"
+        },
+        {
+          "text": "盧冷冷",
+          "witness": "董逌詩故、王應麟詩攷引韓詩",
+          "schools": [
+            "韓"
+          ],
+          "kind": "傳本異文",
+          "note": ""
+        },
+        {
+          "text": "鈴鈴",
+          "witness": "廣雅釋訓",
+          "schools": [],
+          "kind": "傳本異文",
+          "note": "",
+          "base": "令令"
+        },
+        {
+          "text": "盧重令",
+          "witness": "白帖引詩",
+          "schools": [],
+          "kind": "傳本異文",
+          "note": "",
+          "qualification": "袁氏判涉下章句式誤改"
+        },
+        {
+          "text": "鏻鏻",
+          "witness": "陳喬樅據玉篇補足引詩脫文",
+          "schools": [],
+          "kind": "校勘推說",
+          "note": "",
+          "qualification": "陳氏提出玉篇當引盧鏻鏻，非現存玉篇已完整如此；原書稱玉篇本三家，未分家",
+          "base": "令令",
+          "scope": "三家未分"
+        }
+      ],
+      "status": "字形覆核",
+      "continuationPages": [],
+      "recheckOf": "ocr-check-2026-11-01-500",
+      "viewedPdfPages": [
+        183
+      ]
+    },
+    {
+      "unit": 466,
+      "unitId": "yuan2013-0466",
+      "poemId": "shijing-104",
+      "title": "齊風・敝笱",
+      "lemma": "鰥",
+      "page": 160,
+      "pdfPage": 185,
+      "indexPdfPage": 934,
+      "indexPrintPage": 909,
+      "summary": "御覽所引魚昆的鯤可辨，故補實引。馬瑞辰、李陽冰所論从古昆形及隸省鰥的中間古形仍未定碼，不能因鯤已明就刪除此字學待辨。",
+      "decisions": [
+        {
+          "candidate": 0,
+          "ocr": "鯤",
+          "decision": "pending",
+          "label": "前批字形待辨",
+          "result": "魚部異形",
+          "note": "前批候選取捨沿錄；本次覆查結論：御覽所引魚昆的鯤可辨，故補實引。馬瑞辰、李陽冰所論从古昆形及隸省鰥的中間古形仍未定碼，不能因鯤已明就刪除此字學待辨。"
+        }
+      ],
+      "findings": [
+        {
+          "text": "鯤",
+          "witness": "太平御覽九百四十引詩",
+          "schools": [],
+          "kind": "傳本異文",
+          "note": "",
+          "qualification": "所引其魚魴鯤；爾雅魚子也及王引之、馬瑞辰辨說是相關字學證據",
+          "base": "鰥"
+        }
+      ],
+      "status": "字形覆核",
+      "continuationPages": [],
+      "pendingGlyphs": [
+        {
+          "id": "466-recheck",
+          "label": "魚旁加古昆聲符的中間古形；字學參校，非另一詩本。",
+          "printPages": [
+            160
+          ],
+          "pdfPages": [
+            185
+          ]
+        }
+      ],
+      "recheckOf": "ocr-check-2026-11-01-500",
+      "viewedPdfPages": [
+        185
+      ],
+      "glyphs": [
+        {
+          "pdfPage": 185,
+          "printPage": 160,
+          "cropPixels": [
+            1810,
+            1457,
+            1918,
+            1573
+          ],
+          "renderPixels": [
+            2436,
+            3600
+          ],
+          "alt": "第466項待辨原字",
+          "note": "魚旁加古昆聲符的中間古形；字學參校，非另一詩本。",
+          "url": "collations/glyphs/yuan2013-recheck-466-1.png"
+        }
+      ]
+    },
+    {
+      "unit": 467,
+      "unitId": "yuan2013-0467",
+      "poemId": "shijing-104",
+      "title": "齊風・敝笱",
+      "lemma": "唯唯",
+      "page": 160,
+      "pdfPage": 185,
+      "indexPdfPage": 934,
+      "indexPrintPage": 909,
+      "summary": "水旁遺聲可定為瀢。韓詩明引仍只作遺遺；以瀢瀢為正字、遺為省文是原書的本字說，不能倒記成韓詩瀢瀢。原待辨字碼已明。",
+      "decisions": [
+        {
+          "candidate": 0,
+          "ocr": "遺遺",
+          "decision": "keep",
+          "label": "前批保留",
+          "result": "遺遺",
+          "note": "前批候選取捨沿錄；本次覆查結論：水旁遺聲可定為瀢。韓詩明引仍只作遺遺；以瀢瀢為正字、遺為省文是原書的本字說，不能倒記成韓詩瀢瀢。原待辨字碼已明。"
+        }
+      ],
+      "findings": [
+        {
+          "text": "遺遺",
+          "witness": "釋文所記韓詩",
+          "schools": [
+            "韓"
+          ],
+          "kind": "傳本異文",
+          "note": ""
+        },
+        {
+          "text": "瀢瀢",
+          "witness": "袁梅據玉篇、廣韻所取本字",
+          "schools": [],
+          "kind": "本字說",
+          "note": "",
+          "qualification": "氵遺形，訓魚行相隨、魚盛貌；字學參校，非韓詩直接引字",
+          "base": "唯唯"
+        }
+      ],
+      "status": "字形覆核",
+      "continuationPages": [],
+      "recheckOf": "ocr-check-2026-11-01-500",
+      "viewedPdfPages": [
+        185
+      ]
+    },
+    {
+      "unit": 470,
+      "unitId": "yuan2013-0470",
+      "poemId": "shijing-105",
+      "title": "齊風・載驅",
+      "lemma": "濔濔",
+      "page": 161,
+      "pdfPage": 186,
+      "indexPdfPage": 934,
+      "indexPrintPage": 909,
+      "summary": "釋文所出爾爾與本亦作濔濔可分，故補爾爾。括注另形及說文㸚部構形的省寫，仍未全部配碼；這些字學位置不能因不作經文便刪除待辨。",
+      "decisions": [],
+      "findings": [
+        {
+          "text": "爾爾",
+          "witness": "釋文所出字",
+          "schools": [],
+          "kind": "傳本異文",
+          "note": "",
+          "qualification": "本亦作濔濔；陳奐、袁梅以為水旁後增，未明三家家別",
+          "base": "濔濔"
+        }
+      ],
+      "status": "字形覆核",
+      "continuationPages": [],
+      "pendingGlyphs": [
+        {
+          "id": "470-recheck",
+          "label": "釋文爾字括注古省形；另㸚部構字比較屬字學參校，非另一詩本。",
+          "printPages": [
+            161
+          ],
+          "pdfPages": [
+            186
+          ]
+        }
+      ],
+      "recheckOf": "ocr-check-2026-11-01-500",
+      "viewedPdfPages": [
+        186
+      ],
+      "glyphs": [
+        {
+          "pdfPage": 186,
+          "printPage": 161,
+          "cropPixels": [
+            1349,
+            1399,
+            1449,
+            1515
+          ],
+          "renderPixels": [
+            2436,
+            3600
+          ],
+          "alt": "第470項待辨原字",
+          "note": "釋文爾字括注古省形；另㸚部構字比較屬字學參校，非另一詩本。",
+          "url": "collations/glyphs/yuan2013-recheck-470-1.png"
+        }
+      ]
+    },
+    {
+      "unit": 471,
+      "unitId": "yuan2013-0471",
+      "poemId": "shijing-105",
+      "title": "齊風・載驅",
+      "lemma": "豈弟",
+      "page": 161,
+      "pdfPage": 186,
+      "indexPdfPage": 934,
+      "indexPrintPage": 909,
+      "summary": "門豈的闓、囗睪的圛及愷悌均可辨碼。鄭箋是讀字說，陳喬樅據此擬魯詩闓圛；須與定本等實作愷悌分開。前後兩頁相關形碼已辨明。",
+      "decisions": [
+        {
+          "candidate": 0,
+          "ocr": "愷悌",
+          "decision": "pending",
+          "label": "前批字形待辨",
+          "result": "門部古字",
+          "note": "前批候選取捨沿錄；本次覆查結論：門豈的闓、囗睪的圛及愷悌均可辨碼。鄭箋是讀字說，陳喬樅據此擬魯詩闓圛；須與定本等實作愷悌分開。前後兩頁相關形碼已辨明。"
+        }
+      ],
+      "findings": [
+        {
+          "text": "愷悌",
+          "witness": "定本、正義本、山井鼎所記日本古本及爾雅郭注引詩",
+          "schools": [],
+          "kind": "傳本異文",
+          "note": "",
+          "base": "豈弟"
+        },
+        {
+          "text": "闓圛",
+          "witness": "陳喬樅據鄭箋、爾雅所擬魯詩",
+          "schools": [
+            "魯"
+          ],
+          "kind": "輯佚推定",
+          "note": "",
+          "qualification": "原文明言疑魯詩文當爲齊子闓圛；是輯佚推定，非現存魯詩直接引文",
+          "base": "豈弟"
+        }
+      ],
+      "status": "字形覆核",
+      "continuationPages": [
+        162
+      ],
+      "recheckOf": "ocr-check-2026-11-01-500",
+      "viewedPdfPages": [
+        186,
+        187
+      ]
+    },
+    {
+      "unit": 472,
+      "unitId": "yuan2013-0472",
+      "poemId": "shijing-106",
+      "title": "齊風・猗嗟",
+      "lemma": "猗",
+      "page": 162,
+      "pdfPage": 187,
+      "indexPdfPage": 934,
+      "indexPrintPage": 909,
+      "summary": "釋文或作是奇欠的欹。說文持去也從支作攲，另攴旁作敧；本義傾側等並非詩句歎辭義。舊態及整串敲隁都是誤識，三種形碼已分明。",
+      "decisions": [
+        {
+          "candidate": 0,
+          "ocr": "態",
+          "decision": "pending",
+          "label": "前批字形待辨",
+          "result": "攴部異形",
+          "note": "前批候選取捨沿錄；本次覆查結論：釋文或作是奇欠的欹。說文持去也從支作攲，另攴旁作敧；本義傾側等並非詩句歎辭義。舊態及整串敲隁都是誤識，三種形碼已分明。"
+        },
+        {
+          "candidate": 1,
+          "ocr": "敲隁，傾側不安也。",
+          "decision": "reject",
+          "label": "前批排除",
+          "result": "字書訓義混入候選",
+          "note": "前批候選取捨沿錄；本次覆查結論：釋文或作是奇欠的欹。說文持去也從支作攲，另攴旁作敧；本義傾側等並非詩句歎辭義。舊態及整串敲隁都是誤識，三種形碼已分明。"
+        }
+      ],
+      "findings": [
+        {
+          "text": "欹",
+          "witness": "釋文字或作",
+          "schools": [],
+          "kind": "傳本異文",
+          "note": "",
+          "qualification": "奇欠形；與字書攲、敧分開",
+          "base": "猗"
+        },
+        {
+          "text": "攲",
+          "witness": "說文持去也的字學比較",
+          "schools": [],
+          "kind": "字學說明",
+          "note": "",
+          "qualification": "奇支形；字學參校，非另一詩本",
+          "base": "猗"
+        },
+        {
+          "text": "敧",
+          "witness": "說文古字及一切經音義所記的字學比較",
+          "schools": [],
+          "kind": "字學說明",
+          "note": "",
+          "qualification": "奇攴形；字學參校，非另一詩本",
+          "base": "猗"
+        }
+      ],
+      "status": "字形覆核",
+      "continuationPages": [
+        163
+      ],
+      "recheckOf": "ocr-check-2026-11-01-500",
+      "viewedPdfPages": [
+        187,
+        188
+      ]
+    },
+    {
+      "unit": 483,
+      "unitId": "yuan2013-0483",
+      "poemId": "shijing-107",
+      "title": "魏風・葛屨",
+      "lemma": "好人提提",
+      "page": 165,
+      "pdfPage": 190,
+      "indexPdfPage": 934,
+      "indexPrintPage": 909,
+      "summary": "女多的姼有引詩可補；另說文姼或从氏的女氏異體仍未配碼，故保持待辨。媞媞、褆褆兩條不受此未知碼影響。",
+      "decisions": [
+        {
+          "candidate": 0,
+          "ocr": "媞媞",
+          "decision": "keep",
+          "label": "前批保留",
+          "result": "媞媞",
+          "note": "前批候選取捨沿錄；本次覆查結論：女多的姼有引詩可補；另說文姼或从氏的女氏異體仍未配碼，故保持待辨。媞媞、褆褆兩條不受此未知碼影響。"
+        }
+      ],
+      "findings": [
+        {
+          "text": "好人媞媞",
+          "witness": "爾雅邢疏、楚辭王逸注引詩",
+          "schools": [],
+          "kind": "輯佚推定",
+          "note": "",
+          "qualification": "袁氏蓋魯詩說"
+        },
+        {
+          "text": "好人褆褆",
+          "witness": "白帖、說文繫傳引詩",
+          "schools": [],
+          "kind": "傳本異文",
+          "note": ""
+        },
+        {
+          "text": "好人姼姼",
+          "witness": "王應麟詩攷補遺引爾雅音義引詩",
+          "schools": [],
+          "kind": "傳本異文",
+          "note": "",
+          "qualification": "女多形；未明分三家。袁氏蓋魯詩之說直接針對媞媞，不擴到每一形",
+          "base": "好人提提"
+        }
+      ],
+      "status": "字形覆核",
+      "continuationPages": [],
+      "pendingGlyphs": [
+        {
+          "id": "483-recheck",
+          "label": "說文女氏形重文；字學參校，非另一詩本。",
+          "printPages": [
+            165
+          ],
+          "pdfPages": [
+            190
+          ]
+        }
+      ],
+      "recheckOf": "ocr-check-2026-11-01-500",
+      "viewedPdfPages": [
+        190
+      ],
+      "glyphs": [
+        {
+          "pdfPage": 190,
+          "printPage": 165,
+          "cropPixels": [
+            857,
+            2618,
+            957,
+            2734
+          ],
+          "renderPixels": [
+            2436,
+            3600
+          ],
+          "alt": "第483項待辨原字",
+          "note": "說文女氏形重文；字學參校，非另一詩本。",
+          "url": "collations/glyphs/yuan2013-recheck-483-1.png"
+        }
+      ]
+    },
+    {
+      "unit": 516,
+      "unitId": "yuan2013-0516",
+      "poemId": "shijing-113",
+      "title": "魏風・碩鼠",
+      "lemma": "無食我黍",
+      "page": 176,
+      "pdfPage": 201,
+      "indexPdfPage": 936,
+      "indexPrintPage": 911,
+      "summary": "石經毋與周易注无均可獨立對應無。末字黍的隸定、从米及从木諸形仍需核碼，不能照OCR寫成柔，也不能以本站黍覆蓋原字。",
+      "decisions": [
+        {
+          "candidate": 0,
+          "ocr": "柔",
+          "decision": "pending",
+          "label": "前批字形待辨",
+          "result": "黍的米木異形",
+          "note": "前批候選取捨沿錄；本次覆查結論：石經毋與周易注无均可獨立對應無。末字黍的隸定、从米及从木諸形仍需核碼，不能照OCR寫成柔，也不能以本站黍覆蓋原字。"
+        }
+      ],
+      "findings": [
+        {
+          "text": "毋",
+          "witness": "洪适隸釋所載漢石經魯詩殘碑",
+          "schools": [
+            "魯"
+          ],
+          "kind": "傳本異文",
+          "note": "",
+          "qualification": "只補無字的對應；石經末字另形仍待辨，不拼成已核定的全句",
+          "base": "無"
+        },
+        {
+          "text": "无",
+          "witness": "周易正義引鄭氏周易注引詩",
+          "schools": [],
+          "kind": "傳本異文",
+          "note": "",
+          "qualification": "無、无、毋通用的相關見證；不據鄭氏自動分家",
+          "base": "無"
+        }
+      ],
+      "status": "字形覆核",
+      "continuationPages": [],
+      "pendingGlyphs": [
+        {
+          "id": "516-recheck",
+          "label": "黍从木的隸變形（石經引句末字）；另从米等屬字學參校，非另一詩本。",
+          "printPages": [
+            176
+          ],
+          "pdfPages": [
+            201
+          ]
+        }
+      ],
+      "recheckOf": "ocr-check-2026-11-01-500",
+      "viewedPdfPages": [
+        201
+      ],
+      "glyphs": [
+        {
+          "pdfPage": 201,
+          "printPage": 176,
+          "cropPixels": [
+            303,
+            2681,
+            403,
+            2797
+          ],
+          "renderPixels": [
+            2436,
+            3600
+          ],
+          "alt": "第516項待辨原字",
+          "note": "黍从木的隸變形（石經引句末字）；另从米等屬字學參校，非另一詩本。",
+          "url": "collations/glyphs/yuan2013-recheck-516-1.png"
+        }
+      ]
+    },
+    {
+      "unit": 521,
+      "unitId": "yuan2013-0521",
+      "poemId": "shijing-114",
+      "title": "唐風・蟋蟀",
+      "lemma": "蟋蟀",
+      "page": 178,
+      "pdfPage": 203,
+      "indexPdfPage": 936,
+      "indexPrintPage": 911,
+      "summary": "原頁的悉後字下有虫，上為帥聲形，不能省去虫部錄成悉帥。漢石經一處所印蟋蟀與本站同，不作異文；毛魯古今字的議論另存摘要，未知古字仍保留圖。",
+      "decisions": [
+        {
+          "candidate": 0,
+          "ocr": "蟋蟀",
+          "decision": "related",
+          "label": "前批字學／訓解相關字",
+          "result": "蟋蟀為本站同字",
+          "note": "前批候選取捨沿錄；本次覆查結論：原頁的悉後字下有虫，上為帥聲形，不能省去虫部錄成悉帥。漢石經一處所印蟋蟀與本站同，不作異文；毛魯古今字的議論另存摘要，未知古字仍保留圖。"
+        },
+        {
+          "candidate": 1,
+          "ocr": "悉璧",
+          "decision": "pending",
+          "label": "前批字形待辨",
+          "result": "漢石經字形",
+          "note": "前批候選取捨沿錄；本次覆查結論：原頁的悉後字下有虫，上為帥聲形，不能省去虫部錄成悉帥。漢石經一處所印蟋蟀與本站同，不作異文；毛魯古今字的議論另存摘要，未知古字仍保留圖。"
+        },
+        {
+          "candidate": 2,
+          "ocr": "悉望",
+          "decision": "correct",
+          "label": "前批OCR訂正",
+          "result": "悉帥",
+          "note": "前批候選取捨沿錄；本次覆查結論：原頁的悉後字下有虫，上為帥聲形，不能省去虫部錄成悉帥。漢石經一處所印蟋蟀與本站同，不作異文；毛魯古今字的議論另存摘要，未知古字仍保留圖。"
+        },
+        {
+          "candidate": 3,
+          "ocr": "悉蠻",
+          "decision": "correct",
+          "label": "前批OCR訂正",
+          "result": "悉帥",
+          "note": "前批候選取捨沿錄；本次覆查結論：原頁的悉後字下有虫，上為帥聲形，不能省去虫部錄成悉帥。漢石經一處所印蟋蟀與本站同，不作異文；毛魯古今字的議論另存摘要，未知古字仍保留圖。"
+        }
+      ],
+      "findings": [],
+      "status": "字形覆核",
+      "continuationPages": [],
+      "glyphs": [
+        {
+          "url": "collations/glyphs/yuan2013-b500-521-7.png",
+          "alt": "漢石經魯詩蟋蟀字形",
+          "note": "漢石經魯詩蟋蟀字形；按原頁截圖保留形體，字碼暫不強配。",
+          "cropPixels": [
+            960,
+            775,
+            1075,
+            850
+          ],
+          "renderPixels": [
+            1624,
+            2400
+          ],
+          "pdfPage": 203,
+          "printPage": 178
+        },
+        {
+          "pdfPage": 203,
+          "printPage": 178,
+          "cropPixels": [
+            605,
+            1271,
+            705,
+            1387
+          ],
+          "renderPixels": [
+            2436,
+            3600
+          ],
+          "alt": "第521項待辨原字",
+          "note": "上帥下虫的蟀古形；悉後該字不定碼，不以帥充錄。",
+          "url": "collations/glyphs/yuan2013-recheck-521-1.png"
+        }
+      ],
+      "pendingGlyphs": [
+        {
+          "id": "521-recheck",
+          "label": "上帥下虫的蟀古形；悉後該字不定碼，不以帥充錄。",
+          "printPages": [
+            178
+          ],
+          "pdfPages": [
+            203
+          ]
+        }
+      ],
+      "recheckOf": "ocr-check-2026-11-01-500",
+      "viewedPdfPages": [
+        203
+      ]
+    },
+    {
+      "unit": 524,
+      "unitId": "yuan2013-0524",
+      "poemId": "shijing-115",
+      "title": "唐風・山有樞",
+      "lemma": "樞",
+      "page": 179,
+      "pdfPage": 204,
+      "indexPdfPage": 936,
+      "indexPrintPage": 911,
+      "summary": "石經蓲的已收讀法可留。爾雅及漢書篇名的艸木區複合形，原頁左右與上下組合有別，仍不按山禧、稽或一般樞配碼；相關續頁已看。",
+      "decisions": [
+        {
+          "candidate": 0,
+          "ocr": "蓲",
+          "decision": "keep",
+          "label": "前批保留",
+          "result": "蓲",
+          "note": "前批候選取捨沿錄；本次覆查結論：石經蓲的已收讀法可留。爾雅及漢書篇名的艸木區複合形，原頁左右與上下組合有別，仍不按山禧、稽或一般樞配碼；相關續頁已看。"
+        },
+        {
+          "candidate": 1,
+          "ocr": "山禧",
+          "decision": "pending",
+          "label": "前批字形待辨",
+          "result": "漢書木部形",
+          "note": "前批候選取捨沿錄；本次覆查結論：石經蓲的已收讀法可留。爾雅及漢書篇名的艸木區複合形，原頁左右與上下組合有別，仍不按山禧、稽或一般樞配碼；相關續頁已看。"
+        },
+        {
+          "candidate": 2,
+          "ocr": "樞",
+          "decision": "related",
+          "label": "前批字學／訓解相關字",
+          "result": "樞為本站同字",
+          "note": "前批候選取捨沿錄；本次覆查結論：石經蓲的已收讀法可留。爾雅及漢書篇名的艸木區複合形，原頁左右與上下組合有別，仍不按山禧、稽或一般樞配碼；相關續頁已看。"
+        },
+        {
+          "candidate": 3,
+          "ocr": "稽",
+          "decision": "pending",
+          "label": "前批字形待辨",
+          "result": "爾雅木艸部形",
+          "note": "前批候選取捨沿錄；本次覆查結論：石經蓲的已收讀法可留。爾雅及漢書篇名的艸木區複合形，原頁左右與上下組合有別，仍不按山禧、稽或一般樞配碼；相關續頁已看。"
+        }
+      ],
+      "findings": [
+        {
+          "text": "蓲",
+          "witness": "隸釋所載漢石經魯詩",
+          "schools": [
+            "魯"
+          ],
+          "kind": "傳本異文",
+          "note": ""
+        }
+      ],
+      "status": "字形覆核",
+      "continuationPages": [
+        180
+      ],
+      "pendingGlyphs": [
+        {
+          "id": "524-recheck",
+          "label": "漢書篇名山字後的艸木區複合形；另爾雅木艸形亦待辨。",
+          "printPages": [
+            179,
+            180
+          ],
+          "pdfPages": [
+            204,
+            205
+          ]
+        }
+      ],
+      "recheckOf": "ocr-check-2026-11-01-500",
+      "viewedPdfPages": [
+        204,
+        205
+      ],
+      "glyphs": [
+        {
+          "pdfPage": 204,
+          "printPage": 179,
+          "cropPixels": [
+            911,
+            2171,
+            1011,
+            2287
+          ],
+          "renderPixels": [
+            2436,
+            3600
+          ],
+          "alt": "第524項待辨原字",
+          "note": "漢書篇名山字後的艸木區複合形；另爾雅木艸形亦待辨。",
+          "url": "collations/glyphs/yuan2013-recheck-524-1.png"
+        }
+      ]
+    },
+    {
+      "unit": 528,
+      "unitId": "yuan2013-0528",
+      "poemId": "shijing-115",
+      "title": "唐風・山有樞",
+      "lemma": "栲",
+      "page": 182,
+      "pdfPage": 207,
+      "indexPdfPage": 937,
+      "indexPrintPage": 912,
+      "summary": "說文所出从木尻聲的栲異文形可辨構件，但尚未確定Unicode字碼。陸疏讀糗、山樗／山椿樹名以及樗的訛字屬字學，沒有明列三家詩引句。",
+      "decisions": [],
+      "findings": [],
+      "status": "字形覆核",
+      "continuationPages": [
+        183
+      ],
+      "pendingGlyphs": [
+        {
+          "id": "528-recheck",
+          "label": "从木尻聲形；字學參校，非另一詩本；山樗字的相關訛形亦待辨。",
+          "printPages": [
+            182,
+            183
+          ],
+          "pdfPages": [
+            207,
+            208
+          ]
+        }
+      ],
+      "recheckOf": "ocr-check-2026-11-01-500",
+      "viewedPdfPages": [
+        207,
+        208
+      ],
+      "glyphs": [
+        {
+          "pdfPage": 207,
+          "printPage": 182,
+          "cropPixels": [
+            500,
+            3202,
+            600,
+            3318
+          ],
+          "renderPixels": [
+            2436,
+            3600
+          ],
+          "alt": "第528項待辨原字",
+          "note": "从木尻聲形；字學參校，非另一詩本；山樗字的相關訛形亦待辨。",
+          "url": "collations/glyphs/yuan2013-recheck-528-1.png"
+        }
+      ]
+    },
+    {
+      "unit": 529,
+      "unitId": "yuan2013-0529",
+      "poemId": "shijing-115",
+      "title": "唐風・山有樞",
+      "lemma": "杻",
+      "page": 183,
+      "pdfPage": 208,
+      "indexPdfPage": 937,
+      "indexPrintPage": 912,
+      "summary": "本條主要把傳訓杻檍也的檍校作另一木旁音聲形，並連帶辨億及言部聲符。這是改傳文與字學本字說，不能把它們直接當杻的另一經文；未定碼仍保留。",
+      "decisions": [],
+      "findings": [],
+      "status": "字形覆核",
+      "continuationPages": [],
+      "pendingGlyphs": [
+        {
+          "id": "529-recheck",
+          "label": "傳訓本字說的木旁音聲古形；字學參校，非另一詩本；言部、億字旁證亦待精核。",
+          "printPages": [
+            183
+          ],
+          "pdfPages": [
+            208
+          ]
+        }
+      ],
+      "recheckOf": "ocr-check-2026-11-01-500",
+      "viewedPdfPages": [
+        208
+      ],
+      "glyphs": [
+        {
+          "pdfPage": 208,
+          "printPage": 183,
+          "cropPixels": [
+            926,
+            1043,
+            1026,
+            1159
+          ],
+          "renderPixels": [
+            2436,
+            3600
+          ],
+          "alt": "第529項待辨原字",
+          "note": "傳訓本字說的木旁音聲古形；字學參校，非另一詩本；言部、億字旁證亦待精核。",
+          "url": "collations/glyphs/yuan2013-recheck-529-1.png"
+        }
+      ]
+    },
+    {
+      "unit": 534,
+      "unitId": "yuan2013-0534",
+      "poemId": "shijing-115",
+      "title": "唐風・山有樞",
+      "lemma": "弗鼓弗考",
+      "page": 184,
+      "pdfPage": 209,
+      "indexPdfPage": 937,
+      "indexPrintPage": 912,
+      "summary": "跨三頁區分鐘鼓名詞、鼓擊動詞，並引古文金文；多個支、攴、殳形仍不宜強配近形碼。末段考假攷有明確從攴丂聲說，可按本字說補攷。既收擊兩句仍屬實引，與字源辨析分層。",
+      "decisions": [
+        {
+          "candidate": 0,
+          "ocr": "鼓",
+          "decision": "related",
+          "label": "前批字學／訓解相關字",
+          "result": "鼓為本站同字",
+          "note": "前批候選取捨沿錄；本次覆查結論：跨三頁區分鐘鼓名詞、鼓擊動詞，並引古文金文；多個支、攴、殳形仍不宜強配近形碼。末段考假攷有明確從攴丂聲說，可按本字說補攷。既收擊兩句仍屬實引，與字源辨析分層。"
+        },
+        {
+          "candidate": 1,
+          "ocr": "敬",
+          "decision": "pending",
+          "label": "前批字形待辨",
+          "result": "攴部動詞形體",
+          "note": "前批候選取捨沿錄；本次覆查結論：跨三頁區分鐘鼓名詞、鼓擊動詞，並引古文金文；多個支、攴、殳形仍不宜強配近形碼。末段考假攷有明確從攴丂聲說，可按本字說補攷。既收擊兩句仍屬實引，與字源辨析分層。"
+        },
+        {
+          "candidate": 2,
+          "ocr": "数",
+          "decision": "pending",
+          "label": "前批字形待辨",
+          "result": "攴部形體",
+          "note": "前批候選取捨沿錄；本次覆查結論：跨三頁區分鐘鼓名詞、鼓擊動詞，並引古文金文；多個支、攴、殳形仍不宜強配近形碼。末段考假攷有明確從攴丂聲說，可按本字說補攷。既收擊兩句仍屬實引，與字源辨析分層。"
+        },
+        {
+          "candidate": 3,
+          "ocr": "擊",
+          "decision": "keep",
+          "label": "前批保留",
+          "result": "擊",
+          "note": "前批候選取捨沿錄；本次覆查結論：跨三頁區分鐘鼓名詞、鼓擊動詞，並引古文金文；多個支、攴、殳形仍不宜強配近形碼。末段考假攷有明確從攴丂聲說，可按本字說補攷。既收擊兩句仍屬實引，與字源辨析分層。"
+        }
+      ],
+      "findings": [
+        {
+          "text": "弗擊弗考",
+          "witness": "詩序正義、文選河陽縣作注引詩",
+          "schools": [],
+          "kind": "傳本異文",
+          "note": ""
+        },
+        {
+          "text": "不擊不考",
+          "witness": "事類賦、太平御覽引詩",
+          "schools": [],
+          "kind": "傳本異文",
+          "note": ""
+        },
+        {
+          "text": "攷",
+          "witness": "袁梅據說文攴部敂也所取本字",
+          "schools": [],
+          "kind": "本字說",
+          "note": "",
+          "qualification": "攴丂形；只對應考，是本字推說，非傳本直接另作",
+          "base": "考"
+        }
+      ],
+      "status": "字形覆核",
+      "continuationPages": [
+        185,
+        186
+      ],
+      "pendingGlyphs": [
+        {
+          "id": "534-recheck",
+          "label": "鼓的動詞古形（支攴組合）；字學參校，非另一詩本；其他金文及名詞形亦待辨。",
+          "printPages": [
+            184,
+            185,
+            186
+          ],
+          "pdfPages": [
+            209,
+            210,
+            211
+          ]
+        }
+      ],
+      "recheckOf": "ocr-check-2026-11-01-500",
+      "viewedPdfPages": [
+        209,
+        210,
+        211
+      ],
+      "glyphs": [
+        {
+          "pdfPage": 210,
+          "printPage": 185,
+          "cropPixels": [
+            1342,
+            539,
+            1442,
+            655
+          ],
+          "renderPixels": [
+            1624,
+            2400
+          ],
+          "alt": "第534項待辨原字",
+          "note": "鼓的動詞古形（支攴組合）；字學參校，非另一詩本；其他金文及名詞形亦待辨。",
+          "url": "collations/glyphs/yuan2013-recheck-534-1.png"
+        }
+      ]
+    },
+    {
+      "unit": 538,
+      "unitId": "yuan2013-0538",
+      "poemId": "shijing-116",
+      "title": "唐風・揚之水",
+      "lemma": "襮",
+      "page": 188,
+      "pdfPage": 213,
+      "indexPdfPage": 937,
+      "indexPrintPage": 912,
+      "summary": "衣部暴聲的繁形與朱熹本的隸省形有局部筆畫差，並不是裸。字書省形暴可辨，衣旁兩形仍未全部定碼，故保持待辨。",
+      "decisions": [
+        {
+          "candidate": 0,
+          "ocr": "裸",
+          "decision": "pending",
+          "label": "前批字形待辨",
+          "result": "朱熹本衣旁形",
+          "note": "前批候選取捨沿錄；本次覆查結論：衣部暴聲的繁形與朱熹本的隸省形有局部筆畫差，並不是裸。字書省形暴可辨，衣旁兩形仍未全部定碼，故保持待辨。"
+        },
+        {
+          "candidate": 1,
+          "ocr": "襮",
+          "decision": "related",
+          "label": "前批字學／訓解相關字",
+          "result": "襮為本站同字",
+          "note": "前批候選取捨沿錄；本次覆查結論：衣部暴聲的繁形與朱熹本的隸省形有局部筆畫差，並不是裸。字書省形暴可辨，衣旁兩形仍未全部定碼，故保持待辨。"
+        },
+        {
+          "candidate": 2,
+          "ocr": "暴",
+          "decision": "related",
+          "label": "前批字學／訓解相關字",
+          "result": "暴為省形說",
+          "note": "前批候選取捨沿錄；本次覆查結論：衣部暴聲的繁形與朱熹本的隸省形有局部筆畫差，並不是裸。字書省形暴可辨，衣旁兩形仍未全部定碼，故保持待辨。"
+        }
+      ],
+      "findings": [
+        {
+          "text": "暴",
+          "witness": "玉篇所出及袁梅省形說",
+          "schools": [],
+          "kind": "字學說明",
+          "note": "",
+          "qualification": "領連也、又省作暴的字學參校；非另一詩本直接引文",
+          "base": "襮"
+        }
+      ],
+      "status": "字形覆核",
+      "continuationPages": [],
+      "pendingGlyphs": [
+        {
+          "id": "538-recheck",
+          "label": "說文衣旁暴聲繁形與朱熹本省形；字學參校，非以裸充另一詩本。",
+          "printPages": [
+            188
+          ],
+          "pdfPages": [
+            213
+          ]
+        }
+      ],
+      "recheckOf": "ocr-check-2026-11-01-500",
+      "viewedPdfPages": [
+        213
+      ],
+      "glyphs": [
+        {
+          "pdfPage": 213,
+          "printPage": 188,
+          "cropPixels": [
+            1222,
+            428,
+            1322,
+            544
+          ],
+          "renderPixels": [
+            2436,
+            3600
+          ],
+          "alt": "第538項待辨原字",
+          "note": "說文衣旁暴聲繁形與朱熹本省形；字學參校，非以裸充另一詩本。",
+          "url": "collations/glyphs/yuan2013-recheck-538-1.png"
+        }
+      ]
+    },
+    {
+      "unit": 543,
+      "unitId": "yuan2013-0543",
+      "poemId": "shijing-116",
+      "title": "唐風・揚之水",
+      "lemma": "粼粼",
+      "page": 189,
+      "pdfPage": 214,
+      "indexPdfPage": 937,
+      "indexPrintPage": 912,
+      "summary": "釋文磷磷可留。閩本、監本、毛本的米粦旁訛形及盧文弨所見宋釋文另一右鉤形，原書判形近致訛；仍不以粼、亃等常見碼直接取代原頁細部。",
+      "decisions": [],
+      "findings": [
+        {
+          "text": "磷磷",
+          "witness": "釋文本又作",
+          "schools": [],
+          "kind": "傳本異文",
+          "note": ""
+        }
+      ],
+      "status": "字形覆核",
+      "continuationPages": [
+        190
+      ],
+      "pendingGlyphs": [
+        {
+          "id": "543-recheck",
+          "label": "盧文弨所見宋釋文米粦旁右鉤形；另閩監毛訛形亦待辨。",
+          "printPages": [
+            189,
+            190
+          ],
+          "pdfPages": [
+            214,
+            215
+          ]
+        }
+      ],
+      "recheckOf": "ocr-check-2026-11-01-500",
+      "viewedPdfPages": [
+        214,
+        215
+      ],
+      "glyphs": [
+        {
+          "pdfPage": 214,
+          "printPage": 189,
+          "cropPixels": [
+            1667,
+            3076,
+            1767,
+            3192
+          ],
+          "renderPixels": [
+            2436,
+            3600
+          ],
+          "alt": "第543項待辨原字",
+          "note": "盧文弨所見宋釋文米粦旁右鉤形；另閩監毛訛形亦待辨。",
+          "url": "collations/glyphs/yuan2013-recheck-543-1.png"
+        }
+      ]
+    },
+    {
+      "unit": 552,
+      "unitId": "yuan2013-0552",
+      "poemId": "shijing-118",
+      "title": "唐風・綢繆",
+      "lemma": "粲",
+      "page": 194,
+      "pdfPage": 219,
+      "indexPdfPage": 938,
+      "indexPrintPage": 913,
+      "summary": "現有姦本字說應撤：原頁所出的字是左女右粲省聲形，並非三個女組成的姦。三女為粲是詩義訓解，不是把本字定成姦的形證。字林、廣韻另形仍須看原字，保持待辨。",
+      "decisions": [
+        {
+          "candidate": 0,
+          "ocr": "蚊",
+          "decision": "pending",
+          "label": "前批字形待辨",
+          "result": "女部異形",
+          "note": "前批候選取捨沿錄；本次覆查結論：現有姦本字說應撤：原頁所出的字是左女右粲省聲形，並非三個女組成的姦。三女為粲是詩義訓解，不是把本字定成姦的形證。字林、廣韻另形仍須看原字，保持待辨。"
+        },
+        {
+          "candidate": 1,
+          "ocr": "緊",
+          "decision": "pending",
+          "label": "前批字形待辨",
+          "result": "女部異形",
+          "note": "前批候選取捨沿錄；本次覆查結論：現有姦本字說應撤：原頁所出的字是左女右粲省聲形，並非三個女組成的姦。三女為粲是詩義訓解，不是把本字定成姦的形證。字林、廣韻另形仍須看原字，保持待辨。"
+        }
+      ],
+      "findings": [],
+      "status": "字形覆核",
+      "continuationPages": [],
+      "pendingGlyphs": [
+        {
+          "id": "552-recheck",
+          "label": "說文左女右粲省聲形；字學參校，非姦；另字林及廣韻形仍待辨。",
+          "printPages": [
+            194
+          ],
+          "pdfPages": [
+            219
+          ]
+        }
+      ],
+      "recheckOf": "ocr-check-2026-11-01-500",
+      "viewedPdfPages": [
+        219
+      ],
+      "glyphs": [
+        {
+          "pdfPage": 219,
+          "printPage": 194,
+          "cropPixels": [
+            1805,
+            1433,
+            1905,
+            1549
+          ],
+          "renderPixels": [
+            2436,
+            3600
+          ],
+          "alt": "第552項待辨原字",
+          "note": "說文左女右粲省聲形；字學參校，非姦；另字林及廣韻形仍待辨。",
+          "url": "collations/glyphs/yuan2013-recheck-552-1.png"
+        }
+      ]
+    },
+    {
+      "unit": 556,
+      "unitId": "yuan2013-0556",
+      "poemId": "shijing-119",
+      "title": "唐風・杕杜",
+      "lemma": "睘睘",
+      "page": 195,
+      "pdfPage": 220,
+      "indexPdfPage": 938,
+      "indexPrintPage": 913,
+      "summary": "書中目袁聲字對應本站瞏瞏，不能把其字體／索引誤碼睘睘當另一異文，故撤睘睘。魯詩煢煢原有見證可留；文選省火形及說文走句本字說仍未全部定碼，待辨不清除。",
+      "decisions": [],
+      "findings": [
+        {
+          "text": "煢煢",
+          "witness": "楚辭九思王逸注引詩",
+          "schools": [
+            "魯"
+          ],
+          "kind": "袁氏輯佚判定",
+          "note": ""
+        }
+      ],
+      "status": "字形覆核",
+      "continuationPages": [],
+      "pendingGlyphs": [
+        {
+          "id": "556-recheck",
+          "label": "文選所引煢的省火形；說文走句獨行也本字形另待辨，屬字學參校，非另一詩本。",
+          "printPages": [
+            195
+          ],
+          "pdfPages": [
+            220
+          ]
+        }
+      ],
+      "recheckOf": "ocr-check-2026-11-01-500",
+      "viewedPdfPages": [
+        220
+      ],
+      "glyphs": [
+        {
+          "pdfPage": 220,
+          "printPage": 195,
+          "cropPixels": [
+            1349,
+            1886,
+            1449,
+            2002
+          ],
+          "renderPixels": [
+            2436,
+            3600
+          ],
+          "alt": "第556項待辨原字",
+          "note": "文選所引煢的省火形；說文走句獨行也本字形另待辨，屬字學參校，非另一詩本。",
+          "url": "collations/glyphs/yuan2013-recheck-556-1.png"
+        }
+      ]
+    },
+    {
+      "unit": 558,
+      "unitId": "yuan2013-0558",
+      "poemId": "shijing-121",
+      "title": "唐風・鴇羽",
+      "lemma": "鴇",
+      "page": 196,
+      "pdfPage": 221,
+      "indexPdfPage": 938,
+      "indexPrintPage": 913,
+      "summary": "實看196頁：朱熹本鴇的左上用七，說文正體左上為匕、下十（𠤎聲）。兩形字碼不能都寫同碼鴇冒充異字；七形暫附圖，所列朱本原書判非。字學所引另一鳥名也不算本詩。",
+      "decisions": [
+        {
+          "candidate": 0,
+          "ocr": "鴇",
+          "decision": "pending",
+          "label": "前批字形待辨",
+          "result": "朱熹本部件異形",
+          "note": "前批候選取捨沿錄；本次覆查結論：實看196頁：朱熹本鴇的左上用七，說文正體左上為匕、下十（𠤎聲）。兩形字碼不能都寫同碼鴇冒充異字；七形暫附圖，所列朱本原書判非。字學所引另一鳥名也不算本詩。"
+        }
+      ],
+      "findings": [],
+      "status": "字形覆核",
+      "continuationPages": [],
+      "pendingGlyphs": [
+        {
+          "id": "558-recheck",
+          "label": "實看196頁：朱熹本鴇的左上用七，說文正體左上為匕、下十（𠤎聲）。兩形字碼不能都寫同碼鴇冒充異字；七形暫附圖，所列朱本原書判非。字學所引另一鳥名也不算本詩。",
+          "printPages": [
+            196
+          ],
+          "pdfPages": [
+            221
+          ]
+        }
+      ],
+      "recheckOf": "ocr-check-2026-11-01-500",
+      "viewedPdfPages": [
+        221
+      ],
+      "glyphs": [
+        {
+          "alt": "第558項字形原圖",
+          "note": "取本條關鍵待辨形；其他未定碼的古文／或體仍待辨。",
+          "pdfPage": 221,
+          "printPage": 196,
+          "cropPixels": [
+            1303,
+            1872,
+            1403,
+            1972
+          ],
+          "renderPixels": [
+            2436,
+            3600
+          ],
+          "url": "collations/glyphs/yuan2013-recheck-558-1.png"
+        }
+      ]
+    },
+    {
+      "unit": 562,
+      "unitId": "yuan2013-0562",
+      "poemId": "shijing-123",
+      "title": "唐風・有杕之杜",
+      "lemma": "杕",
+      "page": 198,
+      "pdfPage": 223,
+      "indexPdfPage": 938,
+      "indexPrintPage": 913,
+      "summary": "實看198頁首條：監本、毛本杕作枤，右部犬有明確點畫；枤可定，原書判傳寫致誤。",
+      "decisions": [],
+      "findings": [
+        {
+          "text": "枤",
+          "witness": "監本、毛本",
+          "schools": [],
+          "kind": "傳本異文",
+          "note": "",
+          "qualification": "袁書判傳寫致誤",
+          "base": "杕"
+        }
+      ],
+      "status": "字形覆核",
+      "continuationPages": [],
+      "glyphs": [
+        {
+          "url": "collations/glyphs/yuan2013-b500-562-8.png",
+          "alt": "監本毛本木犬字形",
+          "note": "監本毛本木犬字形；按原頁截圖保留形體，字碼暫不強配。",
+          "cropPixels": [
+            770,
+            270,
+            845,
+            345
+          ],
+          "renderPixels": [
+            1624,
+            2400
+          ],
+          "pdfPage": 223,
+          "printPage": 198
+        }
+      ],
+      "recheckOf": "ocr-check-2026-11-01-500",
+      "viewedPdfPages": [
+        223
+      ]
+    },
+    {
+      "unit": 568,
+      "unitId": "yuan2013-0568",
+      "poemId": "shijing-125",
+      "title": "唐風・采苓",
+      "lemma": "苓",
+      "page": 199,
+      "pdfPage": 224,
+      "indexPdfPage": 939,
+      "indexPrintPage": 914,
+      "summary": "實看199–200頁全段：本字為蘦，艸覆雨下三口（霝聲），已與BabelStone蘦／薷／蕶對照。爾雅、說文與王筠、桂馥、徐灝所論皆字學本字說，本條沒有另署三家經字。",
+      "decisions": [
+        {
+          "candidate": 0,
+          "ocr": "苓",
+          "decision": "related",
+          "label": "前批字學／訓解相關字",
+          "result": "苓為本站同字",
+          "note": "前批候選取捨沿錄；本次覆查結論：實看199–200頁全段：本字為蘦，艸覆雨下三口（霝聲），已與BabelStone蘦／薷／蕶對照。爾雅、說文與王筠、桂馥、徐灝所論皆字學本字說，本條沒有另署三家經字。"
+        }
+      ],
+      "findings": [
+        {
+          "text": "蘦",
+          "witness": "爾雅釋草、說文艸部及袁書校說",
+          "schools": [],
+          "kind": "本字說",
+          "note": "",
+          "qualification": "爾雅詞條及說文本字辨析，非另一傳本引詩",
+          "base": "苓"
+        }
+      ],
+      "status": "字形覆核",
+      "continuationPages": [
+        200
+      ],
+      "recheckOf": "ocr-check-2026-11-01-500",
+      "viewedPdfPages": [
+        224,
+        225
+      ]
+    },
+    {
+      "unit": 578,
+      "unitId": "yuan2013-0578",
+      "poemId": "shijing-127",
+      "title": "秦風・駟驖",
+      "lemma": "歇驕",
+      "page": 204,
+      "pdfPage": 229,
+      "indexPdfPage": 939,
+      "indexPrintPage": 914,
+      "summary": "實看204頁整段：猲為犬曷，獦為犬葛，獢為犬喬。爾雅音義稱獦字林作猲，西京賦注引毛詩作獦獢；原猲獢讀法保留，並補另一確定字形。",
+      "decisions": [
+        {
+          "candidate": 0,
+          "ocr": "猖猜",
+          "decision": "correct",
+          "label": "前批OCR訂正",
+          "result": "猲獢",
+          "note": "前批候選取捨沿錄；本次覆查結論：實看204頁整段：猲為犬曷，獦為犬葛，獢為犬喬。爾雅音義稱獦字林作猲，西京賦注引毛詩作獦獢；原猲獢讀法保留，並補另一確定字形。"
+        },
+        {
+          "candidate": 1,
+          "ocr": "猖獢",
+          "decision": "correct",
+          "label": "前批OCR訂正",
+          "result": "猲獢",
+          "note": "前批候選取捨沿錄；本次覆查結論：實看204頁整段：猲為犬曷，獦為犬葛，獢為犬喬。爾雅音義稱獦字林作猲，西京賦注引毛詩作獦獢；原猲獢讀法保留，並補另一確定字形。"
+        },
+        {
+          "candidate": 2,
+          "ocr": "獥獢",
+          "decision": "pending",
+          "label": "前批字形待辨",
+          "result": "犬部異體",
+          "note": "前批候選取捨沿錄；本次覆查結論：實看204頁整段：猲為犬曷，獦為犬葛，獢為犬喬。爾雅音義稱獦字林作猲，西京賦注引毛詩作獦獢；原猲獢讀法保留，並補另一確定字形。"
+        },
+        {
+          "candidate": 3,
+          "ocr": "歇驕",
+          "decision": "related",
+          "label": "前批字學／訓解相關字",
+          "result": "歇驕為本站同字",
+          "note": "前批候選取捨沿錄；本次覆查結論：實看204頁整段：猲為犬曷，獦為犬葛，獢為犬喬。爾雅音義稱獦字林作猲，西京賦注引毛詩作獦獢；原猲獢讀法保留，並補另一確定字形。"
+        }
+      ],
+      "findings": [
+        {
+          "text": "猲獢",
+          "witness": "爾雅、釋文；說文與文選注引詩",
+          "schools": [],
+          "kind": "傳本異文",
+          "note": ""
+        },
+        {
+          "text": "獦獢",
+          "witness": "文選西京賦注引毛詩",
+          "schools": [],
+          "kind": "傳本異文",
+          "note": "",
+          "base": "歇驕"
+        }
+      ],
+      "status": "字形覆核",
+      "continuationPages": [],
+      "recheckOf": "ocr-check-2026-11-01-500",
+      "viewedPdfPages": [
+        229
+      ]
+    },
+    {
+      "unit": 579,
+      "unitId": "yuan2013-0579",
+      "poemId": "shijing-128",
+      "title": "秦風・小戎",
+      "lemma": "楘",
+      "page": 205,
+      "pdfPage": 230,
+      "indexPdfPage": 939,
+      "indexPrintPage": 914,
+      "summary": "實看205頁整段：木敄的楘、革敄的鞪可分；釋文出字另是敄下糸的形（疑䋷），字碼仍需精核，維持pending。鞪本又作、玉篇及說文車軸束的例屬本條字學，未妄定三家。",
+      "decisions": [],
+      "findings": [],
+      "status": "字形覆核",
+      "continuationPages": [],
+      "glyphs": [
+        {
+          "url": "collations/glyphs/yuan2013-b500-579-4.png",
+          "alt": "釋文字頭",
+          "note": "釋文字頭；按原頁截圖保留形體，字碼暫不強配。",
+          "cropPixels": [
+            700,
+            270,
+            795,
+            345
+          ],
+          "renderPixels": [
+            1624,
+            2400
+          ],
+          "pdfPage": 230,
+          "printPage": 205
+        },
+        {
+          "url": "collations/glyphs/yuan2013-b500-579-5.png",
+          "alt": "釋文本又作字形",
+          "note": "釋文本又作字形；按原頁截圖保留形體，字碼暫不強配。",
+          "cropPixels": [
+            1010,
+            270,
+            1090,
+            345
+          ],
+          "renderPixels": [
+            1624,
+            2400
+          ],
+          "pdfPage": 230,
+          "printPage": 205
+        },
+        {
+          "alt": "第579項字形原圖",
+          "note": "取本條關鍵待辨形；其他未定碼的古文／或體仍待辨。",
+          "pdfPage": 230,
+          "printPage": 205,
+          "cropPixels": [
+            1035,
+            402,
+            1135,
+            502
+          ],
+          "renderPixels": [
+            2436,
+            3600
+          ],
+          "url": "collations/glyphs/yuan2013-recheck-579-1.png"
+        }
+      ],
+      "pendingGlyphs": [
+        {
+          "id": "579-recheck",
+          "label": "實看205頁整段：木敄的楘、革敄的鞪可分；釋文出字另是敄下糸的形（疑䋷），字碼仍需精核，維持pending。鞪本又作、玉篇及說文車軸束的例屬本條字學，未妄定三家。",
+          "printPages": [
+            205
+          ],
+          "pdfPages": [
+            230
+          ]
+        }
+      ],
+      "recheckOf": "ocr-check-2026-11-01-500",
+      "viewedPdfPages": [
+        230
+      ]
+    },
+    {
+      "unit": 584,
+      "unitId": "yuan2013-0584",
+      "poemId": "shijing-128",
+      "title": "秦風・小戎",
+      "lemma": "厹矛",
+      "page": 206,
+      "pdfPage": 231,
+      "indexPdfPage": 939,
+      "indexPrintPage": 914,
+      "summary": "實看206頁全段：叴（九口）之說文引詩已確定；獸足厹／禸的篆文與小篆隸形仍有數種，至少一古形尚未定碼，屬字學參校而非另一詩本，維持pending。",
+      "decisions": [
+        {
+          "candidate": 0,
+          "ocr": "厹",
+          "decision": "related",
+          "label": "前批字學／訓解相關字",
+          "result": "厹為本站同字",
+          "note": "前批候選取捨沿錄；本次覆查結論：實看206頁全段：叴（九口）之說文引詩已確定；獸足厹／禸的篆文與小篆隸形仍有數種，至少一古形尚未定碼，屬字學參校而非另一詩本，維持pending。"
+        },
+        {
+          "candidate": 1,
+          "ocr": "协",
+          "decision": "pending",
+          "label": "前批字形待辨",
+          "result": "獸跡字形",
+          "note": "前批候選取捨沿錄；本次覆查結論：實看206頁全段：叴（九口）之說文引詩已確定；獸足厹／禸的篆文與小篆隸形仍有數種，至少一古形尚未定碼，屬字學參校而非另一詩本，維持pending。"
+        },
+        {
+          "candidate": 2,
+          "ocr": "太",
+          "decision": "pending",
+          "label": "前批字形待辨",
+          "result": "異形",
+          "note": "前批候選取捨沿錄；本次覆查結論：實看206頁全段：叴（九口）之說文引詩已確定；獸足厹／禸的篆文與小篆隸形仍有數種，至少一古形尚未定碼，屬字學參校而非另一詩本，維持pending。"
+        },
+        {
+          "candidate": 3,
+          "ocr": "去",
+          "decision": "pending",
+          "label": "前批字形待辨",
+          "result": "字學比較",
+          "note": "前批候選取捨沿錄；本次覆查結論：實看206頁全段：叴（九口）之說文引詩已確定；獸足厹／禸的篆文與小篆隸形仍有數種，至少一古形尚未定碼，屬字學參校而非另一詩本，維持pending。"
+        },
+        {
+          "candidate": 4,
+          "ocr": "存",
+          "decision": "pending",
+          "label": "前批字形待辨",
+          "result": "字學比較",
+          "note": "前批候選取捨沿錄；本次覆查結論：實看206頁全段：叴（九口）之說文引詩已確定；獸足厹／禸的篆文與小篆隸形仍有數種，至少一古形尚未定碼，屬字學參校而非另一詩本，維持pending。"
+        }
+      ],
+      "findings": [
+        {
+          "text": "叴",
+          "witness": "說文金部引詩",
+          "schools": [],
+          "kind": "傳本異文",
+          "note": ""
+        }
+      ],
+      "status": "字形覆核",
+      "continuationPages": [],
+      "pendingGlyphs": [
+        {
+          "id": "584-recheck",
+          "label": "實看206頁全段：叴（九口）之說文引詩已確定；獸足厹／禸的篆文與小篆隸形仍有數種，至少一古形尚未定碼，屬字學參校而非另一詩本，維持pending。",
+          "printPages": [
+            206
+          ],
+          "pdfPages": [
+            231
+          ]
+        }
+      ],
+      "recheckOf": "ocr-check-2026-11-01-500",
+      "viewedPdfPages": [
+        231
+      ],
+      "glyphs": [
+        {
+          "alt": "第584項字形原圖",
+          "note": "取本條關鍵待辨形；其他未定碼的古文／或體仍待辨。",
+          "pdfPage": 231,
+          "printPage": 206,
+          "cropPixels": [
+            1110,
+            1132,
+            1210,
+            1232
+          ],
+          "renderPixels": [
+            2436,
+            3600
+          ],
+          "url": "collations/glyphs/yuan2013-recheck-584-1.png"
+        }
+      ]
+    },
+    {
+      "unit": 585,
+      "unitId": "yuan2013-0585",
+      "poemId": "shijing-128",
+      "title": "秦風・小戎",
+      "lemma": "錞",
+      "page": 206,
+      "pdfPage": 231,
+      "indexPdfPage": 939,
+      "indexPrintPage": 914,
+      "summary": "實看206頁全段：御覽所引鐓可留；說文錞的括注古形，上部享類、下金（非左右金享），字碼仍未確定；不以鐜或其他金字近形猜填。",
+      "decisions": [],
+      "findings": [
+        {
+          "text": "鐓",
+          "witness": "太平御覽引詩",
+          "schools": [],
+          "kind": "傳本異文",
+          "note": ""
+        }
+      ],
+      "status": "字形覆核",
+      "continuationPages": [],
+      "pendingGlyphs": [
+        {
+          "id": "585-recheck",
+          "label": "實看206頁全段：御覽所引鐓可留；說文錞的括注古形，上部享類、下金（非左右金享），字碼仍未確定；不以鐜或其他金字近形猜填。",
+          "printPages": [
+            206
+          ],
+          "pdfPages": [
+            231
+          ]
+        }
+      ],
+      "recheckOf": "ocr-check-2026-11-01-500",
+      "viewedPdfPages": [
+        231
+      ],
+      "glyphs": [
+        {
+          "alt": "第585項字形原圖",
+          "note": "取本條關鍵待辨形；其他未定碼的古文／或體仍待辨。",
+          "pdfPage": 231,
+          "printPage": 206,
+          "cropPixels": [
+            1245,
+            1948,
+            1345,
+            2048
+          ],
+          "renderPixels": [
+            2436,
+            3600
+          ],
+          "url": "collations/glyphs/yuan2013-recheck-585-1.png"
+        }
+      ]
+    },
+    {
+      "unit": 588,
+      "unitId": "yuan2013-0588",
+      "poemId": "shijing-128",
+      "title": "秦風・小戎",
+      "lemma": "竹閉緄縢",
+      "page": 207,
+      "pdfPage": 232,
+      "indexPdfPage": 940,
+      "indexPrintPage": 915,
+      "summary": "實看207–208頁完整段落：鄭注竹柲緄縢有引詩，原條可留；釋文及周禮注另有車旁卂／必類形、縢的糸旁或體與石經誤刻，碼尚未全定。故維持字學相關pending，附車旁一字圖，其餘位置仍待辨。",
+      "decisions": [
+        {
+          "candidate": 0,
+          "ocr": "秘",
+          "decision": "correct",
+          "label": "前批OCR訂正",
+          "result": "柲",
+          "note": "前批候選取捨沿錄；本次覆查結論：實看207–208頁完整段落：鄭注竹柲緄縢有引詩，原條可留；釋文及周禮注另有車旁卂／必類形、縢的糸旁或體與石經誤刻，碼尚未全定。故維持字學相關pending，附車旁一字圖，其餘位置仍待辨。"
+        }
+      ],
+      "findings": [
+        {
+          "text": "竹柲緄縢",
+          "witness": "儀禮士喪禮、既夕禮鄭注引詩",
+          "schools": [],
+          "kind": "傳本異文",
+          "note": ""
+        }
+      ],
+      "status": "字形覆核",
+      "continuationPages": [
+        208
+      ],
+      "pendingGlyphs": [
+        {
+          "id": "588-recheck",
+          "label": "實看207–208頁完整段落：鄭注竹柲緄縢有引詩，原條可留；釋文及周禮注另有車旁卂／必類形、縢的糸旁或體與石經誤刻，碼尚未全定。故維持字學相關pending，附車旁一字圖，其餘位置仍待辨。",
+          "printPages": [
+            207,
+            208
+          ],
+          "pdfPages": [
+            232,
+            233
+          ]
+        }
+      ],
+      "recheckOf": "ocr-check-2026-11-01-500",
+      "viewedPdfPages": [
+        232,
+        233
+      ],
+      "glyphs": [
+        {
+          "alt": "第588項字形原圖",
+          "note": "取本條關鍵待辨形；其他未定碼的古文／或體仍待辨。",
+          "pdfPage": 232,
+          "printPage": 207,
+          "cropPixels": [
+            1434,
+            1306,
+            1534,
+            1406
+          ],
+          "renderPixels": [
+            2436,
+            3600
+          ],
+          "url": "collations/glyphs/yuan2013-recheck-588-1.png"
+        }
+      ]
+    },
+    {
+      "unit": 618,
+      "unitId": "yuan2013-0618",
+      "poemId": "shijing-134",
+      "title": "秦風・渭陽",
+      "lemma": "瓊瑰玉佩",
+      "page": 219,
+      "pdfPage": 244,
+      "indexPdfPage": 941,
+      "indexPrintPage": 916,
+      "summary": "實看219–220頁馬瑞辰整段：璿瑰是其主張瓊瑰的本字，屬校說而非獨立詩本；文中列瓊、璿之篆體及琁等異形，篆體碼仍未精定，保留pending。",
+      "decisions": [],
+      "findings": [
+        {
+          "text": "璿",
+          "witness": "馬瑞辰通釋、袁書轉引",
+          "schools": [],
+          "kind": "本字說",
+          "note": "",
+          "qualification": "馬氏以瓊瑰為璿瑰之譌；非另一傳本詩經引文",
+          "base": "瓊"
+        }
+      ],
+      "status": "字形覆核",
+      "continuationPages": [
+        220
+      ],
+      "glyphs": [
+        {
+          "url": "collations/glyphs/yuan2013-b500-618-6.png",
+          "alt": "馬瑞辰本字說中的玉部字",
+          "note": "馬瑞辰本字說中的玉部字；按原頁截圖保留形體，字碼暫不強配。",
+          "cropPixels": [
+            942,
+            1595,
+            1050,
+            1675
+          ],
+          "renderPixels": [
+            1624,
+            2400
+          ],
+          "pdfPage": 244,
+          "printPage": 219
+        },
+        {
+          "alt": "第618項字形原圖",
+          "note": "取本條關鍵待辨形；其他未定碼的古文／或體仍待辨。",
+          "pdfPage": 244,
+          "printPage": 219,
+          "cropPixels": [
+            888,
+            2626,
+            988,
+            2726
+          ],
+          "renderPixels": [
+            2436,
+            3600
+          ],
+          "url": "collations/glyphs/yuan2013-recheck-618-1.png"
+        }
+      ],
+      "pendingGlyphs": [
+        {
+          "id": "618-recheck",
+          "label": "實看219–220頁馬瑞辰整段：璿瑰是其主張瓊瑰的本字，屬校說而非獨立詩本；文中列瓊、璿之篆體及琁等異形，篆體碼仍未精定，保留pending。",
+          "printPages": [
+            219,
+            220
+          ],
+          "pdfPages": [
+            244,
+            245
+          ]
+        }
+      ],
+      "recheckOf": "ocr-check-2026-11-01-500",
+      "viewedPdfPages": [
+        244,
+        245
+      ]
+    },
+    {
+      "unit": 622,
+      "unitId": "yuan2013-0622",
+      "poemId": "shijing-136",
+      "title": "陳風・宛丘",
+      "lemma": "宛丘之下",
+      "page": 222,
+      "pdfPage": 247,
+      "indexPdfPage": 941,
+      "indexPrintPage": 916,
+      "summary": "實看222頁：韓詩外傳的車旁昷類字與宛、苑通用，圖像可定位，但日／囚內部形仍須精定，暫不在輼、轀間強配；水經注邱已存。本條其他宛苑字學不憑音義推經字。",
+      "decisions": [],
+      "findings": [
+        {
+          "text": "宛邱之下",
+          "witness": "水經注淄水引詩",
+          "schools": [],
+          "kind": "傳本異文",
+          "note": ""
+        }
+      ],
+      "status": "字形覆核",
+      "continuationPages": [],
+      "pendingGlyphs": [
+        {
+          "id": "622-recheck",
+          "label": "實看222頁：韓詩外傳的車旁昷類字與宛、苑通用，圖像可定位，但日／囚內部形仍須精定，暫不在輼、轀間強配；水經注邱已存。本條其他宛苑字學不憑音義推經字。",
+          "printPages": [
+            222
+          ],
+          "pdfPages": [
+            247
+          ]
+        }
+      ],
+      "recheckOf": "ocr-check-2026-11-01-500",
+      "viewedPdfPages": [
+        247
+      ],
+      "glyphs": [
+        {
+          "alt": "第622項字形原圖",
+          "note": "取本條關鍵待辨形；其他未定碼的古文／或體仍待辨。",
+          "pdfPage": 247,
+          "printPage": 222,
+          "cropPixels": [
+            1893,
+            1755,
+            1993,
+            1855
+          ],
+          "renderPixels": [
+            2436,
+            3600
+          ],
+          "url": "collations/glyphs/yuan2013-recheck-622-1.png"
+        }
+      ]
+    },
+    {
+      "unit": 625,
+      "unitId": "yuan2013-0625",
+      "poemId": "shijing-137",
+      "title": "陳風・東門之枌",
+      "lemma": "穀旦于差",
+      "page": 223,
+      "pdfPage": 248,
+      "indexPdfPage": 941,
+      "indexPrintPage": 916,
+      "summary": "實看223頁：韓詩差作嗟、釋文旦本亦作且可留；唐石經、毛本穀字少禾上撇類形及原書正字辨析仍需精確對碼，不單憑常用榖／穀／糓候選強填。",
+      "decisions": [],
+      "findings": [
+        {
+          "text": "嗟",
+          "witness": "釋文所記韓詩差字",
+          "schools": [
+            "韓"
+          ],
+          "kind": "傳本異文",
+          "note": "",
+          "base": "差"
+        },
+        {
+          "text": "且",
+          "witness": "釋文本亦作旦字",
+          "schools": [],
+          "kind": "傳本異文",
+          "note": "",
+          "base": "旦"
+        }
+      ],
+      "status": "字形覆核",
+      "continuationPages": [],
+      "pendingGlyphs": [
+        {
+          "id": "625-recheck",
+          "label": "實看223頁：韓詩差作嗟、釋文旦本亦作且可留；唐石經、毛本穀字少禾上撇類形及原書正字辨析仍需精確對碼，不單憑常用榖／穀／糓候選強填。",
+          "printPages": [
+            223
+          ],
+          "pdfPages": [
+            248
+          ]
+        }
+      ],
+      "recheckOf": "ocr-check-2026-11-01-500",
+      "viewedPdfPages": [
+        248
+      ],
+      "glyphs": [
+        {
+          "alt": "第625項字形原圖",
+          "note": "取本條關鍵待辨形；其他未定碼的古文／或體仍待辨。",
+          "pdfPage": 248,
+          "printPage": 223,
+          "cropPixels": [
+            1445,
+            1359,
+            1545,
+            1459
+          ],
+          "renderPixels": [
+            2436,
+            3600
+          ],
+          "url": "collations/glyphs/yuan2013-recheck-625-1.png"
+        }
+      ]
+    },
+    {
+      "unit": 638,
+      "unitId": "yuan2013-0638",
+      "poemId": "shijing-140",
+      "title": "陳風・東門之楊",
+      "lemma": "肺肺",
+      "page": 230,
+      "pdfPage": 255,
+      "indexPdfPage": 942,
+      "indexPrintPage": 917,
+      "summary": "實看230頁：說文艸木盛的本字呈上伸枝、下木樣形，並論小雅芾芾與生民旆旆；本字碼未定，仍是字學參校。其他篇的芾、旆不能當肺肺本句的獨立引文。",
+      "decisions": [],
+      "findings": [],
+      "status": "字形覆核",
+      "continuationPages": [],
+      "pendingGlyphs": [
+        {
+          "id": "638-recheck",
+          "label": "實看230頁：說文艸木盛的本字呈上伸枝、下木樣形，並論小雅芾芾與生民旆旆；本字碼未定，仍是字學參校。其他篇的芾、旆不能當肺肺本句的獨立引文。",
+          "printPages": [
+            230
+          ],
+          "pdfPages": [
+            255
+          ]
+        }
+      ],
+      "recheckOf": "ocr-check-2026-11-01-500",
+      "viewedPdfPages": [
+        255
+      ],
+      "glyphs": [
+        {
+          "alt": "第638項字形原圖",
+          "note": "取本條關鍵待辨形；其他未定碼的古文／或體仍待辨。",
+          "pdfPage": 255,
+          "printPage": 230,
+          "cropPixels": [
+            1313,
+            1470,
+            1413,
+            1570
+          ],
+          "renderPixels": [
+            2436,
+            3600
+          ],
+          "url": "collations/glyphs/yuan2013-recheck-638-1.png"
+        }
+      ]
+    },
+    {
+      "unit": 645,
+      "unitId": "yuan2013-0645",
+      "poemId": "shijing-142",
+      "title": "陳風・防有鵲巢",
+      "lemma": "鷊",
+      "page": 232,
+      "pdfPage": 257,
+      "indexPdfPage": 942,
+      "indexPrintPage": 917,
+      "summary": "實看232頁整條：說文虉已辨；玉篇、類篇中艸上覆鳥兒形及鳥兒的左右異體、兒與昊之通用仍未全定碼，保留字學pending。附類篇艸覆鳥形作關鍵圖，不拿同碼鷊另造異文。",
+      "decisions": [],
+      "findings": [
+        {
+          "text": "虉",
+          "witness": "說文艸部引詩",
+          "schools": [],
+          "kind": "傳本異文",
+          "note": ""
+        }
+      ],
+      "status": "字形覆核",
+      "continuationPages": [],
+      "pendingGlyphs": [
+        {
+          "id": "645-recheck",
+          "label": "實看232頁整條：說文虉已辨；玉篇、類篇中艸上覆鳥兒形及鳥兒的左右異體、兒與昊之通用仍未全定碼，保留字學pending。附類篇艸覆鳥形作關鍵圖，不拿同碼鷊另造異文。",
+          "printPages": [
+            232
+          ],
+          "pdfPages": [
+            257
+          ]
+        }
+      ],
+      "recheckOf": "ocr-check-2026-11-01-500",
+      "viewedPdfPages": [
+        257
+      ],
+      "glyphs": [
+        {
+          "alt": "第645項字形原圖",
+          "note": "取本條關鍵待辨形；其他未定碼的古文／或體仍待辨。",
+          "pdfPage": 257,
+          "printPage": 232,
+          "cropPixels": [
+            1246,
+            2390,
+            1346,
+            2490
+          ],
+          "renderPixels": [
+            2436,
+            3600
+          ],
+          "url": "collations/glyphs/yuan2013-recheck-645-1.png"
+        }
+      ]
+    },
+    {
+      "unit": 649,
+      "unitId": "yuan2013-0649",
+      "poemId": "shijing-143",
+      "title": "陳風・月出",
+      "lemma": "懰",
+      "page": 233,
+      "pdfPage": 258,
+      "indexPdfPage": 943,
+      "indexPrintPage": 918,
+      "summary": "實看233–234頁：女劉之嬼可辨，玉篇、廣韻、埤蒼釋好貌／美好／妖；女卯㚹是所列省形。劉與懰為嬼的假借屬袁書本字說，原劉引文保留；所補字學讀法皆不指定詩家。",
+      "decisions": [
+        {
+          "candidate": 0,
+          "ocr": "劉",
+          "decision": "keep",
+          "label": "前批保留",
+          "result": "劉",
+          "note": "前批候選取捨沿錄；本次覆查結論：實看233–234頁：女劉之嬼可辨，玉篇、廣韻、埤蒼釋好貌／美好／妖；女卯㚹是所列省形。劉與懰為嬼的假借屬袁書本字說，原劉引文保留；所補字學讀法皆不指定詩家。"
+        }
+      ],
+      "findings": [
+        {
+          "text": "劉",
+          "witness": "釋文字頭、群經音辨引詩",
+          "schools": [],
+          "kind": "傳本異文",
+          "note": ""
+        },
+        {
+          "text": "嬼",
+          "witness": "玉篇、廣韻、埤蒼；袁書本字說",
+          "schools": [],
+          "kind": "本字說",
+          "note": "",
+          "qualification": "字書本字及袁書改讀，未見本句直接引詩",
+          "base": "懰"
+        },
+        {
+          "text": "㚹",
+          "witness": "袁書所列字書省形",
+          "schools": [],
+          "kind": "字學相關",
+          "note": "",
+          "qualification": "女卯形為嬼之省，非獨立傳本引詩",
+          "base": "懰"
+        }
+      ],
+      "status": "字形覆核",
+      "continuationPages": [
+        234
+      ],
+      "glyphs": [
+        {
+          "url": "collations/glyphs/yuan2013-b500-649-9.png",
+          "alt": "玉篇所載女劉字形",
+          "note": "玉篇所載女劉字形；按原頁截圖保留形體，字碼暫不強配。",
+          "cropPixels": [
+            225,
+            255,
+            310,
+            335
+          ],
+          "renderPixels": [
+            1624,
+            2400
+          ],
+          "pdfPage": 259,
+          "printPage": 234
+        }
+      ],
+      "recheckOf": "ocr-check-2026-11-01-500",
+      "viewedPdfPages": [
+        258,
+        259
+      ]
+    }
+  ],
+  "totals": {
+    "checkedIndexItems": 91,
+    "updatedReviewedRecords": 60,
+    "removedReviewedRecords": 2,
+    "newReviewedRecords": 17,
+    "originalCandidates": 114,
+    "pendingGlyphItems": 66,
+    "resolvedPreviousItems": 25,
+    "pendingGlyphLocations": 66,
+    "glyphExcerpts": 76,
+    "newGlyphExcerpts": 63
+  }
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "entryId": "zhou-nan-010",
+    "reading": 1,
+    "set": {
+      "glyphImage": "collations/glyphs/yuan2013-p7-tan-again.png"
+    },
+    "evidenceNote": "2026-11-01再看印刷頁7：保存《釋文》第二個「本又作」的原字圖；形體與碼位仍待辨，不用近形字代錄。"
+  },
+  {
+    "entryId": "zhou-nan-034",
+    "reading": 3,
+    "set": {
+      "glyphImage": "collations/glyphs/yuan2013-p16-zhao-ancient.png"
+    },
+    "evidenceNote": "2026-11-01再看印刷頁16：保存袁書所引朝之古文原圖；此為字學本字說，並非另一份韓詩經字見證。"
+  },
+  {
+    "entryId": "modern-yuan-0043",
+    "reading": 0,
+    "set": {
+      "glyphImage": "collations/glyphs/yuan2013-recheck-43.png"
+    },
+    "evidenceNote": "2026-11-01再看印刷頁19：碑刻夙字省變形仍按原圖保存，沒有足夠依據改配碼位。 本次另從PDF44重截單字，記錄渲染尺寸與座標；舊圖及舊報告仍保留。"
+  },
+  {
+    "entryId": "modern-yuan-0065",
+    "reading": 4,
+    "set": {},
+    "evidenceNote": "2026-11-01再看印刷頁24：英倫藏本糸旁字的右部與通行紽有別，仍保留原字圖待辨。"
+  },
+  {
+    "entryId": "modern-yuan-0066",
+    "reading": 0,
+    "set": {},
+    "evidenceNote": "2026-11-01再看印刷頁25：韓詩字為雨頭下追形，非OCR近形字；保留既有字圖及臧鏞堂轉引層次，字碼待定。"
+  },
+  {
+    "entryId": "modern-yuan-0077",
+    "reading": 0,
+    "set": {},
+    "evidenceNote": "2026-11-01再看印刷頁28–29：《集韻》引詩的日、卯構件位置與通行昴有別，仍存圖，不以同碼字替代。"
+  },
+  {
+    "entryId": "modern-yuan-0097",
+    "reading": 0,
+    "set": {},
+    "evidenceNote": "2026-11-01再看印刷頁35：犬旁、豕旁與宗聲形體有別，保留整組字圖；未逐一確定碼位，不將此組合記作單一經字。"
+  }
+]

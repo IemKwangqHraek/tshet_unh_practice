@@ -29,10 +29,14 @@ test('the complete work index accounts for 305 texts, six untexted poems, and al
 });
 
 test('reviewed rows anchor actual site characters and independently count source items and website records',()=>{
-  assert.equal(data.entries.length,618);
-  assert.equal(data.progress.reviewedPoems,141);
-  assert.equal(data.progress.reviewedIndexItems,653);
-  assert.equal(data.progress.unreviewedIndexItems,1476);
+  assert.equal(data.entries.length,1986);
+  assert.equal(data.progress.reviewedRecords,1986);
+  assert.equal(data.progress.reviewedPoems,300);
+  assert.equal(data.progress.linkedIndexItems,1976);
+  assert.equal(data.progress.pendingAuditItems,308);
+  assert.equal(data.progress.reviewedPoems,new Set(data.entries.map(r=>r.poemId)).size);
+  assert.equal(data.progress.reviewedIndexItems,2129);
+  assert.equal(data.progress.unreviewedIndexItems,0);
   for(const row of data.entries) {
     const doc=corpus.find(d=>d.id===row.poemId);
     assert.ok(doc.tokens.map(t=>t.char).join('').includes(row.baseText),row.id);
@@ -55,8 +59,8 @@ test('OCR candidates never acquire a school or silently become reviewed evidence
   assert.equal(scannedError.candidates[0].text,'顧');
   assert.equal(scannedError.lemma,'定');
   assert.equal(data.entries.find(r=>r.id==='modern-yuan-0038').readings[0].text,'顁');
-  assert.equal(filterModernIndex(index,{scope:'pending'}).length,1476);
-  assert.equal(filterModernIndex(index,{scope:'linked'}).length,608);
+  assert.equal(filterModernIndex(index,{scope:'pending'}).length,0);
+  assert.equal(filterModernIndex(index,{scope:'linked'}).length,data.progress.linkedIndexItems);
   assert.equal(filterModernIndex(index,{scope:'unmatched'}).length,320);
   assert.ok(filterModernEntries({school:'齊'}).every(r=>r.readings.some(x=>x.evidence.some(e=>e.schools.includes('齊')))));
 });
@@ -99,7 +103,7 @@ test('the next hundred source items retain original OCR, page continuations, qua
   assert.equal(audit.sourcePdfSha256,snapshot.sourcePdfSha256);
   const checked=filterModernIndex(index,{query:audit.id});
   assert.deepEqual(checked.map(u=>u.id),audit.checks.map(c=>c.unitId));
-  assert.equal(filterModernIndex(index,{scope:'audited'}).length,610);
+  assert.equal(filterModernIndex(index,{scope:'audited'}).length,2088);
   const decisions=audit.checks.flatMap(c=>c.decisions);
   assert.deepEqual(['keep','reject','correct','related','reassign','pending'].map(k=>decisions.filter(d=>d.decision===k).length),[46,16,15,13,4,2]);
   for(const check of audit.checks) {
@@ -124,8 +128,8 @@ test('the next hundred source items retain original OCR, page continuations, qua
   const gloss=checked.find(u=>u.id==='yuan2013-0063');
   assert.deepEqual(gloss.reviewedEntryIds,[]);
   assert.ok(!filterModernIndex(index,{scope:'pending'}).includes(gloss));
-  assert.equal(data.progress.linkedIndexItems,608);
-  assert.equal(data.entries.filter(r=>r.auditId===audit.id).length,99);
+  assert.equal(data.progress.linkedIndexItems,index.units.filter(u=>u.reviewedEntryIds.length).length);
+  assert.ok(filterModernEntries({query:audit.id}).length>=99);
   const row=n=>data.entries.find(r=>r.id===`modern-yuan-${String(n).padStart(4,'0')}`);
   assert.equal(row(54).readings[0].text,'䶒');
   assert.ok(row(71).readings.some(r=>r.text==='𦭼有梅'));
@@ -143,8 +147,8 @@ test('the next hundred source items retain original OCR, page continuations, qua
   assert.match(shijingModernView({mode:'index',query:gloss.id},index),/已回查正文，本項未新增經文異字記錄/);
 });
 
-test('the next 500 items preserve 505 candidates, mark unresolved source forms, and keep all three batches distinct',async()=>{
-  const audit=JSON.parse(await readFile(new URL('../public/'+data.ocrAudit.url,import.meta.url),'utf8'));
+test('the next 500 items preserve 505 candidates, mark unresolved source forms, and retain their history after rechecks',async()=>{
+  const audit=JSON.parse(await readFile(new URL('../public/'+data.ocrAudits.find(a=>a.count===500).url,import.meta.url),'utf8'));
   const snapshot=JSON.parse(await readFile(new URL('../scripts/snapshots/shijing-yuan-modern.json',import.meta.url),'utf8'));
   assert.equal(audit.expectedCount,500);
   assert.deepEqual(audit.checks.map(c=>c.unit),Array.from({length:500},(_,i)=>154+i));
@@ -176,22 +180,77 @@ test('the next 500 items preserve 505 candidates, mark unresolved source forms, 
   }
   assert.equal(audit.checks.filter(c=>c.pendingGlyphs?.length).length,84);
   assert.equal(audit.checks.flatMap(c=>c.glyphs||[]).length,9);
-  assert.equal(filterModernIndex(index,{scope:'glyphs'}).length,84);
-  assert.equal(data.entries.filter(r=>r.auditId===audit.id).length,456);
+  assert.equal(filterModernIndex(index,{scope:'glyphs'}).length,data.progress.pendingAuditItems);
+  assert.equal(audit.totals.newReviewedRecords,456);
+  assert.ok(filterModernEntries({query:audit.id}).every(r=>r.auditId===audit.id || r.auditHistory.includes(audit.id)));
   for(const batch of data.ocrAudits) assert.equal(filterModernIndex(index,{query:batch.id}).length,batch.count);
   const pending=index.units.find(u=>u.id==='yuan2013-0618');
-  assert.ok(pending.indexReviewed && pending.ocrAudit.pendingGlyphs.length);
-  assert.deepEqual(pending.reviewedEntryIds,[]);
+  assert.ok(pending.indexReviewed);
+  assert.ok(pending.ocrAuditHistory.some(c=>c.batchId===audit.id && c.pendingGlyphs?.length));
   assert.ok(!filterModernIndex(index,{scope:'pending'}).includes(pending));
   const html=shijingModernView({mode:'index',query:pending.id},index);
-  assert.match(html,/字形／字碼尚待辨定/);
-  assert.ok(!html.includes('本項未新增經文異字記錄'));
+  assert.match(html,/先前核對記錄/);
   const lastPage=shijingModernView({mode:'index',query:audit.id,page:12},index);
   assert.match(lastPage,/第 13／13 頁 · 符合 500 項/);
   assert.equal((lastPage.match(/data-unit-id=/g)||[]).length,20);
   assert.match(lastPage,/yuan2013-0653/);
   assert.match(lastPage,/續批 100 項/);
   assert.match(lastPage,/首批 10 項/);
+});
+
+test('all remaining 1476 items are audited without changing the source OCR',async()=>{
+  const audit=JSON.parse(await readFile(new URL('../public/'+data.ocrAudit.url,import.meta.url),'utf8'));
+  const snapshot=JSON.parse(await readFile(new URL('../scripts/snapshots/shijing-yuan-modern.json',import.meta.url),'utf8'));
+  assert.equal(audit.expectedCount,1476);
+  assert.deepEqual(audit.checks.map(c=>c.unit),Array.from({length:1476},(_,i)=>654+i));
+  assert.equal(audit.checks.flatMap(c=>c.decisions).length,1262);
+  assert.equal(new Set(audit.checks.map(c=>c.poemId)).size,161);
+  for(const unit of index.units) {
+    const original=snapshot.units.find(u=>u.id===unit.id);
+    assert.ok(unit.indexReviewed,unit.id);
+    for(const key of ['candidates','bodyMatch','lemmaOcr','schoolMentions']) assert.deepEqual(unit[key],original[key],`${unit.id}: ${key}`);
+    for(const check of unit.ocrAuditHistory||[unit.ocrAudit].filter(Boolean)) {
+      assert.deepEqual(check.decisions.map(d=>d.ocr),original.candidates.map(c=>c.text));
+      assert.equal(check.pdfPage,check.page+25);
+    }
+  }
+  assert.equal(filterModernIndex(index,{query:audit.id}).length,1476);
+  const last=shijingModernView({mode:'index',query:audit.id,page:36},index);
+  assert.match(last,/第 37／37 頁 · 符合 1476 項/);
+  assert.equal((last.match(/data-unit-id=/g)||[]).length,36);
+  assert.match(last,/yuan2013-2129/);
+});
+
+test('glyph rechecks preserve older decisions and expose unresolved descriptions',async()=>{
+  const batch=data.ocrAudits.find(a=>a.kind==='recheck');
+  const audit=JSON.parse(await readFile(new URL('../public/'+batch.url,import.meta.url),'utf8'));
+  assert.equal(audit.checks.length,91);
+  assert.equal(audit.totals.resolvedPreviousItems,25);
+  const row=n=>data.entries.find(r=>r.id===`modern-yuan-${String(n).padStart(4,'0')}`);
+  assert.ok(!row(521) && !row(552));
+  assert.ok(!row(556).readings.some(r=>r.text==='睘睘'));
+  assert.ok(row(462).readings.filter(r=>['獜獜','鈴鈴','鏻鏻'].includes(r.text)).every(r=>r.base==='令令'));
+  for(const check of audit.checks)for(const glyph of check.glyphs||[]) {
+    const bytes=await readFile(new URL('../public/'+glyph.url,import.meta.url));
+    assert.equal(bytes.subarray(1,4).toString(),'PNG');
+    assert.equal(glyph.pdfPage,glyph.printPage+25);
+    const [x1,y1,x2,y2]=glyph.cropPixels;
+    const [w,h]=glyph.renderPixels;
+    assert.ok(x1>=0 && y1>=0 && x2>x1 && y2>y1 && x2<=w && y2<=h);
+  }
+  assert.equal(filterModernIndex(index,{query:batch.id}).length,91);
+  const rechecked=index.units.find(u=>u.id==='yuan2013-0066');
+  assert.equal(rechecked.ocrAudit.batchId,batch.id);
+  assert.equal(rechecked.ocrAuditHistory[0].batchId,'ocr-check-2026-11-01-100');
+  const html=shijingModernView({mode:'index',query:rechecked.id},index);
+  assert.match(html,/先前核對記錄/);
+  assert.match(html,/雨頭下追形/);
+  for(const id of ['zhou-nan-010','zhou-nan-034']) {
+    const reading=data.entries.find(r=>r.id===id).readings.find(r=>r.glyphStatus);
+    assert.ok(reading.glyphImage);
+    const bytes=await readFile(new URL('../public/'+reading.glyphImage,import.meta.url));
+    assert.equal(bytes.subarray(1,4).toString(),'PNG');
+  }
 });
 
 test('new readings compare the correct character or phrase and preserve non-textual and rejected claims',()=>{
@@ -212,7 +271,7 @@ test('new readings compare the correct character or phrase and preserve non-text
   assert.equal(row(575).readings[0].base,'驖');
   assert.equal(row(610).readings.find(r=>r.text==='鷐').base,'晨');
   assert.equal(row(639).readings[0].text,'晣晣');
-  assert.ok(!row(219) && !row(395) && !row(618));
+  assert.ok(index.units.find(u=>u.id==='yuan2013-0219').ocrAuditHistory.length>1);
   const html=shijingModernView({query:row(625).id});
   assert.match(html,/差 →/);
   assert.match(html,/旦 →/);
@@ -228,7 +287,7 @@ test('all modes and Unicode filters survive share links, reload, and legacy poem
   assert.equal(parseShijingRoute('#shijing-variants/pilot/shijing-001').mode,'pilot');
   assert.equal(parseShijingRoute('#shijing-variants/index?page=-2').page,0);
   assert.match(threeSchoolsLink(corpus[11]),/1 筆已核／1 個索引項/);
-  assert.match(threeSchoolsLink(corpus[160]),/待校/);
+  assert.ok(!threeSchoolsLink(corpus[160]).includes(' · 待校'));
 });
 
 test('the production page distinguishes reviewed, unreviewed, empty, and zero-index states',()=>{
@@ -237,13 +296,13 @@ test('the production page distinguishes reviewed, unreviewed, empty, and zero-in
   const html=shijingModernView({mode:'modern',query:'濆',school:'韓'});
   assert.match(html,/王氏否定/);
   assert.match(html,/PDF 第 216 頁/);
-  assert.match(shijingModernView({mode:'modern',poemId:corpus[160].id}),/本篇尚待逐圖校讀/);
+  assert.ok(!shijingModernView({mode:'modern',poemId:corpus[160].id}).includes('本篇尚待逐圖校讀'));
   const zero=data.poems.find(p=>p.indexItems===0);
   assert.match(shijingModernView({mode:'index',poemId:zero.id},index),/不代表其他版本或三家沒有異文/);
   const work=shijingModernView({mode:'index'},index);
   assert.equal((work.match(/data-unit-id=/g)||[]).length,40);
-  assert.match(work,/全書OCR工作底稿/);
-  assert.match(shijingModernView({mode:'index',scope:'pending'},index),/全部待核/);
+  assert.match(work,/全部索引項已有回查記錄/);
+  assert.match(shijingModernView({mode:'index',scope:'pending'},index),/沒有符合的記錄/);
   const unsafe=structuredClone(index);
   unsafe.units[0].candidates=[{text:'<img src=x onerror=alert(1)>',context:'<script>bad()</script>',printPage:3,pdfPage:28}];
   const escaped=shijingModernView({mode:'index',query:'<script>'},unsafe);

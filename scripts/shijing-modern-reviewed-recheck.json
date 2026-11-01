@@ -1,0 +1,1731 @@
+[
+  {
+    "unit": 164,
+    "poemId": "shijing-038",
+    "lemma": "榛",
+    "page": 57,
+    "baseText": "山有榛",
+    "base": "榛",
+    "readings": [
+      {
+        "text": "蓁",
+        "witness": "《釋文》本亦作、《齊民要術》引詩",
+        "schools": [],
+        "basis": "傳本異文",
+        "note": ""
+      }
+    ],
+    "note": "實看57頁：馬瑞辰所論本字從辛從木，榛與蓁假借之；其確切Unicode尚未核定。屬字學參校，非另一詩本，維持待辨。",
+    "auditId": "ocr-check-2026-11-01-recheck",
+    "continuationPages": []
+  },
+  {
+    "unit": 165,
+    "poemId": "shijing-038",
+    "lemma": "苓",
+    "base": "苓",
+    "baseText": "隰有苓",
+    "page": 57,
+    "readings": [
+      {
+        "text": "蘦",
+        "witness": "袁書明列魯詩、正義及爾雅釋草",
+        "schools": [
+          "魯"
+        ],
+        "basis": "傳本異文",
+        "note": "",
+        "base": "苓"
+      }
+    ],
+    "continuationPages": [
+      58
+    ],
+    "note": "實看57–58頁：魯詩字為艸覆雨下三口（霝聲）的蘦；正義、爾雅同，釋義大苦，不能誤作蓄／蕾或甘草。",
+    "auditId": "ocr-check-2026-11-01-recheck"
+  },
+  {
+    "unit": 179,
+    "poemId": "shijing-042",
+    "lemma": "靜女其姝",
+    "page": 62,
+    "baseText": "靜女其姝",
+    "base": "姝",
+    "readings": [
+      {
+        "text": "袾",
+        "witness": "《說文》引詩；袁氏疑本三家",
+        "schools": [],
+        "basis": "整理本推測",
+        "note": "",
+        "scope": "三家未分"
+      }
+    ],
+    "note": "女殳的古文形在62頁說文引「靜女其〔女殳〕」，與姝、袾音義同；三家歸屬仍是袁書蓋本的推測。女殳字碼未確定，不以妓代錄。袾舊讀可留。",
+    "auditId": "ocr-check-2026-11-01-recheck",
+    "continuationPages": []
+  },
+  {
+    "unit": 181,
+    "poemId": "shijing-042",
+    "lemma": "愛",
+    "page": 62,
+    "baseText": "愛而不見",
+    "base": "愛",
+    "readings": [
+      {
+        "text": "薆",
+        "witness": "《方言》郭注引詩；袁氏歸魯",
+        "schools": [
+          "魯"
+        ],
+        "basis": "傳本異文",
+        "note": ""
+      },
+      {
+        "text": "僾",
+        "witness": "《說文》《禮記》正義及石經引詩；袁氏歸齊",
+        "schools": [
+          "齊"
+        ],
+        "basis": "傳本異文",
+        "note": ""
+      },
+      {
+        "text": "懓",
+        "witness": "玉篇、廣雅；袁書歸魯",
+        "schools": [
+          "魯"
+        ],
+        "basis": "整理本推定",
+        "note": "",
+        "qualification": "字書訓義與袁書歸家，非獨立保存的完整引詩句",
+        "base": "愛"
+      }
+    ],
+    "note": "實看62頁：另一形為心愛之懓（玉篇隱蔽義、廣雅障義），袁書將薆、懓歸魯，僾歸齊。懓之詩家歸屬屬整理者判斷，明列限定。",
+    "auditId": "ocr-check-2026-11-01-recheck",
+    "continuationPages": []
+  },
+  {
+    "unit": 182,
+    "poemId": "shijing-042",
+    "lemma": "踟躕",
+    "page": 62,
+    "baseText": "搔首踟躕",
+    "base": "踟躕",
+    "readings": [
+      {
+        "text": "躊躇",
+        "witness": "《韓詩外傳》及《文選》注引詩",
+        "schools": [
+          "韓"
+        ],
+        "basis": "傳本異文",
+        "note": ""
+      },
+      {
+        "text": "躑躅",
+        "witness": "《韓詩章句》引詩",
+        "schools": [
+          "韓"
+        ],
+        "basis": "傳本異文",
+        "note": ""
+      },
+      {
+        "text": "歭䠧",
+        "base": "踟躕",
+        "witness": "說文繫傳引詩",
+        "schools": [],
+        "basis": "傳本異文",
+        "note": "",
+        "qualification": "經主核者放大原圖並以BabelStone字型覆判：止寺之歭、足屠之䠧"
+      }
+    ],
+    "note": "實看62–63頁後經主核者放大PDF88、以BabelStone字型覆判，繫傳應作歭䠧：首字止寺（非足寺之跱）、次字足屠（非足居之踞）。此兩字可清pending，保留原字圖。",
+    "auditId": "ocr-check-2026-11-01-recheck",
+    "continuationPages": [
+      63
+    ]
+  },
+  {
+    "unit": 188,
+    "poemId": "shijing-043",
+    "lemma": "燕婉",
+    "page": 64,
+    "baseText": "燕婉之求",
+    "base": "燕婉",
+    "readings": [
+      {
+        "text": "嬿婉",
+        "witness": "袁書列魯韓，並引類書引詩",
+        "schools": [
+          "魯",
+          "韓"
+        ],
+        "basis": "傳本異文",
+        "note": ""
+      },
+      {
+        "text": "䁙婉",
+        "witness": "袁書明列齊詩、說文目部引詩",
+        "schools": [
+          "齊"
+        ],
+        "basis": "傳本異文",
+        "note": "",
+        "base": "燕婉"
+      }
+    ],
+    "note": "實看64頁：齊詩從目晏聲的字為䁙，說文目部引䁙婉之求；燕、嬿、䁙同為宴之假。",
+    "auditId": "ocr-check-2026-11-01-recheck",
+    "continuationPages": []
+  },
+  {
+    "unit": 189,
+    "poemId": "shijing-043",
+    "lemma": "洒",
+    "page": 64,
+    "baseText": "新臺有洒",
+    "base": "洒",
+    "readings": [
+      {
+        "text": "漼",
+        "witness": "《釋文》明列韓詩",
+        "schools": [
+          "韓"
+        ],
+        "basis": "傳本異文",
+        "note": ""
+      }
+    ],
+    "note": "實看64–65頁：韓詩漼有釋文明列可留；繫傳新義之水旁字及所引「新臺有〔水旁字〕」尚不確定Unicode，其右部上白下夲類，勿拿常見澤直接猜配。其餘洗、淬僅所舉他文。",
+    "auditId": "ocr-check-2026-11-01-recheck",
+    "continuationPages": [
+      65
+    ]
+  },
+  {
+    "unit": 197,
+    "poemId": "shijing-045",
+    "lemma": "髧",
+    "page": 68,
+    "baseText": "髧彼兩髦",
+    "base": "髧",
+    "readings": [
+      {
+        "text": "紞",
+        "witness": "袁書列齊韓；說文引詩",
+        "schools": [
+          "齊",
+          "韓"
+        ],
+        "basis": "傳本異文",
+        "note": ""
+      }
+    ],
+    "note": "實看68頁：釋文及考文古本亻旁字確與髧、紞不同，但右部近尤／元，掃描仍不足定碼。紞原有齊韓歸屬保留，亻旁字續待辨。",
+    "auditId": "ocr-check-2026-11-01-recheck",
+    "continuationPages": []
+  },
+  {
+    "unit": 249,
+    "poemId": "shijing-054",
+    "lemma": "言采其蝱",
+    "page": 83,
+    "baseText": "言采其蝱",
+    "base": "蝱",
+    "readings": [
+      {
+        "text": "虻",
+        "witness": "《太平御覽》《易林》引字",
+        "schools": [],
+        "basis": "傳本異文",
+        "note": ""
+      },
+      {
+        "text": "莔",
+        "witness": "袁書明列魯詩、淮南子氾論高注及說文繫傳引詩",
+        "schools": [
+          "魯"
+        ],
+        "basis": "傳本異文",
+        "note": "",
+        "base": "蝱"
+      }
+    ],
+    "note": "實看83頁全段：魯詩字為莔（艸下囧），說文明說貝母、從艸明省聲；淮南子注及繫傳有完整引詩。",
+    "auditId": "ocr-check-2026-11-01-recheck",
+    "continuationPages": []
+  },
+  {
+    "unit": 254,
+    "poemId": "shijing-055",
+    "lemma": "有匪君子",
+    "page": 87,
+    "baseText": "有匪君子",
+    "base": "匪",
+    "readings": [
+      {
+        "text": "斐",
+        "witness": "袁書列魯齊，禮記等引詩",
+        "schools": [
+          "魯",
+          "齊"
+        ],
+        "basis": "傳本異文",
+        "note": ""
+      }
+    ],
+    "note": "實看87–88頁：韓詩字右阝、左部近必，先前描述為分下刀不確；精確形碼仍待核，不擅以邲等近形配碼。斐的魯齊見證保留，原字另附圖。",
+    "auditId": "ocr-check-2026-11-01-recheck",
+    "continuationPages": [
+      88
+    ]
+  },
+  {
+    "unit": 255,
+    "poemId": "shijing-055",
+    "lemma": "如切如磋",
+    "page": 88,
+    "baseText": "如切如磋",
+    "base": "磋",
+    "readings": [
+      {
+        "text": "瑳",
+        "witness": "袁書列三家，毛本異本及諸書引詩",
+        "schools": [],
+        "basis": "整理本轉引",
+        "note": "",
+        "scope": "三家未分"
+      }
+    ],
+    "note": "實看88頁：魯詩切字作齒旁，右部屑類，說文釋齒差、讀若切。此齒部罕字未定碼，不能以翻或同音常字補；瑳的已知證據保留。",
+    "auditId": "ocr-check-2026-11-01-recheck",
+    "continuationPages": []
+  },
+  {
+    "unit": 259,
+    "poemId": "shijing-055",
+    "lemma": "琇",
+    "page": 90,
+    "baseText": "充耳琇瑩",
+    "base": "琇",
+    "readings": [
+      {
+        "text": "秀",
+        "witness": "《廣韻·十一尤》引詩",
+        "schools": [],
+        "basis": "傳本異文",
+        "note": ""
+      },
+      {
+        "text": "璓",
+        "witness": "袁書三家合稱、說文引詩",
+        "schools": [],
+        "basis": "傳本異文",
+        "note": "",
+        "qualification": "未分魯齊韓",
+        "base": "琇",
+        "scope": "三家未分"
+      }
+    ],
+    "note": "實看90頁：三家字為璓，玉旁、右部莠形（艸下秀）；說文釋石之次玉、引充耳璓瑩。廣韻又省作秀。三家合稱不分家。",
+    "auditId": "ocr-check-2026-11-01-recheck",
+    "continuationPages": []
+  },
+  {
+    "unit": 268,
+    "poemId": "shijing-057",
+    "lemma": "譚公維私",
+    "page": 94,
+    "baseText": "譚公維私",
+    "base": "譚公維私",
+    "readings": [
+      {
+        "text": "覃公維私",
+        "witness": "袁書列魯詩及白虎通等引詩",
+        "schools": [
+          "魯"
+        ],
+        "basis": "傳本異文",
+        "note": ""
+      },
+      {
+        "text": "譚公維厶",
+        "witness": "袁書列齊韓；說文繫傳引詩",
+        "schools": [
+          "齊",
+          "韓"
+        ],
+        "basis": "傳本異文",
+        "note": ""
+      }
+    ],
+    "note": "實看94頁：覃公與厶已有明引；古文譚之阝旁形仍未定碼，屬字學參校，非另一詩本，維持待辨。",
+    "auditId": "ocr-check-2026-11-01-recheck",
+    "continuationPages": []
+  },
+  {
+    "unit": 269,
+    "poemId": "shijing-057",
+    "lemma": "蝤蠐",
+    "base": "蝤蠐",
+    "baseText": "領如蝤蠐",
+    "page": 94,
+    "readings": [
+      {
+        "text": "螬蠐",
+        "witness": "袁書明列魯詩、蔡邕青衣賦",
+        "schools": [
+          "魯"
+        ],
+        "basis": "傳本異文",
+        "note": "",
+        "base": "蝤蠐"
+      }
+    ],
+    "continuationPages": [
+      95
+    ],
+    "note": "實看94–95頁：魯詩蝤作螬（虫曹），蔡邕青衣賦領如螬蠐亦據之。爾雅區分糞土與木中種類為訓義；不影響螬字可辨。",
+    "auditId": "ocr-check-2026-11-01-recheck"
+  },
+  {
+    "unit": 271,
+    "poemId": "shijing-057",
+    "lemma": "螓首蛾眉",
+    "page": 95,
+    "baseText": "螓首蛾眉",
+    "base": "蛾眉",
+    "readings": [
+      {
+        "text": "娥眉",
+        "witness": "袁書列三家；所引楚辭王注等",
+        "schools": [],
+        "basis": "整理本轉引",
+        "note": "",
+        "scope": "三家未分"
+      }
+    ],
+    "note": "實看95頁全段：三家螓首的異字從頁爭聲、釋好貌，不是穎。頁爭之Unicode仍未定；娥眉舊條可留。",
+    "auditId": "ocr-check-2026-11-01-recheck",
+    "continuationPages": []
+  },
+  {
+    "unit": 274,
+    "poemId": "shijing-057",
+    "lemma": "說",
+    "page": 96,
+    "baseText": "說于農郊",
+    "base": "說",
+    "readings": [
+      {
+        "text": "稅",
+        "witness": "袁書列魯詩，釋文及文選注引詩",
+        "schools": [
+          "魯"
+        ],
+        "basis": "傳本異文",
+        "note": ""
+      },
+      {
+        "text": "襚",
+        "witness": "鄭箋、曾釗及馬瑞辰校說",
+        "schools": [],
+        "basis": "本字說",
+        "note": "",
+        "qualification": "鄭箋改字說，非獨立傳本",
+        "base": "說"
+      }
+    ],
+    "note": "實看96頁整段：衣旁字為襚，鄭箋「說當作襚」與「易服曰襚」皆注文校字。可作本字說收錄，不能列為另一詩家經文。",
+    "auditId": "ocr-check-2026-11-01-recheck",
+    "continuationPages": []
+  },
+  {
+    "unit": 276,
+    "poemId": "shijing-057",
+    "lemma": "鑣鑣",
+    "page": 96,
+    "baseText": "朱幩鑣鑣",
+    "base": "鑣鑣",
+    "readings": [
+      {
+        "text": "儦儦",
+        "witness": "袁書列韓詩；玉篇引詩",
+        "schools": [
+          "韓"
+        ],
+        "basis": "傳本異文",
+        "note": ""
+      }
+    ],
+    "note": "實看96–97頁：金鹿為鑣、人鹿為儦，原有儦儦已可定；說文、廣雅行貌與盛貌的差異屬訓義，無另罕字需待編碼，可清除pending。",
+    "auditId": "ocr-check-2026-11-01-recheck",
+    "continuationPages": [
+      97
+    ]
+  },
+  {
+    "unit": 279,
+    "poemId": "shijing-057",
+    "lemma": "活活",
+    "base": "活活",
+    "baseText": "北流活活",
+    "page": 97,
+    "readings": [
+      {
+        "text": "涽涽",
+        "witness": "說文繫傳引詩",
+        "schools": [],
+        "basis": "傳本異文",
+        "note": "",
+        "base": "活活"
+      }
+    ],
+    "continuationPages": [],
+    "note": "實看97頁：繫傳引北流涽涽，水昏之涽（昏聲），不同於水舌之活。",
+    "auditId": "ocr-check-2026-11-01-recheck"
+  },
+  {
+    "unit": 280,
+    "poemId": "shijing-057",
+    "lemma": "罛",
+    "page": 97,
+    "baseText": "施罛濊濊",
+    "base": "罛",
+    "readings": [
+      {
+        "text": "罟",
+        "witness": "袁書明列魯詩、說文及淮南子說山、呂氏春秋上農高注引詩",
+        "schools": [
+          "魯"
+        ],
+        "basis": "傳本異文",
+        "note": "",
+        "base": "罛"
+      }
+    ],
+    "note": "實看97頁：魯詩明列罟（网古），說文引施罟濊濊，淮南子說山、呂氏春秋上農高注同；本站罛（网瓜）。可補正原有罟的家別為魯，形碼無懸疑。",
+    "auditId": "ocr-check-2026-11-01-recheck",
+    "continuationPages": []
+  },
+  {
+    "unit": 286,
+    "poemId": "shijing-058",
+    "lemma": "愆",
+    "base": "愆",
+    "baseText": "匪我愆期",
+    "page": 100,
+    "readings": [
+      {
+        "text": "諐",
+        "witness": "釋文又作、說文籀文",
+        "schools": [],
+        "basis": "傳本異文",
+        "note": "",
+        "base": "愆"
+      }
+    ],
+    "continuationPages": [],
+    "note": "實看100頁：釋文又作諐，說文標諐為愆之籀文，言在下的諐形可辨；與本站心行之愆分開。",
+    "auditId": "ocr-check-2026-11-01-recheck"
+  },
+  {
+    "unit": 291,
+    "poemId": "shijing-058",
+    "lemma": "耽",
+    "page": 101,
+    "baseText": "無與士耽",
+    "base": "耽",
+    "readings": [
+      {
+        "text": "妉",
+        "witness": "爾雅釋詁及邢疏引詩",
+        "schools": [],
+        "basis": "傳本異文",
+        "note": ""
+      }
+    ],
+    "note": "實看101頁：原姚所誤是媅（女甚），說文及一切經音義引其為字學；爾雅、邢疏引本詩仍是妉（女冘）。妉已存，媅可辨但未增作獨立經文，清除pending。",
+    "auditId": "ocr-check-2026-11-01-recheck",
+    "continuationPages": []
+  },
+  {
+    "unit": 292,
+    "poemId": "shijing-058",
+    "lemma": "帷",
+    "page": 101,
+    "baseText": "漸車帷裳",
+    "base": "帷",
+    "readings": [
+      {
+        "text": "惟",
+        "witness": "南宋石經",
+        "schools": [],
+        "basis": "傳本異文",
+        "note": "",
+        "qualification": "原書判形近致訛"
+      }
+    ],
+    "note": "實看101頁：三種古形中有匚部古文及巾章／巾韋差異；各禮疏引漸車之巾旁字需再精確對碼，惟是石經形近訛字已有記載，不足解決全部形體。",
+    "auditId": "ocr-check-2026-11-01-recheck",
+    "continuationPages": []
+  },
+  {
+    "unit": 304,
+    "poemId": "shijing-060",
+    "lemma": "悸",
+    "page": 104,
+    "baseText": "垂帶悸兮",
+    "base": "悸",
+    "readings": [
+      {
+        "text": "萃",
+        "witness": "釋文明列韓詩",
+        "schools": [
+          "韓"
+        ],
+        "basis": "傳本異文",
+        "note": ""
+      },
+      {
+        "text": "繠",
+        "witness": "袁梅據馬瑞辰及說文所取本字",
+        "schools": [],
+        "basis": "本字說",
+        "note": "",
+        "qualification": "垂貌的本字推定；非韓詩另有明引經字",
+        "base": "悸"
+      },
+      {
+        "text": "橤",
+        "witness": "集韻所記繠的木部異體",
+        "schools": [],
+        "basis": "字學說明",
+        "note": "",
+        "qualification": "字學參校，非另一詩本",
+        "base": "悸"
+      }
+    ],
+    "note": "印105正文的本字為三心下糸的繠；集韻另記從木作橤。悸、萃是假借的說法須與韓詩直接作萃分層。原待辨兩種形碼均可辨明。",
+    "auditId": "ocr-check-2026-11-01-recheck",
+    "continuationPages": [
+      105
+    ]
+  },
+  {
+    "unit": 309,
+    "poemId": "shijing-061",
+    "lemma": "刀",
+    "page": 107,
+    "baseText": "曾不容刀",
+    "base": "刀",
+    "readings": [
+      {
+        "text": "舠",
+        "witness": "太平御覽引詩及字書所記",
+        "schools": [],
+        "basis": "傳本異文",
+        "note": ""
+      }
+    ],
+    "note": "舠有御覽引詩實據。另有舟旁、右部周形的小船字及相倒異體，原書稱今說文脫字；不能把舟周形直接當舠，也不憑小船義補碼。",
+    "auditId": "ocr-check-2026-11-01-recheck",
+    "continuationPages": []
+  },
+  {
+    "unit": 312,
+    "poemId": "shijing-062",
+    "lemma": "諼",
+    "page": 107,
+    "baseText": "焉得諼草",
+    "base": "諼",
+    "readings": [
+      {
+        "text": "萱",
+        "witness": "初學記、白帖引詩",
+        "schools": [],
+        "basis": "傳本異文",
+        "note": ""
+      },
+      {
+        "text": "諠",
+        "witness": "文選注明引韓詩",
+        "schools": [
+          "韓"
+        ],
+        "basis": "傳本異文",
+        "note": ""
+      },
+      {
+        "text": "藼",
+        "witness": "袁氏據說文所取正字",
+        "schools": [],
+        "basis": "本字說",
+        "note": "",
+        "qualification": "本字推定"
+      },
+      {
+        "text": "蕿",
+        "witness": "文選阮籍詠懷詩注、吳淑事類賦引詩",
+        "schools": [],
+        "basis": "傳本異文",
+        "note": "",
+        "qualification": "所引作焉得蕿草；未明分三家",
+        "base": "諼"
+      },
+      {
+        "text": "萲",
+        "witness": "王應麟詩攷引釋文爾雅音義引詩",
+        "schools": [],
+        "basis": "傳本異文",
+        "note": "",
+        "qualification": "艸下爰形；與說文从煖的蕿分開",
+        "base": "諼"
+      }
+    ],
+    "note": "印108可分清藼（憲聲）、蕿（从煖）、萱（宣聲）、萲（爰形）與諠。新補蕿與萲均有引詩位置；說文重文與正字推說保留其字學資格。原待辨艸旁形碼已辨明。",
+    "auditId": "ocr-check-2026-11-01-recheck",
+    "continuationPages": [
+      108
+    ]
+  },
+  {
+    "unit": 326,
+    "poemId": "shijing-066",
+    "lemma": "佸",
+    "page": 112,
+    "baseText": "曷其有佸",
+    "base": "佸",
+    "readings": [
+      {
+        "text": "括",
+        "witness": "廣雅所記同音字",
+        "schools": [],
+        "basis": "字學說明",
+        "note": "",
+        "qualification": "他書字形比較"
+      }
+    ],
+    "note": "說文的會也、从人昏聲古形及引詩位置俱在；韓詩至也是訓義，不能另外造一經字。括保留字學比較，古形仍待辨碼。",
+    "auditId": "ocr-check-2026-11-01-recheck",
+    "continuationPages": [
+      113
+    ]
+  },
+  {
+    "unit": 349,
+    "poemId": "shijing-073",
+    "lemma": "璊",
+    "base": "璊",
+    "baseText": "毳衣如璊",
+    "page": 119,
+    "readings": [
+      {
+        "text": "黂",
+        "witness": "韓詩及內傳所記",
+        "schools": [
+          "韓"
+        ],
+        "basis": "傳本異文",
+        "note": "",
+        "qualification": "內傳訓異色之衣；與魯齊的另一㒼聲形分開",
+        "base": "璊"
+      }
+    ],
+    "continuationPages": [],
+    "note": "韓詩麻下賁的黂可辨。魯齊字與說文从毛㒼聲的赤苗字另需核配字碼；原頁形體不能因禾之赤苗的訓語便替換成穈。",
+    "auditId": "ocr-check-2026-11-01-recheck"
+  },
+  {
+    "unit": 384,
+    "poemId": "shijing-081",
+    "lemma": "摻",
+    "page": 129,
+    "baseText": "摻執子之袪兮",
+    "base": "摻",
+    "readings": [
+      {
+        "text": "操",
+        "witness": "馬瑞辰及袁氏所取本字",
+        "schools": [],
+        "basis": "本字說",
+        "note": ""
+      },
+      {
+        "text": "攬",
+        "witness": "文選宋玉登徒子好色賦釋詩語",
+        "schools": [],
+        "basis": "後世用詩",
+        "note": "",
+        "qualification": "所釋攬子袪；李善注真正引詩仍作摻，不當作三家傳本",
+        "base": "摻"
+      }
+    ],
+    "note": "印130開頭作攬子袪，並明說攬俗擥字；可補攬為後世釋詩語。擥、操、摻的本字說均能辨明，原待辨字碼已明。",
+    "auditId": "ocr-check-2026-11-01-recheck",
+    "continuationPages": [
+      130
+    ]
+  },
+  {
+    "unit": 395,
+    "poemId": "shijing-085",
+    "lemma": "蘀",
+    "base": "蘀",
+    "baseText": "蘀兮蘀兮",
+    "page": 133,
+    "readings": [
+      {
+        "text": "籜",
+        "witness": "列女傳魯公乘姒引詩",
+        "schools": [],
+        "basis": "傳本異文",
+        "note": "",
+        "qualification": "所引籜兮籜兮；篇名魯公不是魯詩家別證據",
+        "base": "蘀"
+      }
+    ],
+    "continuationPages": [],
+    "note": "列女傳竹頭擇聲的籜可以辨定；另說文木葉陊也、从艸包聲的重文形碼未定，故本條仍pending。原書判籜為蘀的隸變之體。",
+    "auditId": "ocr-check-2026-11-01-recheck"
+  },
+  {
+    "unit": 399,
+    "poemId": "shijing-087",
+    "lemma": "褰裳涉溱",
+    "page": 134,
+    "baseText": "褰裳涉溱",
+    "base": "褰裳涉溱",
+    "readings": [
+      {
+        "text": "騫裳涉溱",
+        "witness": "釋文本或作、文選注引毛詩",
+        "schools": [],
+        "basis": "傳本異文",
+        "note": ""
+      },
+      {
+        "text": "搴",
+        "witness": "漢碑所引褰裳涉洧",
+        "schools": [],
+        "basis": "傳本異文",
+        "note": "",
+        "qualification": "原書未於此指明碑名；只補單字對應，不拼接繫傳引句",
+        "base": "褰"
+      },
+      {
+        "text": "潧",
+        "witness": "袁梅據馬瑞辰、說文所取溱的本字",
+        "schools": [],
+        "basis": "本字說",
+        "note": "",
+        "qualification": "字學參校，非此句另一詩本；所引說文詩句出溱洧",
+        "base": "溱"
+      }
+    ],
+    "note": "繫傳手旁引句、漢碑搴及水部潧須分開，不能混造一條整句。搴（下手）與潧（水曾）可辨；繫傳手旁字的右部仍待核碼。",
+    "auditId": "ocr-check-2026-11-01-recheck",
+    "continuationPages": [
+      135
+    ]
+  },
+  {
+    "unit": 411,
+    "poemId": "shijing-091",
+    "lemma": "衿",
+    "page": 138,
+    "base": "衿",
+    "baseText": "青青子衿",
+    "readings": [
+      {
+        "text": "襟",
+        "witness": "釋文本亦作",
+        "schools": [],
+        "basis": "傳本異文",
+        "note": ""
+      },
+      {
+        "text": "䘳",
+        "witness": "漢石經、明豐坊詩傳及詩說",
+        "schools": [],
+        "basis": "傳本異文",
+        "note": "",
+        "qualification": "衤金形；說文交衽也亦用此字，不是衤令的袊或衤合的袷",
+        "base": "衿"
+      }
+    ],
+    "note": "漢石經與豐坊字右部為金，能定作䘳；說文䘳交衽也、衽衣䘳也及未收衿襟的上下文相合。襟另本保持原資格；原待辨位置形碼已明。",
+    "auditId": "ocr-check-2026-11-01-recheck",
+    "continuationPages": [
+      139
+    ]
+  },
+  {
+    "unit": 415,
+    "poemId": "shijing-091",
+    "lemma": "挑兮達兮",
+    "page": 139,
+    "baseText": "挑兮達兮",
+    "base": "挑兮達兮",
+    "readings": [
+      {
+        "text": "挑兮逹兮",
+        "witness": "初學記、說文繫傳引詩",
+        "schools": [],
+        "basis": "傳本異文",
+        "note": ""
+      },
+      {
+        "text": "挑兮撻兮",
+        "witness": "太平御覽引詩",
+        "schools": [],
+        "basis": "傳本異文",
+        "note": ""
+      }
+    ],
+    "note": "又部古字與足部逹形分明，但又部上止下又形仍未核配碼。御覽撻、初學記及繫傳逹可維持，不能把古字直接作支，亦不依本字說自動分魯齊韓。",
+    "auditId": "ocr-check-2026-11-01-recheck",
+    "continuationPages": [
+      140
+    ]
+  },
+  {
+    "unit": 421,
+    "poemId": "shijing-094",
+    "lemma": "零露漙兮",
+    "page": 143,
+    "baseText": "零露漙兮",
+    "base": "零露漙兮",
+    "readings": [
+      {
+        "text": "靈",
+        "witness": "馬瑞辰據正義所論古經用字",
+        "schools": [],
+        "basis": "校勘推說",
+        "note": "",
+        "base": "零"
+      },
+      {
+        "text": "團",
+        "witness": "釋文本亦作、藝文類聚及文選注引詩",
+        "schools": [],
+        "basis": "傳本異文",
+        "note": "",
+        "base": "漙"
+      },
+      {
+        "text": "霝",
+        "witness": "袁梅據說文、玉篇及馬瑞辰所取本字",
+        "schools": [],
+        "basis": "本字說",
+        "note": "",
+        "qualification": "字學參校，非直接傳本異文；雨下三口形",
+        "base": "零"
+      },
+      {
+        "text": "專",
+        "witness": "顏師古匡謬正俗所記古本",
+        "schools": [],
+        "basis": "傳本異文",
+        "note": "",
+        "qualification": "明記亦有單作專者；家別未明，不以後世用詩自動分三家",
+        "base": "漙"
+      }
+    ],
+    "note": "零的雨下三口本字可定霝；顏氏記古本單作專亦可補。字林、玉篇的雨部專聲相關形仍未定碼，不能把OCR霉、赛當經字。",
+    "auditId": "ocr-check-2026-11-01-recheck",
+    "continuationPages": []
+  },
+  {
+    "unit": 422,
+    "poemId": "shijing-094",
+    "lemma": "清揚婉兮",
+    "page": 144,
+    "baseText": "清揚婉兮",
+    "base": "清揚婉兮",
+    "readings": [
+      {
+        "text": "清陽婉兮",
+        "witness": "初學記引韓詩外傳",
+        "schools": [
+          "韓"
+        ],
+        "basis": "傳本異文",
+        "note": ""
+      },
+      {
+        "text": "青陽宛兮",
+        "witness": "王氏詩攷所引韓詩外傳",
+        "schools": [
+          "韓"
+        ],
+        "basis": "傳本異文",
+        "note": ""
+      },
+      {
+        "text": "清揚宛兮",
+        "witness": "家語致思引詩",
+        "schools": [],
+        "basis": "傳本異文",
+        "note": ""
+      }
+    ],
+    "note": "玉篇、集韻的字左部是面形，右部宛；原先稱目旁應更正，不能作睕，也不是醜。韓詩引句確有此面宛形，但其精確字碼仍待核。",
+    "auditId": "ocr-check-2026-11-01-recheck",
+    "continuationPages": []
+  },
+  {
+    "unit": 439,
+    "poemId": "shijing-097",
+    "lemma": "峱",
+    "base": "峱",
+    "baseText": "遭我乎峱之間兮",
+    "page": 150,
+    "readings": [
+      {
+        "text": "嶩",
+        "witness": "崔集注本、漢書地理志引詩",
+        "schools": [],
+        "basis": "傳本異文",
+        "note": "",
+        "qualification": "山農形；漢書齊詩一語原書辨為齊國風，不能據此分齊家",
+        "base": "峱"
+      },
+      {
+        "text": "猱",
+        "witness": "太平御覽二十一引詩",
+        "schools": [],
+        "basis": "傳本異文",
+        "note": "",
+        "qualification": "犬夒形；與顏師古山旁另形分開",
+        "base": "峱"
+      }
+    ],
+    "continuationPages": [
+      151
+    ],
+    "note": "漢書、崔本的嶩及御覽猱可以辨。顏注亦作的山旁夒形仍需精確核碼，不以巎或近形擅配。",
+    "auditId": "ocr-check-2026-11-01-recheck"
+  },
+  {
+    "unit": 453,
+    "poemId": "shijing-101",
+    "lemma": "畝",
+    "base": "畝",
+    "baseText": "衡從其畝",
+    "page": 156,
+    "readings": [
+      {
+        "text": "畮",
+        "witness": "說文田部所記",
+        "schools": [],
+        "basis": "字學說明",
+        "note": "",
+        "qualification": "田每形；字學參校，非另一詩本",
+        "base": "畝"
+      },
+      {
+        "text": "畞",
+        "witness": "說文田部所記重文",
+        "schools": [],
+        "basis": "字學說明",
+        "note": "",
+        "qualification": "从田十久；字學參校，非另一詩本",
+        "base": "畝"
+      }
+    ],
+    "continuationPages": [],
+    "note": "說文從田每的畮、從田十久的畞可以辨，並列古文。唐石經隸省與毛本不體形仍有局部筆勢差，未僅以常見畝替代其形碼。",
+    "auditId": "ocr-check-2026-11-01-recheck"
+  },
+  {
+    "unit": 462,
+    "poemId": "shijing-103",
+    "lemma": "盧令令",
+    "page": 158,
+    "baseText": "盧令令",
+    "base": "盧令令",
+    "readings": [
+      {
+        "text": "獜獜",
+        "witness": "說文犬部引詩",
+        "schools": [],
+        "basis": "傳本異文",
+        "note": "",
+        "scope": "三家未分",
+        "base": "令令"
+      },
+      {
+        "text": "盧冷冷",
+        "witness": "董逌詩故、王應麟詩攷引韓詩",
+        "schools": [
+          "韓"
+        ],
+        "basis": "傳本異文",
+        "note": ""
+      },
+      {
+        "text": "鈴鈴",
+        "witness": "廣雅釋訓",
+        "schools": [],
+        "basis": "傳本異文",
+        "note": "",
+        "base": "令令"
+      },
+      {
+        "text": "盧重令",
+        "witness": "白帖引詩",
+        "schools": [],
+        "basis": "傳本異文",
+        "note": "",
+        "qualification": "袁氏判涉下章句式誤改"
+      },
+      {
+        "text": "鏻鏻",
+        "witness": "陳喬樅據玉篇補足引詩脫文",
+        "schools": [],
+        "basis": "校勘推說",
+        "note": "",
+        "qualification": "陳氏提出玉篇當引盧鏻鏻，非現存玉篇已完整如此；原書稱玉篇本三家，未分家",
+        "base": "令令",
+        "scope": "三家未分"
+      }
+    ],
+    "note": "犬粦獜、金粦鏻、鈴、冷均可分辨。原候選磷辚與僯猪是犬金部的誤識，無另一未定字。補鏻鏻時只對應令令，不能把二字讀法覆蓋整句盧令令。",
+    "auditId": "ocr-check-2026-11-01-recheck",
+    "continuationPages": []
+  },
+  {
+    "unit": 466,
+    "poemId": "shijing-104",
+    "lemma": "鰥",
+    "base": "鰥",
+    "baseText": "其魚魴鰥",
+    "page": 160,
+    "readings": [
+      {
+        "text": "鯤",
+        "witness": "太平御覽九百四十引詩",
+        "schools": [],
+        "basis": "傳本異文",
+        "note": "",
+        "qualification": "所引其魚魴鯤；爾雅魚子也及王引之、馬瑞辰辨說是相關字學證據",
+        "base": "鰥"
+      }
+    ],
+    "continuationPages": [],
+    "note": "御覽所引魚昆的鯤可辨，故補實引。馬瑞辰、李陽冰所論从古昆形及隸省鰥的中間古形仍未定碼，不能因鯤已明就刪除此字學待辨。",
+    "auditId": "ocr-check-2026-11-01-recheck"
+  },
+  {
+    "unit": 467,
+    "poemId": "shijing-104",
+    "lemma": "唯唯",
+    "page": 160,
+    "baseText": "其魚唯唯",
+    "base": "唯唯",
+    "readings": [
+      {
+        "text": "遺遺",
+        "witness": "釋文所記韓詩",
+        "schools": [
+          "韓"
+        ],
+        "basis": "傳本異文",
+        "note": ""
+      },
+      {
+        "text": "瀢瀢",
+        "witness": "袁梅據玉篇、廣韻所取本字",
+        "schools": [],
+        "basis": "本字說",
+        "note": "",
+        "qualification": "氵遺形，訓魚行相隨、魚盛貌；字學參校，非韓詩直接引字",
+        "base": "唯唯"
+      }
+    ],
+    "note": "水旁遺聲可定為瀢。韓詩明引仍只作遺遺；以瀢瀢為正字、遺為省文是原書的本字說，不能倒記成韓詩瀢瀢。原待辨字碼已明。",
+    "auditId": "ocr-check-2026-11-01-recheck",
+    "continuationPages": []
+  },
+  {
+    "unit": 470,
+    "poemId": "shijing-105",
+    "lemma": "濔濔",
+    "base": "濔濔",
+    "baseText": "垂轡濔濔",
+    "page": 161,
+    "readings": [
+      {
+        "text": "爾爾",
+        "witness": "釋文所出字",
+        "schools": [],
+        "basis": "傳本異文",
+        "note": "",
+        "qualification": "本亦作濔濔；陳奐、袁梅以為水旁後增，未明三家家別",
+        "base": "濔濔"
+      }
+    ],
+    "continuationPages": [],
+    "note": "釋文所出爾爾與本亦作濔濔可分，故補爾爾。括注另形及說文㸚部構形的省寫，仍未全部配碼；這些字學位置不能因不作經文便刪除待辨。",
+    "auditId": "ocr-check-2026-11-01-recheck"
+  },
+  {
+    "unit": 471,
+    "poemId": "shijing-105",
+    "lemma": "豈弟",
+    "base": "豈弟",
+    "baseText": "齊子豈弟",
+    "page": 161,
+    "readings": [
+      {
+        "text": "愷悌",
+        "witness": "定本、正義本、山井鼎所記日本古本及爾雅郭注引詩",
+        "schools": [],
+        "basis": "傳本異文",
+        "note": "",
+        "base": "豈弟"
+      },
+      {
+        "text": "闓圛",
+        "witness": "陳喬樅據鄭箋、爾雅所擬魯詩",
+        "schools": [
+          "魯"
+        ],
+        "basis": "輯佚推定",
+        "note": "",
+        "qualification": "原文明言疑魯詩文當爲齊子闓圛；是輯佚推定，非現存魯詩直接引文",
+        "base": "豈弟"
+      }
+    ],
+    "continuationPages": [
+      162
+    ],
+    "note": "門豈的闓、囗睪的圛及愷悌均可辨碼。鄭箋是讀字說，陳喬樅據此擬魯詩闓圛；須與定本等實作愷悌分開。前後兩頁相關形碼已辨明。",
+    "auditId": "ocr-check-2026-11-01-recheck"
+  },
+  {
+    "unit": 472,
+    "poemId": "shijing-106",
+    "lemma": "猗",
+    "base": "猗",
+    "baseText": "猗嗟昌兮",
+    "page": 162,
+    "readings": [
+      {
+        "text": "欹",
+        "witness": "釋文字或作",
+        "schools": [],
+        "basis": "傳本異文",
+        "note": "",
+        "qualification": "奇欠形；與字書攲、敧分開",
+        "base": "猗"
+      },
+      {
+        "text": "攲",
+        "witness": "說文持去也的字學比較",
+        "schools": [],
+        "basis": "字學說明",
+        "note": "",
+        "qualification": "奇支形；字學參校，非另一詩本",
+        "base": "猗"
+      },
+      {
+        "text": "敧",
+        "witness": "說文古字及一切經音義所記的字學比較",
+        "schools": [],
+        "basis": "字學說明",
+        "note": "",
+        "qualification": "奇攴形；字學參校，非另一詩本",
+        "base": "猗"
+      }
+    ],
+    "continuationPages": [
+      163
+    ],
+    "note": "釋文或作是奇欠的欹。說文持去也從支作攲，另攴旁作敧；本義傾側等並非詩句歎辭義。舊態及整串敲隁都是誤識，三種形碼已分明。",
+    "auditId": "ocr-check-2026-11-01-recheck"
+  },
+  {
+    "unit": 483,
+    "poemId": "shijing-107",
+    "lemma": "好人提提",
+    "page": 165,
+    "baseText": "好人提提",
+    "base": "好人提提",
+    "readings": [
+      {
+        "text": "好人媞媞",
+        "witness": "爾雅邢疏、楚辭王逸注引詩",
+        "schools": [],
+        "basis": "輯佚推定",
+        "note": "",
+        "qualification": "袁氏蓋魯詩說"
+      },
+      {
+        "text": "好人褆褆",
+        "witness": "白帖、說文繫傳引詩",
+        "schools": [],
+        "basis": "傳本異文",
+        "note": ""
+      },
+      {
+        "text": "好人姼姼",
+        "witness": "王應麟詩攷補遺引爾雅音義引詩",
+        "schools": [],
+        "basis": "傳本異文",
+        "note": "",
+        "qualification": "女多形；未明分三家。袁氏蓋魯詩之說直接針對媞媞，不擴到每一形",
+        "base": "好人提提"
+      }
+    ],
+    "note": "女多的姼有引詩可補；另說文姼或从氏的女氏異體仍未配碼，故保持待辨。媞媞、褆褆兩條不受此未知碼影響。",
+    "auditId": "ocr-check-2026-11-01-recheck",
+    "continuationPages": []
+  },
+  {
+    "unit": 516,
+    "poemId": "shijing-113",
+    "lemma": "無食我黍",
+    "base": "無",
+    "baseText": "無食我黍",
+    "page": 176,
+    "readings": [
+      {
+        "text": "毋",
+        "witness": "洪适隸釋所載漢石經魯詩殘碑",
+        "schools": [
+          "魯"
+        ],
+        "basis": "傳本異文",
+        "note": "",
+        "qualification": "只補無字的對應；石經末字另形仍待辨，不拼成已核定的全句",
+        "base": "無"
+      },
+      {
+        "text": "无",
+        "witness": "周易正義引鄭氏周易注引詩",
+        "schools": [],
+        "basis": "傳本異文",
+        "note": "",
+        "qualification": "無、无、毋通用的相關見證；不據鄭氏自動分家",
+        "base": "無"
+      }
+    ],
+    "continuationPages": [],
+    "note": "石經毋與周易注无均可獨立對應無。末字黍的隸定、从米及从木諸形仍需核碼，不能照OCR寫成柔，也不能以本站黍覆蓋原字。",
+    "auditId": "ocr-check-2026-11-01-recheck"
+  },
+  {
+    "unit": 521,
+    "remove": true
+  },
+  {
+    "unit": 524,
+    "poemId": "shijing-115",
+    "lemma": "樞",
+    "page": 179,
+    "baseText": "山有樞",
+    "base": "樞",
+    "readings": [
+      {
+        "text": "蓲",
+        "witness": "隸釋所載漢石經魯詩",
+        "schools": [
+          "魯"
+        ],
+        "basis": "傳本異文",
+        "note": ""
+      }
+    ],
+    "note": "石經蓲的已收讀法可留。爾雅及漢書篇名的艸木區複合形，原頁左右與上下組合有別，仍不按山禧、稽或一般樞配碼；相關續頁已看。",
+    "auditId": "ocr-check-2026-11-01-recheck",
+    "continuationPages": [
+      180
+    ]
+  },
+  {
+    "unit": 534,
+    "poemId": "shijing-115",
+    "lemma": "弗鼓弗考",
+    "page": 184,
+    "baseText": "弗鼓弗考",
+    "base": "弗鼓弗考",
+    "readings": [
+      {
+        "text": "弗擊弗考",
+        "witness": "詩序正義、文選河陽縣作注引詩",
+        "schools": [],
+        "basis": "傳本異文",
+        "note": ""
+      },
+      {
+        "text": "不擊不考",
+        "witness": "事類賦、太平御覽引詩",
+        "schools": [],
+        "basis": "傳本異文",
+        "note": ""
+      },
+      {
+        "text": "攷",
+        "witness": "袁梅據說文攴部敂也所取本字",
+        "schools": [],
+        "basis": "本字說",
+        "note": "",
+        "qualification": "攴丂形；只對應考，是本字推說，非傳本直接另作",
+        "base": "考"
+      }
+    ],
+    "note": "跨三頁區分鐘鼓名詞、鼓擊動詞，並引古文金文；多個支、攴、殳形仍不宜強配近形碼。末段考假攷有明確從攴丂聲說，可按本字說補攷。既收擊兩句仍屬實引，與字源辨析分層。",
+    "auditId": "ocr-check-2026-11-01-recheck",
+    "continuationPages": [
+      185,
+      186
+    ]
+  },
+  {
+    "unit": 538,
+    "poemId": "shijing-116",
+    "lemma": "襮",
+    "base": "襮",
+    "baseText": "素衣朱襮",
+    "page": 188,
+    "readings": [
+      {
+        "text": "暴",
+        "witness": "玉篇所出及袁梅省形說",
+        "schools": [],
+        "basis": "字學說明",
+        "note": "",
+        "qualification": "領連也、又省作暴的字學參校；非另一詩本直接引文",
+        "base": "襮"
+      }
+    ],
+    "continuationPages": [],
+    "note": "衣部暴聲的繁形與朱熹本的隸省形有局部筆畫差，並不是裸。字書省形暴可辨，衣旁兩形仍未全部定碼，故保持待辨。",
+    "auditId": "ocr-check-2026-11-01-recheck"
+  },
+  {
+    "unit": 543,
+    "poemId": "shijing-116",
+    "lemma": "粼粼",
+    "page": 189,
+    "baseText": "白石粼粼",
+    "base": "粼粼",
+    "readings": [
+      {
+        "text": "磷磷",
+        "witness": "釋文本又作",
+        "schools": [],
+        "basis": "傳本異文",
+        "note": ""
+      }
+    ],
+    "note": "釋文磷磷可留。閩本、監本、毛本的米粦旁訛形及盧文弨所見宋釋文另一右鉤形，原書判形近致訛；仍不以粼、亃等常見碼直接取代原頁細部。",
+    "auditId": "ocr-check-2026-11-01-recheck",
+    "continuationPages": [
+      190
+    ]
+  },
+  {
+    "unit": 552,
+    "remove": true
+  },
+  {
+    "unit": 556,
+    "poemId": "shijing-119",
+    "lemma": "睘睘",
+    "page": 195,
+    "baseText": "獨行瞏瞏",
+    "base": "瞏瞏",
+    "readings": [
+      {
+        "text": "煢煢",
+        "witness": "楚辭九思王逸注引詩",
+        "schools": [
+          "魯"
+        ],
+        "basis": "袁氏輯佚判定",
+        "note": ""
+      }
+    ],
+    "note": "書中目袁聲字對應本站瞏瞏，不能把其字體／索引誤碼睘睘當另一異文，故撤睘睘。魯詩煢煢原有見證可留；文選省火形及說文走句本字說仍未全部定碼，待辨不清除。",
+    "auditId": "ocr-check-2026-11-01-recheck",
+    "continuationPages": []
+  },
+  {
+    "unit": 562,
+    "poemId": "shijing-123",
+    "lemma": "杕",
+    "base": "杕",
+    "baseText": "有杕之杜",
+    "page": 198,
+    "readings": [
+      {
+        "text": "枤",
+        "witness": "監本、毛本",
+        "schools": [],
+        "basis": "傳本異文",
+        "note": "",
+        "qualification": "袁書判傳寫致誤",
+        "base": "杕"
+      }
+    ],
+    "continuationPages": [],
+    "note": "實看198頁首條：監本、毛本杕作枤，右部犬有明確點畫；枤可定，原書判傳寫致誤。",
+    "auditId": "ocr-check-2026-11-01-recheck"
+  },
+  {
+    "unit": 568,
+    "poemId": "shijing-125",
+    "lemma": "苓",
+    "base": "苓",
+    "baseText": "采苓采苓",
+    "page": 199,
+    "readings": [
+      {
+        "text": "蘦",
+        "witness": "爾雅釋草、說文艸部及袁書校說",
+        "schools": [],
+        "basis": "本字說",
+        "note": "",
+        "qualification": "爾雅詞條及說文本字辨析，非另一傳本引詩",
+        "base": "苓"
+      }
+    ],
+    "continuationPages": [
+      200
+    ],
+    "note": "實看199–200頁全段：本字為蘦，艸覆雨下三口（霝聲），已與BabelStone蘦／薷／蕶對照。爾雅、說文與王筠、桂馥、徐灝所論皆字學本字說，本條沒有另署三家經字。",
+    "auditId": "ocr-check-2026-11-01-recheck"
+  },
+  {
+    "unit": 578,
+    "poemId": "shijing-127",
+    "lemma": "歇驕",
+    "page": 204,
+    "base": "歇驕",
+    "baseText": "載獫歇驕",
+    "readings": [
+      {
+        "text": "猲獢",
+        "witness": "爾雅、釋文；說文與文選注引詩",
+        "schools": [],
+        "basis": "傳本異文",
+        "note": ""
+      },
+      {
+        "text": "獦獢",
+        "witness": "文選西京賦注引毛詩",
+        "schools": [],
+        "basis": "傳本異文",
+        "note": "",
+        "base": "歇驕"
+      }
+    ],
+    "note": "實看204頁整段：猲為犬曷，獦為犬葛，獢為犬喬。爾雅音義稱獦字林作猲，西京賦注引毛詩作獦獢；原猲獢讀法保留，並補另一確定字形。",
+    "auditId": "ocr-check-2026-11-01-recheck",
+    "continuationPages": []
+  },
+  {
+    "unit": 584,
+    "poemId": "shijing-128",
+    "lemma": "厹矛",
+    "page": 206,
+    "baseText": "厹矛鋈錞",
+    "base": "厹",
+    "readings": [
+      {
+        "text": "叴",
+        "witness": "說文金部引詩",
+        "schools": [],
+        "basis": "傳本異文",
+        "note": ""
+      }
+    ],
+    "note": "實看206頁全段：叴（九口）之說文引詩已確定；獸足厹／禸的篆文與小篆隸形仍有數種，至少一古形尚未定碼，屬字學參校而非另一詩本，維持pending。",
+    "auditId": "ocr-check-2026-11-01-recheck",
+    "continuationPages": []
+  },
+  {
+    "unit": 585,
+    "poemId": "shijing-128",
+    "lemma": "錞",
+    "page": 206,
+    "baseText": "厹矛鋈錞",
+    "base": "錞",
+    "readings": [
+      {
+        "text": "鐓",
+        "witness": "太平御覽引詩",
+        "schools": [],
+        "basis": "傳本異文",
+        "note": ""
+      }
+    ],
+    "note": "實看206頁全段：御覽所引鐓可留；說文錞的括注古形，上部享類、下金（非左右金享），字碼仍未確定；不以鐜或其他金字近形猜填。",
+    "auditId": "ocr-check-2026-11-01-recheck",
+    "continuationPages": []
+  },
+  {
+    "unit": 588,
+    "poemId": "shijing-128",
+    "lemma": "竹閉緄縢",
+    "page": 207,
+    "baseText": "竹閉緄縢",
+    "base": "竹閉緄縢",
+    "readings": [
+      {
+        "text": "竹柲緄縢",
+        "witness": "儀禮士喪禮、既夕禮鄭注引詩",
+        "schools": [],
+        "basis": "傳本異文",
+        "note": ""
+      }
+    ],
+    "note": "實看207–208頁完整段落：鄭注竹柲緄縢有引詩，原條可留；釋文及周禮注另有車旁卂／必類形、縢的糸旁或體與石經誤刻，碼尚未全定。故維持字學相關pending，附車旁一字圖，其餘位置仍待辨。",
+    "auditId": "ocr-check-2026-11-01-recheck",
+    "continuationPages": [
+      208
+    ]
+  },
+  {
+    "unit": 618,
+    "poemId": "shijing-134",
+    "lemma": "瓊瑰玉佩",
+    "base": "瓊",
+    "baseText": "瓊瑰玉佩",
+    "page": 219,
+    "readings": [
+      {
+        "text": "璿",
+        "witness": "馬瑞辰通釋、袁書轉引",
+        "schools": [],
+        "basis": "本字說",
+        "note": "",
+        "qualification": "馬氏以瓊瑰為璿瑰之譌；非另一傳本詩經引文",
+        "base": "瓊"
+      }
+    ],
+    "continuationPages": [
+      220
+    ],
+    "note": "實看219–220頁馬瑞辰整段：璿瑰是其主張瓊瑰的本字，屬校說而非獨立詩本；文中列瓊、璿之篆體及琁等異形，篆體碼仍未精定，保留pending。",
+    "auditId": "ocr-check-2026-11-01-recheck"
+  },
+  {
+    "unit": 622,
+    "poemId": "shijing-136",
+    "lemma": "宛丘之下",
+    "page": 222,
+    "baseText": "宛丘之下",
+    "base": "宛丘之下",
+    "readings": [
+      {
+        "text": "宛邱之下",
+        "witness": "水經注淄水引詩",
+        "schools": [],
+        "basis": "傳本異文",
+        "note": ""
+      }
+    ],
+    "note": "實看222頁：韓詩外傳的車旁昷類字與宛、苑通用，圖像可定位，但日／囚內部形仍須精定，暫不在輼、轀間強配；水經注邱已存。本條其他宛苑字學不憑音義推經字。",
+    "auditId": "ocr-check-2026-11-01-recheck",
+    "continuationPages": []
+  },
+  {
+    "unit": 625,
+    "poemId": "shijing-137",
+    "lemma": "穀旦于差",
+    "page": 223,
+    "baseText": "穀旦于差",
+    "base": "穀旦于差",
+    "readings": [
+      {
+        "text": "嗟",
+        "witness": "釋文所記韓詩差字",
+        "schools": [
+          "韓"
+        ],
+        "basis": "傳本異文",
+        "note": "",
+        "base": "差"
+      },
+      {
+        "text": "且",
+        "witness": "釋文本亦作旦字",
+        "schools": [],
+        "basis": "傳本異文",
+        "note": "",
+        "base": "旦"
+      }
+    ],
+    "note": "實看223頁：韓詩差作嗟、釋文旦本亦作且可留；唐石經、毛本穀字少禾上撇類形及原書正字辨析仍需精確對碼，不單憑常用榖／穀／糓候選強填。",
+    "auditId": "ocr-check-2026-11-01-recheck",
+    "continuationPages": []
+  },
+  {
+    "unit": 645,
+    "poemId": "shijing-142",
+    "lemma": "鷊",
+    "page": 232,
+    "baseText": "邛有旨鷊",
+    "base": "鷊",
+    "readings": [
+      {
+        "text": "虉",
+        "witness": "說文艸部引詩",
+        "schools": [],
+        "basis": "傳本異文",
+        "note": ""
+      }
+    ],
+    "note": "實看232頁整條：說文虉已辨；玉篇、類篇中艸上覆鳥兒形及鳥兒的左右異體、兒與昊之通用仍未全定碼，保留字學pending。附類篇艸覆鳥形作關鍵圖，不拿同碼鷊另造異文。",
+    "auditId": "ocr-check-2026-11-01-recheck",
+    "continuationPages": []
+  },
+  {
+    "unit": 649,
+    "poemId": "shijing-143",
+    "lemma": "懰",
+    "page": 233,
+    "baseText": "佼人懰兮",
+    "base": "懰",
+    "readings": [
+      {
+        "text": "劉",
+        "witness": "釋文字頭、群經音辨引詩",
+        "schools": [],
+        "basis": "傳本異文",
+        "note": ""
+      },
+      {
+        "text": "嬼",
+        "witness": "玉篇、廣韻、埤蒼；袁書本字說",
+        "schools": [],
+        "basis": "本字說",
+        "note": "",
+        "qualification": "字書本字及袁書改讀，未見本句直接引詩",
+        "base": "懰"
+      },
+      {
+        "text": "㚹",
+        "witness": "袁書所列字書省形",
+        "schools": [],
+        "basis": "字學相關",
+        "note": "",
+        "qualification": "女卯形為嬼之省，非獨立傳本引詩",
+        "base": "懰"
+      }
+    ],
+    "note": "實看233–234頁：女劉之嬼可辨，玉篇、廣韻、埤蒼釋好貌／美好／妖；女卯㚹是所列省形。劉與懰為嬼的假借屬袁書本字說，原劉引文保留；所補字學讀法皆不指定詩家。",
+    "auditId": "ocr-check-2026-11-01-recheck",
+    "continuationPages": [
+      234
+    ]
+  }
+]
