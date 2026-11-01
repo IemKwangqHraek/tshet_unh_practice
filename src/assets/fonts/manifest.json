@@ -1,0 +1,61 @@
+[
+  {
+    "file": "shijing-pilot-rare-a.woff2",
+    "source": "https://github.com/cjkvi/HanaMinAFDKO/releases/download/8.030/HanaMinA.otf",
+    "sourceSha256": "f068fbe4f7e091828d23dc833f9438aebe0446ce341b69497fbb514affaee190",
+    "sha256": "2b8d15301fd9b22b9e409000cc15e85dc66240b83a48f2f8ee48e8bcfc3c1f73",
+    "bytes": 8692,
+    "codepoints": [
+      "U+35DB",
+      "U+373A",
+      "U+3976",
+      "U+3A14",
+      "U+3B58",
+      "U+3D11",
+      "U+3FAF",
+      "U+3FC9",
+      "U+41A4",
+      "U+41D3",
+      "U+44F7",
+      "U+45B5",
+      "U+47E6",
+      "U+4B38",
+      "U+4CED",
+      "U+4D92"
+    ],
+    "copyright": "2007-2018 GlyphWiki. All Rights Reserved.",
+    "license": "GlyphWiki data and article usage licence; see NOTICE.txt"
+  },
+  {
+    "file": "shijing-pilot-rare-b.woff2",
+    "source": "https://github.com/cjkvi/HanaMinAFDKO/releases/download/8.030/HanaMinB.otf",
+    "sourceSha256": "cfec2d1577f15b4bb9fbeab956b03d3fc6317ee97da3ab1515889cb5ce4fd46e",
+    "sha256": "c95d69cafb1608ccece9cf75dcfea5a5b466255c34e7b25942a3e6f3b5325478",
+    "bytes": 9308,
+    "codepoints": [
+      "U+20B1D",
+      "U+20B2A",
+      "U+20D28",
+      "U+21769",
+      "U+21774",
+      "U+21EC8",
+      "U+2210B",
+      "U+221F7",
+      "U+225B3",
+      "U+22794",
+      "U+2295E",
+      "U+230DA",
+      "U+231AA",
+      "U+24226",
+      "U+24895",
+      "U+2640C",
+      "U+26911",
+      "U+26B7C",
+      "U+26FB5",
+      "U+28414",
+      "U+294E3"
+    ],
+    "copyright": "2007-2018 GlyphWiki. All Rights Reserved.",
+    "license": "GlyphWiki data and article usage licence; see NOTICE.txt"
+  }
+]

@@ -1,0 +1,364 @@
+{
+  "version": 1,
+  "id": "ocr-check-2026-11-01",
+  "checkedOn": "2026-11-01",
+  "title": "OCR逐圖核對・首批10項",
+  "sourceId": "yuan2013",
+  "sourcePdfSha256": "49be56a9ae517badc002fe930e844ef25f505e98a87db5825414b9b7531aab76",
+  "selection": "按現有索引順序取最先尚未連結校讀的10項：43、45–53；已核第44項跳過。不是隨機樣本，不據此估計全書準確率。",
+  "method": "逐圖比對正文印刷頁19–21（PDF44–46）及附錄索引印刷頁888–889（PDF913–914）。已核指袁梅2013整理頁，所引古籍原件尚未全面覆核。原始OCR不覆寫。",
+  "checks": [
+    {
+      "unit": 43,
+      "lemma": "夙夜在公",
+      "page": 19,
+      "summary": "死為誤認；保留碑刻字圖，字碼待定。此為碑刻字形材料，未據此歸入三家經文。",
+      "decisions": [
+        {
+          "candidate": 0,
+          "ocr": "死",
+          "decision": "reject",
+          "label": "OCR誤字",
+          "result": "〔碑刻字形，見圖〕",
+          "note": "原書所示不是死；特殊字形暫不強配Unicode。"
+        }
+      ],
+      "findings": [
+        {
+          "text": "〔碑刻字形，見圖〕",
+          "kind": "碑刻字形",
+          "schools": []
+        }
+      ],
+      "glyphs": [
+        {
+          "url": "collations/glyphs/yuan2013-p19-su.png",
+          "alt": "袁書印刷頁19《鄭季宣碑》夙字異形",
+          "note": "僅截取單字。字形見圖，Unicode待定；不以死或其他近形字代錄。",
+          "cropPixels": [
+            1815,
+            523,
+            1923,
+            651
+          ]
+        }
+      ],
+      "unitId": "yuan2013-0043",
+      "poemId": "shijing-013",
+      "title": "召南・采蘩",
+      "indexPdfPage": 913,
+      "indexPrintPage": 888,
+      "pdfPage": 44,
+      "status": "逐圖核對・部分字形待編碼"
+    },
+    {
+      "unit": 45,
+      "lemma": "喓喓草蟲",
+      "page": 19,
+      "summary": "字頭蠱改蟲；魯詩說作草螽。虫有異本記載，但《釋文》明說非也。另一候選來自《月令》訓解，排除。",
+      "decisions": [
+        {
+          "candidate": 0,
+          "ocr": "草螽",
+          "decision": "keep",
+          "label": "保留",
+          "result": "草螽",
+          "note": "袁書轉引《魯詩說》，保留轉引層次。"
+        },
+        {
+          "candidate": 1,
+          "ocr": "蠡螟",
+          "decision": "reject",
+          "label": "他書訓解／OCR誤字",
+          "result": "",
+          "note": "此為《禮記·月令》及蔡邕《章句》的蟲名比較，不是本句詩文異讀；不把蠡螟收入詩異文。"
+        }
+      ],
+      "findings": [
+        {
+          "text": "草螽",
+          "kind": "整理本轉引魯詩說",
+          "schools": [
+            "魯"
+          ]
+        },
+        {
+          "text": "虫",
+          "kind": "異本記載・原注不取",
+          "schools": [],
+          "note": "《釋文》本或作虫，非也；必須保留否定語。"
+        }
+      ],
+      "unitId": "yuan2013-0045",
+      "poemId": "shijing-014",
+      "title": "召南・草蟲",
+      "indexPdfPage": 913,
+      "indexPrintPage": 888,
+      "pdfPage": 44,
+      "status": "逐圖核對"
+    },
+    {
+      "unit": 46,
+      "lemma": "趯趯阜螽",
+      "page": 20,
+      "summary": "索引字頭正確，正文定位OCR把阜誤作享；漏抽郭注、邢疏引詩的蛗螽。",
+      "decisions": [],
+      "findings": [
+        {
+          "text": "蛗",
+          "kind": "郭注、邢疏引詩",
+          "schools": [],
+          "note": "阜／蛗及另一蟲部形體的字學解釋，不據此指派三家。"
+        }
+      ],
+      "unitId": "yuan2013-0046",
+      "poemId": "shijing-014",
+      "title": "召南・草蟲",
+      "indexPdfPage": 913,
+      "indexPrintPage": 888,
+      "pdfPage": 45,
+      "status": "逐圖核對"
+    },
+    {
+      "unit": 47,
+      "lemma": "憂心忡忡",
+      "page": 20,
+      "summary": "字頭仲仲改忡忡；正文原未定位。補出魯詩𢥞𢥞、齊詩冲冲。",
+      "decisions": [],
+      "findings": [
+        {
+          "text": "𢥞𢥞",
+          "kind": "整理本列魯詩",
+          "schools": [
+            "魯"
+          ],
+          "note": "𢥞為U+2295E，右部三虫；依放大原頁核字。"
+        },
+        {
+          "text": "冲冲",
+          "kind": "整理本列齊詩",
+          "schools": [
+            "齊"
+          ],
+          "note": "原頁作兩點水冲；沖為其解說所涉字，不靜默改寫原讀。"
+        }
+      ],
+      "unitId": "yuan2013-0047",
+      "poemId": "shijing-014",
+      "title": "召南・草蟲",
+      "indexPdfPage": 913,
+      "indexPrintPage": 888,
+      "pdfPage": 45,
+      "status": "逐圖核對"
+    },
+    {
+      "unit": 48,
+      "lemma": "亦既覯止",
+      "page": 20,
+      "summary": "遘抽取正確；原頁明列魯詩。",
+      "decisions": [
+        {
+          "candidate": 0,
+          "ocr": "遘",
+          "decision": "keep",
+          "label": "保留",
+          "result": "遘",
+          "note": "家別依袁書明列；尚未全面覆核其古籍原件。"
+        }
+      ],
+      "findings": [
+        {
+          "text": "遘",
+          "kind": "整理本列魯詩",
+          "schools": [
+            "魯"
+          ]
+        }
+      ],
+      "unitId": "yuan2013-0048",
+      "poemId": "shijing-014",
+      "title": "召南・草蟲",
+      "indexPdfPage": 913,
+      "indexPrintPage": 888,
+      "pdfPage": 45,
+      "status": "逐圖核對"
+    },
+    {
+      "unit": 49,
+      "lemma": "我心則說",
+      "page": 20,
+      "summary": "説誤抓自無復作說的說明；真正引詩異文為《說苑》的悅。",
+      "decisions": [
+        {
+          "candidate": 0,
+          "ocr": "説",
+          "decision": "reject",
+          "label": "誤取否定語境",
+          "result": "悅",
+          "note": "原候選來自作者論今字不再作說的結語，不是新異文。"
+        }
+      ],
+      "findings": [
+        {
+          "text": "悅",
+          "kind": "《說苑》引詩",
+          "schools": [],
+          "note": "依整理頁字義，以本站繁體字形悅錄；不由《說苑》書名自動歸魯或韓。"
+        }
+      ],
+      "unitId": "yuan2013-0049",
+      "poemId": "shijing-014",
+      "title": "召南・草蟲",
+      "indexPdfPage": 913,
+      "indexPrintPage": 888,
+      "pdfPage": 45,
+      "status": "逐圖核對"
+    },
+    {
+      "unit": 50,
+      "lemma": "南澗之濱",
+      "page": 21,
+      "summary": "瀕、頻均見原頁，但屬古今字和省形說明；降為文字學相關字，不冒充另有詩本。",
+      "decisions": [
+        {
+          "candidate": 0,
+          "ocr": "瀕",
+          "decision": "related",
+          "label": "文字學相關字",
+          "result": "瀕",
+          "note": "本條未提供另一本詩作此字的獨立見證。"
+        },
+        {
+          "candidate": 1,
+          "ocr": "頻",
+          "decision": "related",
+          "label": "文字學相關字",
+          "result": "頻",
+          "note": "本條未提供另一本詩作此字的獨立見證。"
+        }
+      ],
+      "findings": [
+        {
+          "text": "瀕",
+          "kind": "古今字／省形說明",
+          "schools": []
+        },
+        {
+          "text": "頻",
+          "kind": "古今字／省形說明",
+          "schools": []
+        }
+      ],
+      "unitId": "yuan2013-0050",
+      "poemId": "shijing-015",
+      "title": "召南・采蘋",
+      "indexPdfPage": 913,
+      "indexPrintPage": 888,
+      "pdfPage": 46,
+      "status": "逐圖核對"
+    },
+    {
+      "unit": 51,
+      "lemma": "于以采藻",
+      "page": 21,
+      "summary": "原未抽出候選、正文未定位；補出《說文》引詩的薻。",
+      "decisions": [],
+      "findings": [
+        {
+          "text": "薻",
+          "kind": "《說文》引詩",
+          "schools": [],
+          "note": "薻為U+85BB，從艸、水、巢聲。正字／或體的判斷與引詩證據分開。"
+        }
+      ],
+      "unitId": "yuan2013-0051",
+      "poemId": "shijing-015",
+      "title": "召南・采蘋",
+      "indexPdfPage": 914,
+      "indexPrintPage": 889,
+      "pdfPage": 46,
+      "status": "逐圖核對"
+    },
+    {
+      "unit": 52,
+      "lemma": "維筐及筥",
+      "page": 21,
+      "summary": "字頭管、筲均改筥；斧為誤認。補出宋石經筥作莒，另以字圖保存筐的避諱缺筆形。",
+      "decisions": [
+        {
+          "candidate": 0,
+          "ocr": "斧",
+          "decision": "reject",
+          "label": "OCR誤字",
+          "result": "莒；另有筐字缺筆形",
+          "note": "原頁無詩作斧之證據；兩個字的異形分別保存。"
+        }
+      ],
+      "findings": [
+        {
+          "text": "莒",
+          "kind": "宋石經字形",
+          "schools": []
+        },
+        {
+          "text": "〔筐字缺筆，見圖〕",
+          "kind": "避諱改形",
+          "schools": [],
+          "note": "袁書解作避宋太祖諱；字形以圖保存，不配作相近Unicode。"
+        }
+      ],
+      "glyphs": [
+        {
+          "url": "collations/glyphs/yuan2013-p21-kuang.png",
+          "alt": "袁書印刷頁21宋石經筐字缺筆形",
+          "note": "僅截取單字；缺筆形以圖保存，不當作斧。",
+          "cropPixels": [
+            1494,
+            1358,
+            1580,
+            1447
+          ]
+        }
+      ],
+      "unitId": "yuan2013-0052",
+      "poemId": "shijing-015",
+      "title": "召南・采蘋",
+      "indexPdfPage": 914,
+      "indexPrintPage": 889,
+      "pdfPage": 46,
+      "status": "逐圖核對"
+    },
+    {
+      "unit": 53,
+      "lemma": "于以湘之",
+      "page": 21,
+      "summary": "鬺抽取正確；依原頁《漢書·郊祀志》注引《韓詩》著錄。",
+      "decisions": [
+        {
+          "candidate": 0,
+          "ocr": "鬺",
+          "decision": "keep",
+          "label": "保留",
+          "result": "鬺",
+          "note": "保留整理本轉引古注的證據層次。"
+        }
+      ],
+      "findings": [
+        {
+          "text": "鬺",
+          "kind": "《漢書》注引《韓詩》",
+          "schools": [
+            "韓"
+          ]
+        }
+      ],
+      "unitId": "yuan2013-0053",
+      "poemId": "shijing-015",
+      "title": "召南・采蘋",
+      "indexPdfPage": 914,
+      "indexPrintPage": 889,
+      "pdfPage": 46,
+      "status": "逐圖核對"
+    }
+  ]
+}

@@ -7,6 +7,9 @@ import { createSession, restoreSession, inputKey, pause, resume, sessionStats, m
 import { loadState, saveState, cleanSettings, STORAGE_KEY } from './storage.js';
 import { catalogueEntries, loadCatalogueDocument } from './catalogue.js';
 import { getCatalogueSourceId, createCatalogueUpdateCopy } from './corpus-update.js';
+import { threeSchoolsView, loadThreeSchoolsArchive } from './three-schools.js';
+import { loadShijingModernIndex } from './shijing-modern.js';
+import { parseShijingRoute, shijingRoute } from './shijing-routes.js';
 import { icon, button, practiceView, libraryView, importView, reviewView, reviewFilters, modesView, resultsView, formatTime } from './views.js';
 
 const app = document.querySelector('#app');
@@ -37,6 +40,31 @@ let saveTimer;
 let lastRoute = '';
 let composing = false;
 let catalogueFilter = { query: '', category: '', status: 'ready', page: 0 };
+let threeSchoolsFilter = { query: '', school: '', poemId: '', mode: 'modern', book: '', page: 0 };
+let threeSchoolsLoading = false;
+let modernIndexLoading = false;
+
+function ensureModernIndex() {
+  if (modernIndexLoading) return;
+  modernIndexLoading = true;
+  loadShijingModernIndex().catch(error => {
+    if (routeName() === 'shijing-variants') notify(error.message, true);
+  }).finally(() => {
+    modernIndexLoading = false;
+    if (routeName() === 'shijing-variants' && threeSchoolsFilter.mode === 'index') render();
+  });
+}
+
+function ensureThreeSchoolsArchive() {
+  if (threeSchoolsLoading) return;
+  threeSchoolsLoading = true;
+  loadThreeSchoolsArchive().then(() => {
+    if (routeName() === 'shijing-variants') render();
+  }).catch(error => {
+    threeSchoolsLoading = false;
+    if (routeName() === 'shijing-variants') notify(error.message, true);
+  });
+}
 
 if (loaded.data) {
   try {
@@ -62,7 +90,7 @@ if (!documents.some(d => d.id === selectedId)) selectedId = documents[0]?.id;
 
 const currentDocument = () => documents.find(d => d.id === selectedId);
 const currentRecord = () => history.find(r => r.id === resultId) || history.at(-1);
-const routeName = () => (location.hash.slice(1).split('/')[0] || 'practice');
+const routeName = () => (location.hash.slice(1).split(/[/?]/)[0] || 'practice');
 
 function updateSessionSettings() {
   if (!activeSession || activeSession.finished) return;
@@ -125,6 +153,11 @@ function route(hash) {
 
 function onRoute() {
   const name = routeName();
+  if (name === 'shijing-variants') {
+    threeSchoolsFilter = parseShijingRoute(location.hash);
+    if (threeSchoolsFilter.mode === 'index') ensureModernIndex();
+    else if (['sources','candidates','entries'].includes(threeSchoolsFilter.mode)) ensureThreeSchoolsArchive();
+  }
   if (lastRoute === 'practice' && name !== 'practice' && activeSession && !activeSession.finished) pause(activeSession, Date.now());
   if (name === 'practice') {
     const variant = location.hash.split('/')[1];
@@ -139,15 +172,16 @@ function onRoute() {
 
 function render(focusTyping = false) {
   const name = routeName();
-  const titles = {practice: settings.variant === 'three' ? '三拼練習' : '全拼練習', library: '語料', import: '導入語料', review: '校對讀音', modes: '鍵帽模式對照', results: '練習結果'};
+  const titles = {practice: settings.variant === 'three' ? '三拼練習' : '全拼練習', library: '語料', import: '導入語料', review: '校對讀音', modes: '鍵帽模式對照', results: '練習結果', 'shijing-variants': '三家詩異文'};
   document.title = `${titles[name] || '練習'} · 切韻練字`;
   const navs = [
     ['practice/three','keyboard','三拼練習'], ['practice/full','book','全拼練習'], ['modes','sliders','鍵帽模式對照'],
-    ['library','book','語料'], ['import','upload','導入語料'], ['review','list','校對讀音'], ['results','chart','練習結果']
+    ['library','book','語料'], ['shijing-variants','book','三家詩異文'], ['import','upload','導入語料'], ['review','list','校對讀音'], ['results','chart','練習結果']
   ];
   let body;
   if (name === 'import') body = importView(draft, preview);
   else if (name === 'library') body = libraryView(documents, selectedId, catalogueEntries, catalogueFilter);
+  else if (name === 'shijing-variants') body = threeSchoolsView(threeSchoolsFilter);
   else if (name === 'review') body = reviewView(currentDocument(), reviewFilter, reviewPage, documents, reviewQuery);
   else if (name === 'modes') body = modesView({ ...derive('曉開四蕭上', '曉'), char: '曉' }, modeStage);
   else if (name === 'results') body = resultsView(currentRecord(), history);
@@ -280,6 +314,10 @@ app.addEventListener('click', async event => {
       } finally { element.disabled = false; }
     }
     else if (action === 'catalogue-page') { catalogueFilter.page=Math.max(0,catalogueFilter.page+Number(element.dataset.direction)); render(); document.querySelector('.catalogue-panel')?.scrollIntoView({block:'start'}); }
+    else if (action === 'three-schools-page') { threeSchoolsFilter.page=Math.max(0,Number(element.dataset.page)||0); route(shijingRoute(threeSchoolsFilter)); document.querySelector('.three-schools-panel')?.scrollIntoView({block:'start'}); }
+    else if (action === 'three-schools-retry') { ensureThreeSchoolsArchive(); }
+    else if (action === 'modern-index-retry') { ensureModernIndex(); }
+    else if (action === 'three-schools-context') { threeSchoolsFilter={query:element.dataset.record,school:'',poemId:'',mode:'sources',book:'',page:0}; route(shijingRoute(threeSchoolsFilter)); }
     else if (action === 'review-doc') { if (element.dataset.id!==selectedId) setDocument(element.dataset.id); reviewFilter=Object.hasOwn(reviewFilters,element.dataset.filter)?element.dataset.filter:documentStatus(currentDocument()).pending?'pending':'polyphonic'; reviewPage=0; route('#review'); }
     else if (action === 'export-doc') { const target=documents.find(d=>d.id===element.dataset.id); download(`${target.title}.json`,JSON.stringify(exportDocument(target),null,2)); }
     else if (action === 'sample-import') { readDraft(); Object.assign(draft,{text:sampleTexts[1],title:'',author:'',source:'https://github.com/nk2028/tshet-uinh-text-label',license:'CC0-1.0',format:'txt',split:false}); preview=[]; render(); }
@@ -317,6 +355,12 @@ app.addEventListener('submit', event => {
       const data = new FormData(event.target);
       catalogueFilter={query:String(data.get('query')||''),category:String(data.get('category')||''),status:String(data.get('status')||'ready'),page:0};
       render();
+    } else if (event.target.id === 'three-schools-filter') {
+      const data = new FormData(event.target);
+      const mode = String(data.get('mode') || 'modern');
+      const switching = mode !== threeSchoolsFilter.mode;
+      threeSchoolsFilter = { query: String(data.get('query') || ''), school: switching ? '' : String(data.get('school') || ''), poemId: String(data.get('poemId') || ''), mode, book: switching ? '' : String(data.get('book') || ''), scope: switching ? '' : String(data.get('scope') || ''), page: 0 };
+      route(shijingRoute(threeSchoolsFilter));
     } else if (event.target.id === 'review-search') {
       reviewQuery=String(new FormData(event.target).get('query') || '').trim(); reviewPage=0; render(); document.querySelector('#review-query')?.focus({preventScroll:true});
     } else if (event.target.matches('.reading-editor')) {
@@ -338,6 +382,7 @@ app.addEventListener('change', async event => {
     else if(element.dataset.setting) { settings[element.dataset.setting]=element.checked; updateSessionSettings(); persist();render(); }
     else if(element.id==='mode-stage') { modeStage=Number(element.value);render(); }
     else if(element.closest('#catalogue-filter') && element.tagName==='SELECT') { element.form.requestSubmit(); }
+    else if(element.closest('#three-schools-filter') && element.tagName==='SELECT') { element.form.requestSubmit(); }
     else if(element.closest('#import-form')) { readDraft();preview=[]; }
   } catch(error) { notify(error.message,true); }
 });

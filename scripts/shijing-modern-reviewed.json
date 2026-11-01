@@ -1,0 +1,378 @@
+[
+  {
+    "unit": 36,
+    "poemId": "shijing-011",
+    "lemma": "麟之趾",
+    "baseText": "麟之趾",
+    "base": "趾",
+    "page": 17,
+    "readings": [
+      {
+        "text": "止",
+        "witness": "《釋文》又作本、明豐坊《詩傳》《詩說》",
+        "schools": [],
+        "basis": "其他傳本"
+      }
+    ],
+    "note": "初文、後起字說與傳本異字分開理解；不由此判為三家專有。"
+  },
+  {
+    "unit": 37,
+    "poemId": "shijing-011",
+    "lemma": "于嗟麟兮",
+    "baseText": "于嗟麟兮",
+    "base": "于",
+    "page": 17,
+    "readings": [
+      {
+        "text": "吁",
+        "witness": "袁書列韓詩；《太平御覽》引詩亦作吁嗟",
+        "schools": [
+          "韓"
+        ],
+        "basis": "整理本列家別"
+      }
+    ],
+    "note": "原書記完整詞形吁嗟，本站按差字定位于／吁。"
+  },
+  {
+    "unit": 38,
+    "poemId": "shijing-011",
+    "lemma": "定",
+    "baseText": "麟之定",
+    "base": "定",
+    "page": 17,
+    "readings": [
+      {
+        "text": "顁",
+        "witness": "袁書列魯詩",
+        "schools": [
+          "魯"
+        ],
+        "basis": "整理本列家別"
+      }
+    ],
+    "note": "已據放大頁圖核定顁；OCR誤作顧，未沿用。"
+  },
+  {
+    "unit": 39,
+    "poemId": "shijing-011",
+    "lemma": "公姓",
+    "baseText": "振振公姓",
+    "base": "姓",
+    "page": 17,
+    "readings": [
+      {
+        "text": "生",
+        "witness": "陳奐《毛詩音》、王引之《經義述聞》的通假說",
+        "schools": [],
+        "basis": "訓詁校改"
+      }
+    ],
+    "note": "所舉《春秋》姓／生及公姓通稱說，不能當作已見某家詩經文作生。"
+  },
+  {
+    "unit": 40,
+    "poemId": "shijing-012",
+    "lemma": "百兩御之",
+    "baseText": "百兩御之",
+    "base": "御",
+    "page": 18,
+    "readings": [
+      {
+        "text": "訝",
+        "witness": "《釋文》本亦作、《尚書·牧誓》正義引詩或作",
+        "schools": [],
+        "basis": "其他傳本"
+      },
+      {
+        "text": "迓",
+        "witness": "《釋文》又作、《尚書·牧誓》正義引詩",
+        "schools": [],
+        "basis": "其他傳本"
+      }
+    ],
+    "note": "本條所列傳本未分定齊、魯、韓；不以鄭箋迎義直接歸家。"
+  },
+  {
+    "unit": 41,
+    "poemId": "shijing-013",
+    "lemma": "于以采蘩",
+    "baseText": "于以采蘩",
+    "base": "蘩",
+    "page": 18,
+    "readings": [
+      {
+        "text": "繁",
+        "witness": "袁書列齊詩；另見《釋文》異本及《禮記》引詩",
+        "schools": [
+          "齊"
+        ],
+        "basis": "整理本列家別",
+        "note": "齊詩歸屬依袁書明列；其他引本同字不代表其家別也已確定。"
+      }
+    ],
+    "note": "繁為初文、蘩為後起字是袁氏文字學判斷，與齊詩異文的著錄分層保存。"
+  },
+  {
+    "unit": 42,
+    "poemId": "shijing-013",
+    "lemma": "被之僮僮",
+    "baseText": "被之僮僮",
+    "base": "僮僮",
+    "page": 18,
+    "readings": [
+      {
+        "text": "童童",
+        "witness": "《禮記·射義》鄭注引詩、《釋文》本亦作童",
+        "schools": [],
+        "basis": "其他傳本"
+      }
+    ],
+    "note": "保存重文；本條未明列三家家別。"
+  },
+  {
+    "unit": 43,
+    "baseText": "夙夜在公",
+    "base": "夙",
+    "readings": [
+      {
+        "text": "〔碑刻字形，見圖〕",
+        "witness": "《鄭季宣碑》",
+        "basis": "其他文字材料",
+        "schools": [],
+        "note": "字形依原頁單字圖保存，Unicode待定；不是死。",
+        "glyphStatus": "字碼待定",
+        "glyphImage": "collations/glyphs/yuan2013-p19-su.png",
+        "qualification": "碑刻字形"
+      }
+    ],
+    "note": "原候選死為誤認。碑刻字形可作文字比較，本條未證明其為某家詩經文。",
+    "poemId": "shijing-013",
+    "lemma": "夙夜在公",
+    "page": 19,
+    "auditId": "ocr-check-2026-11-01"
+  },
+  {
+    "unit": 44,
+    "poemId": "shijing-013",
+    "lemma": "薄言還歸",
+    "baseText": "薄言還歸",
+    "base": "還",
+    "page": 19,
+    "readings": [
+      {
+        "text": "旋",
+        "witness": "山井鼎《詩經考文》記古本、《文選》數處注引詩",
+        "schools": [],
+        "basis": "其他傳本"
+      }
+    ],
+    "note": "原書另論還、旋通用；只記其傳本證據，未據此指派家別。"
+  },
+  {
+    "unit": 45,
+    "baseText": "喓喓草蟲",
+    "base": "草蟲",
+    "readings": [
+      {
+        "text": "草螽",
+        "witness": "袁書轉引《魯詩說》",
+        "basis": "整理本轉引",
+        "schools": [
+          "魯"
+        ],
+        "note": ""
+      },
+      {
+        "text": "草虫",
+        "witness": "《釋文》本或作虫",
+        "basis": "原注不取",
+        "schools": [],
+        "note": "《釋文》明說非也，袁氏亦區分虫、䖵、蟲，不將此讀法等同肯定採用的經文。",
+        "qualification": "原注不取"
+      }
+    ],
+    "note": "虫的異本記載保留否定語；《禮記·月令》及蔡邕《章句》的蟲名比較另作訓解材料，不收入本句異讀。",
+    "poemId": "shijing-014",
+    "lemma": "喓喓草蟲",
+    "page": 19,
+    "auditId": "ocr-check-2026-11-01"
+  },
+  {
+    "unit": 46,
+    "baseText": "趯趯阜螽",
+    "base": "阜",
+    "readings": [
+      {
+        "text": "蛗",
+        "witness": "《爾雅》郭注、邢疏引詩",
+        "basis": "其他傳本",
+        "schools": [],
+        "note": ""
+      }
+    ],
+    "note": "原機器定位把阜誤作享，且未抽出引詩讀法。原書另論正字、隸定字與後起專字，未明列三家家別。",
+    "poemId": "shijing-014",
+    "lemma": "趯趯阜螽",
+    "page": 20,
+    "auditId": "ocr-check-2026-11-01"
+  },
+  {
+    "unit": 47,
+    "baseText": "憂心忡忡",
+    "base": "忡忡",
+    "readings": [
+      {
+        "text": "𢥞𢥞",
+        "witness": "袁書列魯詩",
+        "basis": "整理本列家別",
+        "schools": [
+          "魯"
+        ],
+        "note": "𢥞為U+2295E，從心、三虫；未以近形字代錄。"
+      },
+      {
+        "text": "冲冲",
+        "witness": "袁書列齊詩",
+        "basis": "整理本列家別",
+        "schools": [
+          "齊"
+        ],
+        "note": "原頁作冲冲；袁氏另說冲為沖之省，兩字分開著錄。"
+      }
+    ],
+    "note": "索引OCR仲仲改忡忡，補出漏抽的兩家讀法。",
+    "poemId": "shijing-014",
+    "lemma": "憂心忡忡",
+    "page": 20,
+    "auditId": "ocr-check-2026-11-01"
+  },
+  {
+    "unit": 48,
+    "baseText": "亦既覯止",
+    "base": "覯",
+    "readings": [
+      {
+        "text": "遘",
+        "witness": "袁書列魯詩；《爾雅》邢疏亦引詩作亦既遘止",
+        "basis": "整理本列家別",
+        "schools": [
+          "魯"
+        ],
+        "note": "魯詩歸屬依袁書明列，其他引詩同字不代表其家別也已確定。"
+      }
+    ],
+    "note": "原候選遘核字無誤；本字／假借說與傳本證據分開。",
+    "poemId": "shijing-014",
+    "lemma": "亦既覯止",
+    "page": 20,
+    "auditId": "ocr-check-2026-11-01"
+  },
+  {
+    "unit": 49,
+    "baseText": "我心則說",
+    "base": "說",
+    "readings": [
+      {
+        "text": "悅",
+        "witness": "《說苑》引詩",
+        "basis": "其他傳本",
+        "schools": [],
+        "note": "整理頁使用悅字的字形，本站以繁體悅錄。"
+      }
+    ],
+    "note": "原候選説誤抓作者說今字無復作說的結語；此非新異文。悅據《說苑》引詩補錄，未據書名自動分家。",
+    "poemId": "shijing-014",
+    "lemma": "我心則說",
+    "page": 20,
+    "auditId": "ocr-check-2026-11-01"
+  },
+  {
+    "unit": 50,
+    "baseText": "南澗之濱",
+    "base": "濱",
+    "readings": [
+      {
+        "text": "瀕",
+        "witness": "袁書據《說文》等所作古今字及省形說明",
+        "basis": "文字學相關字",
+        "schools": [],
+        "note": "",
+        "qualification": "字學說明"
+      },
+      {
+        "text": "頻",
+        "witness": "袁書據《說文》等所作古今字及省形說明",
+        "basis": "文字學相關字",
+        "schools": [],
+        "note": "",
+        "qualification": "字學說明"
+      }
+    ],
+    "note": "瀕、頻是本條文字演變討論所涉字，不表示已找到另一本詩作此字。",
+    "poemId": "shijing-015",
+    "lemma": "南澗之濱",
+    "page": 21,
+    "auditId": "ocr-check-2026-11-01"
+  },
+  {
+    "unit": 51,
+    "baseText": "于以采藻",
+    "base": "藻",
+    "readings": [
+      {
+        "text": "薻",
+        "witness": "《說文》引詩于以采薻",
+        "basis": "其他傳本",
+        "schools": [],
+        "note": "薻為U+85BB；袁氏另稱薻為正字、藻為或體，此為整理者判斷。"
+      }
+    ],
+    "note": "原未定位正文、未抽出候選；已據印刷頁21補錄《說文》引詩。",
+    "poemId": "shijing-015",
+    "lemma": "于以采藻",
+    "page": 21,
+    "auditId": "ocr-check-2026-11-01"
+  },
+  {
+    "unit": 52,
+    "baseText": "維筐及筥",
+    "base": "筥",
+    "readings": [
+      {
+        "text": "莒",
+        "witness": "《宋石經》",
+        "basis": "其他傳本",
+        "schools": [],
+        "note": ""
+      }
+    ],
+    "note": "索引OCR管、正文OCR筲均改筥，原候選斧刪除。本條另一字筐的避諱缺筆形另見核對記錄的單字圖，不配作相近Unicode。",
+    "poemId": "shijing-015",
+    "lemma": "維筐及筥",
+    "page": 21,
+    "auditId": "ocr-check-2026-11-01"
+  },
+  {
+    "unit": 53,
+    "baseText": "于以湘之",
+    "base": "湘",
+    "readings": [
+      {
+        "text": "鬺",
+        "witness": "《漢書·郊祀志》注引《韓詩》",
+        "basis": "整理本轉引古注",
+        "schools": [
+          "韓"
+        ],
+        "note": ""
+      }
+    ],
+    "note": "原候選鬺核字無誤；家別依整理頁轉引《韓詩》的明文。",
+    "poemId": "shijing-015",
+    "lemma": "于以湘之",
+    "page": 21,
+    "auditId": "ocr-check-2026-11-01"
+  }
+]

@@ -1,0 +1,25 @@
+Shijing rare-character webfonts
+
+These renamed WOFF2 subsets contain only the rare Unicode characters
+used in the reviewed records and full-book work index. Outlines are unchanged. They provide
+a readable font, not a facsimile or an independent textual witness.
+
+Original: Hanazono Mincho A/B, AFDKO edition, version 8.030
+Author: kawabata / GlyphWiki contributors
+Copyright in the source fonts: 2007-2018 GlyphWiki. All Rights Reserved.
+Source project: https://github.com/cjkvi/HanaMinAFDKO
+Release: https://github.com/cjkvi/HanaMinAFDKO/releases/tag/8.030
+The author's README states: "License follows GlyphWiki license."
+Original font name table license URL: http://glyphwiki.org/license.html
+
+GlyphWiki permits reproduction, modification, and reuse of glyph data,
+including use as the basis of a new font. The accompanying
+glyphwiki-license.txt preserves both the Japanese license text and its
+English translation, as distributed by Mozilla at:
+https://github.com/mozilla/gecko-dev/blob/master/layout/reftests/fonts/glyphwiki-license.txt
+The first line of that file identifies Mozilla's own font samples.
+
+Regenerate with scripts/build-shijing-pilot-font.py using fonttools[woff]
+and brotli, with the two official OTFs in .cache/modern-shijing.
+manifest.json records source URLs, SHA-256 hashes, and character coverage.
+Do not substitute these glyph outlines for a source page's precise glyph form.

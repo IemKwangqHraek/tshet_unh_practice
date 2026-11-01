@@ -1,0 +1,2602 @@
+{
+  "version": 2,
+  "retrievedOn": "2026-10-31",
+  "coverage": "全錄《詩經四家異文考》五卷、《三家詩異文疏證》六卷及補遺三卷、《三家詩遺說考》魯六卷、齊四卷、韓五卷，包含各書卷首目錄。《詩三家義集疏》另有十冊公開影印，文字尚未全錄。",
+  "verification": "保留來源轉錄全部段落、大小字及換頁標識。存在 OCR 誤字、殘缺及版心混入；未經逐頁影印核定。對句候選只按一字差異檢索，可能誤配，不能據此認定異文或家別。",
+  "attribution": "家別線索分為「原書編入某家」與「段中提及某家」，分別保存。原書分家仍可能是輯者推論。毛詩異本、音讀、訓詁、引文差異與考語均保留，不自動算作齊、魯、韓經文字異。",
+  "records": 17195,
+  "candidates": 1778,
+  "books": [
+    {
+      "id": "chen",
+      "title": "詩經四家異文考",
+      "author": "陳喬樅",
+      "edition": "皇清經解續編卷一千一百七十一至一千一百七十五",
+      "bookId": "CADAL06210229",
+      "catalogueNote": "識典書目誤標《群經識小》；書名及作者據各卷內題，不沿用外部書目。",
+      "referenceUrl": "https://ctext.org/library.pl?if=en&res=1361",
+      "volumes": 5
+    },
+    {
+      "id": "feng",
+      "title": "三家詩異文疏證",
+      "author": "王應麟集考、馮登府補釋",
+      "edition": "識典古籍所載影印轉錄，六卷、補遺三卷及卷首、目錄",
+      "bookId": "NGJ89241200000252019990",
+      "catalogueNote": "補充參照書；家別分卷編排仍保留於原書，不據單字或家名出現自動歸屬。",
+      "volumes": 11
+    },
+    {
+      "id": "yishuo",
+      "title": "三家詩遺說考",
+      "author": "陳壽祺撰、陳喬樅述",
+      "edition": "光緒八年本（識典古籍轉錄），魯詩六卷、齊詩四卷、韓詩五卷及卷首目錄，電子目錄分為58段",
+      "bookId": "CADAL01032644",
+      "catalogueNote": "兼收佚文、詩說、訓詁及異文。分家沿用輯書分類，仍須逐條辨別直接證據與輯者推論，不將全書都當成經文字異。",
+      "volumes": 58
+    }
+  ],
+  "volumes": [
+    {
+      "id": "chen-v1",
+      "bookId": "chen",
+      "name": "卷一",
+      "sourceChapterName": "卷一千一百七十一",
+      "chapterId": "1lmrd2yu5oy7i",
+      "volumeId": "7543019321195233280",
+      "volumeVersion": 5,
+      "url": "https://www.shidianguji.com/zh/book/CADAL06210229/chapter/1lmrd2yu5oy7i",
+      "expectedParagraphs": 1053,
+      "sourceFile": "chen-1.json",
+      "sourceFileSha256": "ded82970a2239986cec95d70002684a798e7af584eaeb5f54f1d4b68afb132fb",
+      "textSha256": "3331e61d74200da42b8dbb32d0eaffb19f930c9696cbe520e7051358903e8741"
+    },
+    {
+      "id": "chen-v2",
+      "bookId": "chen",
+      "name": "卷二",
+      "sourceChapterName": "卷一千一百七十二",
+      "chapterId": "1lmrd33s8cf8y",
+      "volumeId": "7543019677174202409",
+      "volumeVersion": 5,
+      "url": "https://www.shidianguji.com/zh/book/CADAL06210229/chapter/1lmrd33s8cf8y",
+      "expectedParagraphs": 1056,
+      "sourceFile": "chen-2.json",
+      "sourceFileSha256": "c6094b7d26286b7e07f5bb4458afb510706fea700826938a59e83b2ffe670dad",
+      "textSha256": "42c3e0db45e8b85f2af7ae003b2d07a00692421afe01fe20b78433efbbaad0db"
+    },
+    {
+      "id": "chen-v3",
+      "bookId": "chen",
+      "name": "卷三",
+      "sourceChapterName": "卷一千一百七十三",
+      "chapterId": "1lmrd3a07jmli",
+      "volumeId": "7543020030988910619",
+      "volumeVersion": 5,
+      "url": "https://www.shidianguji.com/zh/book/CADAL06210229/chapter/1lmrd3a07jmli",
+      "expectedParagraphs": 1543,
+      "sourceFile": "chen-3.json",
+      "sourceFileSha256": "d65779b5ab850a351f05b795c50e50275819a9f444c3b9112500feb7ca162077",
+      "textSha256": "287af00928c3b3249f7103de805feddeccd544534e231c098f1d4d4f9518eeb2"
+    },
+    {
+      "id": "chen-v4",
+      "bookId": "chen",
+      "name": "卷四",
+      "sourceChapterName": "卷一千一百七十四",
+      "chapterId": "1lmrd3fhrbi8r",
+      "volumeId": "7543020514197897268",
+      "volumeVersion": 5,
+      "url": "https://www.shidianguji.com/zh/book/CADAL06210229/chapter/1lmrd3fhrbi8r",
+      "expectedParagraphs": 1219,
+      "sourceFile": "chen-4.json",
+      "sourceFileSha256": "ee81c18ec3c640abdf4616f1298ba918918516f1a1460b3a67b2fd43b0227829",
+      "textSha256": "acb37f8893ee6ce9a09a19ed11e13d12570a4bd1d5cf3c78174b26608b7a6e2d"
+    },
+    {
+      "id": "chen-v5",
+      "bookId": "chen",
+      "name": "卷五",
+      "sourceChapterName": "卷一千一百七十五",
+      "chapterId": "1lmrd3jaa9ami",
+      "volumeId": "7543020894155702272",
+      "volumeVersion": 5,
+      "url": "https://www.shidianguji.com/zh/book/CADAL06210229/chapter/1lmrd3jaa9ami",
+      "expectedParagraphs": 683,
+      "sourceFile": "chen-5.json",
+      "sourceFileSha256": "7ee8699c6e1fc1ddb962236c7643a4c26b233936c6765bfd294e3ac49547f094",
+      "textSha256": "dd7e138384b5159b1d75db3c7263c8f62c76405f3f079997d98f7dca28120255"
+    },
+    {
+      "id": "feng-v1",
+      "bookId": "feng",
+      "name": "卷首",
+      "sourceChapterName": "卷首",
+      "chapterId": "1lqp4ilc89sfq",
+      "volumeId": "7581742296148738048",
+      "volumeVersion": 1,
+      "url": "https://www.shidianguji.com/zh/book/NGJ89241200000252019990/chapter/1lqp4ilc89sfq",
+      "expectedParagraphs": 11,
+      "sourceFile": "feng-1lqp4ilc89sfq.json",
+      "sourceFileSha256": "1e809c977df1763b6990fa44eac72fa2bf5d6b549337bd862a8859d7f3756855",
+      "textSha256": "e44ff85223ca36f5d551f05160d2170871bb57a570db75f741d12ca09187691f"
+    },
+    {
+      "id": "feng-v2",
+      "bookId": "feng",
+      "name": "目錄",
+      "sourceChapterName": "目錄",
+      "chapterId": "1lqp4ilc8nu46",
+      "volumeId": "7586927199681249295",
+      "volumeVersion": 2,
+      "url": "https://www.shidianguji.com/zh/book/NGJ89241200000252019990/chapter/1lqp4ilc8nu46",
+      "expectedParagraphs": 23,
+      "sourceFile": "feng-1lqp4ilc8nu46.json",
+      "sourceFileSha256": "0504de0ce917ee7c0e2f04d7ad7e368289ec47c362899e131e6dc2cb24f56bf2",
+      "textSha256": "469a8701e3d75c7a7bd4063857bb89cf7965dd124ab09f9b12d8920695b25913"
+    },
+    {
+      "id": "feng-v3",
+      "bookId": "feng",
+      "name": "卷一",
+      "sourceChapterName": "卷一",
+      "chapterId": "1lqp4k33lrne1",
+      "volumeId": "7586927215586050058",
+      "volumeVersion": 1,
+      "url": "https://www.shidianguji.com/zh/book/NGJ89241200000252019990/chapter/1lqp4k33lrne1",
+      "expectedParagraphs": 92,
+      "sourceFile": "feng-1lqp4k33lrne1.json",
+      "sourceFileSha256": "52af5c06d62d5fb22b6dfa58cf6bbdbd9912412fb895184a7404442b404d49b1",
+      "textSha256": "0dd7e2f2c77c34f2564493c0298d7729189509b31e70279e8906fc0b9aa30048"
+    },
+    {
+      "id": "feng-v4",
+      "bookId": "feng",
+      "name": "卷二",
+      "sourceChapterName": "卷二",
+      "chapterId": "1lqp4k47x6c73",
+      "volumeId": "7586927238918963250",
+      "volumeVersion": 1,
+      "url": "https://www.shidianguji.com/zh/book/NGJ89241200000252019990/chapter/1lqp4k47x6c73",
+      "expectedParagraphs": 149,
+      "sourceFile": "feng-1lqp4k47x6c73.json",
+      "sourceFileSha256": "dabd5ad57e29ff40e0e02da4ef5d7b9fd421726cff9164777578d65be2640f31",
+      "textSha256": "c827a025c6f35a826a44f056cd979aff1f5ecb7aa28b347e82838e5040815ca7"
+    },
+    {
+      "id": "feng-v5",
+      "bookId": "feng",
+      "name": "卷三",
+      "sourceChapterName": "卷三",
+      "chapterId": "1lqp4k64lmz3z",
+      "volumeId": "7586927269931646991",
+      "volumeVersion": 1,
+      "url": "https://www.shidianguji.com/zh/book/NGJ89241200000252019990/chapter/1lqp4k64lmz3z",
+      "expectedParagraphs": 170,
+      "sourceFile": "feng-1lqp4k64lmz3z.json",
+      "sourceFileSha256": "1e6804ed449bd3d4c455ddf6c7434de476278a885c333343c5d950adcaa830b7",
+      "textSha256": "ebb34d1d05ffcdebc986a5ce76cbc7a5b1bffa11b159cb9585d2ffd308a7cf9a"
+    },
+    {
+      "id": "feng-v6",
+      "bookId": "feng",
+      "name": "卷四",
+      "sourceChapterName": "卷四",
+      "chapterId": "1lqp4k7ese0x5",
+      "volumeId": "7586927306627612726",
+      "volumeVersion": 1,
+      "url": "https://www.shidianguji.com/zh/book/NGJ89241200000252019990/chapter/1lqp4k7ese0x5",
+      "expectedParagraphs": 146,
+      "sourceFile": "feng-1lqp4k7ese0x5.json",
+      "sourceFileSha256": "600e85fafd4a5c30e73ce6fd97acc822d8697206c223cdef56a410467d21ad6b",
+      "textSha256": "a5cc500446464467fdab65953e22a765ac19bc3c373f6213911278a929f32138"
+    },
+    {
+      "id": "feng-v7",
+      "bookId": "feng",
+      "name": "卷五",
+      "sourceChapterName": "卷五",
+      "chapterId": "1lqp4k7l19t0p",
+      "volumeId": "7586927342430191658",
+      "volumeVersion": 1,
+      "url": "https://www.shidianguji.com/zh/book/NGJ89241200000252019990/chapter/1lqp4k7l19t0p",
+      "expectedParagraphs": 42,
+      "sourceFile": "feng-1lqp4k7l19t0p.json",
+      "sourceFileSha256": "7ec95ee32c8dd9e4e9c799d08c9b86744d51a24ef9f0a71d3fb787ae4404b319",
+      "textSha256": "21f503fad1bdf7d4dbd037f50b581769261b67e8078698b9fa824e2c46aef29f"
+    },
+    {
+      "id": "feng-v8",
+      "bookId": "feng",
+      "name": "卷六",
+      "sourceChapterName": "卷六",
+      "chapterId": "1lqp4k9kr30h0",
+      "volumeId": "7586927375967846434",
+      "volumeVersion": 2,
+      "url": "https://www.shidianguji.com/zh/book/NGJ89241200000252019990/chapter/1lqp4k9kr30h0",
+      "expectedParagraphs": 42,
+      "sourceFile": "feng-1lqp4k9kr30h0.json",
+      "sourceFileSha256": "daf0665ec3ff9cf7df61098848205bb990d55ce14cc7e7aeb023e68fbcf8d80f",
+      "textSha256": "3fbc2d3d92b29e5270c2e677014320905e3d737cfc9791f092d09b59e09304e8"
+    },
+    {
+      "id": "feng-v9",
+      "bookId": "feng",
+      "name": "補遺卷一",
+      "sourceChapterName": "補遺卷一",
+      "chapterId": "1lqp4ka55s4sf",
+      "volumeId": "7586927393944633390",
+      "volumeVersion": 1,
+      "url": "https://www.shidianguji.com/zh/book/NGJ89241200000252019990/chapter/1lqp4ka55s4sf",
+      "expectedParagraphs": 156,
+      "sourceFile": "feng-1lqp4ka55s4sf.json",
+      "sourceFileSha256": "9ba28cb51832e8e0b9ed140afda43be3fd215fff86f3c86b2fec32299e68796c",
+      "textSha256": "04a25964b4623a4abf2121778fb9de57d7720e6afd3ed497cba1ccf6eb224976"
+    },
+    {
+      "id": "feng-v10",
+      "bookId": "feng",
+      "name": "補遺卷二",
+      "sourceChapterName": "補遺卷二",
+      "chapterId": "1lqp4kbqxy9za",
+      "volumeId": "7586927414991650831",
+      "volumeVersion": 1,
+      "url": "https://www.shidianguji.com/zh/book/NGJ89241200000252019990/chapter/1lqp4kbqxy9za",
+      "expectedParagraphs": 398,
+      "sourceFile": "feng-1lqp4kbqxy9za.json",
+      "sourceFileSha256": "d804a4364e09a75a14780bd2b5ed6a15540d2a7f68fa48b3ab6b19b9f7259487",
+      "textSha256": "982d4125cf849142e879583cb6134ca4eb7acab101f3c46ea8c214394a1ff3c3"
+    },
+    {
+      "id": "feng-v11",
+      "bookId": "feng",
+      "name": "補遺卷三",
+      "sourceChapterName": "補遺卷三",
+      "chapterId": "1lqp4kbuju1x2",
+      "volumeId": "7586927461200297993",
+      "volumeVersion": 1,
+      "url": "https://www.shidianguji.com/zh/book/NGJ89241200000252019990/chapter/1lqp4kbuju1x2",
+      "expectedParagraphs": 44,
+      "sourceFile": "feng-1lqp4kbuju1x2.json",
+      "sourceFileSha256": "d4aff96508cdc1161fe3ee77c58070af451aa0661d09ac0e00eb4ab10c128e2c",
+      "textSha256": "08eeb0947f03f539c0b9c4d4a2b2787b83de7d749695dd26788f9e9d892b2a63"
+    },
+    {
+      "id": "yishuo-v1",
+      "bookId": "yishuo",
+      "name": "三家詩遺说攷卷首",
+      "sourceChapterName": "三家詩遺说攷卷首",
+      "chapterId": "1lfudskensw1r",
+      "volumeId": "7548019664324919323",
+      "volumeVersion": 11,
+      "url": "https://www.shidianguji.com/zh/book/CADAL01032644/chapter/1lfudskensw1r",
+      "expectedParagraphs": 17,
+      "sourceFile": "yishuo-1lfudskensw1r.json",
+      "sourceFileSha256": "d777b650b64700c8885a2008e69cd71fa6ed2996827980f679a3898a8a144cc2",
+      "textSha256": "b753dcb5affb88a8b2b53d9c849db47583bcb8b52297fb40ff0d85d24c322abd"
+    },
+    {
+      "id": "yishuo-v2",
+      "bookId": "yishuo",
+      "name": "魯詩遺說攷卷首",
+      "sourceChapterName": "魯詩遺說攷卷首",
+      "chapterId": "1lfudtacjzgae",
+      "volumeId": "7553590655100911657",
+      "volumeVersion": 11,
+      "url": "https://www.shidianguji.com/zh/book/CADAL01032644/chapter/1lfudtacjzgae",
+      "expectedParagraphs": 118,
+      "sourceFile": "yishuo-1lfudtacjzgae.json",
+      "sourceFileSha256": "d885f66504f872b2c2fc682656e7210e02f46a9c7603de2e93d674a2dc58e54a",
+      "sourceSchool": "魯",
+      "textSha256": "ae934122eac0005446fbeca4a474050960388f6e3c11a4fb997eeb0cbe474eb2"
+    },
+    {
+      "id": "yishuo-v3",
+      "bookId": "yishuo",
+      "name": "魯詩遺說攷目錄",
+      "sourceChapterName": "魯詩遺說攷目錄",
+      "chapterId": "1lfudtbhm16az",
+      "volumeId": "7553591003379138612",
+      "volumeVersion": 11,
+      "url": "https://www.shidianguji.com/zh/book/CADAL01032644/chapter/1lfudtbhm16az",
+      "expectedParagraphs": 3,
+      "sourceFile": "yishuo-1lfudtbhm16az.json",
+      "sourceFileSha256": "21abf9c7ef7a530bd52ce2be1efca946d5b68e9d207eb4f4c160a5e3b4860467",
+      "sourceSchool": "魯",
+      "textSha256": "da59e0883e3bebb50e7d38cc6edcafcc398cb67f3c4c71169217f997c47d9083"
+    },
+    {
+      "id": "yishuo-v4",
+      "bookId": "yishuo",
+      "name": "魯詩遺說攷卷第一",
+      "sourceChapterName": "魯詩遺說攷卷第一",
+      "chapterId": "1lfudtdzdnnl3",
+      "volumeId": "7553590984269889545",
+      "volumeVersion": 11,
+      "url": "https://www.shidianguji.com/zh/book/CADAL01032644/chapter/1lfudtdzdnnl3",
+      "expectedParagraphs": 308,
+      "sourceFile": "yishuo-1lfudtdzdnnl3.json",
+      "sourceFileSha256": "0128ff335ed766827df3a8aa85df78c3706c90621dd50cfea7010fc8da47e005",
+      "sourceSchool": "魯",
+      "textSha256": "885db753b4459ba1afb8950eac5c6c7f171c361a0ddc6f2849e8dc8d7906ef5a"
+    },
+    {
+      "id": "yishuo-v5",
+      "bookId": "yishuo",
+      "name": "魯詩遺說攷卷一之二",
+      "sourceChapterName": "魯詩遺說攷卷一之二",
+      "chapterId": "1lfudtgccjosf",
+      "volumeId": "7549767223259168768",
+      "volumeVersion": 11,
+      "url": "https://www.shidianguji.com/zh/book/CADAL01032644/chapter/1lfudtgccjosf",
+      "expectedParagraphs": 276,
+      "sourceFile": "yishuo-1lfudtgccjosf.json",
+      "sourceFileSha256": "d189087d119cdb20acdcd1e9cc7fcb89f66f9b83cd9ec79c0b816ba6b2caa5ec",
+      "sourceSchool": "魯",
+      "textSha256": "a262489a80241656bed5b13d0635761b4eda487622de7caba6e6028e6a591f50"
+    },
+    {
+      "id": "yishuo-v6",
+      "bookId": "yishuo",
+      "name": "魯詩遺說攷卷一之三",
+      "sourceChapterName": "魯詩遺說攷卷一之三",
+      "chapterId": "1lfudtiibh3pv",
+      "volumeId": "7553591474005213218",
+      "volumeVersion": 11,
+      "url": "https://www.shidianguji.com/zh/book/CADAL01032644/chapter/1lfudtiibh3pv",
+      "expectedParagraphs": 254,
+      "sourceFile": "yishuo-1lfudtiibh3pv.json",
+      "sourceFileSha256": "fd51a439d9b15c4993b439267bfeef5d80e3144512525978f8dfa6578c61058c",
+      "sourceSchool": "魯",
+      "textSha256": "0309d228e75216b3b8afedfbb426afa005759ce2849f72188e76e2642ccb0ebc"
+    },
+    {
+      "id": "yishuo-v7",
+      "bookId": "yishuo",
+      "name": "魯詩遺說攷卷二之一",
+      "sourceChapterName": "魯詩遺說攷卷二之一",
+      "chapterId": "1lfudtkqa8i7q",
+      "volumeId": "7549767355060977673",
+      "volumeVersion": 11,
+      "url": "https://www.shidianguji.com/zh/book/CADAL01032644/chapter/1lfudtkqa8i7q",
+      "expectedParagraphs": 233,
+      "sourceFile": "yishuo-1lfudtkqa8i7q.json",
+      "sourceFileSha256": "4b5a45b6c50f5088d63d2949a6a2f6b6ee48f16fb0678be4862a867f466a05db",
+      "sourceSchool": "魯",
+      "textSha256": "969a29364f60b7649ab759707b86f07c1ef16cca9583fb8ec228d75e09bb5b02"
+    },
+    {
+      "id": "yishuo-v8",
+      "bookId": "yishuo",
+      "name": "魯詩遺說攷卷二之二",
+      "sourceChapterName": "魯詩遺說攷卷二之二",
+      "chapterId": "1lfudtmn6ewx3",
+      "volumeId": "7553591743191449652",
+      "volumeVersion": 11,
+      "url": "https://www.shidianguji.com/zh/book/CADAL01032644/chapter/1lfudtmn6ewx3",
+      "expectedParagraphs": 247,
+      "sourceFile": "yishuo-1lfudtmn6ewx3.json",
+      "sourceFileSha256": "37e384b164019a320318d76080ca1481607b18537c71e8ce601e101dfca33650",
+      "sourceSchool": "魯",
+      "textSha256": "5068da81a4e60726ca7f609a498a22813edd1c3d67ee3e43d172407b661edbe8"
+    },
+    {
+      "id": "yishuo-v9",
+      "bookId": "yishuo",
+      "name": "魯詩遺說攷卷二之三",
+      "sourceChapterName": "魯詩遺說攷卷二之三",
+      "chapterId": "1lfudtnx3hlwp",
+      "volumeId": "7553591894651961359",
+      "volumeVersion": 11,
+      "url": "https://www.shidianguji.com/zh/book/CADAL01032644/chapter/1lfudtnx3hlwp",
+      "expectedParagraphs": 177,
+      "sourceFile": "yishuo-1lfudtnx3hlwp.json",
+      "sourceFileSha256": "0226ba791bcb80e913ca70d9a8b3df526e4d9fca69ac600328908c55ff83244f",
+      "sourceSchool": "魯",
+      "textSha256": "f3a1715361916fc1be6f5c3157f17528ca9ddfc618d1286831b432a18d51aee7"
+    },
+    {
+      "id": "yishuo-v10",
+      "bookId": "yishuo",
+      "name": "魯詩遺說攷卷二之四",
+      "sourceChapterName": "魯詩遺說攷卷二之四",
+      "chapterId": "1lfudtq8oh2qs",
+      "volumeId": "7549767536057778191",
+      "volumeVersion": 11,
+      "url": "https://www.shidianguji.com/zh/book/CADAL01032644/chapter/1lfudtq8oh2qs",
+      "expectedParagraphs": 62,
+      "sourceFile": "yishuo-1lfudtq8oh2qs.json",
+      "sourceFileSha256": "b28a5cf96aa90e864e47c151b2f9c524f745255b0fb175a55c37524a2ffc6bcf",
+      "sourceSchool": "魯",
+      "textSha256": "498dafca68e41df6504b5078b49dbd70bf2fea7e69c9ac4c3eed3203a4d9266b"
+    },
+    {
+      "id": "yishuo-v11",
+      "bookId": "yishuo",
+      "name": "魯詩遺說攷卷三之一",
+      "sourceChapterName": "魯詩遺說攷卷三之一",
+      "chapterId": "1lfudtrsiy52f",
+      "volumeId": "7549767596535447571",
+      "volumeVersion": 11,
+      "url": "https://www.shidianguji.com/zh/book/CADAL01032644/chapter/1lfudtrsiy52f",
+      "expectedParagraphs": 189,
+      "sourceFile": "yishuo-1lfudtrsiy52f.json",
+      "sourceFileSha256": "4a7845ce0964985e3e591a35db679c9fd4b8aabe6df3e443c165211e21087191",
+      "sourceSchool": "魯",
+      "textSha256": "ccb3b3735680672a87ec4d5f70ee7e608dd12d66224f311560c99ffb00ed7ba0"
+    },
+    {
+      "id": "yishuo-v12",
+      "bookId": "yishuo",
+      "name": "魯詩遺說攷卷三之二",
+      "sourceChapterName": "魯詩遺說攷卷三之二",
+      "chapterId": "1lfudtu1q8yt2",
+      "volumeId": "7553592663744708642",
+      "volumeVersion": 11,
+      "url": "https://www.shidianguji.com/zh/book/CADAL01032644/chapter/1lfudtu1q8yt2",
+      "expectedParagraphs": 157,
+      "sourceFile": "yishuo-1lfudtu1q8yt2.json",
+      "sourceFileSha256": "2a74fffa9de12471dd20440cd348b9b23754e0e55cda6008f8c15aa96e4eddc4",
+      "sourceSchool": "魯",
+      "textSha256": "2e72fb2726127f45fc0900eb6430589a90b09912efd85c4c74494c4019780265"
+    },
+    {
+      "id": "yishuo-v13",
+      "bookId": "yishuo",
+      "name": "魯詩遺說攷卷三之三",
+      "sourceChapterName": "魯詩遺說攷卷三之三",
+      "chapterId": "1lfudtupqiz3d",
+      "volumeId": "7549767709118955535",
+      "volumeVersion": 11,
+      "url": "https://www.shidianguji.com/zh/book/CADAL01032644/chapter/1lfudtupqiz3d",
+      "expectedParagraphs": 121,
+      "sourceFile": "yishuo-1lfudtupqiz3d.json",
+      "sourceFileSha256": "5aca957b726a7b93ae552236e8980a7c9e36408347da7e177e46de5dcf015460",
+      "sourceSchool": "魯",
+      "textSha256": "e44402a428808fd2457fad688ae520fc224e7c5e31af8140ef13fcd87ae36f59"
+    },
+    {
+      "id": "yishuo-v14",
+      "bookId": "yishuo",
+      "name": "魯詩遺說攷卷第四",
+      "sourceChapterName": "魯詩遺說攷卷第四",
+      "chapterId": "1lfudtxvd78lb",
+      "volumeId": "7553592829927227444",
+      "volumeVersion": 11,
+      "url": "https://www.shidianguji.com/zh/book/CADAL01032644/chapter/1lfudtxvd78lb",
+      "expectedParagraphs": 390,
+      "sourceFile": "yishuo-1lfudtxvd78lb.json",
+      "sourceFileSha256": "5be271f6c951ead45bcade3f73ddc9bf47be9b90a9ea4ec145a0181b4437e19b",
+      "sourceSchool": "魯",
+      "textSha256": "ca325524c136f19ad013c49a774c230dffb241faa11bd77035275e4466f47e66"
+    },
+    {
+      "id": "yishuo-v15",
+      "bookId": "yishuo",
+      "name": "魯詩遺說攷卷四之二",
+      "sourceChapterName": "魯詩遺說攷卷四之二",
+      "chapterId": "1lfudtzftik9z",
+      "volumeId": "7549767832175640627",
+      "volumeVersion": 11,
+      "url": "https://www.shidianguji.com/zh/book/CADAL01032644/chapter/1lfudtzftik9z",
+      "expectedParagraphs": 181,
+      "sourceFile": "yishuo-1lfudtzftik9z.json",
+      "sourceFileSha256": "5be49de7b41eaa859a3ac5dd4ff4597588d857ac91a201c10e9f83b194016625",
+      "sourceSchool": "魯",
+      "textSha256": "504c82f9e72e0861792d2e2197f8c000ebc948e6c287c40232937099afe9c85e"
+    },
+    {
+      "id": "yishuo-v16",
+      "bookId": "yishuo",
+      "name": "魯詩遺說攷卷四之三",
+      "sourceChapterName": "魯詩遺說攷卷四之三",
+      "chapterId": "1lfudtzs3sff7",
+      "volumeId": "7553593081824542755",
+      "volumeVersion": 11,
+      "url": "https://www.shidianguji.com/zh/book/CADAL01032644/chapter/1lfudtzs3sff7",
+      "expectedParagraphs": 118,
+      "sourceFile": "yishuo-1lfudtzs3sff7.json",
+      "sourceFileSha256": "82be2c1dc57e995567969280765c2ddd2744a23ca10c337c070bb5c839272d74",
+      "sourceSchool": "魯",
+      "textSha256": "22b40e2dbb7ee1c530bfe5a2e93753d2a1d60741aecfe65ca42e118d07e97596"
+    },
+    {
+      "id": "yishuo-v17",
+      "bookId": "yishuo",
+      "name": "魯詩遺說攷卷四之四",
+      "sourceChapterName": "魯詩遺說攷卷四之四",
+      "chapterId": "1lfudu0dolvs9",
+      "volumeId": "7553593144802017280",
+      "volumeVersion": 11,
+      "url": "https://www.shidianguji.com/zh/book/CADAL01032644/chapter/1lfudu0dolvs9",
+      "expectedParagraphs": 132,
+      "sourceFile": "yishuo-1lfudu0dolvs9.json",
+      "sourceFileSha256": "f91739984756a1f871e71231709c8b1e62a0cece18f14b98b208c249e7aa1a87",
+      "sourceSchool": "魯",
+      "textSha256": "18091da595bada9ec49a30f277c87589fc43def20b4237e510657cdb00ad3f44"
+    },
+    {
+      "id": "yishuo-v18",
+      "bookId": "yishuo",
+      "name": "魯詩遺說攷卷五之一",
+      "sourceChapterName": "魯詩遺說攷卷五之一",
+      "chapterId": "1lfudu32l5q1z",
+      "volumeId": "7553593237349335075",
+      "volumeVersion": 11,
+      "url": "https://www.shidianguji.com/zh/book/CADAL01032644/chapter/1lfudu32l5q1z",
+      "expectedParagraphs": 297,
+      "sourceFile": "yishuo-1lfudu32l5q1z.json",
+      "sourceFileSha256": "3763a658ee62239c5bb190d46c8fbbf700f09a67eb51bf3cebb4179cf70b9274",
+      "sourceSchool": "魯",
+      "textSha256": "1e17029479d7a0d9263343351ed821b5fee145055664597d6047212bc0f5a845"
+    },
+    {
+      "id": "yishuo-v19",
+      "bookId": "yishuo",
+      "name": "魯詩遺說攷卷五之二",
+      "sourceChapterName": "魯詩遺說攷卷五之二",
+      "chapterId": "1lfudu5eaugc6",
+      "volumeId": "7549767997200531483",
+      "volumeVersion": 11,
+      "url": "https://www.shidianguji.com/zh/book/CADAL01032644/chapter/1lfudu5eaugc6",
+      "expectedParagraphs": 237,
+      "sourceFile": "yishuo-1lfudu5eaugc6.json",
+      "sourceFileSha256": "cb9d844f69c57ace06db0bc798214210db1530aabc28387b2c0624ccc5b16087",
+      "sourceSchool": "魯",
+      "textSha256": "f9a8faf1ff0cfd74448c8cc031ada40b4524f292278c99c180cf6b0f74dadc9f"
+    },
+    {
+      "id": "yishuo-v20",
+      "bookId": "yishuo",
+      "name": "魯詩遺說攷卷五之三",
+      "sourceChapterName": "魯詩遺說攷卷五之三",
+      "chapterId": "1lfudu7lgh9uv",
+      "volumeId": "7553597519242985522",
+      "volumeVersion": 11,
+      "url": "https://www.shidianguji.com/zh/book/CADAL01032644/chapter/1lfudu7lgh9uv",
+      "expectedParagraphs": 383,
+      "sourceFile": "yishuo-1lfudu7lgh9uv.json",
+      "sourceFileSha256": "d93552f96b977a2e7002c562f07b85425226be81730f00a774174b99e2f9eabe",
+      "sourceSchool": "魯",
+      "textSha256": "609ade75ab97bef252785b8b82aba5fdb7880424ce78dbac442f86688205a120"
+    },
+    {
+      "id": "yishuo-v21",
+      "bookId": "yishuo",
+      "name": "魯詩遺說攷卷六之一",
+      "sourceChapterName": "魯詩遺說攷卷六之一",
+      "chapterId": "1lfuduahke9lz",
+      "volumeId": "7549768143581741090",
+      "volumeVersion": 11,
+      "url": "https://www.shidianguji.com/zh/book/CADAL01032644/chapter/1lfuduahke9lz",
+      "expectedParagraphs": 322,
+      "sourceFile": "yishuo-1lfuduahke9lz.json",
+      "sourceFileSha256": "d4e424048ddafe0c426ecf89e37f252b012f09fdaaf6cc924f89248a64f1b0bd",
+      "sourceSchool": "魯",
+      "textSha256": "4b1d292a3e9fb1db0d2fc2066f009c34948bbebc876454ea8e937c5b0ee4256f"
+    },
+    {
+      "id": "yishuo-v22",
+      "bookId": "yishuo",
+      "name": "魯詩遺說攷卷六之二",
+      "sourceChapterName": "魯詩遺說攷卷六之二",
+      "chapterId": "1lfuduaofr4u7",
+      "volumeId": "7553597861590466612",
+      "volumeVersion": 11,
+      "url": "https://www.shidianguji.com/zh/book/CADAL01032644/chapter/1lfuduaofr4u7",
+      "expectedParagraphs": 104,
+      "sourceFile": "yishuo-1lfuduaofr4u7.json",
+      "sourceFileSha256": "7121fb8ab3c59e839efe9f8ef560db1440f2059fc0f8c92a7c326d90ff689af6",
+      "sourceSchool": "魯",
+      "textSha256": "688a05a54c12d94e951b52c4609c8eede2a4cb19667d9876e897a096fec906c1"
+    },
+    {
+      "id": "yishuo-v23",
+      "bookId": "yishuo",
+      "name": "魯詩遺說攷卷六之三",
+      "sourceChapterName": "魯詩遺說攷卷六之三",
+      "chapterId": "1lfudubhs506i",
+      "volumeId": "7553598414085160960",
+      "volumeVersion": 11,
+      "url": "https://www.shidianguji.com/zh/book/CADAL01032644/chapter/1lfudubhs506i",
+      "expectedParagraphs": 108,
+      "sourceFile": "yishuo-1lfudubhs506i.json",
+      "sourceFileSha256": "dc43d2c37248e3923bebb3911f2ce3c69e3d5430b399a79b1b8a5da6c4ba7f41",
+      "sourceSchool": "魯",
+      "textSha256": "199fcb33f52d2283b044dc6a7783e12d8ada5fd408205b50e016d330847ba753"
+    },
+    {
+      "id": "yishuo-v24",
+      "bookId": "yishuo",
+      "name": "齊詩遺說攷卷首",
+      "sourceChapterName": "齊詩遺說攷卷首",
+      "chapterId": "1lfudubhsickq",
+      "volumeId": "7549768274603409459",
+      "volumeVersion": 11,
+      "url": "https://www.shidianguji.com/zh/book/CADAL01032644/chapter/1lfudubhsickq",
+      "expectedParagraphs": 29,
+      "sourceFile": "yishuo-1lfudubhsickq.json",
+      "sourceFileSha256": "69a5e939b13d72453645f4bfd94a1f2d8e1029f01eb8ef5471fac208a2e9327a",
+      "sourceSchool": "齊",
+      "textSha256": "cdda98fcf10da53e316166a69a6e956953e2390a70c7f1df99d952bd6759f617"
+    },
+    {
+      "id": "yishuo-v25",
+      "bookId": "yishuo",
+      "name": "齊詩遺說攷目錄",
+      "sourceChapterName": "齊詩遺說攷目錄",
+      "chapterId": "1lfuducbvp82y",
+      "volumeId": "7553598512596779060",
+      "volumeVersion": 11,
+      "url": "https://www.shidianguji.com/zh/book/CADAL01032644/chapter/1lfuducbvp82y",
+      "expectedParagraphs": 1,
+      "sourceFile": "yishuo-1lfuducbvp82y.json",
+      "sourceFileSha256": "ba3d557007c3546874b86460f6f253312b636cee0c409c7a50d13bb63e1b5c7b",
+      "sourceSchool": "齊",
+      "textSha256": "f13c7fb33da37d02fd1cd7d6aeaf923001c30ec771ebbcfe6d563b207ba7d680"
+    },
+    {
+      "id": "yishuo-v26",
+      "bookId": "yishuo",
+      "name": "齊詩遺說攷前序",
+      "sourceChapterName": "齊詩遺說攷前序",
+      "chapterId": "1lfududoaoysr",
+      "volumeId": "7553598561435254819",
+      "volumeVersion": 11,
+      "url": "https://www.shidianguji.com/zh/book/CADAL01032644/chapter/1lfududoaoysr",
+      "expectedParagraphs": 55,
+      "sourceFile": "yishuo-1lfududoaoysr.json",
+      "sourceFileSha256": "b26845426be7a7ed40f92bddab01c0e8efb87a81492e4330acdfde9761fc1225",
+      "sourceSchool": "齊",
+      "textSha256": "cff3d373869d1eef72700c2f222a42f5f3cbfe191141b20a5c2867907161aa79"
+    },
+    {
+      "id": "yishuo-v27",
+      "bookId": "yishuo",
+      "name": "齊詩遺說攷卷第一",
+      "sourceChapterName": "齊詩遺說攷卷第一",
+      "chapterId": "1lfudufgetv0f",
+      "volumeId": "7553598652338405428",
+      "volumeVersion": 11,
+      "url": "https://www.shidianguji.com/zh/book/CADAL01032644/chapter/1lfudufgetv0f",
+      "expectedParagraphs": 223,
+      "sourceFile": "yishuo-1lfudufgetv0f.json",
+      "sourceFileSha256": "d61063404579989a228e46c27866a12236a1f3be6764c31ee6aa9cac49187938",
+      "sourceSchool": "齊",
+      "textSha256": "fb52871dd7ef05507e9b26141d5b1e68a6b4d836a21313f0dccce7551240cbaf"
+    },
+    {
+      "id": "yishuo-v28",
+      "bookId": "yishuo",
+      "name": "齊詩遺說攷卷一之二",
+      "sourceChapterName": "齊詩遺說攷卷一之二",
+      "chapterId": "1lfudui0kqr6y",
+      "volumeId": "7553598782659625001",
+      "volumeVersion": 11,
+      "url": "https://www.shidianguji.com/zh/book/CADAL01032644/chapter/1lfudui0kqr6y",
+      "expectedParagraphs": 294,
+      "sourceFile": "yishuo-1lfudui0kqr6y.json",
+      "sourceFileSha256": "dcf1bd12b2c270adc0dafe05e317117f380d8f9bc2c9d44c02d764523fbf11a1",
+      "sourceSchool": "齊",
+      "textSha256": "c1b3e6c730d897168baf41d7565392cbb6e23f827f89a945976da4a854ad2c81"
+    },
+    {
+      "id": "yishuo-v29",
+      "bookId": "yishuo",
+      "name": "齊詩遺說攷卷一之三",
+      "sourceChapterName": "齊詩遺說攷卷一之三",
+      "chapterId": "1lfudujjity5y",
+      "volumeId": "7549768455868645416",
+      "volumeVersion": 11,
+      "url": "https://www.shidianguji.com/zh/book/CADAL01032644/chapter/1lfudujjity5y",
+      "expectedParagraphs": 223,
+      "sourceFile": "yishuo-1lfudujjity5y.json",
+      "sourceFileSha256": "6a355a76c540ccd4e5a089594f0a91cb9b7bdeaf1689b70948291ad24b62131b",
+      "sourceSchool": "齊",
+      "textSha256": "0bd67110bc91d35ecde8c5b6c5b5eed7f9dcedf59c00b000e43c8e5ad34e918c"
+    },
+    {
+      "id": "yishuo-v30",
+      "bookId": "yishuo",
+      "name": "齊詩遺說攷卷一之四",
+      "sourceChapterName": "齊詩遺說攷卷一之四",
+      "chapterId": "1lfudul156vxg",
+      "volumeId": "7553599587907272739",
+      "volumeVersion": 11,
+      "url": "https://www.shidianguji.com/zh/book/CADAL01032644/chapter/1lfudul156vxg",
+      "expectedParagraphs": 221,
+      "sourceFile": "yishuo-1lfudul156vxg.json",
+      "sourceFileSha256": "3ab585a0d7310c45a74fa2d3613112196838163c8226fdd264a7a54f2918e4a0",
+      "sourceSchool": "齊",
+      "textSha256": "6d7af13d318193ac86d9fe2e22ac74eda9a6e3136d98069878a4068a88f73e97"
+    },
+    {
+      "id": "yishuo-v31",
+      "bookId": "yishuo",
+      "name": "齊詩遺說攷卷二之一",
+      "sourceChapterName": "齊詩遺說攷卷二之一",
+      "chapterId": "1lfudum8xbl0k",
+      "volumeId": "7549768556984926250",
+      "volumeVersion": 11,
+      "url": "https://www.shidianguji.com/zh/book/CADAL01032644/chapter/1lfudum8xbl0k",
+      "expectedParagraphs": 250,
+      "sourceFile": "yishuo-1lfudum8xbl0k.json",
+      "sourceFileSha256": "c47ed47e99af5cab0a089349845e753a4f38dc4455b0b6278c4cc7521ca7d40c",
+      "sourceSchool": "齊",
+      "textSha256": "74a475c0b86c41f0031275637822a35296f0b2039f2707c25f559d0c54873eae"
+    },
+    {
+      "id": "yishuo-v32",
+      "bookId": "yishuo",
+      "name": "齊詩遺說攷卷第二",
+      "sourceChapterName": "齊詩遺說攷卷第二",
+      "chapterId": "1lfudup1wge95",
+      "volumeId": "7553599799367303168",
+      "volumeVersion": 11,
+      "url": "https://www.shidianguji.com/zh/book/CADAL01032644/chapter/1lfudup1wge95",
+      "expectedParagraphs": 267,
+      "sourceFile": "yishuo-1lfudup1wge95.json",
+      "sourceFileSha256": "1e975333977fc472478f491b1792315d51f18d84cb78159ad12c3070f16214cf",
+      "sourceSchool": "齊",
+      "textSha256": "ff198abb7201e756a8ae731b0ed3ca68bee47ddc259a5a50e854e0a22009a608"
+    },
+    {
+      "id": "yishuo-v33",
+      "bookId": "yishuo",
+      "name": "齊詩遺說攷卷第二",
+      "sourceChapterName": "齊詩遺說攷卷第二",
+      "chapterId": "1lfuduqk7wj6v",
+      "volumeId": "7549768691810828323",
+      "volumeVersion": 11,
+      "url": "https://www.shidianguji.com/zh/book/CADAL01032644/chapter/1lfuduqk7wj6v",
+      "expectedParagraphs": 223,
+      "sourceFile": "yishuo-1lfuduqk7wj6v.json",
+      "sourceFileSha256": "89c16ee0e4f7065337ed89f6f498f8eaaac5f952b2f85664c6722019134156c9",
+      "sourceSchool": "齊",
+      "textSha256": "8499e0ebd9ecbb8be868ffd653a226552220a452d1f9afb9210926b186f0f17a"
+    },
+    {
+      "id": "yishuo-v34",
+      "bookId": "yishuo",
+      "name": "齊詩遺說攷卷三之一",
+      "sourceChapterName": "齊詩遺說攷卷三之一",
+      "chapterId": "1lfudusnwchm1",
+      "volumeId": "7553600010785390626",
+      "volumeVersion": 11,
+      "url": "https://www.shidianguji.com/zh/book/CADAL01032644/chapter/1lfudusnwchm1",
+      "expectedParagraphs": 240,
+      "sourceFile": "yishuo-1lfudusnwchm1.json",
+      "sourceFileSha256": "703719c08e386e791aea8bd8bf802b3b9da1957d8041fa1d8a8ebd83ae390a9f",
+      "sourceSchool": "齊",
+      "textSha256": "a14299552733b5e8fb85a0b4f449d7ec0c857ff9103ca528b0ebca1ce8037bc5"
+    },
+    {
+      "id": "yishuo-v35",
+      "bookId": "yishuo",
+      "name": "齊詩遺說攷卷三之二",
+      "sourceChapterName": "齊詩遺說攷卷三之二",
+      "chapterId": "1lfuduursh5w3",
+      "volumeId": "7553600174069645348",
+      "volumeVersion": 11,
+      "url": "https://www.shidianguji.com/zh/book/CADAL01032644/chapter/1lfuduursh5w3",
+      "expectedParagraphs": 325,
+      "sourceFile": "yishuo-1lfuduursh5w3.json",
+      "sourceFileSha256": "f279b4b5111cc4e74755f6007df8c09e0d37c4df2fbe6668527f980084a5c8b5",
+      "sourceSchool": "齊",
+      "textSha256": "d3cd100f94c2cdd889ba307738e486af20b1bece9837512276ab28ae136692cc"
+    },
+    {
+      "id": "yishuo-v36",
+      "bookId": "yishuo",
+      "name": "齊詩遺說攷卷四之一",
+      "sourceChapterName": "齊詩遺說攷卷四之一",
+      "chapterId": "1lfudux5l8tg3",
+      "volumeId": "7549768876288901146",
+      "volumeVersion": 11,
+      "url": "https://www.shidianguji.com/zh/book/CADAL01032644/chapter/1lfudux5l8tg3",
+      "expectedParagraphs": 205,
+      "sourceFile": "yishuo-1lfudux5l8tg3.json",
+      "sourceFileSha256": "58c5784780997e9d3e92a74bda169653a3184e69b48e14d59a8084ec581c20d7",
+      "sourceSchool": "齊",
+      "textSha256": "a0170de2288e8474d1ec1cd1c397f7a4b00397fc88cfcd0d22f92e1c8306e24f"
+    },
+    {
+      "id": "yishuo-v37",
+      "bookId": "yishuo",
+      "name": "齊詩遺說攷卷四之二",
+      "sourceChapterName": "齊詩遺說攷卷四之二",
+      "chapterId": "1lfuduxanf6zu",
+      "volumeId": "7553600438285631488",
+      "volumeVersion": 11,
+      "url": "https://www.shidianguji.com/zh/book/CADAL01032644/chapter/1lfuduxanf6zu",
+      "expectedParagraphs": 67,
+      "sourceFile": "yishuo-1lfuduxanf6zu.json",
+      "sourceFileSha256": "4a10a67489a2adb64b157aefa0e1472f1161b0931bfaf630059d525144611a72",
+      "sourceSchool": "齊",
+      "textSha256": "416604c112535caa5ce5baf437b9f83ed9275849cbbc07ed0a09f333c630dada"
+    },
+    {
+      "id": "yishuo-v38",
+      "bookId": "yishuo",
+      "name": "齊詩遺說攷卷四之三",
+      "sourceChapterName": "齊詩遺說攷卷四之三",
+      "chapterId": "1lfuduyghgetv",
+      "volumeId": "7553600510540906548",
+      "volumeVersion": 11,
+      "url": "https://www.shidianguji.com/zh/book/CADAL01032644/chapter/1lfuduyghgetv",
+      "expectedParagraphs": 86,
+      "sourceFile": "yishuo-1lfuduyghgetv.json",
+      "sourceFileSha256": "1c6344d59693847239596d4f144445d5166bb189637be5d2a40c9ceb0a8f26a5",
+      "sourceSchool": "齊",
+      "textSha256": "63c54e7c0972df5652f51aab137ad9989ab6bdbc37d4057e117d7b09269defcd"
+    },
+    {
+      "id": "yishuo-v39",
+      "bookId": "yishuo",
+      "name": "韓詩遺說攷卷首",
+      "sourceChapterName": "韓詩遺說攷卷首",
+      "chapterId": "1lfudv13su2hz",
+      "volumeId": "7549768999903428623",
+      "volumeVersion": 11,
+      "url": "https://www.shidianguji.com/zh/book/CADAL01032644/chapter/1lfudv13su2hz",
+      "expectedParagraphs": 212,
+      "sourceFile": "yishuo-1lfudv13su2hz.json",
+      "sourceFileSha256": "5d3feed47802ea845668874cfacde1c52407a2f98347f4c3e1d975cbe06d4060",
+      "sourceSchool": "韓",
+      "textSha256": "e3b47f1b6f13c05383288cf7690392e1ae66719a573465b506c1b60e1289dfad"
+    },
+    {
+      "id": "yishuo-v40",
+      "bookId": "yishuo",
+      "name": "韓詩遺說攷目錄",
+      "sourceChapterName": "韓詩遺說攷目錄",
+      "chapterId": "1lfudv185v50r",
+      "volumeId": "7553600759720312866",
+      "volumeVersion": 11,
+      "url": "https://www.shidianguji.com/zh/book/CADAL01032644/chapter/1lfudv185v50r",
+      "expectedParagraphs": 1,
+      "sourceFile": "yishuo-1lfudv185v50r.json",
+      "sourceFileSha256": "a2549f0ff16764c5db97d2759ee7e4ff183a4fe5003e903ebda2c41d96c7988e",
+      "sourceSchool": "韓",
+      "textSha256": "c3038b8dc72fdabd40968871b9633ba0cb5c8c787cd5ea2ea73dbef78207d964"
+    },
+    {
+      "id": "yishuo-v41",
+      "bookId": "yishuo",
+      "name": "韓詩遺說攷卷一之一",
+      "sourceChapterName": "韓詩遺說攷卷一之一",
+      "chapterId": "1lfudv3uhpulg",
+      "volumeId": "7553600850325667840",
+      "volumeVersion": 11,
+      "url": "https://www.shidianguji.com/zh/book/CADAL01032644/chapter/1lfudv3uhpulg",
+      "expectedParagraphs": 215,
+      "sourceFile": "yishuo-1lfudv3uhpulg.json",
+      "sourceFileSha256": "f9b78643bbebc32095028f8d8139bbbe29d4f2e14afc606608671b9c6526688c",
+      "sourceSchool": "韓",
+      "textSha256": "fcc2a6c27273b96138294d96e1d97052700a29412fd93ade5c3666bbd3208bf8"
+    },
+    {
+      "id": "yishuo-v42",
+      "bookId": "yishuo",
+      "name": "韓詩遺說攷卷一之二",
+      "sourceChapterName": "韓詩遺說攷卷一之二",
+      "chapterId": "1lfudv5aeff3b",
+      "volumeId": "7549769142438461486",
+      "volumeVersion": 11,
+      "url": "https://www.shidianguji.com/zh/book/CADAL01032644/chapter/1lfudv5aeff3b",
+      "expectedParagraphs": 210,
+      "sourceFile": "yishuo-1lfudv5aeff3b.json",
+      "sourceFileSha256": "e3b0e5d54e313c750855aa2ae00c4eb1df562b812c7ca0f40f5075ec5cf3dbc8",
+      "sourceSchool": "韓",
+      "textSha256": "0c8c1f5acbf3b4e3d23b8553b9c392d51fae7b6499b1c0a1f42b5bbbb57c0e27"
+    },
+    {
+      "id": "yishuo-v43",
+      "bookId": "yishuo",
+      "name": "韓詩遺說攷卷一之三",
+      "sourceChapterName": "韓詩遺說攷卷一之三",
+      "chapterId": "1lfudv7kbd3wz",
+      "volumeId": "7553601104529850387",
+      "volumeVersion": 11,
+      "url": "https://www.shidianguji.com/zh/book/CADAL01032644/chapter/1lfudv7kbd3wz",
+      "expectedParagraphs": 225,
+      "sourceFile": "yishuo-1lfudv7kbd3wz.json",
+      "sourceFileSha256": "35d2676b187542a7efd3686b0b450206e2168bdd6077836f0f246ba42b722782",
+      "sourceSchool": "韓",
+      "textSha256": "f776a421cff33b752610f5fc33fa0c089fc0463f39948ff7d14ca7494b18649b"
+    },
+    {
+      "id": "yishuo-v44",
+      "bookId": "yishuo",
+      "name": "韓詩遺說攷卷二之一",
+      "sourceChapterName": "韓詩遺說攷卷二之一",
+      "chapterId": "1lfudv9dve7fr",
+      "volumeId": "7549769285137072128",
+      "volumeVersion": 11,
+      "url": "https://www.shidianguji.com/zh/book/CADAL01032644/chapter/1lfudv9dve7fr",
+      "expectedParagraphs": 194,
+      "sourceFile": "yishuo-1lfudv9dve7fr.json",
+      "sourceFileSha256": "485aca826d39ea732c020606fa66c0f98442650efd61f45fc6dc82967333889d",
+      "sourceSchool": "韓",
+      "textSha256": "08ad9c2037c4bea39a3353731248ac9e8594160ec84b66347bfd446ba92ca91a"
+    },
+    {
+      "id": "yishuo-v45",
+      "bookId": "yishuo",
+      "name": "韓詩遺說攷卷二之二",
+      "sourceChapterName": "韓詩遺說攷卷二之二",
+      "chapterId": "1lfudvbep6hpg",
+      "volumeId": "7553830901080129546",
+      "volumeVersion": 11,
+      "url": "https://www.shidianguji.com/zh/book/CADAL01032644/chapter/1lfudvbep6hpg",
+      "expectedParagraphs": 240,
+      "sourceFile": "yishuo-1lfudvbep6hpg.json",
+      "sourceFileSha256": "ee3124c943e1e421fb26de47c81c786646cc5051605440fc026a4ab03295a3e6",
+      "sourceSchool": "韓",
+      "textSha256": "62da79ebff739b8cc0df019aace91b762c83fa65de2a96ac15e0a37671d60dfe"
+    },
+    {
+      "id": "yishuo-v46",
+      "bookId": "yishuo",
+      "name": "韓詩遺說攷卷二之三",
+      "sourceChapterName": "韓詩遺說攷卷二之三",
+      "chapterId": "1lfudvd705wk3",
+      "volumeId": "7549769416003567643",
+      "volumeVersion": 11,
+      "url": "https://www.shidianguji.com/zh/book/CADAL01032644/chapter/1lfudvd705wk3",
+      "expectedParagraphs": 179,
+      "sourceFile": "yishuo-1lfudvd705wk3.json",
+      "sourceFileSha256": "5ea0164883bf2c69bc3250125384fec2cf8fb6a8899aab32fbf5fada45803b59",
+      "sourceSchool": "韓",
+      "textSha256": "9fbc7a3934c3f499fb3aa34e6c29c9cacda60829b243973e34b6b8f1f8be9204"
+    },
+    {
+      "id": "yishuo-v47",
+      "bookId": "yishuo",
+      "name": "韓詩遺說攷卷三之一",
+      "sourceChapterName": "韓詩遺說攷卷三之一",
+      "chapterId": "1lfudvewode09",
+      "volumeId": "7553831244912394280",
+      "volumeVersion": 11,
+      "url": "https://www.shidianguji.com/zh/book/CADAL01032644/chapter/1lfudvewode09",
+      "expectedParagraphs": 174,
+      "sourceFile": "yishuo-1lfudvewode09.json",
+      "sourceFileSha256": "76ab48ae6e90440cf189a7340b3e2d3acdae090eaa74107617e225d48f2e26c7",
+      "sourceSchool": "韓",
+      "textSha256": "0a7277da9ab98857baa163dc9fb0b09092759e91f33b3b466cc1578f591c4f8b"
+    },
+    {
+      "id": "yishuo-v48",
+      "bookId": "yishuo",
+      "name": "韓詩遺說攷卷三之二",
+      "sourceChapterName": "韓詩遺說攷卷三之二",
+      "chapterId": "1lfudvhohu0qn",
+      "volumeId": "7553831329616363547",
+      "volumeVersion": 11,
+      "url": "https://www.shidianguji.com/zh/book/CADAL01032644/chapter/1lfudvhohu0qn",
+      "expectedParagraphs": 234,
+      "sourceFile": "yishuo-1lfudvhohu0qn.json",
+      "sourceFileSha256": "a765bc399b2df70865032af94b025be5708d6b389cd2e1de0b944cd7c02277bc",
+      "sourceSchool": "韓",
+      "textSha256": "036f2948a68c9f5522bf17eda82a2a8f6bd0c591fce46eae4c8d3c3d158d6e0d"
+    },
+    {
+      "id": "yishuo-v49",
+      "bookId": "yishuo",
+      "name": "韓詩遺說攷卷三之三",
+      "sourceChapterName": "韓詩遺說攷卷三之三",
+      "chapterId": "1lfudvks89ixf",
+      "volumeId": "7553831585449574446",
+      "volumeVersion": 11,
+      "url": "https://www.shidianguji.com/zh/book/CADAL01032644/chapter/1lfudvks89ixf",
+      "expectedParagraphs": 238,
+      "sourceFile": "yishuo-1lfudvks89ixf.json",
+      "sourceFileSha256": "ecc10aaabd0a452ee6acae1d041422b3d27509dddf3b988b18f67ac7780dc91c",
+      "sourceSchool": "韓",
+      "textSha256": "ede02e9eeae7760d6771fefb0ddfb09eacd20217db627fa55de459d878e64a4d"
+    },
+    {
+      "id": "yishuo-v50",
+      "bookId": "yishuo",
+      "name": "韓詩遺說攷卷三之四",
+      "sourceChapterName": "韓詩遺說攷卷三之四",
+      "chapterId": "1lfudvkwm4som",
+      "volumeId": "7549769698917744682",
+      "volumeVersion": 11,
+      "url": "https://www.shidianguji.com/zh/book/CADAL01032644/chapter/1lfudvkwm4som",
+      "expectedParagraphs": 107,
+      "sourceFile": "yishuo-1lfudvkwm4som.json",
+      "sourceFileSha256": "fc53738535ba14b8ed313aab02ad79aa5a74bee4edc67942e1ba75dc55dcaa7b",
+      "sourceSchool": "韓",
+      "textSha256": "758d45d08dcb2e8e2875f247cb58804e5e833880443dda7e81bf692cb6900af4"
+    },
+    {
+      "id": "yishuo-v51",
+      "bookId": "yishuo",
+      "name": "韓詩遺說攷卷四之一",
+      "sourceChapterName": "韓詩遺說攷卷四之一",
+      "chapterId": "1lfudvo1xnbqj",
+      "volumeId": "7553831818407968808",
+      "volumeVersion": 11,
+      "url": "https://www.shidianguji.com/zh/book/CADAL01032644/chapter/1lfudvo1xnbqj",
+      "expectedParagraphs": 194,
+      "sourceFile": "yishuo-1lfudvo1xnbqj.json",
+      "sourceFileSha256": "512682fe595de1647f2c2d20ebdf4f728bf4f5129ddc0acef406be611a407e09",
+      "sourceSchool": "韓",
+      "textSha256": "637a0ec035a4d2917eec63270f437c04318aba5b0221cdae3215bbb9cb64d6b4"
+    },
+    {
+      "id": "yishuo-v52",
+      "bookId": "yishuo",
+      "name": "韓詩遺說攷卷四之二",
+      "sourceChapterName": "韓詩遺說攷卷四之二",
+      "chapterId": "1lfudvouleura",
+      "volumeId": "7549769814139469839",
+      "volumeVersion": 11,
+      "url": "https://www.shidianguji.com/zh/book/CADAL01032644/chapter/1lfudvouleura",
+      "expectedParagraphs": 102,
+      "sourceFile": "yishuo-1lfudvouleura.json",
+      "sourceFileSha256": "c6af86271b3520a3a43f5ec456fad039a74b6176a36ad1d090f6ddc66c227f4c",
+      "sourceSchool": "韓",
+      "textSha256": "a76a47a8dc856202cf0d6b3379bcbe614fda00a606e4a21cd5af208654214cfb"
+    },
+    {
+      "id": "yishuo-v53",
+      "bookId": "yishuo",
+      "name": "韓詩遺說攷卷四之三",
+      "sourceChapterName": "韓詩遺說攷卷四之三",
+      "chapterId": "1lfudvrr1tove",
+      "volumeId": "7553832023735926799",
+      "volumeVersion": 11,
+      "url": "https://www.shidianguji.com/zh/book/CADAL01032644/chapter/1lfudvrr1tove",
+      "expectedParagraphs": 175,
+      "sourceFile": "yishuo-1lfudvrr1tove.json",
+      "sourceFileSha256": "e49f6d8c876e55b9e162013b3893824d483dd5defddd256b23d5c9610be7cd8c",
+      "sourceSchool": "韓",
+      "textSha256": "b5618b4edcc7004ca8beb164beae184300f0cdaac0d844fc7c5b01d60f9be533"
+    },
+    {
+      "id": "yishuo-v54",
+      "bookId": "yishuo",
+      "name": "韓詩遺說攷卷四之四",
+      "sourceChapterName": "韓詩遺說攷卷四之四",
+      "chapterId": "1lfudvt68uzon",
+      "volumeId": "7553832127343624202",
+      "volumeVersion": 11,
+      "url": "https://www.shidianguji.com/zh/book/CADAL01032644/chapter/1lfudvt68uzon",
+      "expectedParagraphs": 134,
+      "sourceFile": "yishuo-1lfudvt68uzon.json",
+      "sourceFileSha256": "f4af12cf28101354c4c0364814e5608b6282fc76258ba728d7988ec78c73afb8",
+      "sourceSchool": "韓",
+      "textSha256": "1bbab7e2f41d877a2572aa703e3ae8d079e766a3d0419627f7b051184a316509"
+    },
+    {
+      "id": "yishuo-v55",
+      "bookId": "yishuo",
+      "name": "韓詩遺說攷卷五之一",
+      "sourceChapterName": "韓詩遺說攷卷五之一",
+      "chapterId": "1lfudvteq0v8q",
+      "volumeId": "7549769959346274313",
+      "volumeVersion": 11,
+      "url": "https://www.shidianguji.com/zh/book/CADAL01032644/chapter/1lfudvteq0v8q",
+      "expectedParagraphs": 106,
+      "sourceFile": "yishuo-1lfudvteq0v8q.json",
+      "sourceFileSha256": "172cd3d33f6aa2443e5504b2c0b293ca0ce04ba6ec559990912ad98e70715f9f",
+      "sourceSchool": "韓",
+      "textSha256": "a523b5efdb6526dd2197caf447c32ccb95b2f7a7f4026933c67df3820e5d2b92"
+    },
+    {
+      "id": "yishuo-v56",
+      "bookId": "yishuo",
+      "name": "韓詩遺說攷卷五之二",
+      "sourceChapterName": "韓詩遺說攷卷五之二",
+      "chapterId": "1lfudvuaiq71n",
+      "volumeId": "7553832290661433380",
+      "volumeVersion": 11,
+      "url": "https://www.shidianguji.com/zh/book/CADAL01032644/chapter/1lfudvuaiq71n",
+      "expectedParagraphs": 89,
+      "sourceFile": "yishuo-1lfudvuaiq71n.json",
+      "sourceFileSha256": "80c6edf1797c3eb5b727cbdc1f1de81e818a172290ccaeb9bc62f1ae1bed404e",
+      "sourceSchool": "韓",
+      "textSha256": "9fa6e55345b15d23caf94b15a7b5230a3b18386f322c1b4592844dc4f1f9b4ce"
+    },
+    {
+      "id": "yishuo-v57",
+      "bookId": "yishuo",
+      "name": "韓詩遺說攷卷五之三",
+      "sourceChapterName": "韓詩遺說攷卷五之三",
+      "chapterId": "1lfudvvh0kyln",
+      "volumeId": "7553832368725819392",
+      "volumeVersion": 11,
+      "url": "https://www.shidianguji.com/zh/book/CADAL01032644/chapter/1lfudvvh0kyln",
+      "expectedParagraphs": 83,
+      "sourceFile": "yishuo-1lfudvvh0kyln.json",
+      "sourceFileSha256": "0e9395707ea717c352000035c2172fab05dc6fc89f79550eb71149309455d550",
+      "sourceSchool": "韓",
+      "textSha256": "682e58a26326ce19c3aacd20fc790f55f6cea38c4bf80626158a486f61db4335"
+    },
+    {
+      "id": "yishuo-v58",
+      "bookId": "yishuo",
+      "name": "韓詩遺說攷卷五之四",
+      "sourceChapterName": "韓詩遺說攷卷五之四",
+      "chapterId": "1lfudvxci0yef",
+      "volumeId": "7553832439466950675",
+      "volumeVersion": 11,
+      "url": "https://www.shidianguji.com/zh/book/CADAL01032644/chapter/1lfudvxci0yef",
+      "expectedParagraphs": 113,
+      "sourceFile": "yishuo-1lfudvxci0yef.json",
+      "sourceFileSha256": "9452cf9ea451b0285a53ff99ded6ceae0c590454f5b3fe0e9ecdaf2705f4bde5",
+      "sourceSchool": "韓",
+      "textSha256": "78bacbba6742006608450c3e72a866a58f48f00562904ece94ecc779d2cb6300"
+    }
+  ],
+  "missingSources": [
+    {
+      "title": "詩三家義集疏",
+      "author": "王先謙",
+      "status": "影印可用，文字未全錄",
+      "url": "https://ctext.org/wiki.pl?if=gb&res=598482",
+      "reason": "已定位十冊公開影印PDF，共1547頁；檔名卷次有跳號與重疊，須按內題核實。抽查第六冊無文字層，直排與夾注的OCR仍待處理。可先用公開影印與其他輯書，無須使用者為本項工作先訂閱API。"
+    }
+  ],
+  "scanSources": {
+    "version": 1,
+    "retrievedOn": "2026-10-31",
+    "title": "詩三家義集疏公開影印檔清單",
+    "author": "王先謙",
+    "coverage": "同套十冊，共1547個PDF頁面。檔名卷次有跳號與重疊，尚待按內題核實全二十八卷的完整性。",
+    "textStatus": "抽查第六冊無文字層；原始掃描可供取字與校勘，未等同完成全文轉錄。",
+    "files": [
+      {
+        "id": "wang-scan-01",
+        "number": 1,
+        "title": "SSID-12847883 詩三家義集疏 1 卷首至卷2.pdf",
+        "pageId": 127330213,
+        "pages": 207,
+        "bytes": 68533582,
+        "sha1": "8d3e0cc56182f08bdd32356b36a29ea1688b2aac",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/SSID-12847883_%E8%A9%A9%E4%B8%89%E5%AE%B6%E7%BE%A9%E9%9B%86%E7%96%8F_1_%E5%8D%B7%E9%A6%96%E8%87%B3%E5%8D%B72.pdf",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:SSID-12847883_%E8%A9%A9%E4%B8%89%E5%AE%B6%E7%BE%A9%E9%9B%86%E7%96%8F_1_%E5%8D%B7%E9%A6%96%E8%87%B3%E5%8D%B72.pdf",
+        "localFile": ".cache/three-schools-sources/wang-book-01.pdf",
+        "sha256": "4f4622864b45d68a77ff1fbb3c38f288c0347992b61f6fc11a8b4e63175d9a51"
+      },
+      {
+        "id": "wang-scan-02",
+        "number": 2,
+        "title": "SSID-12847885 詩三家義集疏 2 卷3上.pdf",
+        "pageId": 127330244,
+        "pages": 124,
+        "bytes": 51351117,
+        "sha1": "578e20fd5d302a10030cf486cc1bebb101418942",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/SSID-12847885_%E8%A9%A9%E4%B8%89%E5%AE%B6%E7%BE%A9%E9%9B%86%E7%96%8F_2_%E5%8D%B73%E4%B8%8A.pdf",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:SSID-12847885_%E8%A9%A9%E4%B8%89%E5%AE%B6%E7%BE%A9%E9%9B%86%E7%96%8F_2_%E5%8D%B73%E4%B8%8A.pdf",
+        "localFile": ".cache/three-schools-sources/wang-book-02.pdf",
+        "sha256": "32e0a0a6224bfa7c0d262e965ebcd8489b43c12ff8106d3a1055f0dc79dd5003"
+      },
+      {
+        "id": "wang-scan-03",
+        "number": 3,
+        "title": "SSID-12847879 詩三家義集疏 3 卷3中至卷3下.pdf",
+        "pageId": 127330100,
+        "pages": 136,
+        "bytes": 51293476,
+        "sha1": "fc9e79ed88592544de5fdf05b253ee77ac0630c1",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/SSID-12847879_%E8%A9%A9%E4%B8%89%E5%AE%B6%E7%BE%A9%E9%9B%86%E7%96%8F_3_%E5%8D%B73%E4%B8%AD%E8%87%B3%E5%8D%B73%E4%B8%8B.pdf",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:SSID-12847879_%E8%A9%A9%E4%B8%89%E5%AE%B6%E7%BE%A9%E9%9B%86%E7%96%8F_3_%E5%8D%B73%E4%B8%AD%E8%87%B3%E5%8D%B73%E4%B8%8B.pdf",
+        "localFile": ".cache/three-schools-sources/wang-book-03.pdf",
+        "sha256": "1a284557ab36dde6fc11f8a95453295a307e2aeb417d43986d7d14e677257f0d"
+      },
+      {
+        "id": "wang-scan-04",
+        "number": 4,
+        "title": "SSID-13350784 詩三家義集疏 4 卷5-8.pdf",
+        "pageId": 124773491,
+        "pages": 140,
+        "bytes": 37134431,
+        "sha1": "451e5d784789b41d40209f368b299c61522bd3e9",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/SSID-13350784_%E8%A9%A9%E4%B8%89%E5%AE%B6%E7%BE%A9%E9%9B%86%E7%96%8F_4_%E5%8D%B75-8.pdf",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:SSID-13350784_%E8%A9%A9%E4%B8%89%E5%AE%B6%E7%BE%A9%E9%9B%86%E7%96%8F_4_%E5%8D%B75-8.pdf",
+        "localFile": ".cache/three-schools-sources/wang-book-04.pdf",
+        "sha256": "a89ba7b442d4f70048b6d230f2a91820f6de925eea5bf5792871eaa4f4ca4036"
+      },
+      {
+        "id": "wang-scan-05",
+        "number": 5,
+        "title": "SSID-12847880 詩三家義集疏 5 卷8至卷12.pdf",
+        "pageId": 127330130,
+        "pages": 126,
+        "bytes": 40421964,
+        "sha1": "11ea3024dd56259f9d2e6735a4b8d459f8f12e37",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/SSID-12847880_%E8%A9%A9%E4%B8%89%E5%AE%B6%E7%BE%A9%E9%9B%86%E7%96%8F_5_%E5%8D%B78%E8%87%B3%E5%8D%B712.pdf",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:SSID-12847880_%E8%A9%A9%E4%B8%89%E5%AE%B6%E7%BE%A9%E9%9B%86%E7%96%8F_5_%E5%8D%B78%E8%87%B3%E5%8D%B712.pdf",
+        "localFile": ".cache/three-schools-sources/wang-book-05.pdf",
+        "sha256": "ed12aaa70288bcdc7581272eeeee3c33432f1525088932ff25b3face0077b1ee"
+      },
+      {
+        "id": "wang-scan-06",
+        "number": 6,
+        "title": "SSID-13350785 詩三家義集疏 6 卷14-16.pdf",
+        "pageId": 124773508,
+        "pages": 148,
+        "bytes": 39804673,
+        "sha1": "8ae97fc8b22a840127a023de64718d8f81c7bc6c",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/SSID-13350785_%E8%A9%A9%E4%B8%89%E5%AE%B6%E7%BE%A9%E9%9B%86%E7%96%8F_6_%E5%8D%B714-16.pdf",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:SSID-13350785_%E8%A9%A9%E4%B8%89%E5%AE%B6%E7%BE%A9%E9%9B%86%E7%96%8F_6_%E5%8D%B714-16.pdf",
+        "localFile": ".cache/three-schools-sources/wang-book-06.pdf",
+        "sha256": "ec9eabdf955ef5964ee1d25bd95b28c48d381aec03dd0d5f0c71c55f14f6f730"
+      },
+      {
+        "id": "wang-scan-07",
+        "number": 7,
+        "title": "SSID-12847881 詩三家義集疏 7 卷16至卷18.pdf",
+        "pageId": 127330139,
+        "pages": 180,
+        "bytes": 63461342,
+        "sha1": "091a068979a1e8b5619e1e7c242854fb6166e0a8",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/SSID-12847881_%E8%A9%A9%E4%B8%89%E5%AE%B6%E7%BE%A9%E9%9B%86%E7%96%8F_7_%E5%8D%B716%E8%87%B3%E5%8D%B718.pdf",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:SSID-12847881_%E8%A9%A9%E4%B8%89%E5%AE%B6%E7%BE%A9%E9%9B%86%E7%96%8F_7_%E5%8D%B716%E8%87%B3%E5%8D%B718.pdf",
+        "localFile": ".cache/three-schools-sources/wang-book-07.pdf",
+        "sha256": "7735e7f23457f670f842c324f42e550feacd2cfa26ef39d2b4f1596722ad310f"
+      },
+      {
+        "id": "wang-scan-08",
+        "number": 8,
+        "title": "SSID-12847882 詩三家義集疏 8 卷19至卷21.pdf",
+        "pageId": 127330155,
+        "pages": 154,
+        "bytes": 51408347,
+        "sha1": "30623430e51c503b9700c218dccff15d0f387020",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/SSID-12847882_%E8%A9%A9%E4%B8%89%E5%AE%B6%E7%BE%A9%E9%9B%86%E7%96%8F_8_%E5%8D%B719%E8%87%B3%E5%8D%B721.pdf",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:SSID-12847882_%E8%A9%A9%E4%B8%89%E5%AE%B6%E7%BE%A9%E9%9B%86%E7%96%8F_8_%E5%8D%B719%E8%87%B3%E5%8D%B721.pdf",
+        "localFile": ".cache/three-schools-sources/wang-book-08.pdf",
+        "sha256": "1a24550f643ac1bd4634f6a2bd3dd67313e9611b204e25ddd0d47fded2a8d5e5"
+      },
+      {
+        "id": "wang-scan-09",
+        "number": 9,
+        "title": "SSID-12847884 詩三家義集疏 9 卷22至卷23.pdf",
+        "pageId": 127330184,
+        "pages": 166,
+        "bytes": 54284917,
+        "sha1": "d01975ce063e0ca91d932b9c03068b0af528e73d",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/SSID-12847884_%E8%A9%A9%E4%B8%89%E5%AE%B6%E7%BE%A9%E9%9B%86%E7%96%8F_9_%E5%8D%B722%E8%87%B3%E5%8D%B723.pdf",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:SSID-12847884_%E8%A9%A9%E4%B8%89%E5%AE%B6%E7%BE%A9%E9%9B%86%E7%96%8F_9_%E5%8D%B722%E8%87%B3%E5%8D%B723.pdf",
+        "localFile": ".cache/three-schools-sources/wang-book-09.pdf",
+        "sha256": "a230972685bbbe892fd90201126fcd8b0a5b03c3ef69c9a0d801e47060e1424f"
+      },
+      {
+        "id": "wang-scan-10",
+        "number": 10,
+        "title": "SSID-13350786 詩三家義集疏 10 卷24-28.pdf",
+        "pageId": 124773527,
+        "pages": 166,
+        "bytes": 44283795,
+        "sha1": "55df2f7e9c7ada26c0352b642b8fb1fa64edf1cc",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/SSID-13350786_%E8%A9%A9%E4%B8%89%E5%AE%B6%E7%BE%A9%E9%9B%86%E7%96%8F_10_%E5%8D%B724-28.pdf",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:SSID-13350786_%E8%A9%A9%E4%B8%89%E5%AE%B6%E7%BE%A9%E9%9B%86%E7%96%8F_10_%E5%8D%B724-28.pdf",
+        "localFile": ".cache/three-schools-sources/wang-book-10.pdf",
+        "sha256": "44bbcadf4b488b581bce21c6c8dc3c0c321ca8546709f26f834683a800026f59"
+      }
+    ],
+    "downloadVerifiedOn": "2026-10-31",
+    "manualChecks": [
+      {
+        "fileId": "wang-scan-03",
+        "pdfPage": 133,
+        "visibleHeading": "詩三家義集疏卷三下",
+        "poems": [
+          "有狐",
+          "木瓜"
+        ],
+        "verification": "目視抽查，非逐頁校定"
+      },
+      {
+        "fileId": "wang-scan-05",
+        "pdfPage": 123,
+        "visibleHeading": "詩三家義集疏卷十二",
+        "poems": [
+          "下泉"
+        ],
+        "verification": "目視抽查，非逐頁校定"
+      }
+    ]
+  },
+  "poems": [
+    {
+      "id": "shijing-001",
+      "title": "周南・關雎",
+      "candidates": 7
+    },
+    {
+      "id": "shijing-002",
+      "title": "周南・葛覃",
+      "candidates": 10
+    },
+    {
+      "id": "shijing-003",
+      "title": "周南・卷耳",
+      "candidates": 13
+    },
+    {
+      "id": "shijing-007",
+      "title": "周南・兔罝",
+      "candidates": 3
+    },
+    {
+      "id": "shijing-009",
+      "title": "周南・漢廣",
+      "candidates": 6
+    },
+    {
+      "id": "shijing-010",
+      "title": "周南・汝墳",
+      "candidates": 12
+    },
+    {
+      "id": "shijing-011",
+      "title": "周南・麟之趾",
+      "candidates": 2
+    },
+    {
+      "id": "shijing-012",
+      "title": "召南・鵲巢",
+      "candidates": 1
+    },
+    {
+      "id": "shijing-014",
+      "title": "召南・草蟲",
+      "candidates": 2
+    },
+    {
+      "id": "shijing-015",
+      "title": "召南・采蘋",
+      "candidates": 3
+    },
+    {
+      "id": "shijing-016",
+      "title": "召南・甘棠",
+      "candidates": 10
+    },
+    {
+      "id": "shijing-017",
+      "title": "召南・行露",
+      "candidates": 4
+    },
+    {
+      "id": "shijing-019",
+      "title": "召南・殷其靁",
+      "candidates": 1
+    },
+    {
+      "id": "shijing-021",
+      "title": "召南・小星",
+      "candidates": 4
+    },
+    {
+      "id": "shijing-023",
+      "title": "召南・野有死麕",
+      "candidates": 5
+    },
+    {
+      "id": "shijing-024",
+      "title": "召南・何彼襛矣",
+      "candidates": 10
+    },
+    {
+      "id": "shijing-025",
+      "title": "召南・騶虞",
+      "candidates": 7
+    },
+    {
+      "id": "shijing-026",
+      "title": "邶風・柏舟",
+      "candidates": 8
+    },
+    {
+      "id": "shijing-027",
+      "title": "邶風・綠衣",
+      "candidates": 3
+    },
+    {
+      "id": "shijing-028",
+      "title": "邶風・燕燕",
+      "candidates": 5
+    },
+    {
+      "id": "shijing-029",
+      "title": "邶風・日月",
+      "candidates": 5
+    },
+    {
+      "id": "shijing-030",
+      "title": "邶風・終風",
+      "candidates": 6
+    },
+    {
+      "id": "shijing-031",
+      "title": "邶風・擊鼓",
+      "candidates": 2
+    },
+    {
+      "id": "shijing-032",
+      "title": "邶風・凱風",
+      "candidates": 1
+    },
+    {
+      "id": "shijing-033",
+      "title": "邶風・雄雉",
+      "candidates": 2
+    },
+    {
+      "id": "shijing-034",
+      "title": "邶風・匏有苦葉",
+      "candidates": 4
+    },
+    {
+      "id": "shijing-035",
+      "title": "邶風・谷風",
+      "candidates": 11
+    },
+    {
+      "id": "shijing-037",
+      "title": "邶風・旄丘",
+      "candidates": 8
+    },
+    {
+      "id": "shijing-038",
+      "title": "邶風・簡兮",
+      "candidates": 3
+    },
+    {
+      "id": "shijing-039",
+      "title": "邶風・泉水",
+      "candidates": 2
+    },
+    {
+      "id": "shijing-041",
+      "title": "邶風・北風",
+      "candidates": 3
+    },
+    {
+      "id": "shijing-042",
+      "title": "邶風・靜女",
+      "candidates": 8
+    },
+    {
+      "id": "shijing-043",
+      "title": "邶風・新臺",
+      "candidates": 5
+    },
+    {
+      "id": "shijing-045",
+      "title": "鄘風・柏舟",
+      "candidates": 2
+    },
+    {
+      "id": "shijing-046",
+      "title": "鄘風・牆有茨",
+      "candidates": 3
+    },
+    {
+      "id": "shijing-047",
+      "title": "鄘風・君子偕老",
+      "candidates": 10
+    },
+    {
+      "id": "shijing-050",
+      "title": "鄘風・定之方中",
+      "candidates": 5
+    },
+    {
+      "id": "shijing-051",
+      "title": "鄘風・蝃蝀",
+      "candidates": 5
+    },
+    {
+      "id": "shijing-052",
+      "title": "鄘風・相鼠",
+      "candidates": 5
+    },
+    {
+      "id": "shijing-054",
+      "title": "鄘風・載馳",
+      "candidates": 12
+    },
+    {
+      "id": "shijing-055",
+      "title": "衛風・淇奧",
+      "candidates": 31
+    },
+    {
+      "id": "shijing-056",
+      "title": "衛風・考槃",
+      "candidates": 3
+    },
+    {
+      "id": "shijing-057",
+      "title": "衛風・碩人",
+      "candidates": 17
+    },
+    {
+      "id": "shijing-058",
+      "title": "衛風・氓",
+      "candidates": 15
+    },
+    {
+      "id": "shijing-059",
+      "title": "衛風・竹竿",
+      "candidates": 2
+    },
+    {
+      "id": "shijing-060",
+      "title": "衛風・芄蘭",
+      "candidates": 3
+    },
+    {
+      "id": "shijing-061",
+      "title": "衛風・河廣",
+      "candidates": 6
+    },
+    {
+      "id": "shijing-062",
+      "title": "衛風・伯兮",
+      "candidates": 9
+    },
+    {
+      "id": "shijing-065",
+      "title": "王風・黍離",
+      "candidates": 1
+    },
+    {
+      "id": "shijing-069",
+      "title": "王風・中谷有蓷",
+      "candidates": 7
+    },
+    {
+      "id": "shijing-070",
+      "title": "王風・兔爰",
+      "candidates": 2
+    },
+    {
+      "id": "shijing-074",
+      "title": "王風・丘中有麻",
+      "candidates": 2
+    },
+    {
+      "id": "shijing-078",
+      "title": "鄭風・大叔于田",
+      "candidates": 11
+    },
+    {
+      "id": "shijing-079",
+      "title": "鄭風・清人",
+      "candidates": 1
+    },
+    {
+      "id": "shijing-080",
+      "title": "鄭風・羔裘",
+      "candidates": 3
+    },
+    {
+      "id": "shijing-083",
+      "title": "鄭風・有女同車",
+      "candidates": 4
+    },
+    {
+      "id": "shijing-084",
+      "title": "鄭風・山有扶蘇",
+      "candidates": 2
+    },
+    {
+      "id": "shijing-085",
+      "title": "鄭風・蘀兮",
+      "candidates": 1
+    },
+    {
+      "id": "shijing-087",
+      "title": "鄭風・褰裳",
+      "candidates": 3
+    },
+    {
+      "id": "shijing-088",
+      "title": "鄭風・丰",
+      "candidates": 1
+    },
+    {
+      "id": "shijing-091",
+      "title": "鄭風・子衿",
+      "candidates": 3
+    },
+    {
+      "id": "shijing-093",
+      "title": "鄭風・出其東門",
+      "candidates": 6
+    },
+    {
+      "id": "shijing-094",
+      "title": "鄭風・野有蔓草",
+      "candidates": 3
+    },
+    {
+      "id": "shijing-095",
+      "title": "鄭風・溱洧",
+      "candidates": 4
+    },
+    {
+      "id": "shijing-096",
+      "title": "齊風・雞鳴",
+      "candidates": 4
+    },
+    {
+      "id": "shijing-097",
+      "title": "齊風・還",
+      "candidates": 3
+    },
+    {
+      "id": "shijing-100",
+      "title": "齊風・東方未明",
+      "candidates": 1
+    },
+    {
+      "id": "shijing-101",
+      "title": "齊風・南山",
+      "candidates": 7
+    },
+    {
+      "id": "shijing-102",
+      "title": "齊風・甫田",
+      "candidates": 6
+    },
+    {
+      "id": "shijing-104",
+      "title": "齊風・敝笱",
+      "candidates": 1
+    },
+    {
+      "id": "shijing-105",
+      "title": "齊風・載驅",
+      "candidates": 2
+    },
+    {
+      "id": "shijing-106",
+      "title": "齊風・猗嗟",
+      "candidates": 9
+    },
+    {
+      "id": "shijing-107",
+      "title": "魏風・葛屨",
+      "candidates": 4
+    },
+    {
+      "id": "shijing-109",
+      "title": "魏風・園有桃",
+      "candidates": 1
+    },
+    {
+      "id": "shijing-110",
+      "title": "魏風・陟岵",
+      "candidates": 2
+    },
+    {
+      "id": "shijing-111",
+      "title": "魏風・十畝之間",
+      "candidates": 1
+    },
+    {
+      "id": "shijing-112",
+      "title": "魏風・伐檀",
+      "candidates": 9
+    },
+    {
+      "id": "shijing-113",
+      "title": "魏風・碩鼠",
+      "candidates": 5
+    },
+    {
+      "id": "shijing-115",
+      "title": "唐風・山有樞",
+      "candidates": 7
+    },
+    {
+      "id": "shijing-117",
+      "title": "唐風・椒聊",
+      "candidates": 1
+    },
+    {
+      "id": "shijing-121",
+      "title": "唐風・鴇羽",
+      "candidates": 1
+    },
+    {
+      "id": "shijing-123",
+      "title": "唐風・有杕之杜",
+      "candidates": 4
+    },
+    {
+      "id": "shijing-126",
+      "title": "秦風・車鄰",
+      "candidates": 5
+    },
+    {
+      "id": "shijing-128",
+      "title": "秦風・小戎",
+      "candidates": 11
+    },
+    {
+      "id": "shijing-129",
+      "title": "秦風・蒹葭",
+      "candidates": 2
+    },
+    {
+      "id": "shijing-130",
+      "title": "秦風・終南",
+      "candidates": 3
+    },
+    {
+      "id": "shijing-131",
+      "title": "秦風・黃鳥",
+      "candidates": 4
+    },
+    {
+      "id": "shijing-132",
+      "title": "秦風・晨風",
+      "candidates": 13
+    },
+    {
+      "id": "shijing-133",
+      "title": "秦風・無衣",
+      "candidates": 1
+    },
+    {
+      "id": "shijing-134",
+      "title": "秦風・渭陽",
+      "candidates": 1
+    },
+    {
+      "id": "shijing-136",
+      "title": "陳風・宛丘",
+      "candidates": 3
+    },
+    {
+      "id": "shijing-137",
+      "title": "陳風・東門之枌",
+      "candidates": 5
+    },
+    {
+      "id": "shijing-138",
+      "title": "陳風・衡門",
+      "candidates": 5
+    },
+    {
+      "id": "shijing-139",
+      "title": "陳風・東門之池",
+      "candidates": 4
+    },
+    {
+      "id": "shijing-141",
+      "title": "陳風・墓門",
+      "candidates": 2
+    },
+    {
+      "id": "shijing-142",
+      "title": "陳風・防有鵲巢",
+      "candidates": 3
+    },
+    {
+      "id": "shijing-143",
+      "title": "陳風・月出",
+      "candidates": 1
+    },
+    {
+      "id": "shijing-144",
+      "title": "陳風・株林",
+      "candidates": 1
+    },
+    {
+      "id": "shijing-145",
+      "title": "陳風・澤陂",
+      "candidates": 5
+    },
+    {
+      "id": "shijing-146",
+      "title": "檜風・羔裘",
+      "candidates": 1
+    },
+    {
+      "id": "shijing-147",
+      "title": "檜風・素冠",
+      "candidates": 1
+    },
+    {
+      "id": "shijing-148",
+      "title": "檜風・隰有萇楚",
+      "candidates": 2
+    },
+    {
+      "id": "shijing-149",
+      "title": "檜風・匪風",
+      "candidates": 3
+    },
+    {
+      "id": "shijing-150",
+      "title": "曹風・蜉蝣",
+      "candidates": 1
+    },
+    {
+      "id": "shijing-151",
+      "title": "曹風・候人",
+      "candidates": 4
+    },
+    {
+      "id": "shijing-152",
+      "title": "曹風・鳲鳩",
+      "candidates": 8
+    },
+    {
+      "id": "shijing-154",
+      "title": "豳風・七月",
+      "candidates": 40
+    },
+    {
+      "id": "shijing-155",
+      "title": "豳風・鴟鴞",
+      "candidates": 6
+    },
+    {
+      "id": "shijing-156",
+      "title": "豳風・東山",
+      "candidates": 14
+    },
+    {
+      "id": "shijing-158",
+      "title": "豳風・伐柯",
+      "candidates": 1
+    },
+    {
+      "id": "shijing-160",
+      "title": "豳風・狼跋",
+      "candidates": 4
+    },
+    {
+      "id": "shijing-161",
+      "title": "小雅・鹿鳴之什・鹿鳴",
+      "candidates": 7
+    },
+    {
+      "id": "shijing-171",
+      "title": "小雅・白華之什・南有嘉魚",
+      "candidates": 4
+    },
+    {
+      "id": "shijing-162",
+      "title": "小雅・鹿鳴之什・四牡",
+      "candidates": 4
+    },
+    {
+      "id": "shijing-163",
+      "title": "小雅・鹿鳴之什・皇皇者華",
+      "candidates": 4
+    },
+    {
+      "id": "shijing-164",
+      "title": "小雅・鹿鳴之什・常棣",
+      "candidates": 14
+    },
+    {
+      "id": "shijing-taoyao",
+      "title": "周南・桃夭",
+      "candidates": 1
+    },
+    {
+      "id": "shijing-165",
+      "title": "小雅・鹿鳴之什・伐木",
+      "candidates": 5
+    },
+    {
+      "id": "shijing-166",
+      "title": "小雅・鹿鳴之什・天保",
+      "candidates": 8
+    },
+    {
+      "id": "shijing-167",
+      "title": "小雅・鹿鳴之什・采薇",
+      "candidates": 6
+    },
+    {
+      "id": "shijing-168",
+      "title": "小雅・鹿鳴之什・出車",
+      "candidates": 7
+    },
+    {
+      "id": "shijing-178",
+      "title": "小雅・彤弓之什・采芑",
+      "candidates": 7
+    },
+    {
+      "id": "shijing-170",
+      "title": "小雅・白華之什・魚麗",
+      "candidates": 2
+    },
+    {
+      "id": "shijing-173",
+      "title": "小雅・白華之什・蓼蕭",
+      "candidates": 2
+    },
+    {
+      "id": "shijing-177",
+      "title": "小雅・彤弓之什・六月",
+      "candidates": 13
+    },
+    {
+      "id": "shijing-179",
+      "title": "小雅・彤弓之什・車攻",
+      "candidates": 16
+    },
+    {
+      "id": "shijing-261",
+      "title": "大雅・蕩之什・韓奕",
+      "candidates": 24
+    },
+    {
+      "id": "shijing-180",
+      "title": "小雅・彤弓之什・吉日",
+      "candidates": 3
+    },
+    {
+      "id": "shijing-181",
+      "title": "小雅・彤弓之什・鴻鴈",
+      "candidates": 1
+    },
+    {
+      "id": "shijing-182",
+      "title": "小雅・彤弓之什・庭燎",
+      "candidates": 1
+    },
+    {
+      "id": "shijing-184",
+      "title": "小雅・彤弓之什・鶴鳴",
+      "candidates": 5
+    },
+    {
+      "id": "shijing-185",
+      "title": "小雅・祈父之什・祈父",
+      "candidates": 3
+    },
+    {
+      "id": "shijing-186",
+      "title": "小雅・祈父之什・白駒",
+      "candidates": 3
+    },
+    {
+      "id": "shijing-188",
+      "title": "小雅・祈父之什・我行其野",
+      "candidates": 1
+    },
+    {
+      "id": "shijing-189",
+      "title": "小雅・祈父之什・斯干",
+      "candidates": 17
+    },
+    {
+      "id": "shijing-190",
+      "title": "小雅・祈父之什・無羊",
+      "candidates": 5
+    },
+    {
+      "id": "shijing-191",
+      "title": "小雅・祈父之什・節南山",
+      "candidates": 11
+    },
+    {
+      "id": "shijing-192",
+      "title": "小雅・祈父之什・正月",
+      "candidates": 17
+    },
+    {
+      "id": "shijing-193",
+      "title": "小雅・祈父之什・十月之交",
+      "candidates": 19
+    },
+    {
+      "id": "shijing-194",
+      "title": "小雅・祈父之什・雨無正",
+      "candidates": 5
+    },
+    {
+      "id": "shijing-195",
+      "title": "小雅・小旻之什・小旻",
+      "candidates": 11
+    },
+    {
+      "id": "shijing-196",
+      "title": "小雅・小旻之什・小宛",
+      "candidates": 20
+    },
+    {
+      "id": "shijing-197",
+      "title": "小雅・小旻之什・小弁",
+      "candidates": 22
+    },
+    {
+      "id": "shijing-198",
+      "title": "小雅・小旻之什・巧言",
+      "candidates": 13
+    },
+    {
+      "id": "shijing-199",
+      "title": "小雅・小旻之什・何人斯",
+      "candidates": 9
+    },
+    {
+      "id": "shijing-200",
+      "title": "小雅・小旻之什・巷伯",
+      "candidates": 10
+    },
+    {
+      "id": "shijing-201",
+      "title": "小雅・小旻之什・谷風",
+      "candidates": 4
+    },
+    {
+      "id": "shijing-202",
+      "title": "小雅・小旻之什・蓼莪",
+      "candidates": 5
+    },
+    {
+      "id": "shijing-203",
+      "title": "小雅・小旻之什・大東",
+      "candidates": 21
+    },
+    {
+      "id": "shijing-204",
+      "title": "小雅・小旻之什・四月",
+      "candidates": 10
+    },
+    {
+      "id": "shijing-205",
+      "title": "小雅・北山之什・北山",
+      "candidates": 8
+    },
+    {
+      "id": "shijing-206",
+      "title": "小雅・北山之什・無將大車",
+      "candidates": 3
+    },
+    {
+      "id": "shijing-207",
+      "title": "小雅・北山之什・小明",
+      "candidates": 4
+    },
+    {
+      "id": "shijing-208",
+      "title": "小雅・北山之什・鼓鍾",
+      "candidates": 2
+    },
+    {
+      "id": "shijing-209",
+      "title": "小雅・北山之什・楚茨",
+      "candidates": 22
+    },
+    {
+      "id": "shijing-210",
+      "title": "小雅・北山之什・信南山",
+      "candidates": 4
+    },
+    {
+      "id": "shijing-211",
+      "title": "小雅・北山之什・甫田",
+      "candidates": 7
+    },
+    {
+      "id": "shijing-212",
+      "title": "小雅・北山之什・大田",
+      "candidates": 14
+    },
+    {
+      "id": "shijing-213",
+      "title": "小雅・北山之什・瞻彼洛矣",
+      "candidates": 4
+    },
+    {
+      "id": "shijing-214",
+      "title": "小雅・北山之什・裳裳者華",
+      "candidates": 4
+    },
+    {
+      "id": "shijing-215",
+      "title": "小雅・桑扈之什・桑扈",
+      "candidates": 3
+    },
+    {
+      "id": "shijing-216",
+      "title": "小雅・桑扈之什・鴛鴦",
+      "candidates": 4
+    },
+    {
+      "id": "shijing-217",
+      "title": "小雅・桑扈之什・頍弁",
+      "candidates": 11
+    },
+    {
+      "id": "shijing-218",
+      "title": "小雅・桑扈之什・車舝",
+      "candidates": 13
+    },
+    {
+      "id": "shijing-220",
+      "title": "小雅・桑扈之什・賓之初筵",
+      "candidates": 10
+    },
+    {
+      "id": "shijing-221",
+      "title": "小雅・桑扈之什・魚藻",
+      "candidates": 4
+    },
+    {
+      "id": "shijing-222",
+      "title": "小雅・桑扈之什・采菽",
+      "candidates": 11
+    },
+    {
+      "id": "shijing-223",
+      "title": "小雅・桑扈之什・角弓",
+      "candidates": 9
+    },
+    {
+      "id": "shijing-224",
+      "title": "小雅・桑扈之什・菀柳",
+      "candidates": 7
+    },
+    {
+      "id": "shijing-225",
+      "title": "小雅・都人士之什・都人士",
+      "candidates": 9
+    },
+    {
+      "id": "shijing-226",
+      "title": "小雅・都人士之什・采綠",
+      "candidates": 2
+    },
+    {
+      "id": "shijing-228",
+      "title": "小雅・都人士之什・隰桑",
+      "candidates": 3
+    },
+    {
+      "id": "shijing-229",
+      "title": "小雅・都人士之什・白華",
+      "candidates": 5
+    },
+    {
+      "id": "shijing-231",
+      "title": "小雅・都人士之什・瓠葉",
+      "candidates": 2
+    },
+    {
+      "id": "shijing-232",
+      "title": "小雅・都人士之什・漸漸之石",
+      "candidates": 4
+    },
+    {
+      "id": "shijing-233",
+      "title": "小雅・都人士之什・苕之華",
+      "candidates": 3
+    },
+    {
+      "id": "shijing-234",
+      "title": "小雅・都人士之什・何草不黃",
+      "candidates": 1
+    },
+    {
+      "id": "shijing-235",
+      "title": "大雅・文王之什・文王",
+      "candidates": 19
+    },
+    {
+      "id": "shijing-236",
+      "title": "大雅・文王之什・大明",
+      "candidates": 29
+    },
+    {
+      "id": "shijing-237",
+      "title": "大雅・文王之什・緜",
+      "candidates": 27
+    },
+    {
+      "id": "shijing-238",
+      "title": "大雅・文王之什・棫樸",
+      "candidates": 9
+    },
+    {
+      "id": "shijing-239",
+      "title": "大雅・文王之什・旱麓",
+      "candidates": 8
+    },
+    {
+      "id": "shijing-240",
+      "title": "大雅・文王之什・思齊",
+      "candidates": 6
+    },
+    {
+      "id": "shijing-241",
+      "title": "大雅・文王之什・皇矣",
+      "candidates": 30
+    },
+    {
+      "id": "shijing-242",
+      "title": "大雅・文王之什・靈臺",
+      "candidates": 12
+    },
+    {
+      "id": "shijing-243",
+      "title": "大雅・文王之什・下武",
+      "candidates": 3
+    },
+    {
+      "id": "shijing-244",
+      "title": "大雅・文王之什・文王有聲",
+      "candidates": 18
+    },
+    {
+      "id": "shijing-245",
+      "title": "大雅・生民之什・生民",
+      "candidates": 26
+    },
+    {
+      "id": "shijing-246",
+      "title": "大雅・生民之什・行葦",
+      "candidates": 6
+    },
+    {
+      "id": "shijing-248",
+      "title": "大雅・生民之什・鳧鷖",
+      "candidates": 5
+    },
+    {
+      "id": "shijing-249",
+      "title": "大雅・生民之什・假樂",
+      "candidates": 8
+    },
+    {
+      "id": "shijing-250",
+      "title": "大雅・生民之什・公劉",
+      "candidates": 9
+    },
+    {
+      "id": "shijing-251",
+      "title": "大雅・生民之什・泂酌",
+      "candidates": 1
+    },
+    {
+      "id": "shijing-252",
+      "title": "大雅・生民之什・卷阿",
+      "candidates": 9
+    },
+    {
+      "id": "shijing-253",
+      "title": "大雅・生民之什・民勞",
+      "candidates": 10
+    },
+    {
+      "id": "shijing-254",
+      "title": "大雅・生民之什・板",
+      "candidates": 24
+    },
+    {
+      "id": "shijing-076",
+      "title": "鄭風・將仲子",
+      "candidates": 1
+    },
+    {
+      "id": "shijing-255",
+      "title": "大雅・蕩之什・蕩",
+      "candidates": 19
+    },
+    {
+      "id": "shijing-256",
+      "title": "大雅・蕩之什・抑",
+      "candidates": 40
+    },
+    {
+      "id": "shijing-257",
+      "title": "大雅・蕩之什・桑柔",
+      "candidates": 31
+    },
+    {
+      "id": "shijing-258",
+      "title": "大雅・蕩之什・雲漢",
+      "candidates": 15
+    },
+    {
+      "id": "shijing-259",
+      "title": "大雅・蕩之什・崧高",
+      "candidates": 13
+    },
+    {
+      "id": "shijing-260",
+      "title": "大雅・蕩之什・烝民",
+      "candidates": 16
+    },
+    {
+      "id": "shijing-262",
+      "title": "大雅・蕩之什・江漢",
+      "candidates": 6
+    },
+    {
+      "id": "shijing-263",
+      "title": "大雅・蕩之什・常武",
+      "candidates": 13
+    },
+    {
+      "id": "shijing-264",
+      "title": "大雅・蕩之什・瞻卬",
+      "candidates": 12
+    },
+    {
+      "id": "shijing-265",
+      "title": "大雅・蕩之什・召旻",
+      "candidates": 4
+    },
+    {
+      "id": "shijing-266",
+      "title": "周頌・清廟之什・清廟",
+      "candidates": 6
+    },
+    {
+      "id": "shijing-267",
+      "title": "周頌・清廟之什・維天之命",
+      "candidates": 3
+    },
+    {
+      "id": "shijing-269",
+      "title": "周頌・清廟之什・烈文",
+      "candidates": 6
+    },
+    {
+      "id": "shijing-271",
+      "title": "周頌・清廟之什・昊天有成命",
+      "candidates": 3
+    },
+    {
+      "id": "shijing-272",
+      "title": "周頌・清廟之什・我將",
+      "candidates": 3
+    },
+    {
+      "id": "shijing-273",
+      "title": "周頌・清廟之什・時邁",
+      "candidates": 1
+    },
+    {
+      "id": "shijing-275",
+      "title": "周頌・清廟之什・思文",
+      "candidates": 6
+    },
+    {
+      "id": "shijing-276",
+      "title": "周頌・臣工之什・臣工",
+      "candidates": 4
+    },
+    {
+      "id": "shijing-277",
+      "title": "周頌・臣工之什・噫嘻",
+      "candidates": 5
+    },
+    {
+      "id": "shijing-278",
+      "title": "周頌・臣工之什・振鷺",
+      "candidates": 5
+    },
+    {
+      "id": "shijing-280",
+      "title": "周頌・臣工之什・有瞽",
+      "candidates": 5
+    },
+    {
+      "id": "shijing-281",
+      "title": "周頌・臣工之什・潛",
+      "candidates": 5
+    },
+    {
+      "id": "shijing-283",
+      "title": "周頌・臣工之什・載見",
+      "candidates": 3
+    },
+    {
+      "id": "shijing-285",
+      "title": "周頌・臣工之什・武",
+      "candidates": 1
+    },
+    {
+      "id": "shijing-286",
+      "title": "周頌・閔予小子之什・閔予小子",
+      "candidates": 6
+    },
+    {
+      "id": "shijing-287",
+      "title": "周頌・閔予小子之什・訪落",
+      "candidates": 1
+    },
+    {
+      "id": "shijing-288",
+      "title": "周頌・閔予小子之什・敬之",
+      "candidates": 7
+    },
+    {
+      "id": "shijing-289",
+      "title": "周頌・閔予小子之什・小毖",
+      "candidates": 5
+    },
+    {
+      "id": "shijing-290",
+      "title": "周頌・閔予小子之什・載芟",
+      "candidates": 5
+    },
+    {
+      "id": "shijing-291",
+      "title": "周頌・閔予小子之什・良耜",
+      "candidates": 5
+    },
+    {
+      "id": "shijing-292",
+      "title": "周頌・閔予小子之什・絲衣",
+      "candidates": 6
+    },
+    {
+      "id": "shijing-295",
+      "title": "周頌・閔予小子之什・賚",
+      "candidates": 2
+    },
+    {
+      "id": "shijing-296",
+      "title": "周頌・閔予小子之什・般",
+      "candidates": 7
+    },
+    {
+      "id": "shijing-297",
+      "title": "魯頌・駉",
+      "candidates": 3
+    },
+    {
+      "id": "shijing-299",
+      "title": "魯頌・泮水",
+      "candidates": 22
+    },
+    {
+      "id": "shijing-300",
+      "title": "魯頌・閟宮",
+      "candidates": 36
+    },
+    {
+      "id": "shijing-301",
+      "title": "商頌・那",
+      "candidates": 6
+    },
+    {
+      "id": "shijing-302",
+      "title": "商頌・烈祖",
+      "candidates": 7
+    },
+    {
+      "id": "shijing-303",
+      "title": "商頌・玄鳥",
+      "candidates": 11
+    },
+    {
+      "id": "shijing-304",
+      "title": "商頌・長發",
+      "candidates": 28
+    },
+    {
+      "id": "shijing-305",
+      "title": "商頌・殷武",
+      "candidates": 13
+    },
+    {
+      "id": "shijing-118",
+      "title": "唐風・綢繆",
+      "candidates": 3
+    },
+    {
+      "id": "shijing-049",
+      "title": "鄘風・鶉之奔奔",
+      "candidates": 1
+    },
+    {
+      "id": "shijing-036",
+      "title": "邶風・式微",
+      "candidates": 1
+    },
+    {
+      "id": "shijing-020",
+      "title": "召南・摽有梅",
+      "candidates": 1
+    },
+    {
+      "id": "shijing-081",
+      "title": "鄭風・遵大路",
+      "candidates": 1
+    },
+    {
+      "id": "shijing-082",
+      "title": "鄭風・女曰雞鳴",
+      "candidates": 3
+    },
+    {
+      "id": "shijing-089",
+      "title": "鄭風・東門之墠",
+      "candidates": 1
+    },
+    {
+      "id": "shijing-108",
+      "title": "魏風・汾沮洳",
+      "candidates": 1
+    },
+    {
+      "id": "shijing-114",
+      "title": "唐風・蟋蟀",
+      "candidates": 2
+    },
+    {
+      "id": "shijing-169",
+      "title": "小雅・鹿鳴之什・杕杜",
+      "candidates": 1
+    },
+    {
+      "id": "shijing-174",
+      "title": "小雅・白華之什・湛露",
+      "candidates": 2
+    },
+    {
+      "id": "shijing-227",
+      "title": "小雅・都人士之什・黍苗",
+      "candidates": 1
+    },
+    {
+      "id": "shijing-230",
+      "title": "小雅・都人士之什・緜蠻",
+      "candidates": 2
+    },
+    {
+      "id": "shijing-247",
+      "title": "大雅・生民之什・既醉",
+      "candidates": 2
+    },
+    {
+      "id": "shijing-274",
+      "title": "周頌・清廟之什・執競",
+      "candidates": 1
+    },
+    {
+      "id": "shijing-282",
+      "title": "周頌・臣工之什・雝",
+      "candidates": 1
+    },
+    {
+      "id": "shijing-098",
+      "title": "齊風・著",
+      "candidates": 1
+    },
+    {
+      "id": "shijing-153",
+      "title": "曹風・下泉",
+      "candidates": 1
+    },
+    {
+      "id": "shijing-172",
+      "title": "小雅・白華之什・南山有臺",
+      "candidates": 1
+    },
+    {
+      "id": "shijing-219",
+      "title": "小雅・桑扈之什・青蠅",
+      "candidates": 2
+    },
+    {
+      "id": "shijing-268",
+      "title": "周頌・清廟之什・維清",
+      "candidates": 1
+    }
+  ]
+}

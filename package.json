@@ -10,6 +10,12 @@
     "test": "node --test tests/*.test.js",
     "build:corpora": "node scripts/build-corpora.mjs",
     "check:corpora": "node scripts/build-corpora.mjs --check",
+    "build:collation": "node scripts/build-shijing-collation.mjs",
+    "check:collation": "node scripts/build-shijing-collation.mjs --check",
+    "build:pilot": "node scripts/build-shijing-pilot.mjs",
+    "check:pilot": "node scripts/build-shijing-pilot.mjs --check",
+    "build:modern": "node scripts/build-shijing-modern.mjs",
+    "check:modern": "node scripts/build-shijing-modern.mjs --check",
     "classify:pending": "node scripts/classify-pending.mjs",
     "check:pending": "node scripts/classify-pending.mjs --check"
   },

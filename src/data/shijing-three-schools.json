@@ -1,0 +1,1205 @@
+{
+  "version": 1,
+  "editedOn": "2026-10-31",
+  "title": "三家詩已整理異文對照",
+  "coverage": "本表保留已整理的40條對照。另全錄三種輯書共17,195段原文，附1,778組待校對句；《集疏》十冊影印已取得，文字仍未全錄。",
+  "textPolicy": "本站練習正文沿用通行毛詩系統。異文只供對照；不據異字自動移植切韻讀音。",
+  "attributionPolicy": "「古注明引」表示古注明言家別；「清人輯定」表示按王先謙等人的輯佚歸屬列出，不等同現存漢代三家詩原本。",
+  "verificationPolicy": "本批核對電子轉錄及固定版本引文；尚未逐條核對影印本。CTP OCR 的疑字、未確定歸屬及只有訓詁而無經文字異者，不自動轉成異文。",
+  "referenceBooks": [
+    {
+      "title": "詩三家義集疏",
+      "author": "王先謙",
+      "url": "https://ctext.org/wiki.pl?if=gb&res=598482",
+      "use": "本表六條輯定來源；另收十冊公開影印，文字尚未全錄"
+    },
+    {
+      "title": "詩經四家異文考",
+      "author": "陳喬樅",
+      "url": "https://ctext.org/library.pl?if=en&res=1361",
+      "use": "五卷電子轉錄已全錄，另存待校底稿；尚未逐頁影印核定"
+    },
+    {
+      "title": "三家詩異文疏證",
+      "author": "王應麟集考、馮登府補釋",
+      "url": "https://www.shidianguji.com/zh/book/NGJ89241200000252019990/chapter/1lqp4k33lrne1",
+      "use": "六卷、補遺三卷及卷首目錄全錄於待校底稿"
+    },
+    {
+      "title": "三家詩遺說考",
+      "author": "陳壽祺撰、陳喬樅述",
+      "url": "https://www.shidianguji.com/zh/book/CADAL01032644/chapter/1lfudskensw1r",
+      "use": "魯六卷、齊四卷、韓五卷及卷首目錄全錄於待校底稿，兼收異文與遺說"
+    }
+  ],
+  "entries": [
+    {
+      "id": "sanjia-001",
+      "poemId": "shijing-001",
+      "title": "周南・關雎",
+      "baseText": "在河之洲",
+      "base": "洲",
+      "variant": "州",
+      "schools": [
+        "齊",
+        "魯",
+        "韓"
+      ],
+      "attribution": "清人輯定",
+      "note": "《集疏》合稱三家，據《說文》州字等輯定；屬古今用字，不據此另定讀音。",
+      "references": [
+        {
+          "book": "詩三家義集疏",
+          "author": "王先謙",
+          "location": "卷一・關雎",
+          "quote": "三家洲作州",
+          "url": "https://ctext.org/wiki.pl?if=gb&chapter=487045",
+          "transcriptionUrl": "https://dh.aks.ac.kr/~soook/wiki/index.php/詩三家義集疏",
+          "verification": "對讀兩處電子轉錄；CTP 影印頁需登入，尚待影印覆核"
+        }
+      ]
+    },
+    {
+      "id": "sanjia-002",
+      "poemId": "shijing-001",
+      "title": "周南・關雎",
+      "baseText": "君子好逑",
+      "base": "逑",
+      "variant": "仇",
+      "schools": [
+        "魯",
+        "齊"
+      ],
+      "attribution": "清人輯定",
+      "note": "《集疏》據《爾雅》注、《漢書・匡衡傳》《禮記・緇衣》等分屬魯、齊；《釋文》亦記毛本作仇，非三家獨有。",
+      "references": [
+        {
+          "book": "詩三家義集疏",
+          "author": "王先謙",
+          "location": "卷一・關雎",
+          "quote": "魯齊逑作仇",
+          "url": "https://ctext.org/wiki.pl?if=gb&chapter=487045",
+          "transcriptionUrl": "https://dh.aks.ac.kr/~soook/wiki/index.php/詩三家義集疏",
+          "verification": "對讀兩處電子轉錄；CTP 影印頁需登入，尚待影印覆核"
+        }
+      ]
+    },
+    {
+      "id": "sanjia-003",
+      "poemId": "shijing-002",
+      "title": "周南・葛覃",
+      "baseText": "維葉萋萋",
+      "base": "維",
+      "variant": "惟",
+      "schools": [
+        "韓"
+      ],
+      "attribution": "清人輯定",
+      "note": "《集疏》據《文選》李善注引薛君《韓詩章句》；此處只列本篇已核句，不擴寫其他篇。",
+      "references": [
+        {
+          "book": "詩三家義集疏",
+          "author": "王先謙",
+          "location": "卷一・葛覃",
+          "quote": "韓維作惟",
+          "url": "https://ctext.org/wiki.pl?if=gb&chapter=487045",
+          "transcriptionUrl": "https://dh.aks.ac.kr/~soook/wiki/index.php/詩三家義集疏",
+          "verification": "對讀兩處電子轉錄；CTP 影印頁需登入，尚待影印覆核"
+        }
+      ]
+    },
+    {
+      "id": "sanjia-004",
+      "poemId": "shijing-002",
+      "title": "周南・葛覃",
+      "baseText": "集于灌木",
+      "base": "灌",
+      "variant": "樌",
+      "schools": [
+        "魯"
+      ],
+      "attribution": "清人輯定",
+      "note": "《集疏》據《爾雅》及其《釋文》、郭注推定魯家用字；原書作「亦作」，不表示魯詩只有一種寫法。",
+      "references": [
+        {
+          "book": "詩三家義集疏",
+          "author": "王先謙",
+          "location": "卷一・葛覃",
+          "quote": "魯灌亦作樌",
+          "url": "https://ctext.org/wiki.pl?if=gb&chapter=487045",
+          "transcriptionUrl": "https://dh.aks.ac.kr/~soook/wiki/index.php/詩三家義集疏",
+          "verification": "對讀兩處電子轉錄；CTP 影印頁需登入，尚待影印覆核"
+        }
+      ]
+    },
+    {
+      "id": "sanjia-005",
+      "poemId": "shijing-002",
+      "title": "周南・葛覃",
+      "baseText": "是刈是濩",
+      "base": "濩",
+      "variant": "鑊",
+      "schools": [
+        "魯"
+      ],
+      "attribution": "清人輯定",
+      "note": "《集疏》據《爾雅・釋訓》及《正義》所見本輯定；保留用字與器名、動詞解釋的關聯。",
+      "references": [
+        {
+          "book": "詩三家義集疏",
+          "author": "王先謙",
+          "location": "卷一・葛覃",
+          "quote": "魯說曰是刈是鑊",
+          "url": "https://ctext.org/wiki.pl?if=gb&chapter=487045",
+          "transcriptionUrl": "https://dh.aks.ac.kr/~soook/wiki/index.php/詩三家義集疏",
+          "verification": "對讀兩處電子轉錄；CTP 影印頁需登入，尚待影印覆核"
+        }
+      ]
+    },
+    {
+      "id": "sanjia-006",
+      "poemId": "shijing-002",
+      "title": "周南・葛覃",
+      "baseText": "服之無斁",
+      "base": "斁",
+      "variant": "射",
+      "schools": [
+        "魯",
+        "齊"
+      ],
+      "attribution": "清人輯定",
+      "note": "《集疏》據《楚辭》王逸注及《禮記・緇衣》分屬魯、齊；斁、射為假借用字。",
+      "references": [
+        {
+          "book": "詩三家義集疏",
+          "author": "王先謙",
+          "location": "卷一・葛覃",
+          "quote": "魯齊斁作射",
+          "url": "https://ctext.org/wiki.pl?if=gb&chapter=487045",
+          "transcriptionUrl": "https://dh.aks.ac.kr/~soook/wiki/index.php/詩三家義集疏",
+          "verification": "對讀兩處電子轉錄；CTP 影印頁需登入，尚待影印覆核"
+        }
+      ]
+    },
+    {
+      "id": "sanjia-007",
+      "poemId": "shijing-004",
+      "title": "周南・樛木",
+      "baseText": "南有樛木",
+      "base": "樛",
+      "variant": "朻",
+      "schools": [
+        "韓"
+      ],
+      "attribution": "古注明引",
+      "note": "《釋文》並列馬融本與韓詩本作朻，且明言音同；不把馬融本另算作一家詩。",
+      "references": [
+        {
+          "book": "經典釋文",
+          "author": "陸德明",
+          "location": "KR1g0003_SBCK_005-4a",
+          "lemma": "病也樛木",
+          "quote": "居虯反木下句曰樛字林九稠反馬融韓詩本並作朻音同字林巳周反說文以朻爲木髙",
+          "file": "KR1g0003_005.txt",
+          "commit": "31270f868a66396f7dc16d02e19518effe14cb90",
+          "sha256": "43a3fcb5d69b2cefdca194bd7526429e1feaea5b6f33810faf9171393dd06aaa",
+          "url": "https://github.com/kanripo/KR1g0003/blob/31270f868a66396f7dc16d02e19518effe14cb90/KR1g0003_005.txt",
+          "verification": "已核固定版本轉錄；原典未作影印覆核",
+          "lemmaPage": "KR1g0003_SBCK_005-3b",
+          "quotePage": "KR1g0003_SBCK_005-4a",
+          "quoteEndPage": "KR1g0003_SBCK_005-4a"
+        }
+      ]
+    },
+    {
+      "id": "sanjia-008",
+      "poemId": "shijing-010",
+      "title": "周南・汝墳",
+      "baseText": "惄如調飢",
+      "base": "惄",
+      "variant": "愵",
+      "schools": [
+        "韓"
+      ],
+      "attribution": "古注明引",
+      "note": "《釋文》明引韓詩用字；只作異文參考，沿用本站正文及其選讀。",
+      "references": [
+        {
+          "book": "經典釋文",
+          "author": "陸德明",
+          "location": "KR1g0003_SBCK_005-5a",
+          "lemma": "文條枚如",
+          "quote": "本又作惄乃歷反毛飢意鄭思也韓詩作愵音同",
+          "file": "KR1g0003_005.txt",
+          "commit": "31270f868a66396f7dc16d02e19518effe14cb90",
+          "sha256": "43a3fcb5d69b2cefdca194bd7526429e1feaea5b6f33810faf9171393dd06aaa",
+          "url": "https://github.com/kanripo/KR1g0003/blob/31270f868a66396f7dc16d02e19518effe14cb90/KR1g0003_005.txt",
+          "verification": "已核固定版本轉錄；原典未作影印覆核",
+          "lemmaPage": "KR1g0003_SBCK_005-5a",
+          "quotePage": "KR1g0003_SBCK_005-5a",
+          "quoteEndPage": "KR1g0003_SBCK_005-5a"
+        }
+      ]
+    },
+    {
+      "id": "sanjia-009",
+      "poemId": "shijing-018",
+      "title": "召南・羔羊",
+      "baseText": "委蛇委蛇",
+      "base": "委蛇",
+      "variant": "逶迤",
+      "schools": [
+        "韓"
+      ],
+      "attribution": "古注明引",
+      "note": "《釋文》記韓作逶迤、訓公正貌；毛傳與鄭箋的解釋另有分別，不把訓詁直接改成經文。",
+      "references": [
+        {
+          "book": "經典釋文",
+          "author": "陸德明",
+          "location": "KR1g0003_SBCK_005-7b",
+          "lemma": "以英委虵",
+          "quote": "本又作蛇同音移毛云委虵行可從迹也鄭云委曲自得之貌讀此句當云委虵委虵沈讀作委委虵虵韓詩作逶迤云公正貌",
+          "file": "KR1g0003_005.txt",
+          "commit": "31270f868a66396f7dc16d02e19518effe14cb90",
+          "sha256": "43a3fcb5d69b2cefdca194bd7526429e1feaea5b6f33810faf9171393dd06aaa",
+          "url": "https://github.com/kanripo/KR1g0003/blob/31270f868a66396f7dc16d02e19518effe14cb90/KR1g0003_005.txt",
+          "verification": "已核固定版本轉錄；原典未作影印覆核",
+          "lemmaPage": "KR1g0003_SBCK_005-7b",
+          "quotePage": "KR1g0003_SBCK_005-7b",
+          "quoteEndPage": "KR1g0003_SBCK_005-7b"
+        }
+      ]
+    },
+    {
+      "id": "sanjia-010",
+      "poemId": "shijing-020",
+      "title": "召南・摽有梅",
+      "baseText": "摽有梅",
+      "base": "梅",
+      "variant": "楳",
+      "schools": [
+        "韓"
+      ],
+      "attribution": "古注明引",
+      "note": "《釋文》以「梅木名也」後記韓詩作楳，對應的是梅字。",
+      "references": [
+        {
+          "book": "經典釋文",
+          "author": "陸德明",
+          "location": "KR1g0003_SBCK_005-8a",
+          "lemma": "處摽有梅",
+          "quote": "婢小反徐符表反落也梅木名也韓詩作楳說文楳亦梅字",
+          "file": "KR1g0003_005.txt",
+          "commit": "31270f868a66396f7dc16d02e19518effe14cb90",
+          "sha256": "43a3fcb5d69b2cefdca194bd7526429e1feaea5b6f33810faf9171393dd06aaa",
+          "url": "https://github.com/kanripo/KR1g0003/blob/31270f868a66396f7dc16d02e19518effe14cb90/KR1g0003_005.txt",
+          "verification": "已核固定版本轉錄；原典未作影印覆核",
+          "lemmaPage": "KR1g0003_SBCK_005-8a",
+          "quotePage": "KR1g0003_SBCK_005-8a",
+          "quoteEndPage": "KR1g0003_SBCK_005-8a"
+        }
+      ]
+    },
+    {
+      "id": "sanjia-011",
+      "poemId": "shijing-021",
+      "title": "召南・小星",
+      "baseText": "寔命不同",
+      "base": "寔",
+      "variant": "實",
+      "schools": [
+        "韓"
+      ],
+      "attribution": "古注明引",
+      "note": "本站正文作寔，韓詩作實、訓有也；用字差異與訓義一併保存。",
+      "references": [
+        {
+          "book": "經典釋文",
+          "author": "陸德明",
+          "location": "KR1g0003_SBCK_005-8a",
+          "lemma": "列宿寔命",
+          "quote": "時職反是也韓詩作實云有也",
+          "file": "KR1g0003_005.txt",
+          "commit": "31270f868a66396f7dc16d02e19518effe14cb90",
+          "sha256": "43a3fcb5d69b2cefdca194bd7526429e1feaea5b6f33810faf9171393dd06aaa",
+          "url": "https://github.com/kanripo/KR1g0003/blob/31270f868a66396f7dc16d02e19518effe14cb90/KR1g0003_005.txt",
+          "verification": "已核固定版本轉錄；原典未作影印覆核",
+          "lemmaPage": "KR1g0003_SBCK_005-8a",
+          "quotePage": "KR1g0003_SBCK_005-8a",
+          "quoteEndPage": "KR1g0003_SBCK_005-8a"
+        }
+      ]
+    },
+    {
+      "id": "sanjia-012",
+      "poemId": "shijing-031",
+      "title": "邶風・擊鼓",
+      "baseText": "于嗟洵兮",
+      "base": "洵",
+      "variant": "夐",
+      "schools": [
+        "韓"
+      ],
+      "attribution": "古注明引",
+      "note": "《釋文》明引韓詩用字；只作異文參考，沿用本站正文及其選讀。",
+      "references": [
+        {
+          "book": "經典釋文",
+          "author": "陸德明",
+          "location": "KR1g0003_SBCK_005-11a",
+          "lemma": "難相逺洵",
+          "quote": "呼縣反逺也本或作詢誤也詢音荀韓詩作夐夐亦逺也",
+          "file": "KR1g0003_005.txt",
+          "commit": "31270f868a66396f7dc16d02e19518effe14cb90",
+          "sha256": "43a3fcb5d69b2cefdca194bd7526429e1feaea5b6f33810faf9171393dd06aaa",
+          "url": "https://github.com/kanripo/KR1g0003/blob/31270f868a66396f7dc16d02e19518effe14cb90/KR1g0003_005.txt",
+          "verification": "已核固定版本轉錄；原典未作影印覆核",
+          "lemmaPage": "KR1g0003_SBCK_005-11a",
+          "quotePage": "KR1g0003_SBCK_005-11a",
+          "quoteEndPage": "KR1g0003_SBCK_005-11a"
+        }
+      ]
+    },
+    {
+      "id": "sanjia-013",
+      "poemId": "shijing-039",
+      "title": "邶風・泉水",
+      "baseText": "毖彼泉水",
+      "base": "毖",
+      "variant": "祕",
+      "schools": [
+        "韓"
+      ],
+      "attribution": "古注明引",
+      "note": "《釋文》明引韓詩用字；只作異文參考，沿用本站正文及其選讀。",
+      "references": [
+        {
+          "book": "經典釋文",
+          "author": "陸德明",
+          "location": "KR1g0003_SBCK_005-14a",
+          "lemma": "至也毖彼",
+          "quote": "悲位反流貌韓詩作祕說文作䀣云直視也",
+          "file": "KR1g0003_005.txt",
+          "commit": "31270f868a66396f7dc16d02e19518effe14cb90",
+          "sha256": "43a3fcb5d69b2cefdca194bd7526429e1feaea5b6f33810faf9171393dd06aaa",
+          "url": "https://github.com/kanripo/KR1g0003/blob/31270f868a66396f7dc16d02e19518effe14cb90/KR1g0003_005.txt",
+          "verification": "已核固定版本轉錄；原典未作影印覆核",
+          "lemmaPage": "KR1g0003_SBCK_005-14a",
+          "quotePage": "KR1g0003_SBCK_005-14a",
+          "quoteEndPage": "KR1g0003_SBCK_005-14a"
+        }
+      ]
+    },
+    {
+      "id": "sanjia-014",
+      "poemId": "shijing-040",
+      "title": "邶風・北門",
+      "baseText": "室人交徧摧我",
+      "base": "摧",
+      "variant": "䜅",
+      "schools": [
+        "韓"
+      ],
+      "attribution": "古注明引",
+      "note": "《釋文》明引韓詩用字；只作異文參考，沿用本站正文及其選讀。",
+      "references": [
+        {
+          "book": "經典釋文",
+          "author": "陸德明",
+          "location": "KR1g0003_SBCK_005-14b",
+          "lemma": "投擿摧我",
+          "quote": "徂回反沮也或作催音同韓詩作䜅音于隹子隹二反就也",
+          "file": "KR1g0003_005.txt",
+          "commit": "31270f868a66396f7dc16d02e19518effe14cb90",
+          "sha256": "43a3fcb5d69b2cefdca194bd7526429e1feaea5b6f33810faf9171393dd06aaa",
+          "url": "https://github.com/kanripo/KR1g0003/blob/31270f868a66396f7dc16d02e19518effe14cb90/KR1g0003_005.txt",
+          "verification": "已核固定版本轉錄；原典未作影印覆核",
+          "lemmaPage": "KR1g0003_SBCK_005-14b",
+          "quotePage": "KR1g0003_SBCK_005-14b",
+          "quoteEndPage": "KR1g0003_SBCK_005-14b"
+        }
+      ]
+    },
+    {
+      "id": "sanjia-015",
+      "poemId": "shijing-046",
+      "title": "鄘風・牆有茨",
+      "baseText": "不可詳也",
+      "base": "詳",
+      "variant": "揚",
+      "schools": [
+        "韓"
+      ],
+      "attribution": "古注明引",
+      "note": "《釋文》明引韓詩用字；只作異文參考，沿用本站正文及其選讀。",
+      "references": [
+        {
+          "book": "經典釋文",
+          "author": "陸德明",
+          "location": "KR1g0003_SBCK_005-16a",
+          "lemma": "冓不可詳",
+          "quote": "如字韓詩作揚揚猶道也",
+          "file": "KR1g0003_005.txt",
+          "commit": "31270f868a66396f7dc16d02e19518effe14cb90",
+          "sha256": "43a3fcb5d69b2cefdca194bd7526429e1feaea5b6f33810faf9171393dd06aaa",
+          "url": "https://github.com/kanripo/KR1g0003/blob/31270f868a66396f7dc16d02e19518effe14cb90/KR1g0003_005.txt",
+          "verification": "已核固定版本轉錄；原典未作影印覆核",
+          "lemmaPage": "KR1g0003_SBCK_005-16a",
+          "quotePage": "KR1g0003_SBCK_005-16a",
+          "quoteEndPage": "KR1g0003_SBCK_005-16a"
+        }
+      ]
+    },
+    {
+      "id": "sanjia-016",
+      "poemId": "shijing-047",
+      "title": "鄘風・君子偕老",
+      "baseText": "邦之媛也",
+      "base": "媛",
+      "variant": "援",
+      "schools": [
+        "韓"
+      ],
+      "attribution": "古注明引",
+      "note": "《釋文》明引韓詩用字；只作異文參考，沿用本站正文及其選讀。",
+      "references": [
+        {
+          "book": "經典釋文",
+          "author": "陸德明",
+          "location": "KR1g0003_SBCK_005-16b",
+          "lemma": "作襢媛也",
+          "quote": "于眷反美女爲媛韓詩作援援取也",
+          "file": "KR1g0003_005.txt",
+          "commit": "31270f868a66396f7dc16d02e19518effe14cb90",
+          "sha256": "43a3fcb5d69b2cefdca194bd7526429e1feaea5b6f33810faf9171393dd06aaa",
+          "url": "https://github.com/kanripo/KR1g0003/blob/31270f868a66396f7dc16d02e19518effe14cb90/KR1g0003_005.txt",
+          "verification": "已核固定版本轉錄；原典未作影印覆核",
+          "lemmaPage": "KR1g0003_SBCK_005-16b",
+          "quotePage": "KR1g0003_SBCK_005-16b",
+          "quoteEndPage": "KR1g0003_SBCK_005-16b"
+        }
+      ]
+    },
+    {
+      "id": "sanjia-017",
+      "poemId": "shijing-055",
+      "title": "衛風・淇奧",
+      "baseText": "有匪君子",
+      "base": "匪",
+      "variant": "邲",
+      "schools": [
+        "韓"
+      ],
+      "attribution": "古注明引",
+      "note": "《釋文》明引韓詩用字；只作異文參考，沿用本站正文及其選讀。",
+      "references": [
+        {
+          "book": "經典釋文",
+          "author": "陸德明",
+          "location": "KR1g0003_SBCK_005-18b",
+          "lemma": "之烈有匪",
+          "quote": "本又作斐同芳尾反文貌下同韓詩作邲美貌也",
+          "file": "KR1g0003_005.txt",
+          "commit": "31270f868a66396f7dc16d02e19518effe14cb90",
+          "sha256": "43a3fcb5d69b2cefdca194bd7526429e1feaea5b6f33810faf9171393dd06aaa",
+          "url": "https://github.com/kanripo/KR1g0003/blob/31270f868a66396f7dc16d02e19518effe14cb90/KR1g0003_005.txt",
+          "verification": "已核固定版本轉錄；原典未作影印覆核",
+          "lemmaPage": "KR1g0003_SBCK_005-18b",
+          "quotePage": "KR1g0003_SBCK_005-18b",
+          "quoteEndPage": "KR1g0003_SBCK_005-18b"
+        }
+      ]
+    },
+    {
+      "id": "sanjia-018",
+      "poemId": "shijing-055",
+      "title": "衛風・淇奧",
+      "baseText": "赫兮咺兮",
+      "base": "咺",
+      "variant": "宣",
+      "schools": [
+        "韓"
+      ],
+      "attribution": "古注明引",
+      "note": "《釋文》明引韓詩用字；只作異文參考，沿用本站正文及其選讀。",
+      "references": [
+        {
+          "book": "經典釋文",
+          "author": "陸德明",
+          "location": "KR1g0003_SBCK_005-18b",
+          "lemma": "赫兮咺兮",
+          "quote": "況晚反威儀容止宣著也韓詩作宣宣顯也",
+          "file": "KR1g0003_005.txt",
+          "commit": "31270f868a66396f7dc16d02e19518effe14cb90",
+          "sha256": "43a3fcb5d69b2cefdca194bd7526429e1feaea5b6f33810faf9171393dd06aaa",
+          "url": "https://github.com/kanripo/KR1g0003/blob/31270f868a66396f7dc16d02e19518effe14cb90/KR1g0003_005.txt",
+          "verification": "已核固定版本轉錄；原典未作影印覆核",
+          "lemmaPage": "KR1g0003_SBCK_005-18b",
+          "quotePage": "KR1g0003_SBCK_005-18b",
+          "quoteEndPage": "KR1g0003_SBCK_005-18b"
+        }
+      ]
+    },
+    {
+      "id": "sanjia-019",
+      "poemId": "shijing-057",
+      "title": "衛風・碩人",
+      "baseText": "鱣鮪發發",
+      "base": "發發",
+      "variant": "鱍鱍",
+      "schools": [
+        "韓"
+      ],
+      "attribution": "古注明引",
+      "note": "《釋文》於重言「發發」下注「韓詩作鱍」；對照欄以重言鱍鱍呈現，原注保留單字寫法。",
+      "references": [
+        {
+          "book": "經典釋文",
+          "author": "陸德明",
+          "location": "KR1g0003_SBCK_005-19b",
+          "lemma": "鱣鮪發發",
+          "quote": "補末反盛貌馬云魚著罔尾發發然韓詩作鱍",
+          "file": "KR1g0003_005.txt",
+          "commit": "31270f868a66396f7dc16d02e19518effe14cb90",
+          "sha256": "43a3fcb5d69b2cefdca194bd7526429e1feaea5b6f33810faf9171393dd06aaa",
+          "url": "https://github.com/kanripo/KR1g0003/blob/31270f868a66396f7dc16d02e19518effe14cb90/KR1g0003_005.txt",
+          "verification": "已核固定版本轉錄；原典未作影印覆核",
+          "lemmaPage": "KR1g0003_SBCK_005-19b",
+          "quotePage": "KR1g0003_SBCK_005-19b",
+          "quoteEndPage": "KR1g0003_SBCK_005-19b"
+        }
+      ]
+    },
+    {
+      "id": "sanjia-020",
+      "poemId": "shijing-057",
+      "title": "衛風・碩人",
+      "baseText": "庶姜孽孽",
+      "base": "孽孽",
+      "variant": "䡾䡾",
+      "schools": [
+        "韓"
+      ],
+      "attribution": "古注明引",
+      "note": "《釋文》以單字䡾記重言的異寫；原注及其長貌訓保留。",
+      "references": [
+        {
+          "book": "經典釋文",
+          "author": "陸德明",
+          "location": "KR1g0003_SBCK_005-19b",
+          "lemma": "揭揭孽孽",
+          "quote": "魚竭反徐五謁反盛飾也韓詩作䡾牛遏反長貌",
+          "file": "KR1g0003_005.txt",
+          "commit": "31270f868a66396f7dc16d02e19518effe14cb90",
+          "sha256": "43a3fcb5d69b2cefdca194bd7526429e1feaea5b6f33810faf9171393dd06aaa",
+          "url": "https://github.com/kanripo/KR1g0003/blob/31270f868a66396f7dc16d02e19518effe14cb90/KR1g0003_005.txt",
+          "verification": "已核固定版本轉錄；原典未作影印覆核",
+          "lemmaPage": "KR1g0003_SBCK_005-19b",
+          "quotePage": "KR1g0003_SBCK_005-19b",
+          "quoteEndPage": "KR1g0003_SBCK_005-19b"
+        }
+      ]
+    },
+    {
+      "id": "sanjia-021",
+      "poemId": "shijing-057",
+      "title": "衛風・碩人",
+      "baseText": "庶士有朅",
+      "base": "朅",
+      "variant": "桀",
+      "schools": [
+        "韓"
+      ],
+      "attribution": "古注明引",
+      "note": "《釋文》明引韓詩用字；只作異文參考，沿用本站正文及其選讀。",
+      "references": [
+        {
+          "book": "經典釋文",
+          "author": "陸德明",
+          "location": "KR1g0003_SBCK_005-19b",
+          "lemma": "揭孽孽朅",
+          "quote": "欺列反徐起謁反武壯貌韓詩作桀云健也",
+          "file": "KR1g0003_005.txt",
+          "commit": "31270f868a66396f7dc16d02e19518effe14cb90",
+          "sha256": "43a3fcb5d69b2cefdca194bd7526429e1feaea5b6f33810faf9171393dd06aaa",
+          "url": "https://github.com/kanripo/KR1g0003/blob/31270f868a66396f7dc16d02e19518effe14cb90/KR1g0003_005.txt",
+          "verification": "已核固定版本轉錄；原典未作影印覆核",
+          "lemmaPage": "KR1g0003_SBCK_005-19b",
+          "quotePage": "KR1g0003_SBCK_005-19b",
+          "quoteEndPage": "KR1g0003_SBCK_005-19b"
+        }
+      ]
+    },
+    {
+      "id": "sanjia-022",
+      "poemId": "shijing-058",
+      "title": "衛風・氓",
+      "baseText": "體無咎言",
+      "base": "體",
+      "variant": "履",
+      "schools": [
+        "韓"
+      ],
+      "attribution": "古注明引",
+      "note": "《釋文》明引韓詩用字；只作異文參考，沿用本站正文及其選讀。",
+      "references": [
+        {
+          "book": "經典釋文",
+          "author": "陸德明",
+          "location": "KR1g0003_SBCK_005-20a",
+          "lemma": "爾筮體無",
+          "quote": "如字卦兆之體也韓詩作履履幸也",
+          "file": "KR1g0003_005.txt",
+          "commit": "31270f868a66396f7dc16d02e19518effe14cb90",
+          "sha256": "43a3fcb5d69b2cefdca194bd7526429e1feaea5b6f33810faf9171393dd06aaa",
+          "url": "https://github.com/kanripo/KR1g0003/blob/31270f868a66396f7dc16d02e19518effe14cb90/KR1g0003_005.txt",
+          "verification": "已核固定版本轉錄；原典未作影印覆核",
+          "lemmaPage": "KR1g0003_SBCK_005-20a",
+          "quotePage": "KR1g0003_SBCK_005-20a",
+          "quoteEndPage": "KR1g0003_SBCK_005-20a"
+        }
+      ]
+    },
+    {
+      "id": "sanjia-023",
+      "poemId": "shijing-060",
+      "title": "衛風・芄蘭",
+      "baseText": "垂帶悸兮",
+      "base": "悸",
+      "variant": "萃",
+      "schools": [
+        "韓"
+      ],
+      "attribution": "古注明引",
+      "note": "《釋文》明引韓詩用字；只作異文參考，沿用本站正文及其選讀。",
+      "references": [
+        {
+          "book": "經典釋文",
+          "author": "陸德明",
+          "location": "KR1g0003_SBCK_005-20b",
+          "lemma": "觿與悸兮",
+          "quote": "其季反韓詩作萃垂貌",
+          "file": "KR1g0003_005.txt",
+          "commit": "31270f868a66396f7dc16d02e19518effe14cb90",
+          "sha256": "43a3fcb5d69b2cefdca194bd7526429e1feaea5b6f33810faf9171393dd06aaa",
+          "url": "https://github.com/kanripo/KR1g0003/blob/31270f868a66396f7dc16d02e19518effe14cb90/KR1g0003_005.txt",
+          "verification": "已核固定版本轉錄；原典未作影印覆核",
+          "lemmaPage": "KR1g0003_SBCK_005-20b",
+          "quotePage": "KR1g0003_SBCK_005-20b",
+          "quoteEndPage": "KR1g0003_SBCK_005-20b"
+        }
+      ]
+    },
+    {
+      "id": "sanjia-024",
+      "poemId": "shijing-060",
+      "title": "衛風・芄蘭",
+      "baseText": "能不我甲",
+      "base": "甲",
+      "variant": "狎",
+      "schools": [
+        "韓"
+      ],
+      "attribution": "古注明引",
+      "note": "《釋文》明引韓詩用字；只作異文參考，沿用本站正文及其選讀。",
+      "references": [
+        {
+          "book": "經典釋文",
+          "author": "陸德明",
+          "location": "KR1g0003_SBCK_005-20b",
+          "lemma": "彄沓我甲",
+          "quote": "如字狎也爾雅同徐胡甲反韓詩作狎",
+          "file": "KR1g0003_005.txt",
+          "commit": "31270f868a66396f7dc16d02e19518effe14cb90",
+          "sha256": "43a3fcb5d69b2cefdca194bd7526429e1feaea5b6f33810faf9171393dd06aaa",
+          "url": "https://github.com/kanripo/KR1g0003/blob/31270f868a66396f7dc16d02e19518effe14cb90/KR1g0003_005.txt",
+          "verification": "已核固定版本轉錄；原典未作影印覆核",
+          "lemmaPage": "KR1g0003_SBCK_005-20b",
+          "quotePage": "KR1g0003_SBCK_005-20b",
+          "quoteEndPage": "KR1g0003_SBCK_005-20b"
+        }
+      ]
+    },
+    {
+      "id": "sanjia-025",
+      "poemId": "shijing-137",
+      "title": "陳風・東門之枌",
+      "baseText": "穀旦于差",
+      "base": "差",
+      "variant": "嗟",
+      "schools": [
+        "韓"
+      ],
+      "attribution": "古注明引",
+      "note": "《釋文》明引韓詩用字；只作異文參考，沿用本站正文及其選讀。",
+      "references": [
+        {
+          "book": "經典釋文",
+          "author": "陸德明",
+          "location": "KR1g0003_SBCK_006-1b",
+          "lemma": "榖旦于差",
+          "quote": "鄭初佳反擇也王音嗟韓詩作嗟徐七何反沈云毛意不作嗟案毛無改字冝從鄭讀",
+          "file": "KR1g0003_006.txt",
+          "commit": "31270f868a66396f7dc16d02e19518effe14cb90",
+          "sha256": "376002e9d08fd179abaa4abbaf5e7fe2f285f6278e01288b8a4c55580fdba99f",
+          "url": "https://github.com/kanripo/KR1g0003/blob/31270f868a66396f7dc16d02e19518effe14cb90/KR1g0003_006.txt",
+          "verification": "已核固定版本轉錄；原典未作影印覆核",
+          "lemmaPage": "KR1g0003_SBCK_006-1b",
+          "quotePage": "KR1g0003_SBCK_006-1b",
+          "quoteEndPage": "KR1g0003_SBCK_006-1b"
+        }
+      ]
+    },
+    {
+      "id": "sanjia-026",
+      "poemId": "shijing-142",
+      "title": "陳風・防有鵲巢",
+      "baseText": "誰侜予美",
+      "base": "美",
+      "variant": "娓",
+      "schools": [
+        "韓"
+      ],
+      "attribution": "古注明引",
+      "note": "《釋文》明引韓詩用字；只作異文參考，沿用本站正文及其選讀。",
+      "references": [
+        {
+          "book": "經典釋文",
+          "author": "陸德明",
+          "location": "KR1g0003_SBCK_006-2a",
+          "lemma": "苕侜予美",
+          "quote": "韓詩作娓音尾娓美也",
+          "file": "KR1g0003_006.txt",
+          "commit": "31270f868a66396f7dc16d02e19518effe14cb90",
+          "sha256": "376002e9d08fd179abaa4abbaf5e7fe2f285f6278e01288b8a4c55580fdba99f",
+          "url": "https://github.com/kanripo/KR1g0003/blob/31270f868a66396f7dc16d02e19518effe14cb90/KR1g0003_006.txt",
+          "verification": "已核固定版本轉錄；原典未作影印覆核",
+          "lemmaPage": "KR1g0003_SBCK_006-2a",
+          "quotePage": "KR1g0003_SBCK_006-2a",
+          "quoteEndPage": "KR1g0003_SBCK_006-2a"
+        }
+      ]
+    },
+    {
+      "id": "sanjia-027",
+      "poemId": "shijing-155",
+      "title": "豳風・鴟鴞",
+      "baseText": "徹彼桑土",
+      "base": "土",
+      "variant": "杜",
+      "schools": [
+        "韓"
+      ],
+      "attribution": "古注明引",
+      "note": "《釋文》明引韓詩用字；只作異文參考，沿用本站正文及其選讀。",
+      "references": [
+        {
+          "book": "經典釋文",
+          "author": "陸德明",
+          "location": "KR1g0003_SBCK_006-6b 至 KR1g0003_SBCK_006-7a",
+          "lemma": "迨天桑土",
+          "quote": "音杜注同桑土桑根也小雅同韓詩作杜義同方言云東齊謂根曰杜字林作桑皮也音同",
+          "file": "KR1g0003_006.txt",
+          "commit": "31270f868a66396f7dc16d02e19518effe14cb90",
+          "sha256": "376002e9d08fd179abaa4abbaf5e7fe2f285f6278e01288b8a4c55580fdba99f",
+          "url": "https://github.com/kanripo/KR1g0003/blob/31270f868a66396f7dc16d02e19518effe14cb90/KR1g0003_006.txt",
+          "verification": "已核固定版本轉錄；原典未作影印覆核",
+          "lemmaPage": "KR1g0003_SBCK_006-6b",
+          "quotePage": "KR1g0003_SBCK_006-6b",
+          "quoteEndPage": "KR1g0003_SBCK_006-7a"
+        }
+      ]
+    },
+    {
+      "id": "sanjia-028",
+      "poemId": "shijing-156",
+      "title": "豳風・東山",
+      "baseText": "烝在栗薪",
+      "base": "栗",
+      "variant": "蓼",
+      "schools": [
+        "韓"
+      ],
+      "attribution": "古注明引",
+      "note": "《釋文》明引韓詩用字；只作異文參考，沿用本站正文及其選讀。",
+      "references": [
+        {
+          "book": "經典釋文",
+          "author": "陸德明",
+          "location": "KR1g0003_SBCK_006-7b",
+          "lemma": "有敦栗薪",
+          "quote": "毛如字鄭音列韓詩作蓼力菊反聚薪也",
+          "file": "KR1g0003_006.txt",
+          "commit": "31270f868a66396f7dc16d02e19518effe14cb90",
+          "sha256": "376002e9d08fd179abaa4abbaf5e7fe2f285f6278e01288b8a4c55580fdba99f",
+          "url": "https://github.com/kanripo/KR1g0003/blob/31270f868a66396f7dc16d02e19518effe14cb90/KR1g0003_006.txt",
+          "verification": "已核固定版本轉錄；原典未作影印覆核",
+          "lemmaPage": "KR1g0003_SBCK_006-7b",
+          "quotePage": "KR1g0003_SBCK_006-7b",
+          "quoteEndPage": "KR1g0003_SBCK_006-7b"
+        }
+      ]
+    },
+    {
+      "id": "sanjia-029",
+      "poemId": "shijing-162",
+      "title": "小雅・鹿鳴之什・四牡",
+      "baseText": "周道倭遲",
+      "base": "倭遲",
+      "variant": "倭夷",
+      "schools": [
+        "韓"
+      ],
+      "attribution": "古注明引",
+      "note": "《釋文》詞頭作倭遟；本站作倭遲，韓詩作倭夷。",
+      "references": [
+        {
+          "book": "經典釋文",
+          "author": "陸德明",
+          "location": "KR1g0003_SBCK_006-9a",
+          "lemma": "騑騑倭遟",
+          "quote": "倭遟歷逺之貌韓詩作倭夷",
+          "file": "KR1g0003_006.txt",
+          "commit": "31270f868a66396f7dc16d02e19518effe14cb90",
+          "sha256": "376002e9d08fd179abaa4abbaf5e7fe2f285f6278e01288b8a4c55580fdba99f",
+          "url": "https://github.com/kanripo/KR1g0003/blob/31270f868a66396f7dc16d02e19518effe14cb90/KR1g0003_006.txt",
+          "verification": "已核固定版本轉錄；原典未作影印覆核",
+          "lemmaPage": "KR1g0003_SBCK_006-9a",
+          "quotePage": "KR1g0003_SBCK_006-9a",
+          "quoteEndPage": "KR1g0003_SBCK_006-9a"
+        }
+      ]
+    },
+    {
+      "id": "sanjia-030",
+      "poemId": "shijing-174",
+      "title": "小雅・白華之什・湛露",
+      "baseText": "厭厭夜飲",
+      "base": "厭厭",
+      "variant": "愔愔",
+      "schools": [
+        "韓"
+      ],
+      "attribution": "古注明引",
+      "note": "《釋文》明引韓詩用字；只作異文參考，沿用本站正文及其選讀。",
+      "references": [
+        {
+          "book": "經典釋文",
+          "author": "陸德明",
+          "location": "KR1g0003_SBCK_006-14a",
+          "lemma": "不晞厭厭",
+          "quote": "於鹽反安也韓詩作愔愔和恱之貌",
+          "file": "KR1g0003_006.txt",
+          "commit": "31270f868a66396f7dc16d02e19518effe14cb90",
+          "sha256": "376002e9d08fd179abaa4abbaf5e7fe2f285f6278e01288b8a4c55580fdba99f",
+          "url": "https://github.com/kanripo/KR1g0003/blob/31270f868a66396f7dc16d02e19518effe14cb90/KR1g0003_006.txt",
+          "verification": "已核固定版本轉錄；原典未作影印覆核",
+          "lemmaPage": "KR1g0003_SBCK_006-14a",
+          "quotePage": "KR1g0003_SBCK_006-14a",
+          "quoteEndPage": "KR1g0003_SBCK_006-14a"
+        }
+      ]
+    },
+    {
+      "id": "sanjia-031",
+      "poemId": "shijing-189",
+      "title": "小雅・祈父之什・斯干",
+      "baseText": "如矢斯棘",
+      "base": "棘",
+      "variant": "朸",
+      "schools": [
+        "韓"
+      ],
+      "attribution": "古注明引",
+      "note": "《釋文》明引韓詩用字；只作異文參考，沿用本站正文及其選讀。",
+      "references": [
+        {
+          "book": "經典釋文",
+          "author": "陸德明",
+          "location": "KR1g0003_SBCK_006-18b",
+          "lemma": "跂竦斯棘",
+          "quote": "居力反毛稜廉也鄭云㦸也韓詩作朸朸隅也旅即反",
+          "file": "KR1g0003_006.txt",
+          "commit": "31270f868a66396f7dc16d02e19518effe14cb90",
+          "sha256": "376002e9d08fd179abaa4abbaf5e7fe2f285f6278e01288b8a4c55580fdba99f",
+          "url": "https://github.com/kanripo/KR1g0003/blob/31270f868a66396f7dc16d02e19518effe14cb90/KR1g0003_006.txt",
+          "verification": "已核固定版本轉錄；原典未作影印覆核",
+          "lemmaPage": "KR1g0003_SBCK_006-18b",
+          "quotePage": "KR1g0003_SBCK_006-18b",
+          "quoteEndPage": "KR1g0003_SBCK_006-18b"
+        }
+      ]
+    },
+    {
+      "id": "sanjia-032",
+      "poemId": "shijing-189",
+      "title": "小雅・祈父之什・斯干",
+      "baseText": "如鳥斯革",
+      "base": "革",
+      "variant": "勒",
+      "schools": [
+        "韓"
+      ],
+      "attribution": "古注明引",
+      "note": "《釋文》明引韓詩用字；只作異文參考，沿用本站正文及其選讀。",
+      "references": [
+        {
+          "book": "經典釋文",
+          "author": "陸德明",
+          "location": "KR1g0003_SBCK_006-18b",
+          "lemma": "斯棘斯革",
+          "quote": "如字翼也韓詩作勒云翅也",
+          "file": "KR1g0003_006.txt",
+          "commit": "31270f868a66396f7dc16d02e19518effe14cb90",
+          "sha256": "376002e9d08fd179abaa4abbaf5e7fe2f285f6278e01288b8a4c55580fdba99f",
+          "url": "https://github.com/kanripo/KR1g0003/blob/31270f868a66396f7dc16d02e19518effe14cb90/KR1g0003_006.txt",
+          "verification": "已核固定版本轉錄；原典未作影印覆核",
+          "lemmaPage": "KR1g0003_SBCK_006-18b",
+          "quotePage": "KR1g0003_SBCK_006-18b",
+          "quoteEndPage": "KR1g0003_SBCK_006-18b"
+        }
+      ]
+    },
+    {
+      "id": "sanjia-033",
+      "poemId": "shijing-193",
+      "title": "小雅・祈父之什・十月之交",
+      "baseText": "讒口囂囂",
+      "base": "囂囂",
+      "variant": "謷謷",
+      "schools": [
+        "韓"
+      ],
+      "attribution": "古注明引",
+      "note": "《釋文》明引韓詩用字；只作異文參考，沿用本站正文及其選讀。",
+      "references": [
+        {
+          "book": "經典釋文",
+          "author": "陸德明",
+          "location": "KR1g0003_SBCK_006-22a",
+          "lemma": "黽勉囂囂",
+          "quote": "五刀反衆多貌韓詩作謷謷",
+          "file": "KR1g0003_006.txt",
+          "commit": "31270f868a66396f7dc16d02e19518effe14cb90",
+          "sha256": "376002e9d08fd179abaa4abbaf5e7fe2f285f6278e01288b8a4c55580fdba99f",
+          "url": "https://github.com/kanripo/KR1g0003/blob/31270f868a66396f7dc16d02e19518effe14cb90/KR1g0003_006.txt",
+          "verification": "已核固定版本轉錄；原典未作影印覆核",
+          "lemmaPage": "KR1g0003_SBCK_006-22a",
+          "quotePage": "KR1g0003_SBCK_006-22a",
+          "quoteEndPage": "KR1g0003_SBCK_006-22a"
+        }
+      ]
+    },
+    {
+      "id": "sanjia-034",
+      "poemId": "shijing-196",
+      "title": "小雅・小旻之什・小宛",
+      "baseText": "宜岸宜獄",
+      "base": "岸",
+      "variant": "犴",
+      "schools": [
+        "韓"
+      ],
+      "attribution": "古注明引",
+      "note": "《釋文》明引韓詩用字；只作異文參考，沿用本站正文及其選讀。",
+      "references": [
+        {
+          "book": "經典釋文",
+          "author": "陸德明",
+          "location": "KR1g0003_SBCK_006-23b",
+          "lemma": "塡寡冝岸",
+          "quote": "如字訟也韋昭注漢書同韓詩作犴音同云郷亭之繫曰犴朝廷曰獄",
+          "file": "KR1g0003_006.txt",
+          "commit": "31270f868a66396f7dc16d02e19518effe14cb90",
+          "sha256": "376002e9d08fd179abaa4abbaf5e7fe2f285f6278e01288b8a4c55580fdba99f",
+          "url": "https://github.com/kanripo/KR1g0003/blob/31270f868a66396f7dc16d02e19518effe14cb90/KR1g0003_006.txt",
+          "verification": "已核固定版本轉錄；原典未作影印覆核",
+          "lemmaPage": "KR1g0003_SBCK_006-23b",
+          "quotePage": "KR1g0003_SBCK_006-23b",
+          "quoteEndPage": "KR1g0003_SBCK_006-23b"
+        }
+      ]
+    },
+    {
+      "id": "sanjia-035",
+      "poemId": "shijing-203",
+      "title": "小雅・小旻之什・大東",
+      "baseText": "佻佻公子",
+      "base": "佻佻",
+      "variant": "嬥嬥",
+      "schools": [
+        "韓"
+      ],
+      "attribution": "古注明引",
+      "note": "《釋文》明引韓詩用字；只作異文參考，沿用本站正文及其選讀。",
+      "references": [
+        {
+          "book": "經典釋文",
+          "author": "陸德明",
+          "location": "KR1g0003_SBCK_006-27a",
+          "lemma": "葛屨佻佻",
+          "quote": "徒彫反徐又徒了反沈又徒髙反獨行貌韓詩作嬥嬥往來貌並音挑本或作窕非也",
+          "file": "KR1g0003_006.txt",
+          "commit": "31270f868a66396f7dc16d02e19518effe14cb90",
+          "sha256": "376002e9d08fd179abaa4abbaf5e7fe2f285f6278e01288b8a4c55580fdba99f",
+          "url": "https://github.com/kanripo/KR1g0003/blob/31270f868a66396f7dc16d02e19518effe14cb90/KR1g0003_006.txt",
+          "verification": "已核固定版本轉錄；原典未作影印覆核",
+          "lemmaPage": "KR1g0003_SBCK_006-27a",
+          "quotePage": "KR1g0003_SBCK_006-27a",
+          "quoteEndPage": "KR1g0003_SBCK_006-27a"
+        }
+      ]
+    },
+    {
+      "id": "sanjia-036",
+      "poemId": "shijing-218",
+      "title": "小雅・桑扈之什・車舝",
+      "baseText": "以慰我心",
+      "base": "以慰我心",
+      "variant": "以愠我心",
+      "schools": [
+        "韓"
+      ],
+      "attribution": "古注明引",
+      "note": "《釋文》明錄整句異文，愠訓恚也；保留與毛、鄭及馬融解釋的關係。",
+      "references": [
+        {
+          "book": "經典釋文",
+          "author": "陸德明",
+          "location": "KR1g0003_SBCK_006-31b",
+          "lemma": "和慰怨也",
+          "quote": "於願反王申爲怨恨之意韓詩作以愠我心愠恚也本或作慰安也是馬融義馬昭張融論之詳矣",
+          "file": "KR1g0003_006.txt",
+          "commit": "31270f868a66396f7dc16d02e19518effe14cb90",
+          "sha256": "376002e9d08fd179abaa4abbaf5e7fe2f285f6278e01288b8a4c55580fdba99f",
+          "url": "https://github.com/kanripo/KR1g0003/blob/31270f868a66396f7dc16d02e19518effe14cb90/KR1g0003_006.txt",
+          "verification": "已核固定版本轉錄；原典未作影印覆核",
+          "lemmaPage": "KR1g0003_SBCK_006-31b",
+          "quotePage": "KR1g0003_SBCK_006-31b",
+          "quoteEndPage": "KR1g0003_SBCK_006-31b"
+        }
+      ]
+    },
+    {
+      "id": "sanjia-037",
+      "poemId": "shijing-236",
+      "title": "大雅・文王之什・大明",
+      "baseText": "俔天之妹",
+      "base": "俔",
+      "variant": "磬",
+      "schools": [
+        "韓"
+      ],
+      "attribution": "古注明引",
+      "note": "《釋文》明引韓詩用字；只作異文參考，沿用本站正文及其選讀。",
+      "references": [
+        {
+          "book": "經典釋文",
+          "author": "陸德明",
+          "location": "KR1g0003_SBCK_007-2a",
+          "lemma": "爲之處俔",
+          "quote": "牽遍反磬也徐又下顯反說文云譬譽也韓詩作磬磬譬也",
+          "file": "KR1g0003_007.txt",
+          "commit": "31270f868a66396f7dc16d02e19518effe14cb90",
+          "sha256": "8efa794dc37093a125ae1bc679cf39cf684b2061f840e0e530ed6d41e044f5ff",
+          "url": "https://github.com/kanripo/KR1g0003/blob/31270f868a66396f7dc16d02e19518effe14cb90/KR1g0003_007.txt",
+          "verification": "已核固定版本轉錄；原典未作影印覆核",
+          "lemmaPage": "KR1g0003_SBCK_007-2a",
+          "quotePage": "KR1g0003_SBCK_007-2a",
+          "quoteEndPage": "KR1g0003_SBCK_007-2a"
+        }
+      ]
+    },
+    {
+      "id": "sanjia-038",
+      "poemId": "shijing-236",
+      "title": "大雅・文王之什・大明",
+      "baseText": "涼彼武王",
+      "base": "涼",
+      "variant": "亮",
+      "schools": [
+        "韓"
+      ],
+      "attribution": "古注明引",
+      "note": "《釋文》明引韓詩用字；只作異文參考，沿用本站正文及其選讀。",
+      "references": [
+        {
+          "book": "經典釋文",
+          "author": "陸德明",
+          "location": "KR1g0003_SBCK_007-2a",
+          "lemma": "駵馬涼彼",
+          "quote": "本亦作諒同力尚反佐也韓詩作亮云相也",
+          "file": "KR1g0003_007.txt",
+          "commit": "31270f868a66396f7dc16d02e19518effe14cb90",
+          "sha256": "8efa794dc37093a125ae1bc679cf39cf684b2061f840e0e530ed6d41e044f5ff",
+          "url": "https://github.com/kanripo/KR1g0003/blob/31270f868a66396f7dc16d02e19518effe14cb90/KR1g0003_007.txt",
+          "verification": "已核固定版本轉錄；原典未作影印覆核",
+          "lemmaPage": "KR1g0003_SBCK_007-2a",
+          "quotePage": "KR1g0003_SBCK_007-2a",
+          "quoteEndPage": "KR1g0003_SBCK_007-2a"
+        }
+      ]
+    },
+    {
+      "id": "sanjia-039",
+      "poemId": "shijing-263",
+      "title": "大雅・蕩之什・常武",
+      "baseText": "鋪敦淮濆",
+      "base": "鋪",
+      "variant": "敷",
+      "schools": [
+        "韓"
+      ],
+      "attribution": "古注明引",
+      "note": "《釋文》明引韓詩用字；只作異文參考，沿用本站正文及其選讀。",
+      "references": [
+        {
+          "book": "經典釋文",
+          "author": "陸德明",
+          "location": "KR1g0003_SBCK_007-21b",
+          "lemma": "闞虓虎鋪",
+          "quote": "普吳反徐音孚陳也韓詩作敷云大也",
+          "file": "KR1g0003_007.txt",
+          "commit": "31270f868a66396f7dc16d02e19518effe14cb90",
+          "sha256": "8efa794dc37093a125ae1bc679cf39cf684b2061f840e0e530ed6d41e044f5ff",
+          "url": "https://github.com/kanripo/KR1g0003/blob/31270f868a66396f7dc16d02e19518effe14cb90/KR1g0003_007.txt",
+          "verification": "已核固定版本轉錄；原典未作影印覆核",
+          "lemmaPage": "KR1g0003_SBCK_007-21b",
+          "quotePage": "KR1g0003_SBCK_007-21b",
+          "quoteEndPage": "KR1g0003_SBCK_007-21b"
+        }
+      ]
+    },
+    {
+      "id": "sanjia-040",
+      "poemId": "shijing-289",
+      "title": "周頌・閔予小子之什・小毖",
+      "baseText": "自求辛螫",
+      "base": "辛螫",
+      "variant": "辛赦",
+      "schools": [
+        "韓"
+      ],
+      "attribution": "古注明引",
+      "note": "《釋文》明引韓詩用字；只作異文參考，沿用本站正文及其選讀。",
+      "references": [
+        {
+          "book": "經典釋文",
+          "author": "陸德明",
+          "location": "KR1g0003_SBCK_007-27a",
+          "lemma": "荓蜂辛螫",
+          "quote": "音釋韓詩作辛赦赦事也尺制反本又作掣",
+          "file": "KR1g0003_007.txt",
+          "commit": "31270f868a66396f7dc16d02e19518effe14cb90",
+          "sha256": "8efa794dc37093a125ae1bc679cf39cf684b2061f840e0e530ed6d41e044f5ff",
+          "url": "https://github.com/kanripo/KR1g0003/blob/31270f868a66396f7dc16d02e19518effe14cb90/KR1g0003_007.txt",
+          "verification": "已核固定版本轉錄；原典未作影印覆核",
+          "lemmaPage": "KR1g0003_SBCK_007-27a",
+          "quotePage": "KR1g0003_SBCK_007-27a",
+          "quoteEndPage": "KR1g0003_SBCK_007-27a"
+        }
+      ]
+    }
+  ]
+}

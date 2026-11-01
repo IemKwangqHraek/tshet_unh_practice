@@ -1,0 +1,162 @@
+{
+  "version": 1,
+  "retrievedOn": "2026-10-31",
+  "title": "詩三家義集疏公開影印檔清單",
+  "author": "王先謙",
+  "coverage": "同套十冊，共1547個PDF頁面。檔名卷次有跳號與重疊，尚待按內題核實全二十八卷的完整性。",
+  "textStatus": "抽查第六冊無文字層；原始掃描可供取字與校勘，未等同完成全文轉錄。",
+  "files": [
+    {
+      "id": "wang-scan-01",
+      "number": 1,
+      "title": "SSID-12847883 詩三家義集疏 1 卷首至卷2.pdf",
+      "pageId": 127330213,
+      "pages": 207,
+      "bytes": 68533582,
+      "sha1": "8d3e0cc56182f08bdd32356b36a29ea1688b2aac",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/SSID-12847883_%E8%A9%A9%E4%B8%89%E5%AE%B6%E7%BE%A9%E9%9B%86%E7%96%8F_1_%E5%8D%B7%E9%A6%96%E8%87%B3%E5%8D%B72.pdf",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:SSID-12847883_%E8%A9%A9%E4%B8%89%E5%AE%B6%E7%BE%A9%E9%9B%86%E7%96%8F_1_%E5%8D%B7%E9%A6%96%E8%87%B3%E5%8D%B72.pdf",
+      "localFile": ".cache/three-schools-sources/wang-book-01.pdf",
+      "sha256": "4f4622864b45d68a77ff1fbb3c38f288c0347992b61f6fc11a8b4e63175d9a51"
+    },
+    {
+      "id": "wang-scan-02",
+      "number": 2,
+      "title": "SSID-12847885 詩三家義集疏 2 卷3上.pdf",
+      "pageId": 127330244,
+      "pages": 124,
+      "bytes": 51351117,
+      "sha1": "578e20fd5d302a10030cf486cc1bebb101418942",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/SSID-12847885_%E8%A9%A9%E4%B8%89%E5%AE%B6%E7%BE%A9%E9%9B%86%E7%96%8F_2_%E5%8D%B73%E4%B8%8A.pdf",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:SSID-12847885_%E8%A9%A9%E4%B8%89%E5%AE%B6%E7%BE%A9%E9%9B%86%E7%96%8F_2_%E5%8D%B73%E4%B8%8A.pdf",
+      "localFile": ".cache/three-schools-sources/wang-book-02.pdf",
+      "sha256": "32e0a0a6224bfa7c0d262e965ebcd8489b43c12ff8106d3a1055f0dc79dd5003"
+    },
+    {
+      "id": "wang-scan-03",
+      "number": 3,
+      "title": "SSID-12847879 詩三家義集疏 3 卷3中至卷3下.pdf",
+      "pageId": 127330100,
+      "pages": 136,
+      "bytes": 51293476,
+      "sha1": "fc9e79ed88592544de5fdf05b253ee77ac0630c1",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/SSID-12847879_%E8%A9%A9%E4%B8%89%E5%AE%B6%E7%BE%A9%E9%9B%86%E7%96%8F_3_%E5%8D%B73%E4%B8%AD%E8%87%B3%E5%8D%B73%E4%B8%8B.pdf",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:SSID-12847879_%E8%A9%A9%E4%B8%89%E5%AE%B6%E7%BE%A9%E9%9B%86%E7%96%8F_3_%E5%8D%B73%E4%B8%AD%E8%87%B3%E5%8D%B73%E4%B8%8B.pdf",
+      "localFile": ".cache/three-schools-sources/wang-book-03.pdf",
+      "sha256": "1a284557ab36dde6fc11f8a95453295a307e2aeb417d43986d7d14e677257f0d"
+    },
+    {
+      "id": "wang-scan-04",
+      "number": 4,
+      "title": "SSID-13350784 詩三家義集疏 4 卷5-8.pdf",
+      "pageId": 124773491,
+      "pages": 140,
+      "bytes": 37134431,
+      "sha1": "451e5d784789b41d40209f368b299c61522bd3e9",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/SSID-13350784_%E8%A9%A9%E4%B8%89%E5%AE%B6%E7%BE%A9%E9%9B%86%E7%96%8F_4_%E5%8D%B75-8.pdf",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:SSID-13350784_%E8%A9%A9%E4%B8%89%E5%AE%B6%E7%BE%A9%E9%9B%86%E7%96%8F_4_%E5%8D%B75-8.pdf",
+      "localFile": ".cache/three-schools-sources/wang-book-04.pdf",
+      "sha256": "a89ba7b442d4f70048b6d230f2a91820f6de925eea5bf5792871eaa4f4ca4036"
+    },
+    {
+      "id": "wang-scan-05",
+      "number": 5,
+      "title": "SSID-12847880 詩三家義集疏 5 卷8至卷12.pdf",
+      "pageId": 127330130,
+      "pages": 126,
+      "bytes": 40421964,
+      "sha1": "11ea3024dd56259f9d2e6735a4b8d459f8f12e37",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/SSID-12847880_%E8%A9%A9%E4%B8%89%E5%AE%B6%E7%BE%A9%E9%9B%86%E7%96%8F_5_%E5%8D%B78%E8%87%B3%E5%8D%B712.pdf",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:SSID-12847880_%E8%A9%A9%E4%B8%89%E5%AE%B6%E7%BE%A9%E9%9B%86%E7%96%8F_5_%E5%8D%B78%E8%87%B3%E5%8D%B712.pdf",
+      "localFile": ".cache/three-schools-sources/wang-book-05.pdf",
+      "sha256": "ed12aaa70288bcdc7581272eeeee3c33432f1525088932ff25b3face0077b1ee"
+    },
+    {
+      "id": "wang-scan-06",
+      "number": 6,
+      "title": "SSID-13350785 詩三家義集疏 6 卷14-16.pdf",
+      "pageId": 124773508,
+      "pages": 148,
+      "bytes": 39804673,
+      "sha1": "8ae97fc8b22a840127a023de64718d8f81c7bc6c",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/SSID-13350785_%E8%A9%A9%E4%B8%89%E5%AE%B6%E7%BE%A9%E9%9B%86%E7%96%8F_6_%E5%8D%B714-16.pdf",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:SSID-13350785_%E8%A9%A9%E4%B8%89%E5%AE%B6%E7%BE%A9%E9%9B%86%E7%96%8F_6_%E5%8D%B714-16.pdf",
+      "localFile": ".cache/three-schools-sources/wang-book-06.pdf",
+      "sha256": "ec9eabdf955ef5964ee1d25bd95b28c48d381aec03dd0d5f0c71c55f14f6f730"
+    },
+    {
+      "id": "wang-scan-07",
+      "number": 7,
+      "title": "SSID-12847881 詩三家義集疏 7 卷16至卷18.pdf",
+      "pageId": 127330139,
+      "pages": 180,
+      "bytes": 63461342,
+      "sha1": "091a068979a1e8b5619e1e7c242854fb6166e0a8",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/SSID-12847881_%E8%A9%A9%E4%B8%89%E5%AE%B6%E7%BE%A9%E9%9B%86%E7%96%8F_7_%E5%8D%B716%E8%87%B3%E5%8D%B718.pdf",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:SSID-12847881_%E8%A9%A9%E4%B8%89%E5%AE%B6%E7%BE%A9%E9%9B%86%E7%96%8F_7_%E5%8D%B716%E8%87%B3%E5%8D%B718.pdf",
+      "localFile": ".cache/three-schools-sources/wang-book-07.pdf",
+      "sha256": "7735e7f23457f670f842c324f42e550feacd2cfa26ef39d2b4f1596722ad310f"
+    },
+    {
+      "id": "wang-scan-08",
+      "number": 8,
+      "title": "SSID-12847882 詩三家義集疏 8 卷19至卷21.pdf",
+      "pageId": 127330155,
+      "pages": 154,
+      "bytes": 51408347,
+      "sha1": "30623430e51c503b9700c218dccff15d0f387020",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/SSID-12847882_%E8%A9%A9%E4%B8%89%E5%AE%B6%E7%BE%A9%E9%9B%86%E7%96%8F_8_%E5%8D%B719%E8%87%B3%E5%8D%B721.pdf",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:SSID-12847882_%E8%A9%A9%E4%B8%89%E5%AE%B6%E7%BE%A9%E9%9B%86%E7%96%8F_8_%E5%8D%B719%E8%87%B3%E5%8D%B721.pdf",
+      "localFile": ".cache/three-schools-sources/wang-book-08.pdf",
+      "sha256": "1a24550f643ac1bd4634f6a2bd3dd67313e9611b204e25ddd0d47fded2a8d5e5"
+    },
+    {
+      "id": "wang-scan-09",
+      "number": 9,
+      "title": "SSID-12847884 詩三家義集疏 9 卷22至卷23.pdf",
+      "pageId": 127330184,
+      "pages": 166,
+      "bytes": 54284917,
+      "sha1": "d01975ce063e0ca91d932b9c03068b0af528e73d",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/SSID-12847884_%E8%A9%A9%E4%B8%89%E5%AE%B6%E7%BE%A9%E9%9B%86%E7%96%8F_9_%E5%8D%B722%E8%87%B3%E5%8D%B723.pdf",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:SSID-12847884_%E8%A9%A9%E4%B8%89%E5%AE%B6%E7%BE%A9%E9%9B%86%E7%96%8F_9_%E5%8D%B722%E8%87%B3%E5%8D%B723.pdf",
+      "localFile": ".cache/three-schools-sources/wang-book-09.pdf",
+      "sha256": "a230972685bbbe892fd90201126fcd8b0a5b03c3ef69c9a0d801e47060e1424f"
+    },
+    {
+      "id": "wang-scan-10",
+      "number": 10,
+      "title": "SSID-13350786 詩三家義集疏 10 卷24-28.pdf",
+      "pageId": 124773527,
+      "pages": 166,
+      "bytes": 44283795,
+      "sha1": "55df2f7e9c7ada26c0352b642b8fb1fa64edf1cc",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/SSID-13350786_%E8%A9%A9%E4%B8%89%E5%AE%B6%E7%BE%A9%E9%9B%86%E7%96%8F_10_%E5%8D%B724-28.pdf",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:SSID-13350786_%E8%A9%A9%E4%B8%89%E5%AE%B6%E7%BE%A9%E9%9B%86%E7%96%8F_10_%E5%8D%B724-28.pdf",
+      "localFile": ".cache/three-schools-sources/wang-book-10.pdf",
+      "sha256": "44bbcadf4b488b581bce21c6c8dc3c0c321ca8546709f26f834683a800026f59"
+    }
+  ],
+  "downloadVerifiedOn": "2026-10-31",
+  "manualChecks": [
+    {
+      "fileId": "wang-scan-03",
+      "pdfPage": 133,
+      "visibleHeading": "詩三家義集疏卷三下",
+      "poems": [
+        "有狐",
+        "木瓜"
+      ],
+      "verification": "目視抽查，非逐頁校定"
+    },
+    {
+      "fileId": "wang-scan-05",
+      "pdfPage": 123,
+      "visibleHeading": "詩三家義集疏卷十二",
+      "poems": [
+        "下泉"
+      ],
+      "verification": "目視抽查，非逐頁校定"
+    }
+  ]
+}
